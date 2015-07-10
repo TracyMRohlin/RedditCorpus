@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-__author__ = 'tracyrohlin'
+__author__ = 'girllunarexplorer'
 
 import random
 from re import sub
@@ -44,7 +44,7 @@ class RedditText(object):
             response = raw_input("Would you like to save as text files? [y/n]\n").lower().strip()[0]
             if response[0].lower() == "y":
                 self.save = True
-                default_loc = "/Users/tracyrohlin/PycharmProjects/thesis_project/{}/".format(self.subreddit)
+                default_loc = "/Users/girllunarexplorer/PycharmProjects/{}/".format(self.subreddit)
                 self.loc = raw_input("Press ENTER to use default, otherwise enter location."
                                     "\nThe default location is: " + default_loc +"\n")
                 if not self.loc:
