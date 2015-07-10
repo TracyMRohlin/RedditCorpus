@@ -280,9 +280,9 @@ def start_up():
                 try:
                     n = raw_input("How many posts would you like to grab?\n")
                     n = int(n)
+                    new.print_func(menu[choice], n)
                 except Exception as e:
                     print e
-                new.print_func(menu[choice], n)
             elif choice[0] == "q":
                 break
                 print "That is not a valid menu option."
