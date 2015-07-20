@@ -60,7 +60,6 @@ class RedditText(object):
                     self.loc = default_loc
 
                 log = raw_input("Would you like to log all the untagged words? [y/n]\n")
-                self.log = False
                 if log[0].lower() == "y":
                     self.log = True
 
@@ -349,13 +348,12 @@ def start_up():
                     new.print_func(menu[choice])
                 else:
                     new.print_func(menu[choice], n)
+                    new.print_func(menu[choice], n)
             elif choice[0] == "q":
                 break
             else:
                  print "That is not a valid menu option."
-
     menu_loop()
 
 if __name__ == "__main__":
     start_up()
-
