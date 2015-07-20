@@ -29,12 +29,17 @@ If the subreddit is image based, it will ask the user to provide another subredd
     Please provide another subreddit or press ENTER for a random subreddit.
     >> xxfitness
     Current subreddit is xxfitness
+
+It then asks whether the user would like to save the text files and whether to save the untaggable words in a log file.   Untaggable words often occur do to unicode errors.
+
     Would you like to save as text files? [y/n]
     >>y
     Press ENTER to use default, otherwise enter location.
     The default location is: /Users/girllunarexplorer/PycharmProjects/xxfitness/
     Would you like to log all the untagged words? [y/n]
     >>y
+    
+Then the menu shows up with several options.
     
     Enter 'q' to quit.
     [cp] Combines posts and comments into one corpus file.
