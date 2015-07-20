@@ -7,8 +7,10 @@ from re import sub
 from datetime import datetime
 from collections import OrderedDict
 from pprint import pprint
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
 import os
-
+import traceback
 import praw
 import nltk
 
@@ -21,12 +23,16 @@ class RedditText(object):
     If a subreddit is not provided, the subreddit will be randomly selected.
     The minimum length for words in a post is set to 25 in order to filter picture oriented subreddits."""
 
-
     def __init__(self):
         super(RedditText, self).__init__()
         self.save = None
         self.subreddit = None
         self.min_length = 25
+        self.stemmer = WordNetLemmatizer()
+        self.stops = stopwords.words('english')
+        self.function_call = ""
+        self.log = False
+        self.posts = []
 
 
     def get_subreddit(self, subreddit):
@@ -40,15 +46,22 @@ class RedditText(object):
                 self.subreddit = r.get_subreddit(subreddit)
 
             print "Current subreddit is " + str(self.subreddit)+ "\n"
-            self.top_posts = self.subreddit.get_top_from_all
+            try:
+                self.top_posts = self.subreddit.get_top_from_all()
+            except Exception as error:
+                print error
             response = raw_input("Would you like to save as text files? [y/n]\n").lower().strip()[0]
             if response[0].lower() == "y":
                 self.save = True
-                default_loc = "/Users/girllunarexplorer/PycharmProjects/{}/".format(self.subreddit)
+                default_loc = "/Users/GirlLunarExplorer/PycharmProjects/RedditCorpus/{}/".format(self.subreddit)
                 self.loc = raw_input("Press ENTER to use default, otherwise enter location."
                                     "\nThe default location is: " + default_loc +"\n")
                 if not self.loc:
                     self.loc = default_loc
+
+                log = raw_input("Would you like to log all the untagged words? [y/n]\n")
+                if log[0].lower() == "y":
+                    self.log = True
 
         except Exception as error:
             print error
@@ -56,64 +69,96 @@ class RedditText(object):
 
 
     def try_unicode(self, text):
-        new = []
+        new =[]
+        untagged = []
         text = self.remove_unwanted(text)
         for word in text.split():
             try:
-                new.append(word.encode("utf-8"))
+                new.append(word.encode("utf-8").lower())
             except:
-                pass
+                untagged.append(untagged)
+
+        if untagged and self.log == True:
+            ut_words = " ".join(untagged)
+            self.save_submissions(ut_words, Log=True)
         return self.token_and_tag(" ".join(new))
 
 
     def token_and_tag(self, text):
-        try:
-            tagged = nltk.pos_tag(nltk.word_tokenize(text))
+        untagged = []
+        tagged = []
+        tokens = text.split()
+        for word in tokens:
+            try:
+                word = word.encode("utf-8").lower()
+                if word in self.stops:
+                    continue
 
-            tog = []
-            for item in tagged:
-                word, tag = item
-                tog.append("/".join([word, tag]))
-            return " ".join(tog)
-        except:
-            print "Was unable to tag word due to unknown ASCII character."
-            pass
+                word, tag = nltk.pos_tag([word])[0]
+                pos = tag[0].lower()
+                if pos in ["a", "n", "v"]:
+                    word = self.stemmer.lemmatize(word, pos=pos)
+                tagged.append("/".join([word, tag]))
+            except:
+                print "Was unable to tag word due to unknown ASCII character."
+                untagged.append(word)
+
+        if untagged and self.log == True:
+            ut_words = " ".join(untagged)
+            self.save_submissions(ut_words, Log=True)
+
+        return " ".join(tagged)
 
 
     def remove_unwanted(self, text):
-        text = sub(r"\\u000a", "", text) # removes usernames from text
-        text = sub(r"\[deleted\]", "", text) # removes [deleted] from text
-        text = sub("\[[\w+\s+]*\]\(.*\)", "", text) # removes links from text
-        text = sub('"', '', text) # removes punctuation
-        text = sub("'", '', text) # removes punctuation
-        return text
+        try:
+            text = sub(r"\\u000a", "", text) # removes usernames from text
+            text = sub(r"\[deleted\]", "", text) # removes [deleted] from text
+            text = sub("\[[\w+\s+]*\]\(.*\)", "", text) # removes links from text
+            text = sub('"', '', text) # removes punctuation
+            text = sub("'", '', text) # removes punctuation
+            return text
+        except Exception as e:
+            print e
+
+
 
     def submissions(self, n):
         """Grabs all the top posts from a subreddit."""
 
-        min_score = 30
+        min_score = 20
         assert n > 0, "The number of posts must be more than zero."
         res = []
-        for submission in self.top_posts():
+        for submission in self.top_posts:
             if len(res) < n:
                 if len(submission.selftext.lower()) >= self.min_length and submission.score >= min_score:
-                        res.append((submission.title, submission))
+                    res.append((submission.title, submission))
             else:
                 break
-        if len(res) == 0:
-            print "Sorry, r/{} appears to be image based.".format(self.subreddit)
+        if len(res) < n:
+            if len(res) != 0:
+                diff = n - len(res)
+                response = raw_input("The amount of submissions grabbed was less than requested by {} posts, "
+                                     "do you wish to proceed in processing text? [y/n]\n".format(diff))
+                if response[0].lower().strip() == "y":
+                    return res
+
+            print "Sorry, r/{} appears to be an image heavy subreddit.".format(self.subreddit)
             response = raw_input("Please provide another subreddit or press ENTER for a random subreddit.\n"
                                  ">> ").strip()
             self.get_subreddit(response)
+            self.submissions(n)
         return res
 
 
-    def save_submissions(self, text, iteration=None):
+    def save_submissions(self, text, iteration=None, Log=False):
         """Labels file "1_subreddit_date", "2_subreddit_date", etc.
         to make it easier to distinguish separate posts from the same subreddit."""
 
         if iteration:
             file_name = "{}_{} - {}.txt".format(iteration, str(self.subreddit), str(datetime.now()))
+        elif Log:
+            file_name = "Untagged: {} - {}.txt".format(str(self.subreddit), str(datetime.now()))
         else:
             file_name = "{} - {}.txt".format(str(self.subreddit), str(datetime.now()))
 
@@ -125,28 +170,36 @@ class RedditText(object):
             print "Saved entry into a corpus file."
 
 
-    def get_all_posts(self, n):
+    def get_all_posts(self):
         """Grabs n posts from the subreddit and saves them as corpus files."""
-        all_posts = [t for t in self.submissions(n)]
 
         post = ""
         i=1
-        for p in all_posts:
+        for p in self.posts:
             print "\nWorking on post #{}...".format(i)
-            post_body = "Title: {0}\n{1}{2}".format(self.try_unicode(p[0]), self.try_unicode(p[-1].selftext.lower()), "\n"*2)
+            post_body = "Title: {0}\nKarma: {1}\n{2}{3}".format(self.try_unicode(p[0]),
+                                                         p[-1].score,
+                                                         self.try_unicode(p[-1].selftext.lower()),
+                                                         "\n"*2)
             post += post_body
             post += "="*30 +"\n\n"
 
-            if self.save:
+            if self.save and self.function_call != "ga":
+            # Checks to see that it is not being called by combine_texts(), which would save the text in one
+            # large corpus file. If this check were not implemented, combine_texts() would end up saving three separate
+            # files: one for when get_all_posts() is called, one for when get_all_comments() is called, and another
+            # for when combine_texts() is called.
                 self.save_submissions(post, i)
+            else: pass
+
             i+=1
+
         return "\nRetrieved posts:\n\n" + post
 
 
-    def get_all_comments(self, n):
+    def get_all_comments(self):
         """Grabs comments from n posts and saves them as corpus files."""
-
-        posts = [p[1] for p in self.submissions(n)]
+        posts = [p[1] for p in self.posts]
         total_comments = ""
 
         i = j = 1
@@ -157,26 +210,25 @@ class RedditText(object):
             coms = praw.helpers.flatten_tree(p.comments)
             for c in coms:
                 print "\nWorking on comment #{}...".format(i)
-
                 comment = self.try_unicode(c.body)
                 if comment:
-                    total_comments += comment+ ("\n"*2)
+                    total_comments += "New comment:\nKarma: {0}\n{1}\n\n".format(c.score, comment)
                 i+=1
             total_comments += "\n"+"+"*30 +"\n"
 
-            if self.save:
+            if self.save and self.function_call != "ga":
                 self.save_submissions(total_comments)
 
         return total_comments
 
 
-    def combine_texts(self, n):
+    def combine_texts(self):
         """Combines posts and comments into one corpus file."""
 
         result = ""
         # the data has already been tagged so it must be split on the demarcator
-        posts = self.get_all_posts(n).split("="*30)[:-1]
-        comments = self.get_all_comments(n).split("+"*30)[:-1]
+        posts = self.get_all_posts().split("="*30)[:-1]
+        comments = self.get_all_comments().split("+"*30)
         for p, c in zip(posts, comments):
             p = sub(r"Retrieved posts:", "", p).strip()
             result += "New post:\n"
@@ -201,20 +253,24 @@ class RedditText(object):
 
         only_post = random.choice(posts)
         text, score, title = only_post
-        if self.save:
-            self.save_submissions(text)
 
-        if score >=30:
-                print "\n{} is a popular post.\n".format(title)
 
         if not text:
-            print "Sorry, r/{} appears to be image based.\n".format(self.subreddit)
+            print "Sorry, this post appears to be image based.\n".format(self.subreddit)
             response = raw_input("Please provide another subreddit or press ENTER for a random subreddit.\n"
                                  ">> ").strip()
             self.get_subreddit(response)
-            self.get_random_post(n)
-        else:
-            return "\nRetrieved random post:\n\n" + text + "\n"
+            return self.get_random_post(n)
+
+        if score >=30:
+                text += "\n{} is a popular post.\n".format(title)
+
+        res = "Title: {0}\nKarma: {1}\n\n{2}".format(title, score, text)
+
+        if self.save:
+            self.save_submissions(text)
+
+        return "\nRetrieved random post:\n\n" + res + "\n"
 
 
     def get_random_comment(self, n):
@@ -235,17 +291,21 @@ class RedditText(object):
                 self.save_submissions(only_post, score)
             if not only_post:
                 return "This comment was an image and had a karma score of {}".format(score)
-            res = "\nRetrieved random comment:\n\n"
-            res += "Comment karma: {} \n\n{}".format(score, only_post) + "\n"
+            res = "\nRetrieved random comment:\n"
+            res += "Karma: {} \n\n{}".format(score, only_post) + "\n"
             return res
 
-        except:
+        except Exception as error:
+            print error
             print "No comments were found among new posts"
 
 
-    def print_func(self, function, n):
+    def print_func(self, function, n=None):
         try:
-            print function(n)
+            if n:
+                print function(n)
+            else:
+                print function()
         except Exception as e:
             print e
 
@@ -258,7 +318,7 @@ def start_up():
 
 
     menu = OrderedDict([
-        ("ga", new.combine_texts),
+        ("cp", new.combine_texts),
         ("ap", new.get_all_posts),
         ("ac", new.get_all_comments),
         ("rp", new.get_random_post),
@@ -277,19 +337,23 @@ def start_up():
 
             choice = raw_input("Action:  ").lower().strip()
             if choice in menu:
+                new.function_call = choice
+                n = raw_input("How many posts would you like to grab?\n")
                 try:
-                    n = raw_input("How many posts would you like to grab?\n")
                     n = int(n)
+                except:
+                    print "That is not a valid number."
+                if choice in ["cp", "ap", "ac"]:
+                    new.posts = [p for p in new.submissions(n)]
+                    new.print_func(menu[choice])
+                else:
                     new.print_func(menu[choice], n)
-                except Exception as e:
-                    print e
+                    new.print_func(menu[choice], n)
             elif choice[0] == "q":
                 break
-                print "That is not a valid menu option."
+            else:
+                 print "That is not a valid menu option."
     menu_loop()
 
 if __name__ == "__main__":
     start_up()
-
-#new = RedditText("xxfitness")
-#print new.combine_texts(1)
