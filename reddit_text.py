@@ -7,12 +7,12 @@ from re import sub
 from datetime import datetime
 from collections import OrderedDict
 from pprint import pprint
-from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords
 import os
-import traceback
+
 import praw
 import nltk
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
 
 
 user_agent = "Thesis project by /u/girllunarexplorer"
@@ -40,27 +40,21 @@ class RedditText(object):
         Later, if submissions() turns up an empty list (which likely indicates an
         image based sub), get_subreddit is called again."""
         try:
-            if not subreddit:
-                self.subreddit = r.get_random_subreddit()
-            else:
-                self.subreddit = r.get_subreddit(subreddit)
-
+            self.subreddit = r.get_random_subreddit() or r.get_subreddit(subreddit)
             print "Current subreddit is " + str(self.subreddit)+ "\n"
-            try:
-                self.top_posts = self.subreddit.get_top_from_all()
-            except Exception as error:
-                print error
+
+            self.top_posts = self.subreddit.get_top_from_all()
             response = raw_input("Would you like to save as text files? [y/n]\n").lower().strip()[0]
-            if response[0].lower() == "y":
+            if response == "y":
                 self.save = True
-                default_loc = "/Users/GirlLunarExplorer/PycharmProjects/RedditCorpus/{}/".format(self.subreddit)
+                default_loc = "/Users/tracyrohlin/PycharmProjects/RedditCorpus/{}/".format(self.subreddit)
                 self.loc = raw_input("Press ENTER to use default, otherwise enter location."
                                     "\nThe default location is: " + default_loc +"\n")
                 if not self.loc:
                     self.loc = default_loc
 
-                log = raw_input("Would you like to log all the untagged words? [y/n]\n")
-                if log[0].lower() == "y":
+                log = raw_input("Would you like to log all the untagged words? [y/n]\n").lower().strip()[0]
+                if log == "y":
                     self.log = True
 
         except Exception as error:
@@ -85,6 +79,10 @@ class RedditText(object):
 
 
     def token_and_tag(self, text):
+        """Lemmatizes nouns, adjectives, and verbs as well as tags words in the text for parts of speech.
+        If the word is unable to be tagged (usually due to a unicode error) it is appended to untagged and can be
+        saved to a log file."""
+
         untagged = []
         tagged = []
         tokens = text.split()
@@ -135,6 +133,10 @@ class RedditText(object):
                     res.append((submission.title, submission))
             else:
                 break
+
+        # Sometimes the amount of submissions grabbed is small due to it having an excessive amount of images or links
+        # as posts.  There may be a few text based post in the result, however, so the program asks if the user
+        # wants to continue with the less than desired amount of posts
         if len(res) < n:
             if len(res) != 0:
                 diff = n - len(res)
@@ -152,13 +154,14 @@ class RedditText(object):
 
 
     def save_submissions(self, text, iteration=None, Log=False):
-        """Labels file "1_subreddit_date", "2_subreddit_date", etc.
-        to make it easier to distinguish separate posts from the same subreddit."""
+        """Iteration labels the files "1_subreddit_date", "2_subreddit_date", etc.
+        to make it easier to distinguish separate posts from the same subreddit.
+        Log saves all the untagged words from previous functions to a separate file."""
 
         if iteration:
             file_name = "{}_{} - {}.txt".format(iteration, str(self.subreddit), str(datetime.now()))
         elif Log:
-            file_name = "Untagged: {} - {}.txt".format(str(self.subreddit), str(datetime.now()))
+            file_name = "Untagged - {} - {}.txt".format(str(self.subreddit), str(datetime.now()))
         else:
             file_name = "{} - {}.txt".format(str(self.subreddit), str(datetime.now()))
 
@@ -184,7 +187,7 @@ class RedditText(object):
             post += post_body
             post += "="*30 +"\n\n"
 
-            if self.save and self.function_call != "ga":
+            if self.save and self.function_call != "cp":
             # Checks to see that it is not being called by combine_texts(), which would save the text in one
             # large corpus file. If this check were not implemented, combine_texts() would end up saving three separate
             # files: one for when get_all_posts() is called, one for when get_all_comments() is called, and another
@@ -216,7 +219,7 @@ class RedditText(object):
                 i+=1
             total_comments += "\n"+"+"*30 +"\n"
 
-            if self.save and self.function_call != "ga":
+            if self.save and self.function_call != "cp":
                 self.save_submissions(total_comments)
 
         return total_comments
@@ -256,7 +259,7 @@ class RedditText(object):
 
 
         if not text:
-            print "Sorry, this post appears to be image based.\n".format(self.subreddit)
+            print "Sorry, this post appears to be an image.\n".format(self.subreddit)
             response = raw_input("Please provide another subreddit or press ENTER for a random subreddit.\n"
                                  ">> ").strip()
             self.get_subreddit(response)
@@ -275,6 +278,7 @@ class RedditText(object):
 
     def get_random_comment(self, n):
         """Grabs a random comment from the same subreddit."""
+
         try:
             comments = []
             for p in self.subreddit.get_new(limit=n):
@@ -289,8 +293,11 @@ class RedditText(object):
 
             if self.save:
                 self.save_submissions(only_post, score)
+
             if not only_post:
-                return "This comment was an image and had a karma score of {}".format(score)
+                print "This comment was an image and had a karma score of {}.  Trying again...".format(score)
+                return self.get_random_comment(n)
+
             res = "\nRetrieved random comment:\n"
             res += "Karma: {} \n\n{}".format(score, only_post) + "\n"
             return res
@@ -328,8 +335,8 @@ def start_up():
 
     def menu_loop():
         """Show the menu"""
-        choice = None
 
+        choice = None
         while choice != "q":
             print "Enter 'q' to quit."
             for key, value in menu.items():
@@ -347,7 +354,6 @@ def start_up():
                     new.posts = [p for p in new.submissions(n)]
                     new.print_func(menu[choice])
                 else:
-                    new.print_func(menu[choice], n)
                     new.print_func(menu[choice], n)
             elif choice[0] == "q":
                 break
