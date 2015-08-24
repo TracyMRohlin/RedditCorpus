@@ -3,11 +3,12 @@
 __author__ = 'girllunarexplorer'
 
 import random
+import os
+import string
 from re import sub
 from datetime import datetime
 from collections import OrderedDict
 from pprint import pprint
-import os
 
 import praw
 import nltk
@@ -40,10 +41,14 @@ class RedditText(object):
         Later, if submissions() turns up an empty list (which likely indicates an
         image based sub), get_subreddit is called again."""
         try:
-            self.subreddit = r.get_random_subreddit() or r.get_subreddit(subreddit)
+            if not subreddit:
+                self.subreddit = r.get_random_subreddit()
+            else:
+                self.subreddit = r.get_subreddit(subreddit)
             print "Current subreddit is " + str(self.subreddit)+ "\n"
 
-            self.top_posts = self.subreddit.get_top_from_all()
+            self.top_posts = self.subreddit.get_top_from_all(limit=None)
+            #print "these are the objects", dir(self.top_posts)
             response = raw_input("Would you like to save as text files? [y/n]\n").lower().strip()[0]
             if response == "y":
                 self.save = True
@@ -110,12 +115,9 @@ class RedditText(object):
 
     def remove_unwanted(self, text):
         try:
-            text = sub(r"\\u000a", "", text) # removes usernames from text
-            text = sub(r"\[deleted\]", "", text) # removes [deleted] from text
-            text = sub("\[[\w+\s+]*\]\(.*\)", "", text) # removes links from text
-            text = sub('"', '', text) # removes punctuation
-            text = sub("'", '', text) # removes punctuation
-            return text
+            new = sub(r"(\\u000a|\[deleted\]|\(http:.+\)|\[[\w+\s+]*\]\(.*\))", "", text) # removes all links and usernames in post
+            text = sub(r"[^A-Za-z0-9\s]+", "", new) # removes all punctuation from the doctument
+            return text.lower()
         except Exception as e:
             print e
 
@@ -132,7 +134,7 @@ class RedditText(object):
                 if len(submission.selftext.lower()) >= self.min_length and submission.score >= min_score:
                     res.append((submission.title, submission))
             else:
-                break
+              break
 
         # Sometimes the amount of submissions grabbed is small due to it having an excessive amount of images or links
         # as posts.  There may be a few text based post in the result, however, so the program asks if the user
@@ -209,7 +211,12 @@ class RedditText(object):
         for p in posts:
             total_comments += "Comments from post:\n"
             j += 1
-            p.replace_more_comments(limit=None)
+            print "Working on getting comments and flattening the comment tree..."
+            # to make praw.replace_more_comments more efficient, the limit and threshold is set at 10, meaning that
+            # it will make only 10 additional requests, and only make requests that give back 10 additional comments.
+            # This is limited because each request requires a 2 second delay by PRAW and if no limits are set, the program
+            # will become very slow.
+            p.replace_more_comments(limit=10, threshold=10)
             coms = praw.helpers.flatten_tree(p.comments)
             for c in coms:
                 print "\nWorking on comment #{}...".format(i)
@@ -233,13 +240,17 @@ class RedditText(object):
         posts = self.get_all_posts().split("="*30)[:-1]
         comments = self.get_all_comments().split("+"*30)
         for p, c in zip(posts, comments):
+            # creates a temporary result so that each post+comments can be saved as a separate corpus file
+            # otherwise the result would be saved into one giant corpus file.
+            temporary_result = ""
             p = sub(r"Retrieved posts:", "", p).strip()
-            result += "New post:\n"
+            temporary_result += "New post:\n"
             body = "{}\n\n{}\n".format(p, c)
-            result += body
+            temporary_result += body
+            result = temporary_result
 
-        if self.save:
-            self.save_submissions(result)
+            if self.save:
+                self.save_submissions(temporary_result)
 
         return result
 
@@ -283,7 +294,7 @@ class RedditText(object):
             comments = []
             for p in self.subreddit.get_new(limit=n):
                 print "Working..."
-                p.replace_more_comments(limit=None) #removes the "moreComments" objects and returns them as actual comments
+                p.replace_more_comments(limit=10, threshold=10) #removes the "moreComments" objects and returns them as actual comments
                 for c in praw.helpers.flatten_tree(p.comments):
                     body = c.body
                     if body.split() >= self.min_length:
@@ -318,9 +329,9 @@ class RedditText(object):
 
 
 def start_up():
+    new = RedditText()
     subreddit = raw_input("What subreddit would you like to grab posts from?"
                           "\nTo grab a random subreddit, press ENTER.\n>> ")
-    new = RedditText()
     new.get_subreddit(subreddit)
 
 
@@ -348,7 +359,7 @@ def start_up():
                 n = raw_input("How many posts would you like to grab?\n")
                 try:
                     n = int(n)
-                except:
+                except ValueError:
                     print "That is not a valid number."
                 if choice in ["cp", "ap", "ac"]:
                     new.posts = [p for p in new.submissions(n)]
