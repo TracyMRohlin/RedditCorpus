@@ -4,7 +4,9 @@ __author__ = 'girllunarexplorer'
 
 import random
 import os
-import string
+import csv
+import statistics
+
 from re import sub
 from datetime import datetime
 from collections import OrderedDict
@@ -47,8 +49,7 @@ class RedditText(object):
                 self.subreddit = r.get_subreddit(subreddit)
             print "Current subreddit is " + str(self.subreddit)+ "\n"
 
-            self.top_posts = self.subreddit.get_top_from_all(limit=None)
-            #print "these are the objects", dir(self.top_posts)
+            self.top_posts = self.subreddit.get_hot(limit=None)
             response = raw_input("Would you like to save as text files? [y/n]\n").lower().strip()[0]
             if response == "y":
                 self.save = True
@@ -67,71 +68,14 @@ class RedditText(object):
             print "Trouble connecting. Please try again."
 
 
-    def try_unicode(self, text):
-        new =[]
-        untagged = []
-        text = self.remove_unwanted(text)
-        for word in text.split():
-            try:
-                new.append(word.encode("utf-8").lower())
-            except:
-                untagged.append(untagged)
-
-        if untagged and self.log == True:
-            ut_words = " ".join(untagged)
-            self.save_submissions(ut_words, Log=True)
-        return self.token_and_tag(" ".join(new))
-
-
-    def token_and_tag(self, text):
-        """Lemmatizes nouns, adjectives, and verbs as well as tags words in the text for parts of speech.
-        If the word is unable to be tagged (usually due to a unicode error) it is appended to untagged and can be
-        saved to a log file."""
-
-        untagged = []
-        tagged = []
-        tokens = text.split()
-        for word in tokens:
-            try:
-                word = word.encode("utf-8").lower()
-                if word in self.stops:
-                    continue
-
-                word, tag = nltk.pos_tag([word])[0]
-                pos = tag[0].lower()
-                if pos in ["a", "n", "v"]:
-                    word = self.stemmer.lemmatize(word, pos=pos)
-                tagged.append("/".join([word, tag]))
-            except:
-                print "Was unable to tag word due to unknown ASCII character."
-                untagged.append(word)
-
-        if untagged and self.log == True:
-            ut_words = " ".join(untagged)
-            self.save_submissions(ut_words, Log=True)
-
-        return " ".join(tagged)
-
-
-    def remove_unwanted(self, text):
-        try:
-            new = sub(r"(\\u000a|\[deleted\]|\(http:.+\)|\[[\w+\s+]*\]\(.*\))", "", text) # removes all links and usernames in post
-            text = sub(r"[^A-Za-z0-9\s]+", "", new) # removes all punctuation from the doctument
-            return text.lower()
-        except Exception as e:
-            print e
-
-
-
     def submissions(self, n):
         """Grabs all the top posts from a subreddit."""
 
-        min_score = 20
         assert n > 0, "The number of posts must be more than zero."
         res = []
         for submission in self.top_posts:
             if len(res) < n:
-                if len(submission.selftext.lower()) >= self.min_length and submission.score >= min_score:
+                if len(submission.selftext.lower()) >= self.min_length:
                     res.append((submission.title, submission))
             else:
               break
@@ -155,29 +99,9 @@ class RedditText(object):
         return res
 
 
-    def save_submissions(self, text, iteration=None, Log=False):
-        """Iteration labels the files "1_subreddit_date", "2_subreddit_date", etc.
-        to make it easier to distinguish separate posts from the same subreddit.
-        Log saves all the untagged words from previous functions to a separate file."""
-
-        if iteration:
-            file_name = "{}_{} - {}.txt".format(iteration, str(self.subreddit), str(datetime.now()))
-        elif Log:
-            file_name = "Untagged - {} - {}.txt".format(str(self.subreddit), str(datetime.now()))
-        else:
-            file_name = "{} - {}.txt".format(str(self.subreddit), str(datetime.now()))
-
-        if not os.path.exists(self.loc):
-            os.mkdir(self.loc)
-        with open(os.path.join(self.loc, file_name), "wb") as file:
-            print "Working..."
-            file.write(text)
-            print "Saved entry into a corpus file."
-
-
     def get_all_posts(self):
         """Grabs n posts from the subreddit and saves them as corpus files."""
-
+        scores = []
         post = ""
         i=1
         for p in self.posts:
@@ -186,24 +110,27 @@ class RedditText(object):
                                                          p[-1].score,
                                                          self.try_unicode(p[-1].selftext.lower()),
                                                          "\n"*2)
-            post += post_body
-            post += "="*30 +"\n\n"
+            post_body += "="*30 +"\n\n"
+            post += post_body # saves it to a general post object so it can print all the results after every iteration is finished
+            scores.append(p[-1].score)
 
             if self.save and self.function_call != "cp":
             # Checks to see that it is not being called by combine_texts(), which would save the text in one
             # large corpus file. If this check were not implemented, combine_texts() would end up saving three separate
             # files: one for when get_all_posts() is called, one for when get_all_comments() is called, and another
             # for when combine_texts() is called.
-                self.save_submissions(post, i)
+                self.save_submissions(post_body, i)
             else: pass
 
             i+=1
 
+        print self.calculate_karma(scores)
         return "\nRetrieved posts:\n\n" + post
 
 
     def get_all_comments(self):
         """Grabs comments from n posts and saves them as corpus files."""
+        scores = []
         posts = [p[1] for p in self.posts]
         total_comments = ""
 
@@ -216,19 +143,21 @@ class RedditText(object):
             # it will make only 10 additional requests, and only make requests that give back 10 additional comments.
             # This is limited because each request requires a 2 second delay by PRAW and if no limits are set, the program
             # will become very slow.
-            p.replace_more_comments(limit=10, threshold=10)
+            p.replace_more_comments(limit=10, threshold=5)
             coms = praw.helpers.flatten_tree(p.comments)
             for c in coms:
                 print "\nWorking on comment #{}...".format(i)
                 comment = self.try_unicode(c.body)
                 if comment:
                     total_comments += "New comment:\nKarma: {0}\n{1}\n\n".format(c.score, comment)
+                    scores.append(c.score)
                 i+=1
             total_comments += "\n"+"+"*30 +"\n"
 
             if self.save and self.function_call != "cp":
                 self.save_submissions(total_comments)
 
+        print self.calculate_karma(scores)
         return total_comments
 
 
@@ -294,7 +223,7 @@ class RedditText(object):
             comments = []
             for p in self.subreddit.get_new(limit=n):
                 print "Working..."
-                p.replace_more_comments(limit=10, threshold=10) #removes the "moreComments" objects and returns them as actual comments
+                p.replace_more_comments(limit=10, threshold=5) #removes the "moreComments" objects and returns them as actual comments
                 for c in praw.helpers.flatten_tree(p.comments):
                     body = c.body
                     if body.split() >= self.min_length:
@@ -316,6 +245,91 @@ class RedditText(object):
         except Exception as error:
             print error
             print "No comments were found among new posts"
+
+
+    def try_unicode(self, text):
+        new =[]
+        untagged = []
+        text = self.remove_unwanted(text)
+        for word in text.split():
+            try:
+                new.append(word.encode("utf-8").lower())
+            except:
+                untagged.append(untagged)
+
+        if untagged and self.log == True:
+            ut_words = " ".join(untagged)
+            self.save_submissions(ut_words, Log=True)
+        return self.token_and_tag(" ".join(new))
+
+
+    def token_and_tag(self, text):
+        """Lemmatizes nouns, adjectives, and verbs as well as tags words in the text for parts of speech.
+        If the word is unable to be tagged (usually due to a unicode error) it is appended to untagged and can be
+        saved to a log file."""
+
+        untagged = []
+        tagged = []
+        tokens = text.split()
+        for word in tokens:
+            try:
+                word = word.encode("utf-8").lower()
+                if word in self.stops:
+                    continue
+
+                word, tag = nltk.pos_tag([word])[0]
+                pos = tag[0].lower()
+                if pos in ["a", "n", "v"]:
+                    word = self.stemmer.lemmatize(word, pos=pos)
+                tagged.append("/".join([word, tag]))
+            except:
+                print "Was unable to tag word due to unknown ASCII character."
+                untagged.append(word)
+
+        if untagged and self.log == True:
+            ut_words = " ".join(untagged)
+            self.save_submissions(ut_words, Log=True)
+
+        return " ".join(tagged)
+
+
+    def remove_unwanted(self, text):
+        try:
+            new = sub(r"(\\u000a|\[deleted\]|\(http:.+\)|\[[\w+\s+]*\]\(.*\))", "", text) # removes all links and usernames in post
+            text = sub(r"[^A-Za-z0-9\s]+", "", new) # removes all punctuation from the doctument
+            return text.lower()
+        except Exception as e:
+            print e
+
+
+    def save_submissions(self, text, iteration=None, Log=False):
+        """Iteration labels the files "1_subreddit_date", "2_subreddit_date", etc.
+        to make it easier to distinguish separate posts from the same subreddit.
+        Log saves all the untagged words from previous functions to a separate file."""
+
+        if iteration:
+            file_name = "{}_{} - {}.txt".format(iteration, str(self.subreddit), str(datetime.now()))
+        elif Log:
+            file_name = "Untagged - {} - {}.txt".format(str(self.subreddit), str(datetime.now()))
+        else:
+            file_name = "{} - {}.txt".format(str(self.subreddit), str(datetime.now()))
+
+        if not os.path.exists(self.loc):
+            os.mkdir(self.loc)
+        with open(os.path.join(self.loc, file_name), "wb") as file:
+            print "Working..."
+            file.write(text)
+            print "Saved entry into a corpus file."
+
+
+    def calculate_karma(self, list_of_scores):
+        """Creates a csv file of all the scores associated with the requested reddit posts/comments.."""
+
+        filename = "{}{}".format(self.loc, "KarmaScores.csv")
+        with open(filename, "wb") as csvfile:
+            KarmaWriter = csv.writer(csvfile)
+            for score in list_of_scores:
+                KarmaWriter.writerow([score])
 
 
     def print_func(self, function, n=None):
