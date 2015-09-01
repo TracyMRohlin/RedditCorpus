@@ -106,9 +106,9 @@ class RedditText(object):
         i=1
         for p in self.posts:
             print "\nWorking on post #{}...".format(i)
-            post_body = "Title: {0}\nKarma: {1}\n{2}{3}".format(self.try_unicode(p[0]),
+            post_body = "Title: {0}\nKarma: {1}\n{2}{3}".format(self.token_and_tag(p[0]),
                                                          p[-1].score,
-                                                         self.try_unicode(p[-1].selftext.lower()),
+                                                         self.token_and_tag(p[-1].selftext.lower()),
                                                          "\n"*2)
             post_body += "="*30 +"\n\n"
             post += post_body # saves it to a general post object so it can print all the results after every iteration is finished
@@ -147,7 +147,7 @@ class RedditText(object):
             coms = praw.helpers.flatten_tree(p.comments)
             for c in coms:
                 print "\nWorking on comment #{}...".format(i)
-                comment = self.try_unicode(c.body)
+                comment = self.token_and_tag(c.body)
                 if comment:
                     total_comments += "New comment:\nKarma: {0}\n{1}\n\n".format(c.score, comment)
                     scores.append(c.score)
@@ -192,7 +192,7 @@ class RedditText(object):
         for p in self.subreddit.get_new(limit=n):
             body = p.selftext.lower()
             if body.split() >= self.min_length:
-                posts.append((self.try_unicode(body).strip(), p.score, p.title))
+                posts.append((self.token_and_tag(body).strip(), p.score, p.title))
 
         only_post = random.choice(posts)
         text, score, title = only_post
@@ -227,7 +227,7 @@ class RedditText(object):
                 for c in praw.helpers.flatten_tree(p.comments):
                     body = c.body
                     if body.split() >= self.min_length:
-                        comments.append([self.try_unicode(body), c.score])
+                        comments.append([self.token_and_tag(body), c.score])
 
             only_post, score = random.choice(comments)
 
@@ -245,22 +245,6 @@ class RedditText(object):
         except Exception as error:
             print error
             print "No comments were found among new posts"
-
-
-    def try_unicode(self, text):
-        new =[]
-        untagged = []
-        text = self.remove_unwanted(text)
-        for word in text.split():
-            try:
-                new.append(word.encode("utf-8").lower())
-            except:
-                untagged.append(untagged)
-
-        if untagged and self.log == True:
-            ut_words = " ".join(untagged)
-            self.save_submissions(ut_words, Log=True)
-        return self.token_and_tag(" ".join(new))
 
 
     def token_and_tag(self, text):
