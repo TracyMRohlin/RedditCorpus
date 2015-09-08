@@ -1,0 +1,6 @@
+Title: broscience/NN true,/NN would/MD fitness/NN enthusiast's/NNS typical/JJ day/NN look/NN like?/NN
+Karma: 503
+example,/NN person/NN cut/VBG might/MD eat/NN small/JJ meal/NN every/DT 30/CD minute/NNS increase/NN metabolism./NNP cardio/NN would/MD burn/NN muscle/NN primary/JJ source/NN energy./NNP edit:/NN thank/NN much/RB guys./NNP i'm/NN already/RB crack/VBG up./NNP
+
+==============================
+

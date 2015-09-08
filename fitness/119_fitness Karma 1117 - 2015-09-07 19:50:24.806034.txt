@@ -1,0 +1,6 @@
+Title: use/NN myfitnesspal,/NN might/MD want/NN check/NN out./NNP
+Karma: 1117
+isn't/RB tool,/NN search/VBG internet/NN day/NN quick/NN export/NN mfp/NN could/MD load/NN data/NNS tableau/NN make/VB nice/NN visualization/NNS help/NN track/NN macros./NNP [turns/NNS someone's/NNS already/RB done/NN ton/NN work/NN link/VBD directly/RB excel.](http://www.myfitnesspal.com/blog/evgenizyntx/view/new-mfp-data-export-tool-major-update-659927)/NN fyi,/NN make/VB sure/RB diary/JJ setting/NNS "public"/NN order/NN pull/NN data/NNS properly/RB need/VBP make/VB sure/RB macro/NNS enabled./NNP it's/NNS pretty/RB nifty/NN tool./NNP doesn't/RB work/NN perfectly,/NN it's/NNS free/JJ take/VBZ minute/NNS set/NN get/NN useful/JJ visualization/NNS data/NNS already/RB obsessively/RB input/NN mfp./NNP
+
+==============================
+

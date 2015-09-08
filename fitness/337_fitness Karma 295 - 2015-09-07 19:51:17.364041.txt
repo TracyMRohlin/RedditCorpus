@@ -1,0 +1,6 @@
+Title: gym/NN etiquette/NN question/NN
+Karma: 295
+yesterday/NN standing/NN dumbel/NN curl/NNS front/NN mirror/NN suddenly/RB guy/NN come/VBD tell/NN stop/NN copy/VBG workout/IN exercise/NNS that's/NNS he's/NNS doing./NNP tell/VBD i'm/NN thing/NN arn't/RB aware/NN he's/NNS also/RB whatever/NN curl/NNS he's/NNS doing./NNP he's/NNS say/VBD it's/NNS rude/NN exercise/NN someone/NN else/RB close/JJ proximity./NNP guy/NN real/JJ unwritten/RB gym/NN etiquette./NNP ?/.
+
+==============================
+

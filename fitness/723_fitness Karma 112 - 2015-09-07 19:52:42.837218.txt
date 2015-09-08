@@ -1,0 +1,6 @@
+Title: make/NNS go/IN gym?/NN
+Karma: 112
+keep/VBD go/VBG gym/NN really/RB want/NN lift/NN anything/NN 100kg./CD probably/RB go/VBG end/NN deadlift./NNP want/NN squat/IN 100,/CD able/JJ overhead/NN press/NN 50./CD able/JJ bench/NN 80./CD want/NN lift/NN certain/JJ number,/NN hope/NN visible/JJ gain/NNS show/NNS up./NNP
+
+==============================
+

@@ -1,0 +1,6 @@
+Title: favourite/IN kind/NN cardio?/NN
+Karma: 158
+run/VBG sucks,/NN knee/NN problem/NNS end/NNS harm/NN good./NNP use/VBD love/IN jump/VBG rope,/NN again,/NN knee/NN pain./NNP need/VBP add/NN good/JJ cardio/NN cardio/NN fitness/NN plan./NNP
+
+==============================
+

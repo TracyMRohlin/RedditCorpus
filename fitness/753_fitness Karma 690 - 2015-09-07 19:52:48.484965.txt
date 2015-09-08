@@ -1,0 +1,6 @@
+Title: start/VBG fail/NN full/JJ 5x5/CD workout./NNP none/NN please/VBD
+Karma: 690
+edit:/NN thank/NN feedback/NN support./NNP think/NN eat/VBG little/RB large/JJ part/NN program./NNP morbidly/RB obese/NN terrify/VBD weight/NN gain,/NN keep/VB fork/NN well/RB check./NNP think/NN it's/NNS time/NN get/NN meat/NN bone/NNS keep/VB lift/VBG hard./NNP thank/NN all./NNP i've/JJ sl/NN 5x5/CD 3/LS month/NNS like/IN it./NNP really/RB do./NN weight/NN start/VBG ramp/NN up,/NN i'm/NN start/VBG fail/NN entire/NN workouts./NNP like/IN make/VBG first/JJ 4/LS sets,/NN sometimes/RB less./NNP feel/NN like/IN shit/NN one./NNP use/VBD leave/NN gym/NN practically/RB euphoric,/NN feel/VBG like/IN million/NN bucks./NNP feel/NN like/IN failure/NN that's/NNS shit/NN cool.../NNP anyone/NN else/RB episodes?/NN
+
+==============================
+

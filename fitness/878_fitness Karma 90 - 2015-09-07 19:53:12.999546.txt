@@ -1,0 +1,6 @@
+Title: far/RB get/NN stronglifts?/NN
+Karma: 90
+i'm/NN go/VBG along/IN pretty/RB well,/NN i'm/NN curious/JJ done/NN program/NN did./NNP share/NN stats/NNS don't/RB mind/NN (age,/NN sex,/NN height,/NN start/VBG body/NN weight,/NN current/JJ body/NN weight,/NN current/JJ weight/NNS 1rms)./CD also,/NN long/RB stick/NN program/NN something/NN else?/NN i'm/NN 32,/CD male,/NN 6'1",/CD start/VBD 180/CD lbs,/NN weight/NN 190/CD lbs,/NN today/NN squat/VBD 180/CD lb/NNS 5x5./CD sure/RB 1rm/CD moment/NN last/JJ time/NN test/VBD 195/CD lbs./NNP know/RB isn't/RB much/RB objectively/RB speaking,/NN i'm/NN happy/NN progress/NN i've/JJ never/RB squat/VBD body/NN weight/NN past!/NN edit:/NN realise/VBD didn't/RB share/NN numbers./NNP jan/NN 28:/CD squat/IN 185/CD lb/NN 5x5/CD bench/NN 140/CD lb/NN 5x5/CD row/NN 135/CD lb/NN 5x5/CD press/NN 105/CD lb/NN 5x5/CD dead/NN 275/CD lb/NN 1x5/CD also/RB start/VBD assistance/NN exercise/NNS today/NN 3x10/CD dips./NNP
+
+==============================
+

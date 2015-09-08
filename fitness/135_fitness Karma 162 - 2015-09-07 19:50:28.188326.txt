@@ -1,0 +1,6 @@
+Title: alcohol/NN kill/VBG cut,/NN main/NN fixture/NN socail/NN life./NNP cutter/NNS manage./NNP
+Karma: 162
+alcohol,/NN eat/VBG drunk,/NN next/JJ day/NN hangover/NN don't/RB want/NN move./NNP
+
+==============================
+

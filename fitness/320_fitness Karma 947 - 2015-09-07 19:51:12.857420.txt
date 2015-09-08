@@ -1,0 +1,6 @@
+Title: runtastic/JJ app/NN pro/NN free/JJ today!/NN
+Karma: 947
+edit:/NN apple,/NN seems/NNS download/NN pro/NN app/NN free./NNP ([link/NN here](/NN https://itunes.apple.com/ca/app/runtastic-pro-gps-running/id366626332?mt=8)/NN courtesy/NN /u/fashionfades/NNS /u/folksong)/NN 1./CD download/NN free/JJ app/NN [google](https://play.google.com/store/apps/details?id=com.runtastic.android)/NN app/NN store./NNP 2./CD go/IN runtastic/JJ setting/NNS 3./CD enter/NN promo/NN code/NN -/: edit2:/NN courtesy/NN /u/bigdave53/NN >/NN enter/NN promo/NN code/NN free/JJ android/VBD version?/NN >1./NNP setting/NNS (upper/JJ right)/NN >2./NNP "more"/NN section/NN ->/NN runtastic/JJ (very/JJ bottom/NN list)/NN >3./NNP enter/NN promotion/NN code/NN edit3:/NN **the/DT 14/CD day/NN gold/NN trial/NN !=/NN pro/NN version**,/NN seems/NNS pro/NN version/NN app/NN gold/NN additional/JJ services./NNP
+
+==============================
+

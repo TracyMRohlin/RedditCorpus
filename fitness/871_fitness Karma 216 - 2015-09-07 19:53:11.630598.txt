@@ -1,0 +1,6 @@
+Title: 'the/DT beast'/NN set/NNS deadlift/NN world/NN record/NN -/: 1,018.5/CD lb/NNS
+Karma: 216
+know/RB love/IN watch/VBG things?/NN see/VBG much/RB iron/NN bar/NN bend/NNS much/RB weight/NN attach/VBD it./NNP http://espn.go.com/espn/story/_/page/instantawesome-deadliftrecord150317/the-beast-breaks-world-deadlift-record-assist-arnold-schwarzenegger/JJ
+
+==============================
+

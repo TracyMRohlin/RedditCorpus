@@ -1,0 +1,6 @@
+Title: what's/NNS good/JJ snack/meal/JJ eat/NN lecture/NN hall/NNS without/IN insecure/NN noise/NN smell?/NN
+Karma: 218
+last/JJ semester/NN first/JJ semester/NN want/VBD take/VB lift/VBG seriously,/NN wasn't/RB eat/VBG well/RB sit/NN 3-4/CD hour/NNS straight/RB morning-noon/JJ lecture/NNS breaks./NNP try/VBD bring/VBG prepped/VBD meal/NNS consist/VBG rice/NN +/NN protein/NN felt/VBD insecure/NN chew/VBG use/VBG utensil/NNS class,/NN etc./NNP due/JJ unrelated/VBD events,/NN haven't/RB gone/NN gym/NN last/JJ month/NN gain/VBD bit/NN fat/JJ plan/NN get/NN back/RB cut/VBD within/IN month/NN two/CD recovery./NNP class/NNS run/NN 4-6h/CD straight/RB semester/NN breaks./NNP what's/NNS best/JJS food/NNS prep/NN eat/NN snack/NN that?/NN right/RB think/NN chicken/NN wrap/NN (+/NN nut/NNS way/NN classes)./NNP
+
+==============================
+

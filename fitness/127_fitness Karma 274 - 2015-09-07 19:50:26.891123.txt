@@ -1,0 +1,6 @@
+Title: "men/JJ look/VBG get/NN rip/VBD risk/NN abuse/VBG legal/JJ supplements"/NN -/: npr/NN
+Karma: 274
+[article](http://www.npr.org/sections/health-shots/2015/08/07/430347355/men-looking-to-get-ripped-are-at-risk-of-abusing-legal-supplements)/NN exactly/RB "abuse"/NN legal/JJ supplments/NNS mean?/NN take/VBG whey/PRP day?/NN i'm/NN sure/RB it,/NN work/VBG twice/NN week/NN take/VBG whey,/NN creatine,/NN l-carnitine/JJ call/VBN potential/JJ problem/NN behaviors./NNP smell/NN bullshit./NNP anyone/NN feel/NN relate/NN conclusion?/NN
+
+==============================
+

@@ -1,0 +1,6 @@
+Title: people/NNS fit?/NN
+Karma: 168
+even/RB don't/RB look/NN it?/NN i've/JJ recently/RB start/VBD running,/NN push/NN ups,/NN sit/NN ups,/NN pull/NN ups,/NN chin/IN ups,/NN etc,/NN etc./NNP body/NN weight/NN stuff/NN i'm/NN find/VBG number/NN exercise/NN low/JJ single/JJ digit/NNS part/NN i'm/NN wind/VBD reach/NN single/JJ mile/IN runs./NNP i'm/NN fat,/NN i'll/JJ admit/NN it's/NNS since/IN i've/JJ last/JJ exercised./NNP everyday/NN life,/NN manual/JJ labor/NN job/NN haven't/RB really/RB notice/VBD weak/JJ lack/VBG endurance/NN unable/JJ keep/VB everyone/NN else./NNP number/NNS low/JJ compare/VBN what's/NNS consider/VBD even/RB "unfit"/NN standards?/NN
+
+==============================
+

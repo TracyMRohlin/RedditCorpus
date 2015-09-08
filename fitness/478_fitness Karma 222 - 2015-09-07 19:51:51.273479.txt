@@ -1,0 +1,6 @@
+Title: nutrition/NN tuesday/NN
+Karma: 222
+feel/NN like/IN i'm/NN one/CD like/NNS nutrition/NN tuesday,/NN goes:/NN discus/NN anything/NN nutrition./NNP week's/NNS guide/VBG discussion/NN topic:/NN cheating./NNP it,/NN go-to/JJ cheat/NN meals,/NN account/NN weekly/RB calories?/NN
+
+==============================
+

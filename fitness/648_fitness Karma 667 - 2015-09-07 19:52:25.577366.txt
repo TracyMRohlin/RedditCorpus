@@ -1,0 +1,6 @@
+Title: science/NN steroid/NNS
+Karma: 667
+[science/NN steroids](http://gregnuckols.com/2014/10/08/the-science-of-steroids/)/NN fantastic/JJ article/NN /u/gnuckols/NNS cover/NNS phsyiological/JJ psychological/JJ effect/NNS take/VBG 'roids/NNS
+
+==============================
+

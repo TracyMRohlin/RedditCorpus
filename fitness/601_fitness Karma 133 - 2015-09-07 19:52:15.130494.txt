@@ -1,0 +1,6 @@
+Title: good/JJ snack/NNS eat/NN working?/NN
+Karma: 133
+work/NN pizza/NN delivery/NN driver,/NN need/VBP find/NN healthy/JJ snack/NNS eat/NN drive/VBG around./NNP it's/NNS get/VBD something/NN quick/NN easy/JJ eat./NNP longest/NN time/NN i've/JJ eat/VBG nature/NN valley/NN bars/chewy/JJ bar/NNS probably/RB aren't/RB best,/NN occasional/JJ apple./NNP need/VBP branch/NN healthier/JJR snacks,/NN since/IN plan/NN go/VBG back/RB heavy/JJ weight/NN lift/VBG (had/JJ stop/NN since/IN bunch/NN unrelated/VBD surgeries)./NNP feel/NN free/JJ suggest/NN healthy/JJ food/NNS eat/NN around/IN house/whenever/JJ well!/NN kind/NN get/VBD bad/JJ habit/NN fast/RB food/NN meals...,/NN kind/NN let/NN go/IN since/IN couldn't/RB work/NN ~6/NN months./NNP (somehow/JJ i'm/NN fat/JJ though!/NN even/RB lose/VBD weight,/NN although/IN that's/NNS probably/RB lose/VBD muscle!)/NN forgot/NN healthy/JJ food/NNS use/VBD eat/NN (although/JJ think/NN mostly/RB sandwich/NNS remember/NN get/VBG sick/NN of)./NNP
+
+==============================
+

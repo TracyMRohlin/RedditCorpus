@@ -1,0 +1,6 @@
+Title: inbetween/IN sets?/NN
+Karma: 344
+see/NN much/RB hate/NN place/NNS about,/NN people/NNS phone/NN gym./NNP else/RB inbetween/IN sets?/NN
+
+==============================
+

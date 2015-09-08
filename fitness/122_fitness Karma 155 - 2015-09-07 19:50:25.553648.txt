@@ -1,0 +1,6 @@
+Title: look/NN gym?/NN
+Karma: 155
+hello/NN there,/NN first/JJ time/NN post/VBG here,/NN ill/NN try/NN mess/NN up./NNP ;)/NN i'm/NN freshman/NN highschool,/NN year/NN almost/RB over./NNP school/NN nicest/NN weight/NN room/NN district,/NN nowhere/RB near/IN full/JJ gym/NN standards./NNP also,/NN there's/NNS thing/NN close/VBD summer.../NNP i'm/NN look/VBG around/IN different/JJ place/NNS near/IN within/IN bike/VBG distance,/NN don't/RB really/RB know/RB look/NN for./NNP said,/NN look/NN for?!/NN service/NNS sign/NN for?/NN classes?/NN know/RB good/JJ bit/NN lifting,/NN i've/JJ progress/VBG lot/NN lately./NNP (squat/JJ 235/CD bench/NN 145)/CD don't/RB know/RB much/RB gym/NNS themselves./NNP help/NN appreciated!/NN also,/NN there's/NNS planet/NN fitness/NN block/NN away/RB school./NNP really/RB bad?/NN thanks!/NN
+
+==============================
+

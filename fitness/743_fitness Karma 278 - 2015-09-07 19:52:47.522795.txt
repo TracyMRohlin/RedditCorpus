@@ -1,0 +1,6 @@
+Title: cut?/NN bulk?/NN
+Karma: 278
+i've/JJ reading/NN sub/NN little/RB bit./NNP see/NN folk/NNS ask/VBG cut/VBD bulk./NNP skim/VBD [an/JJ article](http://www.muscleandfitness.com/nutrition/lose-fat/death-bulk-and-cut-diet)/NN muscleandfitness/NN pretty/RB much/RB say/VBD great/JJ idea./NNP guess/NN don't/RB understand...why/JJ would/MD want/NN add/NN fat/JJ body,/NN later/JJ remove/IN it?/NN work/NN hard,/NN eat/NN body/NN needs,/NN never/RB fat?/NN (i'm/NN totally/RB serious/JJ this./NNP many/JJ seems/NNS common/JJ breathing./NNP i'm/NN clueless/NN it)/NN edit:/NN wow./NNP fantastic/JJ response./NNP thank/NN everybody./NNP love/IN respectful/JJ manner/NN answers./NNP great/JJ sub./NNP
+
+==============================
+

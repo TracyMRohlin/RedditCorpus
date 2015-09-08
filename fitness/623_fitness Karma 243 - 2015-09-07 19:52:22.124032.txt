@@ -1,0 +1,6 @@
+Title: alcoholic/JJ fitness/NN help./NNP
+Karma: 243
+hey,/NN home,/NN body/NN weight/NN work/NN out/NNS use./NNP currently/RB 6'4''/CD 280/CD lbs./NNP free/JJ weight/NNS go/IN 50lbs/CD counter/NN chair./NNP question/NN alcoholic/NNS there./NNP cut/VBD back/RB alcohol/NN increase/NN weight/NN lifting?/NN i'm/NN currently/RB drink/VBG roughly/RB 500-750ml/CD hard/RB liquor/NN per/IN day./NNP i've/JJ try/VBD cut/VBG alcohol/NN feel/NN like/IN shit/NN 5pm./CD would/MD like/IN lower/JJR intake/NN increase/NN work/NN out./NNP know/RB it's/NNS long/RB shot,/NN people/NNS say/VBP "bro/NN quit"/NN it's/NNS quite/RB simple./NNP anyway,/NN previous/JJ alcoholic/NNS advice/NN reduce/VBG alcohol,/NN increase/VBG work/NN please/NN give/JJ advice./NNP
+
+==============================
+

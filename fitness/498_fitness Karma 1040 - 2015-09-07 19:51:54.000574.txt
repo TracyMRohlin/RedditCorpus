@@ -1,0 +1,6 @@
+Title: johnnie/NN candito/IN celebrates/NNS 100,000/CD subscribers,/NN squat/NNS 100,000lbs/CD total/JJ eats/NNS 100/CD chicken/NN nuggets./NNP
+Karma: 1040
+bit/NN fun/NN candito./NN find/NN video/NNS really/RB informative./NNP boy/NN strong./NNP [the/DT video](https://www.youtube.com/watch?v=phiprfayxby)/NN
+
+==============================
+

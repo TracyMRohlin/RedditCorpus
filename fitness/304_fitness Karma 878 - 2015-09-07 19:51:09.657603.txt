@@ -1,0 +1,6 @@
+Title: i've/JJ find/VBD perfect/NN cut/VBG food:/NN cheap,/NN low/JJ calorie,/NN high/JJ protein,/NN low/JJ preparation,/NN low/JJ cleanup,/NN tasty,/NN filling,/NN (low/JJ sodium)./NNP
+Karma: 878
+best/JJS one-two/CD combo/NN cutting:/NN 1./CD great/JJ value/NN greek/NN yogurt/NN (plain):/NN $4,/NN 480/CD kcal,/NN 20%/CD sodium,/NN 92g/CD protein/NN 2./CD great/JJ vale/NN energy/NN drink/NN enhancer:/NN $2,/NN 5/LS kcal,/NN 24/CD servings,/NN 50mg/CD caffeine/serving/JJ check/NN out:/NN mix/NN drink/NN enhancer/NN (blueberry,/NN strawberry,/NN cherry,/NN etc)/NN greek/NN yogurt./NNP sweetens/NNS yogurt,/NN turn/VBG whole/NN thing/NN delicious./NNP caffeine/NN drink/NN mix/NN (along/JJ protein/NN bomb/NN yogurt)/NN blunts/NNS appetite/NN meal/NN digests,/NN give/NNS boost/NN gym./NNP cook/VBG preparation,/NN clean/VBG dishes./NNP don't/RB even/RB need/VBP kitchen./NNP grab/NN spoon,/NN stir/PRP$ drink/NN mix,/NN enjoy,/NN throw/NN away./NNP possible/JJ substitutions:/NN chobani/NN plain/NN greek/NN yogurt,/NN lucerne/NN low/JJ sodium/NN cottage/NN cheese,/NN mio/NN energy/NN drink/NN enhancer/NN
+
+==============================
+

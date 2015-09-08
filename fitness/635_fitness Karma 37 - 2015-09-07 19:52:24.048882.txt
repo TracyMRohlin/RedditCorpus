@@ -1,0 +1,6 @@
+Title: [query]/NN many/JJ part/NN 1000lbs/CD club?/NN
+Karma: 37
+im/NN curious/JJ lift/VBG seriously/RB year/NN approach/VBG 1000lb/CD mark/NN 1rm/CD deadlift,/NN squat/IN benchpress/NN combined./NNP currently/RB weigh/VBG 102kg/CD 182cm./CD (25%/NN bf/NN suck/NNS though)./NNP current/JJ total/JJ 880lbs/CD increase/NN every/DT workout/IN due/JJ awesome/NN bulk./NNP question/NN is:/NN many/JJ duders/NNS 1000lb/CD club?/NN im/NN see/VBG load/NNS stack/VBD guy/NNS gym/NN hardly/RB squat/IN deadlift./NNP
+
+==============================
+
