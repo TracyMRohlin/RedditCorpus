@@ -1,0 +1,13 @@
+__author__ = 'tracyrohlin'
+
+import csv
+
+def calculate_karma(subreddit, list_of_scores, filename):
+        """Creates a csv file of all the scores associated with the requested reddit posts/comments.."""
+
+        csvname = "{} {}.csv".format(subreddit, filename)
+
+        with open(csvname, "wb") as csvfile:
+            KarmaWriter = csv.writer(csvfile)
+            for score in list_of_scores:
+                KarmaWriter.writerow([score])

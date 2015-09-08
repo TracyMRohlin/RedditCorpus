@@ -12,7 +12,7 @@ import numpy as np
 def load_data(filepath):
     filepath = filepath
     os.chdir(filepath)
-    subreddit = filepath.split("/")[-2]
+    subreddit = filepath.split("/")[-1]
     filepath += "/*Karma Scores.csv"
     file = glob.glob(filepath)[0]
     data = np.loadtxt(file, delimiter=",", )
