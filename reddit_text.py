@@ -4,11 +4,10 @@ __author__ = 'girllunarexplorer'
 
 import random
 import os
-import csv
-import statistics
+import datetime
+import time
 
 from re import sub
-from datetime import datetime
 from collections import OrderedDict
 from pprint import pprint
 
@@ -16,6 +15,7 @@ import praw
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
+from create_scores_csv import calculate_karma
 
 
 user_agent = "Thesis project by /u/girllunarexplorer"
@@ -28,6 +28,7 @@ class RedditText(object):
 
     def __init__(self):
         super(RedditText, self).__init__()
+        self.loc = None
         self.save = None
         self.subreddit = None
         self.min_length = 25
@@ -42,6 +43,7 @@ class RedditText(object):
         """Sets the subreddit to be looked at based on user input or randomization.
         Later, if submissions() turns up an empty list (which likely indicates an
         image based sub), get_subreddit is called again."""
+        # user can provide a specific subreddit or have one randomly provided
         try:
             if not subreddit:
                 self.subreddit = r.get_random_subreddit()
@@ -49,7 +51,9 @@ class RedditText(object):
                 self.subreddit = r.get_subreddit(subreddit)
             print "Current subreddit is " + str(self.subreddit)+ "\n"
 
-            self.top_posts = self.subreddit.get_hot(limit=None)
+
+
+            # asks the user where to save the corpus files
             response = raw_input("Would you like to save as text files? [y/n]\n").lower().strip()[0]
             if response == "y":
                 self.save = True
@@ -59,6 +63,12 @@ class RedditText(object):
                 if not self.loc:
                     self.loc = default_loc
 
+                # Set the current directory to what the user specifies
+                if not os.path.exists(self.loc):
+                    os.mkdir(self.loc)
+                os.chdir(self.loc)
+
+                # create a log file of all the words that couldn't be tagged by nltk
                 log = raw_input("Would you like to log all the untagged words? [y/n]\n").lower().strip()[0]
                 if log == "y":
                     self.log = True
@@ -69,13 +79,27 @@ class RedditText(object):
 
 
     def submissions(self, n):
-        """Grabs all the top posts from a subreddit."""
-
+        """Grabs all the posts from a subreddit within the time period of one year from current date to a month
+        before current date.  This is done in order to make sure that all the posts have had sufficient time to be
+        voted upon."""
         assert n > 0, "The number of posts must be more than zero."
+
+        pattern = "%Y-%m-%d"
+        date_month_ago = str(datetime.datetime.utcnow() - datetime.timedelta(days=30)).split(" ")[0]
+        date_year_ago = str(datetime.datetime.utcnow() - datetime.timedelta(days=365)).split(" ")[0]
+        # convert to epoch time
+        last = int(time.mktime(time.strptime(date_month_ago, pattern)))
+        first = int(time.mktime(time.strptime(date_year_ago, pattern)))
+
+        # create a timestamp query and search in that specific subreddit
+        query = 'timestamp:%d..%d' % (first, last)
+        submissions = r.search(query, subreddit=self.subreddit, sort=None, limit=None, syntax='cloudsearch')
+
+        # Make sure that the posts actually have a sufficient amount of text in them and have at least 1 point each
         res = []
-        for submission in self.top_posts:
+        for submission in submissions:
             if len(res) < n:
-                if len(submission.selftext.lower()) >= self.min_length:
+                if len(submission.selftext.lower()) >= self.min_length and submission.score > 0:
                     res.append((submission.title, submission))
             else:
               break
@@ -96,14 +120,16 @@ class RedditText(object):
                                  ">> ").strip()
             self.get_subreddit(response)
             self.submissions(n)
+
         return res
 
 
     def get_all_posts(self):
         """Grabs n posts from the subreddit and saves them as corpus files."""
-        scores = []
+        self.scores = [] # Save scores into this list because it will be used  when saving the submission
         post = ""
         i=1
+        # Collect all the text from the posts to return later as a corpus file or in terminal.
         for p in self.posts:
             print "\nWorking on post #{}...".format(i)
             post_body = "Title: {0}\nKarma: {1}\n{2}{3}".format(self.token_and_tag(p[0]),
@@ -111,30 +137,35 @@ class RedditText(object):
                                                          self.token_and_tag(p[-1].selftext.lower()),
                                                          "\n"*2)
             post_body += "="*30 +"\n\n"
-            post += post_body # saves it to a general post object so it can print all the results after every iteration is finished
-            scores.append(p[-1].score)
+            post += post_body
+            self.scores.append(p[-1].score)
 
             if self.save and self.function_call != "cp":
             # Checks to see that it is not being called by combine_texts(), which would save the text in one
             # large corpus file. If this check were not implemented, combine_texts() would end up saving three separate
             # files: one for when get_all_posts() is called, one for when get_all_comments() is called, and another
             # for when combine_texts() is called.
-                self.save_submissions(post_body, i)
+                self.save_submissions(post_body, karma=p[-1].score, iteration=i)
             else: pass
 
             i+=1
 
-        print self.calculate_karma(scores)
+        # the csv of all Karma scores will only be saved if the user specifies where to save the corpus files
+        if self.loc:
+            calculate_karma(self.subreddit, self.scores, "Karma Scores")
         return "\nRetrieved posts:\n\n" + post
 
 
     def get_all_comments(self):
         """Grabs comments from n posts and saves them as corpus files."""
+
         scores = []
         posts = [p[1] for p in self.posts]
         total_comments = ""
 
         i = j = 1
+        # creates a long text block with all the comments from a single post that is either saved in a corpus file or
+        # returned in terminal
         for p in posts:
             total_comments += "Comments from post:\n"
             j += 1
@@ -154,10 +185,14 @@ class RedditText(object):
                 i+=1
             total_comments += "\n"+"+"*30 +"\n"
 
+            # saves all the comments from a post in one corpus file on a post by post basis
             if self.save and self.function_call != "cp":
-                self.save_submissions(total_comments)
+                self.save_submissions(total_comments, karma=p.score)
 
-        print self.calculate_karma(scores)
+
+        if self.function_call != "cp" and self.loc:
+            print calculate_karma(self.subreddit, self.scores, "Karma Scores")
+
         return total_comments
 
 
@@ -165,21 +200,24 @@ class RedditText(object):
         """Combines posts and comments into one corpus file."""
 
         result = ""
-        # the data has already been tagged so it must be split on the demarcator
+        # the data has already been tagged so it must be split on the demarcator and zipped together to make sure
+        # the comments coincide with the correct post
         posts = self.get_all_posts().split("="*30)[:-1]
         comments = self.get_all_comments().split("+"*30)
+        i = 0
         for p, c in zip(posts, comments):
+            print "I'm in for loop"
             # creates a temporary result so that each post+comments can be saved as a separate corpus file
             # otherwise the result would be saved into one giant corpus file.
-            temporary_result = ""
             p = sub(r"Retrieved posts:", "", p).strip()
-            temporary_result += "New post:\n"
+            temporary_result = "New post:\n"
             body = "{}\n\n{}\n".format(p, c)
             temporary_result += body
             result = temporary_result
 
             if self.save:
-                self.save_submissions(temporary_result)
+                self.save_submissions(temporary_result, karma=self.scores[i])
+            i += 1
 
         return result
 
@@ -187,6 +225,8 @@ class RedditText(object):
     def get_random_post(self,n):
         """Grabs a random post from the top n posts in the same subreddit."""
 
+        # appends all of the posts to a single list and then randomly choses the post tuple that contains the text,
+        # score and title
         posts = []
         print "Working..."
         for p in self.subreddit.get_new(limit=n):
@@ -197,7 +237,7 @@ class RedditText(object):
         only_post = random.choice(posts)
         text, score, title = only_post
 
-
+        # checks to see if the post actually has any text in it
         if not text:
             print "Sorry, this post appears to be an image.\n".format(self.subreddit)
             response = raw_input("Please provide another subreddit or press ENTER for a random subreddit.\n"
@@ -205,13 +245,10 @@ class RedditText(object):
             self.get_subreddit(response)
             return self.get_random_post(n)
 
-        if score >=30:
-                text += "\n{} is a popular post.\n".format(title)
-
         res = "Title: {0}\nKarma: {1}\n\n{2}".format(title, score, text)
 
         if self.save:
-            self.save_submissions(text)
+            self.save_submissions(text, karma=score)
 
         return "\nRetrieved random post:\n\n" + res + "\n"
 
@@ -223,7 +260,7 @@ class RedditText(object):
             comments = []
             for p in self.subreddit.get_new(limit=n):
                 print "Working..."
-                p.replace_more_comments(limit=10, threshold=5) #removes the "moreComments" objects and returns them as actual comments
+                p.replace_more_comments(limit=10, threshold=5) # removes the "moreComments" objects and returns them as actual comments
                 for c in praw.helpers.flatten_tree(p.comments):
                     body = c.body
                     if body.split() >= self.min_length:
@@ -232,7 +269,7 @@ class RedditText(object):
             only_post, score = random.choice(comments)
 
             if self.save:
-                self.save_submissions(only_post, score)
+                self.save_submissions(only_post, karma=score)
 
             if not only_post:
                 print "This comment was an image and had a karma score of {}.  Trying again...".format(score)
@@ -263,13 +300,16 @@ class RedditText(object):
 
                 word, tag = nltk.pos_tag([word])[0]
                 pos = tag[0].lower()
+                # stems adjectives, nouns and verbs
                 if pos in ["a", "n", "v"]:
                     word = self.stemmer.lemmatize(word, pos=pos)
+                # retags the term for parts of speech
                 tagged.append("/".join([word, tag]))
             except:
                 print "Was unable to tag word due to unknown ASCII character."
                 untagged.append(word)
 
+        # saves any untagged files if the user wishes.  That way the text can be looked at and tagged or deleted.
         if untagged and self.log == True:
             ut_words = " ".join(untagged)
             self.save_submissions(ut_words, Log=True)
@@ -279,41 +319,32 @@ class RedditText(object):
 
     def remove_unwanted(self, text):
         try:
-            new = sub(r"(\\u000a|\[deleted\]|\(http:.+\)|\[[\w+\s+]*\]\(.*\))", "", text) # removes all links and usernames in post
-            text = sub(r"[^A-Za-z0-9\s]+", "", new) # removes all punctuation from the doctument
+            new = sub(r"[^A-Za-z0-9\s]+", "", text) # removes all punctuation from the document
+            text = sub(r"(\\u000a|\[deleted\]|\(http[s]*://.+\)|\[[\w+\s+]*\]\(.*\))", "", new) # removes all links and usernames in post
             return text.lower()
         except Exception as e:
             print e
 
 
-    def save_submissions(self, text, iteration=None, Log=False):
+    def save_submissions(self, text, karma=None, iteration=None, Log=False):
         """Iteration labels the files "1_subreddit_date", "2_subreddit_date", etc.
         to make it easier to distinguish separate posts from the same subreddit.
         Log saves all the untagged words from previous functions to a separate file."""
 
+        # Considering the files are saved in quick succession, it is easier to delineate files if they are
+        # saved with an iteration number
         if iteration:
-            file_name = "{}_{} - {}.txt".format(iteration, str(self.subreddit), str(datetime.now()))
+            file_name = "{}_{} Karma {} - {}.txt".format(iteration, str(self.subreddit), karma, str(datetime.datetime.now()))
+        # saves the log file that contains all the untagged words (usually emoticons and the like)
         elif Log:
-            file_name = "Untagged - {} - {}.txt".format(str(self.subreddit), str(datetime.now()))
+            file_name = "Untagged - {} - {}.log".format(str(self.subreddit), str(datetime.datetime.now()))
         else:
-            file_name = "{} - {}.txt".format(str(self.subreddit), str(datetime.now()))
+            file_name = "{} Karma {} - {}.txt".format(str(self.subreddit), karma, str(datetime.datetime.now()))
 
-        if not os.path.exists(self.loc):
-            os.mkdir(self.loc)
-        with open(os.path.join(self.loc, file_name), "wb") as file:
-            print "Working..."
+
+        with open(os.path.join(".", file_name), "wb") as file:
             file.write(text)
             print "Saved entry into a corpus file."
-
-
-    def calculate_karma(self, list_of_scores):
-        """Creates a csv file of all the scores associated with the requested reddit posts/comments.."""
-
-        filename = "{}{}".format(self.loc, "KarmaScores.csv")
-        with open(filename, "wb") as csvfile:
-            KarmaWriter = csv.writer(csvfile)
-            for score in list_of_scores:
-                KarmaWriter.writerow([score])
 
 
     def print_func(self, function, n=None):
@@ -327,6 +358,8 @@ class RedditText(object):
 
 
 def start_up():
+    """Creates a RedditText class object and asks the user if they would like to get all posts, all comments, a random
+    comment or random post."""
     new = RedditText()
     subreddit = raw_input("What subreddit would you like to grab posts from?"
                           "\nTo grab a random subreddit, press ENTER.\n>> ")
@@ -352,6 +385,7 @@ def start_up():
                 print "[{}] {}".format(key, value.__doc__)
 
             choice = raw_input("Action:  ").lower().strip()
+            # checks to see if the choice is valid given the options
             if choice in menu:
                 new.function_call = choice
                 n = raw_input("How many posts would you like to grab?\n")
@@ -362,6 +396,7 @@ def start_up():
                 if choice in ["cp", "ap", "ac"]:
                     new.posts = [p for p in new.submissions(n)]
                     new.print_func(menu[choice])
+                # calls the random post or random comment functions
                 else:
                     new.print_func(menu[choice], n)
             elif choice[0] == "q":
