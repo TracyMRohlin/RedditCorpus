@@ -1,0 +1,6 @@
+Title: study/NN concludes/NNS protein/NN sleep/NN increase/NNS strength/NN mass/NN gain/NNS
+Karma: 434
+[protein/JJ ingestion/NN sleep/NN increase/NNS muscle/NN mass/NN strength/NN gain/NNS prolong/VBD resistance-type/NN exercise/NN training/NN healthy/JJ young/JJ men.](http://www.ncbi.nlm.nih.gov/pubmed/25926415)/NN particularly/RB interest/VBG nutrient/NN time/VBG find/VBD matter/NN much./NNP far/RB aware/NN study/NNS focus/VBD time/NN period/NNS exercise./NNP study/NN conclude/VBD addition/NN high/JJ protein/NN diet,/NN protein/NN supplement/NN bed/VBD effective/JJ take/VBG nothing./NNP cliffs:/NN */-NONE- population/NN 21-23/CD year/NN old/JJ healthy/JJ men./NNP */-NONE- group/NNS high/JJ protein/NN diet/NN resistance/NN training/NN */-NONE- one/CD group/NN get/VBD 27g/CD protein/NN 15g/CD carbohydrate/NNS sleep/NN */-NONE- group/NN supplement/VBD sleep/NN gain/VBD strength/NN mass/NN anyone/NN get/VBD brilliant/JJ pre-bed/JJ smoothie/NN recipes?/NN edit:/NN point/VBD comment/NNS study/NN serious/JJ flaw./NNP two/CD group/NNS eat/VBG different/JJ amount/NN calories./NNP anyone/NN access/NN full/JJ study/NN confirm?/NN
+
+==============================
+

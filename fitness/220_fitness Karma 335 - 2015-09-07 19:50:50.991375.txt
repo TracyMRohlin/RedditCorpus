@@ -1,0 +1,6 @@
+Title: importance/NN sleep/NN counter/NN example/NNS big/JJ guy/NNS
+Karma: 335
+hello,/NN so,/NN general/JJ consensus/NN lift/NN //NN practice/NN sport,/NN aim/NN 8/CD hour/NNS sleep/NN least/JJS order/NN rest/NN //NN repair,/NN etc.../NNP personal/JJ experience,/NN try/NN sleep/NN 7/CD //NN 8/CD hour/NNS usually/RB wake/NN still/RB like/IN wreck,/NN take/VBZ hour/NNS totally/RB wake/NN up./NNP happen/NN get/NN earlier/JJR 6/CD 7/CD hour/NNS sleep/NN however/RB usually/RB get/NN tired/JJ day/NN //NN evening./NNP look/VBG dwayne/NN johnson/NN page,/NN seems/NNS wake/NN every/DT day/NN 4/LS o'clock,/NN start/NN work/VBG 5,/CD etc.../NNP say/VBD "damn,/NN could/MD use/NN extra/NN time..."/NN talk/VBD big/JJ guy/NNS gym,/NN say/VBD "well/JJ sleep/NN 8/CD know/RB usually/RB sleep/NN 5/LS 6/CD hour/NNS night"/NN etc.../NNP question/NN :/: think/NN ?/. sleep/NN overrate/VBD ?/. what's/NNS experience/NN sleep/NN //NN recovery/NN ??/NN
+
+==============================
+

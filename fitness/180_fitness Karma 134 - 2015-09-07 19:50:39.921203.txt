@@ -1,0 +1,6 @@
+Title: much/RB water/NN drink/NN work/VBG out?/NN long/RB work/NN out?/NN
+Karma: 134
+drink/VBG 1.5-2.25l/CD water/NN gym/NN much?/NN 750ml/CD bottle,/NN normally/RB refill/NN toilet/NN least/JJS once,/NN sometimes/RB twice,/NN although/IN normally/RB drink/NN half/NN second/JJ refill(i.e./NNP ~1.875l),/NN today/NN drank/NN entire/NN second/JJ refill./NNP always/RB drink/NN every/DT set,/NN like/IN 1-4/CD gulps/sips/NNS get/NNS go/VBG help/NNS breathe./NNP workout/IN 2-2.5/CD hour/NNS session,/NN 3/LS time/NNS week./NNP
+
+==============================
+

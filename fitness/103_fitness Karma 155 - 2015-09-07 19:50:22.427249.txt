@@ -1,0 +1,6 @@
+Title: enter/VBG exit/VBG gym,/NN much/RB time/NN spending/NN typical/JJ training/NN session?/NN
+Karma: 155
+second/JJ enter/NN gym's/NNS door/NNS second/JJ leave/NN them,/NN much/RB time/NN spending/NN inside?/NN perhaps/RB include/NN training/NN frequency/NN intensity/NN well./NNP
+
+==============================
+

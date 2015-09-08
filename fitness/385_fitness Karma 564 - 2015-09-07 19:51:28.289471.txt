@@ -1,0 +1,6 @@
+Title: make/VB common/JJ practice/NN display/NN pound/NNS kilogram/NNS listing/NN weights?/NN
+Karma: 564
+notice/VBD majority/NN non-us/JJ redditors/NNS kind/NN enough/RB display/NN freedom/NN unit/NNS along/IN side/NN kilogram/NNS listing/NN weight/NNS find/NN helpful./NNP think/NN would/MD love/IN us/PRP redditors/NNS return/NN favor/NN list/NN kilogram/NN equivalent/NN listing/NN weights./NNP seems/NNS like/IN everyone/NN wins./NNP think?/NN divide/NN weight/NN pound/NNS (lbs)/NN 2.2/CD get/NN weight/NN kilogram/NNS (kg)./NNP kilogram/NNS pound/NNS multiply/RB kilogram/NNS 2.2/CD get/NN pounds./NNP
+
+==============================
+

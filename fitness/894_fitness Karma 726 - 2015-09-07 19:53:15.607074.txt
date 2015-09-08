@@ -1,0 +1,6 @@
+Title: please/NN help/NN design/NN breakfast/NN prepare/NN consume/NN office./NNP
+Karma: 726
+i'm/NN start/VBG cut/VBD next/JJ week/NN target/NN daily/RB calorie/NN intake/NN 2,050./CD i'd/JJ like/IN eat/NN daily/RB balance/VBD breakfast,/NN thing/NN every/DT day./NNP target/NN breakfast/NN calorie/NNS 500-600./CD office/NN refrigerator/NN microwave./NNP bring/VBG toaster/NN blender./NNP 11kg/CD bag/NN impact/NN whey/PRP protein/NN on-hand./NNP bring/VBG grocery/NNS need/VBD weekly/RB basis./NNP basically/RB like/IN anything/NN food-wise./NNP think/VBG maybe/RB protein/spinach/fruit/NN shake/NN plus/RB microwavable/JJ oat/NNS bit/NN maple/NN syrup/NN flavoring./NNP welcome/NN idea/NNS -/: thanks/NNS advance!/NN
+
+==============================
+

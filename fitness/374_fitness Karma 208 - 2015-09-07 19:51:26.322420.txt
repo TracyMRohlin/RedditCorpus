@@ -1,0 +1,6 @@
+Title: barely/RB squat/IN empty/NN bar/NN feel/NN embarrassed./NNP
+Karma: 208
+last/JJ month/NN i've/JJ start/VBD use/VBG barbell/NNS (35/NN lb/NNS (or/JJ kgs?))/NN practice/NN squatting./NNP realize/NN can't/RB lift/NN barbell/NNS weigh/NN weight/NN try/VBD use/VBG empty/NN bar/NN (55/NN lb/NNS kgs)/NN squat/IN rack./NNP one/CD lady/NN kind/NN enough/RB catch/NN fall/VBG embarrass/VBD could/MD barely/RB squat/IN empty/NN bar./NNP suggest/VBD use/NN barbell/NNS i've/JJ already/RB done/NN previous/JJ months./NNP trouble/NN place/VBG bar/NN shoulder/NNS go/VBD parallel,/NN couldn't/RB get/NN hence/NN let/NN bar/NN fall/NN behind/IN land/VBD safety/NN pins./NNP do?/NN really/RB want/NN start/NN use/VBG squat/IN rack./NNP i'm/NN female/JJ weighs/NNS 109/CD lbs./NNP *if/JJ need/VBP clarification/NN aspect/NN post/NN sound/NNS confusing,/NN please/NN let/NN know/RB i'll/JJ clear/JJ up./NNP
+
+==============================
+

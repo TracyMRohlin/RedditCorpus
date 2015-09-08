@@ -1,0 +1,6 @@
+Title: bicep/NN curls,/NN dominant/NN arm/NN seem/NN give/JJ first?/NN
+Karma: 417
+workout/IN partner/NN compare/VBG arm/NN strength./NNP leave/VBD arm/NN (non/JJ dominant/NN arm)/NN tends/NNS give/JJ first/JJ lift/VBG weights,/NN however/RB partner/NN claim/NNS dominant/NN arm/NN seems/NNS one/CD give/NNS her./NNP idea/NNS dominant/NN arm/NN would/MD first/JJ tire/NN more?/NN we've/JJ notice/VBD mostly/RB biceps/NNS curls./NNP
+
+==============================
+

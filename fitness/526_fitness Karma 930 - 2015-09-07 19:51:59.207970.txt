@@ -1,0 +1,6 @@
+Title: simple,/NN healthy,/NN fill/VBG snack./NNP
+Karma: 930
+look/NN something/NN satisfy/NN food/NN craving/NNS without/IN give/VBG guilt/NN come/VBD across/IN amaze/VBG banana-oatmeal/JJ cookies./NNP make/VB them.../NNP 3/LS ripe/NN banana/NNS smash/VBD goo/RB 1/LS cup/NN quick-oats/NNS oatmeal/NN 2/LS scoop/NNS elite/NN 100%/CD whey/PRP protein/NN powder/NN 1/2/CD cup/NN finely/RB chop/VBD walnut/NNS (substitute/JJ raisin/NNS whatever)/NN 1/4/CD cup/NN shred/VBD coconut/NN vanilla/NN extract/NN flavor/NN squirt/VBD little/RB liquid/NN stevia/IN ...this/NNS make/VBD 14/CD cooky/NNS size/NN silver/NN dollar/NN mix/VBG ingredient/NNS together/RB get/NN dough-like/JJ consistency./NNP depend/VBG size/NN banana/NNS may/MD need/VBP thicken/NN loosen/NN mixture/NN up./NNP add/VBG oat/NNS spoonful/JJ sugar-free/JJ apple/NN sauce./NNP scoop/NN batter/NN onto/IN lightly/RB grease/VBD cookie/NN sheet/NN (however/JJ big/JJ want/NN cookies)/NN bake/NN 15-20/CD minute/NNS @/IN 350/CD degrees./NNP store/NN fridge./NNP enjoy!/NN hope/NN guy/NNS like/IN much/RB do./NN http://i.imgur.com/iulxgmt.jpg/JJ give/JJ take/VB gram/NNS whole/NN batch.../NNP protein/NN =/NN 70g/CD fat/NNS =/NN 35g/CD carbs/NNS =/NN 124g/CD cal/JJ =/NN 1325/CD whole/NN batch/NN
+
+==============================
+

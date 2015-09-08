@@ -1,0 +1,6 @@
+Title: point/NN everything/NN clicks?/NN
+Karma: 193
+mean/JJ is,/NN go/VBG gym/NN 2/LS months,/NN make/VBG great/JJ progress,/NN recently/RB start/VBD barbell/NN work./NNP avoid/VBD squat/NNS deadlifts/NNS together,/NN dumbbell/NN bench/NN press./NNP i'm/NN them,/NN sort/NN feel/NN awkward,/NN feel/NN like/IN weight/NN them,/NN struggle/NN low/JJ weight./NNP form/NN fine,/NN i'm/NN everything/NN i'm/NN suppose/VBD to,/NN doesn't/RB feel/NN like/IN everyone/NN else/RB look/NNS exercises./NNP point/NN everything/NN click/NNS feel/NN natural,/NN start/NN move/NN weight,/NN feel,/NN need/VBP work/NN it?/NN
+
+==============================
+

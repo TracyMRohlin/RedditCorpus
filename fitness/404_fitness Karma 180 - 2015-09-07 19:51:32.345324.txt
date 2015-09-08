@@ -1,0 +1,6 @@
+Title: okay/NN sit/NN ups/NNS push/NN ups/NNS everyday?/NN
+Karma: 180
+let's/NNS say/VBP 3/LS set/NNS 40/CD sit/NN ups/NNS 3/LS set/NNS 55/CD push/NN ups/NNS everyday./NNP pt/NN come/VBG up,/NN want/NN peak./NNP plan/NN today/NN wednesday,/NN rest/NN thursday,/NN take/VB pt/NN friday./NNP
+
+==============================
+

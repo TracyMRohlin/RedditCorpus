@@ -1,0 +1,6 @@
+Title: protein/NN bar/NNS buy/NN all?/NN
+Karma: 238
+usually/RB buy/NN simple/NN truth/NN bar/NNS kroger/NN snack/NN day/NN get/NN protein/NN avoid/VBG delicious/JJ calorie/NNS campus./NNP bar/NN 20g/CD protein/NN 190/CD calorie/NNS near/IN bar./NNP guy/NNS buy/NN recommend?/NN
+
+==============================
+

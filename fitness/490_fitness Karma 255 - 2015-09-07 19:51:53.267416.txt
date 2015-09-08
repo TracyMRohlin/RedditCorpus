@@ -1,0 +1,6 @@
+Title: right/RB arm/NN much/RB stronger/JJR leave/VBD -/: fix/NN this?/NN
+Karma: 255
+right/RB arm/NN much/RB stronger/JJR left./NNP anything/NN use/VBG arm/NNS barbells,/NN leave/VBD side/NN struggle/NNS right/RB balance/NNS bar./NNP i've/JJ tell/VBD two/CD things:/NN 1)/CD balance/NN time/NN go/VBZ 2)/CD use/NN heavier/JJR dumbbell/NNS leave/VBD arm/NN curls./NNP true,/NN any?/NN solutions?/NN
+
+==============================
+

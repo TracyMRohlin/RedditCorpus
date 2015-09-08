@@ -1,0 +1,6 @@
+Title: best/JJS method/NN slowly/RB introduce/NN running?/NN
+Karma: 538
+use/VBD run/NN haven't/RB awhile./NNP want/NN get/NN back/RB it,/NN can't/RB seem/NN stick/NN plan/NN slowly/RB introduces/NNS running./NNP always/RB end/NN overdo/VBG hurt/VBG myself./NNP what's/NNS good/JJ run/VBG plan/NN slowly/RB work/NN way/NN half/NN marathons?/NN
+
+==============================
+

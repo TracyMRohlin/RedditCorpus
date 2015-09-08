@@ -1,0 +1,6 @@
+Title: powerlifter/NN ray/NN williams/NNS join/NNS 1000kg/CD club./NNP
+Karma: 1209
+ray/NN williams/NNS win/VBD ipf/NN classic/JJ 2015/CD world/NN championship/NN 120kg/CD bw/NN category./NNP total/JJ lift/VBD weight/NN 1000.5kg/CD (~2205lbs),/NN new/JJ world/NN record./NNP also/RB squat/VBD new/JJ world/NN record/NN 425.5kg./CD lifts:/NN */-NONE- squat/IN 425.5kg/CD ~938lbs/NNS (1st/JJ place)/NN */-NONE- bench/NN press/NN 235kg/CD ~518lbs/NNS (6th/JJ place)/NN */-NONE- deadlift/NN 340kg/CD ~749lbs/NNS (4th/JJ place)/NN people/NNS usually/RB talk/NN 1000lb/CD club,/NN guess/NN guy/NN one/CD say/VBP belongs/NNS 1000kg/CD club./NNP (at/JJ least/JJS ipf/NN standards)/NN pretty/RB strong/JJ guy.../NNP [here](https://www.youtube.com/watch?v=pgu7lfpqmgq)'s/NNS video/NN record/NN squat./NNP result/NNS weight/NN category/NNS find/VBD [here](http://goodlift.info/scoresheets/detailed_scoresheet_m.htm)./NNP championship/NN event/NN pretty/RB cool/NN watch./NNP 'youtube'/NN lifter/NNS jonnie/NN candito/IN layne/NN norton/NN get/VBD silver/NN medal/NNS weight/NN categories./NNP **edit:**/-NONE- format/VBG
+
+==============================
+

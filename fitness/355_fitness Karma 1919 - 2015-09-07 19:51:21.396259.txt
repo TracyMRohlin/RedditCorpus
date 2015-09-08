@@ -1,0 +1,6 @@
+Title: "if/JJ could/MD get/NN bar,/NN could/MD change/NN life."/NN
+Karma: 1919
+/u/awkwardballoonman/JJ suggest/VBD post/NN -/: it's/NNS article/NN year/NNS ago/RB write/VBN emergency/NN room/NN doctor/NN life-long/JJ lifter./NNP [barbell/JJ training/NN big/JJ medicine](http://startingstrength.com/articles/barbell_medicine_sullivan.pdf)/NN excerpt:/NN >for/JJ time/NN now,/NN course/NN duty/NNS emergency/NN physician,/NN strange/NN thought/NNS bedside/NN patients./NNP approach/NN patient/NN come/NN treat/VBD chronic/JJ pain,/NN fatigue,/NN elevate/VBD blood/NN pressure,/NN shortness/NN breath,/NN blood/NN sugar/NN control./NNP find/NN confront/VBD overweight,/NN deconditioned/VBD 52/CD year-old,/NN go/VBG 70,/CD batter/VBD joints,/NN atrophic/JJ muscles,/NN physiologic/NN reserve,/NN inability/NN get/NN gurney/NN without/IN groan/VBG wheezing,/NN grim/NN future./NNP work/NN up,/NN find/NN medical/JJ emergency,/NN come/NN call/NN ii/NN diabetes,/NN hypertension,/NN screwed-up/NN blood-lipid/JJ profile,/NN obesity./NNP >and/JJ think/NN myself:/NN could/MD get/NN bar,/NN could/MD change/NN life./NNP
+
+==============================
+

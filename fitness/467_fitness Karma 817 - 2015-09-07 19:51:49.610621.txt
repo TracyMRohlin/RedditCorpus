@@ -1,0 +1,6 @@
+Title: biggest/JJS mistake/NN people/NNS make/VB
+Karma: 817
+think/NN biggest/JJS mistake/NN people/NNS make/VB weight/NN training/NN try/VBG find/NN next/JJ program/NN already/RB make/VBG progress/NN program/NN they're/JJ following./NNP need/NNS stated./NNP make/VBG progress/NN within/IN specific/JJ program,/NN need/VBP move/NN another/DT one./NNP also,/NN aren't/RB make/VBG progress/NN plateauing;/NN check/NN form,/NN diet,/NN even/RB lighten/RB weight/NNS go/IN there./NNP need/NNS focus/NN stick/VBG program/NN know/VBG bump/NNS happen/NN people/NNS need/VBP work/NN instead/RB program/NN hopper./NNP
+
+==============================
+

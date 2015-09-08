@@ -1,0 +1,6 @@
+Title: drink/VBG fitness/NN :/: drink/NN often?/NN
+Karma: 290
+i've/JJ heard/NN mix/VBD review/NNS effect/NNS drink/VBG bodybuilding/VBG //NN fitness./NNP say/VBP it'll/JJ dehydrate/NN you,/NN lessen/NN protein/NN synthesis,/NN disrupt/NN sleep./NNP others/NNS say/VBP effect/NNS exaggerated./NNP anyways,/NN know/RB still/RB it!/NN what's/NNS go/IN drink/NN it??/NN notice/VBD effect/NNS first/JJ hand?/NN usually/RB go/IN vodka/NN tonic/JJ //NN juice/NN can./NNP understand/NN calorie/NNS alcohol/NN that's/NNS good/JJ thing./NNP i'll/JJ rarely/RB drink/NN 2/LS beer/NNS get/NN full./NNP i'll/JJ cocktail/NNS work/NN ~3x/JJ per/IN week./NNP
+
+==============================
+

@@ -1,0 +1,6 @@
+Title: runner/NNS weight/NN train/NN legs(squats/NNS etc)/NN well./NNP manage/NN both?/NN
+Karma: 972
+basically/RB workout/IN leg/NNS gym/NN (squats,/NN dead-lifts/NNS etc)/NN i'm/NN commish/JJ run/VBG 2-3/CD days./NNP i'll/JJ wait/NN 1-2/CD day/NNS work/NN legs./NNP rinse,/NN repeat,/NN wash./NNP day/NNS body/NN part/NN work/NNS out./NNP want/NN get/NN better/JJR running./NNP i've/JJ done/NN 6/CD mile/NNS 8:30ish/JJ per/IN miles./NNP give/JJ weightlift/VBG legs?/NN order/NN get/NN better/JJR running?/NN program/NNS incorporate/NN weight/NN training/NN leg/NNS running?/NN
+
+==============================
+

@@ -1,0 +1,6 @@
+Title: new/JJ york/NN time/NNS report/NNS american/NNS beginning/NN eat/NN fewer/JJR calorie/NNS
+Karma: 874
+[the/DT article](http://nyti.ms/1ho6zlz)/NN note/NNS calorie/NN consumption/NN declined,/NN especially/RB among/IN family/NNS child/NNS due/JJ concern/NNS childhood/NN obesity./NNP said,/NN article/NN also/RB report/NNS american/NNS eat/VBG less/JJR eat/VBG healthier/JJR meals./NNP further,/NN trend/NN extend/VBD obese/NN american/NNS weight/NN waist/NN circumference/NN continue/NN rise/NN groups./NNP
+
+==============================
+

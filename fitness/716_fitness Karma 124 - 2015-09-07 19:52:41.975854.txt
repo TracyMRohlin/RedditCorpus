@@ -1,0 +1,6 @@
+Title: hiit/NN cardio/NN v/NNS steady/JJ state/NN cardio/NN
+Karma: 124
+start/VBD incorporate/VBG cardio/NN calorie/NN deficit/NN order/NN shed/VBD extra/NN body/NN fat/JJ percentage./NNP i,/NN however,/NN unsure/NN approach/NN follow./NNP [here](http://www.fitocracy.com/knowledge/dr-layne-nortons-best-damn-cardio-humanly-possible-in-15-minutes/)/NN layne/NN state/NNS hiit/NN great/JJ done./NNP however,/NN [here](https://www.youtube.com/watch?v=be3kafjefry),/NN jason/NN seems/NNS think/NN it's/NNS fad/NN it's/NNS effective./NNP guy/NN limit/VBD time/NN train,/NN wonder/VBG genereal/NN consensus/NN hiit/NN v/NNS liss?/NN i'm/NN look/VBG shed/VBD weight/NN optimal/JJ speed./NNP desire/NN become/NN marathon/NN runner/NN sprinter./NNP follow/NN 15/CD minute/NN routine/NN garner/NN better/JJR return/NNS 45/CD min/NN jog/NN definitely/RB follow/NN hiit./NNP however,/NN feel/NN jason/NN might/MD right./NNP feedback/NN confuse/VBD cutter/NN would/MD much/RB appreciated./NNP
+
+==============================
+

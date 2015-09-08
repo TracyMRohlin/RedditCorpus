@@ -1,0 +1,6 @@
+Title: cardio/NN overall/JJ important/JJ general/JJ health/NN longevity/NN much/RB emphasise/NN place/VBD strength/NN training?/NN
+Karma: 151
+reading/NN website/IN cdc/NN say/VBP cardio/NN important/JJ strength/NN training./NNP recommend/NN 80%/CD workout/IN cardio/NN 20%/CD strength/NN training./NNP anytime/RB read/NN health/NN fitness/NN websites/magazines/whatever/JJ always/RB seems/NNS like/IN info/NN geard/NN towards/NNS strength/NN training/bodybuilding./NNP guy/NNS think/NN important/JJ why?/NN
+
+==============================
+

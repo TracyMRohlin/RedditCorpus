@@ -1,0 +1,6 @@
+Title: guy/NNS really/RB great/JJ workout/IN result/NNS -/: average/JJ sleep/NN schedule?/NN
+Karma: 1026
+know/RB it's/NNS obviously/RB important,/NN probably/RB don't/RB get/NN enough/RB right/RB now./NNP interested/JJ sleep/NN schedule/NNS guy/NNS really/RB good/JJ results./NNP
+
+==============================
+

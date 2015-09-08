@@ -1,0 +1,6 @@
+Title: assume/VBG unlimited/VBD fund/NNS fitness/NN luxury/NN wish/NN had?/NN
+Karma: 103
+exclude/VBG sport/NNS enhance/VBG supplement/NNS (gear,etc)./NNP think/NN would/MD nice/NN cost/NN make/NNS worth/NN it./NNP gym/NN owner/NN sort/NN ask/VBD quesiton/NN want/NNS put/VB money/NN gym,/NN say/VBD spa./NNP get/VBD think/VBG type/NN luxury/NN item/NN gym/NN home/NN would/MD make/VB fitness/NN life/NN even/RB easier./NNP think/VBG gel/NN body-fat/JJ machine/NN give/NNS fairly/RB accurate/NN answer./NNP would/MD nice/NN use/NN every/DT couple/NN week/NNS track/NN real/JJ progress./NNP edit:/NN many/JJ people/NNS say/VBG steroids...was/JJ hop/VBG avoid/VBD that./NNP
+
+==============================
+

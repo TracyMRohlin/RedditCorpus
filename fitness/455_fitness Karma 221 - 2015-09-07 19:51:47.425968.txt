@@ -1,0 +1,6 @@
+Title: announcement:/NN addition/NN "rule/JJ 0"/CD
+Karma: 221
+hello/NN everyone./NNP moderation/NN team/NN decide/VBD make/VB official/NN rule/NN something/NN we've/JJ long/RB time/NN -/: remove/VBG thread/NNS answer/VBD wiki./NNP refer/VBD "rule/JJ 0",/CD read/NN full/JJ text/NN rule/NN [here](http://www.reddit.com/r/fitness/wiki/rules#wiki_0._no_threads_that_are_answered_by_the_wiki_or_searching)./NNP rule/NN also/RB cover/NNS thread/NNS easily/RB answer/VBD use/VBG search/NN function./NNP clear:/NN practice,/NN nothing/NN really/RB changing./NNP we've/JJ already/RB remove/VBG thread/NNS like/IN continue/NN so./NN discuss/VBG it,/NN decide/VBD it's/NNS better/JJR community/NN (especially/RB newcomers)/NN make/VB unspoken/NN rule/NN clear/JJ up-front./NNP
+
+==============================
+

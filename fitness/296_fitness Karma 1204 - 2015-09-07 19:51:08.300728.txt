@@ -1,0 +1,6 @@
+Title: what's/NNS best/JJS gym/NN advice/NN you've/JJ given?/NN
+Karma: 1204
+figure/NN since/IN there's/NNS worst/NN advice/NN post,/NN make/NNS sense/NN best/JJS advice/NN post./NNP
+
+==============================
+

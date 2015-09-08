@@ -1,0 +1,6 @@
+Title: consider/VBD weak?/NN
+Karma: 102
+little/RB bit/NN background;/NN currently/RB male,/NN 20/CD year/NNS old,/NN 5'8,/CD 176lbs,/CD ~18%bf./NNP start/VBD work/VBG seriously/RB 2/LS month/NNS ago/RB start/VBG 60lb/CD bench,/NN 80lb/CD squat,/NN 90lb/CD deadlift,/NN 40lb/CD barbell/NN curl./NNP currently,/NN 90lb/CD bench,/NN 110lb/CD squat/IN (just/JJ start/VBD squat/NNS month/NN ago/RB realize/VBD importance),/NN 130lb/CD deadlift/NN 60lb/CD curl./NNP question/NN is...when/JJ consider/VBD totally/RB spaghetti-armed?/NN get/VBD tired/JJ strength/NN 12-year-old/JJ girl,/NN see/NN everybody/NN call/VBG bench/NN less/JJR 150/CD really/RB weak/JJ sad,/NN suck/NNS ecstatic/JJ get/VBG 1rm/CD 100lbs./CD wonder/VBG consider/VBD least/JJS "above-average"/NN size/age./NNP edit:/NN want/VBD mention/NN weight/NN start/VBD 174lbs,/CD gain/VBD 2lbs,/CD visibly/RB slimmer./NNP edit2:/NN thanks/NNS replies,/NN advice/NN links./NNP clarify,/NN wasn't/RB ask/VBG compare/NN weight-lifters/athletes,/NN mean/VBD literally/RB untrained/VBD people/NNS age/NN question/NN beautifully/RB answered,/NN well/RB tool/NNS give/VBN compare/NN future./NNP thank/NN support,/NN awesome/NN sub./NNP wasn't/RB try/VBG come/NN across/IN know-it-all/JJ comments./NNP apologize/NN seem/VBD such./NNP
+
+==============================
+

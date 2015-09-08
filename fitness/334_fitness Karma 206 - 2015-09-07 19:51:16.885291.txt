@@ -1,0 +1,6 @@
+Title: gym/NN story/NN saturday/NN
+Karma: 206
+long/RB time/NN lurker,/NN hope/NN i'm/NN break/VBG protocol,/NN look/NN forward/RB reading/NN good/JJ story/NNS guy/NNS &/CC gal/NNS put/VB forth,/NN haven't/RB seen/IN post/VBD yet./NNP story/NN week,/NN gym/NN get/VBD new/JJ body/NN fat/JJ scale,/NN look/NNS kind/NN like/IN [this](http://hymnmc.en.ec21.com/body_fat_measuring_scale_---787318_885958.html)/NN i'm/NN 29%bf/CD 20%/CD 6/CD months./NNP downside/NN gym/NN go/VBG start/NN charge/VBG $10/-NONE- per/IN body/NN fat/JJ reading/NN (first/JJ one/CD free),/NN back/RB old/JJ handheld/NN omnitron....../NNP
+
+==============================
+
