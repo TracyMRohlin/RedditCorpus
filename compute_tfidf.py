@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 import csv
 import re
@@ -20,11 +21,9 @@ class CorpusStats:
         DEMARCATORS = ['==============================',
                'Title:', 'New post:', 'Comments from post:']
 
-        # The purpose of self.num_of_docs is further explained in create_tfidf()
-        self.num_of_docs = 0
+
         for file in os.listdir("."):
             if isfile(join(os.curdir,file)) and file.endswith("txt"):
-                self.num_of_docs += 1
                 with open(file) as f:
                     text = f.read()
 
@@ -47,6 +46,8 @@ class CorpusStats:
 
 
     def yield_word_vectors(self):
+        """Yields word vectors later used in the create_tfidf() function"""
+
         self.create_dictionary()
         for text in self.texts:
             yield self.dictionary.doc2bow(text)
@@ -54,25 +55,22 @@ class CorpusStats:
 
     def create_tfidf(self):
         corpus = list(self.yield_word_vectors())
-        #filepath = "corpus.mm"
         corpora.MmCorpus.serialize("corpus.mm", corpus)
         tfidf = models.TfidfModel(corpus, dictionary=self.dictionary)
         tfidf_dict = defaultdict()
 
+        # creates a new dictionary object so that the tfidf scores and words can be be saved per row in a csv file
         for k, v in self.dictionary.items():
             new_dict = {"word": v, "tfidf": []}
             tfidf_dict[k] = new_dict
 
-        i = 0
         for words in corpus:
             for word in tfidf[words]:
                 word_id, t_score = word
                 tfidf_dict[word_id]["tfidf"].append(round(t_score, 3))
 
-            i+=1
 
         print "this is how many items are in the corpus: " + str(len(corpus))
-        print "this is how many documents are in the model : " + str(i)
         print "this is how many words are in the dictionary: " + str(len(self.dictionary.keys()))
 
         self.create_csv("tfidf", tfidf_dict)
