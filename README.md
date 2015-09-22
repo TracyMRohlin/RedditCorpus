@@ -88,3 +88,7 @@ The get_random_comment() function grabs a number of new posts (as opposed to top
     http://www.1percentedge.com/ifcalc//NN design/VBN intermittent/NN fasting,/NN set/NN equal/JJ intake/NN workout/IN rest/NN     days./NNP
 
 get_random_post() does the same.  combine_texts() saves all the comments and the post itself as one large corpus file.
+
+Karma_Graph.py creates a simple histogram with the Karma scores from each post/comment as the value:
+
+![Example of the Karma graph.](https://github.com/TracyMRohlin/RedditCorpus/blob/master/fitness/RedditCorpus%20Karma%20Scores.png)
