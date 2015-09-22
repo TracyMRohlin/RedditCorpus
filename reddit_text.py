@@ -5,9 +5,9 @@ __author__ = 'girllunarexplorer'
 import random
 import os
 import datetime
-import time
+import re
+import logging
 
-from re import sub
 from collections import OrderedDict
 from pprint import pprint
 
@@ -16,6 +16,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from create_scores_csv import calculate_karma
+from make_time_interval import make_time_interval
 
 
 user_agent = "Thesis project by /u/girllunarexplorer"
@@ -33,7 +34,14 @@ class RedditText(object):
         self.subreddit = None
         self.min_length = 25
         self.stemmer = WordNetLemmatizer()
+
         self.stops = stopwords.words('english')
+        # the nltk stopwords list isn't all inclusive (it mostly excludes contractions)
+        #  so to make it more comprehensive i've added more stopwords
+        # following the list at http://www.ranks.nl/stopwords
+        self.stops.extend(["against", 'cannot', 'could', 'he', "ought", "would"])
+        self.stops = set(self.stops)
+
         self.function_call = ""
         self.log = False
         self.posts = []
@@ -84,16 +92,11 @@ class RedditText(object):
         voted upon."""
         assert n > 0, "The number of posts must be more than zero."
 
-        pattern = "%Y-%m-%d"
-        date_month_ago = str(datetime.datetime.utcnow() - datetime.timedelta(days=30)).split(" ")[0]
-        date_year_ago = str(datetime.datetime.utcnow() - datetime.timedelta(days=365)).split(" ")[0]
-        # convert to epoch time
-        last = int(time.mktime(time.strptime(date_month_ago, pattern)))
-        first = int(time.mktime(time.strptime(date_year_ago, pattern)))
+        first, last = make_time_interval(self.loc)
 
         # create a timestamp query and search in that specific subreddit
         query = 'timestamp:%d..%d' % (first, last)
-        submissions = r.search(query, subreddit=self.subreddit, sort=None, limit=None, syntax='cloudsearch')
+        submissions = r.search(query, subreddit=self.subreddit, sort="new", limit=None, syntax='cloudsearch')
 
         # Make sure that the posts actually have a sufficient amount of text in them and have at least 1 point each
         res = []
@@ -132,9 +135,12 @@ class RedditText(object):
         # Collect all the text from the posts to return later as a corpus file or in terminal.
         for p in self.posts:
             print "\nWorking on post #{}...".format(i)
-            post_body = "Title: {0}\nKarma: {1}\n{2}{3}".format(self.token_and_tag(p[0]),
-                                                         p[-1].score,
-                                                         self.token_and_tag(p[-1].selftext.lower()),
+            post_body = "Title: {0}\n" \
+                        "Karma: {1}\n" \
+                        "Date: {2}\n" \
+                        "{3}{4}".format(self.token_and_tag(p[0]),
+                                                         p[-1].score, p[-1].created,
+                                                         self.token_and_tag(p[-1].selftext),
                                                          "\n"*2)
             post_body += "="*30 +"\n\n"
             post += post_body
@@ -206,10 +212,9 @@ class RedditText(object):
         comments = self.get_all_comments().split("+"*30)
         i = 0
         for p, c in zip(posts, comments):
-            print "I'm in for loop"
             # creates a temporary result so that each post+comments can be saved as a separate corpus file
             # otherwise the result would be saved into one giant corpus file.
-            p = sub(r"Retrieved posts:", "", p).strip()
+            p = re.sub(r"Retrieved posts:", "", p).strip()
             temporary_result = "New post:\n"
             body = "{}\n\n{}\n".format(p, c)
             temporary_result += body
@@ -288,16 +293,16 @@ class RedditText(object):
         """Lemmatizes nouns, adjectives, and verbs as well as tags words in the text for parts of speech.
         If the word is unable to be tagged (usually due to a unicode error) it is appended to untagged and can be
         saved to a log file."""
-
+        text += "\t" # add a tab to make sure that the re.sub() successfully removes any links at the end of the text block
+        newtext = self.remove_unwanted(text)
         untagged = []
         tagged = []
-        tokens = text.split()
+        tokens = newtext.split()
         for word in tokens:
             try:
                 word = word.encode("utf-8").lower()
                 if word in self.stops:
                     continue
-
                 word, tag = nltk.pos_tag([word])[0]
                 pos = tag[0].lower()
                 # stems adjectives, nouns and verbs
@@ -318,12 +323,15 @@ class RedditText(object):
 
 
     def remove_unwanted(self, text):
-        try:
-            new = sub(r"[^A-Za-z0-9\s]+", "", text) # removes all punctuation from the document
-            text = sub(r"(\\u000a|\[deleted\]|\(http[s]*://.+\)|\[[\w+\s+]*\]\(.*\))", "", new) # removes all links and usernames in post
-            return text.lower()
-        except Exception as e:
-            print e
+
+        text = re.sub(r"u\/.*[\s\t]*" # removes mentions to other redditors as well as contractions
+                      r"|\w+'\w+|"    # removes contractions like "don't" and "can't" from the text
+                      r"\\u000a"      # removes anonymized usernames from text
+                      r"|\[deleted\]" # removes the deleted tag
+                      r"|http.*[\s\t]", "", text) # removes links from text
+        new = re.sub(r"[^A-Za-z\t\s\']*", "", text) # removes all punctuation from the document
+        return new
+
 
 
     def save_submissions(self, text, karma=None, iteration=None, Log=False):

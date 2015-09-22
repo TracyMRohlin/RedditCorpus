@@ -2,7 +2,7 @@
 __author__ = 'tracyrohlin'
 
 import os
-
+import argparse
 from fences import fences
 from create_scores_csv import calculate_karma
 
@@ -34,7 +34,10 @@ def remove_outliers(filepath):
     os.rename(temp_file, new_file)
 
 
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Removes outliers and their files from the set")
+    parser.add_argument("filepath", help="Argument must be the filepath where the KarmaScores.csv file is located")
+    args = parser.parse_args()
+    remove_outliers(args.filepath)
 
 
-
-print remove_outliers("/Users/tracyrohlin/PycharmProjects/RedditCorpus/fitness")
