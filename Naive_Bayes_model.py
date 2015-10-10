@@ -83,6 +83,9 @@ def create_mini_LDA(texts, labels, num_topics, num_words):
 
 
 def create_Naive_Bayes(topic_type, num_topics, num_words):
+    """This program is based on the one taught in the tutorial:
+    http://zacstewart.com/2015/04/28/document-classification-with-scikit-learn.html
+    written by Zac Stewart."""
     if topic_type == "tfidf":
         pipeline = Pipeline([
             ('count_vectorizer',   CountVectorizer()),
