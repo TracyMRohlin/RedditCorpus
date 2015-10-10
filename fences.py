@@ -7,7 +7,7 @@ import numpy as np
 from Karma_Graph import load_data
 
 def fences(filepath):
-    data = load_data(filepath)[1]
+    data = load_data(filepath)
     lower = np.percentile(data, 25)
     upper = np.percentile(data, 75)
     interquartile_range = upper - lower

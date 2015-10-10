@@ -4,6 +4,7 @@ __author__ = 'tracyrohlin'
 import os
 import shutil
 import random
+from pprint import pprint
 
 from os.path import isfile, join, exists
 
@@ -42,11 +43,9 @@ def create_testing(onlyfiles, old_wd):
         new_file_path = new_wd+file
         shutil.move(old_file_path, new_file_path)
 
-
-if __name__ == "__main__":
-    wd = raw_input("Please enter the filepath where the the corpus files are saved\n")
-    onlyfiles = [f for f in os.listdir(wd) if isfile(join(wd,f)) and "Untagged" not in f][1:]
-
+def split_data():
+    onlyfiles = [f for f in os.listdir(".") if str(f).endswith(".txt")]
+    wd = "."
     response = raw_input("Would you like to include a validation set?\n")[0].lower()
     if response == "y":
         create_nontesting(onlyfiles, wd, 0.5, "training")
@@ -56,3 +55,7 @@ if __name__ == "__main__":
     else:
         create_nontesting(onlyfiles, wd, 0.66, "training")
         create_testing(onlyfiles, wd)
+
+
+if __name__ == "__main__":
+    split_data()
