@@ -9,10 +9,10 @@ import numpy as np
 from Karma_Graph import load_data
 
 def compute_mu_sd(filepath):
-    data = load_data(filepath)[1]
+    data = load_data(filepath)
     mu = np.average(data)
     sigma = np.std(data)
-    return round(mu, 2), round(sigma, 2)
+    return mu, sigma
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Computes the mean and standard deviation of all Karma scores stored"

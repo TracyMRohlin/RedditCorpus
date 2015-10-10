@@ -5,7 +5,8 @@ Assumptions:
 (1) Ignore title words.
 """
 
-import sys, os, re, math, csv
+import sys, os, re, math, json
+from collections import defaultdict
 
 
 def count(lines):
@@ -63,9 +64,8 @@ if __name__ == '__main__':
     os.chdir(path)
     idf = dict_idf(path)
 
-    with open("New_TFIDF.csv", "wb") as csvfile:
-        csvwriter = csv.writer(csvfile, delimiter=",")
-        csvwriter.writerow(["file name", "Karma", "Words"])
+    with open("New_TFIDF.json", "w") as jsonfile:
+        data = defaultdict(str)
         for file in os.listdir("."):
             if not str(file).endswith("txt"):
                 continue
@@ -74,5 +74,5 @@ if __name__ == '__main__':
             for s, w in top(n, path + file, idf):
                 words.append(w.encode('utf8'))
 
-            out = [file, karma_score] + words
-            csvwriter.writerow(out)
+            data[str(file)] = {'karma':karma_score, 'words':words}
+        json.dump(data, jsonfile, indent=4, sort_keys=True)

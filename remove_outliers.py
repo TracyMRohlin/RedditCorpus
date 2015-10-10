@@ -19,7 +19,7 @@ def remove_outliers(filepath):
         if file.endswith(".txt"):
             names = str(file).split()
             score_index = names.index("Karma") + 1
-            score = int(names[score_index])
+            score = float(names[score_index])
             if score < lower or score > upper:
                 i+=1
                 os.remove(file)
