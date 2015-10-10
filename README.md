@@ -92,3 +92,34 @@ get_random_post() does the same.  combine_texts() saves all the comments and the
 Karma_Graph.py creates a simple histogram with the Karma scores from each post/comment as the value:
 
 ![Example of the Karma graph.](https://github.com/TracyMRohlin/RedditCorpus/blob/master/fitness/RedditCorpus%20Karma%20Scores.png)
+
+Naive_Bayes_model.py creates a multinomial Naive Bayes classifier that classifies reddit posts that have scores 2 standard deviations above the gathered mean as "popular"
+
+    >> ./popularity_cutoff.py /Users/user/PycharmProjects/RedditCorpus/fitness
+    11.0
+          
+    >>./remove_outliers.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/fitness
+    A total of 43 outliers were removed from the corpus
+    
+To create a general NB classifier based on a bag of words model:
+
+    >>./Naive_Bayes_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/fitness bow
+    Total documents classified: 904
+    Score: 0.567455911369
+    Confusion matrix:
+    [[ 44  34]
+    [ 33 793]]
+
+To create a NB classifier based on the LDA model, the user has to provide the number of topics that the model should calculate probablities for, as well as the number per words that each topic should be associated with:
+
+    >> ./Naive_Bayes_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/fitness lda --num_topics 20 --num_words 20
+    Total documents classified: 904
+    Score: 0.483461448689
+    Confusion matrix:
+    [[ 35  43]
+    [ 34 792]]
+    
+    
+
+
+    
