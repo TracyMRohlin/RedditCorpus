@@ -1,6 +1,0 @@
-Title: guinness/NN world/NN record/NN attempt/NN approved-/NN pull-up/NNS minute/NN 100/CD lb/NN pack./NNP
-Karma: 455
-perform/VBD 14/CD pull-up/NNS minute/NN 100/CD lb/NN pack./NNP time/VBD pull-up/NN event/NNS guinness/NN allows/NNS let/NN go/IN bar/NN 14/CD without/IN let/VBG go/IN go/VBG 15./CD http://www.guinnessworldrecords.com/world-records/115659-most-pull-ups-in-one-minute-with-a-100-lb-pack/JJ https://www.youtube.com/watch?v=rvcu76-qxpa/NN second/JJ guinness/NN world/NN record/NN involve/VBG weight/VBD pullups./NNP first,/NN http://www.guinnessworldrecords.com/world-records/heaviest-weighted-pull-up/NN
-
-==============================
-

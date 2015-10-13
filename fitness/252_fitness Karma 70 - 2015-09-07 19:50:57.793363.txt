@@ -1,6 +1,0 @@
-Title: training/NN tuesday/NN
-Karma: 70
-welcome/NN training/NN tuesday:/NN discus/NN currently/RB training/NN it./NNP post/VBG routine,/NN please/NN make/VB sure/RB follow/NN [guidelines/NNS post/VBG routines](http://www.reddit.com/r/fitness/wiki/rules#wiki_3._how_to_get_a_routine_critique)./NNP encourage/VBD post/NN many/JJ detail/NNS want,/NN include/VBG progress/NN you've/JJ made,/NN routine/NN make/VBG feel./NNP picture/NNS video/NNS **are/JJ encouraged**./NNP post/NN regularly,/NN **please/NN include/NN link/NN previous/JJ training/NN tuesday/NN post**/-NONE- follow/NN progress/NN change/NNS you've/JJ make/VBD routine./NNP
-
-==============================
-

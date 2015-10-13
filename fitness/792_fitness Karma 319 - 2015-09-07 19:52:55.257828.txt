@@ -1,6 +1,0 @@
-Title: i'm/NN try/VBG lose/NN weight/NN find/NN lot/NN easier/JJR control/NN caloric/JJ intake/NN skip/NN breakfast/NN lunch/NN (sometimes/NNS i'll/JJ power/NN bar/NN something/NN fast)/NN eat/NN large/JJ dinner./NNP harm/NN this?/NN
-Karma: 319
-past/NN two/CD weeks,/NN occasionally/RB throughout/IN past/NN couple/NN months,/NN i've/JJ drink/VBG water/NN throughout/IN day/NN maybe/RB power/NN bar/NN something/NN like/IN eat/VBG dinner./NNP find/NN it's/NNS easier/JJR snack/NN day/NN distract/NN hunger/NN night/NN i'm/NN try/VBG go/IN bed./NNP usually/RB eat/NN 1000-1500/CD calorie/NN dinner/NN keep/VB stuffed./NNP adversely/RB affect/NN weight/NN loss/NN effectively/RB eat/VBG three/CD 500/CD calorie/NN meal/NNS day/NN without/IN snacking?/NN i'm/NN 18/m/5'9/210ish/JJ lbs./NNP
-
-==============================
-

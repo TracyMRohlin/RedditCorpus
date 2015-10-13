@@ -54,6 +54,22 @@ class CorpusLDA(CorpusTFIDF):
                 json.dump(data, jsonfile, indent=4, sort_keys=True)
         return " ".join(lda_words)
 
+
+    def create_json(self, modeltype, dictobject):
+        """Creates a csv file based on the objects in the tf-idf/lda model).  It takes the modeltype (tf-idf or LDA)
+        and the dictionary where the scores are stored as arguments."""
+
+        filename = "{} Scores.json".format(modeltype)
+        data = []
+        for word_id in dictobject.keys():
+            word = dictobject[word_id]["word"].encode('utf8')
+            scores = dictobject[word_id][modeltype]
+            out = [[word_id, word]+scores]
+            data.append(out)
+        if self.save:
+            with open(filename, "w") as jsonfile:
+                json.dump(data, jsonfile, indent=4, sort_keys=True)
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Creates a model of most popular topic words based on LDA.")

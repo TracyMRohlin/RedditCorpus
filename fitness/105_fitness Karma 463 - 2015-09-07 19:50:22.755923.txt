@@ -1,6 +1,0 @@
-Title: gym/NN etiquette./NNP overstep/NN bounds?/NN
-Karma: 463
-gym/NN relatively/RB new/JJ lifing./NNP however/RB saw/VBD girl,/NN use/VBG power/NN rack,/NN step/NN back/RB bar/NN load/NN unload/NN squats./NNP know/RB bad,/NN watch/VBG miss/VBD bar/NN hook/NNS drop/VBD weight./NNP tell/VBD safer/NN face/NN bar./NNP later/JJ saw/VBD hook/NNS level/NN head,/NN step/VBD suggest/VBD lower/VBG showed*/-NONE- how./NNP wrong/JJ me?/NN felt/VBD kinda/NN like/IN creep/NN don't/RB know/RB overstep/VBD bounds./NNP edit:/NN thanks/NNS everyone,/NN know/RB won't/RB start/NN talk/VBG anyone/NN gym,/NN see/NN something/NN like/IN again,/NN won't/RB hesitate./NNP also/RB change/VBD spell/VBG since/IN don't/RB want/NN people/NNS think/VBG give/VBD advice/NN shower/VBG someone./NNP
-
-==============================
-

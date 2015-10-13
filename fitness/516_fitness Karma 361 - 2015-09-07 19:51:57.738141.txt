@@ -1,6 +1,0 @@
-Title: til/IN world/NN record/NN raw/NN deadlift/NN six/CD pound/NNS higher/JJR world/NN record/NN equip/VBD deadlift/NN
-Karma: 361
->/NN record/NN raw/NN deadlift/NN \(a/NN deadlift/NN perform/VBD without/IN aid/NN deadlift/NN suit,/NN weight/NN belt/NN allowed\)/NN 460.396/CD kg/NN (1,015.00/-NONE- lb)/NN benedikt/NN magnusson./NNP lift/NN currently/RB exceeds/NNS equip/VBD record./NNP >/NN >/NN >/NN record/NN equip/VBD deadlift/NN (a/NN deadlift/NN perform/VBD use/VBG deadlift/NN suit/NN use/VBG standard/JJ bar/NN plate/NNS strap/NNS disallowed)/NN 457.5/CD kg/NN (1,009/NN lb)/NN andy/NN bolton.[http://en.wikipedia.org/wiki/deadlift#world_records]/NN seems/NNS odd,/NN would/MD think/NN equip/VBD deadlift/NN would/MD higher/JJR record/NN weight/NN raw/NN deadlift/NN edit:/NN ~~[here](https://www.youtube.com/watch?v=-o5u0hndygg)/NN world/NN record~~/NN edit/NN 2:/CD [this](https://www.youtube.com/watch?v=5m13ebl_jf0)/NN correct/NN video,/NN thanks/NNS /u/theedoor/JJ
-
-==============================
-

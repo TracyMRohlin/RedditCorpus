@@ -1,6 +1,0 @@
-Title: take/VB multiple/NN identical/JJ people,/NN workout/IN plan,/NN calorie/NN intake/NN protein/NN intake,/NN one/CD eats/NNS shit/NN ton/NN carbs/NNS shit/NN ton/NN fats,/NN lower/more/JJ balance/VBD amount/NN both../NNP
-Karma: 386
-actually/RB affect/NN change/NN body/NN type/NN time?/NN one/NNS eat/VBG carbs/more/JJ fat/NNS go/VBG see/NN less/JJR muscle/NN growth?/NN higher/JJR bf%?/NN can't/RB seem/NN find/NN actual/JJ answer/NN macro/NNS affect/NN look/NN besides/IN protein,/NN they?/NN balance/NN make/VB sure/RB don't/RB get/NN hungry/NN since/IN straight/RB eat/VBG carbs/NNS won't/RB fill/NN
-
-==============================
-

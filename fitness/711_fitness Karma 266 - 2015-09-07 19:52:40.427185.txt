@@ -1,6 +1,0 @@
-Title: post/NN shower/JJR sweat/NNS
-Karma: 266
-start/VBD run/VBG even/RB though/IN use/NN cool/NN period/NN 5/LS 10/CD minute/NNS i've/JJ notice/VBD showers,/NN either/DT hot/JJ cold,/NN sweat/NN right/RB therefore/RB 'negating'the/DT shower./NNP thought/NNS decrease/NN sweat/VBG workout/IN shower?/NN
-
-==============================
-

@@ -1,6 +1,0 @@
-Title: anyone/NN else/RB prefer/NN dumbbell/NN press/NN bench/NN press?/NN
-Karma: 1157
-don't/RB get/NN wrong,/NN still/RB bench/NN time/NN time,/NN feel/NN dumbbell/NN press/NN (incline,/NN flat,/NN decline)/NN benefit/NNS chest/NN more./NNP feel/NN way/NN squeeze/NN pecs/NNS exercise/NN easily./NNP
-
-==============================
-

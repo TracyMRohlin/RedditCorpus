@@ -1,6 +1,0 @@
-Title: i'm/NN sure/RB asked,/NN get/VBD fitness?/NN
-Karma: 162
-point/NN say/VBP "i/NN want/NN fit?"/NN unhealthy/JJ want/VBD change?/NN always/RB fitness?/NN motivate/VBD you?/NN
-
-==============================
-

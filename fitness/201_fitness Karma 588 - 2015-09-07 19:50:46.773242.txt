@@ -1,6 +1,0 @@
-Title: tomorrow/NN see/VBG russian/JJ powerlifters,/NN anton/NN solodov,/NN mikhail/NN koklyaev/NN ,andrey/JJ belyaev,/NN kirill/NN sarychev/NN ,andrey/JJ malanichev/NN ,/, konstantinovs/NNS constantin/NN pozdeev/NN opportunity/NN ask/NN guy/NNS questions./NNP
-Karma: 588
-question/NNS would/MD like/IN answer/NNS to?/NN hour/NNS part/NN seminar./NNP **/-NONE- sorry/NN delay/VBD update./NNP note/NNS seminar/NN
-
-==============================
-

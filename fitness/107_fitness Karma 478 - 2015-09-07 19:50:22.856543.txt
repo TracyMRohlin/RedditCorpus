@@ -1,6 +1,0 @@
-Title: even/RB stop/NN high/JJ intensity/NN activity/NN point/NN transition/NN sedentary/JJ lifestyle,/NN long/RB term/NN positive/JJ effect/NNS cardiovascular/JJ health?/NN
-Karma: 478
-example/NN something/NN like/IN running./NNP curious/JJ anyone/NN know/NNS study/NN reading/NN permanent/NN change/NNS people/NNS muscle/NNS work/VBG out./NNP perhaps/RB benefit/NN cardiovascular/JJ equivalent?/NN
-
-==============================
-

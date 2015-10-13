@@ -1,6 +1,0 @@
-Title: numbers?/NN
-Karma: 31
-wonder/VBG sort/NN number/NNS guy/NNS girl/NNS lift?/NN i've/JJ pretty/RB hard/RB last/JJ 4/LS months,/NN still/RB pretty/RB new,/NN gotten/RB rather/RB decent/NN progress./NNP deadlift/NN -/: 136kg/CD squat/IN -/: 100kg/CD bench/NN press/NN -/: 72kg/CD overhead/NN press/NN -/: 52kg/CD row/NN -/: 60x6/CD (bent/JJ over)/NN i'm/NN 20,/CD 6'3/CD 109kg(240),/CD probably/RB mid-high/JJ 20s/CD bf%./NNP love/IN hear/NN guy/NNS lift!/NN :)/NN
-
-==============================
-

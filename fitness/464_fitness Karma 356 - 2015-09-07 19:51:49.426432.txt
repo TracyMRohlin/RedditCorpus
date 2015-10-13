@@ -1,6 +1,0 @@
-Title: personal/JJ trainer/NNS make/VB habit/NN put/VBG pt/NN name/NN social/JJ media?/NN
-Karma: 356
-personal/JJ facebook/twitter/instagram?/NN never/RB see/NN md's/NNS phd's/NNS (who/NN obviously/RB qualify/VBD individuals)/NN change/VBG profile/IN name/NNS like/NNS 'john/JJ smith/IN phd'/NN 'john/JJ smith/IN md'/NN see/NN 'john/JJ smith/IN pt'/NN really/RB see/NN vocational/JJ careers,/NN beauticians,/NN chefs,/NN builders,/NN plumbers,/NN ever/RB pt's./NNP understand/NN business/NN page,/NN always/RB personal/JJ page/NNS spam/NN everyone/NN feeds./NNP
-
-==============================
-

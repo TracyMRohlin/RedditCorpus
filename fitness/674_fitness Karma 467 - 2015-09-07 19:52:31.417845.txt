@@ -1,6 +1,0 @@
-Title: suppose/VBD ohp/NN squat/IN rack?/NN
-Karma: 467
-gym/NN pretty/RB small/JJ 1/LS squat/IN rack./NNP 5x5/CD squats,/NN 5x5/CD ohp,/NN 3/LS minute/NNS set,/NN around/IN hour./NNP 4th/JJ set/NN ohp/NN fail/VBD last/JJ rep,/NN walk/VBD around/IN look/VBG 1.25kg/CD weight/NNS replace/NN 2.5s./CD walk/VBD back,/NN guy/NN sit/VBG row/VBG machine/NN last/JJ sets,/NN anything,/NN tell/VBD squat/IN rack/NN squats,/NN want/VBD shoulder/NN work,/NN could/MD use/NN shoulder/NN press/NN machine/NN smith/IN machine./NNP obviously/RB neither/DT legit/NN actual/JJ ohp,/NN squat/IN rack/NN provides/NNS safety/NN case/NN fail./NNP ask/VBD done,/NN wasn't,/NN tell/VBD anyway,/NN didn't/RB want/NN confrontation./NNP could've/JJ ask/VBD work/NN anyway./NNP wrong?/NN
-
-==============================
-

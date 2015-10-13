@@ -1,6 +1,0 @@
-Title: deal/NN myprotein/NN
-Karma: 189
-myprotein/NN another/DT deal/NN today./NNP 40%/CD entire/NN site./NNP discount/NN code/NN bfrewind./NNP http://us.myprotein.com/home.dept/JJ enjoy!/NN edit:/NN look/NNS like/IN deal/NN extend/VBD today/NN well./NNP 12/9/2014./CD
-
-==============================
-

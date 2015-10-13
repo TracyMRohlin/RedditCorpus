@@ -1,6 +1,0 @@
-Title: broscience:/NN ask/NN brofessor/NN 10/CD
-Karma: 659
-dom/NN delivers/NNS another/DT hilarious/JJ q&a/NN video/NN [ask/NN brofessor/NN 10](https://www.youtube.com/watch?v=cetdavvsxg8)/CD
-
-==============================
-

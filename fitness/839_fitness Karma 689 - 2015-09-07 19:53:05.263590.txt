@@ -1,6 +1,0 @@
-Title: finally/RB hit/VBD goal/NN 2/3/4/CD plate/NN lifts!/NN
-Karma: 689
-[bench](http://youtu.be/qvng9lucyp8)/NN [squat](http://youtu.be/37fbiglw-3k)/NN [deadlift](http://youtu.be/k3xuwjswqhe)/NN finally/RB hit/VBD goal/NNS 2/LS plate/NN bench,/NN 3/LS plate/NN squat,/NN 4/LS plate/NN deadlift./NNP start/VBD fitness/NN journey/NN 115lbs/CD 5'6"./CD take/VBD 3/LS year/NNS consistent/NN lift/VBG eat/VBG reach/NN today./NNP currently/RB sit/NN 150lbs/CD always/RB focus/VBD strength./NNP begin/VBD stronglifts/NNS 5x5,/CD start/VBG strength,/NN texas/NNS method,/NN finally/RB madcow./NNP never/RB focus/VBD aesthetics,/NN i've/JJ hit/VBD strength/NN goals,/NN i've/JJ incorporate/VBD hypertrophy/NN routine./NNP diet/NN always/RB issue./NNP there's/NNS reason/NN 120lbs/CD life./NNP start/VBD svunt/NN shake/NN everyday/NN addition/NN daily/RB meal/NNS hit/VBD around/IN 3,000/CD calorie/NNS daily/RB go/IN 118lbs/CD around/IN 140lbs./CD take/VBD year/NN happen,/NN another/DT year/NN get/NN 140lbs/CD 150lbs./CD i've/JJ 150lbs/CD since/IN end/NN 2013/CD way/NN end/NN 2014./CD size/NN wasn't/RB really/RB goal,/NN keep/VBD add/VBG weight/NN plateaued./NNP i've/JJ complete/VBD this,/NN next/JJ goal/NN hit/VBD 3/4/5/CD plate/NNS fill/NN medium/NN shirts./NNP
-
-==============================
-

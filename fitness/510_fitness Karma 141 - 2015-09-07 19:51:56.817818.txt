@@ -1,6 +1,0 @@
-Title: question/NN wear/NN headphone/NNS work/VBG
-Karma: 141
-if,/NN reason,/NN don't/RB access/NN music/NN workout/IN (dead/JJ batteries,/NN forgot/NN headphones,/NN etc.),/NN negative/JJ impact/NN workout?/NN so,/NN extent?/NN i've/JJ think/VBG give/VBG try/NN i'd/JJ hate/NN become/NN dependent/NN it./NNP currently/RB listen/RB whatever/NN playing/NN gym/NN i'm/NN there./NNP run,/NN run/NN outside/IN listen/RB noise/NNS around/IN me./NNP
-
-==============================
-

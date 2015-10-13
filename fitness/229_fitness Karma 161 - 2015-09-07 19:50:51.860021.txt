@@ -1,6 +1,0 @@
-Title: p90x/NNP
-Karma: 161
-anyone/NN ever/RB try/VBD p90x?/NN i'm/NN think/VBG try/VBG want/NN know/RB it's/NNS actually/RB like./NNP right/RB fitness/NN level/NN well/RB
-
-==============================
-

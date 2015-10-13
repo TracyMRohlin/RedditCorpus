@@ -1,6 +1,0 @@
-Title: rant/NN wednesday/NN
-Karma: 430
-it's/NNS noon/NN gmt/NN it's/NNS definitely/RB wednesday./NNP rant/NN time,/NN what's/NNS grind/VBG gear/NNS week?/NN suggest/VBD topic:/NN plateaus./NNP
-
-==============================
-

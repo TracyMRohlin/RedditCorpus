@@ -1,6 +1,0 @@
-Title: smoke?/NN
-Karma: 134
-affect/VBD fitness/NN tip/NNS maintain/VBG fitness/NN smoking?/NN
-
-==============================
-

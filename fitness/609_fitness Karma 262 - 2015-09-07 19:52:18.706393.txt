@@ -1,6 +1,0 @@
-Title: anybody/NN else's/NNS bench/NN press/NN plain/NN suck?/NN
-Karma: 262
-always/RB flat/JJ chest./NNP squat/IN dl/NN 400/CD lbs,/NN can't/RB press/NN save/NN life./NNP ac/NN separation/NN shoulder/NNS (two/CD different/JJ instances)/NN completely/RB start/VBD scratch/NN get/VBD back/RB gym/NN month/NNS ago./NN scratch,/NN mean/JJ 135lbs/CD way/NN chest./NNP use/VBD afraid/VBD fuck/NN shoulder/NN i'd/JJ hit/VBD parallel/NN triceps/NNS like/IN pussy./NNP never/RB press/VBD 225./CD i'm/NN prolly/RB 185ish/JJ 6-8/CD times./NNP chest/NN kill/NNS next/JJ day,/NN see/NN pump/NN lift,/NN chest/NN (lower/NN particular)/NN never/RB grow/VBZ strength/NN eff/VBG sucks./NNP press/NN weight/NN develop/NN bigger/JJR chest,/NN round/VBD chest?/NN
-
-==============================
-

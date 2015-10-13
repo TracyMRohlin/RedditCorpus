@@ -1,6 +1,0 @@
-Title: anyone/NN else/RB feel/NN like/IN weird/NN body/NN image/NN issue/NNS ?/.
-Karma: 325
-don't/RB feel/NN like/IN i'm/NN ever/RB good/JJ enough/RB shape./NNP go/IN gym/NN three/CD day/NNS week,/NN know/RB noticeable/JJ muscle/NN people,/NN look/NN either/DT think/NN i'm/NN scrawny/NN flabby./NNP know/RB i'm/NN bad/JJ shape,/NN can't/RB help/NN see/NN negative/JJ light./NNP *edit/NN you're/JJ awesome/NN fittit./NNP we're/JJ gonna/NN make/VB it./NNP
-
-==============================
-

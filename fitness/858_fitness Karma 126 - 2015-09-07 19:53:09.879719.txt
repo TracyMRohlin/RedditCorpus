@@ -1,6 +1,0 @@
-Title: anyone/NN else/RB love/IN eggs?/NN
-Karma: 126
-breakfast/NN lunch/NN dinner./NNP happy/NN yolk/NNS longer/JJR "bad/JJ you"/NN
-
-==============================
-

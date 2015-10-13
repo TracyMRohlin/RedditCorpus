@@ -1,6 +1,0 @@
-Title: weight/NN lift/VBG +/NN weight/NN loss/NN
-Karma: 307
-hiyo,/NN work/VBG gym/NN year/NN now,/NN seen/IN tremendous/JJ increase/NN muscle,/NN shape/VBG body/NN lot./NNP albeit/NN i've/JJ always/RB big,/NN i've/JJ come/NN think/NN lately/RB want/NN slim/NN lot./NNP work/NN (weight/JJ lifting)/NN 4/LS time/NNS week,/NN eat/NN lot/NN right/RB gain/NN musclemass./NNP however,/NN want/NN lose/NN weight/NN instead,/NN keep/VB work/VBG weights./NNP lowever/NN calorie/NN intake/NN negative./NNP weight/NN lift/VBG nothing/NN lose/VBG weight?/NN &/CC stop/NN lift/VBG weight/NNS 4/LS day/NNS cardio?/NN (trying/JJ avoid/VBD latter/NN it's/NNS fuck/VBG boring,/NN gotta/NN gotta/NN guess)./NNP i'm/NN currently:/NN 185cm/CD 100kg./CD aim/VBG 80kg./CD
-
-==============================
-

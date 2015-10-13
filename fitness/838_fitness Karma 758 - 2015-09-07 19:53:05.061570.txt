@@ -1,6 +1,0 @@
-Title: sudden/NN 100/CD lb/NNS drop/NN deadlift/NN strength?/NN
-Karma: 758
-title/NN basically/RB say/VBZ all./NNP hit/VBD pr/NN 510,/CD take/VBD week/NN recover./NNP come/VBD back/RB could/MD barely/RB hit/VBD 405/CD two./NN biggie,/NN couple/NN workout/NNS it'll/JJ come/NN back,/NN right?/NN it's/NNS almost/RB month,/NN today/NN fail/VBD 405/CD two./NN hell/NN go/VBG on?/NN i've/JJ gotten/RB pretty/RB good/JJ sleep/NN diet/NN pretty/RB good/JJ well./NNP lift/NNS take/VBN hits,/NN nearly/RB much/RB deads./NNP squat/IN 70/CD lb/NNS dead/NNS it's/NNS stronger./NNP fuck?/NN tl;dr:/NN deadlifts/NNS go/VBD shit/NN clue/NN
-
-==============================
-

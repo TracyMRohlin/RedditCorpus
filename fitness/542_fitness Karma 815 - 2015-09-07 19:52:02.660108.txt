@@ -1,6 +1,0 @@
-Title: james/NNS harrison/NN (nfl/JJ linebacker)/NN one/CD hand/VBD press/VBG 135/CD lb/NNS
-Karma: 815
-link/NN article/NN [here](http://www.sbnation.com/lookit/2015/2/13/8034945/james-harrison-lifting-barbell-one-handed-steelers-omg)./NNP [instagram](http://instagram.com/p/zdc8oejfnt/?modal=true&utm_source=partner&utm_medium=embed&utm_campaign=video)/NN consider/VBD good/JJ form?/NN would/MD someday/NN work/NN this?/NN
-
-==============================
-

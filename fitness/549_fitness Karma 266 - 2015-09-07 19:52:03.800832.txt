@@ -1,6 +1,0 @@
-Title: alightly/RB everyone,/NN want/NN know/RB fitness/NN story/NN is./NNP started,/NN get/VBD it,/NN you're/JJ now./NNP
-Karma: 266
-basically/RB title/NN says,/NN want/NN know/RB fitness/NN journey/NN detail/NNS it./NNP whether/IN reach/VBD original/JJ goal/NNS nay,/NN currently/RB aim/VBG for./NNP
-
-==============================
-

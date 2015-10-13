@@ -1,6 +1,0 @@
-Title: quest/NN inspire/NN others/NNS fitness/NN good/JJ health/NN 62yo/CD
-Karma: 514
-*/-NONE- 62yo,/CD 5'8",/CD bf/NN 12%,/CD keto/NN diet/NN gain/NNS 12/CD mths./NNP */-NONE- wo/MD -/: 4/LS day/NN split,/NN juggernaught/NN 2.0/CD acc./NNP */-NONE- nutrition/NN -/: whole/NN foods,/NN 3200cals/NNS per/IN day,/NN protein/NN powders./NNP */-NONE- sup/NNS -/: creatine/NN 5g,/CD vitd3/NNP (10,000iu),/NN kelp,/NN mag./NNP */-NONE- -/: album/NN http://imgur.com/a/kpzq8/NN
-
-==============================
-

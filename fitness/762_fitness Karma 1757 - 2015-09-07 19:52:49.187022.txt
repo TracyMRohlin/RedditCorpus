@@ -1,6 +1,0 @@
-Title: list/NN vegetable/NNS highest/JJS amount/NNS protein/NN weight/NN calorie/NNS
-Karma: 1757
-wanna/NN add/NN veggie/NNS chicken,/NN still/RB wanna/NN maximize/NN protein/NN count:/NN http://www.healthaliciousness.com/articles/vegetables-high-in-protein.php/JJ **edit:**/-NONE- [obviously/RB chicken/NN superior/JJ source/NN protein](http://38.media.tumblr.com/95333658323e1d9d82e7d414cc722f98/tumblr_inline_np55h565fn1qmczvi_500.gif)./NNP want/NN know/RB vegetable/JJ choice/NNS might/MD better/JJR others/NNS provide/VBG protein,/NN along/IN accompany/VBG micros/NNS (see/JJ kale/NN example)./NNP
-
-==============================
-

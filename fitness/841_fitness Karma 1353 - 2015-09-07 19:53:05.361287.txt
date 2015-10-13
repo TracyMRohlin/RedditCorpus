@@ -1,6 +1,0 @@
-Title: 239/CD pull-up/NNS marine/NN corp/NNS 239th/JJ birthday./NNP
-Karma: 1353
-happy/NN birthday/NN fellow/JJ marines./NNP november/NN 10,/CD 2014/CD https://www.youtube.com/watch?v=nsoctzhxccc/JJ reps:/NN 239/CD +1/NN time:/NN 35/CD minute/NNS bw:/NN 206/CD lb/NNS
-
-==============================
-

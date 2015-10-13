@@ -1,6 +1,0 @@
-Title: eat/VBG clean/healthy,/NN feel/NN sick/NN eat/NN rich/unhealthy/JJ food/NN normal?/NN
-Karma: 1893
-hi/NN wonder/VBG anyone/NN else/RB experience/VBD this./NNP use/VBD pretty/RB bad/medium/NN diet/NN recently/RB i've/JJ get/VBD habit/NN eat/VBG less/JJR junk/NN food./NNP however/RB today/NN eaten/RB pretty/RB badly/RB (hey/PRP cant/NN good/JJ time/NN hahaha)/NN feel/NN totally/RB sick./NNP realise/VBD probably/RB food/NN think/NN one/CD two/CD occasion/NNS feel/NN ill/NN break/VBG diet./NNP usual?/NN guess/NN body/NN tell/VBG old/JJ diet/NN pretty/RB bad!/NN
-
-==============================
-

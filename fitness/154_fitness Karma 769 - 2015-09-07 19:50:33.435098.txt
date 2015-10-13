@@ -1,6 +1,0 @@
-Title: really/RB fill/VBG food/NNS good/JJ you?/NN
-Karma: 769
-use/VBD couscous/JJ alot,/NN oatmeal/NN reg/NN morning./NNP need/VBP stuff/NN that's/NNS fill/VBG like/IN big/JJ ol'/NN fatty/NN baconator/NN actually/RB healthy./NNP job/NN physically/RB tax/VBG sometimes/RB miss/NN breaks,/NN couple/VBD hypoglycemia/NN really/RB suck./NNP help/NN out,/NN fitit?/NN
-
-==============================
-

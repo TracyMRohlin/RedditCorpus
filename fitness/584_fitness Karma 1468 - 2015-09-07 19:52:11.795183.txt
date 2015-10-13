@@ -1,6 +1,0 @@
-Title: site/IN coordinator/NN new/JJ company/NN campus/NN say/VBD omit/VBD 50-100/CD lb/NN dumbbell/NNS exercise/NN room/NN want/VBD promote/NN "wellness,/NN bigness."/NN
-Karma: 1468
-think/NN take/VBD way/NN ask/VBD question/NN 6'7"/CD 255/CD lbs./NNP but,/NN feel/NN like/IN anything/NN 50/CD lb/NNS go/VBG promote/NN wellness/NN point./NNP really/RB bad/JJ idea/NN 50-100/CD lb/NN dumbbell/NNS promote/NN overall/JJ health?/NN i've/JJ seen/IN pretty/RB trim/NN guy/NNS use/NN weights./NNP edit:/NN go/IN gym,/NN able/JJ give/JJ flexibility/NN knock/VBG least/JJS workout/NNS work/NN would/MD awesome./NNP additionally,/NN fit/NN people/NNS incentive/NN work/NN gym,/NN may/MD encourage/NN aren't/RB try/NN out--/NN plenty/NN people/NNS come/VBG check/VBG fit/NN teammate/NN friend./NNP
-
-==============================
-

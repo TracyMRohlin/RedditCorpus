@@ -3,10 +3,11 @@
 __author__ = 'girllunarexplorer'
 
 import random
+import sys
 import os
 import datetime
 import re
-import logging
+import datetime
 
 from collections import OrderedDict
 from pprint import pprint
@@ -16,7 +17,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from create_scores_csv import calculate_karma
-from make_time_interval import make_time_interval
+from make_time_interval import make_time_interval, extract_date
 
 
 user_agent = "Thesis project by /u/girllunarexplorer"
@@ -29,10 +30,12 @@ class RedditText(object):
 
     def __init__(self):
         super(RedditText, self).__init__()
+        self.first = None
+        self.last = None
         self.loc = None
         self.save = None
         self.subreddit = None
-        self.min_length = 25
+        self.min_length = 20
         self.stemmer = WordNetLemmatizer()
 
         self.stops = stopwords.words('english')
@@ -85,6 +88,8 @@ class RedditText(object):
             print error
             print "Trouble connecting. Please try again."
 
+    def convert_time(self, date):
+        return datetime.datetime.fromtimestamp(date).strftime('%Y-%m-%d %H:%M:%S')
 
     def submissions(self, n):
         """Grabs all the posts from a subreddit within the time period of one year from current date to a month
@@ -92,20 +97,30 @@ class RedditText(object):
         voted upon."""
         assert n > 0, "The number of posts must be more than zero."
 
-        first, last = make_time_interval(self.loc)
+        if not self.last:
+            self.first, self.last = extract_date(self.loc)
+
+        else:
+            self.first, self.last = make_time_interval(self.first)
 
         # create a timestamp query and search in that specific subreddit
-        query = 'timestamp:%d..%d' % (first, last)
+        query = 'timestamp:%d..%d' % (self.first, self.last)
         submissions = r.search(query, subreddit=self.subreddit, sort="new", limit=None, syntax='cloudsearch')
 
         # Make sure that the posts actually have a sufficient amount of text in them and have at least 1 point each
         res = []
+
         for submission in submissions:
+
             if len(res) < n:
-                if len(submission.selftext.lower()) >= self.min_length and submission.score > 0:
+                if len(submission.selftext.lower()) >= self.min_length and submission.score > 1:
+                    #ratio = r.get_submission(submission.permalink).upvote_ratio
+                    #print ratio
                     res.append((submission.title, submission))
             else:
               break
+
+
 
         # Sometimes the amount of submissions grabbed is small due to it having an excessive amount of images or links
         # as posts.  There may be a few text based post in the result, however, so the program asks if the user
@@ -117,6 +132,8 @@ class RedditText(object):
                                      "do you wish to proceed in processing text? [y/n]\n".format(diff))
                 if response[0].lower().strip() == "y":
                     return res
+                else:
+                    sys.exit(0)
 
             print "Sorry, r/{} appears to be an image heavy subreddit.".format(self.subreddit)
             response = raw_input("Please provide another subreddit or press ENTER for a random subreddit.\n"
@@ -135,31 +152,33 @@ class RedditText(object):
         # Collect all the text from the posts to return later as a corpus file or in terminal.
         for p in self.posts:
             print "\nWorking on post #{}...".format(i)
+            score = p[-1].score
             post_body = "Title: {0}\n" \
                         "Karma: {1}\n" \
                         "Date: {2}\n" \
-                        "{3}{4}".format(self.token_and_tag(p[0]),
-                                                         p[-1].score, p[-1].created,
+                        "{3}{4}".format(self.token_and_tag(p[0]), score, p[-1].created,
                                                          self.token_and_tag(p[-1].selftext),
                                                          "\n"*2)
             post_body += "="*30 +"\n\n"
             post += post_body
-            self.scores.append(p[-1].score)
+            self.scores.append(score)
 
             if self.save and self.function_call != "cp":
             # Checks to see that it is not being called by combine_texts(), which would save the text in one
             # large corpus file. If this check were not implemented, combine_texts() would end up saving three separate
             # files: one for when get_all_posts() is called, one for when get_all_comments() is called, and another
             # for when combine_texts() is called.
-                self.save_submissions(post_body, karma=p[-1].score, iteration=i)
+                self.save_submissions(post_body, karma=score, iteration=i)
             else: pass
 
             i+=1
 
         # the csv of all Karma scores will only be saved if the user specifies where to save the corpus files
         if self.loc:
+            self.scores.sort()
+            #pprint(self.scores)
             calculate_karma(self.subreddit, self.scores, "Karma Scores")
-        return "\nRetrieved posts:\n\n" + post
+        #return "\nRetrieved posts:\n\n" + post
 
 
     def get_all_comments(self):
@@ -186,8 +205,9 @@ class RedditText(object):
                 print "\nWorking on comment #{}...".format(i)
                 comment = self.token_and_tag(c.body)
                 if comment:
-                    total_comments += "New comment:\nKarma: {0}\n{1}\n\n".format(c.score, comment)
-                    scores.append(c.score)
+                    score = c.score
+                    total_comments += "New comment:\nKarma: {0}\n{1}\n\n".format(score, comment)
+                    scores.append(score)
                 i+=1
             total_comments += "\n"+"+"*30 +"\n"
 
@@ -241,6 +261,7 @@ class RedditText(object):
 
         only_post = random.choice(posts)
         text, score, title = only_post
+        score = score
 
         # checks to see if the post actually has any text in it
         if not text:
@@ -272,6 +293,7 @@ class RedditText(object):
                         comments.append([self.token_and_tag(body), c.score])
 
             only_post, score = random.choice(comments)
+            score = score
 
             if self.save:
                 self.save_submissions(only_post, karma=score)
@@ -309,7 +331,8 @@ class RedditText(object):
                 if pos in ["a", "n", "v"]:
                     word = self.stemmer.lemmatize(word, pos=pos)
                 # retags the term for parts of speech
-                tagged.append("/".join([word, tag]))
+                tagged.append(word)
+                #tagged.append("/".join([word, tag]))
             except:
                 print "Was unable to tag word due to unknown ASCII character."
                 untagged.append(word)
@@ -325,7 +348,7 @@ class RedditText(object):
     def remove_unwanted(self, text):
 
         text = re.sub(r"u\/.*[\s\t]*" # removes mentions to other redditors as well as contractions
-                      r"|\w+'\w+|"    # removes contractions like "don't" and "can't" from the text
+                      r"\w+'\w+|\w+'[A-Za-z]?"    # removes contractions like "don't" and "can't" from the text
                       r"\\u000a"      # removes anonymized usernames from text
                       r"|\[deleted\]" # removes the deleted tag
                       r"|http.*[\s\t]", "", text) # removes links from text

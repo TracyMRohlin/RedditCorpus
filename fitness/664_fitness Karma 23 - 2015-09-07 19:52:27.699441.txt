@@ -1,6 +1,0 @@
-Title: hey/PRP /r/fitness,/NN much/RB bench?/NN
-Karma: 23
-addition:/NN m/f,/NN height,/NN weight./NNP many/JJ time/NNS rep/NN 225?/CD
-
-==============================
-

@@ -1,6 +1,0 @@
-Title: check/NN ilya/NN ilyins/NNS 242kg/CD clean/JJ jerk/NN world/NN record/NN slow/JJ motion!/NN
-Karma: 1205
-ilya/NN ilyin/NN break/VBG world/NN record/NN home/NN country/NN 2014/CD world/NN weightlift/VBG championship/NNS almaty,/NN kazakhstan./NNP guy/NN human!/NN http://youtu.be/um4vxii2ng0/-NONE- *for/JJ american/NNS 533.5/CD lb/NN
-
-==============================
-

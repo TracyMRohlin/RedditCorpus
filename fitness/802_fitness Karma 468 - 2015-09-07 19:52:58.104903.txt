@@ -1,6 +1,0 @@
-Title: accord/VBG strength/NN standard/NNS -/: rank?/NN
-Karma: 468
-base/VBN [strength/JJ standard](http://www.strstd.com/),/NN rank/NN lifts?/NN use/NN actually/RB lift/VBD weight,/NN calculate/VBD garbage./NNP remember,/NN lie/NN internet,/NN brodin/NN smite/IN gains./NNP */-NONE- bench/NN -/: novice/NN */-NONE- squat/IN -/: novice/NN */-NONE- deadlift/NN -/: novice/NN */-NONE- press/NN -/: novice/NN
-
-==============================
-

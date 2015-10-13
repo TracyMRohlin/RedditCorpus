@@ -1,6 +1,0 @@
-Title: first/JJ pull-up/NN ever,/NN age/NN 23./CD
-Karma: 1980
-first/JJ pull/NN today./NNP i've/JJ wait/VBD moment/NN long/RB time./NNP i've/JJ always/RB bigger/JJR kid/VBD grow/VBG up./NNP remember/NN presidential/JJ fitness/NN test/NN would/MD every/DT year./NNP could/MD never/RB pull/NN up!!!/NN today/NN shock/VBD almost/RB get/VBD 2!!/CD i've/JJ work/VBG hard/RB gym./NNP fun/NN see/NN real/JJ progress!!/NN it!/NN 2/LS time/NNS week!/NN **do/NN 20-40/CD min/NNS cardio/NN machine/NNS choosing**/-NONE- set/NN 1:/CD incline/NN press/NN 3x15/CD (moderate/JJ weight)/NN 25lb/CD dumbbell/NNS cable/JJ tricep/NN pull/NN 3x12/CD 50-60lbs/CD *keep/JJ chest/NN proud,/NN knee/NNS swing*/-NONE- close/wide/JJ push/NN ups/NNS bench/NN 3x5/CD cardio/NN burst/NN ski/NN erg/NN 3x1/CD min/NN set/NN 2:/CD overhead/NN press/NN 3x12/CD 15-20lbs/CD single/JJ arm/NN row/NN 3x12/CD side/NN 35-40lbs/CD *shoulders/NNS back,/NN proud/NN chest,/NN think/NN back/RB brace/NN on*/-NONE- bosu/NN push/NN ups/NNS 3x5/CD side/NN cardio/NN burst/NN ski/NN erg/NN 3x1/CD min/NN set/NN 3:/CD cable/JJ pull/NN across/IN 3x12/CD side/NN 20lbs/CD wrist/NN curl/NN 3x12/CD side/NN 12lbs/CD reverse/NN fly/RB 3x12/CD 20-30lbs/CD cardio/NN burst/NN -/: ski/NN erg/NN 3x1/CD min/NN -/: use/NN weight/NNS work/NN you!/NN help/NNS i've/JJ lose/VBD 50/CD lbs!/NN :)/NN
-
-==============================
-

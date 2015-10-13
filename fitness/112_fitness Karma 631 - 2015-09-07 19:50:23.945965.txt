@@ -1,6 +1,0 @@
-Title: body/NN fat/JJ %/NN cold/NN
-Karma: 631
-live/JJ canada/NN winter/NN easily/RB hit/NNS -20c/JJ -4f./NNP i've/JJ steadily/RB lose/VBG bodyfat/IN happy/NN feel/VBG lot/NN colder/JJR due/JJ lack/NN fat./NNP since/IN fat/JJ help/NNS stay/NN insulate/VBD (im/JJ recommend/VBG folk/NNS gain/NN fat),/NN guess/NN feel/VBG cold/NN make/NNS seense./NNP anybody/NN live/JJ cold/NN weather/NN environment,/NN feel/NN like/IN gotta/NN layer/NN stay/NN warm,/NN specially/RB folk/NNS low/JJ bodyfat/IN %./:
-
-==============================
-

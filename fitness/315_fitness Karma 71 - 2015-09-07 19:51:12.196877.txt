@@ -1,6 +1,0 @@
-Title: favorite/JJ fitness/NN youtubers?/NN
-Karma: 71
-try/VBD search/VBG reddit/NN first,/NN recent/JJ post/NN like/IN least/JJS year/NN old./NNP discover/VBD hodgetwins/NNS (twinmuscleworkout),/NN strengthcamp,/NN omarisuf,/NN ct/NN fletcher/PRP$ etc./NNP new/JJ people/NNS pop/VBD lately,/NN anyone's/NNS favorite/NNS missed?/NN
-
-==============================
-

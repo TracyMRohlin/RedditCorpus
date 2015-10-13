@@ -2,6 +2,7 @@
 import os
 import json
 import argparse
+import operator
 
 from collections import defaultdict
 from gensim import corpora, models
@@ -17,16 +18,18 @@ from pprint import pprint
 class CorpusTFIDF(object):
 
 
-    def __init__(self, wd, save):
+    def __init__(self, wd, save=False):
         os.chdir(wd)
         self.popular_texts = []
         self.unpopular_texts = []
         self.corpus = []
-        self.all_texts = self.unpopular_texts.extend(self.unpopular_texts)
+        self.all_texts = []
         DEMARCATORS = ['==============================',
                'Title:', 'New post:', 'Comments from post:']
         self.cutoff = compute_cutoff(wd)
-        self.save = save
+        self.save = False
+        if save == "True":
+            self.save = True
 
     def read_texts(self):
         for file in os.listdir("."):
@@ -53,41 +56,40 @@ class CorpusTFIDF(object):
         else: self.corpus = list(self.yield_word_vectors(self.all_texts))
 
 
-    def create_tfidf(self, ptype):
+    def create_general_tfidf(self, ptype, n):
         self.create_corpus(ptype)
-        corpora.MmCorpus.serialize("corpus.mm", self.corpus)
         tfidf = models.TfidfModel(self.corpus, dictionary=self.dictionary)
-        tfidf_dict = defaultdict()
+        tfidf_dict = {}
+        top_tfidf_words = []
 
-        # creates a new dictionary object so that the tfidf scores and words can be be saved per row in a csv file
-        for k, v in self.dictionary.items():
-            new_dict = {"word": v, "tfidf": []}
-            tfidf_dict[k] = new_dict
-
+        # creates a new dictionary object of the top n scored words according to the tfidf model
         for words in self.corpus:
-            for word in tfidf[words]:
-                word_id, t_score = word
-                tfidf_dict[word_id]["tfidf"].append(round(t_score, 3))
+            new_dict = dict(sorted(dict((k, v) for (k, v) in tfidf[words]).items(), key=operator.itemgetter(1), reverse=True)[:n])
+            tfidf_dict.update(new_dict.items())
+            for word_id in new_dict.keys():
+                top_tfidf_words.append(self.dictionary[word_id])
+
+        #print "This is how many documents are in the corpus: " + str(len(self.corpus))
+        #print "This is how many words are in the dictionary: " + str(len(self.dictionary.keys()))
+        if self.save:
+            self.create_json("tfidf", tfidf_dict, n)
+
+        return " ".join(top_tfidf_words)
 
 
-        print "This is how many documents are in the corpus: " + str(len(self.corpus))
-        print "This is how many words are in the dictionary: " + str(len(self.dictionary.keys()))
-
-        self.create_json("tfidf", tfidf_dict)
 
 
 
-
-    def create_json(self, modeltype, dictobject):
+    def create_json(self, modeltype, dictobject, n):
         """Creates a csv file based on the objects in the tf-idf/lda model).  It takes the modeltype (tf-idf or LDA)
         and the dictionary where the scores are stored as arguments."""
 
-        filename = "{} Scores.json".format(modeltype)
+        filename = "Top {} {} Scores.json".format(n, modeltype)
         data = []
         for word_id in dictobject.keys():
-            word = dictobject[word_id]["word"].encode('utf8')
-            scores = dictobject[word_id][modeltype]
-            out = [[word_id, word]+scores]
+            word = self.dictionary[word_id].encode('utf8')
+            score = dictobject[word_id]
+            out = [word_id, word, score]
             data.append(out)
         if self.save:
             with open(filename, "w") as jsonfile:
@@ -96,7 +98,9 @@ class CorpusTFIDF(object):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Creates a model of most popular topic words based on LDA.")
     parser.add_argument("filepath", help="Argument must be the filepath where the KarmaScores.csv file is located")
+    parser.add_argument("n", help="The top n scored words for each document.")
     parser.add_argument("--save")
     args = parser.parse_args()
     new = CorpusTFIDF(args.filepath, args.save)
     new.read_texts()
+    new.create_general_tfidf("general", args.n)

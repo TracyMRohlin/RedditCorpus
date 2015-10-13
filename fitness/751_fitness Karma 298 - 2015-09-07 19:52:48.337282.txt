@@ -1,6 +1,0 @@
-Title: exercise/NNS adonis's/NNS belt?/NN (the/DT v-shape/NN thing/NN guys)/NN
-Karma: 298
-technical/JJ name/NN iliac/NN furrow/NN common/JJ name/NN adonis/apollo/NN belt/NN v-shape/NN curve/NN guys./NNP
-
-==============================
-
