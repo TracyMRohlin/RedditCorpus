@@ -1,6 +1,0 @@
-Title: kickstarter/NN project/NN design/VBN make/VB bench/NN press/VBG solo/NN much/RB safer/NN
-Karma: 214
-.../: doctor/NNS hate/NN him!/NN actually/RB think/VBD [pretty/JJ cool/NN idea](https://www.kickstarter.com/projects/754670088/maxx-bench-first-ever-gravity-release-bench-press?ref=hero_thanks)./NNP guess/NN application/NN home-gym/NN style/NN set/VBG there's/NNS nobody/NN save/NN crushed,/NN could/MD cool/NN see/NN normal/JJ gym,/NN too./NN
-
-==============================
-

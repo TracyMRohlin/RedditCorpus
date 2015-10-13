@@ -1,6 +1,0 @@
-Title: one/CD favorite/JJ healthy/JJ food!/NN
-Karma: 90
-recommend/NN one/CD healthy/JJ food/NN someone/NN reddit/NN try,/NN post/NN it!/NN mine/NN potato/NNS bit/NN garlic/JJ salt/NN
-
-==============================
-

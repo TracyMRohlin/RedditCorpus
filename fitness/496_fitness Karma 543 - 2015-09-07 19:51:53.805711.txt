@@ -1,6 +1,0 @@
-Title: set/NNS pas/NN time?/NN
-Karma: 543
-example/NN 5x5/CD routine/NNS bore/VBG amount/NN wait/VBG time./NNP
-
-==============================
-

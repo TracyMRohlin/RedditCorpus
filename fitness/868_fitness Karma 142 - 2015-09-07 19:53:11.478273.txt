@@ -1,6 +1,0 @@
-Title: what's/NNS top/JJ 5/LS meal/NNS //NN drink/NNS consume?/NN
-Karma: 142
-would/MD -/: oatmeal/NN -/: chicken/NN w/veggies/NNS -/: burger/NNS -/: protein/NN shake/NNS -/: vodka/NN +/NN (diet)/NN tonic/JJ water/NN
-
-==============================
-

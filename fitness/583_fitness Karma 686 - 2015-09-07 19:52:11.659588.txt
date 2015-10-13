@@ -1,6 +1,0 @@
-Title: anyone/NN lift/NNS heavy/JJ run/NNS long/RB distance?/NN
-Karma: 686
-hello,/NN start/VBG prepare/NN marathon/NN want/NN complete/JJ october./NNP love/IN lift/VBG main/NN concern,/NN muscle/NNS fit...but/JJ complete/VBG marathon/NN one/CD dream/NNS time/NN now./NNP anyone/NN else/RB run/NNS lifts?/NN so,/NN observations?/NN thanks!/NN
-
-==============================
-

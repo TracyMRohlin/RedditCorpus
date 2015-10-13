@@ -1,6 +1,0 @@
-Title: smith/IN machine/NN squat/IN three/CD month/NNS undo/NN form?/NN
-Karma: 680
-run/VBG s/NN year/NN relocate/VBD three-month/JJ internship./NNP go/IN gym/NN everyday,/NN plan/VBG switch/NN [this/NNS ppl/NN program](http://www.reddit.com/r/fitness/comments/37ylk5/a_linear_progression_based_ppl_program_for/)./NNP however,/NN real/JJ problem/NN gym/NN physical/JJ access/NN smith/IN machine./NNP since/IN heard/NN smith/IN machine/NN actually/RB embed/VBD bad/JJ form,/NN hesitant/NN workout/IN smith/IN machine./NNP plan/VBG comeback/NN three/CD months,/NN smith/IN machine/NN permanent/NN solution./NNP workout/IN smith/IN machine/NN three/CD month/NN period,/NN substitute/NN another/DT exercise?/NN
-
-==============================
-

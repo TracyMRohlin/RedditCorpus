@@ -1,6 +1,0 @@
-Title: soda/NN really/RB bad/JJ you?/NN
-Karma: 178
-i've/JJ drank/NN soda/NN day/NN highschool,/NN give/VBD college./NNP year/NNS ago/RB read/NN study/NN support/VBD calorie/NN count/VBG argument/NN weight/NN lose./NNP man/NN live/VBD junk/NN food./NNP lunch/NN would/MD oreos,/NN bag/NN chips,/NN diet/NN soda./NNP would/MD eat/NN like/IN every/DT meal/NN study,/NN keep/VBD calorie/NN count/NN 2k,/CD lose/VBD weight./NNP use/VBG calorie/NN count/VBG mentality/NN like/IN that,/NN soda/NN day/NN (non/JJ diet)/NN really/RB bad/JJ fit/NN daily/RB count?/NN
-
-==============================
-

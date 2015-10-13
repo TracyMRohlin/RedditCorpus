@@ -1,6 +1,0 @@
-Title: pick/VBG squat/IN that's/NNS right/RB
-Karma: 375
-article/NN i've/JJ find/VBD extremely/RB helpful/JJ fix/VBG squat:/NN http://www.schwarzenegger.com/fitness/post/picking-the-squat-thats-rght-for-you/PRP try/VBG low/JJ bar/NN squat/IN long/RB time/NN much/RB success./NNP never/RB felt/VBD good/JJ squat/IN find/VBD form/NN would/MD buckle/NN even/RB low/JJ weights./NNP watch/VBD video/NN measure/VBD femur./NNP i've/JJ get/VBD around/IN 2/LS foot/NN femur./NNP 6'1",/CD femur/PRP$ body/NN ration/NN 0.328,/CD normal/JJ ratio/NN 0.26./CD use/VBG advice/NN article,/NN go/VBD slightly/RB wider/NN stance/NN aggressive/JJ outward/NN angle/VBG feet./NNP difference/NN squat/IN incredible./NNP longer/JJR felt/VBD like/IN gangly/RB spider/NN collapse/NN upon/IN hole./NNP sorry/NN repost,/NN article/NN really/RB helpful/JJ figure/VBD i'd/JJ share./NNP
-
-==============================
-

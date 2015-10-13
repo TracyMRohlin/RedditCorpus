@@ -1,6 +1,0 @@
-Title: "bencher's/NNS chest"/NN real/JJ thing?/NN
-Karma: 144
-benchers/NNS chest/NN something/NN heard/NN someone/NN flat/JJ bench/NN press(no/NN dip/NNS incline)/NN undeveloped/VBD upper/NN pecs/NNS look/NN bad/JJ chest/NN general./NNP
-
-==============================
-

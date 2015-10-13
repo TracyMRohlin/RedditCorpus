@@ -1,6 +1,0 @@
-Title: 100/CD push-ups/NNS jack/NN
-Karma: 1351
-day/NN 1914,/CD *the*/-NONE- original/JJ fitness/NN authority/NN born,/NN [jack/JJ lalanne](https://en.wikipedia.org/wiki/jack_lalanne)./NNP man/NN single-handedly/RB inspire/VBD millions--/NN *billions*--/NN people/NNS get/NN couches,/NN get/NN shape,/NN eat/NN healthy./NNP jack/NN help/VBD people/NNS live/JJ longer/JJR change/NN life/NNS better./NNP unbelievably,/NN 1936/CD open/VBD first/JJ health/NN clubs,/NN brand/VBD quack!/NN >/NN "doctors,/NN however,/NN advise/VBD patient/NNS stay/NN away/RB health/NN club,/NN business/NN totally/RB unheard/NN time,/NN warn/VBD patient/NNS "lalanne/JJ exercise/NN 'nut,'/NN whose/NN program/NNS would/MD make/VB "muscle-bound"/NN cause/NN severe/RB medical/JJ problems."/NN jack/NN lalanne/NN die/VBD three/CD year/NNS ago/RB 96!!/CD would've/JJ turn/VBD 100/CD year/NNS old/JJ today./NNP **fittit,/NN c'mon!/NN let's/NNS drop/NN 100/CD push-ups/NNS jack.**/-NONE- excuses!/NN "ok,/NN maybe/RB tomorrow..."/NN whatever/NN fitness/NN level/NN is,/NN drop/NN 100/CD baby!/NN to.../NNP 5/LS set/NNS 20./CD 10/CD set/NNS 10./CD 20/CD set/NNS 5,/CD rest/NN minute/NNS set.../NNP it!/NN *just/JJ 100/CD push-ups/NNS row.*/-NONE- 100/CD jack./NNP 100/CD *you*./NNP jack/NN would've/JJ proud!/NN
-
-==============================
-

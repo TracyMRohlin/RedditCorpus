@@ -1,6 +1,0 @@
-Title: gym/NN story/NN saturday/NN
-Karma: 545
-it's/NNS saturday/NN afternoon/NN (in/JJ uk)/NN it's/NNS yet/RB love/IN reading/NN weird/NN wonderful/JJ seem/NN go/IN people/NNS gyms,/NN get/NN posting!/NN
-
-==============================
-

@@ -1,6 +1,0 @@
-Title: what's/NNS favorite/JJ thing/NN wear/NN gym?/NN
-Karma: 89
-what's/NNS favorite/JJ brand,/NN t-shirt,/NN pants,/NN shoes./NNP think/NN h&ms/NNS sport/NN apparel/NN really/RB good/JJ price/NN nothing/NN beat/NN nike./NNP what's/NNS favorite?/NN add/NN photo/IN extra/NN karma!/NN
-
-==============================
-

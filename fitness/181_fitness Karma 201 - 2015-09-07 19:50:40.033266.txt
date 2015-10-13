@@ -1,6 +1,0 @@
-Title: really/RB ideal/NN squat/IN every/DT workout?/NN
-Karma: 201
-right/RB i'm/NN look/VBG stronglifts/NNS awr/NN (i/NN would/MD run/NN 5x5/CD instead/RB 3x8-10)./CD awr/NN doesn't/RB worship/NN squat/IN order/NN allow/NN deadlift/NN volume./NNP edit:/NN primary/JJ goal/NN build/NN squat,/NN deadlift/NN row/NN heavy/JJ get/NN them./NNP secondary/JJ goal/NN increase/NN body/NN weight/NN much/RB possible./NNP edit:/NN i'm/NN go/VBG add/NN face/NN pulls,/NN benchrow/NN day/NN dlohp/NN day?/NN row/NN narrow/NN grip/NN pull/NN bar/NN low./NNP
-
-==============================
-

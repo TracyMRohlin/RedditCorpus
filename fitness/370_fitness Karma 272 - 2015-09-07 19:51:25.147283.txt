@@ -1,6 +1,0 @@
-Title: walk/VBD 75/CD mile/NNS 5/LS day/NNS gain/VBD 8/CD pounds?/NN possible?/NN
-Karma: 272
-admit/NN lot/NN carb-heavy/JJ food/NN trip/NN hike,/NN fruit/NN yogurt/NN ate/NN too,/NN consider/VBG much/RB walk/VBG (15/NN mile/NNS per/IN day)/NN can't/RB fathom/NN this./NNP much/RB attribute/VBD water/NN retention/NN muscle/NN gain?/NN
-
-==============================
-

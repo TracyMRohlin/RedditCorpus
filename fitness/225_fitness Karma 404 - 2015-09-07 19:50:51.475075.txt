@@ -1,6 +1,0 @@
-Title: update:/NN 1000/CD stair/NNS today.../NNP
-Karma: 404
-firefighter/NN fight/NN air/PRP$ climb/NN milwaukee/NN today,/NN want/VBD thank/NN everyone/NN tip/NNS word/NNS encouragement./NNP well/RB hop/VBD would/MD considering,/NN cool,/NN want/VBD say/VBP thanks/NNS guy/NNS helped./NNP bitch/NN climb/NN like/IN guy/NNS say/VBD well/RB worth/NN over!/NN thanks/NNS again!/NN
-
-==============================
-

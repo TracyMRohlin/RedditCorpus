@@ -1,6 +1,0 @@
-Title: adidas/NNS adipower/JJR sale/NN
-Karma: 200
-know/RB lot/NN probably/RB get/VBD adipowers/NNS holiday/NNS come/VBD across/IN amazon/NN sell/VBG black/NN red/VBD version/NN $125/NN (normal/JJ $200)./NNP use/NN code/NN 15athletic/JJ get/NN $15/NN top/JJ sale./NNP [adipower/NN amazon/NN link](http://www.amazon.com/gp/product/b00hn9i0o4/ref=od_aui_detailpages00?ie=utf8&psc=1)/NN
-
-==============================
-

@@ -1,6 +1,0 @@
-Title: fittit/NN weird/NN gym/NN habits?/NN
-Karma: 138
-mine/NN include/NN (bear/JJ mind/NN use/NN large/JJ commercial/JJ gym)/NN 1./CD ever/RB use/VBG locker/shower/bench/rack/JJ mildly/RB annoy/VBD take/VBN -/: especially/RB locker/NN reason./NNP 2./CD day/NNS programme/NN cardio/NN always/RB sneak/NN couple/NN upper/NN body/NN rep/NNS mini/NN swole/NN get/NN back/RB locker/NN room/NN feel/NN better/JJR cardio./NN 3./CD always/RB use/NN steam/NN room/NN session./NNP dunno/NN benefit/NN get/NN give/NNS time/NN go/IN back/RB real/JJ world./NNP
-
-==============================
-

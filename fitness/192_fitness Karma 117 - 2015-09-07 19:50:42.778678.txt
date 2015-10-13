@@ -1,6 +1,0 @@
-Title: everyone/NN seem/NN sl/NN 5x5/CD moment?/NN
-Karma: 117
-seem/NN see/NN start/VBG strength/NN stronglifts/NNS 5x5/CD mention/VBD often/RB eachother/PRP$ come/NNS recommend/VBG beginner/NN routines,/NN etc./NNP however,/NN seems/NNS it's/NNS literally/RB 1:8/CD ratio/NN start/VBG strength/NN stronglifts/NNS 5x5,/CD point/NN it's/NNS get/VBG pretty/RB uncommon/NN see/NN newbie/NN like/IN start/VBG strength/NN like/IN myself,/NN everyone/NN stronglifts./NNP reason/NN might/MD be?/NN
-
-==============================
-

@@ -9,10 +9,12 @@ from Karma_Graph import load_data
 
 def compute_cutoff(filepath):
     data = load_data(filepath)
-    mu = np.average(data)
+    """mu = np.average(data)
     sigma = np.std(data)
-    cutoff = mu + 2 * sigma
-    return round(cutoff)
+    cutoff = mu + 1 * sigma
+    return round(cutoff)"""
+    upper = np.percentile(data, 75)
+    return upper
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Computes the popularity cutoff (above 2 SD from the mean) of all "

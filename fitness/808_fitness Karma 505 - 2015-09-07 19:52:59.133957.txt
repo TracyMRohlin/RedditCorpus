@@ -1,6 +1,0 @@
-Title: noob/NN question:/NN suppose/VBD stretch?/NN
-Karma: 505
-go/VBD gym/NN first/JJ time/NN wednesday./NNP personal/JJ trainer/NN session/NN book/VBD could/MD learn/NN use/NN machines./NNP girl/NN reception/NN tell/VBD get/NN change/VBD wait/NN reception,/NN did./NNP guy/NN come/VBD tell/VBD i'd/JJ never/RB gym/NN idea/NN doing./NNP spent/NN 2/LS min/NNS walk/VBG treadmill/NN warm/NN spend/NN around/IN hour/PRP$ exercising./NNP upper-body/JJ day,/NN leg/NN day/NN tomorrow./NNP first/JJ exercise/NNS realise/VBD couldn't/RB straighten/RB arm/NNS anymore,/NN weird./NNP figure/VBD would/MD go/IN away/RB it's/NNS 24/CD hour/NNS hasn't./NNP i'm/NN give/VBG presentation/NN tomorrow/NN don't/RB want/NN pose/NN like/IN i'm/NN c3po./NN suppose/VBD stretch?/NN when?/NN locker/NN room?/NN reception?/NN gym/NN didn't/RB say/VBP something/NN get/VBD there?/NN also,/NN stretch/NN workout,/NN especially/RB can't/RB straighten/RB arms?/NN
-
-==============================
-

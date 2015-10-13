@@ -1,6 +1,0 @@
-Title: advantages/disadvantages/NNS go/VBG weight/NN set/NN vs./NNP go/VBG weight?/NN
-Karma: 213
-go/IN back/RB forth./NNP sometimes/RB start/VBG max/NN weight/NN (after/JJ warm-up/NN set)/NN go/IN weight/NN set./NNP time/NNS start/NN lighter/NN add/VBG weight/NN every/DT set./NNP difference/NN approaches?/NN
-
-==============================
-

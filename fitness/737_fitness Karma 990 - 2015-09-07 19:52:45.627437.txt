@@ -1,6 +1,0 @@
-Title: difference,/NN term/NNS muscle/NN recovery,/NN lie/VBG bed/VBD awake/NN versus/NN actually/RB asleep?/NN
-Karma: 990
-everyone/NN concern/VBD muscle/NN building/NN always/RB tell/VBD "make/JJ sure/RB get/NN 8/CD hour/NNS sleep",/NN "lots/NNS rest",/NN something/NN along/IN lines./NNP difference,/NN any,/NN someone/NN lie/NNS bed/VBD 8/CD hour/NNS &/CC truly/RB "sleeping"/NN 5-6/CD hours,/NN versus/NN someone/NN soundly/RB asleep/NN entire/NN 8/CD hours?/NN bottom/NN line:/NN never/RB tired/JJ enough/RB actually/RB fall/NN asleep/NN time/NN would/MD equate/NN 8/CD hour/NNS sleep./NNP
-
-==============================
-

@@ -1,6 +1,0 @@
-Title: 525/CD lb/NNS deadlift/NN 183/CD lb/NNS
-Karma: 894
-sumo/NN deadlift!/NN cag-/NN 525lb./CD dl:/NN http://youtu.be/vnok2ko99be/JJ live/JJ alaska,/NN state/NN record/NN 540/CD lb/NNS 181/CD lb/NNS weight/NN class./NNP day/NN video/NN routine/NN heavy/JJ sumo,/NN follow/VBD higher/JJR rep/NN conventional/JJ deadlift./NNP complete/JJ standard/JJ upper/NN back/RB bodybuilding/VBG style/NN exercise/NNS (bent/JJ barbell/NN rows,/NN dumbbell/NN rows,/NN isolate/VBD high/JJ row/NN machine,/NN etc)./NNP break/NN floor/NN body/NN lean/NNS axis/NNS hips,/NN isn't/RB ideal,/NN pretty/RB worn/NN point./NNP thanks/NNS consideration!/NN
-
-==============================
-

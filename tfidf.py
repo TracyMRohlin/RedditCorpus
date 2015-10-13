@@ -14,9 +14,10 @@ def count(lines):
     for line in lines:
         words = line.decode('utf8').strip().split()
         hit = len(words) > 0
-        if hit: hit = re.search('/', words[0])
+        #if hit: hit = re.search('/', words[0])
         if hit:
             for word in words:
+                print word
                 if not word in fd: fd[word] = 0.0
                 fd[word] += 1
     return fd
@@ -51,6 +52,7 @@ def top(n, post, idf):
             out.append((s, w))
         out.sort();
         out.reverse()
+        print out[:n]
         return out[:n]
 
 
@@ -72,6 +74,7 @@ if __name__ == '__main__':
             karma_score = karma(open(file).readlines())
             words = []
             for s, w in top(n, path + file, idf):
+                #print w
                 words.append(w.encode('utf8'))
 
             data[str(file)] = {'karma':karma_score, 'words':words}

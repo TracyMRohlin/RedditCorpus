@@ -1,6 +1,0 @@
-Title: gym/NN story/NN saturday/NN
-Karma: 517
-wasn't/RB yet,/NN is./NNP know/RB rules./NNP
-
-==============================
-

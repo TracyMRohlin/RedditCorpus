@@ -4,7 +4,12 @@ import datetime
 import time
 import os
 
-def make_time_interval(filepath):
+def make_time_interval(firstdate):
+    end_point = firstdate - 1
+    start_point = end_point - (360 * 24 * 7 * 240)
+    return start_point, end_point
+
+def extract_date(filepath):
     """Returns a tuple of the starting and ending point for time stamp searching on Reddit."""
 
     # Initially set the date to be 1 year to six months previously based on the fact that Reddit closes voting on those
@@ -34,10 +39,11 @@ def make_time_interval(filepath):
                 dates.append(date)
         # receives the oldest date from the text files and sets the endtime to one second before that
         # then the start set is set to 6 months previous
-        end_point = min(dates) - 1
-        start_point = end_point - (360 * 24 * 180)
+        start_point, end_point = make_time_interval(min(dates))
         return start_point, end_point
 
     except:
         return start_point, end_point
+
+
 

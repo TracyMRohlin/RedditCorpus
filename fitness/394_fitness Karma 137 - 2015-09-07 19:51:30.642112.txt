@@ -1,6 +1,0 @@
-Title: subtle/NN change/NNS notice/VBD body/NN since/IN become/VBG fit?/NN
-Karma: 137
-thing/NNS aren't/RB muscle/NN growth/fat/JJ loss/NN improve/VBN athletic/JJ performance./NNP i,/NN one,/NN shave/NN face/NN twice/NN much/RB since/IN weight/NN get/VBD heavy./NNP stubble/JJ thicker/NN coarser/NN well./NNP somewhat/RB similar/JJ vein,/NN i'm/NN convince/VBD nose/NN up/VBD booger/NN production/NN well./NNP there's/NNS noticeable/JJ uptick/NN volume/NN size/NN requires/NNS almost/RB constant/NN attention./NNP guess/NN make/NNS sense/NN since/IN body/NNS faculty/NNS amplified./NNP maybe/RB i'm/NN crazy./NNP insatiable/JJ appetite/NN go/VBZ without/IN saying.../NNP
-
-==============================
-

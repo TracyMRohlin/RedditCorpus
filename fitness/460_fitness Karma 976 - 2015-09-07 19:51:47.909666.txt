@@ -1,6 +1,0 @@
-Title: great/JJ article/NN mark/NN manson/NN weight/NN loss/NN
-Karma: 976
-http://markmanson.net/weight-loss/JJ article/NN entail/NNS journey/NN guy/NN lose/VBD 200/CD plus/RB weight./NNP talk/NNS weight/NN loss/NN much/RB psychological/JJ thing/NN physical/JJ effort./NNP know/RB obvious/JJ truth/NN find/VBD article/NN insightful/JJ inspiring./NNP
-
-==============================
-

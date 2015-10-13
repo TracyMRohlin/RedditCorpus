@@ -1,6 +1,0 @@
-Title: weightlift/VBG item/NNS invest/NN get?/NN
-Karma: 277
-could/MD small/JJ thing/NN like/IN body/NN fat/JJ caliber/NNS big/JJ thing/NN like/IN squat/IN rack./NNP interested/JJ see/NN get./NNP
-
-==============================
-

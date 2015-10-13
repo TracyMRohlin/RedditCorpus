@@ -1,6 +1,0 @@
-Title: work/VBG work/VBG 4/LS hour/NNS later.../NNP
-Karma: 521
-would/MD say/VBP part/NN workout/IN afternoon/NN like/IN squat/NNS row/NNS bench/NN couple/NN hour/NNS later/JJ suboptimal/JJ basically/RB difference./NNP can't/RB find/NN thing/NN online/NN support/NN either/DT way./NNP
-
-==============================
-

@@ -1,6 +1,0 @@
-Title: yawn/VBG lifting?/NN
-Karma: 335
-it's/NNS really/RB weird,/NN sometimes/RB uncontrollably/RB start/NN yawn/NN sets./NNP what's/NNS that?/NN
-
-==============================
-

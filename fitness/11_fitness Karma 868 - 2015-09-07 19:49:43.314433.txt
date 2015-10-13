@@ -1,6 +1,0 @@
-Title: "gym/NN person"/NN you?/NN
-Karma: 868
-people/NNS gym/NN nickname/NNS for,/NN (spacey/JJ asian,/NN ex-klone,/NN beardo/NN mine),/NN think/NN nickname/NN is?/NN gym/NN gym/NN goers?/NN i'm/NN almost/RB positive/JJ i'm/NN extra/NN sweaty/NN lanky/NN guy./NNP edit:/NN people/NNS keep/VB ask/VBG spacey/NN asian/JJ -/: he's/NNS guy/NN gym/NN absolutely/RB focus./NNP he'll/JJ set/NN wander/NN aimlessly/RB drive/NNS crazy,/NN like/IN he'll/JJ walk/NN step/NNS turn/NN around/IN turn/NN right/RB back/RB like/IN idea/NN he's/NNS 3/LS seconds./NNP drive/NNS b/LS o/NN n/NN k/NN e/NN r/NN s./NNP
-
-==============================
-

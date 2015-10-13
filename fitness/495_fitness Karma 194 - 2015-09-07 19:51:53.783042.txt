@@ -1,6 +1,0 @@
-Title: junk/NN food:/NN body?/NN
-Karma: 194
-eat/VBG certain/JJ type/NNS "bad"/NN food/NN pizza/NN etc/NN make/VB person/NN feel/NN like/IN crap/sluggish?/NN science/NN behind/IN this?/NN
-
-==============================
-

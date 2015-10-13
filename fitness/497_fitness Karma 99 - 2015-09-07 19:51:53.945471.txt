@@ -1,6 +1,0 @@
-Title: body/NN fat/JJ friday/NN
-Karma: 99
-please/NN post/NN age,/NN height/NN weight/NN along/IN picture/NN (indicate/JJ whether/IN flexed/unflexed)./NNP fun/NN way/NN get/NN rough/IN estimate/NN body/NN fat/JJ percentage./NNP remember,/NN don't/RB mean./NNP thread/NN show/VBG ab/NNS (or/JJ lack/NN thereof)/NN non-scientific/JJ estimate/NNS bf%./NNP don't/RB think/NN thread/NN need/NNS disclaimer/NN regardless/NN nobody/NN assume/NN top/JJ response/NN exact/JJ measurement./NNP don't/RB find/NN useful,/NN don't/RB participate./NNP thanks./NNP (copied/JJ part/NNS maribol's/NNS post/NN 6/CD month/NNS ago/RB copy/VBD zen_what's/NNS post/NN last/JJ week/NN copy/VBD allferik's/NNS post/NN previous/JJ week/NN copy/VBD previous/JJ body/NN fat/JJ friday/NN threads)/NN
-
-==============================
-

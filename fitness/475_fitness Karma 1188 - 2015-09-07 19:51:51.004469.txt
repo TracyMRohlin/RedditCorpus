@@ -1,6 +1,0 @@
-Title: two/CD favourite/IN dumbbell/NN exercise/NNS muscle/NN group?/NN
-Karma: 1188
-mine/NN would/MD be:/NN chest:/NN dumbbell/NN press,/NN dumbbell/NN pullover/NN back:/NN dumbbell/NN row,/NN deadlift/NN (with/JJ dumbbells)/NN legs:/NN goblet/NN squat,/NN rear/NN lunge/NN triceps:/NN standing/NN press,/NN tricep/NN kickback/NN biceps:/NN hammer/NN curls,/NN zottman/NN curl/NNS shoulders:/NN lateral/JJ raise,/NN overhead/NN dumbbell/NN press/NN abs:/NN weight/VBD crunches,/NN leg/NN raise/NNS (dumbbell/JJ feet)/NN
-
-==============================
-

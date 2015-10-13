@@ -1,6 +1,0 @@
-Title: wish/NN know/VBD start/VBD work/VBG out?/NN
-Karma: 1309
-cardio,/NN strength/NN training,/NN whatever,/NN know/RB wish/NN know/VBD started?/NN
-
-==============================
-

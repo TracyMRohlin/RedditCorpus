@@ -1,6 +1,0 @@
-Title: "healthiest"/NN fast/RB food?/NN
-Karma: 198
-job/NN requires/NNS go/IN nearby/JJ city/NN 1-2/CD time/NNS week/NN day/NN employer/NN provides/NNS credit/NN card/NN lunch./NNP day/NNS i'll/JJ enough/RB time/NN sit/NN 20-30/CD minute/NNS lunch/NN every/DT get/NN food/NN go/IN eat/NN driving./NNP i'm/NN bulk/NN bit/NN freedom/NN choices,/NN cut/VBD usually/RB get/NN subway/NN (whole/JJ wheat,/NN chicken,/NN bake/VBD chips),/NN that's/NNS get/VBG old,/NN would/MD good/JJ alternatives?/NN
-
-==============================
-

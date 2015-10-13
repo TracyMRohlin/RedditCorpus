@@ -1,6 +1,0 @@
-Title: deck/NN card/NNS push-up/NN challenge/NN
-Karma: 1410
-here's/NNS structure/VBD mine:/NN -/: pull/NN card/NN deck,/NN number/NN card/NN number/NN push/NN ups,/NN face/NN =/NN 10./CD ace/NN =/NN 11./CD -/: set/NN pushups,/NN start/VBG interval,/NN pull/NN card,/NN number/NN indicates/NNS rest/NN time/NN second/NNS (e.g./NNP pull/VBD king/VBG set/NN =/NN 20s/CD rest/NN king/VBG (10)/NN push/NN ups)./NNP king./NNP -/: interval/NNS may/MD seem/NN lengthy/JJ first,/NN quickly/RB realize/NN painful/JJ without/IN breaks./NNP -/: follow/NN rule/NNS strictly/RB possible/JJ -/: include/VBD 2/LS joker/NNS deck./NNP joker/NN =/NN 1/LS minute/NN break/NN -/: push/NN stance/NN matter/NN -/: alternate/NN wide,/NN narrow,/NN triangle,/NN knuckles./NNP whatever/NN feel/NN like./NNP -/: success/NN measure/VBD #/# combine/VBN card/NN value/NNS push/VBD stop/VBD follow/VBG rule/NNS strictly/RB get/VBD 225/CD possible/JJ amount/NN 360/CD first/JJ time/NN challenge./NNP take/VBD little/RB 20/CD minutes./NNP next/JJ time/NN slam/NN preworkout/IN realize/NN gym/NN close/VBD 20/CD minute/NNS ago/RB (definitely/RB me,/NN would/MD silly),/NN try/NN challenge./NNP it's/NNS hell./NNP
-
-==============================
-

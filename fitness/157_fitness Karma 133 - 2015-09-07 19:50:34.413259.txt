@@ -1,6 +1,0 @@
-Title: favorite/JJ low/JJ calorie/NN cocktails?/NN
-Karma: 133
-really/RB like/IN drink/NN skinny/NN bitch/NN vodka,/NN lime/NN juice,/NN water/NN ice./NNP favorite/JJ low/JJ calorie/NN cocktails?/NN i'm/NN talk/VBG low/JJ calorie/NN beverage/NNS actual,/NN mix/VBD cocktails./NNP suggestion/NNS try/NN out?/NN
-
-==============================
-

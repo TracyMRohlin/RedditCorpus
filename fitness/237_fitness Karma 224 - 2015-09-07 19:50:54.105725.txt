@@ -1,6 +1,0 @@
-Title: science/NN behind/IN hypertrophy/NN v/NNS strength/NN
-Karma: 224
-look/VBD faq,/NN look/VBD use/VBG google,/NN couldn't/RB find/NN answer/NN this./NNP know/RB lift/VBG different/JJ rep/NN range/NNS result/NN hypertrophy/NN strength/NN gains,/NN physiological/JJ difference/NNS muscle/NN mass/NN different/JJ conditions?/NN person/NN train/NNS purely/RB strength/NN able/JJ lift/NN weight/NN bodybuilder/NN despite/IN less/JJR muscle/NN mass,/NN i'm/NN trouble/NN finding,/NN understanding,/NN information/NN physically/RB happen/VBG case./NNP article/NNS scientific/JJ paper/NNS explains/NNS this?/NN
-
-==============================
-

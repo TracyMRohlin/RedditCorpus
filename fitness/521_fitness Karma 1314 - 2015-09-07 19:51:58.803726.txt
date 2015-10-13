@@ -1,6 +1,0 @@
-Title: diet/NN exercise/NN issue?/NN
-Karma: 1314
-172,/CD 5-11,/CD 25./CD goal/NN building/NN muscle/NN current/JJ time./NNP always/RB decent/NN shape,/NN cannot/RB shake/NN ./. flex/NN go/VBZ away/RB relax/VBD present./NNP know/RB body/NN fat/JJ is,/NN eat/NN healthily/RB probably/RB go/IN ice/NN cream/NN burger/NN 2x/CD month./NNP workout/NNS include/NN cardio/NN ab/NN exercises./NNP know/RB target/NN issue,/NN curious/JJ anyone/NN might/MD problem/NN alleviate/VBD it./NNP whether/IN better/JJR diet/NN exercise./NNP thanks./NNP edit:/NN see/NN something/NN many/JJ others/NNS issue/NN well./NNP focus/NN strengthen/VBG glutes/hamstrings,/NN stretch/VBG flexors,/NN vaccum/NN exercises,/NN posture/apt./NNP thank/NN advice/NN this./NNP
-
-==============================
-

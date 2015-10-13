@@ -1,6 +1,0 @@
-Title: bill/NN lose/VBD 100+/CD pound/NNS run/VBD first/JJ ultra-marathon/JJ saturday!/NN
-Karma: 632
-bill/NN run/VBD first/JJ ultra-marathon/JJ saturday./NNP let/NNS show/NN love./NNP put/VB quick/NN video/NN together/RB show/VBG epic/JJ day./NNP way/NN go/IN bill!/NN 55+/CD mile/NNS include/VBG mountain/NN summit/NN climb/NN mt./NNP monadnock/NN southern/NN new/JJ hampshire/NN sunset./NNP https://www.youtube.com/watch?v=50isi4xdqzm/NN
-
-==============================
-

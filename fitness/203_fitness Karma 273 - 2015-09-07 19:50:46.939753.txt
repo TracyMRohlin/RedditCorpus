@@ -1,6 +1,0 @@
-Title: question/NN etiquette/NN gym./NNP
-Karma: 273
-start/VBD strong/JJ lifts./NNP yesterday,/NN bent/NN rows./NNP two/CD olympic/JJ bar/NNS one/CD squat/IN rack/NN one/CD bench/NN press./NNP someone/NN use/VBG squat/IN rack./NNP go/VBD bench/NN press,/NN one/CD using,/NN put/VB olympic/JJ bar/NN ground./NNP put/VB two/CD 25/CD plate/NNS set/NN 5./CD take/VBD 25/CD plate/NNS return/VBD olympic/JJ bar/NN bench/NN press./NNP felt/VBD like/IN get/VBG looks./NNP anything/NN bad?/NN
-
-==============================
-
