@@ -29,7 +29,7 @@ If the subreddit is image based, it will ask the user to provide another subredd
     Please provide another subreddit or press ENTER for a random subreddit.
     >> xxfitness
     Current subreddit is xxfitness
-
+    
 Then the menu shows up with several options.
     
     Enter 'q' to quit.
@@ -52,16 +52,20 @@ Then the menu shows up with several options.
     Working...
     Saved entry into a corpus file.
     
-The corpus file has all non-ASCII characters removed as well as stop words.  It is then saved as a corpus file:
+The corpus file is tagged using the NLTK tagger, stemmed and has stop words removed.  It is then saved as a corpus file:
 
-    ...
+    Title: idea wrong two seconds giving skinnyfat nsfw
+    Karma: 6
+    Date: 1432356504.0
+    long story short skinny fat think weigh lbs working past two months seen zero improvements seriously starting bring record eat calories less weekdays consisting chicken breast seasoned something lean ground beef cauliflower mash spinach broccoli carrots flax whole grain pita bread eating week deli turkeychicken greek yogurt apples eat around calories per day weekend usually burger fries piece
+    
     New comment:
     Karma: 1
-    wasnt judgemental completely misjudge tone actually try nice surprise reply  never claim special snowflake ive really bad compare others
+    wasnt judgemental completely misjudge tone actually try nice surprise reply never claim special snowflake ive really bad compare others
 
     New comment:
     Karma: 5
-    promptly escort premise
+    promptly escort premise 
 
 
     ++++++++++++++++++++++++++++++
@@ -72,7 +76,7 @@ The get_random_comment() function grabs a number of new posts (as opposed to top
     Retrieved random comment:
     Karma: 1 
 
-    design intermittent fasting set equal intake workout rest days
+    design intermittent fasting set equal intake workout rest days 
 
 get_random_post() does the same.  combine_texts() saves all the comments and the post itself as one large corpus file.
 
@@ -80,30 +84,42 @@ Karma_Graph.py creates a simple histogram with the Karma scores from each post/c
 
 ![Example of the Karma graph.](https://github.com/TracyMRohlin/RedditCorpus/blob/master/fitness/RedditCorpus%20Karma%20Scores.png)
 
-Naive_Bayes_model.py creates a multinomial Naive Bayes classifier that classifies reddit posts that have scores above the 75th percentile.
+Naive_Bayes_model.py creates a multinomial Naive Bayes classifier that classifies reddit posts that have scores 2 standard deviations above the gathered mean as "popular"
 
     >> ./popularity_cutoff.py /Users/user/PycharmProjects/RedditCorpus/xxfitness
     22.0
     
-To create a general NB classifier based on a bag of words model on a validation set:
+To create a general NB classifier based on a bag of words model on the validation dataset ("t" for testing data):
 
-    >>./Naive_Bayes_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/xxfitness bow v
-    Total documents classified: 904
-    Score: 0.567455911369
+    >>./Naive_Bayes_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/xxfitness/ bow v
+    Classifying the initial data.
+    Creating the data frame.
+    Classifying the validation data.
+    Creating the data frame.
+    Total documents classified: 2001
+    Score: 0.741312741313
     Confusion matrix:
-    [[ 44  34]
-    [ 33 793]]
+    [[192  63]
+    [ 71 174]]
 
-To create a NB classifier based on the LDA model, the user has to provide the number of topics that the model should calculate probablities for, as well as the number per words that each topic should be associated with:
+To create a NB classifier based on the LDA model, the user has to provide the number of topics that the model should calculate probablities for:
 
-    >> ./Naive_Bayes_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/fitness lda --num_topics 20 --num_words 20
-    Total documents classified: 904
-    Score: 0.483461448689
+    >> ../Naive_Bayes_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/xxfitness/ lda v --num_topics 20
+    ...
+    Total documents classified: 2001
+    Score: 0.639316239316
     Confusion matrix:
-    [[ 35  43]
-    [ 34 792]]
-    
-    
+    [[187  68]
+    [143 102]]
 
+For an SVM using TFIDF scores:
 
-    
+    ./SVM_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/xxfitness/ tfidf v
+    ...
+    Total documents classified: 2001
+    Score: 0.771126760563
+    Confusion matrix:
+    [[219  36]
+    [ 94 151]]
+
+(Note, the regularization parameters can highly affect the accuracy of the SVM so users should play around with it to see what works best).
