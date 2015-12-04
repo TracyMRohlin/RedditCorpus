@@ -61,7 +61,7 @@ class RedditText(object):
             response = raw_input("Would you like to save as text files? [y/n]\n").lower().strip()[0]
             if response == "y":
                 self.save = True
-                default_loc = "/Users/tracyrohlin/PycharmProjects/RedditCorpus_copy/{}/".format(self.subreddit)
+                default_loc = "/Users/tracyrohlin/PycharmProjects/RedditCorpus/{}/".format(self.subreddit)
                 self.loc = raw_input("Press ENTER to use default, otherwise enter location."
                                     "\nThe default location is: " + default_loc +"\n")
                 if not self.loc:
@@ -98,7 +98,7 @@ class RedditText(object):
 
         for submission in submissions:
             if len(res) < n:
-                if len(submission.selftext.lower()) >= self.min_length and submission.score > 1:
+                if len(submission.selftext.lower()) >= self.min_length and submission.score >1:
 
                     res.append((submission.title, submission))
             else:

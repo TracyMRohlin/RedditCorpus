@@ -2,7 +2,6 @@
 __author__ = 'tracyrohlin'
 from Naive_Bayes_model import *
 from sklearn.linear_model import SGDClassifier
-from sklearn.svm import *
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 POPULAR = "POPULAR"
@@ -20,7 +19,7 @@ def create_SVM(training_data, other_data, topic_type, num_topics):
 
         pipeline = Pipeline([('vect', CountVectorizer(min_df=3)),
                         ('tfidf',  TfidfTransformer()),
-                        ('clf', SGDClassifier(random_state=1234, n_iter=2000, alpha=0.03, loss="log"))
+                        ('clf', SGDClassifier(random_state=1234, n_iter=2000, alpha=0.009, loss="log"))
                         ])
     elif topic_type == "lda":
         pipeline = Pipeline([('vect', TfidfVectorizer(min_df=3)),

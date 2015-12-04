@@ -4,7 +4,6 @@ __author__ = 'tracyrohlin'
 import argparse
 import numpy as np
 import os
-import lda
 
 from sklearn.metrics import confusion_matrix, f1_score
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
@@ -14,7 +13,6 @@ from sklearn.decomposition import LatentDirichletAllocation
 
 from os.path import isfile
 from pandas import DataFrame
-from pprint import pprint
 
 from text_reader import read_files
 from popularity_cutoff import compute_cutoff
