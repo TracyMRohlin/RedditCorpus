@@ -3,33 +3,33 @@ import os
 import json
 import argparse
 import operator
+import gensim
 
-from collections import defaultdict
 from gensim import corpora, models
 from text_reader import read_files
-from create_data_array import extract_karma
 from popularity_cutoff import compute_cutoff
-
-import pdb
+from collections import defaultdict
+from sklearn.feature_extraction.text import CountVectorizer
 from pprint import pprint
-#pdb.set_trace()
 
 
 class CorpusTFIDF(object):
 
 
-    def __init__(self, wd, save=False):
-        os.chdir(wd)
+    def __init__(self, wd=None, save=None):
+        if wd:
+            os.chdir(wd)
+            self.cutoff = compute_cutoff(wd)
         self.popular_texts = []
         self.unpopular_texts = []
         self.corpus = []
         self.all_texts = []
-        DEMARCATORS = ['==============================',
-               'Title:', 'New post:', 'Comments from post:']
-        self.cutoff = compute_cutoff(wd)
         self.save = False
-        if save == "True":
-            self.save = True
+        self.word_counts = defaultdict(int)
+        self.vectorizer = None
+        if save:
+            if save.lower()[0] == "t":
+                self.save = True
 
     def read_texts(self):
         for file in os.listdir("."):
@@ -37,6 +37,8 @@ class CorpusTFIDF(object):
             if not stuff:
                 continue
             text = stuff[1].split()
+            for word in text:
+                self.word_counts[word] +=1
             self.all_texts.append(text)
 
 
@@ -53,7 +55,8 @@ class CorpusTFIDF(object):
             self.corpus = list(self.yield_word_vectors(self.popular_texts))
         elif ptype == "unpopular":
             self.corpus = list(self.yield_word_vectors(self.unpopular_texts))
-        else: self.corpus = list(self.yield_word_vectors(self.all_texts))
+        else:
+            self.corpus = list(self.yield_word_vectors(self.all_texts))
 
 
     def create_general_tfidf(self, ptype, n):
@@ -61,20 +64,24 @@ class CorpusTFIDF(object):
         tfidf = models.TfidfModel(self.corpus, dictionary=self.dictionary)
         tfidf_dict = {}
         top_tfidf_words = []
+        n = int(n)
 
         # creates a new dictionary object of the top n scored words according to the tfidf model
         for words in self.corpus:
             new_dict = dict(sorted(dict((k, v) for (k, v) in tfidf[words]).items(), key=operator.itemgetter(1), reverse=True)[:n])
             tfidf_dict.update(new_dict.items())
+            tfidf_sentence = []
             for word_id in new_dict.keys():
-                top_tfidf_words.append(self.dictionary[word_id])
+                tfidf_sentence.append(self.dictionary[word_id])
+            new_sentence = " ".join(tfidf_sentence)
+            top_tfidf_words.append(new_sentence)
 
-        #print "This is how many documents are in the corpus: " + str(len(self.corpus))
-        #print "This is how many words are in the dictionary: " + str(len(self.dictionary.keys()))
+        print "This is how many documents are in the corpus: " + str(len(self.corpus))
+        print "This is how many words are in the dictionary: " + str(len(self.dictionary.keys()))
         if self.save:
             self.create_json("tfidf", tfidf_dict, n)
 
-        return " ".join(top_tfidf_words)
+        return top_tfidf_words
 
 
 
@@ -103,4 +110,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     new = CorpusTFIDF(args.filepath, args.save)
     new.read_texts()
-    new.create_general_tfidf("general", args.n)
+    print new.create_general_tfidf("general", args.n)
