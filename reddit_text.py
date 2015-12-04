@@ -35,17 +35,15 @@ class RedditText(object):
         self.save = None
         self.subreddit = None
         self.min_length = 20
-        self.stemmer = WordNetLemmatizer()
 
         self.stops = stopwords.words('english')
         # the nltk stopwords list isn't all inclusive (it mostly excludes contractions)
-        #  so to make it more comprehensive i've added more stopwords
+        # so to make it more comprehensive i've added more stopwords
         # following the list at http://www.ranks.nl/stopwords
         self.stops.extend(["against", 'cannot', 'could', 'he', "ought", "would"])
         self.stops = set(self.stops)
 
         self.function_call = ""
-        self.log = False
         self.posts = []
 
 
@@ -77,11 +75,6 @@ class RedditText(object):
                 if not os.path.exists(self.loc):
                     os.mkdir(self.loc)
                 os.chdir(self.loc)
-
-                # create a log file of all the words that couldn't be tagged by nltk
-                log = raw_input("Would you like to log all the untagged words? [y/n]\n").lower().strip()[0]
-                if log == "y":
-                    self.log = True
 
         except Exception as error:
             print error
@@ -306,12 +299,9 @@ class RedditText(object):
 
 
     def token_and_tag(self, text):
-        """Lemmatizes nouns, adjectives, and verbs as well as tags words in the text for parts of speech.
-        If the word is unable to be tagged (usually due to a unicode error) it is appended to untagged and can be
-        saved to a log file."""
+        """Returns clean texts and tokenizes it."""
         text += "\t" # add a tab to make sure that the re.sub() successfully removes any links at the end of the text block
         newtext = self.remove_unwanted(text)
-        untagged = []
         tagged = []
         tokens = newtext.split()
         for word in tokens:
@@ -319,23 +309,9 @@ class RedditText(object):
                 word = word.encode("utf-8").lower()
                 if word in self.stops:
                     continue
-                word, tag = nltk.pos_tag([word])[0]
-                pos = tag[0].lower()
-                # stems adjectives, nouns and verbs
-                """if pos in ["a", "n", "v"]:
-                    word = self.stemmer.lemmatize(word, pos=pos)
-                # retags the term for parts of speech"""
                 tagged.append(word)
-                #tagged.append("/".join([word, tag]))
             except:
                 print "Was unable to tag word due to unknown ASCII character."
-                untagged.append(word)
-
-        # saves any untagged files if the user wishes.  That way the text can be looked at and tagged or deleted.
-        if untagged and self.log == True:
-            ut_words = " ".join(untagged)
-            self.save_submissions(ut_words, Log=True)
-
         return " ".join(tagged)
 
 
@@ -351,18 +327,14 @@ class RedditText(object):
 
 
 
-    def save_submissions(self, text, karma=None, iteration=None, Log=False):
+    def save_submissions(self, text, karma=None, iteration=None):
         """Iteration labels the files "1_subreddit_date", "2_subreddit_date", etc.
-        to make it easier to distinguish separate posts from the same subreddit.
-        Log saves all the untagged words from previous functions to a separate file."""
+        to make it easier to distinguish separate posts from the same subreddit."""
 
         # Considering the files are saved in quick succession, it is easier to delineate files if they are
         # saved with an iteration number
         if iteration:
             file_name = "{}_{} Karma {} - {}.txt".format(iteration, str(self.subreddit), karma, str(datetime.datetime.now()))
-        # saves the log file that contains all the untagged words (usually emoticons and the like)
-        elif Log:
-            file_name = "Untagged - {} - {}.log".format(str(self.subreddit), str(datetime.datetime.now()))
         else:
             file_name = "{} Karma {} - {}.txt".format(str(self.subreddit), karma, str(datetime.datetime.now()))
 
