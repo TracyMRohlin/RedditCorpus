@@ -1,7 +1,0 @@
-Title: reward without food
-Karma: 26
-Date: 1327018700.0
-nonfood rewards work
-
-==============================
-
