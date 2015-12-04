@@ -29,15 +29,6 @@ If the subreddit is image based, it will ask the user to provide another subredd
     Please provide another subreddit or press ENTER for a random subreddit.
     >> xxfitness
     Current subreddit is xxfitness
-
-It then asks whether the user would like to save the text files and whether to save the untaggable words in a log file.   Untaggable words often occur do to unicode errors.
-
-    Would you like to save as text files? [y/n]
-    >>y
-    Press ENTER to use default, otherwise enter location.
-    The default location is: /Users/girllunarexplorer/PycharmProjects/xxfitness/
-    Would you like to log all the untagged words? [y/n]
-    >>y
     
 Then the menu shows up with several options.
     
@@ -63,18 +54,18 @@ Then the menu shows up with several options.
     
 The corpus file is tagged using the NLTK tagger, stemmed and has stop words removed.  It is then saved as a corpus file:
 
-    ...
-    New comment:
-    Karma: 1
-    response/NN necessarily/RB uncalled/VBD take/VBD much/RB get/NN acknowledge/NN hypocrisy./NNP seem/NN lack/VBG     self-awareness./NNP say/VBP something/NN like/IN saddens/NNS take/VBD look/NN history/NN apologise,/NN come/NNS across/IN quite/RB judgemental,/NN although/IN could/MD easily/RB word/VBD differently/RB tried./NNP yet/RB youre/NN surprise/VBD would/MD reply/RB similar/JJ manner./NNP think/NN suck/NNS youve/NN rough/IN go/IN aspect/NNS life,/NN dont/NN wish/NN upon/IN anyone,/NN youre/NN special/JJ snowflake./NNP cant/NN come/NN across/IN judgmental/JJ towards/NNS others/NNS expect/NN treat/NN differently./NNP
+    Title: idea wrong two seconds giving skinnyfat nsfw
+    Karma: 6
+    Date: 1432356504.0
+    long story short skinny fat think weigh lbs working past two months seen zero improvements seriously starting bring record eat calories less weekdays consisting chicken breast seasoned something lean ground beef cauliflower mash spinach broccoli carrots flax whole grain pita bread eating week deli turkeychicken greek yogurt apples eat around calories per day weekend usually burger fries piece
     
     New comment:
     Karma: 1
-    wasnt/NN judgemental./NNP completely/RB misjudge/VBD tone./NNP actually/RB try/VBG nice,/NN surprise/VBD reply./NNP     never/RB claim/NN special/JJ snowflake/NN ive/JJ really/RB bad/JJ compare/VBN others./NNP
+    wasnt judgemental completely misjudge tone actually try nice surprise reply never claim special snowflake ive really bad compare others
 
     New comment:
     Karma: 5
-    promptly/RB escort/VBD premise/NN
+    promptly escort premise 
 
 
     ++++++++++++++++++++++++++++++
@@ -85,7 +76,7 @@ The get_random_comment() function grabs a number of new posts (as opposed to top
     Retrieved random comment:
     Karma: 1 
 
-    http://www.1percentedge.com/ifcalc//NN design/VBN intermittent/NN fasting,/NN set/NN equal/JJ intake/NN workout/IN rest/NN     days./NNP
+    design intermittent fasting set equal intake workout rest days 
 
 get_random_post() does the same.  combine_texts() saves all the comments and the post itself as one large corpus file.
 
@@ -95,31 +86,40 @@ Karma_Graph.py creates a simple histogram with the Karma scores from each post/c
 
 Naive_Bayes_model.py creates a multinomial Naive Bayes classifier that classifies reddit posts that have scores 2 standard deviations above the gathered mean as "popular"
 
-    >> ./popularity_cutoff.py /Users/user/PycharmProjects/RedditCorpus/fitness
-    11.0
-          
-    >>./remove_outliers.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/fitness
-    A total of 43 outliers were removed from the corpus
+    >> ./popularity_cutoff.py /Users/user/PycharmProjects/RedditCorpus/xxfitness
+    22.0
     
-To create a general NB classifier based on a bag of words model:
+To create a general NB classifier based on a bag of words model on the validation dataset ("t" for testing data):
 
-    >>./Naive_Bayes_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/fitness bow
-    Total documents classified: 904
-    Score: 0.567455911369
+    >>./Naive_Bayes_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/xxfitness/ bow v
+    Classifying the initial data.
+    Creating the data frame.
+    Classifying the validation data.
+    Creating the data frame.
+    Total documents classified: 2001
+    Score: 0.741312741313
     Confusion matrix:
-    [[ 44  34]
-    [ 33 793]]
+    [[192  63]
+    [ 71 174]]
 
-To create a NB classifier based on the LDA model, the user has to provide the number of topics that the model should calculate probablities for, as well as the number per words that each topic should be associated with:
+To create a NB classifier based on the LDA model, the user has to provide the number of topics that the model should calculate probablities for:
 
-    >> ./Naive_Bayes_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/fitness lda --num_topics 20 --num_words 20
-    Total documents classified: 904
-    Score: 0.483461448689
+    >> ../Naive_Bayes_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/xxfitness/ lda v --num_topics 20
+    ...
+    Total documents classified: 2001
+    Score: 0.639316239316
     Confusion matrix:
-    [[ 35  43]
-    [ 34 792]]
-    
-    
+    [[187  68]
+    [143 102]]
 
+For an SVM using TFIDF scores:
 
-    
+    ./SVM_model.py /Users/tracyrohlin/PycharmProjects/RedditCorpus/xxfitness/ tfidf v
+    ...
+    Total documents classified: 2001
+    Score: 0.771126760563
+    Confusion matrix:
+    [[219  36]
+    [ 94 151]]
+
+(Note, the regularization parameters can highly affect the accuracy of the SVM so users should play around with it to see what works best).
