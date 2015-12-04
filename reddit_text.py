@@ -5,7 +5,6 @@ __author__ = 'girllunarexplorer'
 import random
 import sys
 import os
-import datetime
 import re
 import datetime
 
@@ -36,17 +35,15 @@ class RedditText(object):
         self.save = None
         self.subreddit = None
         self.min_length = 20
-        self.stemmer = WordNetLemmatizer()
 
         self.stops = stopwords.words('english')
         # the nltk stopwords list isn't all inclusive (it mostly excludes contractions)
-        #  so to make it more comprehensive i've added more stopwords
+        # so to make it more comprehensive i've added more stopwords
         # following the list at http://www.ranks.nl/stopwords
         self.stops.extend(["against", 'cannot', 'could', 'he', "ought", "would"])
         self.stops = set(self.stops)
 
         self.function_call = ""
-        self.log = False
         self.posts = []
 
 
@@ -60,7 +57,7 @@ class RedditText(object):
                 self.subreddit = r.get_random_subreddit()
             else:
                 self.subreddit = r.get_subreddit(subreddit)
-            print "Current subreddit is " + str(self.subreddit)+ "\n"
+            print "Current subreddit is " + str(self.subreddit) + "\n"
 
 
 
@@ -68,7 +65,7 @@ class RedditText(object):
             response = raw_input("Would you like to save as text files? [y/n]\n").lower().strip()[0]
             if response == "y":
                 self.save = True
-                default_loc = "/Users/tracyrohlin/PycharmProjects/RedditCorpus/{}/".format(self.subreddit)
+                default_loc = "/Users/tracyrohlin/PycharmProjects/RedditCorpus_copy/{}/".format(self.subreddit)
                 self.loc = raw_input("Press ENTER to use default, otherwise enter location."
                                     "\nThe default location is: " + default_loc +"\n")
                 if not self.loc:
@@ -79,17 +76,10 @@ class RedditText(object):
                     os.mkdir(self.loc)
                 os.chdir(self.loc)
 
-                # create a log file of all the words that couldn't be tagged by nltk
-                log = raw_input("Would you like to log all the untagged words? [y/n]\n").lower().strip()[0]
-                if log == "y":
-                    self.log = True
-
         except Exception as error:
             print error
             print "Trouble connecting. Please try again."
 
-    def convert_time(self, date):
-        return datetime.datetime.fromtimestamp(date).strftime('%Y-%m-%d %H:%M:%S')
 
     def submissions(self, n):
         """Grabs all the posts from a subreddit within the time period of one year from current date to a month
@@ -111,11 +101,9 @@ class RedditText(object):
         res = []
 
         for submission in submissions:
-
             if len(res) < n:
                 if len(submission.selftext.lower()) >= self.min_length and submission.score > 1:
-                    #ratio = r.get_submission(submission.permalink).upvote_ratio
-                    #print ratio
+
                     res.append((submission.title, submission))
             else:
               break
@@ -176,7 +164,6 @@ class RedditText(object):
         # the csv of all Karma scores will only be saved if the user specifies where to save the corpus files
         if self.loc:
             self.scores.sort()
-            #pprint(self.scores)
             calculate_karma(self.subreddit, self.scores, "Karma Scores")
         #return "\nRetrieved posts:\n\n" + post
 
@@ -312,12 +299,9 @@ class RedditText(object):
 
 
     def token_and_tag(self, text):
-        """Lemmatizes nouns, adjectives, and verbs as well as tags words in the text for parts of speech.
-        If the word is unable to be tagged (usually due to a unicode error) it is appended to untagged and can be
-        saved to a log file."""
+        """Returns clean texts and tokenizes it."""
         text += "\t" # add a tab to make sure that the re.sub() successfully removes any links at the end of the text block
         newtext = self.remove_unwanted(text)
-        untagged = []
         tagged = []
         tokens = newtext.split()
         for word in tokens:
@@ -325,31 +309,17 @@ class RedditText(object):
                 word = word.encode("utf-8").lower()
                 if word in self.stops:
                     continue
-                word, tag = nltk.pos_tag([word])[0]
-                pos = tag[0].lower()
-                # stems adjectives, nouns and verbs
-                if pos in ["a", "n", "v"]:
-                    word = self.stemmer.lemmatize(word, pos=pos)
-                # retags the term for parts of speech
                 tagged.append(word)
-                #tagged.append("/".join([word, tag]))
             except:
                 print "Was unable to tag word due to unknown ASCII character."
-                untagged.append(word)
-
-        # saves any untagged files if the user wishes.  That way the text can be looked at and tagged or deleted.
-        if untagged and self.log == True:
-            ut_words = " ".join(untagged)
-            self.save_submissions(ut_words, Log=True)
-
         return " ".join(tagged)
 
 
     def remove_unwanted(self, text):
 
         text = re.sub(r"u\/.*[\s\t]*" # removes mentions to other redditors as well as contractions
-                      r"\w+'\w+|\w+'[A-Za-z]?"    # removes contractions like "don't" and "can't" from the text
-                      r"\\u000a"      # removes anonymized usernames from text
+                      r"|\w+'\w+|\w+'[A-Za-z]?"    # removes contractions like "don't" and "can't" from the text
+                      r"|\\u000a"      # removes anonymized usernames from text
                       r"|\[deleted\]" # removes the deleted tag
                       r"|http.*[\s\t]", "", text) # removes links from text
         new = re.sub(r"[^A-Za-z\t\s\']*", "", text) # removes all punctuation from the document
@@ -357,18 +327,14 @@ class RedditText(object):
 
 
 
-    def save_submissions(self, text, karma=None, iteration=None, Log=False):
+    def save_submissions(self, text, karma=None, iteration=None):
         """Iteration labels the files "1_subreddit_date", "2_subreddit_date", etc.
-        to make it easier to distinguish separate posts from the same subreddit.
-        Log saves all the untagged words from previous functions to a separate file."""
+        to make it easier to distinguish separate posts from the same subreddit."""
 
         # Considering the files are saved in quick succession, it is easier to delineate files if they are
         # saved with an iteration number
         if iteration:
             file_name = "{}_{} Karma {} - {}.txt".format(iteration, str(self.subreddit), karma, str(datetime.datetime.now()))
-        # saves the log file that contains all the untagged words (usually emoticons and the like)
-        elif Log:
-            file_name = "Untagged - {} - {}.log".format(str(self.subreddit), str(datetime.datetime.now()))
         else:
             file_name = "{} Karma {} - {}.txt".format(str(self.subreddit), karma, str(datetime.datetime.now()))
 

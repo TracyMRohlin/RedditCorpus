@@ -11,7 +11,7 @@ from pprint import pprint
 
 def load_data(filepath):
     os.chdir(filepath)
-    file = glob.glob("*Scores.csv")[0]
+    file = glob.glob("*Karma Scores.csv")[0]
     data = np.loadtxt(file, delimiter=",", )
     return data
 
