@@ -7,13 +7,9 @@ import sys
 import os
 import re
 import datetime
+import praw
 
 from collections import OrderedDict
-from pprint import pprint
-
-import praw
-import nltk
-from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from create_scores_csv import calculate_karma
 from make_time_interval import make_time_interval, extract_date
