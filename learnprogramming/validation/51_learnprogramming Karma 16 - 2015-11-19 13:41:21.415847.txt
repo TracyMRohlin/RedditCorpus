@@ -1,0 +1,7 @@
+Title: python access object variables class methods
+Karma: 16
+Date: 1370387453.0
+title states seemingly unable access variables assigned self init method mean assigning access inside init class code traceback need traceback recent call last file launcherpy line module class calendar file launcherpy line calendar def printcalself imonthselfmonth iyearselfyear nameerror name ' defined help greatly appreciated compiling python ubuntu using geany ide edit thank help got programming background c teaching python go along guys helped got asking problem solved
+
+==============================
+

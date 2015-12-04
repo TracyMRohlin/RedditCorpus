@@ -1,0 +1,7 @@
+Title: using gui java
+Karma: 3
+Date: 1431927843.0
+fairly comfortable writing programs java text based programs want create attractive simple user interface instead program totally text based visually appealing download windowbuilder eclipse understand build nice interface figure link code buttons jframe seperate class incorporate main method main method jframe class confused someone help greatly appreciated
+
+==============================
+

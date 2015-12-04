@@ -1,0 +1,7 @@
+Title: regular database queries store data object
+Karma: 15
+Date: 1354133655.0
+set data essentially compose object point best practice order access data regularly make database queries initially transfer data object access edit java sqlite android matters persistence data worries said object stay alive app closed onclose anyone familiar android something like use update database user choses terminate point
+
+==============================
+

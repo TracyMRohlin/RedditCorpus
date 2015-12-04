@@ -1,0 +1,7 @@
+Title: language recommendation drawingdata processingserial communicationaudio playback
+Karma: 3
+Date: 1432257158.0
+working project right requires prototyping hardware software im electrical engineer professionally hardware development actually fun point dont much experience software though decently exposed c python processing arduino environment vaguely javaish software need develop need allow person draw curvy line window process data associated line import audio file display waveform send line data audio arduino mega core hardware prototype usb serial environment recommend use create personal project hope develop idea business end result needs compilable msi installer exe preferably licensing capabilities though may go open source id like option available edit research pointed toward c think sounds like best solution making clean efficient readytosell software agreed although also sort interested looking eclipse
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: help java recrusion reverse lines
+Karma: 8
+Date: 1385435734.0
+learning recursion problems writing ' program help appreciated thanks code compiles without syntax erros see wont work code import javaio import javautil class recursion static scanner infile null public static void mainstring args throws ioexception try infile new scannernew fileargs catch ioexception e systemoutprintlnfile may exist int count whileinfilehasnextline count infilenextline reversecount infileclose public static void reverseint counter throws ioexception infilehasnextline string infilenextline systemoutprintlns reversecounter
+
+==============================
+

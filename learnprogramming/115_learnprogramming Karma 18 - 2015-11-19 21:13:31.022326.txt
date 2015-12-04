@@ -1,0 +1,7 @@
+Title: conditionsjava
+Karma: 18
+Date: 1353901172.0
+way write segment code without second condition met want check see b array false becomes true segment code viceversa one thing first condition met goes second condition also meets one way keep second condition performed sorry best words int counter int n int j j n j bij false livestorecounter bijtrue systemoutprint else systemoutprint bij true livestorecounter bij false systemoutprint else livestorecounter bij false systemoutprint else systemoutprint counter systemoutprintln
+
+==============================
+

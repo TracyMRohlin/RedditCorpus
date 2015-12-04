@@ -1,0 +1,7 @@
+Title: creating maze solving robot
+Karma: 11
+Date: 1338433695.0
+title says working maze solving robot help appreciated read text white board scan surrounding walls open current location current direction mark current vertex visited get location adjacent vertices adjacent vertices visited cell exit neighbours visited check neighbours create path unvisited neighbour move unvisited adjacent cell scan surroundings check visited yes time solve maze vertex unvisited create path unvisited move unvisited cell properties vertex structure direction facing cell visited north wall east wall south wall west wall direction neighours based walls true false case interested programming c assembly programmed hcs microprocessor
+
+==============================
+

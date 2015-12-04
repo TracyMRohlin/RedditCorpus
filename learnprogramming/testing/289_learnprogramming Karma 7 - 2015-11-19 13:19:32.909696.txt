@@ -1,0 +1,7 @@
+Title: java libgdx get tiled tilemaps render get blank screen
+Karma: 7
+Date: 1385522941.0
+trying get tilemap render properly worked loaded new tmx tilemap wanted load different one went back tiled made new one replaced old tmx file new one run program nothing happens loads main sprite tilemap behind looked little bit found something needing pack tilemap tilesheet really need seemed work alright packed file get references code saw example thanks render method public void renderfloat delta gdxglglclearcolor gdxglglclearglglcolorbufferbit handlekeys freecamera camerapositionx playergetx camerapositiony playergety cameraupdate batchsetprojectionmatrixcameracombined renderersetviewcamera super important forget rendererrender batch block reason float deltatime gdxgraphicsgetdeltatime updatedeltatime batchbegin batchdrawplayergettexture playergetx playergety playergetwidth playergetheight batchend constructor tile map map new tmxmaploaderloadtilemapurl float scale f renderer new orthogonaltiledmaprenderermap scale variable tilemapurl string tilemapurl datalevelonetmx
+
+==============================
+

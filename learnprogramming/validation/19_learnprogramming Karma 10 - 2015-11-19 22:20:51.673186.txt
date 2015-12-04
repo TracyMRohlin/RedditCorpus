@@ -1,0 +1,7 @@
+Title: java simple d ball physics
+Karma: 10
+Date: 1310517371.0
+hey guys want create little app click makes ball based colour size type dropswhere clicked collides objects moves rolls aside accordingly hit bottom panel find info tried googling get engine websites got ball object set already code import javaawtcolor import javaawtgraphics creates ball based specifications public class ball private int ballrad private color ballcolour colorred private int ballx startappx ballrad default ball position center private int bally startappy ballrad argument constructor public ball public ballint rad rad rad ballrad rad ballcolour colorred public ballcolor colour ballcolour colour public ballint rad color colour rad rad ballrad rad ballcolour colour public ballint rad color colour int ballx int bally rad rad ballrad rad ballcolour colour ballx startappx ballx ballx int ballx ballrad bally startappy bally bally int bally ballrad public void drawgraphics g gsetcolorcolorblack gfillovalballx bally ballrad ballrad gsetcolorballcolourdarker gfillovalballx bally ballrad ballrad gsetcolorballcolour gfillovalballx bally ballrad ballrad ballrad ballrad gsetcolorcolorwhite gfillovalballxballrad ballyballrad ballrad ballrad setters getters
+
+==============================
+

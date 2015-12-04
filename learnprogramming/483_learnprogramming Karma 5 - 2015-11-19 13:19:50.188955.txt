@@ -1,0 +1,7 @@
+Title: java translating scanned string location d char array
+Karma: 5
+Date: 1385196825.0
+little background programming assignment eight queen problem twist user gets input location chess board program scans whether legal placing trying find way convert something like d board board x board imagine passing length string array converts first character corresponding number leaving second inputting board help appreciated open getting answer discussion comments
+
+==============================
+

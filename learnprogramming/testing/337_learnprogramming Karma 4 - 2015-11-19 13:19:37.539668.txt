@@ -1,0 +1,7 @@
+Title: teaching java issues deserializing array file java
+Karma: 4
+Date: 1385439714.0
+source code application supposed prompt user size array loops accepts user input via scanner utility complete writes array file via method wiring array disk public static void writingstring students fileoutputstream fout null try fout new fileoutputstreamcusersusernamedownloadsarraydata catch filenotfoundexception e eprintstacktrace objectoutputstream objout null try objout new objectoutputstreamfout catch ioexception e eprintstacktrace try objoutwriteobjectstudents catch ioexception e eprintstacktrace issue attempt deserialize array comes garbled various errors deserialize bit looks like also method public static void reading throws filenotfoundexception deserialize file try inputstream file new fileinputstreamcusersusernamedownloadsarraydata inputstream buffer new bufferedinputstreamfile objectinput put new objectinputstreambuffer deserialize array try string students stringputreadobject catch classnotfoundexception e eprintstacktrace display data string students null forstring kids students systemoutprintlnkids catch ioexception e eprintstacktrace one ' receiving revolving around declaring students array name think may syntax incorrect unfamiliar sure exactly question ask google first time attempting serialization help greatly appreciated d
+
+==============================
+

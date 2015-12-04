@@ -1,0 +1,7 @@
+Title: example procedural object oriented solutions
+Karma: 4
+Date: 1400817490.0
+hi taking introductory programming course trying make sure understand concepts procedural programming like c c versus object oriented programming wondering anyone easy understand example code showing solve problem using either procedural programming concepts object programming concepts anyone post something like look understand really appreciate able share class thanks
+
+==============================
+

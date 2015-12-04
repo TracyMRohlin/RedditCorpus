@@ -1,0 +1,7 @@
+Title: android number recognition app need guidance
+Karma: 2
+Date: 1399942004.0
+hello uni presented following task create app platform choice android take picture number college id card connect number person give point attending class familiar c cpp assembly sql hard task start try creating simple apps first link something start give tips much appreciated
+
+==============================
+

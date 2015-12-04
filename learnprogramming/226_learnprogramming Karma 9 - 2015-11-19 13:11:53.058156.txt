@@ -1,0 +1,7 @@
+Title: pass object value java
+Karma: 9
+Date: 1431922854.0
+googling delivers page page arguments whether java passes reference value pretty obviously passing reference modify original object screwing values class passed
+
+==============================
+

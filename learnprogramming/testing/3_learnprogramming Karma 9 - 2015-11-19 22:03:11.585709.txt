@@ -1,0 +1,7 @@
+Title: advantage functional language
+Karma: 9
+Date: 1325430187.0
+guess see point like imperative programming makes sense seems natural think reason use functional language sure one exists escapes
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: need help loop
+Karma: 3
+Date: 1431598751.0
+import javautilscanner import javatextdecimalformat public class hwquestion public static void main stringargs decimalformat formatter new decimalformat scanner keyboard new scannersystemin int numrooms int numfloors int totalrooms int numroomsoccupied systemoutprintlnplease enter number floors hotel numfloors keyboardnextint forint floor floor numfloors floor systemoutprintlnplease enter number rooms floor floor numrooms keyboardnextint systemoutprintlnplease enter number rooms occupied floor floor numroomsoccupied keyboardnextint gives error line says hwquestionjava error find symbol systemoutprintlnplease enter number rooms occupied floor floor symbol variable floor let use floor twice
+
+==============================
+

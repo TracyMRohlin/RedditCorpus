@@ -1,10 +1,9 @@
 """
 SQL-style merge routines
 """
-import types
 
 import numpy as np
-from pandas.compat import range, long, lrange, lzip, zip, map, filter
+from pandas.compat import range, lrange, lzip, zip, map, filter
 import pandas.compat as compat
 from pandas.core.categorical import Categorical
 from pandas.core.frame import DataFrame, _merge_doc
@@ -16,12 +15,10 @@ from pandas.core.index import (Index, MultiIndex, _get_combined_index,
 from pandas.core.internals import (items_overlap_with_suffix,
                                    concatenate_block_managers)
 from pandas.util.decorators import Appender, Substitution
-from pandas.core.common import ABCSeries
-from pandas.io.parsers import TextFileReader
+from pandas.core.common import ABCSeries, isnull
 
 import pandas.core.common as com
 
-import pandas.lib as lib
 import pandas.algos as algos
 import pandas.hashtable as _hash
 
@@ -30,11 +27,11 @@ import pandas.hashtable as _hash
 @Appender(_merge_doc, indents=0)
 def merge(left, right, how='inner', on=None, left_on=None, right_on=None,
           left_index=False, right_index=False, sort=False,
-          suffixes=('_x', '_y'), copy=True):
+          suffixes=('_x', '_y'), copy=True, indicator=False):
     op = _MergeOperation(left, right, how=how, on=on, left_on=left_on,
                          right_on=right_on, left_index=left_index,
                          right_index=right_index, sort=sort, suffixes=suffixes,
-                         copy=copy)
+                         copy=copy, indicator=indicator)
     return op.get_result()
 if __debug__:
     merge.__doc__ = _merge_doc % '\nleft : DataFrame'
@@ -160,7 +157,7 @@ class _MergeOperation(object):
     def __init__(self, left, right, how='inner', on=None,
                  left_on=None, right_on=None, axis=1,
                  left_index=False, right_index=False, sort=True,
-                 suffixes=('_x', '_y'), copy=True):
+                 suffixes=('_x', '_y'), copy=True, indicator=False):
         self.left = self.orig_left = left
         self.right = self.orig_right = right
         self.how = how
@@ -177,12 +174,25 @@ class _MergeOperation(object):
         self.left_index = left_index
         self.right_index = right_index
 
+        self.indicator = indicator
+
+        if isinstance(self.indicator, compat.string_types):
+            self.indicator_name = self.indicator
+        elif isinstance(self.indicator, bool):
+            self.indicator_name = '_merge' if self.indicator else None
+        else:
+            raise ValueError('indicator option can only accept boolean or string arguments')
+
+
         # note this function has side effects
         (self.left_join_keys,
          self.right_join_keys,
          self.join_names) = self._get_merge_keys()
 
     def get_result(self):
+        if self.indicator:
+            self.left, self.right = self._indicator_pre_merge(self.left, self.right)
+
         join_index, left_indexer, right_indexer = self._get_join_info()
 
         ldata, rdata = self.left._data, self.right._data
@@ -202,7 +212,43 @@ class _MergeOperation(object):
         typ = self.left._constructor
         result = typ(result_data).__finalize__(self, method='merge')
 
+        if self.indicator:
+            result = self._indicator_post_merge(result)
+
         self._maybe_add_join_keys(result, left_indexer, right_indexer)
+
+        return result
+
+    def _indicator_pre_merge(self, left, right):
+                
+        columns = left.columns.union(right.columns)  
+
+        for i in ['_left_indicator', '_right_indicator']:
+            if i in columns:
+                raise ValueError("Cannot use `indicator=True` option when data contains a column named {}".format(i))
+        if self.indicator_name in columns:
+            raise ValueError("Cannot use name of an existing column for indicator column")
+
+        left = left.copy()
+        right = right.copy()
+
+        left['_left_indicator'] = 1  
+        left['_left_indicator'] = left['_left_indicator'].astype('int8')  
+        
+        right['_right_indicator'] = 2     
+        right['_right_indicator'] = right['_right_indicator'].astype('int8') 
+        
+        return left, right
+
+    def _indicator_post_merge(self, result):
+
+        result['_left_indicator'] = result['_left_indicator'].fillna(0)
+        result['_right_indicator'] = result['_right_indicator'].fillna(0)
+
+        result[self.indicator_name] = Categorical((result['_left_indicator'] + result['_right_indicator']), categories=[1,2,3])
+        result[self.indicator_name] = result[self.indicator_name].cat.rename_categories(['left_only', 'right_only', 'both'])        
+ 
+        result = result.drop(labels=['_left_indicator', '_right_indicator'], axis=1)
 
         return result
 
@@ -220,6 +266,9 @@ class _MergeOperation(object):
                 if left_indexer is not None and right_indexer is not None:
 
                     if name in self.left:
+                        if len(self.left) == 0:
+                            continue
+
                         na_indexer = (left_indexer == -1).nonzero()[0]
                         if len(na_indexer) == 0:
                             continue
@@ -229,6 +278,9 @@ class _MergeOperation(object):
                             na_indexer, com.take_1d(self.right_join_keys[i],
                                                     right_na_indexer))
                     elif name in self.right:
+                        if len(self.right) == 0:
+                            continue
+
                         na_indexer = (right_indexer == -1).nonzero()[0]
                         if len(na_indexer) == 0:
                             continue
@@ -273,9 +325,17 @@ class _MergeOperation(object):
                                                  sort=self.sort, how=self.how)
 
             if self.right_index:
-                join_index = self.left.index.take(left_indexer)
+                if len(self.left) > 0:
+                    join_index = self.left.index.take(left_indexer)
+                else:
+                    join_index = self.right.index.take(right_indexer)
+                    left_indexer = np.array([-1] * len(join_index))
             elif self.left_index:
-                join_index = self.right.index.take(right_indexer)
+                if len(self.right) > 0:
+                    join_index = self.right.index.take(right_indexer)
+                else:
+                    join_index = self.left.index.take(left_indexer)
+                    right_indexer = np.array([-1] * len(join_index))
             else:
                 join_index = Index(np.arange(len(left_indexer)))
 
@@ -336,11 +396,11 @@ class _MergeOperation(object):
                         right_keys.append(rk)
                         join_names.append(None)  # what to do?
                     else:
-                        right_keys.append(right[rk].values)
+                        right_keys.append(right[rk]._values)
                         join_names.append(rk)
                 else:
                     if not is_rkey(rk):
-                        right_keys.append(right[rk].values)
+                        right_keys.append(right[rk]._values)
                         if lk == rk:
                             # avoid key upcast in corner case (length-0)
                             if len(left) > 0:
@@ -349,7 +409,7 @@ class _MergeOperation(object):
                                 left_drop.append(lk)
                     else:
                         right_keys.append(rk)
-                    left_keys.append(left[lk].values)
+                    left_keys.append(left[lk]._values)
                     join_names.append(lk)
         elif _any(self.left_on):
             for k in self.left_on:
@@ -357,10 +417,10 @@ class _MergeOperation(object):
                     left_keys.append(k)
                     join_names.append(None)
                 else:
-                    left_keys.append(left[k].values)
+                    left_keys.append(left[k]._values)
                     join_names.append(k)
             if isinstance(self.right.index, MultiIndex):
-                right_keys = [lev.values.take(lab)
+                right_keys = [lev._values.take(lab)
                               for lev, lab in zip(self.right.index.levels,
                                                   self.right.index.labels)]
             else:
@@ -371,10 +431,10 @@ class _MergeOperation(object):
                     right_keys.append(k)
                     join_names.append(None)
                 else:
-                    right_keys.append(right[k].values)
+                    right_keys.append(right[k]._values)
                     join_names.append(k)
             if isinstance(self.left.index, MultiIndex):
-                left_keys = [lev.values.take(lab)
+                left_keys = [lev._values.take(lab)
                              for lev, lab in zip(self.left.index.levels,
                                                  self.left.index.labels)]
             else:
@@ -402,19 +462,14 @@ class _MergeOperation(object):
                 if self.left_on is None:
                     raise MergeError('Must pass left_on or left_index=True')
             else:
-                if not self.left.columns.is_unique:
-                    raise MergeError("Left data columns not unique: %s"
-                                     % repr(self.left.columns))
-
-                if not self.right.columns.is_unique:
-                    raise MergeError("Right data columns not unique: %s"
-                                     % repr(self.right.columns))
-
                 # use the common columns
                 common_cols = self.left.columns.intersection(
                     self.right.columns)
                 if len(common_cols) == 0:
                     raise MergeError('No common columns to perform merge on')
+                if not common_cols.is_unique:
+                    raise MergeError("Data columns not unique: %s"
+                                     % repr(common_cols))
                 self.left_on = self.right_on = common_cols
         elif self.on is not None:
             if self.left_on is not None or self.right_on is not None:
@@ -780,9 +835,14 @@ class _Concatenator(object):
             if keys is None:
                 keys = sorted(objs)
             objs = [objs[k] for k in keys]
+        else:
+            objs = list(objs)
+
+        if len(objs) == 0:
+            raise ValueError('No objects to concatenate')
 
         if keys is None:
-            objs = [obj for obj in objs if obj is not None ]
+            objs = [obj for obj in objs if obj is not None]
         else:
             # #1649
             clean_keys = []
@@ -892,7 +952,7 @@ class _Concatenator(object):
 
             # stack blocks
             if self.axis == 0:
-                new_data = com._concat_compat([x.values for x in self.objs])
+                new_data = com._concat_compat([x._values for x in self.objs])
                 name = com._consensus_name_attr(self.objs)
                 return Series(new_data, index=self.new_axes[0], name=name).__finalize__(self, method='concat')
 
@@ -901,8 +961,14 @@ class _Concatenator(object):
                 data = dict(zip(range(len(self.objs)), self.objs))
                 index, columns = self.new_axes
                 tmpdf = DataFrame(data, index=index)
-                if columns is not None:
-                    tmpdf.columns = columns
+                # checks if the column variable already stores valid column names (because set via the 'key' argument
+                # in the 'concat' function call. If that's not the case, use the series names as column names
+                if columns.equals(Index(np.arange(len(self.objs)))) and not self.ignore_index:
+                    columns = np.array([ data[i].name for i in range(len(data)) ], dtype='object')
+                    indexer = isnull(columns)
+                    if indexer.any():
+                        columns[indexer] = np.arange(len(indexer[indexer]))
+                tmpdf.columns = columns
                 return tmpdf.__finalize__(self, method='concat')
 
         # combine block managers

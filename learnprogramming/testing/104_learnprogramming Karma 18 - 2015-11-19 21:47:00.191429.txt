@@ -1,0 +1,7 @@
+Title: android development question
+Karma: 18
+Date: 1337494309.0
+hello recently downloaded andorid sdk put eclipse attempted run basic hello world application emulator got expected hello world come screen someone tell problem picture thank
+
+==============================
+

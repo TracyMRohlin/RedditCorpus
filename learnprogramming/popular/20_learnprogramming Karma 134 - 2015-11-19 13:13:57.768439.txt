@@ -1,0 +1,7 @@
+Title: facebook infinite scroll magic
+Karma: 134
+Date: 1400804823.0
+infinite scroll seems pretty magical unlike infinite scrolls encounter seems store content near window best explained example go facebook newsfeed note nam someone posted something near top feed scroll bunch let infinite scrolls updates happen cmdf ctrlf name person top page find function fail locate person seems pretty cool probably something preventing infinite scrolling eating tons memory anyone facebook pulling point websites implemented
+
+==============================
+

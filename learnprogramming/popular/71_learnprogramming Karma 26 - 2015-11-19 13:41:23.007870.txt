@@ -1,0 +1,7 @@
+Title: help buttons xcode
+Karma: 26
+Date: 1370300642.0
+process making iphone app button problems made single page applications buttons work code connections button program tabs app crashes whenever press button button code looks like m file import bidfacilitiesviewcontrollerh interface bidfacilitiesviewcontroller end implementation bidfacilitiesviewcontroller ibactiononebuttonpressedidsender uialertview alert uialertview alloc initwithtitleworking messageworking delegatenil cancelbuttontitleback otherbuttontitlesnil alert show voidviewdidload super viewdidload additional setup loading view nib voiddidreceivememorywarning super didreceivememorywarning dispose resources recreated end looks like h file import uikituikith interface bidfacilitiesviewcontroller uiviewcontroller ibactiononebuttonpressedidsender end help greatly appreciated edit grammer edit information crash arc app finalc uiviewcontroller onebuttonpressed unrecognized selector sent instance xa arc app finalc terminating app due uncaught exception ' reason 'uiviewcontroller onebuttonpressed unrecognized selector sent instance first throw call stack xc xcfee xddbd xcbbc xce xe xc x xd xdf xde xcef xf xda x xbeddf xbedad xcbf xc xcbb xcf xceb xbece xbec xffc xefd xe libcabidylib terminate called throwing exception lldb
+
+==============================
+

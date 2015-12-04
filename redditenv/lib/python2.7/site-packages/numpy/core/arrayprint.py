@@ -19,8 +19,10 @@ import sys
 from functools import reduce
 from . import numerictypes as _nt
 from .umath import maximum, minimum, absolute, not_equal, isnan, isinf
-from .multiarray import format_longfloat, datetime_as_string, datetime_data
+from .multiarray import (array, format_longfloat, datetime_as_string,
+                         datetime_data)
 from .fromnumeric import ravel
+from .numeric import asarray
 
 if sys.version_info[0] >= 3:
     _MAXINT = sys.maxsize
@@ -29,10 +31,11 @@ else:
     _MAXINT = sys.maxint
     _MININT = -sys.maxint - 1
 
-def product(x, y): return x*y
+def product(x, y):
+    return x*y
 
 _summaryEdgeItems = 3     # repr N leading and trailing items of each dimension
-_summaryThreshold = 1000 # total items > triggers array summarization
+_summaryThreshold = 1000  # total items > triggers array summarization
 
 _float_output_precision = 8
 _float_output_suppress_small = False
@@ -147,9 +150,10 @@ def set_printoptions(precision=None, threshold=None, edgeitems=None,
     ... suppress=False, threshold=1000, formatter=None)
     """
 
-    global _summaryThreshold, _summaryEdgeItems, _float_output_precision, \
-           _line_width, _float_output_suppress_small, _nan_str, _inf_str, \
-           _formatter
+    global _summaryThreshold, _summaryEdgeItems, _float_output_precision
+    global _line_width, _float_output_suppress_small, _nan_str, _inf_str
+    global _formatter
+
     if linewidth is not None:
         _line_width = linewidth
     if threshold is not None:
@@ -250,19 +254,19 @@ def _array2string(a, max_line_width, precision, suppress_small, separator=' ',
         data = _leading_trailing(a)
     else:
         summary_insert = ""
-        data = ravel(a)
+        data = ravel(asarray(a))
 
-    formatdict = {'bool' : _boolFormatter,
-                  'int' : IntegerFormat(data),
-                  'float' : FloatFormat(data, precision, suppress_small),
-                  'longfloat' : LongFloatFormat(precision),
-                  'complexfloat' : ComplexFormat(data, precision,
+    formatdict = {'bool': _boolFormatter,
+                  'int': IntegerFormat(data),
+                  'float': FloatFormat(data, precision, suppress_small),
+                  'longfloat': LongFloatFormat(precision),
+                  'complexfloat': ComplexFormat(data, precision,
                                                  suppress_small),
-                  'longcomplexfloat' : LongComplexFormat(precision),
-                  'datetime' : DatetimeFormat(data),
-                  'timedelta' : TimedeltaFormat(data),
-                  'numpystr' : repr_format,
-                  'str' : str}
+                  'longcomplexfloat': LongComplexFormat(precision),
+                  'datetime': DatetimeFormat(data),
+                  'timedelta': TimedeltaFormat(data),
+                  'numpystr': repr_format,
+                  'str': str}
 
     if formatter is not None:
         fkeys = [k for k in formatter.keys() if formatter[k] is not None]
@@ -285,38 +289,31 @@ def _array2string(a, max_line_width, precision, suppress_small, separator=' ',
             if key in fkeys:
                 formatdict[key] = formatter[key]
 
-    try:
-        format_function = a._format
-        msg = "The `_format` attribute is deprecated in Numpy 2.0 and " \
-              "will be removed in 2.1. Use the `formatter` kw instead."
-        import warnings
-        warnings.warn(msg, DeprecationWarning)
-    except AttributeError:
-        # find the right formatting function for the array
-        dtypeobj = a.dtype.type
-        if issubclass(dtypeobj, _nt.bool_):
-            format_function = formatdict['bool']
-        elif issubclass(dtypeobj, _nt.integer):
-            if issubclass(dtypeobj, _nt.timedelta64):
-                format_function = formatdict['timedelta']
-            else:
-                format_function = formatdict['int']
-        elif issubclass(dtypeobj, _nt.floating):
-            if issubclass(dtypeobj, _nt.longfloat):
-                format_function = formatdict['longfloat']
-            else:
-                format_function = formatdict['float']
-        elif issubclass(dtypeobj, _nt.complexfloating):
-            if issubclass(dtypeobj, _nt.clongfloat):
-                format_function = formatdict['longcomplexfloat']
-            else:
-                format_function = formatdict['complexfloat']
-        elif issubclass(dtypeobj, (_nt.unicode_, _nt.string_)):
-            format_function = formatdict['numpystr']
-        elif issubclass(dtypeobj, _nt.datetime64):
-            format_function = formatdict['datetime']
+    # find the right formatting function for the array
+    dtypeobj = a.dtype.type
+    if issubclass(dtypeobj, _nt.bool_):
+        format_function = formatdict['bool']
+    elif issubclass(dtypeobj, _nt.integer):
+        if issubclass(dtypeobj, _nt.timedelta64):
+            format_function = formatdict['timedelta']
         else:
-            format_function = formatdict['numpystr']
+            format_function = formatdict['int']
+    elif issubclass(dtypeobj, _nt.floating):
+        if issubclass(dtypeobj, _nt.longfloat):
+            format_function = formatdict['longfloat']
+        else:
+            format_function = formatdict['float']
+    elif issubclass(dtypeobj, _nt.complexfloating):
+        if issubclass(dtypeobj, _nt.clongfloat):
+            format_function = formatdict['longcomplexfloat']
+        else:
+            format_function = formatdict['complexfloat']
+    elif issubclass(dtypeobj, (_nt.unicode_, _nt.string_)):
+        format_function = formatdict['numpystr']
+    elif issubclass(dtypeobj, _nt.datetime64):
+        format_function = formatdict['datetime']
+    else:
+        format_function = formatdict['numpystr']
 
     # skip over "["
     next_line_prefix = " "
@@ -416,6 +413,10 @@ def array2string(a, max_line_width=None, precision=None,
     If a formatter is specified for a certain type, the `precision` keyword is
     ignored for that type.
 
+    This is a very flexible function; `array_repr` and `array_str` are using
+    `array2string` internally so keywords with the same name should work
+    identically in all three functions.
+
     Examples
     --------
     >>> x = np.array([1e-16,1,2,3])
@@ -435,17 +436,9 @@ def array2string(a, max_line_width=None, precision=None,
 
     if a.shape == ():
         x = a.item()
-        try:
-            lst = a._format(x)
-            msg = "The `_format` attribute is deprecated in Numpy " \
-                  "2.0 and will be removed in 2.1. Use the " \
-                  "`formatter` kw instead."
-            import warnings
-            warnings.warn(msg, DeprecationWarning)
-        except AttributeError:
-            if isinstance(x, tuple):
-                x = _convert_arrays(x)
-            lst = style(x)
+        if isinstance(x, tuple):
+            x = _convert_arrays(x)
+        lst = style(x)
     elif reduce(product, a.shape) == 0:
         # treat as a null array if any of shape elements == 0
         lst = "[]"
@@ -478,10 +471,13 @@ def _formatArray(a, format_function, rank, max_line_len,
         return str(obj)
 
     if summary_insert and 2*edge_items < len(a):
-        leading_items, trailing_items, summary_insert1 = \
-                       edge_items, edge_items, summary_insert
+        leading_items = edge_items
+        trailing_items = edge_items
+        summary_insert1 = summary_insert
     else:
-        leading_items, trailing_items, summary_insert1 = 0, len(a), ""
+        leading_items = 0
+        trailing_items = len(a)
+        summary_insert1 = ""
 
     if rank == 1:
         s = ""
@@ -743,10 +739,22 @@ class DatetimeFormat(object):
 class TimedeltaFormat(object):
     def __init__(self, data):
         if data.dtype.kind == 'm':
-            v = data.view('i8')
-            max_str_len = max(len(str(maximum.reduce(v))),
-                              len(str(minimum.reduce(v))))
+            nat_value = array(['NaT'], dtype=data.dtype)[0]
+            v = data[not_equal(data, nat_value)].view('i8')
+            if len(v) > 0:
+                # Max str length of non-NaT elements
+                max_str_len = max(len(str(maximum.reduce(v))),
+                                  len(str(minimum.reduce(v))))
+            else:
+                max_str_len = 0
+            if len(v) < len(data):
+                # data contains a NaT
+                max_str_len = max(max_str_len, 5)
             self.format = '%' + str(max_str_len) + 'd'
+            self._nat = "'NaT'".rjust(max_str_len)
 
     def __call__(self, x):
-        return self.format % x.astype('i8')
+        if x + 1 == x:
+            return self._nat
+        else:
+            return self.format % x.astype('i8')

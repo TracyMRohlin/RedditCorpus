@@ -1,0 +1,7 @@
+Title: c trying use cout output string failing
+Karma: 15
+Date: 1369487835.0
+code using visual studio practice problem create way track long since user contacted friends problem try display whole list friend names times says operator takes stdstring making really stupid mistake something wrong compiler searched google ton come emptyhanded tips appreciated
+
+==============================
+

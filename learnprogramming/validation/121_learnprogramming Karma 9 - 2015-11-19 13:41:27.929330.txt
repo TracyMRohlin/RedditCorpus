@@ -1,0 +1,7 @@
+Title: perlin noise question
+Karma: 9
+Date: 1369854935.0
+hi trying wrap head around perlin noise made easy confusion core aspects online best explanation found generate random gradients grid points eg xy values loop grid size get noise value taking dot product surrounding gradients vector points current point eg gxy dot xxyy averaging next bit get confused grid noise values supposed smooth using think perlin describes fading algorithm link describes averagingbut one floating point value link discusses x y values someone walk kind data supposed stage fading portion algorithm works please majority links online seem confused process going value noise brownian noise instead
+
+==============================
+

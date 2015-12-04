@@ -1,7 +1,8 @@
 from __future__ import division, absolute_import, print_function
 
+import sys
 from numpy.testing import (TestCase, run_module_suite, assert_,
-                           assert_array_equal)
+                           assert_array_equal, assert_raises)
 from numpy import random
 from numpy.compat import long
 import numpy as np
@@ -20,6 +21,16 @@ class TestRegression(TestCase):
         # Test for ticket #921
         assert_(np.all(np.random.hypergeometric(3, 18, 11, size=10) < 4))
         assert_(np.all(np.random.hypergeometric(18, 3, 11, size=10) > 0))
+
+        # Test for ticket #5623
+        args = [
+            (2**20 - 2, 2**20 - 2, 2**20 - 2),  # Check for 32-bit systems
+        ]
+        is_64bits = sys.maxsize > 2**32
+        if is_64bits and sys.platform != 'win32':
+            args.append((2**40 - 2, 2**40 - 2, 2**40 - 2)) # Check for 64-bit systems
+        for arg in args:
+            assert_(np.random.hypergeometric(*arg) > 0)
 
     def test_logseries_convergence(self):
         # Test for ticket #923
@@ -81,6 +92,26 @@ class TestRegression(TestCase):
         np.random.multivariate_normal([0], [[0]], size=1)
         np.random.multivariate_normal([0], [[0]], size=np.int_(1))
         np.random.multivariate_normal([0], [[0]], size=np.int64(1))
+
+    def test_beta_small_parameters(self):
+        # Test that beta with small a and b parameters does not produce
+        # NaNs due to roundoff errors causing 0 / 0, gh-5851
+        np.random.seed(1234567890)
+        x = np.random.beta(0.0001, 0.0001, size=100)
+        assert_(not np.any(np.isnan(x)), 'Nans in np.random.beta')
+
+    def test_choice_sum_of_probs_tolerance(self):
+        # The sum of probs should be 1.0 with some tolerance.
+        # For low precision dtypes the tolerance was too tight.
+        # See numpy github issue 6123.
+        np.random.seed(1234)
+        a = [1, 2, 3]
+        counts = [4, 4, 2]
+        for dt in np.float16, np.float32, np.float64:
+            probs = np.array(counts, dtype=dt) / sum(counts)
+            c = np.random.choice(a, p=probs)
+            assert_(c in a)
+            assert_raises(ValueError, np.random.choice, a, p=probs*0.9)
 
 if __name__ == "__main__":
     run_module_suite()

@@ -1,0 +1,7 @@
+Title: echo div container
+Karma: 6
+Date: 1400810986.0
+div container looks like div classcontentbox div idcolumn img srcimagesgallerygirlthinkingjpg alt idimagen div div idcolumn p classtituloanunciobtitulo del anunciobp p classdescripcionanunciodescripcion kfewoijfewp div div idcolumn p classprecioanunciobbp p classcontactoanunciobcontactobrbdueo alejandrobrtelefono brjorgegilcavazosgmailcombrfacebookp div div want put inside result mysqliqueryconselect anuncio whilerow mysqlifetcharrayresult replacing text like titulo del anuncio values columns mysql database table like title price know echo columns like result mysqliqueryconselect anuncio whilerow mysqlifetcharrayresult echo row' echo row' like look like initial htmlcss div container
+
+==============================
+

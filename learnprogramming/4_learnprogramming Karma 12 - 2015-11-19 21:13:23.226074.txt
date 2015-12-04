@@ -1,0 +1,7 @@
+Title: f performance impact keeping file open
+Karma: 12
+Date: 1354499525.0
+output files various things code written write frequently need write end program losing performance opening files keeping open end regardless planning write also see gain speed open files need write close computations going note code take day run cases majority time spent solving large linear systems
+
+==============================
+

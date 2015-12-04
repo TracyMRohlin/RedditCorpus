@@ -1,0 +1,7 @@
+Title: c win keybindings creating directories
+Karma: 10
+Date: 1368924869.0
+description program creates folder documents user enter text textbox user also option save textbox write txt file folder created earlier made app windows gui making windows able create directory tutorials find bring error messages also able get keybindings work keybindings want activate function click ctrl trying use guides msdnmicrosoftcom gotten work
+
+==============================
+

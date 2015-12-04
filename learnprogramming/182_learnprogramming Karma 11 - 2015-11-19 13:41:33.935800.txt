@@ -1,0 +1,7 @@
+Title: csfmllooking advice using sfml collision using d physics engine instead
+Karma: 11
+Date: 1369370111.0
+slowly learning sfml making small game similar style snes versions zelda final fantasy series wanted know whether uselearn d engine simple collision game player jumping around bouncing walls basically running around screen interacting environment know sfml meant handle physics things like think handle simple collision need thinking might benefit learn d physics engine future knowledge simple need things sure best route go thinking using boxd seen recommended reddit seems lot materials learn ideas also gotten far project big jump start something else thanks help
+
+==============================
+

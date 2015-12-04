@@ -1,0 +1,7 @@
+Title: develop web interface existing java project
+Karma: 3
+Date: 1400557845.0
+dear rlearnprogramming never worked much web technologies like javascript php etc got following situation java project classes simple awt gui input fields two output fields nothing much gui uses logic classes process input displays output output fields practizing new web technology like create html page offers functionality collect input processing logic display output questions valid approach mean gathering data html page accessing java code displaying results better try process information javascript said never done javascript know possible technologies consider relevant javascript asp php jsp input really nice almost done cs master degree web technologies never much interest neither part curriculum thanks
+
+==============================
+

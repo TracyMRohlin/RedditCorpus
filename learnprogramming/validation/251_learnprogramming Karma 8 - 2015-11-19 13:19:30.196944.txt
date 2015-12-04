@@ -1,0 +1,7 @@
+Title: learn unintuitive tricks
+Karma: 8
+Date: 1385564350.0
+horrible title know else put certain tricks concepts explained understand difficulty remembering apply learn example struggling right lisp examples exist languages sure logical operators like etc evaluate expressions passed including side effects logcal stop evaluating soon certain way go first first nil means used unless sometest ifnildothis remember thing possible usually work keep mind first place feeling next time use probably still write test dothis edit sounds like answer read write kinda slow going hope understanding part picks little bit thanks everyone took trouble answer
+
+==============================
+

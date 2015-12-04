@@ -1,0 +1,7 @@
+Title: php database standard practices
+Karma: 2
+Date: 1400761439.0
+building social networking type site code working little sloppy trying figure bestfastest method making database calls using data table called users primary key called id use key foreign key tables wall posts table identify posted content need data wall posts make call wall posts table make second call users table id matches better join one single callthen get need assigning variables different fields data join user table wall posts table userid equals wallpostuserid multiple places id used wall post table repeatedly join single row user table every row user id matches wall post table sorry confusing
+
+==============================
+

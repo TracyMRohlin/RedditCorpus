@@ -1,0 +1,7 @@
+Title: little help needed beginner ruby developer
+Karma: 5
+Date: 1431574181.0
+trying set ruby windows computeri using gitbashvagrant virtual boxproblem run 'ruby vagrant get old ruby version ie tried using vagrant destroy vagrant upbut still update latest version ruby please help
+
+==============================
+

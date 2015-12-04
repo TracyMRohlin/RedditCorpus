@@ -1,0 +1,7 @@
+Title: array make algorithm counts longest chain
+Karma: 10
+Date: 1353395263.0
+say array looks like longest chain zeros zeros make algorithm gives value longest chain far something like int z z arraylength z myarrayzmyarrayz int v z v height v myarrayvmyarrayv adad basically counts first chain zeros first one think way count chains calculate longest one without writing algorithms count single chain zeros directly seems like easy problem stumped
+
+==============================
+

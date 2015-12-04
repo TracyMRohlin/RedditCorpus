@@ -1,0 +1,7 @@
+Title: python parse text pdf new excel spreadsheet
+Karma: 11
+Date: 1370126125.0
+looking automate process generating excel spreadsheet data supplied pdf ideally python script suggestions easy use libraries found pdfminer
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: php script android login driving insane
+Karma: 16
+Date: 1369272652.0
+trying simple login handler android app reason try access file php script localhost parse error syntax error unexpected ' tif cwampwwwscriptphp line racked brain find problem script someone please help complete script php username password dbhost localhost dbname polosdb dbuser root dbpassword usertablename users ifissetrequest' issetrequest' con new mysqlidbhost dbpassword dbuserdbname ifcon false die'error ' mysqliconnecterror username conescapestringrequest' password mdrequest' sql select id usertablename emailaddress ' password ' ifresult conquerysql row resultfetchrow ifresultnumrows header code response matching row headerstatus accepted row id user logging dierow else headerstatus unauthorized echo error logging else headerstatus unauthorized echo error logging else headerstatus unauthorized echo invalid data
+
+==============================
+

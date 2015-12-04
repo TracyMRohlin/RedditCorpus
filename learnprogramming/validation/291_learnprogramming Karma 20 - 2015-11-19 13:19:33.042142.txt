@@ -1,0 +1,7 @@
+Title: better search engine google get mixed certain characters
+Karma: 20
+Date: 1385521882.0
+issue since started computer science sometimes try google issue either gets tripped error message string get results even close example google alertstring undefinedwithout ''s find results alert undefined somewhere text guess made mistake quotation marks supposed search exact text google sort search engine things like character literals sometimes want actually search use advanced search tool thanks
+
+==============================
+

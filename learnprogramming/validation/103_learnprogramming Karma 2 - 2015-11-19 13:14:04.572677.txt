@@ -1,0 +1,7 @@
+Title: google hangouts api help
+Karma: 2
+Date: 1400562113.0
+programmer interested developing something using google hangouts api want build something like irc bot able respond peoples messages send hangouts know xmpp hangouts longer supports xmpp anyone info tutorials much appreciate experience google api development
+
+==============================
+

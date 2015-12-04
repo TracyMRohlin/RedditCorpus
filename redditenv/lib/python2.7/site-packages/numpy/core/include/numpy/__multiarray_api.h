@@ -796,6 +796,8 @@ NPY_NO_EXPORT  int PyArray_SelectkindConverter \
        (PyObject *, NPY_SELECTKIND *);
 NPY_NO_EXPORT  void * PyDataMem_NEW_ZEROED \
        (size_t, size_t);
+NPY_NO_EXPORT NPY_GCC_NONNULL(1) int PyArray_CheckAnyScalarExact \
+       (PyObject *);
 
 #else
 
@@ -1623,6 +1625,9 @@ static void **PyArray_API=NULL;
 #define PyDataMem_NEW_ZEROED \
         (*(void * (*)(size_t, size_t)) \
          PyArray_API[299])
+#define PyArray_CheckAnyScalarExact \
+        (*(int (*)(PyObject *)) \
+         PyArray_API[300])
 
 #if !defined(NO_IMPORT_ARRAY) && !defined(NO_IMPORT)
 static int

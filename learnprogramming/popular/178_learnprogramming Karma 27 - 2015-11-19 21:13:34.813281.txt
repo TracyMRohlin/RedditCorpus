@@ -1,0 +1,7 @@
+Title: looking make multiplayer game good platforms frameworks use server
+Karma: 27
+Date: 1353398576.0
+done lot socket programming know set socket server accepts connections clients easily enough problem building everything scratch sockets makes scaling difficult suddenly thousands users connecting time things like thread pools session management love use something similar google app engine worry scalability much platform underneath handle details problem gae support sockets need able server push data clients gae channel api uses comet push seems like headache anyone good advice looking apache thrift know well thrift services scale versatile things rpc edit thrift support bidirectional communication
+
+==============================
+

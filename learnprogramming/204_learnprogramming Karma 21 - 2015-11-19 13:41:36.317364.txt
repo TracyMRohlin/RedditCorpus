@@ -1,0 +1,7 @@
+Title: web stack quantitative web application
+Karma: 21
+Date: 1369253595.0
+working hobby project making based thesis finance idea take research turn web application experience web development nowhere near expert project thus also attempt better area backend causing bit trouble since able stick familiar lamp stack need access statisticseconometricsmachine learningetc libraries experience python scripting web setting thinking possible way go perhaps using django third party python libraries work another idea stay lamp setup carve processing thinking create web service whatever technology called php use third party library eg calling gnu r calculations sorry rambling weighing possible ways attacking partial web service approach open ideas
+
+==============================
+

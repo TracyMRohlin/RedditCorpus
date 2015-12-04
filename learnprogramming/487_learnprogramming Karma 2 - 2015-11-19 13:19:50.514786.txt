@@ -1,0 +1,7 @@
+Title: setting sql database computer
+Karma: 2
+Date: 1385191489.0
+trying learn sql specifically using c asp reading making queries things feel need hands approach actually sink setup use play around sql local machine nice setup close setup used real world possible seen many different ways suggested idea ones current round strange ways never see anyone else using
+
+==============================
+

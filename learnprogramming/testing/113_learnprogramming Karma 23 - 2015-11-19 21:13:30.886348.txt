@@ -1,0 +1,7 @@
+Title: anyone know tutorial give skinny parsing files
+Karma: 23
+Date: 1353902475.0
+feel one aspect programming terrible want get better also like know theory behind problem thanks edit sorry forgot mention anything languages reason want want apply concepts regex stuff learnt theoretical computer science basically want write small application like grep wc guess languages looking cc sufficiently low level language fine thanks
+
+==============================
+

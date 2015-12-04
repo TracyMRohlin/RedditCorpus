@@ -1,0 +1,7 @@
+Title: project euler code scaling reason
+Karma: 2
+Date: 1386041519.0
+code works problem try run gives windows error using pointers anything really lost going wrong question code let dn defined sum proper divisors n numbers less n divide evenly n da b db b b amicable pair b called amicable numbers example proper divisors therefore d proper divisors d evaluate sum amicable numbers includeiostream using namespace std int main int x int y int size int array int sum int totalsum forint size sum forint j j j ifi j ij sum j ifj arrayi sum forint size x arrayi y array x ifx ify arrayi totalsum ix arrayi cout totalsum systempause return
+
+==============================
+

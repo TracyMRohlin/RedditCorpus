@@ -1,0 +1,7 @@
+Title: c program wont run properly help
+Karma: 6
+Date: 1385449243.0
+first year c student hoping someone quickly see problem program simple program asks user cstring simply returns length string however enter y program run completely skips cingetline second time help ps know separate function strlen needed book wanted us write program way however also sorry supposed trying figure hour cant see problem include iostream include cctype using namespace std function prototype int calclengthchar int main define variables used char int length program loop allow running multiple times define variables string test const int length char teststrlength prompt telling user program cout program ask user string determine length string output value endl endl prompt asking user string code accepting input cout enter string length characters less length cingetlineteststr length function call define length length calclengthteststr output user stating length string input cout endl cout string length characters long endl endl prompt asking user like run cout run program enter y endl cin cout endl whiletoupperagain ' systempause return function definition finding length string int calclengthchar teststr int length length strlenteststr return length keep mind started learning program months ago gentle
+
+==============================
+

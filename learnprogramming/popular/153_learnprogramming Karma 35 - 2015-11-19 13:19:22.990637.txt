@@ -1,0 +1,7 @@
+Title: creating unix command need help
+Karma: 35
+Date: 1385801344.0
+really struggling learning unix school need help set work point right direction though create command lists first lines every file directory specified argument made start well truly stuck far param param echo directory else echo file fi done idea behind starting point determine directory since '' moved onto something little ' dir d dir echo dir directory else echo dir directory fi done however seems bringing error saying d command found even though actually use ls head commands list lines files specified argument like said need help stumped
+
+==============================
+

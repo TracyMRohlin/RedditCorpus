@@ -1,0 +1,7 @@
+Title: google apps script separating multiple json objects
+Karma: 3
+Date: 1431714622.0
+hi pulling data api get json objects correct way result following iditemidpricequantitycreatedtiditemidpricequantitycreatedt trying separate two objects manage treating array using result try get first object gave undefined treating string splitting splits many places ideas solve
+
+==============================
+

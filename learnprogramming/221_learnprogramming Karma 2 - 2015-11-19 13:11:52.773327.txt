@@ -1,0 +1,7 @@
+Title: javaandroid configuration change vs process stopped
+Karma: 2
+Date: 1431927653.0
+still relatively new android programming general today tripped something little tricky least series activities hosting fragments handle configuration changes perfectly sometimes crash return applications via recent apps consistently crash manually kill process ddms suppose question exactly mean process stopped system recreates activitiesfragments event differences way android rebuilds activitiesfragments vs recreated configuration change advice pointers much appreciated
+
+==============================
+

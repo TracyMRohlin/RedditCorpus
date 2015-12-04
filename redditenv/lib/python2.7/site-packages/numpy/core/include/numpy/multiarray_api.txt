@@ -2221,7 +2221,7 @@ could be applied to each axis, like in ravel_multi_index.
   PyArray_MatrixProduct2(PyObject *op1, PyObject
                          *op2, PyArrayObject*out)
 
-Numeric.matrixproduct(a,v,out)
+Numeric.matrixproduct2(a,v,out)
 just like inner product but does the swapaxes stuff on the fly
 
 ::
@@ -2439,4 +2439,11 @@ Convert object to select kind
   PyDataMem_NEW_ZEROED(size_t size, size_t elsize)
 
 Allocates zeroed memory for array data.
+
+::
+
+  int
+  PyArray_CheckAnyScalarExact(PyObject *obj)
+
+return true an object is exactly a numpy scalar
 

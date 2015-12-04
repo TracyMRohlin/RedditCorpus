@@ -1,0 +1,7 @@
+Title: wrote program solve systems differential equations works complex numbers eigenvalues someone tell use complex numbers calculations
+Karma: 11
+Date: 1354445664.0
+include iostream include cmath using namespace std int main cout welcome ode system solver endl endl simply collects elements matrix m cout system form mx m matrix bc d please enter values m endl float b c d cout cin cout b cin b cout c cin c cout d cin d calculations eigenvalues e e matrix m float e float e e d sqrta d d d b c e d sqrta d d d b c calculations elements eigenvector corresponding e float v float v v b e v v e b calculations elements eigenvector corresponding e float v float v v b e v v e b looks like x aet v v bet v v cout endl general solution system odes x ae e v v e v v endl cout endl system initial conditions yes bool check cin check ifcheck ask two initial conditions needed calculate b cout endl initial value x float cin cout initial xt value float x cin x cout initial value x float cin cout initial xt value float x cin x float e nasty calculations b float b x powe e v x powe e v powe e v powe e v float x powe e v b powe e v cout endl particular solution system odes x e e v v b e e v v else return
+
+==============================
+

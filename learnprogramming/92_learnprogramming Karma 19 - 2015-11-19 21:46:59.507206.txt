@@ -1,0 +1,7 @@
+Title: getting started windows application programming wpf way go
+Karma: 19
+Date: 1337748273.0
+hello programmer may years never done much work ms windows front endui application development looks like need learn wpf net something potential new job lone developer starting new project dont need worry prior code base team members pick use want wpf good place start learning wpf new standard going forward windows net still viable option future another framework library considering really dark windows programming know google find million tutorials help first stepping application development seem use different apis tldr get starting writing windows application
+
+==============================
+

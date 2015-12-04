@@ -1,0 +1,7 @@
+Title: best way quickly generate xy plots command line
+Karma: 5
+Date: 1399914093.0
+hi lot numerical calculations produce files containing information across entire calculation like able quickly plot check runs stable kind look method quicker open matlab import data plot xy instead quickly type command execute script plot columns file nice quickly really hoping others similar position already nice elegant solution place recommend thanks
+
+==============================
+

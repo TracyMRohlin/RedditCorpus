@@ -1,0 +1,7 @@
+Title: trying write isprime method python
+Karma: 9
+Date: 1310174109.0
+code math import sqrt method determines input prime number def isprimenum range num ifnum return ' else return ' count determines prints th prime number j range ifisprimej ' j prime count count ifcount printj method returns true prime passed also returning true numbers end without providing solution someone provide advice isprime method working correctly
+
+==============================
+

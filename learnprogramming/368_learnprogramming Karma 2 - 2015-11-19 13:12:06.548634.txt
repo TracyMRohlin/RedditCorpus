@@ -1,0 +1,7 @@
+Title: change directory invisible name directory
+Karma: 2
+Date: 1431513241.0
+hey reddit started learning basic concepts around powershell windows like change directory copy move files around etc created folder named alt tried use command cd go work access directory
+
+==============================
+

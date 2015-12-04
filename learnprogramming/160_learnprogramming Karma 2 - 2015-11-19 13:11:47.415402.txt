@@ -1,0 +1,7 @@
+Title: c bad mannered use namespaces instead object class instances
+Karma: 2
+Date: 1432043186.0
+basically developing game server found needed fact using class object eg game map connections handler game world thinking instead place namespace used variables hand using class objects creatures players items bad mannered using namespace class objects need instances good example deal instances namespace map stdmapcoord creature coordcreatures bool loadmap creature getcreatureatcood
+
+==============================
+

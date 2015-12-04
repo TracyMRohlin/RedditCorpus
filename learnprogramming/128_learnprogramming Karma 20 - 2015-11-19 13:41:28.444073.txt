@@ -1,0 +1,7 @@
+Title: python compile exe
+Karma: 20
+Date: 1369823183.0
+hey recently learned python want put exe windows computers run without requiring files tried cxfreeze worked turn py exe run without pythondll libraryzip wondering anything simplify process receiving computer also using python
+
+==============================
+

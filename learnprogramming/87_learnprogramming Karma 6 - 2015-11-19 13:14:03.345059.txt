@@ -1,0 +1,7 @@
+Title: real hard time finding cmake info bottomup learners
+Karma: 6
+Date: 1400599395.0
+nearly every tutorial find cmake along lines exact contents cmakeliststxt file needs youre hello world example im going ever tell subtle implications reasons command id settle big list cmakeliststxt commands explanations youd want use stick cant find even ideally series needs cases solutions nice part problem know exactly want im stuck simpler stuff doesnt fulfill needs yet making feel like cant even experiment freely occasion find highly useful information like
+
+==============================
+

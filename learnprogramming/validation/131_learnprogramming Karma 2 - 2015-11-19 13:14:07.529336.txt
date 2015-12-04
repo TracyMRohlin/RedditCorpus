@@ -1,0 +1,7 @@
+Title: python character replacement strings
+Karma: 2
+Date: 1400499579.0
+quick question something python need know reference specific character string example u helloworld n u u ureplaceu n printu u references second l helloworld ends replacing first l helloworld u string w n string want able change second l helloworld without change first l along ends looking like helwoworld guys awesome help thank guys
+
+==============================
+

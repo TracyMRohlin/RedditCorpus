@@ -1,0 +1,7 @@
+Title: complete beginner use hungarian notation cpp
+Karma: 11
+Date: 1310091014.0
+tutorial using make clear
+
+==============================
+

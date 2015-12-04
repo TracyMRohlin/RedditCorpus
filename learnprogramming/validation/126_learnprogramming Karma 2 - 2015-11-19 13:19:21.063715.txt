@@ -1,0 +1,7 @@
+Title: strange percentage next serversocketclose eclipse
+Karma: 2
+Date: 1385941260.0
+assignment compsci course build small message board server java using eclipse noticed call close method serversocket description box thing show percentage first time picture show looks like
+
+==============================
+

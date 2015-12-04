@@ -1,0 +1,7 @@
+Title: simply understand documentation
+Karma: 9
+Date: 1385449470.0
+working opencv right struggle lot lot trouble reading documentation getting kind fustrating spent day trying understand ' object attribute ' running code directly opencvorg finally found stackoverflow post told ' belong module cv module cv actually belongs cvcv one anyone else guy stack overflow figure approach ambiguously documented method one else figured yet
+
+==============================
+

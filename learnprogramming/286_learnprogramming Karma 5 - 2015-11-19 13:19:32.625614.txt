@@ -1,0 +1,7 @@
+Title: luamysql good list things need escape statement user inputted string mysql
+Karma: 5
+Date: 1385524060.0
+trouble finding good guides suggest using functions integrated whatever package using sadly using lua library find supported mysql luasql prepared statements mysql escape function plan write function deal anyone know good list character need escape
+
+==============================
+

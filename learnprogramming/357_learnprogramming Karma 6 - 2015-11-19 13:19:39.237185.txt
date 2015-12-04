@@ -1,0 +1,7 @@
+Title: sorry c beginner wrong code
+Karma: 6
+Date: 1385427207.0
+include stdioh define maxab b b int increment static int printfincrement returns dni return int mainint argc const char argv int x printfmaximum two values d d d nxincrementmaxx increment printfmax d d dnxincrementmaxx increment return getting increment returns increment returns increment returns maximum two values actually increment must return twice thrice
+
+==============================
+

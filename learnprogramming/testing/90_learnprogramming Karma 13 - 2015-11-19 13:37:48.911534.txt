@@ -1,0 +1,7 @@
+Title: visual studio int string
+Karma: 13
+Date: 1383956864.0
+trying use stdtostring convert int string visual studio telling tostring defined anyone help
+
+==============================
+

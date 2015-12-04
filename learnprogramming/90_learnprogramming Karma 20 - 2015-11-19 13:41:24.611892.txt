@@ -1,0 +1,7 @@
+Title: c pointers pointers strings malloc
+Karma: 20
+Date: 1370094135.0
+okay still really bad pointers pointers assignment asked make use following struct struct filesstruct number email messages maildir int count pointer array pointers strings filenames char filenames pointer array ints give corresponding size file int filesize typedef struct filesstruct filesstruct properly initialise allocate char portion tried following filecount already set number files directory char filenamesfilecount filenames char mallocsizeofchar filecount got angry message compiler asking since types incompatible need since already specified many pointers going array go initialisingreferencing pointers filenamesi mallocmaxfilenamelengthsizeofchar gives expected expression '' token error
+
+==============================
+

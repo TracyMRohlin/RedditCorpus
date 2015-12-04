@@ -1,0 +1,7 @@
+Title: kewjs noobs attempt creating javascript library
+Karma: 6
+Date: 1431730757.0
+hi redditers pretty weak ' comes best practice oop decided sit attempt create something useful applying least best practice oop techniques result practice kewjs simply 'jquery library least lightweight toolkit basic utilities use regularly figured helpful including chunky jquery beast projects know probably better optimized solutions gained knowledge gained otherwise let know thoughts constructive criticism kewjs
+
+==============================
+

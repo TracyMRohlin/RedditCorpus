@@ -1,0 +1,7 @@
+Title: c compilation error results trying pass array function
+Karma: 10
+Date: 1353118959.0
+code trying make program passes grade array function must run grade af recorded print letter many letter grade inputted running problems call statement seem everything book far see know missing something even though know line problem find also secondary question logic need changed allow add letter time runs function figure way program stands since specifies letter grade argument function time thanks help edit also errors getting invalid conversion int int error intializing argument function name also superfluous semi colon function prototype got rid didnt change anything
+
+==============================
+

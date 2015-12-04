@@ -27,6 +27,7 @@ else:
     _bytes_to_complex = complex
     _bytes_to_name = str
 
+
 def _is_string_like(obj):
     """
     Check whether obj behaves like a string.
@@ -36,6 +37,7 @@ def _is_string_like(obj):
     except (TypeError, ValueError):
         return False
     return True
+
 
 def _is_bytes_like(obj):
     """
@@ -158,7 +160,7 @@ class LineSplitter(object):
     delimiter : str, int, or sequence of ints, optional
         If a string, character used to delimit consecutive fields.
         If an integer or a sequence of integers, width(s) of each field.
-    comment : str, optional
+    comments : str, optional
         Character used to mark the beginning of a comment. Default is '#'.
     autostrip : bool, optional
         Whether to strip each individual field. Default is True.
@@ -269,7 +271,7 @@ class NameValidator(object):
     deletechars : str, optional
         A string combining invalid characters that must be deleted from the
         names.
-    casesensitive : {True, False, 'upper', 'lower'}, optional
+    case_sensitive : {True, False, 'upper', 'lower'}, optional
         * If True, field names are case-sensitive.
         * If False or 'upper', field names are converted to upper case.
         * If 'lower', field names are converted to lower case.
@@ -318,12 +320,13 @@ class NameValidator(object):
         # Process the case option .....
         if (case_sensitive is None) or (case_sensitive is True):
             self.case_converter = lambda x: x
-        elif (case_sensitive is False) or ('u' in case_sensitive):
+        elif (case_sensitive is False) or case_sensitive.startswith('u'):
             self.case_converter = lambda x: x.upper()
-        elif 'l' in case_sensitive:
+        elif case_sensitive.startswith('l'):
             self.case_converter = lambda x: x.lower()
         else:
-            self.case_converter = lambda x: x
+            msg = 'unrecognized case_sensitive value %s.' % case_sensitive
+            raise ValueError(msg)
         #
         self.replace_space = replace_space
 
@@ -338,7 +341,7 @@ class NameValidator(object):
         defaultfmt : str, optional
             Default format string, used if validating a given string
             reduces its length to zero.
-        nboutput : integer, optional
+        nbfields : integer, optional
             Final number of validated names, used to expand or shrink the
             initial list of names.
 
@@ -445,12 +448,14 @@ class ConverterError(Exception):
     """
     pass
 
+
 class ConverterLockError(ConverterError):
     """
     Exception raised when an attempt is made to upgrade a locked converter.
 
     """
     pass
+
 
 class ConversionWarning(UserWarning):
     """
@@ -513,12 +518,18 @@ class StringConverter(object):
     """
     #
     _mapper = [(nx.bool_, str2bool, False),
-               (nx.integer, int, -1),
-               (nx.floating, float, nx.nan),
-               (complex, _bytes_to_complex, nx.nan + 0j),
-               (nx.string_, bytes, asbytes('???'))]
+               (nx.integer, int, -1)]
+
+    # On 32-bit systems, we need to make sure that we explicitly include
+    # nx.int64 since ns.integer is nx.int32.
+    if nx.dtype(nx.integer).itemsize < nx.dtype(nx.int64).itemsize:
+        _mapper.append((nx.int64, int, -1))
+
+    _mapper.extend([(nx.floating, float, nx.nan),
+                    (complex, _bytes_to_complex, nx.nan + 0j),
+                    (nx.string_, bytes, asbytes('???'))])
+
     (_defaulttype, _defaultfunc, _defaultfill) = zip(*_mapper)
-    #
 
     @classmethod
     def _getdtype(cls, val):
@@ -672,7 +683,22 @@ class StringConverter(object):
 
     def _strict_call(self, value):
         try:
-            return self.func(value)
+
+            # We check if we can convert the value using the current function
+            new_value = self.func(value)
+
+            # In addition to having to check whether func can convert the
+            # value, we also have to make sure that we don't get overflow
+            # errors for integers.
+            if self.func is int:
+                try:
+                    np.array(value, dtype=self.type)
+                except OverflowError:
+                    raise ValueError
+
+            # We're still here so we can now return the new value
+            return new_value
+
         except ValueError:
             if value.strip() in self.missing_values:
                 if not self._status:
@@ -708,7 +734,7 @@ class StringConverter(object):
         """
         self._checked = True
         try:
-            self._strict_call(value)
+            return self._strict_call(value)
         except ValueError:
             # Raise an exception if we locked the converter...
             if self._locked:
@@ -728,7 +754,7 @@ class StringConverter(object):
                 self.default = self._initial_default
             else:
                 self.default = default
-            self.upgrade(value)
+            return self.upgrade(value)
 
     def iterupgrade(self, value):
         self._checked = True

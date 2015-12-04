@@ -1,0 +1,7 @@
+Title: help understanding method sorting numeric object properties js
+Karma: 2
+Date: 1400378924.0
+hello new javascript trying start journey become proficient free time trying properly understand sorting functionality saw stackoverflow mental roadblock var homes hid city dallas state tx zip price hid city bevery hills state ca zip price hid city new york state ny zip price homessortfunction comparedeschomea homeb return parsefloathomebprice parsefloathomeaprice understand array composition objects inside array descending comparison function question though sort function actually know behind scenes magic sort function someone help understand sort function operating via passed difference price two homes really appreciate edit understand regards comparison like understand explicitly sort receives composing new list returns place
+
+==============================
+

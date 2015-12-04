@@ -1,0 +1,7 @@
+Title: c save game
+Karma: 4
+Date: 1385412391.0
+programming class class making text based gae save game sure information given game properties string array room inventory used fixed items inventory inv invsize fixed fixed npsize constant outside outsize courtyard court courtsize foyer foyer foyersize kitchen kit kitsize tower towertowersize kings chamber kingkingsize throne room thronethronesize game info code help appreciated
+
+==============================
+

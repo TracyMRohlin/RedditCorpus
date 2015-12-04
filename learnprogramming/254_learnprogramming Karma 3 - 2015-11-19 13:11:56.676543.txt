@@ -1,0 +1,7 @@
+Title: check google script extract face information using alchemyapi
+Karma: 3
+Date: 1431838113.0
+hi guys writing google script extract gender age bounding box information given url script works well get methodit means provide image url want add post method accepts image payload wrote something working check repository wrote want help improve script github link
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: polymorphism examples needed c
+Karma: 3
+Date: 1432267900.0
+alrighty believe know polymorphism really sure actually want use within building applications perhaps much clearer understanding simple scenerios polymorphism used please try keep simple possible variables make sense anytime see someone explain something x y z variables see good class names teacher student etc
+
+==============================
+

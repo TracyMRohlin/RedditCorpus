@@ -1,0 +1,7 @@
+Title: c big numbers gives segmentation fault think
+Karma: 3
+Date: 1385673086.0
+hi playing around code like make big array items right works set define networksize work idea suggestions know random part work important right code
+
+==============================
+

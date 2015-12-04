@@ -1,0 +1,7 @@
+Title: phpweb forms
+Karma: 12
+Date: 1432291273.0
+hey want make small web form website making takes users input stores txt file nbsp form contain text fields name email phone number drop calender chose date also drop box pick selection items obviously drop box select option valuebirthdayvolvooption option valueweddingsaaboption option valuebaptismopeloption option valueanniversaryaudioption select text fields name input typetext namenamebr email input typetext nameemailbr number input typetext namenumberbr nbsp thought php goto language choice need little help want know go seem find anything specifically want help greatly appreciated
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: create seconds counter javascript
+Karma: 36
+Date: 1370567622.0
+hi guys want create simple seconds counter javascript store seconds variable called tseconds go essentially function activates want start counting seconds thought done like tseconds countup working ideas get going thanks final code function timer settimeoutfunction timer timer timer
+
+==============================
+

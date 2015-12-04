@@ -1,0 +1,7 @@
+Title: reasons use ncurses instead printing escape sequences
+Karma: 9
+Date: 1324763557.0
+way curses handle colors pisses much stand using reasons stick curses aside perhaps portability
+
+==============================
+

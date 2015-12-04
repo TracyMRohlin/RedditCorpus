@@ -1,0 +1,7 @@
+Title: c combining bind memfn viable conversion function pointer
+Karma: 9
+Date: 1384955923.0
+singleton class model mvc one classes model access remainder objects model order perform calculations using function basically provides comparator storing best candidate afindcontainedif sharedptr passed reference atargetcontainedif asks singleton findcontainedif iterating singletoncontainer storing best candidate get compile error listed apply function containeds void singletonapplytocontainerofsharedptr voidstdsharedptrcontained func container stl containersharedptrcontained foreachcontainerbegin containerend func result stores found pointer comparing sosp result relative void afindcontainedifsharedptrcontainer sosp sharedptrcontainer result set member pointer void atargetcontainedif sharedptrcontained result using debugging combined nested binds memfn otherwise auto findiffunc bindmemfnafindcontainedif auto funcarg bindfindiffunc refresult singletongetinstanceapplytocontainerofsharedptrfuncarg compile error ifresult use result results formatted error readability viable conversion 'stdbind stdbind stdmemfn void astdsharedptrcontained stdsharedptrcontained stdplaceholdersph stdreferencewrapper stdsharedptrcontained ' ' aka 'void stdsharedptrcontained' going wrong understand first bind binds member function problem second bind placeholder ask sharedptrcontained refresult bound second argument afindcontainedif end function asks single sharedptrcontained voidstdsharedptrcontained
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c question converting integer string character
+Karma: 2
+Date: 1432100378.0
+trying write custom printf implementation fun learning serious project figure convert integer example type int character string basically want line like printfd vaarglist int converted something use printf sprintf etc
+
+==============================
+

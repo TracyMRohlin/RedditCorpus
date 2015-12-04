@@ -1,0 +1,7 @@
+Title: c command line text files
+Karma: 5
+Date: 1385451213.0
+project school supposed take contents file change every character ascii numbers new file called nameenc able change back file called namedec reason decryption part code works strange symbol end file encryption wont work please help int encryptchar filename file infile outfile char name encenc int ch whilefilenamei'' nameifilenamei infilefopen filename r infile null printferror specified file openedn return strcatname enc outfilefopennamew feofinfile chfgetcinfile ifch fprintfoutfile d ifch fprintfoutfile d fprintfoutfile d ch fcloseinfile fcloseoutfile return int decryptchar filename file infile outfile char name decdec int ch ch ch ch infilefopen filename r infile null printferror specified file openedn return whilefilenamei'' nameifilenamei strcatname dec outfilefopennamew feofinfile chfgetcinfile chch chfgetcinfile chch chfgetcinfile chch chchchch fprintfoutfile c ch fcloseinfile fcloseoutfile return int mainint argc char argv strcmpargv e encryptargv else strcmpargv d decryptargv else printfnot valid return
+
+==============================
+

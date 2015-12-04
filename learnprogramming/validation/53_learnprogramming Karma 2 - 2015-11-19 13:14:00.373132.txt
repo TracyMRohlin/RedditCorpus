@@ -1,0 +1,7 @@
+Title: objectivecwhat autoreleasepool block used also question behavior class extensions
+Karma: 2
+Date: 1400737800.0
+hi rlearnprogramming like title says understand point autorealesepool block find thing clear also wondering use class extension declare property property also inherited sub class available class declared
+
+==============================
+

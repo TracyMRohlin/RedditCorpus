@@ -1,0 +1,7 @@
+Title: possible use camera track speed object assign integer value
+Karma: 20
+Date: 1369540272.0
+friend working project want camera able detect quick something moving assign value power motors depending value say plan using arduino anyone offer pointers possible might go
+
+==============================
+

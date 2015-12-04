@@ -1,0 +1,7 @@
+Title: wolfram language
+Karma: 7
+Date: 1385187977.0
+software available raspberry pi owners interested checking know almost nothing language know language used mathematica less since never used mathematica really help understand wolfram breaking language mathematica turning standalone product supposed general purpose language oodles builtin functionality maybe ability draw knowledge wolfram alpha clear part wolfram says reduce need external libraries know intended use language well besides mathematical modeling syntax like bells whistles know basically incentive pick language free people raspberry pis anyway edit also anyone suggestions resources learning wolfram great
+
+==============================
+

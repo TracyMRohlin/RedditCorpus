@@ -1,0 +1,7 @@
+Title: review pygame source code
+Karma: 22
+Date: 1325136122.0
+source code four games great get additional set eyes games aimed novice programmers written simplicity hence lack list comprehensions use occasional global variable etc need download pygame games flood clone bejeweled clone othello clone connect four clone main questions parts confusing understand enough commenting comments added bits code simplified even removed previously found functions never call previous reviews code understandable novice programmer reading code comments code imagesound files downloaded thanks edit btw rough draft book
+
+==============================
+

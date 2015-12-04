@@ -1,0 +1,7 @@
+Title: return two values function c
+Karma: 11
+Date: 1337278146.0
+trying return values function print main structure function gets values input function input values undergo simple calculation wish return two numbers end far real clue return numbers return individual members struct print cant seem print result numbers
+
+==============================
+

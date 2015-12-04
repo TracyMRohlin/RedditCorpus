@@ -1,0 +1,7 @@
+Title: need help programming rc car
+Karma: 9
+Date: 1354320350.0
+hello guys new subreddit currently school project get rc car assigned fg competition evo make car drive efficiently possible certain course work group every person assigned certain task together someone else assigned fpga car led bars led capable emitting colors output speed vehicle use leds plan use number leds measurement speed color measurement efficiency already wrote whole program verilog language xilinx ise though finally testing seem work absolutely idea question anyone experienced programming rc vehicles possibly help us yes send current code additional documentation vehicle exact specifications much appreciated
+
+==============================
+

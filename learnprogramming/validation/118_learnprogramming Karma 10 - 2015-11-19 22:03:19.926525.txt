@@ -1,0 +1,7 @@
+Title: writing code work video begin
+Karma: 10
+Date: 1322788842.0
+currently interested designing tools experiment video manipulation rendering basically want make little niche video editors processors mostly experimentation purposes done lot programming time got basics aware easy task alright prepared challenge body ready however trouble finding even get started seems difficult search mostly running guides video editing course interest reddit look get started imagine need dive videographics libraries opengl something else done little types things know whats suited found core video programming guide mac little use done small bit ffmpeg stuff command line look well doubt looking tldr ready dirty work reddit need nudge right direction develop tools manipulate render video thanks
+
+==============================
+

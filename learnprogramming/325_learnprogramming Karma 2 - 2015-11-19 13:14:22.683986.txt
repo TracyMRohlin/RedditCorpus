@@ -1,0 +1,7 @@
+Title: javascript jquery issues json get request
+Karma: 2
+Date: 1399861232.0
+starting delve web design thought release lol api beta throw together little web app using javascript however issue retrieving jsons using jquery print json undefined however prints multiple undefined lines meaning must least retrieving meta data insert query url bar api key returns data successfully anyone else running issue help work check code snippet removed api key security 'clickfunction getjson' eachobjfunctionkey value ulappendlivalueidli
+
+==============================
+

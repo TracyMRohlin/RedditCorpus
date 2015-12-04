@@ -1,0 +1,7 @@
+Title: net connecting programs databases
+Karma: 10
+Date: 1354064722.0
+something stumbling block wire c sharp program database correctly say something like mysql heard things thrown around like adonet similar know import driver connect directly running specific sql commands want like right way anyone handy guides good walk throughs explain process add using visual studio net
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: questions program performancespeed
+Karma: 17
+Date: 1370147699.0
+written essentially number crunching program c need help speeding need detailed far program actually purpose try simplify much essentially loop contains code currently loop around times seconds really need loop times reasonable amount time mainly need know operations expensive terms speed specifically know function calls fairly costly class methods less costly difference two function call costly variable declaration ' statements costly need specificdetailed please let know thanks advance
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: basic objectoriented design
+Karma: 16
+Date: 1368775009.0
+throwaway embarrassed sixfigure programming job ruby understand basic data structures really bad implement object questions saw thorough general solution one oo design questions believe learn recently asked interview write dogbreed class example dogbreed might corgi poodle followup question requested functionality create new dogbreed two parent dogbreeds someone please point explanation approach sort problem explain approach eg even know sort methods data stored update similar question received implement deck cards used card game
+
+==============================
+

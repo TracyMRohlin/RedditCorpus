@@ -1,0 +1,7 @@
+Title: c use constructors program
+Karma: 21
+Date: 1399956492.0
+reading c primer th edition far understood things teaches bit stumped introduced constructors thing says declare define constructur within basic class gives exercise write constructors class make program using constructors idea use constructor book mentioned call like regular functions automatically kick use parentheses initialize object create example exercises class called salesdata data member called bookno example constructor book looks like salesdataconst stdstring booknos mean defining happens try initialize salesdata object passing single string argument paretheses means initialize salesdata bookno data member way salesdata itemexample initializer correct use constructors program
+
+==============================
+

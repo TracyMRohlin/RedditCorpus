@@ -1,0 +1,7 @@
+Title: reddit api php library help echo vs printr
+Karma: 14
+Date: 1368214481.0
+trying reddit api php errorreportingeall iniset' ' requireonce userphp class posts public function constructuser subreddit null ifuser null user instanceof user throw new exceptionpostsconstruct user must user object thisuser user subreddit null thisr else thisr r subreddit public function getpostsrtype hot null rtype hot rtype new rtype controversial rtype rtype month rtype week rtype day rtype hour throw new exceptionpostsgetposts invalid subreddit type ' rtype hot ext json else rtype new ext newjson else rtype controversial ext controversialjson else ext topjsont rtype null instanceof post aftername json thisuser else json thisuser json jsondecodejson' echo pre printrjson echo jsontitle echo pre user new user posts new postsuser todayilearned postsgetpostshot use echo jsontitle instead printrjson get following error notice undefined property stdclasstitle cinetpubwwwrootredditlibredditmasterpostsphp line want title url submitter date also reddit api libraries php actually work
+
+==============================
+

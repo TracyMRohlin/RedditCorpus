@@ -1,0 +1,7 @@
+Title: code review c unity way incorporate delegates way improve snippet
+Karma: 2
+Date: 1400539553.0
+script learning delegates wondering way incorporate maybe create multicast delegate incorporates functions enemy hit also make manager functions static may call without referencing every script thanks
+
+==============================
+

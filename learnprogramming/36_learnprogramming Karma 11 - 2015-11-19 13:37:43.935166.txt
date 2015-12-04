@@ -1,0 +1,7 @@
+Title: ti basic nested statements
+Karma: 11
+Date: 1384813945.0
+looking web find one single example nested statements ti basic making program goes something like disp give input input x x disp give input input y y disp information elseif xthen disp information basically trying since braces specify way know statements x elseif xthen nested set instructions fix write entirely seprate function called condition x satisfied disp give input input x x pgrmotherinstructions elseif xthen disp information pgrmother instructions code inside dips give input input y y disp information anyway nested ifs ti basic make new program every time
+
+==============================
+

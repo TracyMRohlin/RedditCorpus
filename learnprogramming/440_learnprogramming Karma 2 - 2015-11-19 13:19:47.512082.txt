@@ -1,0 +1,7 @@
+Title: c exam question feedback
+Karma: 2
+Date: 1385283484.0
+revising exam next week wanted feedback question revision materials went done notepad syntax highlighting code completion similar conditions exam question follows implement following class hierarchy consists abstract class student attributes name id strings parent class two derived classes international postgraduate international extra attribute country origin also string postgraduate extra attribute degree type eg msc also string two pure virtual functions print displays attributes object input obtains input keyboard note full marks obtained classes separate cpp h files b constructors c correctly written mutators d correctly written accessors e correctly defined pure virtual functions interpretation picky possible please thanks
+
+==============================
+

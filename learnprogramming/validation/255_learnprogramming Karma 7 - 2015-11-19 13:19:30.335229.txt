@@ -1,0 +1,7 @@
+Title: abstract vs interface
+Karma: 7
+Date: 1385557189.0
+oop class school right still trouble abstraction interfaces really difference two appropriate use one
+
+==============================
+

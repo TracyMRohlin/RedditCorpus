@@ -1,0 +1,7 @@
+Title: help work related asp beginneraspnet
+Karma: 12
+Date: 1370405907.0
+recently started new job website done aspnet done little comments reference furthermore programmer made site longer around one ask help never used aspnet boss knows dire need assistance attached snippet code file working understand code except following line showpreviousitemnameitembranduseimageuseurl looked throughout file files included page run find method named showprevious believe take code put recently viewed items table holds upto items links pages well small images life though find method tips help much appreciated code snippet website snippet edit stole pastebin
+
+==============================
+

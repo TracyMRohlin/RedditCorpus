@@ -1,0 +1,7 @@
+Title: good perl reformatrewrite data file
+Karma: 9
+Date: 1322607200.0
+greetings programmer trade smart lowly network administrator tasked something made lot easier programming asked produce list dns entries forward records reverse ptr records unified ipam system moment taken bind dns servers flat text file containing forward records another reverse records example section file forward records origin nitfoobarcom kali ssgfblab ssgfblab ssgfblab origin infosecfoobarcom tenable wonka section file reverse records origin inaddrarpa ptr kalinitfoobarcom ptr ssgfblabnitfoobarcom ptr ssgfblabnitfoobarcom ptr ssgfblabnitfoobarcom ptr tenableinfosecfoobarcom obviously ip addresses actual domain names changed protect innocent want get record wonkainfosecfoobarcom corresponding ptr record also see clean delineation subnets subdomains thinking go files get list fqdns use grep line reverse file forward file think get data fqdns reverse file fairly easily looking ptr entry line grabbing whatever comes forward record fairly lost suppose look origin statement grab comes next look statement grab comes append came origin statement next origin statement comes along however know dilemma anyone suggestions go forward help greatly appreciated
+
+==============================
+

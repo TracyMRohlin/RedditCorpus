@@ -1,0 +1,7 @@
+Title: developing extremely basic usb hid driver unknown random bytes
+Karma: 5
+Date: 1399858387.0
+yesterday found buzz little messing around xxd python devinputjs xorg make consider keyboard managed get script note far best script ever certainly overwritten six times writing relatively fragmented works fine unfortunately note dropping quite bytes worth data literally zero idea mean anyone spare light kind output get spamming controller 'buzz' button raw hex commented hex may look funny small resolution screens zoom question stated commented hex earth byte input get random four bytes thanks ps hindsight yes realize intint better loop adding count developing five works going implemented next kernel release ha hold onto hats pps yes copy quite bit stackoverflow less interested learning python testing rereading noticed stuck true loop byte set x oh well get point edit thought point yelled yes realize linux kernel raw usb communications making controller device file actual raw usb data start
+
+==============================
+

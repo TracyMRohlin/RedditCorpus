@@ -1,0 +1,7 @@
+Title: java c best way display text createyourownadventure
+Karma: 2
+Date: 1399874164.0
+details learning java c decided great way practice creating createyourownadventure bunch things plan incorporate later first problem store story make one large txt file numbered lines skip correct line make many small files course chosen open close many files code make large array string objects display one large txt file opinions appreciated thanks
+
+==============================
+

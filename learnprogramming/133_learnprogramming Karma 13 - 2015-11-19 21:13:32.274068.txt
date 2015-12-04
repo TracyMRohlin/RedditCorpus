@@ -1,0 +1,7 @@
+Title: someone check error please
+Karma: 13
+Date: 1353737442.0
+c one homework problems working succeeds building giving consistent result times times gives junk numbers even nan otherwise gives right answer looking anyone tell reason even giving junk numbers occasionally include stdioh include mathh function declaration double theta int limit const double pi int main void local declaration int double approximatepi double difference statement printf first trialn printf enter number terms used approximation scanf d approximatepi theta difference pi theta printf value pi lfn pi printf number terms dn printf values calculated theta lfn approximatepi printf difference values theta pi lfn difference printf nnsecond trialn printf enter number terms used approximation scanf d approximatepi theta difference pi theta printf value pi lfn pi printf number terms dn printf values calculated theta lfn approximatepi printf difference values theta pi lfn difference return double theta int limit local declaration double theta double sumofequation statement int limit sumofequation pow theta pow sumofequation return theta
+
+==============================
+

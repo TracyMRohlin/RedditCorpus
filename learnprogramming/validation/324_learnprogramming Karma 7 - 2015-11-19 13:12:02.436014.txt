@@ -1,0 +1,7 @@
+Title: eli aspect oriented programming
+Karma: 7
+Date: 1431650679.0
+everyone knows object oriented programming basic requirement get field days introduced new concept aspect oriented programming initial research made seem like goes oop struggling though identify aop models stands already read wiki going start reading tutorials intrigues wondering experience aop give good run
+
+==============================
+

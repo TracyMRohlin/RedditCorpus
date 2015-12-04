@@ -1,0 +1,7 @@
+Title: java help displaying images
+Karma: 2
+Date: 1400092982.0
+created pokemon guessing app displays image pokemon silhouette left black rectangle right user unable guess pokemon correctly heshe press button displays picture name pokemon applet first launched looks like user clicks ' first time looks like random pokemon pressed looks like need user presses random pokemon button displays black rectangle
+
+==============================
+

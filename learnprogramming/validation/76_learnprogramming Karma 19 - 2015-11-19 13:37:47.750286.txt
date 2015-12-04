@@ -1,0 +1,7 @@
+Title: python looking codereview collaborators downloads folder sorting script
+Karma: 19
+Date: 1384210306.0
+herro project sorts downloads folder moves new destination new name basically started small school project seen frequent use wish see grow acquiring potential collaborators andor codereview users project url really complicated think users wish learn python give try meantime hopefully build something use practice systems basically takes parameter given downloads folder file present configjson moves file given destination acquired another parameter parameters read description put github people wish find bit possibilities script basic usage python cleanuppy p cuserdownloads cusershows example show named cuserdownloadshouseseavi moved cusershowshouseseason episode avi bugs ie show folder file moved new destination folder deleted even empty also support movies
+
+==============================
+

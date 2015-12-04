@@ -1,0 +1,7 @@
+Title: c large arrays use hash table
+Karma: 16
+Date: 1383947800.0
+writing program c array items able grow reduce size read searching hash table faster search changing size going cause headaches hash table still pretty new c sorry got anything wrong
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c problem userdefined function returning wrong value
+Karma: 6
+Date: 1400740179.0
+program takes user inputs yogurt prints receipt know messy still beginning stages working run program errors pop discount comes giant number sure help appreciated
+
+==============================
+

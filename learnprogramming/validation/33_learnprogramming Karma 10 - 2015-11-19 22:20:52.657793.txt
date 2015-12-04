@@ -1,0 +1,7 @@
+Title: java imports work
+Karma: 10
+Date: 1310187545.0
+taking java classes year recently wanting go beyond really understand language one thing really think imports work libraries located mean need input use joptionpane folder file somewhere follows javaxswingjoptionpane looked google see anything really helped edit also mention sure located somewhere sure
+
+==============================
+

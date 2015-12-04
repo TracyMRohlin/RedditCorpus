@@ -1,0 +1,7 @@
+Title: c model sudoku board
+Karma: 2
+Date: 1431927443.0
+hey beginner coder one semester java belt teaching c next semester want challenge bit try develop program solves sudoku puzzles stated novice looking anything fast powerful method practice programming model sudoku board tips might need tackle tips advice welcome appreciated
+
+==============================
+

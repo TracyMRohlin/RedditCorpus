@@ -1,0 +1,7 @@
+Title: need help d collisions
+Karma: 12
+Date: 1324453084.0
+seem find website clearly teaches dunno struggling trying figure make rectangles collide guess really need help choosing happens collision happens already code checks corner decides corner rectangle know go code works moving certain directions someone explain maybe handle collisions post code need
+
+==============================
+

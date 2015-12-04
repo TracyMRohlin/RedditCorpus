@@ -1,0 +1,7 @@
+Title: clean code vs fast code
+Karma: 38
+Date: 1399940167.0
+easier challenges hackerrank came upon problem nxn matrix two elements ' ' located ' corner matrix ' anywhere order find make general function takes ' character matrix make separate one checks corners ' faster less clean work obviously speed two scenarios differ much general terms cleanconcise code better efficient code vice versa
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: androidweb trying figure databases
+Karma: 6
+Date: 1385621305.0
+hello fellow rlearnprogramming ers couple database questions first big one android databases know use sharedpreferences minimal knowledge use sqlite good place learn sqlite chance someone knows something online databases learn interested online database found including googles new cloud system figure exactly second question websites similar thing sure properly use database sort database use help either things appreciated
+
+==============================
+

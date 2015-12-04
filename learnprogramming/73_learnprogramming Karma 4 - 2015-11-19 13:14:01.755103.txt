@@ -1,0 +1,7 @@
+Title: java eclipse rcp philosophical question mature application frameworks fundamentally change
+Karma: 4
+Date: 1400642758.0
+hi friends built application using rich client platform version x know rcp architecture fastforward today eclipse x world well folks eclipseland completely threw away x ui architecture say completely mean completely built x compatibility layer tasked adding features application built old architecture know ideal world deadlines infinite time sit learn scratch new way things also migrate codebase get left behind upcoming years done add new functionality unfortunately possible question becomes add new view functionality using x architecture stick know honest comfortable mixing x apis x apis instance like run anything like job fellow eclipse rcp developers run exact scenario attempt make business case get funding migrating codebase approval unlikely please chime thanks freddicus
+
+==============================
+

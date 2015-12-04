@@ -7,7 +7,7 @@ with float64 data
 
 from numpy import nan, ndarray
 import numpy as np
-
+import warnings
 import operator
 
 from pandas.core.common import isnull, _values_from_object, _maybe_match_name
@@ -219,15 +219,15 @@ class SparseSeries(Series):
     @property
     def values(self):
         """ return the array """
-        return self._data._values
+        return self.block.values
 
     def __array__(self, result=None):
         """ the array interface, return my values """
-        return self._data._values
+        return self.block.values
 
     def get_values(self):
         """ same as values """
-        return self._data._values.to_dense().view()
+        return self.block.to_dense().view()
 
     @property
     def block(self):
@@ -604,13 +604,10 @@ class SparseSeries(Series):
             dense_valid = dense_valid[dense_valid != self.fill_value]
             return dense_valid.to_sparse(fill_value=self.fill_value)
 
-    def shift(self, periods, freq=None, **kwds):
+    def shift(self, periods, freq=None):
         """
         Analogous to Series.shift
         """
-        from pandas.core.datetools import _resolve_offset
-
-        offset = _resolve_offset(freq, kwds)
 
         # no special handling of fill values yet
         if not isnull(self.fill_value):
@@ -622,10 +619,10 @@ class SparseSeries(Series):
         if periods == 0:
             return self.copy()
 
-        if offset is not None:
+        if freq is not None:
             return self._constructor(self.sp_values,
                                      sparse_index=self.sp_index,
-                                     index=self.index.shift(periods, offset),
+                                     index=self.index.shift(periods, freq),
                                      fill_value=self.fill_value).__finalize__(self)
 
         int_index = self.sp_index.to_int_index()
@@ -770,4 +767,11 @@ ops.add_special_arithmetic_methods(SparseSeries, _arith_method,
                                    bool_method=None, use_numexpr=False, force=True)
 
 # backwards compatiblity
-SparseTimeSeries = SparseSeries
+class SparseTimeSeries(SparseSeries):
+
+    def __init__(self, *args, **kwargs):
+        # deprecation TimeSeries, #10890
+        warnings.warn("SparseTimeSeries is deprecated. Please use SparseSeries",
+                      FutureWarning, stacklevel=2)
+
+        super(SparseTimeSeries, self).__init__(*args, **kwargs)

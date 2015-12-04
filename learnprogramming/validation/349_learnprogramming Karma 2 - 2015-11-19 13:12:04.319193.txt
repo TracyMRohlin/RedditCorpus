@@ -1,0 +1,7 @@
+Title: looking little help scilab plotting
+Karma: 2
+Date: 1431586910.0
+working assignment school due tomorrow night problems plotting section code code r differing radii visc p tau rctaup rlinspacerc rlinspacercr vrrprviscrcrrcrrcr vprviscrrrcrrrrcrrr plotrr v rr v mtlbholdon end run code get output blank graph error warning transposing row vector x get compatible dimensions plotdxy error plotd wrong size input arguments incompatible sizes error plotd called plotwarning transposing row vector x get compatible dimensions plotdxy error plotd wrong size input arguments incompatible sizes error plotd called plotwarning transposing row vector x get compatible dimensions plotdxy error plotd wrong size input arguments incompatible sizes error plotd called plotwarning transposing row vector x get compatible dimensions plotdxy error plotd wrong size input arguments incompatible sizes error plotd called plotwarning transposing row vector x get compatible dimensions plotdxy error plotd wrong size input arguments incompatible sizes error plotd called plotwarning transposing row vector x get compatible dimensions plotdxy error plotd wrong size input arguments incompatible sizes error plotd called plot please help
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c shifting elements array every time shift lose one element trouble seeing going
+Karma: 4
+Date: 1385963861.0
+code relatively long reddit posted along accompanying text file new c bear looks like losing elements whenever user chooses rotate array really idea happening puzzling time anyone give clues thanks
+
+==============================
+

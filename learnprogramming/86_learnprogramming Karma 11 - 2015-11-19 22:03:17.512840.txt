@@ -1,0 +1,7 @@
+Title: relatively simple way convert text based program appletjava
+Karma: 11
+Date: 1323725130.0
+made program simulate basic form evolution want print square value color store alive object dimensional short array prints square numbers using println hierarchy work applets applet top creates alive manager object know much applets besides draw simple images way going way seems work somewhat paint method creates object gets stuck reason less full square using bluej write code interested essentially boils pass information applet far tell paint method runs select run applet thanks advance wondering assignment cs class edit may completely unfounded think everything want applet needs init method going try creating object
+
+==============================
+

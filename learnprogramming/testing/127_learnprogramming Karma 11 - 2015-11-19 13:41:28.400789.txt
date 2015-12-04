@@ -1,0 +1,7 @@
+Title: phpmysqlquery returning empty
+Karma: 11
+Date: 1369824530.0
+trying write simple mobile webpage help job work large grocery store impossible remember everything working backend return data duh sql returning empty even though run statement term phpmyadmin returns row edit clarification query variable coming false triggering block code along test data php returnphp returns data database deathnerd set data type json header'contenttype application check see request issetrequest' term request' else echo request empty exit uncomment debug echo term termn open connection check conn mysqliconnectlocalhost root like know mysqliconnecterrnoconn echo database connect failed mysqliconnecterror exit select rows following comment verbatim query phpmyadmin sql select products product'bread' query mysqlqueryselect products product'term' uncomment debug echo query queryn query echo empty query n exit put row results array encode json row mysqlfetcharrayquery uncomment debug echo row rown return jsonencoderow uncomment debug echo return close connection mysqlicloseconn rows data key product location vendor info price bread aisle generic bread stuff chips aisle generic chip stuff dressing aisle generic dressing pizza aisle generic pizza yay edit well localhost throwing internal server error code system restart awesome
+
+==============================
+

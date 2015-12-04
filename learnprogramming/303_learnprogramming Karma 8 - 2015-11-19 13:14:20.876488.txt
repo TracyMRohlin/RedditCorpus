@@ -1,0 +1,7 @@
+Title: c reading input file command line parameter
+Karma: 8
+Date: 1399900434.0
+know much io besides obvious cin cout basically working something take input file directory cpp file looked include fstream sure right track ideas thanks much
+
+==============================
+

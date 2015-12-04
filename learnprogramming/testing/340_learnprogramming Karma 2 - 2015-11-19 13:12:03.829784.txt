@@ -1,0 +1,7 @@
+Title: given list repeating numbers select common order
+Karma: 2
+Date: 1431611417.0
+hello everyone rather interesting real problem mine think idea tackle appreciate input subreddit well given list integers possibilities condense mean list repeating numbers bottom element list desired output key idea take giant list repetitive elements simply condense signal notice however possibility error near end put errors anywhere might little oneoff digit perhaps even consecutive apparent oftentimes occur inside larger repetitions samplings found lot pairerrors end list course random anywhere human spot general pattern easily errors trick simple algorithm simple npuniquelist adequate since destroys order error near beginning set also destroy order since error instead seen create list elements without saying stronger signal problem enhanced possibility something although rare like signal repetition one number another necessary distinguish separate signals indeed repetition even questionable whether proper algorithm make super important knows one real signal indeed simple one number output definitely number times gets tricky another thing note signal list long one constant length words changes sometimes due sample rate signal considering sectioning signal list chunks finding modes chunk another idea find top frequent elements list least unique elements signals list otherwise case require work use elements element list decide order function idea nothing concrete yet anyone come across similar problem situation extra examples
+
+==============================
+

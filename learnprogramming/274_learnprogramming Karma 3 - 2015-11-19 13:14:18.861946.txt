@@ -1,0 +1,7 @@
+Title: python using mathacos function gives domain error
+Karma: 3
+Date: 1400002961.0
+hello rlearnprogramming trying code program able find angles triangle whenever try use mathacos gives error gives error valueerror math domain error code run need whole code edit sorry variables comments written danish need translate tell
+
+==============================
+

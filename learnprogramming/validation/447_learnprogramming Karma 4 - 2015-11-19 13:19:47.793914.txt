@@ -1,0 +1,7 @@
+Title: multiple conditions regex least one character one number need separate tests
+Karma: 4
+Date: 1385271094.0
+trying find piece text least one number letter special character easily via three separate checks inputstringmatchesazaz one letters inputstringmatches numbers inputstringmatches speacial chars unsure combine everything one expression things combined
+
+==============================
+

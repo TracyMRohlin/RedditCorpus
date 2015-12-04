@@ -1,0 +1,7 @@
+Title: custom file format creation
+Karma: 13
+Date: 1339939061.0
+looking making custom file formats mainly experience seem get behind works know needs begin signature magic number info file data trouble put signature file go write signature file c fprintf example certain way goal files accessible program mine without hacking tried google search seem find help find great thanks
+
+==============================
+

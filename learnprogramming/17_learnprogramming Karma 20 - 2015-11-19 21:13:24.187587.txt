@@ -1,0 +1,7 @@
+Title: learning java static methods classes considered bad bad practice
+Karma: 20
+Date: 1354417630.0
+coming ruby python primarily static methods fairly common particularly ruby activerecord orm uses fetch data implementing methods may may talk database considering something like public class datamapper public static widget getwidgetstring name code return widget public static something getsomethingstring name code get something add static functions use code like widget test datamappergetwidgettestwidget essentially acting orm basic sense currently know datamapper talking sql source flat files inmemory data remote network sources etc like something like one location change fetch data code want use sql replace contents functions proper orm flat files open said files etc considered bad java better approach familiar
+
+==============================
+

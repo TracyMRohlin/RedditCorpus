@@ -1,0 +1,7 @@
+Title: self taught web developer hitting ceiling learning curve
+Karma: 23
+Date: 1368921608.0
+background learnt code year blast love daresay quite fluent implementing django app end end nothing last years however starting feel cs knowledge gaps missed attending cs course starting catch know manipulate set pieces really understand really works many people explained concepts workers threads processes etc still grok example user lands website generates get request processed reverse proxy nginx case somehow handed uwsgi hits django app hits database postgres happening process happens requests time tweaking nginx worker settings affect gil come play multithreading multiprocessing concurrency relevant context python gevent greenlets overcome think guys see getting imagine whole bunch self taught guys like really understand goes bonnet resource attempts demystify concepts selftaught web point view formal cs training shudder think cs books need read order piece together relevant bits make click head
+
+==============================
+

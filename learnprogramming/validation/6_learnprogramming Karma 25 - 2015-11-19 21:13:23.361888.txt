@@ -1,0 +1,7 @@
+Title: java take parameter type string double
+Karma: 25
+Date: 1354458964.0
+need add two user inputs either strings doubles doubles adds normally one string concatenates guarantee types want code function public object addobject valuea object valueb return valuea valueb course work operator '' legal type object way without overloading method every permutation types string double edit changed items need add list try convert double convert least one item string two adding methods least one item string call method concatenates everything list otherwise adds doubles returns
+
+==============================
+

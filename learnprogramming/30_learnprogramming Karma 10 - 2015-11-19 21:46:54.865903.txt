@@ -1,0 +1,7 @@
+Title: possible add element end array c
+Karma: 10
+Date: 1339183205.0
+array want keep adding elements example give value store array give another number store value array possible declare size array simple function add element first open spot array thanks
+
+==============================
+

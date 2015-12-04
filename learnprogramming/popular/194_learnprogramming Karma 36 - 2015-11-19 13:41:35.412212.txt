@@ -1,0 +1,7 @@
+Title: run website collect analyse lot data right use spreadsheets lot tedious manual work like create simple program enter data onto database web server simple questions
+Karma: 36
+Date: 1369275959.0
+little bit background website analyses soccer clichs see true right data samples small makes analysis pretty crude plan manually trawling lot archived websites scrape data scores time goals possession statistics etc want putting large unwieldy spreadsheet cause havoc line like create small program basically form fill fixture entered db useful organized manner basically like image reading think handle coding questions setting start eclipse intellij better type thing assuming used either ie one sort setup wizard connect database host site dreamhost set db click button right thinking use database simply connecting program best way acheive want much simpler way edit forgot one questions reading tutorials particularly one
+
+==============================
+

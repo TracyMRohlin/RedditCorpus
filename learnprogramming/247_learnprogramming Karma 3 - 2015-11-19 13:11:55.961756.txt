@@ -1,0 +1,7 @@
+Title: eof loop
+Karma: 3
+Date: 1431848329.0
+trying read cost quantity data input file unknown length calculate output value item table like format using eof loop sample output code include iostream include iomanip include string include fstream using namespace std task variables int quantityofsingleitem int itemnumber double singleitemcost double inventoryvalue string filename ifstream infile char ch task eof file processing output divider fout setfill'' setwscreenwidth ' ' setfill' ' endl fout task eof file processing endl output divider fout setfill'' setwscreenwidth ' ' setfill' ' endl itemnumber quantityofsingleitem infileopen extasktxt fout setw item setw cost setw quantity setw inventory value endl infile singleitemcost infilegetch infileeof infile quantityofsingleitem inventoryvalue singleitemcost quantityofsingleitem itemnumber fout setw itemnumber setw singleitemcost setw quantityofsingleitem endl close input output files finclose foutclose return output big include since somehow infinite loop please help
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c language pseudocode global variables
+Karma: 5
+Date: 1385365735.0
+going try keep general possible code end make things simple possible c function manipulate variable array main function file without passing parameter ex void cleararrayx void main array x array y cleararrayx function look like possible please keep mind trying access arrays pointers cheers
+
+==============================
+

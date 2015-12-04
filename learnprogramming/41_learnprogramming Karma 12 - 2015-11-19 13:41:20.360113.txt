@@ -1,0 +1,7 @@
+Title: closures nested functions factory functions real world daytoday uses things
+Karma: 12
+Date: 1370405918.0
+got chapter python book talked closures guess another name factory function another name nested function however examples left fairly confused use example used demonstrate usage create something counted unfortunately example left little puzzled use things
+
+==============================
+

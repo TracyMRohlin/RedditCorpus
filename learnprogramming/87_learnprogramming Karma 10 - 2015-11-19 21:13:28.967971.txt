@@ -1,0 +1,7 @@
+Title: repl c
+Karma: 10
+Date: 1354054825.0
+learned programming python dabbling bit javascript think gotten used python prompt ingrained workflow experimenting c becomes slow cumbersome time takes edit compile know option better configure editing environment vimmake takes less time less context switching love know options well
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: need help java delimiters
+Karma: 3
+Date: 1399803262.0
+high school cs data structures course currently project called catching plagiarists given file directory full documents asked search phrases common documents phrases defined series words length n currently writing method arrange given document arraylist phrases like make token scanner returning series words max phrase length get added arraylist tried whole variety delimiters none appear anything return single symbol one tried last readerusedelimiterb n far tell correct possible reading pattern javadoc wrong really confused someone please help figure works edit reading scanner pattern classes tried instantiating pattern described javadoc
+
+==============================
+

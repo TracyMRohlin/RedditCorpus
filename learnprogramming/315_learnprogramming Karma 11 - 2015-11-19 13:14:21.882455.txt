@@ -1,0 +1,7 @@
+Title: chess ai algorithm
+Karma: 11
+Date: 1399877222.0
+wondering chess ai algorithm works especially baffles one difficulty setting computer decide move better game complex chess
+
+==============================
+

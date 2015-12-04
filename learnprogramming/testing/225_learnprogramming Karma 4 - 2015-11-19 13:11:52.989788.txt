@@ -1,0 +1,7 @@
+Title: object oriented design analysis
+Karma: 4
+Date: 1431925987.0
+anyone give broad overview oo analysis design formalized systems methods ooad use one another anyone good tutorials go steps ooad ie starting problem description applying sequence steps result implementation ready oo design much trouble starting sizable project know identify classes use work together forth
+
+==============================
+

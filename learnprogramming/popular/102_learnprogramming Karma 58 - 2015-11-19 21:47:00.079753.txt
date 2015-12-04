@@ -1,0 +1,7 @@
+Title: announcement overhauled faq go take look
+Karma: 58
+Date: 1337509556.0
+tldr new faq anyone frequents subreddit probably seen complain faq terrible really faq least complaining one ever anything believe decided something week half ago started work real faq turned actuality document full wiki subreddit sections going use subreddit frequently asked questions bunch resources many pulled great comment current version faq aimed essential beginner questions get asked frequently certainly room questions encourage everyone ability add questions answers feel fit within current scheme deliberately stuck questions generally learning programming rather including common technical problems people run console closing end execution vs etc believe faq focus teaching people fish categorizing outlining every single problem learning programmer might possibly run stackoverflow covers pretty well already far resources section concerned currently focus freely available resources want turn free ad space random startups main exception books section small selection nonfree books mostly best important books field computer programming cost money also links external lists resources may contain mix free nonfree resources new faq please add feel missing important information feel free fix mistakes broken links sure keep neutral tone think wikipedia make sure information accurate date users able modify wiki based account experience changes like make unable feel free mention thread
+
+==============================
+

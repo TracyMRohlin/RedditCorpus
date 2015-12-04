@@ -1,0 +1,7 @@
+Title: code jumping c unity infinite runner
+Karma: 2
+Date: 1432086109.0
+tried space pressed change velocity y makes pop glide ideas
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: learning write chrome extensions
+Karma: 9
+Date: 1337739224.0
+hello rlearnprogramming currently trying study chrome extensions create simple utility website problem hard time wrapping head around extension system put code far know modify dom content scripts logic state background page another big question create long time storage data used extension thanks advance
+
+==============================
+

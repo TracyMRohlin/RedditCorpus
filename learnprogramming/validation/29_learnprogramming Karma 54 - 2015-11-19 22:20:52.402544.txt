@@ -1,0 +1,7 @@
+Title: flubbed job interview idea memory comes declaring class member function variables cache consequences calling parent class function versus child need good learning guide esoteric c memory managementallocation help
+Karma: 54
+Date: 1310246993.0
+several years worth class design implementation belt never cause learn aspect programming know use malloc free like able understand repeat others c program uses memory runtime execution caught flatfooted issue ever edit meant ask link good guide rather discussion conversant enough stack heap participate used c years
+
+==============================
+

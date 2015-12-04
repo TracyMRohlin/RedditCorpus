@@ -1,0 +1,7 @@
+Title: bad practice use brackets use dangling ifs etc short conditional
+Karma: 2
+Date: 1432356056.0
+think using right words pretty much bad practice ifx consolelogwhatever instead ifx consolelogwhatever like first one quicker takes less lines see harder read
+
+==============================
+

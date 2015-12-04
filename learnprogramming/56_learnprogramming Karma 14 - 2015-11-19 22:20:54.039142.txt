@@ -1,0 +1,7 @@
+Title: advantages functional programming
+Karma: 14
+Date: 1309555487.0
+come computational physics background relatively limited hodgepodge computer science courses object oriented programming makes lot sense clearly defining objects atoms clearly defined states position velocity interactions forces seems like approchable way solve majority interesting physics problems advantages functional programming reason choose oop similar simulationmodeling scenario
+
+==============================
+

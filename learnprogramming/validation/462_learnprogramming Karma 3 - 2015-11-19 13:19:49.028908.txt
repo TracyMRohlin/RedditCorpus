@@ -1,0 +1,7 @@
+Title: c create store multiple instances class
+Karma: 3
+Date: 1385243692.0
+hey making simple game want able create store arbitrary number instances class sort stl container vector set look something like help greatly appreciated thanks
+
+==============================
+

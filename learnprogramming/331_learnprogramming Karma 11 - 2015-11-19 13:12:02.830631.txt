@@ -1,0 +1,7 @@
+Title: javascript creating slider two numbers
+Karma: 11
+Date: 1431629055.0
+hey working reproducing slider found far ive managed create something similiar researching around think need use mathlog mathexp together achieve something like example sure heres jsfiddle far maths part halting think help greatly appreciated
+
+==============================
+

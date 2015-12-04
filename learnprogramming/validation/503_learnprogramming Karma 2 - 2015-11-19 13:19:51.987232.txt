@@ -1,0 +1,7 @@
+Title: homeworkjavasimple recursion help
+Karma: 2
+Date: 1385168153.0
+supposed exponent set pow otherwise compute pow recursively return pow code public static int powerint base int exp int pow exp pow else power baseexp return pow get error saying initialize pow return thought know wrong
+
+==============================
+

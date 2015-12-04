@@ -1,0 +1,7 @@
+Title: c question
+Karma: 2
+Date: 1400424473.0
+hi everyone decided learn c using linux machine starting scratch let know wrote little program calculate sum two values runs eveything although get guess error message compiling result sum always get code includestdioh int main void double first double second double sum printfenter first valuen scanflffirst printfenter second valuen scanflfsecond sum first second printfthe total two values lfnsum return thoughts
+
+==============================
+

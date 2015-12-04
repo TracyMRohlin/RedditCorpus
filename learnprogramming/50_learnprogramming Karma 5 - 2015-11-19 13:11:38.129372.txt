@@ -1,0 +1,7 @@
+Title: question data scraping either nodejs python
+Karma: 5
+Date: 1432266278.0
+understand data scraping followed examples line understand code works question data scraped context making web scraper get anything deem valuable different news sources blogs etc realize sources different format andor html tags need identified question get better idea time effort take person scrape data organize understand effort said going code insight looking information identifying whathow many resources may need yet settled using nodejs python use use js python areas environment like overlap skill set
+
+==============================
+

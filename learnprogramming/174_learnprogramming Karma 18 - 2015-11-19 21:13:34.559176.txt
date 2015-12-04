@@ -1,0 +1,7 @@
+Title: correct way incorporate opengl existing program
+Karma: 18
+Date: 1353398430.0
+writing fairly straightforward nbody program c want visual output particles using opengl comfortable c somewhat comfortable opengl experience graphics point yet use larger program already exists wondering someone experience describe best way incorporate opengl calls existing program github link helpful
+
+==============================
+

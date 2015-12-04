@@ -1,0 +1,7 @@
+Title: mysqlhow use clause
+Karma: 3
+Date: 1400117402.0
+tables database videosvid dor title vidtype price director mood themes actorsaid vidref afname alname genregid vidref genre genre multiple primary keys vidreffk value want want search videos fall drama thriller action mystery name kiefer sutherland basically far thing works select videos v inner join reviews r vvid rrvid inner join actors vvid avidref inner join genre g vvid gvidref stars ggenre ' ggenre ' ggenre ' ggenre ' aafname ' aalname ' know correct kind entry feel like using operator wrong imagine another two shows lets call stars kiefer sutherland tagged thriller action mystery query also show info well go making get show searching drama action thriller mystery actor name kiefer sutherland note already tried changing returns nothing select videos v inner join reviews r vvid rrvid inner join actors vvid avidref inner join genre g vvid gvidref stars ggenre ' ggenre ' ggenre ' ggenre ' aafname ' aalname ' solved
+
+==============================
+

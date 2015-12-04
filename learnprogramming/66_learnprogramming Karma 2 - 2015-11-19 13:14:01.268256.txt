@@ -1,0 +1,7 @@
+Title: variables created within outside functions
+Karma: 2
+Date: 1400688817.0
+beginning level java question dont understand seeing many variables created within functions wouldnt best practice set initial var y x list top code outside respective functions quickly edit initial values rather splattered throughout code advantage creating new variables fly within functions missing
+
+==============================
+

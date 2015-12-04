@@ -1,0 +1,7 @@
+Title: learn raw opengl c visual studio
+Karma: 5
+Date: 1399781094.0
+hello everyone searching several days tutorials learn raw opengl c ie extra libraries like sfml glut glfw luck anyone know good resources everything found wants use glfw glut ps know libraries make everything lot easier want get hands dirty raw opengl portfolio thanks
+
+==============================
+

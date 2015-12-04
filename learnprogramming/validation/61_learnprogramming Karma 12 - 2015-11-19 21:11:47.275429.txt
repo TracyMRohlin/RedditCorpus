@@ -1,0 +1,7 @@
+Title: ciso c forbids declaration employeeid type fpermissive
+Karma: 12
+Date: 1368448724.0
+getting error employeeh error iso c forbids declaration employeeid type fpermissive file include string using namespace std class employee public employeeid void set int id char name int clearance private string id string equipment string exceptions file means close complete whats error include main file needed thanks
+
+==============================
+

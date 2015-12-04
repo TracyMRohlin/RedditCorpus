@@ -1,0 +1,7 @@
+Title: using jsp trying get striped rows table using css java calls sql might tripping somewhere
+Karma: 3
+Date: 1399891216.0
+main code fragments current quandary life basic css aesthetics header settings work fine th fontweight bold backgroundcolor acf borderbottom px solid cef attempted zebra striping fail tr nthchildeven backgroundcolor ff opcaity filteralphaopacity mysql portion using java jconnector inside jsp pstmt connpreparestatement select dbtable rs pstmtexecutequery int rsnext rsnext outprinttr int cols rsgetmetadatagetcolumncount ii cols outprinttd aligncenterrsgetstringitd outprinttr suspect correctly referencing correct table areas css sql called jsp builds tables something else happening preventing css working correctly full source code
+
+==============================
+

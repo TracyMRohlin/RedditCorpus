@@ -1,0 +1,7 @@
+Title: db convert datetime date
+Karma: 10
+Date: 1370411382.0
+data returned format 'mmddyyyy hhmm like reduce simply 'mmdd worked much queries db anything much matter tried date function datecolumnname well castcolumnname date thanks advance help
+
+==============================
+

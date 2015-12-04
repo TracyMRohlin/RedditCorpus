@@ -1,0 +1,7 @@
+Title: help cant get c work
+Karma: 10
+Date: 1369993637.0
+sorry right place ask getting really frustrated want learn c reading website anyway get section try make program using codeblocks ide get error message unable read kernellib try googling solution find none work instal ms vs try using getting another error forget type google solution instal eclipse suggestion friend try run program building get error window saying launch failed binary found idea fix getting kind disheartened feeling like ide work guess questions anyone know fix problems idea going may better understanding wrong attempt fix sorry right place post someone lead right direction greatful thank
+
+==============================
+

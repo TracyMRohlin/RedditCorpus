@@ -1,0 +1,7 @@
+Title: java help convert sentence pig latin
+Karma: 2
+Date: 1386244700.0
+ok essentially user inputs string converted pig latin phrase convertword method works fine issue something convertphrase method hours figure program runs printing string twice seems converting words random helpexplanation fantastic pretty basic new programming months got stumped
+
+==============================
+

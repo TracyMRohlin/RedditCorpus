@@ -1,0 +1,7 @@
+Title: use gpu vs cpu
+Karma: 35
+Date: 1369986465.0
+current understanding lot small tasks may able get done faster gpu want try crack password run bunch gpu cores add faster single cpu many cores maybe processing need done faster brute forced cpu anyways get advantage holding data database gpu like business database parallel processing algorithms better fit common programming challenges integrated graphics know appropriate deviate standard practice know benefit terms performance programming logic
+
+==============================
+

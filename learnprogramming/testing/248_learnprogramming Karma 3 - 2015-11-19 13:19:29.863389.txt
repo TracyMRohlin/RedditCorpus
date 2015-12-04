@@ -1,0 +1,7 @@
+Title: need help vbnet datagridview
+Karma: 3
+Date: 1385580073.0
+datagridview one forms user edit update changes made database linked reason want cells left blank currently using following code datagrdsnippetsitemecolumnindex erowindexvalue nothing ' show user message msgboxplease ensure cell given value ' fail validation prevent leaving cell ecancel true end cell validating property dsg however edit cell leave blank nothing happens something wrong code need use another method thanks
+
+==============================
+

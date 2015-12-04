@@ -1,0 +1,7 @@
+Title: haskell pattern matching question
+Karma: 8
+Date: 1385766291.0
+hi curious know working page initials string string string initials firstname lastname f l f firstname l lastname apparent contrast example extracting values two tuples left side applying right side addvectors num addvectors x y x y x x y y happening another example extracting left side applying right side seems ord error maximum empty list x x xxs x maxtail x otherwise maxtail maxtail xs edit realized posting first code example assignment probably
+
+==============================
+

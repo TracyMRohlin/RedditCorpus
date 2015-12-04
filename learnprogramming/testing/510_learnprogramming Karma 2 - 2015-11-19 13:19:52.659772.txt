@@ -1,0 +1,7 @@
+Title: go regexp problem matching end string
+Karma: 2
+Date: 1385146600.0
+need write regexp email addresses school assignment requirements little bit weird local part contain az az following special characters ' dot '' first last local part domain strings separated dot domain end comnetni wrote regexp gskinnercomregexr passes tests try implement go match end string need check email address stops se else accept stuff like obamawhitehousegov accepted code found remove pass accepted tests also accept emailaddresses accepted accepted steveapplecom stevemicrosoftcom larryoraclecom arvewebcsckthse gudrunminprivatamejlservernu ahemligse comcomcom comorgnetnuse abcjustnu inkorg adaencom zzzxyznet wwwnetnet accepted gudrungmailcom gudruncom gudruncom gudrunminprivatamejlserver comcom elpresidentegovco presidentwhitehousegov hemligse nixpixse nixpixse nixpixse gudrunse anyone know accept end string match something wrong go coding something wrong regexp
+
+==============================
+

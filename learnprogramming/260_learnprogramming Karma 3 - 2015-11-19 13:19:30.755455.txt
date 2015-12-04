@@ -1,0 +1,7 @@
+Title: java slickd play
+Karma: 3
+Date: 1385546217.0
+go different classes different game states assume easy dowhile way restart everything like basically calling main function good line need store save values work assistance fantastic
+
+==============================
+

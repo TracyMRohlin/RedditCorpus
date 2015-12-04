@@ -1,0 +1,7 @@
+Title: making thin client php driven website
+Karma: 10
+Date: 1308875968.0
+hi programs capstone project required find real world client develop new system group found client wants system web based first thing came mind particular group php set using php client mentioned wanted thin clients well later future wanted say make mobile app desktop application based code developed possible php use another language like python much like reddit alienblue ipad app possible get links good reading
+
+==============================
+

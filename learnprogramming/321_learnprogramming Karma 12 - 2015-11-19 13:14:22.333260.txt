@@ -1,0 +1,7 @@
+Title: java problem shifting bufferedimage
+Karma: 12
+Date: 1399866458.0
+hi guys trying make game display always player center order get image whole map charactersitemsstuff run function image getting clipped private bufferedimage shiftimagebufferedimage original player player int centerx int mathnextupfloatoriginalgetwidth int centery int mathnextupfloatoriginalgetheight int playerx playerxtilewidth int playery playerytileheight int changex centerx playerx int changey centery playery bufferedimage newimage new bufferedimageoriginalgetwidth originalgetheight originalgettype graphicsd shifter newimagecreategraphics shifterdrawimageoriginal changex changey null return newimage anyone help staring hour
+
+==============================
+

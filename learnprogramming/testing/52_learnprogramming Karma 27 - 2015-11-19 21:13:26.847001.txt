@@ -1,0 +1,7 @@
+Title: c deleting array element contains structure
+Karma: 27
+Date: 1354147985.0
+writing banking program c class teacher gave file read save program reads array structures make program load data file save new information get delete array element correctly program deleting last element array main code program suggestion function trouble understand wants save value matches numberaccount string want user input figure account number string integer supposed make new variable case shift last customer position deletion trying get part working since yesterday still struggling
+
+==============================
+

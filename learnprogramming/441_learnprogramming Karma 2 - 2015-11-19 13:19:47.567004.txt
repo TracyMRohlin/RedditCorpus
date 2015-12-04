@@ -1,0 +1,7 @@
+Title: vectorchar c
+Karma: 2
+Date: 1385282848.0
+issues know put different characters vector need put vowels vector vowelsassign ' obviously returns times need store e o u y vector declared function void initvectorsvectorchar vowels vectorint frequencies someone help figure put vowels
+
+==============================
+

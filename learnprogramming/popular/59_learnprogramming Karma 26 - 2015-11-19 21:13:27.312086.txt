@@ -1,0 +1,7 @@
+Title: executing cmd commands java
+Karma: 26
+Date: 1354124214.0
+hello like run som svn commands java program specifically svn add ' svn commit m filename added triede following seem anything runtimegetruntimeexeccmd c svn
+
+==============================
+

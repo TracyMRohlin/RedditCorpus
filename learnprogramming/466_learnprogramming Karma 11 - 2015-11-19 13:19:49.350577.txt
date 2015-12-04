@@ -1,0 +1,7 @@
+Title: age variable output first digitc
+Karma: 11
+Date: 1385237015.0
+include stdioh int mainint argc char argv char gender printfare male female mfn gender getchar printfyou selected cnpress enter continue gender getchar getchar int age printfwhat age age getchar printfyou c years old age getchar getchar example enter age outputs years old
+
+==============================
+

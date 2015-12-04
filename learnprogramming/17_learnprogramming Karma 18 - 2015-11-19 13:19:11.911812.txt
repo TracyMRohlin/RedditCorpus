@@ -1,0 +1,7 @@
+Title: cwriting function draw square opengl
+Karma: 18
+Date: 1386302485.0
+already code cartesian coordinate system really first thing ever tried opengl kind confused overwhelmed help greatly appreciated
+
+==============================
+

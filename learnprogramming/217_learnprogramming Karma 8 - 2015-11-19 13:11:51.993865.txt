@@ -1,0 +1,7 @@
+Title: c recursive program work
+Karma: 8
+Date: 1431931806.0
+palindrome check understand terminates base case edit working version
+
+==============================
+

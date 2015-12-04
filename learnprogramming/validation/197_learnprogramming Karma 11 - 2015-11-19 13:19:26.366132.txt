@@ -1,0 +1,7 @@
+Title: return two variables function save python
+Karma: 11
+Date: 1385682899.0
+want write function returns two strings save variables use later one easy def function try return string except stuff variable function return two strings save thanks
+
+==============================
+

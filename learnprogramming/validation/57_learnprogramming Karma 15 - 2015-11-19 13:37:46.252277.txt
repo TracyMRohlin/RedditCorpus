@@ -1,0 +1,7 @@
+Title: basic programming concepts intrinsic languages
+Karma: 15
+Date: 1384431967.0
+assume variables statements inputoutput others
+
+==============================
+

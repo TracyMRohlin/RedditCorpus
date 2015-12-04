@@ -1,0 +1,7 @@
+Title: java make loop runs endlessly
+Karma: 2
+Date: 1385265925.0
+need make program loop user enters ending program working runs completion however keep looping tried dowhile loops seem get work code program asks number columns well letter make word triangle import javautilscanner public class lab public static void mainstring args scanner new scannersystemin scanner b new scannersystemin scanner c new scannersystemin int rows columns string letters int end systemoutprinthow many columns quit columns bnextint columns end systemoutprintlngoodbye else systemoutprintwhat letters letters cnextline string output int r rcolumns r rows forint c cr c columns outputletters outputn systemoutprintlnoutput
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: android setcolorfilter drawable working kitkat lollipop
+Karma: 2
+Date: 1431540267.0
+drawable icrating getresourcesgetdrawablerdrawableicrating icratingsetcolorfiltercolorblue porterduffmodemultiply icrating white icon transparent background use mutate work either kitkatlollipop lollipop testing emulator makes difference kitkat testing behaving similar actual device well emulator even kitkat setcolorfilter working menu item icon image buttons color disappears sometime applying setcolorfilter every individual image button edit error usage drawable use menuitemseticonicrating instead menuitemseticonrdrawableicrating
+
+==============================
+

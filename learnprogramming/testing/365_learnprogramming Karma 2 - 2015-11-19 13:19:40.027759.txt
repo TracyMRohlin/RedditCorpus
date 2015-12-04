@@ -1,0 +1,7 @@
+Title: crystal reports 'if condition question
+Karma: 2
+Date: 1385416883.0
+new crystal reports want tips implementing scenario two tables store calendar dates transactions boyages girlages user pick whether want use either boyages girlages choosing either create date range fro values either boyages dateb select boyages girlages ifboyages daterange range dates boyages table ifgirlages daterange range dates girlagestable simple condition program idea implement within crystal reports far tried parameter fields formula fields visualise implementation method
+
+==============================
+

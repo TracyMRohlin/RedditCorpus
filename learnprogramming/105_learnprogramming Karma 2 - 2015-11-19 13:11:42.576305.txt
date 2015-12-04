@@ -1,0 +1,7 @@
+Title: need help pascal statement replacement
+Karma: 2
+Date: 1432164644.0
+hey pascal script really like clean way clean code noofcentrebays begin baywidthtext getproducttext'bay right ' baywidth getproductvalue'bay right ' getproductvalue'bay left ' begin frpartition end else begin frpartition end getproductvalue'bay left ' begin lrpartition end else begin lrpartition end getproductvalue'bay right ' begin lrpartition end else begin lrpartition end end
+
+==============================
+

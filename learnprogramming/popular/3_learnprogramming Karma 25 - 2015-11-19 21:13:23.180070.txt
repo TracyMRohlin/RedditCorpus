@@ -1,0 +1,7 @@
+Title: c exiting program eof condition detected
+Karma: 25
+Date: 1354504058.0
+got program call recursive function goes something like myclass otherclassfoo char letter myclass thing cout input letter cinpeek cineof cout end input detected exit cin letter conditions modify thing return thing else foo recursive function keeps calling input meets conditions want exit whole program input eof caret d thing problem ifcinpeek cineof seem detect goes right next statement also tried cin letter eof check work
+
+==============================
+

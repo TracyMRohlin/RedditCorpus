@@ -1,0 +1,7 @@
+Title: objectivec oop syntax question
+Karma: 6
+Date: 1400272330.0
+h file interface item nsobject nsstring itemname nsstring serialnumber int valueindollars nsdate datecreated voidsetitemnamensstring str nsstring itemname voidsetserialnumbernsstring str nsstring serialnumber voidsetvalueindollarsintvalue intvalueindollars nsdate datecreated saying something like different file h item item alloc initetc itemitemname red sofa work variable declared h itemname itemname answer ignores underscore something also let declare nsstring itemname problem
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c problem understanding condition statment
+Karma: 4
+Date: 1385491945.0
+task write function analyzedigits analyses whether integer number repeated digits function return value informing repeated digits eg repeated digits repeated digits example repeated digit code line understand prior line like value digitseendigit digitseen statment equal value digit know make mistake thinking know whole idea correct someone give hint
+
+==============================
+

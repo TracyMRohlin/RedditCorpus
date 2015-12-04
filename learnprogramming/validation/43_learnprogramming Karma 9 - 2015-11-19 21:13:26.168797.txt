@@ -1,0 +1,7 @@
+Title: wpfc installed powershell vs reference ps file
+Karma: 9
+Date: 1354160025.0
+using systemmanagemetnautomation systemmanagementautomationrunspaces call basic powershell commands recently found brings intellisense powershell ability add ps items visual studio problem idea reference ps file want buttonclick initiated reference whatever ps file invoke anybody got experience
+
+==============================
+

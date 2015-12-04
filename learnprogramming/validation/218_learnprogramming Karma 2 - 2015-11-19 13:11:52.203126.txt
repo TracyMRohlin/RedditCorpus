@@ -1,0 +1,7 @@
+Title: java swing oop fundamental questions classes inheritance
+Karma: 2
+Date: 1431931479.0
+currently reading book basics java section swing trying make basic gui application button book suggests comments added import javaxswing import everything javaxswing public class gui public static void mainstring args jframe frame new jframe create new jframe object called frame jbutton button new jbuttonclick create new button label framesetdefaultcloseoperationjframeexitonclose tells program disappear closed framegetcontentpaneaddbutton add button made frame framesetsize set default frame size pixels framesetvisibletrue makes everything visible makes sense creating button frame objects meshing together plus works get frame x pixels big 'ol button middle next watching youtube video presenter going exercise came import javaxswingjframe import javaxswingjpanel import javaxswingjbutton public class basicswing extends jframe jpanel p new jpanel jbutton b new jbuttonhello public static void mainstring args new basicswing public basicswing superbasic swing app setsize setresizabletrue paddb addp setdefaultcloseoperationjframeexitonclose setvisibletrue version confuses several reasons imported jframe created new jframe object called frame however looks like youtuber created frame class inherited jframe class basically difference two approaches one better understand point line basicswing already defined line like redefining class need write padd psetresizable
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: using adonet right
+Karma: 10
+Date: 1385451293.0
+working update old vb program net boss wrote many many years ago bit beginner bear program reads bunch data access database calculations based parameters user chooses example one table column materials depending material chosen program use material properties row calculations lot things working created connection dataadapter filled dataset multiple data tables lookup values data tables based user input calcs working however also need run queries data seems easier sql statements run connection dataadapter part process point importing data beginning since reference data need change question style guess usually go accessing databases using datasets import beginning work dataset constantly opening closing connection multiple times mix maybe know lot proper standard love input thanks specific issue right tried open new connection run new sql query update datatable added bottom instead replacing also tried dstablesthreadtypeclear seems clear whole dataset instead table want simple code error overall process error
+
+==============================
+

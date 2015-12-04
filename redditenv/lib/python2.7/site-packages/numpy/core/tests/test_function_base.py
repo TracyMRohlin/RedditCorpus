@@ -1,7 +1,12 @@
 from __future__ import division, absolute_import, print_function
 
-from numpy.testing import *
-from numpy import logspace, linspace, dtype, array
+from numpy import (logspace, linspace, dtype, array, finfo, typecodes, arange,
+                   isnan)
+from numpy.testing import (
+    TestCase, run_module_suite, assert_, assert_equal, assert_raises,
+    assert_array_equal
+)
+
 
 class TestLogspace(TestCase):
 
@@ -33,6 +38,7 @@ class TestLinspace(TestCase):
         assert_(y[-1] == 10)
         y = linspace(2, 10, endpoint=0)
         assert_(y[-1] < 10)
+        assert_raises(ValueError, linspace, 0, 10, num=-1)
 
     def test_corner(self):
         y = list(linspace(0, 1, 1))
@@ -71,41 +77,66 @@ class TestLinspace(TestCase):
 
     def test_complex(self):
         lim1 = linspace(1 + 2j, 3 + 4j, 5)
-        t1 = array([ 1.0+2.j ,  1.5+2.5j,  2.0+3.j ,  2.5+3.5j,  3.0+4.j])
+        t1 = array([ 1.0+2.j,  1.5+2.5j,  2.0+3.j,  2.5+3.5j,  3.0+4.j])
         lim2 = linspace(1j, 10, 5)
-        t2 = array([  0.0+1.j  ,   2.5+0.75j,   5.0+0.5j ,   7.5+0.25j,  10.0+0.j])
+        t2 = array([  0.0+1.j,   2.5+0.75j,   5.0+0.5j,   7.5+0.25j,  10.0+0.j])
         assert_equal(lim1, t1)
         assert_equal(lim2, t2)
-        
+
     def test_physical_quantities(self):
         class PhysicalQuantity(float):
             def __new__(cls, value):
                 return float.__new__(cls, value)
-                
+
             def __add__(self, x):
                 assert_(isinstance(x, PhysicalQuantity))
                 return PhysicalQuantity(float(x) + float(self))
             __radd__ = __add__
-                
+
             def __sub__(self, x):
                 assert_(isinstance(x, PhysicalQuantity))
                 return PhysicalQuantity(float(self) - float(x))
-                
+
             def __rsub__(self, x):
                 assert_(isinstance(x, PhysicalQuantity))
                 return PhysicalQuantity(float(x) - float(self))
-                
+
             def __mul__(self, x):
                 return PhysicalQuantity(float(x) * float(self))
             __rmul__ = __mul__
-                
+
             def __div__(self, x):
                 return PhysicalQuantity(float(self) / float(x))
-                
+
             def __rdiv__(self, x):
                 return PhysicalQuantity(float(x) / float(self))
 
-        
         a = PhysicalQuantity(0.0)
         b = PhysicalQuantity(1.0)
         assert_equal(linspace(a, b), linspace(0.0, 1.0))
+
+    def test_denormal_numbers(self):
+        # Regression test for gh-5437. Will probably fail when compiled
+        # with ICC, which flushes denormals to zero
+        for dt in (dtype(f) for f in typecodes['Float']):
+            stop = finfo(dt).tiny * finfo(dt).resolution
+            assert_(any(linspace(0, stop, 10, endpoint=False, dtype=dt)))
+
+    def test_equivalent_to_arange(self):
+        for j in range(1000):
+            assert_equal(linspace(0, j, j+1, dtype=int),
+                         arange(j+1, dtype=int))
+
+    def test_retstep(self):
+        y = linspace(0, 1, 2, retstep=True)
+        assert_(isinstance(y, tuple) and len(y) == 2)
+        for num in (0, 1):
+            for ept in (False, True):
+                y = linspace(0, 1, num, endpoint=ept, retstep=True)
+                assert_(isinstance(y, tuple) and len(y) == 2 and
+                        len(y[0]) == num and isnan(y[1]),
+                        'num={0}, endpoint={1}'.format(num, ept))
+
+
+if __name__ == "__main__":
+    run_module_suite()

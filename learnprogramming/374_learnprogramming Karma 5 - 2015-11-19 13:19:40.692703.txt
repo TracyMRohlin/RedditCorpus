@@ -1,0 +1,7 @@
+Title: python go codecademy also differences versions
+Karma: 5
+Date: 1385394161.0
+hands learn go sort person know one common answers going start project fully intend however knowing still couple questions finished track good resource outlines differences x codecademy runs computer utilizes already noticed differences printing getting user input print print rawinput input example sure probably notable differences aware found yet next step speak feel like decent grasp syntax language feel like still lacking certain areas file manipulation network access track codecademy go except readwrite files went pretty quickly course find much trouble think took days get since already familiarity scripting languages like php javascript basic experience java really want go next level prepared least comfortable tackling projects beyond really consider basics taught
+
+==============================
+

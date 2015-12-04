@@ -1,0 +1,7 @@
+Title: c network programming
+Karma: 15
+Date: 1308528991.0
+since lot free time summer yay high school decided work programming last year built d game engine sorts top native java gui library want learn another language plan porting c learn syntax idioms course started bruce thinking c last week coming along alright however wanted expand features hoping point premature ask since actually ported c yet wondering go implementing sort network capability lan maybe even possibly via internet
+
+==============================
+

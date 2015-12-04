@@ -1,0 +1,7 @@
+Title: hello learnprogramming introduce good source learn programs made executed
+Karma: 29
+Date: 1336717927.0
+already know c languages really want learn exactly happens compile link program content stack heap memory look like program loaded executed exactly happens program instantiates object class object stored memory data members stored object space function members stored object well compile unit exactly linker works sort questions know dig forums find answers one time means much overhead look like efficient way know good text book tutorial etc shine light areas looking answers one two line detailed explanations examples
+
+==============================
+

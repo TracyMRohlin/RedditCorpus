@@ -1,0 +1,7 @@
+Title: correct way write progress bar listener java
+Karma: 7
+Date: 1385585350.0
+want write listener update progress bar previously using actionlistener adding values id field think quite right thinking something like interface myprogressbarlistener void setmaxint max void updatestring msg int progress better way
+
+==============================
+

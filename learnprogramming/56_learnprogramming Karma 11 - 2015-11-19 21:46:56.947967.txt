@@ -1,0 +1,7 @@
+Title: giving c another go run problems links provide
+Karma: 11
+Date: 1338489119.0
+studying c uni sham honest first courses absolutely basic passed first semester without knowing way weeks later jumped far ahead lost worked c high school even joke used broland c years never got multimodule work many concepts barely explained better understanding c though lot learn thing moment want pass exam really learn c months way least everything else need learn looking internet tutorials everything need know class objects want know good design practices goes header file goes cpp file call classes call class constructor within another class constructor much tried cpluspluscom barely examples good actually anything within one module good run lot problems instance idea templates within header file cpluspluscom forgot mention templates actually work someone please help thank d
+
+==============================
+

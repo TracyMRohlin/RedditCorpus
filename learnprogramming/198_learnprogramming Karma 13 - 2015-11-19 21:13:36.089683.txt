@@ -1,0 +1,7 @@
+Title: c questions remove duplicate values list sort list
+Karma: 13
+Date: 1353200430.0
+working code inside list listpointd pointlist already overloaded operators pointlistunique doesnt work question get working question assuming want sort list pointddistfrorigin value edit
+
+==============================
+

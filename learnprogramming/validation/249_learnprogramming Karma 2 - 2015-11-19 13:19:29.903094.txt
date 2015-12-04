@@ -1,0 +1,7 @@
+Title: python replacing hex rfid tag
+Karma: 2
+Date: 1385572527.0
+hey got rfid reader puts hexadecimal id like ccce keystroke want replace hexadecimal id decimal one look something like ccce generally replaced cfd generally replaced hope clear enough try explain
+
+==============================
+

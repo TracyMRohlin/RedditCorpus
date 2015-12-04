@@ -1,0 +1,7 @@
+Title: python making matrix data textfile
+Karma: 4
+Date: 1400279390.0
+need make program read txt file put data matrix txt document look something like randomname device device device randomname etc however randomname different number devices need able know many randomnames txtfile making matrix max limit devices active ones shown figured im im pretty confident put matrix however wanted ask help thinking checking line int string strings row tracked boolean vars prevstringcurrentstring nubrandnames true maybe something check many characters lot times row nubrandnames something like ideas thoughts another way either possible python
+
+==============================
+

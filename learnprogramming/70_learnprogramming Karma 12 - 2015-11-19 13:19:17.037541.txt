@@ -1,0 +1,7 @@
+Title: psuedocode output shortest path c passes b given adjacency list
+Karma: 12
+Date: 1386113014.0
+design analyze efficient algorithm following problem given adjacency list digraph gv e three distinguished vertices b c exist v output shortest path c passes b describe idea algorithm provide pseudocode give runtime terms size graph never sure psuedocode graphadjacency matrix list problems look think breadth first search needed tell sounds correct breadth first search make sure path b breadth first search b make sure path b c sort counter incrementing look paths compare see one shortest thanks help
+
+==============================
+

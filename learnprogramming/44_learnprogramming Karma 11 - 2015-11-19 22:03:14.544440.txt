@@ -1,0 +1,7 @@
+Title: bridging opengl custom shaders
+Karma: 11
+Date: 1324708308.0
+hi learnprogramming question programmer web mobile development years back school getting degree d graphics programming make knowledge ' semester past first experience ever opengl fun interesting nonexistent linear algebra skills showed though pretty good shape rougher semester hoped class unfortunately taught online resources mostly online notes class finished basic texture mapping stuff feeling good upcoming semester second iteration class focuses heavily shaders question read watch help bridge gaps feel knowledge finished class ' really feel good grasp material though took eventually got matrix multiplication idea articulated motion write obj loader comes textures lights materials etc save knowledge previous d modeling w maya class felt cold really like stuff want get better sure last class taking matter years anyway aas come may really like start using stuff learned personal projects like small ios android applications read opengl es requires programmer write tons stuff along pipeline something overwhelming try read stuff online though thank much anyone reads especially anyone advice josh
+
+==============================
+

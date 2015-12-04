@@ -1,0 +1,7 @@
+Title: thinking making personal project open source
+Karma: 10
+Date: 1310613757.0
+small project working keep track students lunch mostly use learning tool started perl switched python added sqlite currently trying bring tk fairly amateur programmer like make career like finish program get paid put resume lot trouble tk though nothing experimental code nothing functional starting realize going professional functional program time soon figure best thing probably open source code enjoy help others still keep feather hat worked actual program want know think anyone want work strange project also okay building rubbish code keep little exercise hope gets finished someday
+
+==============================
+

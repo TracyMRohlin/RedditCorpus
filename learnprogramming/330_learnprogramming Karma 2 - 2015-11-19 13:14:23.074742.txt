@@ -1,0 +1,7 @@
+Title: java divide total figure write jtextfields changing value following jtextfields update new figure
+Karma: 2
+Date: 1399850319.0
+example total figure split jtextfields tf tf tf tf tf tf total changing first textfield tf tf tf tf tf total changing third textfield tf tf tf tf tf total problem updating jtextfields calculating find logical solution making jtextfields dependet jtextfields
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: quickest path someone wanting build prototypes quickly
+Karma: 7
+Date: 1400343643.0
+work bunch developers every day recently bit frustrated trying explain mean able show work web developers marketing trying detract experience lot better show rather tell want become world class developer even profession want become proficient enough language maybe string simple web crud app together know little bit python going go django route also advice saying since want run small prototypes fast regard scaling rails might better hit ground running anyone else done anything direction best starting point
+
+==============================
+

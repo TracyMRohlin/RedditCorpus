@@ -1,0 +1,7 @@
+Title: best way store data looking ideas sqlite
+Karma: 7
+Date: 1386194529.0
+creating iphone app got layout things issue comes storing data programming worried data getting correct data users travel site site total different sites mileage site set ie sitea siteb miles curious best way store programmatically figure mileage given route ie user selects went sitex sitey app automatically pull mileage trip best way set assuming database sort best way layout db currently done manually via excel user open excel sheet containing rowscolumns crossreference get correct mileage something like xxxxx sitea siteb sitec sitea mi mi mi siteb mi mi mi sitec mi mi mi user manually lookup many miles given sites want make easier struggling best way set able pull data programmatically ideas thoughts sure probably totally simple curious ' methods get done thanks advance
+
+==============================
+

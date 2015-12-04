@@ -1,0 +1,7 @@
+Title: c help skipping user input
+Karma: 8
+Date: 1385537772.0
+hi write program accepts first middle last name using three separate string variables instead one long string variable make work even person enters first last name sure make program ignore last variable two names entered example code set accept first middle last sting variables using ' sure make ignore third variable user wants input two names link assignment link code code works like person enters three names need help working two names help appreciated
+
+==============================
+

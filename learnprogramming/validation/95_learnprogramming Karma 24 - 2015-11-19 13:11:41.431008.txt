@@ -1,0 +1,7 @@
+Title: limit better solution many switchcase statements
+Karma: 24
+Date: 1432177109.0
+switch statement many cases better way looking something like cases matters program designing c windows form specific thanks
+
+==============================
+

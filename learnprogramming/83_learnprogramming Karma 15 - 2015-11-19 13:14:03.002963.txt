@@ -1,0 +1,7 @@
+Title: algorithm choose appropriate depth depth limited minimax
+Karma: 15
+Date: 1400613328.0
+choose reasonable depth way correlated branching factor
+
+==============================
+

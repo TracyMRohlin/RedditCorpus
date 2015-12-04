@@ -1,0 +1,7 @@
+Title: year mooc learner reached point stuck decide go
+Karma: 9
+Date: 1370162264.0
+hi moocs using online resources learn programming two years included work python java covered ' courses data structuresalgorithms web related work data science point watching lecture videos problem sets enough even grind away courses covering design patterns software testing functional programming probably fulfilling anymore tried projects contributed nontrivial amount ruby code closedsource project rails currently writing firefox extension questions appropriate resources use stage purpose using 'problem oriented practice resources like code jam project euler problems interesting fun solve ultimately seems like classroom word problems computer science style many specific technologies expected junior level candidates graduating cs degrees right really expertise using every technology list like spring hadoop grails django jquery cassandra htmlcss emberjs example hundreds possible keywords recommended sites places find programming mentors goal find juniorlevel programming job
+
+==============================
+

@@ -4,27 +4,27 @@ __author__ = 'tracyrohlin'
 import argparse
 import numpy as np
 import os
+import lda
 
-
-from sklearn.cross_validation import KFold
 from sklearn.metrics import confusion_matrix, f1_score
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.decomposition import LatentDirichletAllocation
+
 from os.path import isfile
 from pandas import DataFrame
 from pprint import pprint
 
 from text_reader import read_files
 from popularity_cutoff import compute_cutoff
-from create_LDA import CorpusLDA
-from create_tfidf import CorpusTFIDF
-
 
 POPULAR = "POPULAR"
 UNPOPULAR = "UNPOPULAR"
 
 SOURCES = []
+VALIDATION = []
+TESTING = []
 
 def build_data_frame(file, classification):
     rows = []
@@ -44,127 +44,100 @@ def extract_karma(filename):
     return float(names[i+1])
 
 
-def classify_initial_data(filepath):
+def classify_initial_data(filepath, cutoff, source_type):
     """Labels the data as popular/not popular based on the cutoff score (which is two SD above the mean)"""
-    print "Classifying the initial data."
     os.chdir(filepath)
-    cutoff = compute_cutoff(filepath)
+
     for file in os.listdir("."):
         if isfile(file) and str(file).endswith("txt"):
             if extract_karma(file) >= cutoff:
-                SOURCES.append((file, POPULAR))
+                source_type.append((file, POPULAR))
             else:
-                SOURCES.append((file, UNPOPULAR))
-    return SOURCES
+                source_type.append((file, UNPOPULAR))
+    return source_type
 
 
-def make_data():
+def make_data(source_type, filepath):
     """Creates the data array and randomly sorts it."""
     print "Creating the data frame."
+    os.chdir(filepath)
     data = DataFrame({'text': [], 'class': []})
-    for file, classification in SOURCES:
+    for file, classification in source_type:
         data = data.append(build_data_frame(file, classification))
-    data = data.reindex(np.random.permutation(data.index))
+    #data = data.reindex(np.random.permutation(data.index))
     return data
 
 
-def create_mini_tfidf(texts, labels, num_words):
-    """Creates a single string of all the top n tfidf-scored words
-     based on the kth fold training and testing data."""
-    num_words = int(num_words)
-    textList =[]
-    new = CorpusTFIDF(".")
-    for i, label in enumerate(texts):
-        if label == "POPULAR":
-            new.popular_texts.append(texts[i].split())
-        else: new.popular_texts.append(texts[i].split())
-    popular = new.create_general_tfidf("popular", num_words)
-    unpopular = new.create_general_tfidf("unpopular", num_words)
-    for label in labels:
-        if label == "POPULAR":
-            textList.append(popular)
-        else: textList.append(unpopular)
-    return np.array(texts)
-
-
-
-def create_mini_LDA(texts, labels, num_topics, num_words):
-    """Creates a miniature LDA model based on the kth fold training and testing data."""
-    num_topics = int(num_topics); num_words = int(num_words)
-    textList =[]
-    new = CorpusLDA(".")
-    for i, label in enumerate(texts):
-        if label == "POPULAR":
-            new.popular_texts.append(texts[i].split())
-        else: new.popular_texts.append(texts[i].split())
-    popular = new.create_popular_lda_model(num_topics, num_words)
-    unpopular = new.create_unpopular_lda_model(num_topics, num_words)
-    for label in labels:
-        if label == "POPULAR":
-            textList.append(popular)
-        else: textList.append(unpopular)
-    return np.array(texts)
-
-
-def create_Naive_Bayes(topic_type, num_topics, num_words):
+def create_Naive_Bayes(training_data, other_data, topic_type, num_topics):
     """This program is based on the one taught in the tutorial:
     http://zacstewart.com/2015/04/28/document-classification-with-scikit-learn.html
     written by Zac Stewart."""
+    num_topics = int(num_topics)
 
-    pipeline = Pipeline([
-        ('count_vectorizer',   CountVectorizer()),
-        ('classifier',         MultinomialNB())
-        ])
-
-    k_fold = KFold(n=len(data), n_folds=6)
-    scores = []
     confusion = np.array([[0, 0], [0, 0]])
-    # randomly grabs certain texts and splits them into training and testing sections, then runs the model of choice
-    i = 1
-    for train_indices, test_indices in k_fold:
-        print "In fold # {}".format(i)
-        i+=1
-        train_class = data.iloc[train_indices]['class'].values.astype(str)
-        train_text = data.iloc[train_indices]['text'].values.astype(str)
+    corpus_length = 0
 
-        test_text = data.iloc[test_indices]['text'].values
-        test_class = data.iloc[test_indices]['class'].values.astype(str)
+    # training data remains the same
+    train_class = training_data['class'].values.astype(str)
+    train_text = training_data['text'].values.astype(str)
 
-        if topic_type == "lda":
-            print "Creating latent dirichlet allocation model on the data. Please wait..."
-            train_text = create_mini_LDA(train_text,train_class, num_topics, num_words)
-            test_text = create_mini_LDA(test_text, test_class, num_topics, num_words)
-        elif topic_type == "tfidf":
-            print "Creating tfidf model on the data. Please wait."
-            train_text = create_mini_tfidf(train_text,train_class, num_words)
-            test_text = create_mini_tfidf(test_text, test_class, num_words)
-        else: pass
+    test_text = other_data['text'].values.astype(str)
+    test_class = other_data['class'].values.astype(str)
+    corpus_length += len(training_data) + len(other_data)
 
+    if topic_type == "tfidf":
+        pipeline = Pipeline([('vect', CountVectorizer(min_df=3)),
+                        ('tfidf',  TfidfTransformer()),
+                        ('clf', MultinomialNB())
+                             ])
+    elif topic_type == "lda":
+        pipeline = Pipeline([('vect', CountVectorizer(min_df=3)),
+                        ('lda',  LatentDirichletAllocation(n_topics=num_topics, random_state=1234, max_iter=500)),
+                        ('clf', MultinomialNB())])
+    else:
+        pipeline = Pipeline([('vect', CountVectorizer(min_df=3)),
+                        ('clf', MultinomialNB())
+                        ])
 
-        pipeline.fit(train_text, train_class)
-        predictions = pipeline.predict(test_text)
+    pipeline.fit(train_text, train_class)
+    predictions = pipeline.predict(test_text)
 
-        # append to the confusion matrix and score so that later the F1 sccores can be averaged
-        confusion += confusion_matrix(test_class, predictions)
-        score = f1_score(test_class, predictions, pos_label=POPULAR)
-        scores.append(score)
-        #for label, predict in zip(test_class, predictions):
-         #   print label, predict
+    # append to the confusion matrix and score so that later the F1 sccores can be averaged
+    confusion += confusion_matrix(test_class, predictions)
+    score = f1_score(test_class, predictions, pos_label="POPULAR")
 
-    print 'Total documents classified:', len(data)
-    print 'Score:', sum(scores)/len(scores)
+    print 'Total documents classified:', corpus_length
+    print 'Score:', score
     print 'Confusion matrix:'
     print confusion
+
+    return score
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Builds a Naive Bayes model for classification.")
     parser.add_argument("filepath", help="Argument must be the filepath where the text files are located")
     parser.add_argument("topic_type", help="topic_type is either bow, tfidf or lda")
+    parser.add_argument("valid_or_test", help="Either v or t to test against validation or test set")
     parser.add_argument("--num_topics", default=10, help="The amount of topics to be grabbed from the LDA model")
-    parser.add_argument("--num_words", default=10, help="The amount of words per topic to be returned")
     args = parser.parse_args()
-    os.chdir(args.filepath)
-    classify_initial_data(".")
-    data = make_data()
-    create_Naive_Bayes(args.topic_type, args.num_topics, args.num_words)
+
+    cutoff = compute_cutoff(args.filepath)
+
+    print "Classifying the initial data."
+    classify_initial_data(args.filepath, cutoff, SOURCES)
+    training_data = make_data(SOURCES, args.filepath)
+
+    if args.valid_or_test[0].lower() == "v":
+        print "Classifying the validation data."
+        validation_filepath = args.filepath + "/validation"
+        classify_initial_data(validation_filepath, cutoff, VALIDATION)
+        validation_data = make_data(VALIDATION, validation_filepath)
+        create_Naive_Bayes(training_data, validation_data, args.topic_type, args.num_topics)
+
+    else:
+        print "Classifying the testing data."
+        testing_filepath = args.filepath + "/testing"
+        classify_initial_data(testing_filepath, cutoff, TESTING)
+        testing_data = make_data(TESTING, testing_filepath)
+        create_Naive_Bayes(training_data, testing_data, args.topic_type, args.num_topics)

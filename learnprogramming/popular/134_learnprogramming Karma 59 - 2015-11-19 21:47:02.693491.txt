@@ -1,0 +1,7 @@
+Title: like learn graphics programming unsure start directd opengl
+Karma: 59
+Date: 1336794227.0
+deal reading lately opengl interested learning utilize hobby graphics programming hard time understanding get around using opengl 'open 'open know apis find use good mainly use windows end making fun game want people linux mac able play want well reading directd massive market share understandably really play video games windows partition good driver support entire directx suite inputsoundetc keen using glut learn opengl feel may outdated little simple like eventually create searching hour half find good resources explaining good opengl implementations apis libraries good found openscenegraph something look using directd api seems easy enough get hold vs beta installed download link directx sdk right know john carmack spoke basically said directx api better opengl related extensions start like opinions matter like idea game make crossplatform tldr use directd opengl graphics programming use opengl implementation use preferably glut
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: exactly segmentation fault
+Karma: 9
+Date: 1352971257.0
+experienced segmentation faults never really understood happening terms memory past fixed eliminating pointers problem fixes understand pointers root evil well sometimes anyone explain thanks
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: connect heuristic values algorithm problem
+Karma: 2
+Date: 1431538830.0
+hello trying make ai connect c already everything set winning length option play connect troubles making method calculates score board heuristic value connect able calculate scores want play winning lengths code method setup board fill board values ai coin player coin empty cell method calculatescore check every possible way win en give score based value coins tried edit values didnt work clean version work winning length score use minmax determin best move thx reading update tried implement winning length possible repetition like see removed sometimes play row ai acting dumb didnt guys look wrong compare code see difference update removed repetition fixed lines everything working
+
+==============================
+

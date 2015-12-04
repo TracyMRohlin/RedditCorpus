@@ -1,0 +1,7 @@
+Title: c sort working
+Karma: 10
+Date: 1432291787.0
+hey guys know made post one last issue code far issue genresort method program reading sentences file genresort sorting genre alphabetically however outputting duplicate files guessing sort messed see
+
+==============================
+

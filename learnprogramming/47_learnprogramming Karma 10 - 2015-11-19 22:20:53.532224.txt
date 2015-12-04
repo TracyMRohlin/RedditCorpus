@@ -1,0 +1,7 @@
+Title: start building program reads stock updates
+Karma: 10
+Date: 1309934766.0
+hello rlearnprogramming question pretty straight forward want know start building program preferably use either python perhaps even bash programming language run small window applet desktop keep updating near real time get stock price servers noob guru thinking first place start actual connection servers thing really know establish connection receive data anyone know good document website explain detail perhaps location source code already learning idea thought ago got free time work mood code thanks advance
+
+==============================
+

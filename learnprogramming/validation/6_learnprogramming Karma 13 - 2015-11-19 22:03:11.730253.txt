@@ -1,0 +1,7 @@
+Title: start network programming
+Karma: 13
+Date: 1325339109.0
+messing around winsock c days although understand lot things seem stick well seems much assembled hodgepodge bookmarks google basic feel every time go msdn complete loss progress anyone recommendations beginner networker look whether books sites greatly appreciate
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: java bug eclipse
+Karma: 2
+Date: 1432048509.0
+creating new class file eclipse choose public still get start code package projectname delete gives error running someone internet said got code set file package settings actually public im still getting problem bug things wrongagain
+
+==============================
+

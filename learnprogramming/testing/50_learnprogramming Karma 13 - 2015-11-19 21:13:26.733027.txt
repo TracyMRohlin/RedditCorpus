@@ -1,0 +1,7 @@
+Title: open amazon web pages java python
+Karma: 13
+Date: 1354151444.0
+like get information website get either python java open pages even though code works page tried import shutil import os import urllib import sys array import array filehandle urlliburlopen' filehandle urlliburlopen' outfile open'test' searchlines infilereadlines searchlines filehandlereadlines lines filehandlereadlines outfilewritelines outfileclose filehandleclose amazon something prevents people code works fine website tried rather use python java code tried use ended result package commimeamazoncrawler import javaio import javanetmalformedurlexception import javaneturl public class crawlermain file outfile new file public static void mainstring args try url url new url url url new url bufferedreader reader new bufferedreadernew inputstreamreaderurlopenstream bufferedwriter writer new bufferedwriternew filewriterdatatxt string line line readerreadline null systemoutprintlnline writerwriteline writernewline readerclose writerclose catch malformedurlexception e eprintstacktrace catch ioexception e eprintstacktrace
+
+==============================
+

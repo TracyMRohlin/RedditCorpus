@@ -1,13 +1,10 @@
 from __future__ import division, absolute_import, print_function
 
-__all__ = ['memmap']
-
-import warnings
-import sys
-
 import numpy as np
 from .numeric import uint8, ndarray, dtype
 from numpy.compat import long, basestring
+
+__all__ = ['memmap']
 
 dtypedescr = dtype
 valid_filemodes = ["r", "c", "r+", "w+"]
@@ -21,8 +18,7 @@ mode_equivalents = {
     }
 
 class memmap(ndarray):
-    """
-    Create a memory-map to an array stored in a *binary* file on disk.
+    """Create a memory-map to an array stored in a *binary* file on disk.
 
     Memory-mapped files are used for accessing small segments of large files
     on disk, without reading the entire file into memory.  Numpy's
@@ -79,8 +75,9 @@ class memmap(ndarray):
         will be 1-D with the number of elements determined by file size
         and data-type.
     order : {'C', 'F'}, optional
-        Specify the order of the ndarray memory layout: C (row-major) or
-        Fortran (column-major).  This only has an effect if the shape is
+        Specify the order of the ndarray memory layout:
+        :term:`row-major`, C-style or :term:`column-major`,
+        Fortran-style.  This only has an effect if the shape is
         greater than 1-D.  The default order is 'C'.
 
     Attributes
@@ -110,6 +107,11 @@ class memmap(ndarray):
     (prior to Python 2.5) does not allow files to be larger than a
     certain size depending on the platform. This size is always < 2GB
     even on 64-bit systems.
+
+    When a memmap causes a file to be created or extended beyond its
+    current size in the filesystem, the contents of the new part are
+    unspecified. On systems with POSIX filesystem semantics, the extended
+    part will be filled with zero bytes.
 
     Examples
     --------
@@ -195,6 +197,7 @@ class memmap(ndarray):
     """
 
     __array_priority__ = -100.0
+
     def __new__(subtype, filename, dtype=uint8, mode='r+', offset=0,
                 shape=None, order='C'):
         # Import here to minimize 'import numpy' overhead

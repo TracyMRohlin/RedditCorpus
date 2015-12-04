@@ -1,0 +1,7 @@
+Title: java running program arguments command line
+Karma: 9
+Date: 1385330296.0
+make program take input file using cmd format java myprogram file simple text file already know read load way thanks
+
+==============================
+

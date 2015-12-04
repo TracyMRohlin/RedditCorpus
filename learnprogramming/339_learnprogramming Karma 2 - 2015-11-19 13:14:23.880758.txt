@@ -1,0 +1,7 @@
+Title: c ai unexpected results possibly result rng
+Karma: 2
+Date: 1399824720.0
+made program test different ai solvers one using code go go right left tried different one go go left right dramatic difference seems like much difference two rng missing reason happening side question looking stumbled upon monte carlo method program count one code
+
+==============================
+

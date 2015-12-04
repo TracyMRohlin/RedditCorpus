@@ -1,0 +1,7 @@
+Title: improve development process reduce bugs increase efficiency
+Karma: 13
+Date: 1307259217.0
+bit background work small software development shop dozen people specializes banking software run issues lately suggested review development process specifically seems let many errors slip going budget looking specific ways improve write maintain test deliver code guys helped come far unit testing integration testing implementing build server code review one click deployment source control coding standards qa automated testing task tracking agile similar development methodology commenting code sure missing key methodologies far searches come fruitless please recommend process book helped past raise bar software development thanks
+
+==============================
+

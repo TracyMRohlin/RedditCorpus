@@ -1,0 +1,7 @@
+Title: assemblystruggling functions
+Karma: 3
+Date: 1432155866.0
+hello learning functions assembly mips need advice exercise one int f int x int y fx y y x fx y else fx fx y thus far real struggle right line exercise else fx fx y advice thanks advance
+
+==============================
+

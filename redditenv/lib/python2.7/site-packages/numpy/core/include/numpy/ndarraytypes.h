@@ -156,7 +156,7 @@ typedef enum {
 
 
 typedef enum {
-        NPY_INTROSELECT=0,
+        NPY_INTROSELECT=0
 } NPY_SELECTKIND;
 #define NPY_NSELECTS (NPY_INTROSELECT + 1)
 
@@ -202,13 +202,7 @@ typedef enum {
         /* Allow safe casts or casts within the same kind */
         NPY_SAME_KIND_CASTING=3,
         /* Allow any casts */
-        NPY_UNSAFE_CASTING=4,
-
-        /*
-         * Temporary internal definition only, will be removed in upcoming
-         * release, see below
-         * */
-        NPY_INTERNAL_UNSAFE_CASTING_BUT_WARN_UNLESS_SAME_KIND = 100,
+        NPY_UNSAFE_CASTING=4
 } NPY_CASTING;
 
 typedef enum {
@@ -625,6 +619,10 @@ typedef struct _PyArray_Descr {
          * for NumPy 1.7.0.
          */
         NpyAuxData *c_metadata;
+        /* Cached hash value (-1 if not yet computed).
+         * This was added for NumPy 2.0.0.
+         */
+        npy_hash_t hash;
 } PyArray_Descr;
 
 typedef struct _arr_descr {
@@ -1098,27 +1096,6 @@ struct PyArrayIterObject_tag {
                 (it)->coordinates[0]++; \
                 (it)->dataptr += (it)->strides[0] - \
                         (it)->backstrides[1]; \
-        } \
-} while (0)
-
-#define _PyArray_ITER_NEXT3(it) do { \
-        if ((it)->coordinates[2] < (it)->dims_m1[2]) { \
-                (it)->coordinates[2]++; \
-                (it)->dataptr += (it)->strides[2]; \
-        } \
-        else { \
-                (it)->coordinates[2] = 0; \
-                (it)->dataptr -= (it)->backstrides[2]; \
-                if ((it)->coordinates[1] < (it)->dims_m1[1]) { \
-                        (it)->coordinates[1]++; \
-                        (it)->dataptr += (it)->strides[1]; \
-                } \
-                else { \
-                        (it)->coordinates[1] = 0; \
-                        (it)->coordinates[0]++; \
-                        (it)->dataptr += (it)->strides[0] \
-                                (it)->backstrides[1]; \
-                } \
         } \
 } while (0)
 

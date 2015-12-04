@@ -1,0 +1,7 @@
+Title: java make code prints average dice rolled code comments
+Karma: 2
+Date: 1385550804.0
+import javautilscanner imports scanner user input import javautilrandom imports random generator public class justanotherattemptatadiceroller public static void main string args setting input variable scanner input new scannersystemin setting random generator random roll new random initialize variables int dice sides whole numbers int dienum sidenum answer maxnum ask user input number die sides systemoutprinthow many die rolled dienum inputnextint systemoutprinthow many dies dice sidenum inputnextint inputclose finds max value maxnum dienum sidenum roll die generate random number answer rollnextintdienum sidenum makes sure roll possible dienum answer answer makes possible roll maxnum answer maxnum answer prints result systemoutprintyou rolled answer
+
+==============================
+

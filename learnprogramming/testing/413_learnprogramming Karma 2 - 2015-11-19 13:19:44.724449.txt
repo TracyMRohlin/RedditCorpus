@@ -1,0 +1,7 @@
+Title: java getting user input integer
+Karma: 2
+Date: 1385341215.0
+far getting input using scanner scanner new scanner systemin something like string string scannernextline first ways get input without declaring something like scanner first big deal seems tedious next get int input converting inputted string int new line ways thanks
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: learning regular expressions
+Karma: 47
+Date: 1307102494.0
+hi really find anything like last time someone asked regular expressions kinda whipped site regexone interactive tutorial simple examples looking add features along way curious rlearnprogramming thought whether guys might find useful feedback well edit thanks feedback far guys
+
+==============================
+

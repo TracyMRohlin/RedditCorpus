@@ -1,0 +1,7 @@
+Title: automated apk testing manipulate android prompts outside apk
+Karma: 12
+Date: 1353453843.0
+manual tester real programming knowledge picked robotium used sample test project make problem application activated device administrator robotium manipulate application way done use another software chain packages way probably even make sense reading definition package
+
+==============================
+

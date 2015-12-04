@@ -1,0 +1,7 @@
+Title: help newbie question regarding ruby
+Karma: 4
+Date: 1386192101.0
+learning programming via code academy enjoying far one thing got stumped wee bit aggravated instructions use syntax print values firstname lastname city state using syntax script print firstname puts first name firstname print lastname n puts last name lastname print city portland puts city city print state puts state state yet keeps telling state oops try looks like print anything console bloody hell mean
+
+==============================
+

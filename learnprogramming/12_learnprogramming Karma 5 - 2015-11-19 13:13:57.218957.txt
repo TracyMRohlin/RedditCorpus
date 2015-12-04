@@ -1,0 +1,7 @@
+Title: using codeblocks compiler c ' either acting weird ' thought
+Karma: 5
+Date: 1400815422.0
+go start new project filenewprojectconsole applicationcprogram name etc starts new project fine think 'main folder always code 'hello project simply erase code coding window make new code explain go cdrivelearningprogramming folder open 'main folder new project want work open ' delete code save changes begin work coding blank slate newly coded program ' ' properly removed errors get new project start empty 'main folder problem whenever type ' whatever call start line none type appears working window cursor moving screen remains blank guessing 'one solution know click lastly nothing codeblocks symbols used 'logical one recognize find keyboard ' 'but symbol ' two vertical lines look like ll lower case complete noob please type slow use small words thanks
+
+==============================
+

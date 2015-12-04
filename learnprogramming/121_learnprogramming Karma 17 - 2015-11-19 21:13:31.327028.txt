@@ -1,0 +1,7 @@
+Title: c python api issues raising exception
+Karma: 17
+Date: 1353841784.0
+trying raise exception python c code gist compile shared library like clang o testdll shared testo lcpythondlls lpython issues calling function soon try get raise exception stops working windowserror exception access violation reading xc tried googling solution results python exceptions lack good examples eg python docs raise python exception c
+
+==============================
+

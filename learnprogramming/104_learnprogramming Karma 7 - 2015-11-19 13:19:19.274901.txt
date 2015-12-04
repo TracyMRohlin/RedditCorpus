@@ -1,0 +1,7 @@
+Title: using lua ctutorials c lua c api
+Karma: 7
+Date: 1385994026.0
+hello rlearnprogramming recently posted three parts tutorial rgamedev realized might useful gamedevs almost c programmer works different kinds data using lua c great much better using plain text xml files offers much use comments use mathematical expressions variables functions even call c functions lua create c objects use like data type lua tutorials require know advanced lua beginner knowledge necessary part using lua simple configuration files part getting arrays calling lua code c part improvements part calling c code lua calling functions creating c objects hope like follow twitter eliasdaler want miss new parts feedback welcome
+
+==============================
+

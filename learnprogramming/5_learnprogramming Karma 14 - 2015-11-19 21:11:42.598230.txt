@@ -1,0 +1,7 @@
+Title: help realizing visual array rectangles
+Karma: 14
+Date: 1369015357.0
+trying develop gui shows user array rectangles columns rows originally starts rectangles colored black single rectangle clicked cycle next color given list black red green blue cyan orange logic behind color selection things like find useful tutorial build actual visual display prefer java python makes easier thanks help
+
+==============================
+

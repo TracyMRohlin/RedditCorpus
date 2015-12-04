@@ -1,0 +1,7 @@
+Title: c seem understand getsstring
+Karma: 10
+Date: 1385600987.0
+hey noticing run program completly skips cin right getsstring happening functions main function heres sample code giving trouble void input employee emp cinempid getsempname changed positions two lines code work changed gets cin though want space factor gets workcan someone please tell happening
+
+==============================
+

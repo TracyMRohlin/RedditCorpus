@@ -1,0 +1,7 @@
+Title: java getting previous shot battleship game
+Karma: 2
+Date: 1431628995.0
+currently grid defined dimensional grid x y every shot value either miss hit want create ai knows shoot place whenever says miss store get last shot made current code ai public position getfirecoordinatesfleet enemyships position shot new positionnextx nexty nextx nextx sizex nextx nexty nexty sizey nexty return shot
+
+==============================
+

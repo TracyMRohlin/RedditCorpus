@@ -1,0 +1,7 @@
+Title: homeworkjava returning d array method
+Karma: 2
+Date: 1432168978.0
+hi everyone new subreddit apologize advance incorrectly read posting guidelines currently working problem sure issue seems short method calculates number boxes required shipping order stores information d array example shipment small box medium boxes large boxes extra large boxes array value array value issue shipment calculation must done figure many boxes required dependent number items shipped calculating amount shipment print correct values multiple shipments print results get values last calculation used debugger determine first values clear call method second calculation top second values stored correct array index array etc spent awhile searching answer found anything describes issue appreciate help one edit code requested calculation method parameters numa number items shipped array array box sizes numb number shipments numc current shipment index public static int calculateboxesmethodint numa int array int numb int numc int array new intnumbarraylength int remainder int largestnum int index forint arraylength ifnuma arrayi largestnum arrayi index arraynumcindex numa largestnum remainder numa largestnum arraynumcindex numa remainder whilenuma return array
+
+==============================
+

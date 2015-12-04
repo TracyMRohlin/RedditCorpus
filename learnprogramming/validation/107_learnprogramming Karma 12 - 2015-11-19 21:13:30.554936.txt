@@ -1,0 +1,7 @@
+Title: blackjack java program get started
+Karma: 12
+Date: 1353925699.0
+project need help thinking help give appreciate thanks blackjack project design program graphical user interface blackjack game dealer user provide number players playing table maximum players human players requirements follows need create objects get started application good idea think following objects card deck players game dealer dealer hand cards player himherself dealer ask player starting hisher right player wants another card hit pass dealer finishes requirement players satisfied dealer opens hisher cards proceeds hit addition cards point dealer stop point one knows cards dealer winners table players higher addition card numbers dealers players number dealer push possible dealer beat hands others blackjack situation player gets addition cards equals example ace jack blackjack hand beats hands except another blackjack hand push event player hits cards addition cards heshe game bust breakdown points cards number cards carry number represent example value value pictured cards value queens value kings jacks ace special card carry two values aces either black jack betting game simple blackjack game heres link blackjack wiki page reference two player gui look something like still need show whose turn player busted buttons bottom screen control current players functions
+
+==============================
+

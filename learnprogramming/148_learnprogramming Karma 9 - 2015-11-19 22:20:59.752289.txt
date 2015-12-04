@@ -1,0 +1,7 @@
+Title: parsing word files excel sneakiness
+Karma: 9
+Date: 1307574748.0
+hey guys deal c ruby like figure guys point right direction project started internship consulting started realize sloppy system right basically trying convert two huge data files summary graphs right got process spread bunch different excel files lot copying pasting trying make much linear system within one excel file help automate process really help able parse word file grab specific numbers word file looks little like header text store number blah blah blah plu blah blah blah plu store number blah bluh blue orange plu dream able parse word file grab plu numbers put excel column cool also grab store numbers associated thats little advanced totally necessary guys know anyway always follow word plu different lengths let know guys ideas sorry wrong section thanks guys
+
+==============================
+

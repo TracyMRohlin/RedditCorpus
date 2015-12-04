@@ -1,0 +1,7 @@
+Title: language purpose bitwise operators
+Karma: 18
+Date: 1354085994.0
+vaguely understand used setting flags use instead multiple boolean variables get much beyond seen also used reading binary input files someone interact kind input another subject altogether
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: question random numbers c print numbers every time program runs
+Karma: 10
+Date: 1354074288.0
+different way handle
+
+==============================
+

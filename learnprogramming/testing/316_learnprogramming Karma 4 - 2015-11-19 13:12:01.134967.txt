@@ -1,0 +1,7 @@
+Title: specific name parameter remembering object
+Karma: 4
+Date: 1431676084.0
+type object thinking goal remember method parameters special name kind object design pattern purpose instead calling squarewavehigh low highperiod lowperiod time static method need evaluate square wave instead call mydefinedsquarewaveevaluatet reduce typing ensure parameters throughout program example java implementation class public interface signal double evaluateint public final class squarewave implements signal private final double high private final double low private final int highperiod private final int lowperiod public squarewavedouble high double low int highperiod int lowperiod thishigh high thislow low thishighperiod highperiod thislowperiod lowperiod public double evaluateint starts high period ie period return high ift highperiod lowperiod highperiod return high else return low
+
+==============================
+

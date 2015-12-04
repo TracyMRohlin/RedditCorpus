@@ -1,0 +1,7 @@
+Title: python metaclass inheritance
+Karma: 9
+Date: 1310649623.0
+hi sure correct place post hoping someone explain get attribute error code normally use del instead delattr put comparison sake hasattr class animalbasetype def newcls name bases attrs rv superanimalbase clsnewcls name bases attrs parents base base bases isinstancebase animalbase anything unless subclass animal parents return rv print hasattrrv ' prints true print rvslithering prints false delattrrv ' deletes slithering rv print hasattrrv ' prints true print rvsize prints delattrrv ' raises attributeerror return rv class animalobject metaclass animalbase size class snakeanimal slithering false
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: preventing buffer overflow c correct method
+Karma: 21
+Date: 1338581627.0
+code lines fix substituting char local char local sizeof param work edit solved thanks zabzonk
+
+==============================
+

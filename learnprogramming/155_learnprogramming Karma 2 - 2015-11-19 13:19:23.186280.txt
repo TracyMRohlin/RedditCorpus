@@ -1,0 +1,7 @@
+Title: chomeworkbeginnerproblem string array limit
+Karma: 2
+Date: 1385794950.0
+hey back trouble homework assignment still new idea problem might piece code int icantprod string nomprodnull string prodnew stringi case addproducts consoleclear consolewritelinehow many products add cantprod intparseconsolereadline cantprod consoleclear consolewritelinewrite name product nomprodconsolereadline prodi nomprod consoleclear consolewriteline product added press key go back consolereadkey goto funcionesadmon basic least want array going store names products store dont know many spots array user submits made length array ior least thats thought ask user cantprod limit go loop ask names product store position array least thats trying run get part add name first product get error far understand something length array happens matter length input cantprod thanks help like said english first language translate stuff code tried best explain sorry wall text questions need explanations answer doubts
+
+==============================
+

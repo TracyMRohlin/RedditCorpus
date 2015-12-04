@@ -1,0 +1,7 @@
+Title: questions sorting algorithm
+Karma: 6
+Date: 1432264921.0
+taking chances wrong subreddit hate relaxing sometimes enjoy sorting decks playing cards drives friends nuts standard method use wanted know name time complexity since data structures order use aces kings spade heart diamond club course arbitrary steps cheating step run deck front back find card want step pull put top step repeat last card top python whipped clarity usrbinpython import random aspades ahearts adiamonds aclubs spades hearts deck card randomshuffledeck card deckremovecard deckinsert card card printdeck exit
+
+==============================
+

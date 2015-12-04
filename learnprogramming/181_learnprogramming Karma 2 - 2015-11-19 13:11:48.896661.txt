@@ -1,0 +1,7 @@
+Title: picking perspective new language
+Karma: 2
+Date: 1432011687.0
+hello fellow programmers summer planning implement somewhat advanced path tracing renderer want implement new perspective language write blog language development looking language natively compiled pretty fast ideally fast c builtin multithreading least alpha state far discovered rust nim possible choices thank
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: trying get pushpop functionality visual basic failing
+Karma: 2
+Date: 1400736145.0
+function popbyref arr string lindex long string ret arrlindex dim long lindex uboundarr arri arri next redim preserve arruboundarr pop ret end function works great strings want work everything want make one function call rule one care data type passed pops specified entry array shifts everything one deletes empty value end returns popped value possible vb
+
+==============================
+

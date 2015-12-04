@@ -1,0 +1,7 @@
+Title: argument get value
+Karma: 2
+Date: 1400825428.0
+working inventwithpython example following code function checkcave defined argument passed assigned ' feel like understand ' line created scope choosecave function never mentioned code understanding value contains role plays ' effective part code import random import time def displayintro print'you land full dragons front you' print'you see two caves one cave dragon print'and share treasure print'is greedy hungry eat sight' print def choosecave cave '' cave ' cave ' print'which cave go ' cave input return cave def checkcavechosencave print'you approach cave' timesleep print'it dark spooky' timesleep print'a large dragon jumps front opens jaws and' print timesleep friendlycave randomrandint choosecave strfriendlycave print'gives treasure' else print'gobbles one bite' playagain ' playagain ' playagain ' displayintro cavenumber choosecave checkcavecavenumber printdo want ot play yes playagain input
+
+==============================
+

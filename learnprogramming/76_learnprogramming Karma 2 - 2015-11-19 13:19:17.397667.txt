@@ -1,0 +1,7 @@
+Title: markov chain
+Karma: 2
+Date: 1386067515.0
+know got every word made characters every character state algorithm goes state state reaches end probability state state given seed example seed artur tim tom rachel bob want create new word seed algorithm goes like letter brackets probability first letter b r randomly picked b second letter o end randomly selected o third letter m b randomly selected m next letter end end randomly selected end name created bom correct
+
+==============================
+

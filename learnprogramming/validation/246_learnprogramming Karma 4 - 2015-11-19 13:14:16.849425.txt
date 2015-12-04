@@ -1,0 +1,7 @@
+Title: help udacity exercise
+Karma: 4
+Date: 1400107820.0
+currently mworking intro programming course exercise quite understand asks write program input number prints name corresponding month number days example write sould print june assignament gives basic structure program fill code structure given following month class public class month code public monthint themonthnumber code public string getmonthname code public int getnumberofdays code monthprinter class public class monthprinter public static void mainstring args code continues comments
+
+==============================
+

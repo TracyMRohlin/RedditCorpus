@@ -1,0 +1,7 @@
+Title: handle collision detection player tile cxna
+Karma: 10
+Date: 1310706867.0
+right define rectangle player rectangle tile use built rectangle method compares two rectangles see intersect great seeing player hit projectile worry players location right set playerrectangle intersects tilerectangle put player top tile course incorrect player hits side toyed various statements compare left right top bottom rectangles still get perfect works fine except hit range corner player either clips teleports sides thought look players last position position exists inside tile draw line two points see line first intersects platform way tell player hit platform left right diagonals let handle player accordingly idea draw line tell line intersects tile either thinking totally wrong way need math thrown sure
+
+==============================
+

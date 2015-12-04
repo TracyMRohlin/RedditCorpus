@@ -1,0 +1,7 @@
+Title: send ms word document attachment
+Karma: 2
+Date: 1400630741.0
+hello learnprogramming first apologies wrong format wrong subreddit altogether quite new reddit complete amateur programmer work major bank problems macro visual basic applications word tied button document essentially simple word doc form fields almost code taken various places online ie user opens document grey fields fill click submit recipient gets email document attached entries fields filled click submit button even though code written saveas overwrites document teams sharepoint looking assistance edit code email recipient receives attached document users edits original document sharepoint remains intact ie gets saved temp file elsewhere delete activedocumentsaveas email recipient receives copy form form field edits ie form second open use infopath create form hear much easier company strict programs able obtain company machines thanks advance apologies totally wrong place format private sub commandbutton click dim bstarted boolean dim ooutlookapp object dim oitem object error resume next 'prompt user save document activedocumentsaveas 'get outlook running set ooutlookapp getobjectoutlookapplication 'outlook isnt running start err set ooutlookapp createobjectoutlookapplication bstarted true end 'create new mail item set oitem ooutlookappcreateitem oitem myemailaddress subject blahblah form attachmentsadd activedocumentfullname send end 'clean set oitem nothing set ooutlookapp nothing end sub
+
+==============================
+

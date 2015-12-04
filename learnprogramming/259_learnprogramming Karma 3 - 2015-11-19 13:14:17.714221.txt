@@ -1,0 +1,7 @@
+Title: cxml loading xml document selecting single node selecting child node
+Karma: 3
+Date: 1400046382.0
+struggling several hours got xml document goes xml version encodingutf standaloneyes zoneenvironments xmlnsxsi zonedata zonename namearcum iris environmentenvironment zonename zonedata zonedata zonename namecalmlands environmentenvironment environmentenvironment zonename zonedata trying select zonename node select childnode environmentenrivonmen pair environment returned matter set get select node except first one environment always equal environment always equal told solve wits end public string zoneenvironmentcheckerstring zonechoice xmldocument doc new xmldocument docloadzoneenvironmentsxml string environment environment xmlnode zone docdocumentelement zoneselectsinglenodezonenamename' zonechoice ' environment zonechildnodesiteminnertext environment zonechildnodesiteminnertext messageboxshowenvironment environment environment return temperate else environment environment return subarctic else environment environment return tropical else return arid
+
+==============================
+

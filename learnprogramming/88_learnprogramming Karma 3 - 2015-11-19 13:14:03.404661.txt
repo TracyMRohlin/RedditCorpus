@@ -1,0 +1,7 @@
+Title: java trouble installing sdk managerexe
+Karma: 3
+Date: 1400596790.0
+wanted learn java make app went actual android sdk website started following directions installing everything needed got point click sdk managerexe flash quick cmd trying luck google trying solutions blindly like
+
+==============================
+

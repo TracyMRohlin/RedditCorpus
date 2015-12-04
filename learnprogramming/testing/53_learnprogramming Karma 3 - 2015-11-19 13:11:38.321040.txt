@@ -1,0 +1,7 @@
+Title: python need help utilizing user classes python shells
+Karma: 3
+Date: 1432263966.0
+generic code wrote py file goes class myobjectobject stuff def main code utilizes objects associated attributesmethods changing main function code suit needs running anaconda seem results works well enough good manner load class information shell perform methods command line instead resource advice manner appreciated
+
+==============================
+

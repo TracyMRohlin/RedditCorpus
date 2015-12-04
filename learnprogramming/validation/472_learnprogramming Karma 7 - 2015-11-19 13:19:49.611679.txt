@@ -1,0 +1,7 @@
+Title: determine version software
+Karma: 7
+Date: 1385221326.0
+understand versions software represent look like stuff people come numbers completely arbitrary method pull butt first version v every new bug fix increment final number three bug fixes first version added new feature new version changed way already existing feature works increment next number kind thought process
+
+==============================
+

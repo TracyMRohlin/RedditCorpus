@@ -1,0 +1,7 @@
+Title: java data type output expected results beginner
+Karma: 6
+Date: 1385712434.0
+java exercise tutorial internet ran problem task average rainfall data print data clear manner however result unexpected beginner code correctly prints rain month integer whether short long int may issue average prints expected anyone mind explaining rounding occurrs format show true decimal value thank much advance willing provide information necessary code public class exercise public static void mainstring args short rainapril rainmay rainjune double rainaverage rainapril rainmay rainjune systemoutprintlnrainfall april rainapril r rainfall may rainmay r rainfall june rainjune r r average rainfall rainaverage edit lol figured something silly thanks help make sure come back subreddit questions
+
+==============================
+

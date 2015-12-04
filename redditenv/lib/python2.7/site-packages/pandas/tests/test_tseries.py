@@ -9,7 +9,9 @@ from pandas.compat import range, lrange, zip
 import pandas.lib as lib
 import pandas._period as period
 import pandas.algos as algos
-from pandas.tseries.holiday import Holiday, SA, next_monday
+from pandas.core import common as com
+from pandas.tseries.holiday import Holiday, SA, next_monday,USMartinLutherKingJr,USMemorialDay,AbstractHolidayCalendar
+import datetime
 from pandas import DateOffset
 
 
@@ -275,8 +277,16 @@ def test_duplicated_with_nas():
     expected = [False, False, False, True, False, True]
     assert(np.array_equal(result, expected))
 
-    result = lib.duplicated(keys, take_last=True)
+    result = lib.duplicated(keys, keep='first')
+    expected = [False, False, False, True, False, True]
+    assert(np.array_equal(result, expected))
+
+    result = lib.duplicated(keys, keep='last')
     expected = [True, False, True, False, False, False]
+    assert(np.array_equal(result, expected))
+
+    result = lib.duplicated(keys, keep=False)
+    expected = [True, False, True, True, False, True]
     assert(np.array_equal(result, expected))
 
     keys = np.empty(8, dtype=object)
@@ -289,8 +299,12 @@ def test_duplicated_with_nas():
     expected = falses + trues
     assert(np.array_equal(result, expected))
 
-    result = lib.duplicated(keys, take_last=True)
+    result = lib.duplicated(keys, keep='last')
     expected = trues + falses
+    assert(np.array_equal(result, expected))
+
+    result = lib.duplicated(keys, keep=False)
+    expected = trues + trues
     assert(np.array_equal(result, expected))
 
 
@@ -363,9 +377,9 @@ def test_get_reverse_indexer():
 
 
 def test_pad_backfill_object_segfault():
-    from datetime import datetime
+
     old = np.array([], dtype='O')
-    new = np.array([datetime(2010, 12, 31)], dtype='O')
+    new = np.array([datetime.datetime(2010, 12, 31)], dtype='O')
 
     result = algos.pad_object(old, new)
     expected = np.array([-1], dtype=np.int64)
@@ -461,78 +475,19 @@ class TestBinGroupers(tm.TestCase):
         self.assertRaises(ValueError, generate_bins_generic,
                           values, [-3, -1], 'right')
 
-    def test_group_bin_functions(self):
-
-        dtypes = ['float32','float64']
-        funcs  = ['add', 'mean', 'prod', 'min', 'max', 'var']
-
-        np_funcs = {
-            'add': np.sum,
-            'mean': np.mean,
-            'prod': np.prod,
-            'min': np.min,
-            'max': np.max,
-            'var': lambda x: x.var(ddof=1) if len(x) >= 2 else np.nan
-        }
-
-        for fname in funcs:
-            for d in dtypes:
-                check_less_precise = False
-                if d == 'float32':
-                    check_less_precise = True
-                args = [getattr(algos, 'group_%s_%s' % (fname,d)),
-                        getattr(algos, 'group_%s_bin_%s' % (fname,d)),
-                        np_funcs[fname],
-                        d,
-                        check_less_precise]
-                self._check_versions(*args)
-
-    def _check_versions(self, irr_func, bin_func, np_func, dtype, check_less_precise):
-        obj = self.obj.astype(dtype)
-
-        cts = np.zeros(3, dtype=np.int64)
-        exp = np.zeros((3, 1), dtype)
-        irr_func(exp, cts, obj, self.labels)
-
-        # bin-based version
-        bins = np.array([3, 6], dtype=np.int64)
-        out = np.zeros((3, 1), dtype)
-        counts = np.zeros(len(out), dtype=np.int64)
-        bin_func(out, counts, obj, bins)
-
-        assert_almost_equal(out, exp, check_less_precise=check_less_precise)
-
-        bins = np.array([3, 9, 10], dtype=np.int64)
-        out = np.zeros((3, 1), dtype)
-        counts = np.zeros(len(out), dtype=np.int64)
-        bin_func(out, counts, obj, bins)
-        exp = np.array([np_func(obj[:3]), np_func(obj[3:9]),
-                        np_func(obj[9:])],
-                       dtype=dtype)
-        assert_almost_equal(out.squeeze(), exp, check_less_precise=check_less_precise)
-
-        # duplicate bins
-        bins = np.array([3, 6, 10, 10], dtype=np.int64)
-        out = np.zeros((4, 1), dtype)
-        counts = np.zeros(len(out), dtype=np.int64)
-        bin_func(out, counts, obj, bins)
-        exp = np.array([np_func(obj[:3]), np_func(obj[3:6]),
-                        np_func(obj[6:10]), np.nan],
-                       dtype=dtype)
-        assert_almost_equal(out.squeeze(), exp, check_less_precise=check_less_precise)
-
 
 def test_group_ohlc():
 
     def _check(dtype):
         obj = np.array(np.random.randn(20),dtype=dtype)
 
-        bins = np.array([6, 12], dtype=np.int64)
+        bins = np.array([6, 12, 20])
         out = np.zeros((3, 4), dtype)
         counts = np.zeros(len(out), dtype=np.int64)
+        labels = com._ensure_int64(np.repeat(np.arange(3), np.diff(np.r_[0, bins])))
 
         func = getattr(algos,'group_ohlc_%s' % dtype)
-        func(out, counts, obj[:, None], bins)
+        func(out, counts, obj[:, None], labels)
 
         def _ohlc(group):
             if isnull(group).all():
@@ -546,7 +501,7 @@ def test_group_ohlc():
         assert_almost_equal(counts, [6, 6, 8])
 
         obj[:6] = nan
-        func(out, counts, obj[:, None], bins)
+        func(out, counts, obj[:, None], labels)
         expected[0] = nan
         assert_almost_equal(out, expected)
 
@@ -629,13 +584,13 @@ class TestTypeInference(tm.TestCase):
         pass
 
     def test_datetime(self):
-        import datetime
+
         dates = [datetime.datetime(2012, 1, x) for x in range(1, 20)]
         index = Index(dates)
         self.assertEqual(index.inferred_type, 'datetime64')
 
     def test_date(self):
-        import datetime
+
         dates = [datetime.date(2012, 1, x) for x in range(1, 20)]
         index = Index(dates)
         self.assertEqual(index.inferred_type, 'date')
@@ -738,6 +693,29 @@ class TestPeriodField(tm.TestCase):
 
     def test_get_period_field_array_raises_on_out_of_range(self):
         self.assertRaises(ValueError, period.get_period_field_arr, -1, np.empty(1), 0)
+
+class TestFederalHolidayCalendar(tm.TestCase):
+
+    # Test for issue 10278
+    def test_no_mlk_before_1984(self):
+        class MLKCalendar(AbstractHolidayCalendar):
+            rules=[USMartinLutherKingJr]
+        holidays = MLKCalendar().holidays(start='1984', end='1988').to_pydatetime().tolist()
+        # Testing to make sure holiday is not incorrectly observed before 1986
+        self.assertEqual(holidays, [datetime.datetime(1986, 1, 20, 0, 0), datetime.datetime(1987, 1, 19, 0, 0)])
+
+    def test_memorial_day(self):
+        class MemorialDay(AbstractHolidayCalendar):
+            rules=[USMemorialDay]
+        holidays = MemorialDay().holidays(start='1971', end='1980').to_pydatetime().tolist()
+        # Fixes 5/31 error and checked manually against wikipedia
+        self.assertEqual(holidays, [datetime.datetime(1971, 5, 31, 0, 0), datetime.datetime(1972, 5, 29, 0, 0),
+            datetime.datetime(1973, 5, 28, 0, 0), datetime.datetime(1974, 5, 27, 0, 0),
+            datetime.datetime(1975, 5, 26, 0, 0), datetime.datetime(1976, 5, 31, 0, 0),
+            datetime.datetime(1977, 5, 30, 0, 0), datetime.datetime(1978, 5, 29, 0, 0),
+            datetime.datetime(1979, 5, 28, 0, 0)])
+
+
 
 
 class TestHolidayConflictingArguments(tm.TestCase):

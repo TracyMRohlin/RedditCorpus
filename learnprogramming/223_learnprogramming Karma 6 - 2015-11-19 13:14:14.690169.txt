@@ -1,0 +1,7 @@
+Title: make sense parallel computing weird bump runtime function number cores
+Karma: 6
+Date: 1400164660.0
+hi hope right place ask question wrote program runs parallel fortran relevant loop parallelized looks something like xi fxi end f expensive function x d array measured runtime different number cores core runtime goes proportionally number cores core bump goes proportionally see plot mean expect extra overhead maybe asymptote runtime bump strange said someone else started another process time test gcc binary later time see behaviour cores takes long using cores cores takes longer ideas
+
+==============================
+

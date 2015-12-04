@@ -1,0 +1,7 @@
+Title: suggetions nb game dev languages
+Karma: 19
+Date: 1308813511.0
+experienced java working basic d graphics type games seems like lot unnecessary work better languages perhaps java packages besides awt swing use make much easier almost think faster build rpg maker type program rather build single game code edit things heard seem somewhat complicated andor know ones bettereasier xna unityd lve jmonkeyengine unrealdevkit javad lwjgl slick
+
+==============================
+

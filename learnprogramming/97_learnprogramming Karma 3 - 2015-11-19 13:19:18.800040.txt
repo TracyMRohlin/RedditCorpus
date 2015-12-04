@@ -1,0 +1,7 @@
+Title: reference tables making app vs
+Karma: 3
+Date: 1386030100.0
+looking get programming applications desktop apps rather mobile one first tasks try convert sales spreadsheet application using visual studio create app question spreadsheet dozens tables look ups simple vhlookups use sql reference main sticking point see tables mach x y axes currently dont code far app thinking ahead wondered method use store retrieve tables especially using two axes
+
+==============================
+

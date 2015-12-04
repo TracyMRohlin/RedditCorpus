@@ -1,0 +1,7 @@
+Title: c syntax error missing '' '
+Karma: 3
+Date: 1400276574.0
+trying compile include stdioh int main unsigned int sum sum sum int layer step step size layerstep x spiral hava layers fix forlayerlayerlayer forstepstepstep sum layer printfthe sum diagonals x spiral d sum return gives following errors syntax error missing '' ' ' undeclared identifier ' undeclared identifier compiling vs c express ideas
+
+==============================
+

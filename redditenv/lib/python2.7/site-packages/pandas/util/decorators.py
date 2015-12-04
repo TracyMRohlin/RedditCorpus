@@ -10,12 +10,12 @@ def deprecate(name, alternative, alt_name=None):
 
     def wrapper(*args, **kwargs):
         warnings.warn("%s is deprecated. Use %s instead" % (name, alt_name),
-                      FutureWarning)
+                      FutureWarning, stacklevel=2)
         return alternative(*args, **kwargs)
     return wrapper
 
 
-def deprecate_kwarg(old_arg_name, new_arg_name, mapping=None):
+def deprecate_kwarg(old_arg_name, new_arg_name, mapping=None, stacklevel=2):
     """Decorator to deprecate a keyword argument of a function
 
     Parameters
@@ -43,7 +43,7 @@ def deprecate_kwarg(old_arg_name, new_arg_name, mapping=None):
     FutureWarning: cols is deprecated, use columns instead
       warnings.warn(msg, FutureWarning)
     should raise warning
-    >>> f(cols='should error', columns="can't pass do both")
+    >>> f(cols='should error', columns="can\'t pass do both")
     TypeError: Can only specify 'cols' or 'columns', not both
     >>> @deprecate_kwarg('old', 'new', {'yes': True, 'no': False})
     ... def f(new=False):
@@ -78,7 +78,8 @@ def deprecate_kwarg(old_arg_name, new_arg_name, mapping=None):
                     new_arg_value = old_arg_value
                     msg = "the '%s' keyword is deprecated, " \
                           "use '%s' instead" % (old_arg_name, new_arg_name)
-                warnings.warn(msg, FutureWarning)
+
+                warnings.warn(msg, FutureWarning, stacklevel=stacklevel)
                 if kwargs.get(new_arg_name, None) is not None:
                     msg = "Can only specify '%s' or '%s', not both" % \
                       (old_arg_name, new_arg_name)
@@ -287,4 +288,3 @@ def make_signature(func) :
     if spec.keywords:
         args.append('**' + spec.keywords)
     return args, spec.args
-

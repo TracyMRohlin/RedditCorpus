@@ -1,0 +1,7 @@
+Title: c possible review code solving quadratic equations
+Karma: 10
+Date: 1384409924.0
+hi hopefully appropriate place post reading c primer th edition amazing book got bit ancy wanted build something took stab building program solve quadratic equations read way book yet couple things actually done yet none concepts foreign one review code tell anything wrongcould better maybe somehow fudged math greatly appreciated seemed solve equations plugged except problem checking repeating numbers specifically want compilerun enter b c quadratic equation coefficients ' plus c
+
+==============================
+

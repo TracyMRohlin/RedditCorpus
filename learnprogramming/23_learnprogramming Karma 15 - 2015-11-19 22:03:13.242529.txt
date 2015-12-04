@@ -1,0 +1,7 @@
+Title: idea linux
+Karma: 15
+Date: 1324976241.0
+installed ubuntu little idea apparently ides uncommon wanted write c far discovered type vim used able write new files keep getting e telling permission even using g gives error saying give files perfectly honest know know files listing directory shows signs cpp files obviously idea dumbed explanation write compile c program preferably vim compiling g appreciated
+
+==============================
+

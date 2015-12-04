@@ -1,0 +1,7 @@
+Title: c int bufferx big '
+Karma: 39
+Date: 1353732303.0
+wondering anyone knew big value ' bufferx limit currently variable program buffer getting nervous might capping limit going need least four times big done variables already involved constantly able grow program function savesloads variables file barely slapped together pieces internet reach limit afraid able keep going without rewriting skill level understand anything c c fwrite use pointers goes right head sure common question find google experienced self taught know terminology word correctly find answer help greatly appreciated
+
+==============================
+

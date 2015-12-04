@@ -1,0 +1,7 @@
+Title: c line algorithm working
+Karma: 9
+Date: 1370090337.0
+hi guys trying use line algorithm draw line coordinates seem working storing coordinates vector called ' allocating dimsensional array called ' see boardresultsatresultsat first coordinate boardresultsatresultsat second coordinate int dx resultsat resultsat int dy resultsat resultsat int y int d int x resultsat x resultsat x line drawing algorithm y resultsat dy x resultsatdx boardxy x set line d dy dx y resultsat int x resultsat x resultsat x bresenhams d y y boardxy x d d dydx else boardxy d ddy see also tried normal line drawing algorithm attempting even work though line drawing algorithm draws sort line though incorrect work tried changing bits pieces find errors help appreciated
+
+==============================
+

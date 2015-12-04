@@ -1,0 +1,7 @@
+Title: c question arrays
+Karma: 15
+Date: 1368927076.0
+given question arrays exam sure whether got right wrong arr represents array suppose arr used expression circumstances use illegal circumstances use legal legal mean assume expression legal correctly placed program
+
+==============================
+

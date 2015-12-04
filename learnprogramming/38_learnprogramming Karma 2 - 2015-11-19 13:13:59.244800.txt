@@ -1,0 +1,7 @@
+Title: c sfml return true
+Karma: 2
+Date: 1400750506.0
+im trying make rectangle changes color mouse hovered ifselgetglobalboundscontainsmouseymousex stuff rectangle sel starts mousey mousex set mouses current position statement write ifselgetglobalboundscontains works rects color changed also tried like ifselgetglobalboundscontainssfmousegetpositionsfmousegetpositiony still didnt work idea
+
+==============================
+

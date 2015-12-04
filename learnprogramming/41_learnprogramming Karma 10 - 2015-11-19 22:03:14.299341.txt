@@ -1,0 +1,7 @@
+Title: guides detailing installation custom c libraries complete novices
+Karma: 10
+Date: 1324738739.0
+wanting use several public libraries libusb gnu mp etc lack experience everywhere go people simply say type aoenuson aoehpbxubaockx good run makefile mate shouting even say type problem know first thing custom compiling libraries running makefiles forum posts searched assume already know way damn well around computers mainly work microcontrollers basic c syntax debugging routines really pc environment pretty daunting words like kernel shell give chills tldr place read babysteps guide get single damn library working code pretty things help get open source library ' working ms visual studio
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: vbnet datasource mdi forms program
+Karma: 2
+Date: 1400355960.0
+working mdi forms program multiple child forms perform iterative calculations based user input child form child form specific type ' calculating created 'dataset visual studio wizard component calculated respective child form issue go storing separate components overall datasource managed mdi form data persists child forms closed reopened database overkill created ' class intended use another 'dataset done previously child forms however starting look like going wrong way im seeking help experienced im fairly new programming visual studio essentially working toward 'parent calculation runs different types components entered user child forms calculates
+
+==============================
+

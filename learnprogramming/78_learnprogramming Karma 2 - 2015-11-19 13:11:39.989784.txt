@@ -1,0 +1,7 @@
+Title: c q sort algorithm question k r
+Karma: 2
+Date: 1432213364.0
+first iteration last call swap wasted code sets last left left calls swap last makes last equal
+
+==============================
+

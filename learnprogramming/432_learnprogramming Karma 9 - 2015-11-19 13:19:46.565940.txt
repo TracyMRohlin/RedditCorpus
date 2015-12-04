@@ -1,0 +1,7 @@
+Title: dereferencing nilpointer pascal
+Karma: 9
+Date: 1385289876.0
+recursive inorder symmetric tree traversal binary trees two procedures meant almost certain dereferencing nil pointer check whether argument proot nil first even say prootleft nil proot evaluating prootleft dereferencing nil pointer want test obviously able right first procedure see invokes block potentially argument nil pointer mean call cause trouble correct implementation procedure symout proot tpbintree begin proot nil begin symoutprootleft write prootinfo symoutprootright end end second procedure feeling confident concise procedure symout proot tpbintree begin proot nil begin prootleft nil symoutprootleft write prootinfo prootright nil symoutprootright end end
+
+==============================
+

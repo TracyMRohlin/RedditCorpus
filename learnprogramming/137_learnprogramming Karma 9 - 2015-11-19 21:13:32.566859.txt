@@ -1,0 +1,7 @@
+Title: python pygame program behaving expected need help short program
+Karma: 9
+Date: 1353720673.0
+made simple animated program ball bounces canvas limits every rd bounce new ball created half radius original inverted velocity code problem program eventually goes crazy enters seems ball creation loop creating many balls fast freezing program ball creation loop also seems infinite happen depends velocity balls faster ball goes sooner bug happen initial velocity takes around bounces main ball program bug initial velocity takes bounces program bug idea happening time ball produces new ball every rd bounce bounce counter resetted seems issue smallest balls figure fix need help figure happening fix thanks time edit seems something new ball created velocity changed ball creation method give velocity time program bugs changed lost
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: javascript switch frames using javascript
+Karma: 4
+Date: 1399829161.0
+need set frameset first frame contains main content page second frameset contains nothing button first frame click point second frame needs load alternate html document tired attempt switch src point towards new html work function help documentgetelementbyidhelponsrchelphtml switch back forth blankhtml helphtml button press bonus think issue arising button within html called first frame kind disconnect happening back track main frameset file change src second frame help guys give great little info code formset html frameset idframeset frameborder rows frame namemainframe idmainframe srcorderhtml frame nameblankframe idblankframe srcblankhtml frame namehelpframe idhelpframe srchelphtml frameset button orderhtml loads function input typebutton valuehelp onclickhelp bunch things tried js parentdocumentgetelementsbyidblankframesrchelphtml parentdocumentgetelementbyidblankframesrchelphtml parentdocumentgetelementsbynameblankframesrchelphtml parentdocumentgetelementbynameblankframesrchelphtml parentdocumentgetelementbyidframesetrows tried without parent something must missing know googlefu task edit discovered issue error getting uncaught securityerror blocked frame origin null accessing frame origin null protocols domains ports must match chrome specific issue main browser used debugging opened ie worked immediatly firefox
+
+==============================
+

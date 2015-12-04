@@ -1,0 +1,7 @@
+Title: simple dilemma calling function python
+Karma: 9
+Date: 1352970502.0
+code working class def enterpurchaseprice input enter purchase amount def enterresale input enter resale number retail purchaseprice enterpurchaseprice resalenumber enterresale print purchaseprice print resalenumber like purchaseprice equal input function enterpurchaseprice try print purchaseprice resalenumber get none result brand new programming thanks guys
+
+==============================
+

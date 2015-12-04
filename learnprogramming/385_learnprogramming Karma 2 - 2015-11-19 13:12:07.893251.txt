@@ -1,0 +1,7 @@
+Title: c getting lower ienumerable datatypes display datagrid json child nodes adivce
+Karma: 2
+Date: 1431468683.0
+greetings rlearnprogramming hobby project anyone asks love working public api endpoints mainly writing code python attempting port webforms application wpf application question queries transport london api pulling data json api endpoint tfl api sends back data nested json objects example root name linestatuses statusseveritydescription reason may null data grab question whats right way map grab filter data inner structures c wpf webforms use foreach loop push data grid foreach var line data var firstlinestatus linelinestatusesfirstordefault var linedescription var linestatusdescription status provided firstlinestatus null linestatusdescription firstlinestatusstatusseveritydescription linedescription firstlinestatusreason datarow dr dtnewrow dtrowsaddlinename linestatusdescription linedescription code avalible gist provide examples explain greatful many thanks oliver
+
+==============================
+

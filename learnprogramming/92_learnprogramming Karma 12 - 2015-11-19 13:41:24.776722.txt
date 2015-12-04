@@ -1,0 +1,7 @@
+Title: checking guessesvalid mastermind game
+Karma: 12
+Date: 1370090871.0
+question facebook used use online interviews problem statement note ignore code stackoverflow post mixed c c syntax confusing able come brute force approach iterates nk possibilities total runtime oq k nk q number guesses k number positions n number values position think efficient way brute force approach however looking problem found people say done oqk k logq time ways solve even faster problem reduced known problem
+
+==============================
+

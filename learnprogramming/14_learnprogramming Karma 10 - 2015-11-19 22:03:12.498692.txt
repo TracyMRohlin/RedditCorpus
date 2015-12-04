@@ -1,0 +1,7 @@
+Title: java need help program tell number prime
+Karma: 10
+Date: 1325143256.0
+code far import javautil import javamath public class isitprime public static void mainstring args systemoutprintlnplease enter positive integer less n scanner input new scannersystemin boolean go prime false biginteger num bigintegerzero loop continues prime number entered prime try biginteger transition inputnextbiginteger num bigintegervalueoftransitionlongvalue go true catch javautilinputmismatchexception e systemoutprintlnnerror input invalid please enter positive integer less n go false integer input loop bypass next section try go biginteger zero bigintegerzero int maybeless numcomparetozero maybeless maybeless systemoutprintlnnerror input less equal please enter positive integern else numequalsbigintegerone systemoutprintlnn num prime numbern else numequalsbigintegervalueof systemoutprintlnn num prime numbern prime true else double root mathsqrtnumdoublevalue int j takes factors square root integer checks integer multiple double root biginteger x numremainderbigintegervalueofj biginteger y bigintegervalueofxlongvalue yequalszero systemoutprintlnn num prime number systemoutprintlnnum multiple n root else root systemoutprintlnn num prime numbern prime true j think method using parse string int let numbers greater getting errors whenever try run ridiculously big numbers besides feedback make code cleaner appreciated new programming trying start projects like get better thanks help edit changed code posted
+
+==============================
+

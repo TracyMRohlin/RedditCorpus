@@ -1,0 +1,7 @@
+Title: translating conditional statements string format actual logic javascript
+Karma: 25
+Date: 1369954430.0
+good knowledge real time graphics programming web development started project requires take usercreated conditional string actually use conditions code entirely new kind programming problem tried experiments using loops slicing conditional stringbut feel like missing kind technique make efficient straightforward feeling regular expressions may useful perhaps example string ifvarandvarorvar values actual variables come array objects also different marker symbols around variables denote different object arrays actual value found variable name index complete control conditional string formatted adding symbols around ifelseelseif andor well special symbols around different operands options fairly open approach programming problem
+
+==============================
+

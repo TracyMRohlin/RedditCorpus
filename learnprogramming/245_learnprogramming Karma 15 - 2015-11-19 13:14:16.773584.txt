@@ -1,0 +1,7 @@
+Title: c help void pointers
+Karma: 15
+Date: 1400109477.0
+understand pointers work understand whyhow void pointers used somebody explain
+
+==============================
+

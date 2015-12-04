@@ -1,0 +1,7 @@
+Title: c overloading input operator determine kind derived class make
+Karma: 6
+Date: 1385449939.0
+got class inherited class b c d main method want readclasscin cout n also want make assign pointer derived class instead base class got code class overloading seem assign b example like classtype new ab
+
+==============================
+

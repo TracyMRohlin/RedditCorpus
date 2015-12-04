@@ -1,0 +1,7 @@
+Title: cthe double free problem
+Karma: 9
+Date: 1354072138.0
+recently given interview question interviewier asked something like struct person myperson myperson person mallocsizeofperson stuff freemyperson freemyperson know error however curious error quick progam put together thorws glibc detected aout double free corruption fasttop x going event program error freeing memory interact pointeris correct really going hood
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c need help moving around arrays
+Karma: 9
+Date: 1370092428.0
+start pretty new programming altogether decided dive c small project wanted work making simple game move around arrow keys try get end level right try get basics multidimensional array filled ' array get move original starting position either one spot left right figure move player looking input something try go differently thanks gentle yes know systemcls bad using testing movement moment
+
+==============================
+

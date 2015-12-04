@@ -1,0 +1,7 @@
+Title: struct literals literals matters learning go language
+Karma: 22
+Date: 1369567603.0
+title suggests trying grasp concept literals getting close enough thanks help
+
+==============================
+

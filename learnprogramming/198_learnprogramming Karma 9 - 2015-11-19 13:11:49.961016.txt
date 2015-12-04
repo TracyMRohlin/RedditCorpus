@@ -1,0 +1,7 @@
+Title: racket anything similar state monad haskell racket
+Karma: 9
+Date: 1431978578.0
+trying learn racket success know scheme dialects pure functional style preferred writing programs usually involve mutable state obvious way deal state modifying functions consume state return new modified state actually end dozens functions like typed racket clarity struct state time real something string tick state state define tick structcopy state time statetime every function wants modify state like annoying haskell something equivalent use state monad like import controlmonadstatelazy data mystate mystate time int something string tick state mystate tick get put time time know state monad look useful example useful lot state modifying functions since means pass state around manually dealt way something like racket like want modify state putting together lot functions haskell something like state monad dosomething step step step step racket moment something like define dosomething step step step step lot less nice better way
+
+==============================
+

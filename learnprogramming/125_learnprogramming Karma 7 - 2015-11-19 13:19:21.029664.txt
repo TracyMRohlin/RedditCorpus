@@ -1,0 +1,7 @@
+Title: chrome extension chrometabsexecutescript straight working
+Karma: 7
+Date: 1385944487.0
+ok know backgroundjs works want add functionality turning extension followed chrometabsexecutescript null file backgroundjs functionresult consolelogresult chromeruntimelasterror consolelogchromeruntimelasterrormessage return else consolelogsucceeded runs get success message result null consolelog first line backgroundjs never hit manifestjson info permissions tabs storage background scripts jqueryminjs bootstrapjs persistent false also tried hosting backgroundjs elsewhere based stackoverflow edit wondering something tabs code said caused errors tabid
+
+==============================
+

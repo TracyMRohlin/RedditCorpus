@@ -237,7 +237,7 @@ static void **PyUFunc_API=NULL;
         (*(int (*)(PyUFuncObject *, PyArray_Descr *, PyUFuncGenericFunction, PyArray_Descr **, void *)) \
          PyUFunc_API[41])
 
-static int
+static NPY_INLINE int
 _import_umath(void)
 {
   PyObject *numpy = PyImport_ImportModule("numpy.core.umath");

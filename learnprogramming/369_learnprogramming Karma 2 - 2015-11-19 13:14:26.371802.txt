@@ -1,0 +1,7 @@
+Title: java static non static methods
+Karma: 2
+Date: 1399729461.0
+think need read quite tutorials figure created jpanels frame stuff trying update text status bar except keep getting 'cannot make static reference nonstatic error message understand resolve know stuff making sense code create panels populate code updates status bar making fields static still get rid errors wrong thanks edit nevermind stupid fucking typo calling class object instance statusbar vs statusbar
+
+==============================
+

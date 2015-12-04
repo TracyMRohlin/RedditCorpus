@@ -1,0 +1,7 @@
+Title: problem c
+Karma: 9
+Date: 1353707239.0
+trouble lines c code wondering someone help get gcc testc pedantic wall o test testc function testc warning array subscript type testc warning c style comments allowed iso c testc warning reported per input file testc function testc warning lefthand operand comma expression effect testc error parse error '' token one like one causing problem following branchopcodebits bitstostrbranchopcodebopsz line branchopcode inbitsbcblbcbsz whole file comment two lines everything works fine program compiles correctly yet time add back fails help much appreciated
+
+==============================
+

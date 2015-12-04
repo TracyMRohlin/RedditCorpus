@@ -1,0 +1,7 @@
+Title: c strange bug homework assignment program freezing
+Karma: 6
+Date: 1399764017.0
+program freezes apparent reason section void displayhighdouble rainfall int elements int sub int output int maxsub double temp int lastswap char swap ' swap ' swap ' sub cout test test code put try pinpoint spot freezes last output program displays sub maxsub cout test sub rainfallsub rainfallsub cout test temp rainfallsub rainfallsub rainfallsub rainfallsub temp swap ' lastswap sub sub maxsub lastswap cout highest rainfall rainfalloutput endl endl basically program takes rainfall months gives user choice display data takes rainfall array feeds appropriate function runs calculations outputs result every function works fine except one displays highest value took sorting code straight example textbook reason point marked comment code freezes cursor blinks input received program sits fuck going wrong
+
+==============================
+

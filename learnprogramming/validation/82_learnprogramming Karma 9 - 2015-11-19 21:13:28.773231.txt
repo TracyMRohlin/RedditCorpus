@@ -1,0 +1,7 @@
+Title: use custom events instead direct method calling
+Karma: 9
+Date: 1354062814.0
+new programming checking lot game coding tutorials noticed use custom events trigger functions instead calling method directly reasoning behind practice calling method example two objects b method amethoda b needs use x condition triggered implement b dispatches event tells run amethoda instead b uses amethoda thanks time
+
+==============================
+

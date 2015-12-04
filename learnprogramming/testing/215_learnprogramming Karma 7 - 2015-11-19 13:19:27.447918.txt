@@ -1,0 +1,7 @@
+Title: help drawing tetrominos version tetris c opengl
+Karma: 7
+Date: 1385637299.0
+ok made tetris game looks like run game thank advance help
+
+==============================
+

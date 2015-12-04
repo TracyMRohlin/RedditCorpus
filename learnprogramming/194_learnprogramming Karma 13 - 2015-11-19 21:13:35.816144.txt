@@ -1,0 +1,7 @@
+Title: java sorting d array
+Karma: 13
+Date: 1353223046.0
+hello int array numbers numerical order like sort numerical order created new one dimensional matrix loop run fill sort however comes arrayoutofboundsexception code int matrix new int int imatrixlengthi int j jmatrixlengthj int k jmatrixlengthk matriximatrixjk arrayssortmatrix return matrix help great thanks
+
+==============================
+

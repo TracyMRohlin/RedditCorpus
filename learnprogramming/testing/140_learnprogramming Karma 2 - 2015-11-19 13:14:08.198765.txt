@@ -1,0 +1,7 @@
+Title: javahow debug java program trouble receiving udp packets
+Karma: 2
+Date: 1400469266.0
+want post code lot confusing program sends query packet server gets packet response code blocked datagramsocket receive method anybody ideas need check debug heres things already looked datagram socket open listening port wireshark confirms packet sent think packet received something query packet thanks edit code potentially problematic
+
+==============================
+

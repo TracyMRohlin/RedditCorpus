@@ -1,0 +1,7 @@
+Title: trying design database shopping cart site product offerings getting complicated help
+Karma: 13
+Date: 1324684612.0
+working website couple sells alphabet art usually pictures things nature looks like letters use spell name love whatever want trouble many different ways put options together pick colors sepia black white full color different mounting options individual canvas wood individual letters photo paper letters one piece photo paper framing get canvas pick different sizes get individual prints pick get one piece size matter get one piece pick frame frame also get one piece item text added people like get last name letters first names printed top wedding date bottom sketched half dozen different db designs kind shortcoming hoping someone experience offer help edit sorry long time lurker first post forgot mention really trouble letters average different styles letter ie cs etc plus symbols matter size color mounting always sepia canvas full color framed still end hundred possible letters different colors different image files edit ok reading comments redesigned database using mysql workbench think headed better direction still sure tie characters creations lets say order characters order matters link character db rest design screen shot sketched let know wrong
+
+==============================
+

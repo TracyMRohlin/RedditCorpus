@@ -1,0 +1,7 @@
+Title: convention key value variable names nested loops php maybe anything
+Karma: 8
+Date: 1400131464.0
+often find want nest loops especially multidimensional arrays say array looks something like vehiclestypemakemodelversion describe set vehicles say version two options gas diesel engines want count irrespective anything else number gas vehicles array might say foreachvehicles kv foreachv ab foreachb xy foreachy keyvar ifvar'i echo 'we 'i' gas probably count better way array count something besides point sometimes need nest loops like wanted know convention best way chooseing key variable pairs making things moment gets confusing feels crappy advice
+
+==============================
+

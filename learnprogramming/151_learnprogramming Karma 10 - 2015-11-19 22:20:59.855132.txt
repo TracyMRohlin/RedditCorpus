@@ -1,0 +1,7 @@
+Title: hey android devs need little help stringxml class
+Karma: 10
+Date: 1307398386.0
+long story short need way change value string stringxml standalone class either way change string referenced mainxml easy way
+
+==============================
+

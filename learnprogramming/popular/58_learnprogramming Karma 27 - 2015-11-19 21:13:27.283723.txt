@@ -1,0 +1,7 @@
+Title: mind turned jelly need answers regards pointers think
+Karma: 27
+Date: 1354129414.0
+currently studying programming exam entry level real easy stuff practicing earlier problem sets encountered one public static void swapint int b int tmp b b tmp public static void main string args int new int int b new int b swapa b systemoutprintlna n outputs fall obvious trap think get b's index
+
+==============================
+

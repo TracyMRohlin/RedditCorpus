@@ -1,0 +1,7 @@
+Title: racketscheme way select random element list
+Karma: 7
+Date: 1385432949.0
+want function contract ramdomel listelement element list randomly selected returnedany ideas
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c simple case using function pointers java
+Karma: 10
+Date: 1309140517.0
+cube class methods ways quarterturn side cube want able generate integer inclusive pass integer function result function move applied cube based number entered function go java obviously without resulting long ifelseif clauses using switch
+
+==============================
+

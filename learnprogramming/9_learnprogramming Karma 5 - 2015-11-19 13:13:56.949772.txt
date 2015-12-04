@@ -1,0 +1,7 @@
+Title: code detecting global function javascript
+Karma: 5
+Date: 1400818714.0
+attempting make webpage implements google signin following example problem callback function detected even though global namespace one thing note get vanilla example working signin button attribute called datacallback assigned value onsignincallback like button classgsignin datascope datarequestvisibleactions dataclientidtmnjnbfiudkthfgetkrrebappsgoogleusercontentcom datacallbackonsignincallback datathemedark datacookiepolicysinglehostorigin button body page script tags define onsignincallback actually calls anonymous helper function function onsignincallbackauthresult helperonsignincallbackauthresult however seem like detected code help greatly appreciated
+
+==============================
+

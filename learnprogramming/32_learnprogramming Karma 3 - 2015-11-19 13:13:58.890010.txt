@@ -1,0 +1,7 @@
+Title: ascii addition
+Karma: 3
+Date: 1400757269.0
+well stuck homework assignment got work done already need help adding ascii vaules passed string using getline seem get head around idea adding values together mod output hash code far logic code expecting handed need little push get done
+
+==============================
+

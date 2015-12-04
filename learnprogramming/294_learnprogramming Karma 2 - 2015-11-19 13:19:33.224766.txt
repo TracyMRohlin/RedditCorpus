@@ -1,0 +1,7 @@
+Title: sources working wiimote input
+Karma: 2
+Date: 1385520069.0
+hello attempting use wiimote tool tracking hand motions movement infrared leds bunch people online done things like tons information various things done wiimote problem resources find way head taken several programming classes know basics algorithms writing code solving engineering math problems actually creating software analyzing existing software complete novice guys suggestions begin analyzing bluetooth inputs wiimote data running windows right thinking using ubuntu version linux make easier thanks help
+
+==============================
+

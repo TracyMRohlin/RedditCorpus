@@ -1,0 +1,7 @@
+Title: cc difference
+Karma: 30
+Date: 1369174472.0
+never understood necessity using members object far tell never situation make sense immediately following object ether one compiler substitute actually need get wrong understand refers member object refers member pointer object understand need distinction grammar caused need tell two apart holdover compilers smart remind programmer working pointer needs careful price efficiency edit ok got answer looking done editedit ok overloaded point mean something different object way question gets pushed back c since overloading historical compatabilty becomes reasoning
+
+==============================
+

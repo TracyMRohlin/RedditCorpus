@@ -1,0 +1,7 @@
+Title: c calculating critical path need help multidimensional vectors
+Karma: 9
+Date: 1353224661.0
+program receives input number tasks project time required task prerequisites task program calculates displays tasks critical path total time required critical path critical path path tasks project takes longest please note program quite complete still point mistakes see heading toward updated code one bit cleanernote line numbers posted follow updated code think pretty well commenting code case clear lines ask user number tasks project amount time required time tasks saved vector int tasktime time required task x saved tasktimex task program asks many prerequisites task task worked pushed int vector program asks user tasks prerequisite pushes onto vector also prerequisites task entered int vector pushed onto vector int vectors vector vector int path int vector cleared used next iteration loop lines breaks think idea correct pulling int vector back vector vector messes think basically goal pull int vector vector vector add sum tasks path greater previous largest make critical path tested save largest vector int criticalpath save time required well displayed future lines need add prerequisites prerequisites eg prerequisite prerequisite also prerequisite wanted finish part first p main question pull vector held vector also pointing glaring issuespointing better approach greatly appreciated rewriting program better organize using class update finish still need help logic though
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: cserializationdeserialization across assemblies
+Karma: 4
+Date: 1385984161.0
+replying tonight got long family weekend bugging since friday figure ill post see recommendations come basically working program install configure everything required product however completion weeks get notice original program updated changing way configurations stored leaving requirement reworking configurations program works new implementation problem new implementation stores configurations serialized binary file problem moving configurations type however problem occur error unable find ' versionetc tried using formatterassemblystylesimple ignore namespace requirements according tooltip seems nothing error anyone walk potential fix provide sources tldr different first one creates serialized bin file holding details second second supposed deserialize bin retrieve details first exe create file exe create part works serialize datatype bin file one exe read different exe contains datatypes
+
+==============================
+

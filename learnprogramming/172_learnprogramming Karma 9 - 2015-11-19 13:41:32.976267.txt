@@ -1,0 +1,7 @@
+Title: c noob question declaring namespace c application fine
+Karma: 9
+Date: 1369456389.0
+c declaring namespace considered fine like using system however c recommended using namespace std reason c given namespace clash creates confusion amongst different modules stuck writing code like stdcout something c write something like rather acceptable code written way consolewritelinesomething looked c resolves namespace conflicts use either global class name alias class name alias exists c also also least much read superficially name space resolving method c c seems specific reason namespace thing c fine c resolve namespace less way name space aliasing
+
+==============================
+

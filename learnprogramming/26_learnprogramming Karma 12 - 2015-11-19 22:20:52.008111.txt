@@ -1,0 +1,7 @@
+Title: question computers manage run game programs
+Karma: 12
+Date: 1310385287.0
+skip bottom feel like reading precursor stuff started programming last year ti calculator made program simulated ball bouncing basically loop inside balls position calculated point plotted conditionals checked loop repeated problem started coming conditionals checked ball hit wall floor ceiling whether still velocity etcafter many statements checked loop program ran really slowly animation look smooth anymore sort pseudosolve problem precalculating points storing lists using list points loop plotted anyway real question games possible based know programs must enormous list conditionals checked constantly make run extremely slowly like ball simulator
+
+==============================
+

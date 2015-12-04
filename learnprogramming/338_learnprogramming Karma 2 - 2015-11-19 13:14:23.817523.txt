@@ -1,0 +1,7 @@
+Title: codeblocks c error executing c program
+Karma: 2
+Date: 1399826309.0
+hi someone help problem executing simple c program codeblocks code looks like build run get error like one thing execute simple program like printfhello world everything fine
+
+==============================
+

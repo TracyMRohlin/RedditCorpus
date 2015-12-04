@@ -1,0 +1,7 @@
+Title: java inputting rules game life
+Karma: 41
+Date: 1385957872.0
+hello working game life month days ago learned potential rule sets really wanted editable dropdown list jcombobox popup disappear submitting information selecting list patterns quite time working avail quit going input dialog user type three sets numbers separated characters ' birth ' stay alive ' die representing conditions changing state attempted write program demonstrate done gotten function properly identify first nonnumerical character fails attempts put preceding characters array corresponds character instead putting values arrays one time keeps rewriting first know description making sense got import javautilscanner public class stringtoarrays static int abc static char lastchar static int x public static void mainstring args abcnew int scanner sc new scannersystemin string input scnextline toarraysinput printarraya public static void toarraysstring input int inputlength systemoutprintlninputcharati char ch inputcharati ch ' ch ' lastchar ch systemoutprintlnlast character ch x lastchar ' inputcharatilastchar systemoutprintlnintch axintch x else lastchar ' inputcharatilastchar bxintch x else lastchar ' inputcharatilastchar cxintch x else systemexit public static boolean foundinarrayint c int list int listlength listic return true return false public static void printarrayint array systemoutprint int arraylength systemoutprintarrayi systemoutprintln anyone ideas thanks
+
+==============================
+

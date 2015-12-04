@@ -1,0 +1,7 @@
+Title: vb allow button multiple tasks depending label
+Karma: 11
+Date: 1337929596.0
+code used public class form private sub buttonclickbyval sender systemobject byval e systemeventargs handles buttonclick labeltext find rusty knife buttontext hide belt buttontext leave buttontext use labeltext find rusty knife labeltext wait car stops end sub end class however try program press button goes right wait car stops properly
+
+==============================
+

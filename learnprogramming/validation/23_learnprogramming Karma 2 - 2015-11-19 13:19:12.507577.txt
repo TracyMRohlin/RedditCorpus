@@ -1,0 +1,7 @@
+Title: css way automatically reformat css file
+Karma: 2
+Date: 1386253285.0
+deal started learning web development months ago found writing css wrong way always wrote css individual strings text instead blocks text think people call spaghetti code like p color red fontfamily gotham turns supposed writing like p color red fontfamily gotham makes sense lot easier read automatically reformatting css files really suck reformat manually cause like dozens files thanks guys sorry sounded dumb
+
+==============================
+

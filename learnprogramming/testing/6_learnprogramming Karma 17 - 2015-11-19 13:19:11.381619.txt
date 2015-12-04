@@ -1,0 +1,7 @@
+Title: avoid creating duplicate rows one fields value mysqlphpmyadmin
+Karma: 17
+Date: 1386308382.0
+problem excel sheet rows columns columns fields mysql table herein lies problem fields take input imagine making candy bar database flavors column snickers bar different flavors way know duplicate rows put different flavor rows however go k rows k rows head want update table huge pain butt want upload phpmyadmin create search feature website search database using different search fields reason click avoid huge k table queried search search specific queries using several tables sql idea make userbased know keep fairly small table yet information huge table really making head hurt appreciate help
+
+==============================
+

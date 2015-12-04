@@ -1,0 +1,7 @@
+Title: c linux read keyboard input available without waiting
+Karma: 6
+Date: 1386184764.0
+hello writing little pacman game want pacman keep moving one direction till another direction entered keyboard problem know get input keyboard code demonstrate problem supposed print value wait little print value till ' entered new value entered new value printed problem doesnt continue printing hangs getchar sorry run ideone since systeminstructions posted pastebin edit thanks guys solution
+
+==============================
+

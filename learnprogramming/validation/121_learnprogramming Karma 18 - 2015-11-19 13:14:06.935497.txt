@@ -1,0 +1,7 @@
+Title: c random dice throw isnt random
+Karma: 18
+Date: 1400543368.0
+hello want roll two dice return sum always get results int rolldices unsigned int dice rand first die roll unsigned int dice rand second die roll unsigned int sum dice dice compute sum die values cout player rolled sum endl return sum end function rolldices function roll dices use srand timenull get numbers turn roll win lose first turn gets saved points need reroll points roll also want simulate x times remember often won turn
+
+==============================
+

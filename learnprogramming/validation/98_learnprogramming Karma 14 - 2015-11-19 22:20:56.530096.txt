@@ -1,0 +1,7 @@
+Title: wrote brainfck interpreter comments
+Karma: 14
+Date: 1308810941.0
+wrote brainfuck interpreter java source quite pleased ran mandelbrotb wanted feedback
+
+==============================
+

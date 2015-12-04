@@ -1,0 +1,7 @@
+Title: python basic help required assigning answers inputs
+Karma: 10
+Date: 1353866703.0
+hey making little interactive program still fairly new python whole aim program ask put one false one true corresponding message ie try code answerrawinput'is x ' print answer x y x print 'well done' y print 'try again' rawinput pressenter run put says well done try baffling tried surrounding '' putting rawinput x rawinput x neither worked syntax errors help much appreciated hodgeheg
+
+==============================
+

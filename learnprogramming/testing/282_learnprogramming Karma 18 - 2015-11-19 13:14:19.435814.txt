@@ -1,0 +1,7 @@
+Title: c xaml circle filling animation
+Karma: 18
+Date: 1399960408.0
+need help problem new programming obviously given task try get experience xaml shapes animations task long short issue want build control takes parameters one length time need build clock like circle fills amount time instance time period two hours need circle take two hours fill completely think second hand travelling around clock face ticks colors behind result pie shape full completes circle start counting much longer took two hour changing color fifty things afterwards initially looking anybody
+
+==============================
+

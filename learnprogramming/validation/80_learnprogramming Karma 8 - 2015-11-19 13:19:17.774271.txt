@@ -1,0 +1,7 @@
+Title: batch check install updates
+Karma: 8
+Date: 1386048813.0
+simple script run install chrome vlc itunes well java flash silverlight etc want add functionality check updates available download install looking wusa find anything really works better way please let know script run almost box windows machines
+
+==============================
+

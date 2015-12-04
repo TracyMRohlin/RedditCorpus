@@ -1,0 +1,7 @@
+Title: split multiple strings one two arrays c
+Karma: 3
+Date: 1385339746.0
+homework need take several strings split two different arrays one possible possible split string two variables without using array string userinput input const int zero const int one const int ten userinput consolewriteplease enter first name scorenexample elliott nplease enter values userinput consolereadline userinput int zero ten string parsedinput parsedinput userinputsplit' ' string name parsedinput int score intparseparsedinput else environmentexit consolereadline also tried using string name parsedinput int score parsedinput get implicity convert type ' 'string' examples found deal one line string need take multiple lines getting want able find average score able list high low score player got score figure get score name array though
+
+==============================
+

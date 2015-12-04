@@ -1,0 +1,7 @@
+Title: need help js working well android browser
+Karma: 2
+Date: 1431761551.0
+please see site run android tablet significant lagdelay inputting numbers using number pad anyone help figure suggest alternate way programming numeric input
+
+==============================
+

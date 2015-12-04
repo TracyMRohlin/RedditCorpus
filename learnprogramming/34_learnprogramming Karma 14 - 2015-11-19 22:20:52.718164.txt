@@ -1,0 +1,7 @@
+Title: want improve
+Karma: 14
+Date: 1310177903.0
+work software developing company wants improve way software designs customer requirements made currently practically documentation designs architecture functional requirements made 'on little documentation someone working better organized company post documents use single requirement functional documentation tests take example follow useful companies tia sorry bad english edit looking examples documentation requirement use jira cvs docs kind documentation used big project post examples
+
+==============================
+

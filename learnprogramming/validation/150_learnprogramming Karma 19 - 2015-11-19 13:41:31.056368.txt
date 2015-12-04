@@ -1,0 +1,7 @@
+Title: c revision test
+Karma: 19
+Date: 1369565750.0
+trying understand output int mainvoid char alpha abcdefghi char ch pch ch strcpych alpha putcharpch putcharpch putcharpch putcharpch printfns ch value ch seems change abcdefghi acddefghi line putcharpch affecting original value ch seem putchar affect value someone help explain cheers
+
+==============================
+

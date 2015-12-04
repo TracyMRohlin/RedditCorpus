@@ -1,0 +1,7 @@
+Title: javalwjgl properly handing surface normals lighting
+Karma: 10
+Date: 1369186009.0
+hi new opengl problem lighting floatbuffer filled points ordered correctly lwjgl displays fine include surface normals rendering nothing looks correct rendering private void altdrawmodel glpushmatrix glbeginglquads int mbuffercapacity glvertexfmbufferget mbufferget mbufferget glnormalfnbufferget nbufferget nbufferget glend nbufferflip mbufferflip calculating surface normals private void calculatenormalsfloatbuffer buf systemoutprintlnbufcapacity int bufcapacity float x bufget systemoutprintlnx float y bufget float z bufget float x bufget float y bufget float z bufget float x bufget float y bufget float z bufget float normx yyzz yyzz float normy zzxx zzxx float normz xxyy xxyy float normlength floatmathsqrtmathpownormx mathpownormy mathpownormz ifnormlength normx normy normz else normx normlength normy normlength normz normlength systemoutprintlnx normx y normy z normz nbufferputnormxputnormyputnormz bufflip nbufferrewind result looking answer day avail finally asking anyone know wrong lines supposed
+
+==============================
+

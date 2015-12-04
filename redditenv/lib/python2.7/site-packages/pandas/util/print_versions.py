@@ -61,6 +61,8 @@ def show_versions(as_json=False):
         # (MODULE_NAME, f(mod) -> mod version)
         ("pandas", lambda mod: mod.__version__),
         ("nose", lambda mod: mod.__version__),
+        ("pip", lambda mod: mod.__version__),
+        ("setuptools", lambda mod: mod.__version__),
         ("Cython", lambda mod: mod.__version__),
         ("numpy", lambda mod: mod.version.version),
         ("scipy", lambda mod: mod.version.version),
@@ -70,6 +72,7 @@ def show_versions(as_json=False):
         ("patsy", lambda mod: mod.__version__),
         ("dateutil", lambda mod: mod.__version__),
         ("pytz", lambda mod: mod.VERSION),
+        ("blosc", lambda mod: mod.__version__),
         ("bottleneck", lambda mod: mod.__version__),
         ("tables", lambda mod: mod.__version__),
         ("numexpr", lambda mod: mod.__version__),

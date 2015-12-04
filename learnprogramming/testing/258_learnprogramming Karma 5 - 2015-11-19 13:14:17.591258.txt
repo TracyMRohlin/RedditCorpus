@@ -1,0 +1,7 @@
+Title: python impossible time working csv file dictionaries
+Karma: 5
+Date: 1400051597.0
+basic understanding dictionary works impossible time loading data csv file one file using looks like name employeeid department title salary john smith marketing director james brown engineering manager jonathan white programmer ever taken kind programming course sure recognize goto sample teaching objectoriented programming trouble comes never worked csv file top new working dictionaries figure properly load data dictionary running unicode errors file found errors dictionary empty data assigned incorrect keys values anything think anyone provide basic guidelines work current code run simply nothing go shell run errors listed one iteration code currently error dictionary empty go shell import csv def main employees open'employee ' f reader csvreaderf readernext row reader employeesrow row printrow printrow '' employeesrow main thanks advance help ideas
+
+==============================
+

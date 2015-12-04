@@ -1,0 +1,7 @@
+Title: anyone recommend programming language able create alter microsoft word documents
+Karma: 54
+Date: 1384937684.0
+hi everyone first let apologise inappropriate subreddit appreciate someone point right direction take sort question second extremely limited coding knowledge learned visual basic excel commands high school quite time ago th yeah geotechnical engineering student completing capstone research project involves recording borelogs soil profiles area overall least likely come taking minutes complete microsoft word borelog template looking like question anyone ideas possible make process efficient use small program interacts microsoft word possible programs interact word envision working using test site completed borelog picture guide booting program first prompted asking many layers borehole number different soil types number input next screen asks information layer input depth soil type sandy silt colour rdbrn consistency dry dense program puts information template go fill dcp pp coloumn hand sound plausible anyone recommend suitable platform create also tutorials might recommend learning platform great guessing biggest problem creating program inputs microsoft word thanks time help
+
+==============================
+

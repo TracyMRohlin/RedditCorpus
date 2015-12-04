@@ -1,0 +1,7 @@
+Title: values subvalues sure store access data way need
+Karma: 9
+Date: 1384905128.0
+edit mention title python question sure store access data organized data needs organized represent something like texas tx new jerseyjersey nj ohiopotato oh harrisburgpennsylvaniaphilly pa addition storing way need able retrieve state initials using one values connected input jersey output nj input ohio potato output oh thinking using dictionary lists store information basically something like dictionary txtexasnjnew jerseyjerseyohohiopotatopaharrisburgpennsylvaniaphilly get return desired output ask whole value eg new jerseyjersey give nj jersey throw error current code looks like dict 'texas'new jerseyjersey 'ohiopotato'harrisburgpennsylvaniaphilly lookup jersey print dictkeysdictvaluesindexlookup
+
+==============================
+

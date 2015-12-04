@@ -1,0 +1,7 @@
+Title: announcement new theme
+Karma: 35
+Date: 1399891566.0
+hello programmers several months ago moderators posted link rlearnprogrammingbeta example subreddit show new theme subreddit thanks feedback resolved issues brought made theme live summary new features design given slight redesign core reddit theme previously used subreddit tried maintain compatibility reddit enhancement suite slightly updated line numbers code blocks posts zero comments comment link darker color let community members know post still needs help updated flair explained detail post flair five categories post flair helpful color indicators clearly mark posts post color tag righthand side text flair applied well small circular indicator beside post title five post flair types homework tag post homework resource tag post resource learning tutorial tag post tutorial specific languagetool solved tag post solved informing users found answer question topic custom flair lets tag question specific language library tool sidebar next several daysweeks updating sidebar content make important information clear visible might take time lot want say limited space bare us make changes changes made expecting hiccups transition humbly ask bear us help us process help us trying new design reddit enhancement suite testing new design many browsers possible trying support browsers far back ie support schedule google apps find issues please submit findings message moderators feedback theme general love hear give feedback adding comment post thank help time moderators
+
+==============================
+

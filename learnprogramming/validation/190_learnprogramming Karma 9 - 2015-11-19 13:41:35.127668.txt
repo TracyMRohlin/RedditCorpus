@@ -1,0 +1,7 @@
+Title: php building user authentication program
+Karma: 9
+Date: 1369302273.0
+project next couple months following build simple user authentication system learn break fix flaw try break keep satisfied exactly sure building comfortable enough php take forms ask user pass compare string one database give yes auth simple user auth depth know session timestamps explain like sophisticated user auth works fill actually programming later thanks
+
+==============================
+

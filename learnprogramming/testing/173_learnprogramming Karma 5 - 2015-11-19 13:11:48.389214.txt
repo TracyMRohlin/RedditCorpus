@@ -1,0 +1,7 @@
+Title: setting project using libraries
+Karma: 5
+Date: 1432026457.0
+c visual studios always developed using frameworksengines hardly touched features ide jump coding love idea able shop around features want ended libraries problem familiarized enough ide know setup make multiple libraries talk also buttons doodads ide feel learn take advantage unknown features go get learned attempted create new project using library linking source folder structure library makes new project run properly gave built demo library things greatuntil wanted add another library folder structures became mess general things unpleasant work
+
+==============================
+

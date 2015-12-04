@@ -1,0 +1,7 @@
+Title: maintain hashmap keys randomly generated iterated unique deleterecycle old keys done
+Karma: 2
+Date: 1385353338.0
+example need objects stored hashmap creates keys done deletes whole entry key making key able reused run via integer overflow something thoughts
+
+==============================
+

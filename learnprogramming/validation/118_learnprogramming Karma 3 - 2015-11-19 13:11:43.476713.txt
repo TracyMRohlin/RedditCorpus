@@ -1,0 +1,7 @@
+Title: c struct getting digit cut
+Karma: 3
+Date: 1432139799.0
+full code include stdioh struct date int month day year void parseinputchar arr struct date day char inp arr int int mm int dd int yy whileinp '' ifisdigitinp long v strtolinp inp ifmm mm v else ifdd dd v else yy v printfd n yy prints inp daymonth mm dayday dd dayyear yy printfd n dayyear prints int mainvoid char arr struct date day parseinputarr day printfd dayyear prints first two printf statements print third prints
+
+==============================
+

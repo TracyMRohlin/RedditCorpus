@@ -1,0 +1,7 @@
+Title: quite sure start assignment chomework
+Karma: 8
+Date: 1385428685.0
+define appropriate data structure ie array variable struct whatever use store data thats called data structure represent x open area element x data structure visualized tile room either pit gold never may also occupied player define appropriate data structure player one player store name lives player gold collected xy coordinates declare implement following function initializes player information name read keyboard original location player initially gold lives set randomly using function rand b function initializes location room locations initialized randomly using function rand chance area gold chance area pit player also needs put ensure always empty ie gold pit c function prints player information d function prints room one see pits gold player printing axes room traditional ones southwest corner room maxmax northeast corner main create player room print player room screen next enter loop user may enter single character indicating move define function read move char standard input use pass reference send move main character read q exit loop program first printing player information else print player information room continue looping assignment requirements quite sure start attempted assignment like looking like intimidating gone office hours time classes also working full time asking someone pointers start appreciated thanks edit able figure
+
+==============================
+

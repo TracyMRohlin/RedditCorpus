@@ -1,0 +1,7 @@
+Title: python getting strange filenamedependent import error
+Karma: 5
+Date: 1432110947.0
+punchline get import error module named myfile found rename myfilepy myfilepy error occurs wrote small package recently ran import error break bare bones looks like script runpy using package wrote structure like runpy pkg initpy plotpy inside runpy import pkg inside initpy import plot run runpy get error importerror module named plot rename plotpy plotpy change import statement accordingly example made copypasting package deleting irrelevant files lines literally see made another package scratch say package pkgnew structure lines error occur furthermore change folder name pkg something else like pkg error also goes away lastly likely importantly happens use anacondaspyder distribution python honestly find bit funny point trying nail bug long time result strangest case ever seen almost literally spookyme
+
+==============================
+

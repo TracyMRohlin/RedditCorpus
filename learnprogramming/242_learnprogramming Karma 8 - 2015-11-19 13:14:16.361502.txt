@@ -1,0 +1,7 @@
+Title: cintermediate guess tutorials guidelines using least amount cstyle code possible
+Karma: 8
+Date: 1400120040.0
+really want get know cc intimately considered good code read seems like difficulty c lots archaic left overs c lot problems already solved c tutorials looking online know cc far seems everyone varies wildly c c ish code seems like take advantage everything advantage ones picked far let know base right track hpp c headers h c headers differentiate two stdstring instead old style c stringsand using std templates general try make everything oop everything waay less archaic use raii die resource acquisition initilization guess neatly puts pointers inside classobject destroy neatly destructor enums rather bunch header defines fact true say header preprocessers possible need portabilityala pragma avoiding using boolean since well booleans thing got questions related topic sure guys respond questions everything classes exceptions situations use c conventions guessing older c libraries interacting code written c special cases try put archaic c libraries wrap tidy little class like say putting sdl futile effort getting effectively say okay grew programmer another programming language learn really help understanding modern c aside also assuming assembly analogue question c guys know good project look exemplifies good modern c code thanks lot questions c something really want get intimate knowledge since devs projects care use make really really awesome things
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c template structs use
+Karma: 5
+Date: 1386117411.0
+working white box testing assignment use every line code file instructor written code linked lists using template structs template typename data struct llistnode data data llistnodedata next llistnode next llistnode const data d llistnodedata nxt datad nextnxt trying use constructors sure without error attempts llistnode int first new llistnode got following errors line error expected typespecifier llistnode error convert int llistnodeint initialization error expected llistnode make linked list using struct provided thanks
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c fastest way sort array get frequency
+Karma: 3
+Date: 1431827585.0
+unsorted array hold something like values looking frequency ie many times number appears array fastest way approach answer considering applying mergesort algorithm array get sorted splitting array desired frequency number less higher counting like know speedy options get job done edit general question c
+
+==============================
+

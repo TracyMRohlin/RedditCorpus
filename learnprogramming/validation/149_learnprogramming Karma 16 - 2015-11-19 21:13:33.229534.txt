@@ -1,0 +1,7 @@
+Title: c help implementing card class
+Karma: 16
+Date: 1353577090.0
+hi everyone im trying figure get equals method work correctly code far
+
+==============================
+

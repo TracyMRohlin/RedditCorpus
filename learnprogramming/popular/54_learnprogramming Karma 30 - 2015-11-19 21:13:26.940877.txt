@@ -1,0 +1,7 @@
+Title: c trouble understanding object member references
+Karma: 30
+Date: 1354145698.0
+expect code work throw warning seems compile even work fine g wall code really okay understanding ' stack temporary thus making reference big nono class int myint public aint myinti edit wrong pass g order make flag warning major code project littered kind crap needs cleaned
+
+==============================
+

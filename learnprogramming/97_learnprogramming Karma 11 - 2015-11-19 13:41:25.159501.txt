@@ -1,0 +1,7 @@
+Title: want know compiling linking libraries patches
+Karma: 11
+Date: 1370064818.0
+taken pretty indepth c programming course gained surface knowledge compiling linking works like learn write compile scripts makefiles mk better write install libraries write apply patches etc particularly context unix good resources describe topics depth much eventually like able contribute free software projects need able compileinstall projects order test changes like understand rather follow instructions thanks
+
+==============================
+

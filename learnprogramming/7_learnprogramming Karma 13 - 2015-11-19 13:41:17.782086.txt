@@ -1,0 +1,7 @@
+Title: key concepts understand data structures
+Karma: 13
+Date: 1370577755.0
+took data structures course semesters ago unfortunately forgot lot material explain general idea behind elementary data structures may necessarily remember runtime procedure implementation question particular facts memorized read data structures textbook important concepts understand
+
+==============================
+

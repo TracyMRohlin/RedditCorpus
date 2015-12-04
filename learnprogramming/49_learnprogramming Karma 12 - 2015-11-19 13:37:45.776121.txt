@@ -1,0 +1,7 @@
+Title: php properly include certain elements page header footer sidebar etc
+Karma: 12
+Date: 1384533907.0
+right using include 'footer within footerphp echoing html string well php snippets highly doubt correct way considering change double quotes single quotes echo properly wondering go
+
+==============================
+

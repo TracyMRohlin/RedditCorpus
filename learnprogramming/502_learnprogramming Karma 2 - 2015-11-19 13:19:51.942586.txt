@@ -1,0 +1,7 @@
+Title: jquery avoid ' return statements
+Karma: 2
+Date: 1385175343.0
+hey dear programmer trying loop collection using within statement condition met return false otherwise return true break two steps ' ' ' returns inside function way bypass var collection true true true true false iffunction var thereturn true sure works want eachcollection function key value ifvalue false thereturn false return thereturn o alertthe return true else alertthe return false wanted var collection true true true true false iffunction eachcollection function key value ifvalue false return false sexy sleek work correctly return true wow amazing great alertthe return true else alertthe return false never run yea way 'go returning function
+
+==============================
+

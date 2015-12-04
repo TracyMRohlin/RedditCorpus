@@ -1,0 +1,7 @@
+Title: best practices approach program interaction serial device
+Karma: 9
+Date: 1431817708.0
+working c visual studio built button console using arduino pro mini computer sees serial device large backlit buttons use elderly handicapped keyboard mouse attached kiosk pc buttons used navigate menu options onscreen interact subprograms example browse photos play games lights buttons provide feedback prompting thus serial communications need constant way interaction console pc program microcontroller either watch button press write single line serial interface constantly stream statuses something like abcdef buttons pressed abcdef indicate button d pressed handle programming microcontroller either way button microcontroller need listen constantly serial connection lights turn new largeproject programming project meant learnbydoing sortof envision separate thread communicates console main routine running onscreen game playing photo browsing etc thus question approach packaging console communications subroutine c program enlighten point correct path please thank advance
+
+==============================
+

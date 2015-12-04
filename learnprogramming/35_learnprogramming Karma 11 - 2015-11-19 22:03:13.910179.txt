@@ -1,0 +1,7 @@
+Title: little help socket programming c
+Karma: 11
+Date: 1324839836.0
+extremely difficult time understanding program sockets think proper termonology c appreciate greatly someone explain like completely dumb examples great figured easiest way learn make basic telnet type program
+
+==============================
+

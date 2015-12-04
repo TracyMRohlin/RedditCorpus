@@ -1,0 +1,7 @@
+Title: php javascript mysql documentgetelementbyid able pick value null know
+Karma: 2
+Date: 1399885316.0
+trying pull mysql database take row table convert array row mysqlifetchallresult made hidden input like input typehidden idlons valuephp echo jsonencodelons tried move another js file var markerlonarray jsonparsedocumentgetelementbyidlonsvalue console gives uncaught typeerror read property ' null tried echo jsonencodelons gives array know working full
+
+==============================
+

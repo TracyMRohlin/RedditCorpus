@@ -1,0 +1,7 @@
+Title: php code work
+Karma: 11
+Date: 1370336342.0
+learning mysql making simple anonymous message board seem understand chunk code works data mysqlqueryselect posts diemysqlerror print 'table border cellpadding' whileinfo mysqlfetcharraydata print 'tr' print 'thidth td' info' 'td' print 'thtextth td' info' 'tdtr' print 'table' successfully shows data table exactly want know works info change time goes loop code changes info afaik must changing time goes loop prints data next row table provide information necessary
+
+==============================
+

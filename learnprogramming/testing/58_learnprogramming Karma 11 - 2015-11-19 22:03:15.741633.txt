@@ -1,0 +1,7 @@
+Title: help recursion
+Karma: 11
+Date: 1324457772.0
+never really done much recursion trouble wrapping brain around problem feels like solvable recursion list items item list things depend item small example b c b c e d b e try thinking like parentschildren necessarily always work like inherits using list b c inherit nobody inherits b e inherits c b inherit d nobody inherits e problem want solve matter arranging hierarchy automatically example hierarchy list d b c e quite wrap head around idea feeding single function list item respective list dependents depends spit level item reside things depends higher levels things depend lower levels gurus
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: make program standalone executable java
+Karma: 3
+Date: 1385415130.0
+used java create program want make executable exported jar using eclipse jar run sure wrong make run advice help
+
+==============================
+

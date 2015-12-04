@@ -1,0 +1,7 @@
+Title: c interpolate colour line
+Karma: 2
+Date: 1385857140.0
+hi pixel plotting function takes xy colour far drawing horizontal line want left part line full black right side fully white drawing line forint vector colour lerpi vector vector ploticolour lerp looks like vector lerpfloat vector vector b return abat reason lerp resulting values full white wrong thanks advance
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: java global variables bad
+Karma: 9
+Date: 1339566302.0
+title says see bad bound scope scanner object want use throughout entire program bad declare inside class outside methods
+
+==============================
+

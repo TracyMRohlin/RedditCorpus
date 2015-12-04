@@ -1,0 +1,7 @@
+Title: best way handle merging branches back master
+Karma: 3
+Date: 1386107642.0
+group started using git github year ago none us previous experience version control concept new us used
+
+==============================
+

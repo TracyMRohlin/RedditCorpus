@@ -1,0 +1,7 @@
+Title: java gui import image
+Karma: 21
+Date: 1368054673.0
+thats code top button reccursion fibonacci sequence want import image towards bottom possible error im getting eclipse saying method addstring component type container applicable arguments imageicon string fix error line frameaddimage let know error please thanks
+
+==============================
+

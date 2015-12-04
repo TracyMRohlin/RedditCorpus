@@ -1,0 +1,7 @@
+Title: c question methods printing multiple lines
+Karma: 8
+Date: 1385601353.0
+want print say variables lets say int b c method used often one cout n b n c n cout endl cout b endl cout c endl ps sorry worded kind weird
+
+==============================
+

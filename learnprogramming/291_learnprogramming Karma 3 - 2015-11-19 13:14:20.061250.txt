@@ -1,0 +1,7 @@
+Title: java need clarification confusing school project involves quicksorting data type implements comparable class
+Karma: 3
+Date: 1399945448.0
+little confused project asking section sorting algorithms make quicksorting algorithm sort array assignment implement class quicksorter contains quick sort method sorting array data type implements comparable ex public static extends comparablet void quicksortt int l int h code data type parameter implement class person includes two fields string name integer field age class person implement comparable interface finally write driver program names projjava applies sorting method array objects person part sure comparable interface data type looking clarification supposed
+
+==============================
+

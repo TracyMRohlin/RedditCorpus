@@ -1,0 +1,7 @@
+Title: help uiwebview app tabbarcontroller xcode
+Karma: 10
+Date: 1370571800.0
+app button tab bar want hook tabs show parts separate web pages like first uiwebview box able show scrolling text like banner complicated willing abandon go plain text also like background uiview show background uiwebview boxes anyone help
+
+==============================
+

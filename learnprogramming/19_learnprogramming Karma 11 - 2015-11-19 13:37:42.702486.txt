@@ -1,0 +1,7 @@
+Title: inverting dictionaries python repeated values
+Karma: 11
+Date: 1384936275.0
+need little help whenever try invert dictionary repeated values say value appears inverted key one value make sure values outputted
+
+==============================
+

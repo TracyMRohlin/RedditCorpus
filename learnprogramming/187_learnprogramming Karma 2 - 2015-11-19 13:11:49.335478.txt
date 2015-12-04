@@ -1,0 +1,7 @@
+Title: javalibgdx calling interstitial ads generalupdate reupload
+Karma: 2
+Date: 1432007560.0
+made game want revenue moment one ad startup want able call generalupdate function gamescreen reference androidlauncher ad constructed oncreate method crashes game gamescreen initialized androidlauncher constructed still use functions link rough code three important java classes uploaded like four times someone please help last thing game d
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: elasticsearch replacer extension mysql
+Karma: 3
+Date: 1432100146.0
+checking elasticsearchearlier always used mysql data need something better flexible searching filtering elasticsearch used besides instead mysql
+
+==============================
+

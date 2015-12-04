@@ -1,0 +1,7 @@
+Title: c data file reading
+Karma: 5
+Date: 1385450046.0
+hello everyone first post ever wondering anyone help better understand whats wrong code started code meant take integersthe numbers code data file intxt store integers array reading data array use bubble sort sort data store sorted numbers outtxt anyone help greatly appreciate code bellow include stdafxh include iostream streams include iomanip setw include fstream files include cstdlib exit using namespace std void readdataint int size ifstream fin ifstream constructor opens file finopen intxt iosin finfail cerr file openedn cinget exit int size fin ai fin ai cout setw ai cout setw x cout endl cout endl finclose ifstream destructor closes file return void printdataint int size int x char project ofstream constructor opens file ofstream fout cout enter file name endl cout program limits file names maximum characters endl cin project foutopenproject iosout int size cout ai fout ai foutclose ofstream destructor closes file return void bubblesortint int size int temp int size int j j size j aj aj temp aj swap aj aj aj temp int main const int size int asize readdataa size bubblesortasize printdataa size return
+
+==============================
+

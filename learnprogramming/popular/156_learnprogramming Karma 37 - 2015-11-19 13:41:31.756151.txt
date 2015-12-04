@@ -1,0 +1,7 @@
+Title: someone explain process buildinginstalling compiler
+Karma: 37
+Date: 1369535934.0
+recently looking installing compiler compiling command line rather using ide compiler built trouble understanding everything works seems compilers hundreds download different crosscompiling releases none simple extracting changing path variable install many require build compiler work system better even ones often require move files around afterwards anyone explain better understand compilers actually made tutorials look installing compilers refer using compilers gui installer really looking anyone actually wondering messing around mostly getting fork mingw mingww thanks
+
+==============================
+

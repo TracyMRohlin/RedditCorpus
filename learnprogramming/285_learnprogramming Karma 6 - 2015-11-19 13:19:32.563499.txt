@@ -1,0 +1,7 @@
+Title: get printgrade template display targetgrade within p tags xslt
+Karma: 6
+Date: 1385526220.0
+right trying get grade count show targetgrade values must using printgrade template modifying code template tried getting grade counts match param tags tried enclosing matching valueof tag param tags without success tell entire code tell get one value show using printgrade template simply get show xml template xsl teacher provided xsltemplate match htmlheadtitlegrade reporttitleheadbody xslcalltemplate nameprintgrade xslwithparam nametargetgrade select' xslwithparam namelist selectclass xslcalltemplate p xslcalltemplate nameprintgrade xslwithparam nametargetgrade select' xslwithparam namelist selectclass xslcalltemplate p xslcalltemplate nameprintgrade xslwithparam nametargetgrade select' xslwithparam namelist selectclass xslcalltemplate p bodyhtml xsltemplate going give examples please make simple ones sorry trouble formating code
+
+==============================
+

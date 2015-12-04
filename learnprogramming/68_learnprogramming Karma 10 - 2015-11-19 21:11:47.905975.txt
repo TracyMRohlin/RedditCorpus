@@ -1,0 +1,7 @@
+Title: repainting window new scene winapi beginner question
+Karma: 10
+Date: 1368406989.0
+following win api tutorial order create gui project successfully made simple one window applications figure repaint entire window new information example five buttons corresponding five colors main application window user clicks color button entire window repainted five buttons removed new back button replaced background colored color picked able change background color trapping button pressed message wndproc figure change entire window new scene removing color buttons adding back button seems like trivial task find solution tutorials need declare new windows class back button button trap create window class
+
+==============================
+

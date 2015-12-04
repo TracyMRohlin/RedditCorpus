@@ -1,0 +1,7 @@
+Title: java go making flashcard program
+Karma: 6
+Date: 1386000494.0
+heyo long story short kind hole right second semester programming class need b pass really fucked assignments test extra credit want make flashcard program following different categories study one category mix categories select one multiple initial grid menu tested scored figure using gui like swing user input logic bunch preprogrammed questions stack flash cards go essentially determined option chose set questions text file instead type every single one actual code kind understand swingguis never touched figure okay exercise studying final help pass class thank input always god love guys
+
+==============================
+

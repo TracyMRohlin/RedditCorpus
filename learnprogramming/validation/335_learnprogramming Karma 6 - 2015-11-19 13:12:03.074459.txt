@@ -1,0 +1,7 @@
+Title: good design practices nonui applications
+Karma: 6
+Date: 1431625509.0
+get feeling asking really daft question writing application ui web app desktop app mobile app design practices make easier apply nearly mvc mvvm mvp etc fairly well documented although different implementation serve purpose separating concerns ui writing server backend service headless program drop v neater better ways design tool looked around seem quite figure googling get wrong ui makes things infinitely easier far concerned curious approach different
+
+==============================
+

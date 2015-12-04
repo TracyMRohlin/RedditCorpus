@@ -1,0 +1,7 @@
+Title: bash scripting good resource gui reliant mac user learn bash scripting
+Karma: 15
+Date: 1354060480.0
+sure learnprogramming right place please advise issue every time run across instructions require terminal mostly lost example trying install mercurial scm understand instructions got stuck early installation process certain commands enter recognized eg bash make command found look get ' recognized instructs edit bash profile finally found edit locked trying whine trying convey level competence lack thereof think need basic understanding somehow missed along way suggestions learn bash scripting terminal mac os x beginners thanks advance
+
+==============================
+

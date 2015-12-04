@@ -1,0 +1,7 @@
+Title: started learning sql sqlzoo got stuck
+Karma: 3
+Date: 1432107345.0
+heyo started learning sql sqlzoo got stuck select world instructions put continents right oceania becomes australasia countries eurasia turkey go europeasia caribbean islands starting ' go north america caribbean islands go south america show name original continent new continent countries attempt select name continent case continent' ' continent ' ' name' 'europe continent' name like 'b' 'north continent' name like 'b' else continent end world see missing appreciate help hint tips optimizing query thanks guys
+
+==============================
+

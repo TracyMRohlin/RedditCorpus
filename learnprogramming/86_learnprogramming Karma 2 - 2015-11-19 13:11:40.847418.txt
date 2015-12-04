@@ -1,0 +1,7 @@
+Title: learn python hard way exercise code works everything final portion
+Karma: 2
+Date: 1432197791.0
+hey guys decided try lpthw cruising along fairly well exercise ran couple issues first thought fixed fixing error got printfirstandlast function returned error printfirstandlastsorted function life trace difference two resolved source code error message exprintfirstandlastsortedsentence traceback recent call last file stdin line module file expy line printfirstandlastsorted printfirstandlastsorted file expy line printfirstandlast words breakwordswords file expy line breakwords words stuffsplit attributeerror ' object attribute ' anyone give hand really grateful thank
+
+==============================
+

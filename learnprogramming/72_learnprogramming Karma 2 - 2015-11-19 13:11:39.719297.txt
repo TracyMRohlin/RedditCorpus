@@ -1,0 +1,7 @@
+Title: setup login forms c
+Karma: 2
+Date: 1432241961.0
+order windows forms want login selection abc open b c depending actual login form open aa bb cc depending main menus logged different b c user logs close open problem set forms close open needed set one forms main set useless form main use dialogboxes instead show hide
+
+==============================
+

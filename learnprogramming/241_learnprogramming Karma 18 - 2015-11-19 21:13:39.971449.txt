@@ -1,0 +1,7 @@
+Title: one simply text box accept user input post input database display input asynchronously page
+Karma: 18
+Date: 1352857199.0
+thinking need use ajax html file within file use javascript create text field interact javascript function interact php file sure php file post database display input real time
+
+==============================
+

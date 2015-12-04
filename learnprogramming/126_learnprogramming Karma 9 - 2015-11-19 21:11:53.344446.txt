@@ -1,0 +1,7 @@
+Title: vb improving code efficiency finding finding broadcast address
+Karma: 9
+Date: 1367835685.0
+thanks lot rlp redditors bearing spoon feeding found way find network address given ip address visual basic need critique shortened code also way use find broadcast address private sub network dim mask byte dim mask byte dim mask byte dim mask byte dim netid byte dim netid byte dim netid byte dim netid byte dim ipoct integer txtiptext dim ipoct integer txtiptext dim ipoct integer txtiptext dim ipoct integer txtiptext cbomaskselectedindex mask elseif cbomaskselectedindex mask elseif cbomaskselectedindex mask elseif cbomaskselectedindex mask elseif cbomaskselectedindex mask elseif cbomaskselectedindex mask elseif cbomaskselectedindex mask elseif cbomaskselectedindex mask elseif cbomaskselectedindex mask mask elseif cbomaskselectedindex mask mask elseif cbomaskselectedindex mask mask elseif cbomaskselectedindex mask mask elseif cbomaskselectedindex mask mask elseif cbomaskselectedindex mask mask elseif cbomaskselectedindex mask mask elseif cbomaskselectedindex mask mask elseif cbomaskselectedindex mask mask mask elseif cbomaskselectedindex mask mask mask elseif cbomaskselectedindex mask mask mask elseif cbomaskselectedindex mask mask mask elseif cbomaskselectedindex mask mask mask elseif cbomaskselectedindex mask mask mask end netid ipoct mask netid ipoct mask netid ipoct mask netid ipoct mask lblnetworkidtext netid netid netid netid end sub
+
+==============================
+

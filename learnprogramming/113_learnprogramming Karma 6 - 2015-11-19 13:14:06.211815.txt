@@ -1,0 +1,7 @@
+Title: somebody help objectivec related question want split methods different classes
+Karma: 6
+Date: 1400555395.0
+hi fairly new programming general already made fairly big mistake first project spritekit framework believe also answered without knowledge spritekit also posted stackoverflow started making spritekit game used methods incorrectly least think project three different scenes scenes views difference one menu game scene options section instead splitting first place say scene different class file implementation header file sort made one big class myscenemh called methods switch scenes eg sprite kit touchesbegan method code nodename isequaltostringstartgame self gamescene go gamescene method located class file myscenem voidgamescene game code actually worked fairly well since project getting bigger bigger figured getting messy progress call variables classes hope understand problem less know program know deal project files since really mentioned books read teach program
+
+==============================
+

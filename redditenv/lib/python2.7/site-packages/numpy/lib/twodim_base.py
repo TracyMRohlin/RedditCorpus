@@ -5,7 +5,7 @@ from __future__ import division, absolute_import, print_function
 
 from numpy.core.numeric import (
     asanyarray, arange, zeros, greater_equal, multiply, ones, asarray,
-    where, int8, int16, int32, int64, empty, promote_types
+    where, int8, int16, int32, int64, empty, promote_types, diagonal,
     )
 from numpy.core import iinfo
 
@@ -19,6 +19,8 @@ __all__ = [
 i1 = iinfo(int8)
 i2 = iinfo(int16)
 i4 = iinfo(int32)
+
+
 def _min_int(low, high):
     """ get small int that fits the range """
     if high <= i1.max and low >= i1.min:
@@ -293,7 +295,7 @@ def diag(v, k=0):
            [0, 0, 8]])
 
     """
-    v = asarray(v)
+    v = asanyarray(v)
     s = v.shape
     if len(s) == 1:
         n = s[0]+abs(k)
@@ -305,7 +307,7 @@ def diag(v, k=0):
         res[:n-k].flat[i::n+1] = v
         return res
     elif len(s) == 2:
-        return v.diagonal(k)
+        return diagonal(v, k)
     else:
         raise ValueError("Input must be 1- or 2-d.")
 
@@ -587,16 +589,18 @@ def histogram2d(x, y, bins=10, range=None, normed=False, weights=None):
     y : array_like, shape (N,)
         An array containing the y coordinates of the points to be
         histogrammed.
-    bins : int or [int, int] or array_like or [array, array], optional
+    bins : int or array_like or [int, int] or [array, array], optional
         The bin specification:
 
           * If int, the number of bins for the two dimensions (nx=ny=bins).
-          * If [int, int], the number of bins in each dimension
-            (nx, ny = bins).
           * If array_like, the bin edges for the two dimensions
             (x_edges=y_edges=bins).
+          * If [int, int], the number of bins in each dimension
+            (nx, ny = bins).
           * If [array, array], the bin edges in each dimension
             (x_edges, y_edges = bins).
+          * A combination [int, array] or [array, int], where int
+            is the number of bins and array is the bin edges.
 
     range : array_like, shape(2,2), optional
         The leftmost and rightmost edges of the bins along each dimension

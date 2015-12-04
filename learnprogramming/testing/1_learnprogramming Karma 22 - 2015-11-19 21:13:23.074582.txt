@@ -1,0 +1,7 @@
+Title: c programming craps generator partially works close cant figure missing program
+Karma: 22
+Date: 1354518131.0
+edit solved thanks help crushmastac program program need make craps game generates random numbers get first go instantly win add instant win int get instantly lose increments instant lose int default switch send subloop runs dice roll letting add points roll lose everytime add points program add points points total int anytime lose rolling add lose points int run program either generates wins losses variety points added lost anyone ideas thanks help time edit total number instant wins losses points earned add
+
+==============================
+

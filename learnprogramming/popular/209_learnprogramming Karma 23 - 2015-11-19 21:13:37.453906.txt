@@ -1,0 +1,7 @@
+Title: python way improve recursion
+Karma: 23
+Date: 1353137513.0
+trying get best price items shop several sellers selling item sellers selling several items main reason fact save lot shipping costs buy multiple items seller also hardest part two lists prepared card list containing cards want buy list lists sellers lists connected index sellers already filtered prepared sorted except cheapest seller every expensive seller sell least two different cards sellers list cards expensive cheapest card shipping two people sold stuff already removed expensive one number cards seller card may vary real life example currently going recursively cards looping seller expectation cheaper deal current code working gets slown number cards gets big seconds cards hours n days trying improving fast compared monday still slow large n find good break point possibility try memoizing recently discovered advice appreciated
+
+==============================
+

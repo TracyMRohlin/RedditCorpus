@@ -1,0 +1,7 @@
+Title: array troublesjava
+Karma: 10
+Date: 1338024469.0
+problem adding elements array incomplete code far import javautilscanner public class average public static void mainstring args scanner input new scannersystemin systemoutprintlnhow many numbers want calculate int num inputnextint int array new intnum systemoutprintlnenter num numbers int arraylength arrayi inputnextint trying get inputted numbers arrayi add way edit thank help everyone
+
+==============================
+

@@ -324,12 +324,13 @@ def nan_to_num(x):
 
     Returns
     -------
-    out : ndarray, float
-        Array with the same shape as `x` and dtype of the element in `x`  with
-        the greatest precision. NaN is replaced by zero, and infinity
-        (-infinity) is replaced by the largest (smallest or most negative)
-        floating point value that fits in the output dtype. All finite numbers
-        are upcast to the output dtype (default float64).
+    out : ndarray
+        New Array with the same shape as `x` and dtype of the element in
+        `x`  with the greatest precision. If `x` is inexact, then NaN is
+        replaced by zero, and infinity (-infinity) is replaced by the
+        largest (smallest or most negative) floating point value that fits
+        in the output dtype. If `x` is not inexact, then a copy of `x` is
+        returned.
 
     See Also
     --------
@@ -354,33 +355,22 @@ def nan_to_num(x):
             -1.28000000e+002,   1.28000000e+002])
 
     """
-    try:
-        t = x.dtype.type
-    except AttributeError:
-        t = obj2sctype(type(x))
-    if issubclass(t, _nx.complexfloating):
-        return nan_to_num(x.real) + 1j * nan_to_num(x.imag)
-    else:
-        try:
-            y = x.copy()
-        except AttributeError:
-            y = array(x)
-    if not issubclass(t, _nx.integer):
-        if not y.shape:
-            y = array([x])
-            scalar = True
-        else:
-            scalar = False
-        are_inf = isposinf(y)
-        are_neg_inf = isneginf(y)
-        are_nan = isnan(y)
-        maxf, minf = _getmaxmin(y.dtype.type)
-        y[are_nan] = 0
-        y[are_inf] = maxf
-        y[are_neg_inf] = minf
-        if scalar:
-            y = y[0]
-    return y
+    x = _nx.array(x, subok=True)
+    xtype = x.dtype.type
+    if not issubclass(xtype, _nx.inexact):
+        return x
+
+    iscomplex = issubclass(xtype, _nx.complexfloating)
+    isscalar = (x.ndim == 0)
+
+    x = x[None] if isscalar else x
+    dest = (x.real, x.imag) if iscomplex else (x,)
+    maxf, minf = _getmaxmin(x.real.dtype)
+    for d in dest:
+        _nx.copyto(d, 0.0, where=isnan(d))
+        _nx.copyto(d, maxf, where=isposinf(d))
+        _nx.copyto(d, minf, where=isneginf(d))
+    return x[0] if isscalar else x
 
 #-----------------------------------------------------------------------------
 
@@ -542,14 +532,15 @@ def typename(char):
 #-----------------------------------------------------------------------------
 
 #determine the "minimum common type" for a group of arrays.
-array_type = [[_nx.single, _nx.double, _nx.longdouble],
-              [_nx.csingle, _nx.cdouble, _nx.clongdouble]]
-array_precision = {_nx.single: 0,
-                   _nx.double: 1,
-                   _nx.longdouble: 2,
-                   _nx.csingle: 0,
-                   _nx.cdouble: 1,
-                   _nx.clongdouble: 2}
+array_type = [[_nx.half, _nx.single, _nx.double, _nx.longdouble],
+              [None, _nx.csingle, _nx.cdouble, _nx.clongdouble]]
+array_precision = {_nx.half: 0,
+                   _nx.single: 1,
+                   _nx.double: 2,
+                   _nx.longdouble: 3,
+                   _nx.csingle: 1,
+                   _nx.cdouble: 2,
+                   _nx.clongdouble: 3}
 def common_type(*arrays):
     """
     Return a scalar type which is common to the input arrays.
@@ -593,7 +584,7 @@ def common_type(*arrays):
         if iscomplexobj(a):
             is_complex = True
         if issubclass(t, _nx.integer):
-            p = 1
+            p = 2  # array_precision[_nx.double]
         else:
             p = array_precision.get(t, None)
             if p is None:

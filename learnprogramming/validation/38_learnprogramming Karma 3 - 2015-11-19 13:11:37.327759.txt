@@ -1,0 +1,7 @@
+Title: monte carlo integration c help needed start
+Karma: 3
+Date: 1432270962.0
+assigned college class write little program c integrates three functions monte carlo method based x random points graph x inputed program already create random numbers use random function pick points discover based expressions know create function calculate points set graph hit wall basically left finish assignment every input welcome reminder try eli best subject english first language thanks help
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: java use get set method
+Karma: 27
+Date: 1367575303.0
+noticed looking code use get set method access static member class typically int float doubles strings wondering wouldnt effective access simply referencing specific variable example public class public static int p public static int getvarp return p public static void setvarpint p class b public static int n agetvarp public b asetvarpn say public static int n ap something people others specific reason
+
+==============================
+

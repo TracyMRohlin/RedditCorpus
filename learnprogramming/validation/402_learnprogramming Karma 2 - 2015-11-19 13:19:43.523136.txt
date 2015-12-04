@@ -1,0 +1,7 @@
+Title: c sorting without using dozens ifelse statements
+Karma: 2
+Date: 1385363698.0
+dilemma array structures contains whole bunch information race cars structure number total spaces moved higher number higher place race rank car somehow rank car based upon total spaces moved compared cars attach runable code see talking figure compare total space numbers determine order biggest smallest ordering numbers also keep track corresponding name order numbers lose name corresponded number help advice appreciated code edit note work auto manual modes focus one mode recode fit mode
+
+==============================
+

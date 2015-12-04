@@ -1,0 +1,7 @@
+Title: cunityreceiving error stop code might bad
+Karma: 2
+Date: 1386226137.0
+im recieving error missingreferenceexception object type ' destroyed still trying access know referring referring object pool holds background tiles set move trigger onbecomeinvisible question dont rewrite handle error cause problems error disappear implement transition new scene right one scene still prototyping made part yet code script causing error using unityengine using systemcollections public class bgmove monobehaviour public float movespeed f public float speedmodifier f private bool repeatable false private vector adjust new vectorf f f private gameobject bgtiles use initialization void start bgtiles gameobjectfindgameobjectswithtagbackground update called per frame void update transformposition vectordown timedeltatime movespeed ifrendererisvisible repeatable true void onbecameinvisible ifrepeatable transformposition adjust foreachgameobject go bgtiles gogetcomponentbgmovemovespeed speedmodifier repeatable false
+
+==============================
+

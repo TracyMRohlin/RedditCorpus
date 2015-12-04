@@ -1,0 +1,7 @@
+Title: logging webpage
+Karma: 9
+Date: 1354336244.0
+ok first things first want use malicious purpose personal project related netsec class see brute force crack dictionary etc admin password fake website already given login name login page name password field button calls appropriate java servlet login give failure message want know possible automate login process using programming language scripting language write program loops possibilities password loops dictionary applies every single one possibilities separate call web login mind figuring exactly like know even possible language first waste lot time dead ends preferably like able java thanks
+
+==============================
+

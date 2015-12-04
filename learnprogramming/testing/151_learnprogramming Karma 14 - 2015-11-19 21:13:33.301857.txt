@@ -1,0 +1,7 @@
+Title: c program compile run
+Karma: 14
+Date: 1353563895.0
+written slot machine simulator program c using qnx framework compile get errors thrown back though go run none printf statements put testing appear attaching name seem figure happening using qnx neutrino ide networked qnx virtualmachine ran code neutrino machine issues though header file c program file help greatly appreciated thanks
+
+==============================
+

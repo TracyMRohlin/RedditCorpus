@@ -1,0 +1,7 @@
+Title: java econding issue xpost rjavahelp
+Karma: 6
+Date: 1431643748.0
+edit solved using printstream see post thread original post using windows msys vim java javac bit lang lcall set dedeutf also tried default cutf result excerpt vimrc set encodingutf set fileencodingutf java source file utf encoded file bi srcprakanwendungsframejava textxc charsetutf excerpt java source complete code jlabel go new jlabelsie knnen jetzt loslegen systemoutprintlnhllo compile without specifying utf encoding following happens javac d bin sourcepath src srcprakanwendungsframejava java cp bin prakanwendungsframe hllo standard output displayed correctly jlabel string see screenshot compile specifying utf encoding following happens javac d bin sourcepath src encoding utf srcprakanwendungsframejava java cp bin prakanwendungsframe hllo jlabel works correctly standard output see screenshot happening make work thanks advance note issues go rust php projects required umlauts utf everything everything works
+
+==============================
+

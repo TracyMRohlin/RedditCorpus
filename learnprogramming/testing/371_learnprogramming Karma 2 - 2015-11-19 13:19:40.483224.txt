@@ -1,0 +1,7 @@
+Title: python comparing databases
+Karma: 2
+Date: 1385405931.0
+assignment need following compute join database database b creating database c check parts query appear record database c order parts query appear record database c store value list otherwise store value f list code stands far def joinabc x y b x y cappendlistsetxy return c joinntupledb ntupledb ntupledb print ntupledb ntupledb ntupledb ntupledb ntuplequeries print ' else print ' get output f incorrect somebody help figure wrong
+
+==============================
+

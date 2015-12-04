@@ -1,0 +1,7 @@
+Title: html form displaying incorrectly mobile devices
+Karma: 19
+Date: 1368229457.0
+sure best subreddit anybody else problems html forms large mobile devices looks desktop browser chrome window size emulation iphone viewport desktop actually looks iphone iphone doubt meta viewport related every aspect site looks identical small desktop browser window phone something missing
+
+==============================
+

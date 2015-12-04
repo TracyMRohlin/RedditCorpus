@@ -1,0 +1,7 @@
+Title: c editing binary file
+Karma: 10
+Date: 1354074284.0
+hello trying make function compares given string string read file modify thing supposed replace text even though changed seekg still work pastes text end file code
+
+==============================
+

@@ -272,35 +272,8 @@ npy_PyFile_Check(PyObject *file)
     return 1;
 }
 
-/*
- * DEPRECATED DO NOT USE
- * use npy_PyFile_DupClose2 instead
- * this function will mess ups python3 internal file object buffering
- * Close the dup-ed file handle, and seek the Python one to the current position
- */
-static NPY_INLINE int
-npy_PyFile_DupClose(PyObject *file, FILE* handle)
-{
-    PyObject *ret;
-    Py_ssize_t position;
-    position = npy_ftell(handle);
-    fclose(handle);
-
-    ret = PyObject_CallMethod(file, "seek", NPY_SSIZE_T_PYFMT "i", position, 0);
-    if (ret == NULL) {
-        return -1;
-    }
-    Py_DECREF(ret);
-    return 0;
-}
-
-
 #else
 
-/* DEPRECATED, DO NOT USE */
-#define npy_PyFile_DupClose(f, h) npy_PyFile_DupClose2((f), (h), 0)
-
-/* use these */
 static NPY_INLINE FILE *
 npy_PyFile_Dup2(PyObject *file,
                 const char *NPY_UNUSED(mode), npy_off_t *NPY_UNUSED(orig_pos))
@@ -318,24 +291,6 @@ npy_PyFile_DupClose2(PyObject *NPY_UNUSED(file), FILE* NPY_UNUSED(handle),
 #define npy_PyFile_Check PyFile_Check
 
 #endif
-
-/*
- * DEPRECATED, DO NOT USE
- * Use npy_PyFile_Dup2 instead.
- * This function will mess up python3 internal file object buffering.
- * Get a FILE* handle to the file represented by the Python object.
- */
-static NPY_INLINE FILE*
-npy_PyFile_Dup(PyObject *file, char *mode)
-{
-    npy_off_t orig;
-    if (DEPRECATE("npy_PyFile_Dup is deprecated, use "
-                  "npy_PyFile_Dup2") < 0) {
-        return NULL;
-    }
-
-    return npy_PyFile_Dup2(file, mode, &orig);
-}
 
 static NPY_INLINE PyObject*
 npy_PyFile_OpenFile(PyObject *filename, const char *mode)
@@ -370,7 +325,7 @@ PyObject_Cmp(PyObject *i1, PyObject *i2, int *cmp)
 {
     int v;
     v = PyObject_RichCompareBool(i1, i2, Py_LT);
-    if (v == 0) {
+    if (v == 1) {
         *cmp = -1;
         return 1;
     }
@@ -379,7 +334,7 @@ PyObject_Cmp(PyObject *i1, PyObject *i2, int *cmp)
     }
 
     v = PyObject_RichCompareBool(i1, i2, Py_GT);
-    if (v == 0) {
+    if (v == 1) {
         *cmp = 1;
         return 1;
     }
@@ -388,7 +343,7 @@ PyObject_Cmp(PyObject *i1, PyObject *i2, int *cmp)
     }
 
     v = PyObject_RichCompareBool(i1, i2, Py_EQ);
-    if (v == 0) {
+    if (v == 1) {
         *cmp = 0;
         return 1;
     }
@@ -484,19 +439,6 @@ NpyCapsule_Check(PyObject *ptr)
     return PyCObject_Check(ptr);
 }
 
-#endif
-
-/*
- * Hash value compatibility.
- * As of Python 3.2 hash values are of type Py_hash_t.
- * Previous versions use C long.
- */
-#if PY_VERSION_HEX < 0x03020000
-typedef long npy_hash_t;
-#define NPY_SIZEOF_HASH_T NPY_SIZEOF_LONG
-#else
-typedef Py_hash_t npy_hash_t;
-#define NPY_SIZEOF_HASH_T NPY_SIZEOF_INTP
 #endif
 
 #ifdef __cplusplus

@@ -1,0 +1,7 @@
+Title: aspnet c working external webservice
+Karma: 8
+Date: 1385584713.0
+hello rlearnprogramm fairly new webservices task required call webservice one parameter save part results work aspnet c wanted know correct usernamepasswort url service call call correct method send correct parameters one important save results info needed give best give best thanks wishes cloud edit soap web service
+
+==============================
+

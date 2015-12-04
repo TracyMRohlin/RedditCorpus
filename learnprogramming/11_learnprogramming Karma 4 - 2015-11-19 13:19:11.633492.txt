@@ -1,0 +1,7 @@
+Title: java need help reading config files
+Karma: 4
+Date: 1386306446.0
+bashing head wall quite long time applications scanner object know structure configuration file feel able read file program work accordingly instance line file contains data required initialize object feel able use scanner read line line initialize series objects specific file read anyone give advice use scanner way scannernextline works split line array separate parts line stored array like line returns line returns
+
+==============================
+

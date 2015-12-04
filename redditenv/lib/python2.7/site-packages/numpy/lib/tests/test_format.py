@@ -284,7 +284,7 @@ import warnings
 from io import BytesIO
 
 import numpy as np
-from numpy.compat import asbytes, asbytes_nested
+from numpy.compat import asbytes, asbytes_nested, sixu
 from numpy.testing import (
     run_module_suite, assert_, assert_array_equal, assert_raises, raises,
     dec
@@ -534,6 +534,87 @@ def test_python2_python3_interoperability():
     assert_array_equal(data, np.ones(2))
 
 
+def test_pickle_python2_python3():
+    # Test that loading object arrays saved on Python 2 works both on
+    # Python 2 and Python 3 and vice versa
+    data_dir = os.path.join(os.path.dirname(__file__), 'data')
+
+    if sys.version_info[0] >= 3:
+        xrange = range
+    else:
+        import __builtin__
+        xrange = __builtin__.xrange
+
+    expected = np.array([None, xrange, sixu('\u512a\u826f'),
+                         asbytes('\xe4\xb8\x8d\xe8\x89\xaf')],
+                        dtype=object)
+
+    for fname in ['py2-objarr.npy', 'py2-objarr.npz',
+                  'py3-objarr.npy', 'py3-objarr.npz']:
+        path = os.path.join(data_dir, fname)
+
+        if (fname.endswith('.npz') and sys.version_info[0] == 2 and
+                sys.version_info[1] < 7):
+            # Reading object arrays directly from zipfile appears to fail
+            # on Py2.6, see cfae0143b4
+            continue
+
+        for encoding in ['bytes', 'latin1']:
+            if (sys.version_info[0] >= 3 and sys.version_info[1] < 4 and
+                    encoding == 'bytes'):
+                # The bytes encoding is available starting from Python 3.4
+                continue
+
+            data_f = np.load(path, encoding=encoding)
+            if fname.endswith('.npz'):
+                data = data_f['x']
+                data_f.close()
+            else:
+                data = data_f
+
+            if sys.version_info[0] >= 3:
+                if encoding == 'latin1' and fname.startswith('py2'):
+                    assert_(isinstance(data[3], str))
+                    assert_array_equal(data[:-1], expected[:-1])
+                    # mojibake occurs
+                    assert_array_equal(data[-1].encode(encoding), expected[-1])
+                else:
+                    assert_(isinstance(data[3], bytes))
+                    assert_array_equal(data, expected)
+            else:
+                assert_array_equal(data, expected)
+
+        if sys.version_info[0] >= 3:
+            if fname.startswith('py2'):
+                if fname.endswith('.npz'):
+                    data = np.load(path)
+                    assert_raises(UnicodeError, data.__getitem__, 'x')
+                    data.close()
+                    data = np.load(path, fix_imports=False, encoding='latin1')
+                    assert_raises(ImportError, data.__getitem__, 'x')
+                    data.close()
+                else:
+                    assert_raises(UnicodeError, np.load, path)
+                    assert_raises(ImportError, np.load, path,
+                                  encoding='latin1', fix_imports=False)
+
+
+def test_pickle_disallow():
+    data_dir = os.path.join(os.path.dirname(__file__), 'data')
+
+    path = os.path.join(data_dir, 'py2-objarr.npy')
+    assert_raises(ValueError, np.load, path,
+                  allow_pickle=False, encoding='latin1')
+
+    path = os.path.join(data_dir, 'py2-objarr.npz')
+    f = np.load(path, allow_pickle=False, encoding='latin1')
+    assert_raises(ValueError, f.__getitem__, 'x')
+
+    path = os.path.join(tempdir, 'pickle-disabled.npy')
+    assert_raises(ValueError, np.save, path, np.array([None], dtype=object),
+                  allow_pickle=False)
+
+
 def test_version_2_0():
     f = BytesIO()
     # requires more than 2 byte for header
@@ -629,6 +710,26 @@ malformed_magic = asbytes_nested([
     '',
 ])
 
+def test_read_magic():
+    s1 = BytesIO()
+    s2 = BytesIO()
+
+    arr = np.ones((3, 6), dtype=float)
+
+    format.write_array(s1, arr, version=(1, 0))
+    format.write_array(s2, arr, version=(2, 0))
+
+    s1.seek(0)
+    s2.seek(0)
+
+    version1 = format.read_magic(s1)
+    version2 = format.read_magic(s2)
+
+    assert_(version1 == (1, 0))
+    assert_(version2 == (2, 0))
+
+    assert_(s1.tell() == format.MAGIC_LEN)
+    assert_(s2.tell() == format.MAGIC_LEN)
 
 def test_read_magic_bad_magic():
     for magic in malformed_magic:
@@ -657,6 +758,30 @@ def test_large_header():
     s = BytesIO()
     d = {'a': 1, 'b': 2, 'c': 'x'*256*256}
     assert_raises(ValueError, format.write_array_header_1_0, s, d)
+
+
+def test_read_array_header_1_0():
+    s = BytesIO()
+
+    arr = np.ones((3, 6), dtype=float)
+    format.write_array(s, arr, version=(1, 0))
+
+    s.seek(format.MAGIC_LEN)
+    shape, fortran, dtype = format.read_array_header_1_0(s)
+
+    assert_((shape, fortran, dtype) == ((3, 6), False, float))
+
+
+def test_read_array_header_2_0():
+    s = BytesIO()
+
+    arr = np.ones((3, 6), dtype=float)
+    format.write_array(s, arr, version=(2, 0))
+
+    s.seek(format.MAGIC_LEN)
+    shape, fortran, dtype = format.read_array_header_2_0(s)
+
+    assert_((shape, fortran, dtype) == ((3, 6), False, float))
 
 
 def test_bad_header():

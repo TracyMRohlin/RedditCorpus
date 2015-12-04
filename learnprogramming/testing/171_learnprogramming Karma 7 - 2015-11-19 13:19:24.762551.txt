@@ -1,0 +1,7 @@
+Title: java trivial problem output numbers
+Karma: 7
+Date: 1385734712.0
+method runs public static void mainstring args double counter counter systemoutprintlncounter counter get process learning java frequently encountered anomaly sure getting solid numbers hoping insight prevent happening thanks
+
+==============================
+

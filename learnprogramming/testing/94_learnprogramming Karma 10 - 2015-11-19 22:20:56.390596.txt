@@ -1,0 +1,7 @@
+Title: apps like tumblr posterous wordpress handle custom domain names
+Karma: 10
+Date: 1308850558.0
+busy research creating blogging platform sorts quite figure services handle custom domains specifically technical side route traffic internal mapping helloworldtumblrcom without redirecting seems like tumblr point record static ip wordpress use name servers anyone knowledgeable things shed light accomplish proscons different methods thanks advance
+
+==============================
+

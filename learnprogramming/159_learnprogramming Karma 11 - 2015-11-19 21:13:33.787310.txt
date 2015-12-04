@@ -1,0 +1,7 @@
+Title: c need help using adding premade header file first time
+Karma: 11
+Date: 1353490168.0
+added header file called salesitemh still get errors try include visual studio screen right
+
+==============================
+

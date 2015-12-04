@@ -1,0 +1,7 @@
+Title: beginner javascript problem
+Karma: 2
+Date: 1400141237.0
+code javascript want add two number together using html input boxes displaying answer another input boxthe problem dreamweaver keeps throwing syntax error wont tell syntax error occurs define var x var y script function getvalue gets value input field assigns variable x var x documentgetelementbyidinputvalue var y documentgetelementbyidinputvalue function add x y documentgetelementbyidanswer script code html file doctype html public wcdtd xhtml transitionalen html xmlns head link relstylesheet typetextcss hrefcusersdesktopprojectsmath websitemathcss link hrefmathcss relstylesheet typetextcss script srccusersdesktopprojectsmath websitemathsjsscript meta titleuntitled documenttitle head body phellop input typetext idinput pp input typetext idinput button onclickgetvalue get valuebutton button onclickadd click mebutton input typetext idanswer body html thank advance feel free criticize aspects code always looking way make code neater
+
+==============================
+

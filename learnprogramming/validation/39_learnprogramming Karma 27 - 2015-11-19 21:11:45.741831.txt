@@ -1,0 +1,7 @@
+Title: difference declare allocate initializing arrays
+Karma: 27
+Date: 1368717125.0
+also difference function declaration definition
+
+==============================
+

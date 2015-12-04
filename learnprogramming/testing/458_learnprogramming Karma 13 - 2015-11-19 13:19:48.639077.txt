@@ -1,0 +1,7 @@
+Title: eli side effects
+Karma: 13
+Date: 1385255319.0
+starting learn programming concepts jargon one yet grasp side effect first time heard reading pure functional programming side effects use haskell also asked acquaintance mine teaches algorithms functional programming means told something like think printing statement side effect right hmm make sense go p reading introduction emacs lisp one paragraph says time interpreter returns value may something else well move cursor copy file kind action called side effect actions humans think important printing results often side effects lisp interpreter uderstand concept say function written c like int onevoid return side effects change x operation piece data int fint x return x side effect pass float mean every procedure one thing side effect sure understand correctly need depth explanation
+
+==============================
+

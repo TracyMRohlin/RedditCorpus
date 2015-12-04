@@ -1,0 +1,7 @@
+Title: java javalangindexoutofboundsexception arraylist
+Karma: 5
+Date: 1385454473.0
+trying take arraylist average scores without lowest two scores far public class scoreset private arraylistinteger scores public scoreset scores new arraylistinteger public void addint score integer score scoresadds private void droplowest int smallest int scoressize int smallesttemp scoresgeti scoresgeti smallesttemp else smallesttemp smallesttemp smallest smallest smallesttemp scoresremovesmallest public double averagewithoutlowest droplowest droplowest int total double average scoressize average else int scoressize total scoresgeti average total scoressize return average runner class public class scoresetrunner public static void mainstring args scoreset person new scoreset personadd personadd personadd personadd personadd personadd personadd personadd systemoutprintlnpersonaveragewithoutlowest full set errors exception thread main javalangindexoutofboundsexception index size javautilarraylistrangecheckunknown source javautilarraylistgetunknown source scoresetdroplowestscoresetjava scoresetaveragewithoutlowestscoresetjava scoresetrunnermainscoresetrunnerjava sure getting bounds exception anybody know thanks
+
+==============================
+

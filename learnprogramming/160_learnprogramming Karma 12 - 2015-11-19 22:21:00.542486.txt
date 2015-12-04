@@ -1,0 +1,7 @@
+Title: server process work
+Karma: 12
+Date: 1307158327.0
+hi learning program selfpace usually find something automate take opportunity use new language new way go learn something lately though curious coding server ground think easy high level languages think python code working server understand actually works find good article using google know searching correct things someone link quick synopsis server processes actual work os continuous loop process looking input signalling os continuous loop unnecessary work together edit tutorials great ones looked admittedly briefly seem either gloss skip os handles server processes tutorials mainly show use existing libraries create clients servers os underlying platfrom take care rest happen know links may explain instance happens os receives packet tcp port os send signal server process server process simply continually loop looking input sockstream socket port different stream example unix sockets stream dgram viewed netstat tcp udp curious whole system works
+
+==============================
+

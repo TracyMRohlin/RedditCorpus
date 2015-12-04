@@ -1,0 +1,7 @@
+Title: java loadinstruments returning false
+Karma: 2
+Date: 1432032623.0
+package sound import javaxsoundmidi author kmiller public class midihelper static int notevalue public static void playsomething throws javaxsoundmidimidiunavailableexception synthesizer synth midisystemgetsynthesizer long starttime systemnanotime midichannel midichannel synthgetchannels long endtime systemnanotime starttime instrument instruments synthgetdefaultsoundbankgetinstruments boolean instrumentsloaded synthloadinstrumentinstruments notevalue intmathrandom midichannelnoteonnotevalue intmathrandom edit think may problem computer tell tried worked continue
+
+==============================
+

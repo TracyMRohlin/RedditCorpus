@@ -1,0 +1,7 @@
+Title: using sockets communicate rfid reader java
+Karma: 9
+Date: 1369867485.0
+hello working alien rfid reading system past days work tasked preparing demonstration show rfid system useful tracking documents preventing leaving location etc used socket class connect reader port using printwriter write input reader using bufferedreader takes inputstreamreader read output problem retrieving responses reader commands given wrote getreaderresponse method takes bufferedreader parameter essentially trying read available lines text output command given store values array bufferedreader class comes ready method tells whether stream ready read implementing method testing found work similarly hasnext methods scanner expected since discovery trying find work around code know next read stream cause wait input block thank advance advice
+
+==============================
+

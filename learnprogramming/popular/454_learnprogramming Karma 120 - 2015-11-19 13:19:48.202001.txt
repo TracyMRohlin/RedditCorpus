@@ -1,0 +1,7 @@
+Title: named printf print
+Karma: 120
+Date: 1385264438.0
+started learn c summer since beggining always question printf scanf printscan assume f stands function like print function know
+
+==============================
+

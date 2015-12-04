@@ -1,0 +1,7 @@
+Title: beginner trouble extracting image urls html python
+Karma: 3
+Date: 1386056595.0
+trying make little program download save images wallpaper site folder seem even get array urls trying emulate guys code fresh set eyes big help thanks sorry code hard read first time posting code usrbinenv python import urllibreos ospathexists' make directory save images osmkdir' source urlliburlopen' imglinks refindallclasswrappertargetblankshrefsource give list urls images found print imglinks imglink imglinks go list get direct image urls imgurl urlliburlopenimglink pics refindallclasscontent clrsrcimgurl pic pics name file save computer filename 'starwarsims' picsplit'' ospathexistsfilename urlliburlretrievepicfilename
+
+==============================
+

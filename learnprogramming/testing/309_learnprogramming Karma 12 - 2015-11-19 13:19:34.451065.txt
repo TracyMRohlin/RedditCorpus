@@ -1,0 +1,7 @@
+Title: emulation resources experienced beginners
+Karma: 12
+Date: 1385474970.0
+first paragraph going little blogy skip second like itch make emulator something tangible something like nes similar tried multiple times read absorb much information possible even start dreaming code thing literally happens project work proved discouraging rather informative basic level seem hard simple enough things like ppu timing sorcery ton mappers trip make think biting chew tried tell need find something simpler work stop googling reading nes emulation perusing githubs absorbing accepted destined least try even fail resources tutorials articles helpful someone wanting nes emulation square one use c language help welcome done chip emulatorvm fun feel simple really help quest bunch memory mangling worry timings memory management graphics processing anything looking natural language articles guides getting running hairy aspects nes emulation like mappers ppu timings feel like go spend ton time lowhanging fruit emulating hit roadblock things mentioned found previous reddit posts topic similar decent answers resources obvious things like nesdev like old enough figure okay speak hopes someone good advice
+
+==============================
+

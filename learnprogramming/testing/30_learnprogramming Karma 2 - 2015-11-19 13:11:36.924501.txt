@@ -1,0 +1,7 @@
+Title: need help creating windows service c
+Karma: 2
+Date: 1432283424.0
+created basic service installed works fine however running logic onstart method status service stuck starting therefore stopped unless process killed taskkill cmd utility otherwise execute logic service every tutorial windows services shows logic onstart clearly work something supposed loop service writing supposed loop continuously long service still running really appreciate help somebody knows thing two windows services thanks advanced
+
+==============================
+

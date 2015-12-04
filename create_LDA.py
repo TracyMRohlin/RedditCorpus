@@ -2,14 +2,18 @@
 __author__ = 'tracyrohlin'
 import json
 import argparse
+from pprint import pprint
 
 from collections import defaultdict
 from gensim.models import ldamodel
 from create_tfidf import CorpusTFIDF
 
+from inspect import getfile
+print getfile(ldamodel)
+
 
 class CorpusLDA(CorpusTFIDF):
-    def __init__(self, filepath, save=False):
+    def __init__(self, filepath=None, save="False"):
         super(CorpusLDA, self).__init__(filepath, save)
 
 
@@ -19,13 +23,14 @@ class CorpusLDA(CorpusTFIDF):
 
 
     def create_unpopular_lda_model(self, num_topics, num_words):
-        self.create_corpus("popular")
+        self.create_corpus("unpopular")
         return self.create_general_lda_model(num_topics, num_words)
 
 
     def create_general(self, num_topics, num_words):
         self.create_corpus("other")
         return self.create_general_lda_model(num_topics, num_words)
+
 
 
     def create_general_lda_model(self, num_topics, num_words):
@@ -36,7 +41,7 @@ class CorpusLDA(CorpusTFIDF):
 
         i = 1
         data = defaultdict()
-        for topics in lda.show_topics(formatted=False, num_words=num_words):
+        for topics in lda.show_topics(formatted=False):
             sub_topic = "Topic # {}".format(i)
             sub_words = []
             for topic in topics:
@@ -52,23 +57,7 @@ class CorpusLDA(CorpusTFIDF):
         if self.save:
             with open("LDA Model Topics.json", "w") as jsonfile:
                 json.dump(data, jsonfile, indent=4, sort_keys=True)
-        return " ".join(lda_words)
-
-
-    def create_json(self, modeltype, dictobject):
-        """Creates a csv file based on the objects in the tf-idf/lda model).  It takes the modeltype (tf-idf or LDA)
-        and the dictionary where the scores are stored as arguments."""
-
-        filename = "{} Scores.json".format(modeltype)
-        data = []
-        for word_id in dictobject.keys():
-            word = dictobject[word_id]["word"].encode('utf8')
-            scores = dictobject[word_id][modeltype]
-            out = [[word_id, word]+scores]
-            data.append(out)
-        if self.save:
-            with open(filename, "w") as jsonfile:
-                json.dump(data, jsonfile, indent=4, sort_keys=True)
+        pprint(data)
 
 if __name__ == "__main__":
 
@@ -76,7 +65,10 @@ if __name__ == "__main__":
     parser.add_argument("filepath", help="Argument must be the filepath where the KarmaScores.csv file is located")
     parser.add_argument("num_topics", help="The amount of topics to estimate")
     parser.add_argument("num_words", help="The amount of words per topic to include in the final result")
+    parser.add_argument("--save")
     args = parser.parse_args()
-    new = CorpusLDA(args.filepath)
+
+    new = CorpusLDA(args.filepath, args.save)
     new.read_texts()
+    new.create_corpus("general")
     print new.create_general_lda_model(args.num_topics, args.num_words)

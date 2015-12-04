@@ -1,0 +1,7 @@
+Title: c reason use multiple constructors single constructor default parameters
+Karma: 2
+Date: 1432156803.0
+honestly sure considered bad practice hidden snag seeing seems lot simpler creating multiple constructors enable flexibility class instantiation sample program anything wrong way reason rather multiple constructors allowing various options setting fields
+
+==============================
+

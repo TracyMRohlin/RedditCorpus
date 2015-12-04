@@ -1,0 +1,7 @@
+Title: java pretty simple code method returning variable someone spot something wrong missing
+Karma: 4
+Date: 1385543357.0
+import javautil public class lab public static void main string args scanner kbnew scannersystemin string x systemoutprintlnenter string x kbnextline x xtolowercase public static void isvowelstring x int count int vowels int xlength char ch xcharati ch'ch'ch'ch 'ch' vowels return vowels help much appreciated assignment take string return number vowels entered string may contain catch use prof discussed class hence simplicity code
+
+==============================
+

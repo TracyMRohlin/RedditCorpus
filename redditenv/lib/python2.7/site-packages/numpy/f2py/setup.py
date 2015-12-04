@@ -29,22 +29,34 @@ from numpy.distutils.misc_util import Configuration
 
 from __version__ import version
 
-def configuration(parent_package='',top_path=None):
+
+def _get_f2py_shebang():
+    """ Return shebang line for f2py script
+
+    If we are building a binary distribution format, then the shebang line
+    should be ``#!python`` rather than ``#!`` followed by the contents of
+    ``sys.executable``.
+    """
+    if set(('bdist_wheel', 'bdist_egg', 'bdist_wininst',
+            'bdist_rpm')).intersection(sys.argv):
+        return '#!python'
+    return '#!' + sys.executable
+
+
+def configuration(parent_package='', top_path=None):
     config = Configuration('f2py', parent_package, top_path)
 
-    config.add_data_dir('docs')
     config.add_data_dir('tests')
 
     config.add_data_files('src/fortranobject.c',
                           'src/fortranobject.h',
-                          'f2py.1'
                           )
 
     config.make_svn_version_py()
 
     def generate_f2py_py(build_dir):
-        f2py_exe = 'f2py'+os.path.basename(sys.executable)[6:]
-        if f2py_exe[-4:]=='.exe':
+        f2py_exe = 'f2py' + os.path.basename(sys.executable)[6:]
+        if f2py_exe[-4:] == '.exe':
             f2py_exe = f2py_exe[:-4] + '.py'
         if 'bdist_wininst' in sys.argv and f2py_exe[-3:] != '.py':
             f2py_exe = f2py_exe + '.py'
@@ -52,32 +64,10 @@ def configuration(parent_package='',top_path=None):
         if newer(__file__, target):
             log.info('Creating %s', target)
             f = open(target, 'w')
-            f.write('''\
-#!%s
-# See http://cens.ioc.ee/projects/f2py2e/
-import os, sys
-for mode in ["g3-numpy", "2e-numeric", "2e-numarray", "2e-numpy"]:
-    try:
-        i=sys.argv.index("--"+mode)
-        del sys.argv[i]
-        break
-    except ValueError: pass
-os.environ["NO_SCIPY_IMPORT"]="f2py"
-if mode=="g3-numpy":
-    sys.stderr.write("G3 f2py support is not implemented, yet.\\n")
-    sys.exit(1)
-elif mode=="2e-numeric":
-    from f2py2e import main
-elif mode=="2e-numarray":
-    sys.argv.append("-DNUMARRAY")
-    from f2py2e import main
-elif mode=="2e-numpy":
-    from numpy.f2py import main
-else:
-    sys.stderr.write("Unknown mode: " + repr(mode) + "\\n")
-    sys.exit(1)
-main()
-'''%(sys.executable))
+            f.write(_get_f2py_shebang() + '\n')
+            mainloc = os.path.join(os.path.dirname(__file__), "__main__.py")
+            with open(mainloc) as mf:
+                f.write(mf.read())
             f.close()
         return target
 
@@ -90,40 +80,38 @@ main()
 if __name__ == "__main__":
 
     config = configuration(top_path='')
-    version = config.get_version()
     print('F2PY Version', version)
     config = config.todict()
 
-    if sys.version[:3]>='2.3':
-        config['download_url'] = "http://cens.ioc.ee/projects/f2py2e/2.x"\
-                                 "/F2PY-2-latest.tar.gz"
-        config['classifiers'] = [
-            'Development Status :: 5 - Production/Stable',
-            'Intended Audience :: Developers',
-            'Intended Audience :: Science/Research',
-            'License :: OSI Approved :: NumPy License',
-            'Natural Language :: English',
-            'Operating System :: OS Independent',
-            'Programming Language :: C',
-            'Programming Language :: Fortran',
-            'Programming Language :: Python',
-            'Topic :: Scientific/Engineering',
-            'Topic :: Software Development :: Code Generators',
-            ]
+    config['download_url'] = "http://cens.ioc.ee/projects/f2py2e/2.x"\
+                             "/F2PY-2-latest.tar.gz"
+    config['classifiers'] = [
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: NumPy License',
+        'Natural Language :: English',
+        'Operating System :: OS Independent',
+        'Programming Language :: C',
+        'Programming Language :: Fortran',
+        'Programming Language :: Python',
+        'Topic :: Scientific/Engineering',
+        'Topic :: Software Development :: Code Generators',
+    ]
     setup(version=version,
-          description       = "F2PY - Fortran to Python Interface Generaton",
-          author            = "Pearu Peterson",
-          author_email      = "pearu@cens.ioc.ee",
-          maintainer        = "Pearu Peterson",
-          maintainer_email  = "pearu@cens.ioc.ee",
-          license           = "BSD",
-          platforms         = "Unix, Windows (mingw|cygwin), Mac OSX",
-          long_description  = """\
+          description="F2PY - Fortran to Python Interface Generaton",
+          author="Pearu Peterson",
+          author_email="pearu@cens.ioc.ee",
+          maintainer="Pearu Peterson",
+          maintainer_email="pearu@cens.ioc.ee",
+          license="BSD",
+          platforms="Unix, Windows (mingw|cygwin), Mac OSX",
+          long_description="""\
 The Fortran to Python Interface Generator, or F2PY for short, is a
 command line tool (f2py) for generating Python C/API modules for
 wrapping Fortran 77/90/95 subroutines, accessing common blocks from
 Python, and calling Python functions from Fortran (call-backs).
 Interfacing subroutines/data from Fortran 90/95 modules is supported.""",
-          url               = "http://cens.ioc.ee/projects/f2py2e/",
-          keywords          = ['Fortran', 'f2py'],
+          url="http://cens.ioc.ee/projects/f2py2e/",
+          keywords=['Fortran', 'f2py'],
           **config)

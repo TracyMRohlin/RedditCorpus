@@ -1,0 +1,7 @@
+Title: java writing first user authentication system see x company passwords stolen time guy
+Karma: 10
+Date: 1431856429.0
+writing application work come time write system registers users stores usernamepassword authenticate based enter login screen planning store information sql database know need encrypt meant say hash password store ie plain text know hard code sql database information program past sure typical beginner mistakes someone like sony somehow get passwordscredit card numbers etc exposed edit also look existing frameworks
+
+==============================
+

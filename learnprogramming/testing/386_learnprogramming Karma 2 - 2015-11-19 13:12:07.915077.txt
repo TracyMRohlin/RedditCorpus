@@ -1,0 +1,7 @@
+Title: php wrong mysql connect die
+Karma: 2
+Date: 1431461295.0
+seen many times people saying connect mysqlconnecthostuserpass diemysqlerror considered bad practice writing code bad right
+
+==============================
+

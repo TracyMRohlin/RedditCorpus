@@ -1,0 +1,7 @@
+Title: wrote web crawler c suggestions critiques
+Karma: 53
+Date: 1368833168.0
+regularly collect artwork around internet many websites tedious navigate created simple multithreaded web crawler c first project done outside school work still much work progress feedback welcome
+
+==============================
+

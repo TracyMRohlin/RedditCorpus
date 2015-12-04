@@ -1,0 +1,7 @@
+Title: java find deltax deltay move ball given angle graphics panel
+Karma: 9
+Date: 1352889319.0
+using javaawtgraphics move ball one side another move left right really easy finding detlax deltay change trajectory ball jslider changes speed clock given number taken jslider know supposed use mathtoradiansangle mathsintheta mathcostheta using find deltax deltay confusing one piece advice someone already given multiply speed jslider mathsincosangle get new x coordinate work well someone please point right direction
+
+==============================
+

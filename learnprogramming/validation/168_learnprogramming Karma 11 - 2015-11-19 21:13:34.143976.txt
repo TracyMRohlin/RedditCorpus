@@ -1,0 +1,7 @@
+Title: help filehandling c
+Karma: 11
+Date: 1353451609.0
+hello reddit problem ive tried solve two days im loss hope give help problem im writing program c open file snag values use later program file regular txt file looks pretty much like ducks swans wingspana wingspanb wingspanc wingspand food ducks swans type integer rest double interested snagging numbers text put corresponding variable main program dont need help setting file argument opening file somebody help appretiate alot
+
+==============================
+

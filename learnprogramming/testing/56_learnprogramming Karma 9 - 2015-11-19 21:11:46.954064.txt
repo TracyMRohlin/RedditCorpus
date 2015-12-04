@@ -1,0 +1,7 @@
+Title: java type parameter question
+Karma: 9
+Date: 1368497454.0
+someone please explain type erasure relating generics looking online confuses
+
+==============================
+

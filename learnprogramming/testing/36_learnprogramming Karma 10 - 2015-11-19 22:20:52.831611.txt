@@ -1,0 +1,7 @@
+Title: newbie understand add libraries compiler
+Karma: 10
+Date: 1310161281.0
+got c learned good bit ready move tinkering game dev find good tutorials combine libraries compilers tried following outdated therefore current versions libraries work way explained tutorial since google search showed irrlicht good starting game dev library started downloaded devc vs devc tutorial date site simply explains get started gave months ago find step step tutorial explaining assume reader already knows fundementals
+
+==============================
+

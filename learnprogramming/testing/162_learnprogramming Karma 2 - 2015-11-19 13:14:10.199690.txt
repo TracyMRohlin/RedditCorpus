@@ -1,0 +1,7 @@
+Title: java several projects interdependent one another third party jars
+Karma: 2
+Date: 1400383493.0
+legacy code need update current practice folder jars projects using asked figure jars particular project depends eclipse allowed use maven build tool
+
+==============================
+

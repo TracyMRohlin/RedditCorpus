@@ -1,0 +1,7 @@
+Title: java reading email outputting text file
+Karma: 8
+Date: 1385807368.0
+using internet make quite transactions online ebay amazon steam ticket purchases online games several others result email cluttered receipts various orders huge fan keeping data organised directories date order keep track going past open email receipt copy paste contents email text file computer thinking possible automate process considering making program run selected email prompt choose category ie directory save short description program make file called datedescriptiontxt chosen directory program really save time learnt quite bit java university wanting extend knowledge problem exactly sure start one never made programs guis actually things choose category description anything emails additionally sure approach problem choosing classes need make moment thinking along lines main class class gui email object reader object file written help appreciated
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: python need help lines code
+Karma: 9
+Date: 1353816010.0
+hi rlearnprogramming posted rlearnpython yesterday looks like got buried post started learning programming yesterday website invent python hour since reached chapter seem understand lines code link words 'ant baboon badger omitted words here'split def getrandomwordwordlist function returns random string passed list strings wordindex randomrandint lenwordlist return wordlist seem understand wordlist like ' parameter ' string arerelated see wordlist words thing sorry made mistakes english main language
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: easiest way solve d trivially parallel problem
+Karma: 3
+Date: 1431836781.0
+wan write small program draw fractals trivially parallel problem complex number run function exceeds breakout value written similar programs ruby java want run program parallel starting become extremely slow nvidia gpu cuda possible really learned wondering library handles gpu code focus problem
+
+==============================
+

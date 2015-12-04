@@ -1,0 +1,7 @@
+Title: javamethods displaying graphics
+Karma: 2
+Date: 1385540342.0
+late used library called hsa console library based around swing display graphics pixels certain colors screen console output able design game snake scratch games scope wondering hard transition using hsa display graphics using library like libgdx library next stepping stone also believe hsa uses java graphics library displaying many graphics better idea explore graphics library controle optimization example things like rendering premade textures idea hsa
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: phpmysql replace entire row mysql database one value
+Karma: 2
+Date: 1385792648.0
+seems like really simple figure though trying include mysql script php doc connects database removes everything blank value came php mysqlconnectlocalhostjennaznpassword diecould connect mysqlselectdbdb diecould connect database mysqlquerydelete posts field'' idea working looked appears nothing wrong edit sorry messed title looking delete rows blank values replace another value
+
+==============================
+

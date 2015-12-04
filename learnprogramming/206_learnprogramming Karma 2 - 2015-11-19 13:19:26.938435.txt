@@ -1,0 +1,7 @@
+Title: c map confusion
+Karma: 2
+Date: 1385656790.0
+asked similar 'get yet put code basically want populate student map following students student id key id name john smith degree msc id name jane country ireland id name big ben degree phd sure populate map using derived classes someone please help
+
+==============================
+

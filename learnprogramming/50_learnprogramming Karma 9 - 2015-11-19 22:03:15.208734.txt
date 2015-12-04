@@ -1,0 +1,7 @@
+Title: emulating javascript using scraper
+Karma: 9
+Date: 1324515702.0
+hello everyone trying build scraper automatically get grades schools website problem requires javascript log way emulate javascript developing scraper open using python php actually language matter thank advance help
+
+==============================
+

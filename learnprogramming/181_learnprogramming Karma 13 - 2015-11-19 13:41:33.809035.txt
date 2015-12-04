@@ -1,0 +1,7 @@
+Title: compilers use particular compiler another
+Karma: 13
+Date: 1369375028.0
+recently started learning programming questions compilers currently text reading suggests using eclipse write programs purpose course understand eclipse ide comes packaged text editor compiler among features however read setups involve using standalone text editor like vim notepad combination compiler like gcc java sdk difference using compiler like gcc java sdk vs compiler comes packaged ide like eclipse less matter preference technical advantages using one another example read compile code quicker others final compiled program different understand compilers translate code write machine code computer execute ultimately different compilers still create machine code source code
+
+==============================
+

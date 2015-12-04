@@ -1,15 +1,21 @@
 from __future__ import division, absolute_import, print_function
 
 import sys
-import platform
-from numpy.testing import *
-from numpy.testing.utils import _gen_alignment_data
+
 import numpy as np
+from numpy.testing.utils import _gen_alignment_data
+from numpy.testing import (
+    TestCase, run_module_suite, assert_, assert_equal, assert_raises,
+    assert_almost_equal
+)
 
 types = [np.bool_, np.byte, np.ubyte, np.short, np.ushort, np.intc, np.uintc,
          np.int_, np.uint, np.longlong, np.ulonglong,
          np.single, np.double, np.longdouble, np.csingle,
          np.cdouble, np.clongdouble]
+
+floating_types = np.floating.__subclasses__()
+
 
 # This compares scalarmath against ufuncs.
 
@@ -112,6 +118,7 @@ class TestPower(TestCase):
                 assert_(b == 6765201, msg)
             else:
                 assert_almost_equal(b, 6765201, err_msg=msg)
+
     def test_mixed_types(self):
         typelist = [np.int8, np.int16, np.float16,
                     np.float32, np.float64, np.int8,
@@ -175,11 +182,11 @@ class TestConversion(TestCase):
             assert_(res == tgt)
 
     def test_int_raise_behaviour(self):
-        def Overflow_error_func(dtype):
-            res = np.typeDict[dtype](np.iinfo(dtype).max + 1)
+        def overflow_error_func(dtype):
+            np.typeDict[dtype](np.iinfo(dtype).max + 1)
 
         for code in 'lLqQ':
-            assert_raises(OverflowError, Overflow_error_func, code)
+            assert_raises(OverflowError, overflow_error_func, code)
 
     def test_longdouble_int(self):
         # gh-627
@@ -189,7 +196,7 @@ class TestConversion(TestCase):
         assert_raises(OverflowError, x.__int__)
 
     def test_numpy_scalar_relational_operators(self):
-         #All integer
+        # All integer
         for dt1 in np.typecodes['AllInteger']:
             assert_(1 > np.array(0, dtype=dt1)[()], "type %s failed" % (dt1,))
             assert_(not 1 < np.array(0, dtype=dt1)[()], "type %s failed" % (dt1,))
@@ -241,7 +248,7 @@ class TestConversion(TestCase):
 
 class TestRepr(object):
     def _test_type_repr(self, t):
-        finfo=np.finfo(t)
+        finfo = np.finfo(t)
         last_fraction_bit_idx = finfo.nexp + finfo.nmant
         last_exponent_bit_idx = finfo.nexp
         storage_bytes = np.dtype(t).itemsize*8
@@ -252,11 +259,11 @@ class TestRepr(object):
             if which == 'small denorm':
                 byte = last_fraction_bit_idx // 8
                 bytebit = 7-(last_fraction_bit_idx % 8)
-                constr[byte] = 1<<bytebit
+                constr[byte] = 1 << bytebit
             elif which == 'small norm':
                 byte = last_exponent_bit_idx // 8
                 bytebit = 7-(last_exponent_bit_idx % 8)
-                constr[byte] = 1<<bytebit
+                constr[byte] = 1 << bytebit
             else:
                 raise ValueError('hmm')
             val = constr.view(t)[0]
@@ -270,6 +277,40 @@ class TestRepr(object):
         # float
         for t in [np.float32, np.float64]:
             yield self._test_type_repr, t
+
+
+class TestSizeOf(TestCase):
+
+    def test_equal_nbytes(self):
+        for type in types:
+            x = type(0)
+            assert_(sys.getsizeof(x) > x.nbytes)
+
+    def test_error(self):
+        d = np.float32()
+        assert_raises(TypeError, d.__sizeof__, "a")
+
+
+class TestAbs(TestCase):
+
+    def _test_abs_func(self, absfunc):
+        for tp in floating_types:
+            x = tp(-1.5)
+            assert_equal(absfunc(x), 1.5)
+            x = tp(0.0)
+            res = absfunc(x)
+            # assert_equal() checks zero signedness
+            assert_equal(res, 0.0)
+            x = tp(-0.0)
+            res = absfunc(x)
+            assert_equal(res, 0.0)
+
+    def test_builtin_abs(self):
+        self._test_abs_func(abs)
+
+    def test_numpy_abs(self):
+        self._test_abs_func(np.abs)
+
 
 if __name__ == "__main__":
     run_module_suite()

@@ -1,0 +1,7 @@
+Title: good algorithm encrypting something key written easily language
+Karma: 10
+Date: 1368036092.0
+need encrypt something easily decrypt later going go wire cleartext want use something deciphered one request alone key thing encrypting different http requests need one implementations need web javascript server side replicate whatever javascript write simple thing known simple algorithm things like want use something easily expose data underneath base easily recognizable easily reversible want key encryptdecrypt power change edit tldr looking simple encryption algorithm preferable key part exercise programming part exercise simple encryption expect gain real security
+
+==============================
+

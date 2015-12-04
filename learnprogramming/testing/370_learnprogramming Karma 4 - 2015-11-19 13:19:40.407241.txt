@@ -1,0 +1,7 @@
+Title: sql help needed
+Karma: 4
+Date: 1385409628.0
+made program vbnet store code snippets refer back using microsoft access store however made form add new snippets using following code insert values database mysqlstring insert codesnippets descriptioncode values ' txtdescriptiontext ' ' txtcodetext ' however try add normal text works inserts database yet try add sql code database comes error ideas thanks specific insert values ' ' inserts database fine whereas insert values ' 'replicate' datalengthcast varchar cast varchar work
+
+==============================
+

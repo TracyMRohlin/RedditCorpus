@@ -1,0 +1,7 @@
+Title: anyone give mid level explanation spring tiles
+Karma: 5
+Date: 1385422759.0
+hi working project uses spring tiles understand overarching principles low level implementation details understanding inbetween lacking many bits pieces sure fit together looked online various resources examples often either complex simplistic controllers daos mappers views beans feel pretty lost really like quick explanation something like webxml links part part b let part know access right java functions part b edit incidentally web application working catch
+
+==============================
+

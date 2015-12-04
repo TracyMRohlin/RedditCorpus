@@ -1,0 +1,7 @@
+Title: creating range selector html input form
+Karma: 4
+Date: 1400249635.0
+hello everyone like title suggests trying create range selector two draggable elements bar wherein delta two elements selected range question explained graphic trying accomplish using htmlcssjavascript currently stuck proceed making something like help provide resources point towards appreciated thank
+
+==============================
+

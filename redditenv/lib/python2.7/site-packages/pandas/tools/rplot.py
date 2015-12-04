@@ -17,7 +17,7 @@ warnings.warn("\n"
               "like seaborn for similar but more refined functionality. \n\n"
               "See our docs http://pandas.pydata.org/pandas-docs/stable/visualization.html#rplot "
               "for some example how to convert your existing code to these "
-              "packages.", FutureWarning)
+              "packages.", FutureWarning, stacklevel=2)
 
 
 class Scale:
@@ -363,7 +363,7 @@ class GeomPoint(Layer):
             else:
                 ax = fig.gca()
         for index in range(len(self.data)):
-            row = self.data.irow(index)
+            row = self.data.iloc[index]
             x = row[self.aes['x']]
             y = row[self.aes['y']]
             size_scaler = self.aes['size']

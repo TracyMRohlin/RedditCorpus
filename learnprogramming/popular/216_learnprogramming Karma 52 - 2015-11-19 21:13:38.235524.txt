@@ -1,0 +1,7 @@
+Title: first bat file feedback appreciated
+Karma: 52
+Date: 1353108038.0
+sure correct subreddit figured throw anyways experience ever coding marketingadvertising degree travel alot work small business keep emails stored hard drive needed way back outlook files u wrote bat learned poking around internet used task scheduler windows run script every thursday time offsite meeting feedback appreciated taskkill im outlookexe cd cusersmy namedocumentsoutlook files xcopy ost uoutlook e y echo errorlevel goto errorwriting errorlevel goto lowmemory errorlevel goto nofiles errorlevel goto exitsuccess errorwriting echo disk write failure error try pause goto exit lowmemory echo enough room disk drive full please delete excess files try pause goto exit nofiles echo files copy found please check folder try pause goto exit exitsuccess echo successfully backed outlook uoutlook start outlookexe pause goto exit exit
+
+==============================
+

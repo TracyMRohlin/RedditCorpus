@@ -1,0 +1,7 @@
+Title: xpost rgamedev learning unityd core programming concepts together
+Karma: 3
+Date: 1432272250.0
+niece came asking teach program make games since thinking creating free training material awhile teaches core programming concepts making games curious greater public interested fair amount interest prepare lesson material way others benefit one biggest things believe important learning program able get help easily someone review code provide suggestions improve like develop course way enables folks current plan start teaching basic concepts c making console game move utilizing unityd continue growing concepts
+
+==============================
+

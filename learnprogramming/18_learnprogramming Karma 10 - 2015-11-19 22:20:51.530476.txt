@@ -1,0 +1,7 @@
+Title: handling multidimensional arrays c
+Karma: 10
+Date: 1310530871.0
+using xna make basic game projects get comfortable tackle real project currently trying make game made tiles stored tile information level multidimensional array however read display seems mirrored along xy line write pseudo code explain problem int gamemap forint y y y forint x x x ifgamemapxy addplatformxy expect draw map like instead get want hotfix addplatformyx make sense function set receive int xaxis int yaxis hot fix fix understanding c anyone see going wrong edit possible solution toyed around accessing multidimensional array appears misunderstood int works assumed similar graph drawing map like coordinates accessed arrayxy incorrect really counter intuitive cartesian coordinates always xy edit explain accessing multidimensional array done arrayrow column thought arraycolumn row similar graph explains mirrored xy line addplatformyx worked instead simply rewritten part ifgamemapxy ifgamemapyx everything else remained
+
+==============================
+

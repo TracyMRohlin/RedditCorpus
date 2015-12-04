@@ -1,0 +1,7 @@
+Title: programming ai bots zombie dice
+Karma: 48
+Date: 1353555810.0
+made simulator dice game zombie dice write bots python play zombie dice bots simulator comes basic bots pretty fun looking programming practice also script provides web ui running http server machine take look code interested making similar offlinewebapp programs python
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: algorithm generate random numbers sum certain number
+Karma: 15
+Date: 1325067874.0
+kept night last night say function randomab gives random number b use function generate random numbers add arbitrary number c problem simple numbers num randomc num c num first thought try num randomc num randomc num num c num num works giving random numbers always add c problem average num going larger specifically twice large num num second thought thing except randomize number got larger value works consider cheating since one numbers always higher chance larger even average ideas edit far efficient code gives equal weight numbers c somenumber temp rand assuming rand gives float temp rand iftemp temp temp temp temp temp temp else temp temp temp temp temp num tempc num tempc num tempc essentially picks two random points imaginary number line first random number distance closest point second random number distance first point second point third random number distance second point since three numbers add multiply arbitrary value resulting numbers add arbitrary value
+
+==============================
+

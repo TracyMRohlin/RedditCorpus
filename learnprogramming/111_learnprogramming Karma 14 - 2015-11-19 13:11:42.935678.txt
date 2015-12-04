@@ -1,0 +1,7 @@
+Title: help python throttle download
+Karma: 14
+Date: 1432151057.0
+im problem download speed seems maxed kb first programming language im kinda new sockets ideas get script working faster speeds maybe advice optimize script right im trying throttle secondary python server script real end goal want figure best way throttle connection python also better way keeping time python script really think best way poll system clock tick method little messed idea wanting implement queue running functions set ticks every ticks calculation better way writing function sleep server script client script output pic alright got working needed give higher tick sec count also bad loop hitting cpu hard fixed going back sleep find trade sleep buf requests
+
+==============================
+

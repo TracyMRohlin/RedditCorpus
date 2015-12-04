@@ -1,0 +1,7 @@
+Title: simple c problem cant figure beginner
+Karma: 26
+Date: 1385689277.0
+pretty much title says cant figure wont display outamount run program love help stuck days bank got two interest rates rate deposits less amount rate deposits bigger amount write c program find balance years intially amount initamount deposit find balance years intially amount initamount deposit inputs rate rate amount amount initamount double output outamount final amount read variables rate rate amount initamount calculate interest testing initamount amount calculate final amount include stdioh include mathh int main declare variables double rate rate amount b initamount outamount read variables printfratescanflfrate printfratescanflfrate printfamountscanflfamount printfinitamountscanflfinitamount calculate interest amountratea initamount amountrate b outamountab printfthis answer lf outamount getch return
+
+==============================
+

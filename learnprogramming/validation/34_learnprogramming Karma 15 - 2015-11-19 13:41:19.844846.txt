@@ -1,0 +1,7 @@
+Title: java indexoutofboundsexception nested loops sometimes
+Karma: 15
+Date: 1370430671.0
+hi working android project using libgdx framework unfamiliar libgdx allows write pure java deploy multiple platforms consider java issue android issue anyway piece code works time writing d scrolling jet shooter code excerpt world class world class creates single enemy screen adding enemy object arraylist called enemies player constantly fire adding new shot objects arraylist called playershots shot enemy collide removed respective arraylists code excerpt worked flawlessly experimenting changing behavior enemy made enemy spawn enemies adding enemy objects enemies arraylist shots collide original enemy spawned enemies individually expected ie disappear game continues run however shot collides spawned enemy original enemy statement code throws indexoutofboundsexception managed figure situation numenemies decremented reason causing inner loop explode anyone shed light issue managed verify problem idea happens exception thrown specific scenario thoroughly confused edit looks like several uncovered flaw iterating two lists removing entries thanks
+
+==============================
+

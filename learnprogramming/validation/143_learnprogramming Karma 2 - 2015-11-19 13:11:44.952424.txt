@@ -1,0 +1,7 @@
+Title: java use calendar add method know
+Karma: 2
+Date: 1432083048.0
+based slack day policy returns date assignment due making sure exceed budget case request allowed latest possible due date returned hint take look behavior unspecified request negative duedate null param request requested number slack days use param budget total number available slack days param duedate original due date assignment return new instance calendar date time set assignment due public static calendar extenddeadlineint request int budget calendar duedate ifrequest budget throw new runtimeexceptionrequested slack days must greater budget else duedateaddcalendardayofmonth request return duedate someone please let know add method working error getting dayofmonth resolved field code pastebincomuvggdga edit included link code also found problem explained comments
+
+==============================
+

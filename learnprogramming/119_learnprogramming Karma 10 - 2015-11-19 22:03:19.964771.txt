@@ -1,0 +1,7 @@
+Title: half adder full adder circuits
+Karma: 10
+Date: 1322786492.0
+someone explain half adder full adder circuits work also someone show lisp teacher tried explain follow understand logic gates involved sure adders work help greatly appreciated
+
+==============================
+

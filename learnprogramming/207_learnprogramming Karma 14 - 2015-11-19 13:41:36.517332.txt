@@ -1,0 +1,7 @@
+Title: data structure use scenario
+Karma: 14
+Date: 1369220025.0
+writing program works tcp libpcap learning experiment trying save tcp stream data buffer order without duplicate data packets arrive sequence number want data packet saved ideal circumstances packets arrive order need keep track next expected sequence number current sequence number current tcp data length possible packets arrive order situation operating system queue order packet packets leading arrive push whole segment application layer since using libpcap need write data buffer bad case potentially many gaps buffer need tracked question data structure use keep track gapswritten parts buffer keeping mind code needs run quickly packets arrive quickly packets part arrive order thinking interval map overlap think appropriate solve problem using linked list trying write efficient code looking opinions efficient data structurealgorithm
+
+==============================
+

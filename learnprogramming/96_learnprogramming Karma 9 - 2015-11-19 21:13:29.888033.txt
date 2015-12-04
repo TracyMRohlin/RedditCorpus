@@ -1,0 +1,7 @@
+Title: asflixelhaving memory leak issues figure need help small program
+Karma: 9
+Date: 1354000373.0
+wrote little program experiment movement collision square bouncing around used flixel framework code gistgithubcom really simple really small memory leak issues starts using mb memory never stops slowly surely eats memory used builtin mac activity monitor flixel debug console check figure happening need help completely lost anyone knows going thanks advance
+
+==============================
+

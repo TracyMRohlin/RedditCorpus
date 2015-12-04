@@ -1,0 +1,7 @@
+Title: c properly handle skills subskills rpg context
+Karma: 2
+Date: 1432309180.0
+developing rpg become stuck rut comes handling skills skills among variables attributes attribute essentially base number takes set modifiers determine bonuses penalties returns compiled value modifier ' number used compare bonusespenalties granted effects code attribute modifier summarize attribute get set addremovemodifier denyallowmodifiertype examples skills acrobatics sneak craftweaponry craftarmors question need able work subskills considering example skills effect might bestow modifiers craft craftarmors craftweaponry armors weaponry consider modifiers granted craft superskill well granted modifiers really think properly however definitely use nudge right direction
+
+==============================
+

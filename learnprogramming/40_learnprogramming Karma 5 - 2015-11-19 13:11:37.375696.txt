@@ -1,0 +1,7 @@
+Title: problems running pydev
+Karma: 5
+Date: 1432270109.0
+trying run python via pydev plugin eclipse using video
+
+==============================
+

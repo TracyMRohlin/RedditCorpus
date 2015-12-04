@@ -1,0 +1,7 @@
+Title: htmljavascript button onclick event working
+Karma: 3
+Date: 1386218112.0
+working computing two different things running problems html code buttons divlabel width width labelinput typetext idwidthdiv divlabel length length labelinput typetext idlengthdiv divlabel area area labelinput typetext idareadiv pbutton idareabutton onclickcomputeareacompute areabuttonp h idsumhih div label numfirst integer labelinput typetext idnumdiv div label numsecond integer labelinput typetext idnumdiv pbutton idsumbutton onclickcomputesumcompute sumbuttonp function computearea alertfunction called var length documentgetelementbyidlengthvalue var width documentgetelementbyidwidthvalue var area length width documentgetelementbyidareavalue area function computesum alertfunction called var num documentgetelementbyidnumvalue var num documentgetelementbyidnumvalue var sum num num alert sum documentgetelementbyid'innerhtml num num sum actually computearea working well randomly stopped quite sure changed mess
+
+==============================
+

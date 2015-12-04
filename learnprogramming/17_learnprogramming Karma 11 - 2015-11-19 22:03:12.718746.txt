@@ -1,0 +1,7 @@
+Title: questions c header files reading binary file
+Karma: 11
+Date: 1325120201.0
+first question say foocpp fooh file first defines functions latter defines class appropriate put includes vector iostream etc fooh file well single include fooh cpp file put additional includes header file latter stdvector defined header file include vector cpp file compiler complains stdvector undefined unless move include vector header file wrong second binary file know contents inside contains matrix doubles defined d array vectorvectordouble matrixrows vectordoublecols want read ' binary file construct matrix without using libraries list boost
+
+==============================
+

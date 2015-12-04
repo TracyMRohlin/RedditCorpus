@@ -1,0 +1,7 @@
+Title: c question exceptionhandling trycatch
+Karma: 10
+Date: 1354436160.0
+im currently learning exception handling tell output code correctly float arr cout try endl try cout new endl arr new float cout db new endl catch badalloc cout bad allocate endl cout catch endl output try new db new catch thanks wanted double check make sure understand correctly edit sorry im enough memory new operator use throw badalloc exception
+
+==============================
+

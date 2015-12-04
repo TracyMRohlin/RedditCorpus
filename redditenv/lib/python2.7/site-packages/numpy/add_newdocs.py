@@ -28,9 +28,9 @@ add_newdoc('numpy.core', 'flatiter',
     It allows iterating over the array as if it were a 1-D array,
     either in a for-loop or by calling its `next` method.
 
-    Iteration is done in C-contiguous style, with the last index varying the
-    fastest. The iterator can also be indexed using basic slicing or
-    advanced indexing.
+    Iteration is done in row-major, C-style order (the last
+    index varying the fastest). The iterator can also be indexed using
+    basic slicing or advanced indexing.
 
     See Also
     --------
@@ -664,13 +664,13 @@ add_newdoc('numpy.core.multiarray', 'array',
         nested sequence, or if a copy is needed to satisfy any of the other
         requirements (`dtype`, `order`, etc.).
     order : {'C', 'F', 'A'}, optional
-        Specify the order of the array.  If order is 'C' (default), then the
-        array will be in C-contiguous order (last-index varies the
-        fastest).  If order is 'F', then the returned array
-        will be in Fortran-contiguous order (first-index varies the
-        fastest).  If order is 'A', then the returned array may
-        be in any order (either C-, Fortran-contiguous, or even
-        discontiguous).
+        Specify the order of the array.  If order is 'C', then the array
+        will be in C-contiguous order (last-index varies the fastest).
+        If order is 'F', then the returned array will be in
+        Fortran-contiguous order (first-index varies the fastest).
+        If order is 'A' (default), then the returned array may be
+        in any order (either C-, Fortran-contiguous, or even discontiguous),
+        unless a copy is required, in which case it will be C-contiguous.
     subok : bool, optional
         If True, then sub-classes will be passed-through, otherwise
         the returned array will be forced to be a base-class array (default).
@@ -745,8 +745,9 @@ add_newdoc('numpy.core.multiarray', 'empty',
     dtype : data-type, optional
         Desired output data-type.
     order : {'C', 'F'}, optional
-        Whether to store multi-dimensional data in C (row-major) or
-        Fortran (column-major) order in memory.
+        Whether to store multi-dimensional data in row-major
+        (C-style) or column-major (Fortran-style) order in
+        memory.
 
     Returns
     -------
@@ -789,14 +790,16 @@ add_newdoc('numpy.core.multiarray', 'empty_like',
         The shape and data-type of `a` define these same attributes of the
         returned array.
     dtype : data-type, optional
-        .. versionadded:: 1.6.0
         Overrides the data type of the result.
-    order : {'C', 'F', 'A', or 'K'}, optional
+
         .. versionadded:: 1.6.0
+    order : {'C', 'F', 'A', or 'K'}, optional
         Overrides the memory layout of the result. 'C' means C-order,
         'F' means F-order, 'A' means 'F' if ``a`` is Fortran contiguous,
         'C' otherwise. 'K' means match the layout of ``a`` as closely
         as possible.
+
+        .. versionadded:: 1.6.0
     subok : bool, optional.
         If True, then the newly created array will use the sub-class
         type of 'a', otherwise it will be a base-class array. Defaults
@@ -885,7 +888,7 @@ add_newdoc('numpy.core.multiarray', 'zeros',
     >>> np.zeros(5)
     array([ 0.,  0.,  0.,  0.,  0.])
 
-    >>> np.zeros((5,), dtype=numpy.int)
+    >>> np.zeros((5,), dtype=np.int)
     array([0, 0, 0, 0, 0])
 
     >>> np.zeros((2, 1))
@@ -1142,7 +1145,7 @@ add_newdoc('numpy.core.multiarray', 'concatenate',
     """
     concatenate((a1, a2, ...), axis=0)
 
-    Join a sequence of arrays together.
+    Join a sequence of arrays along an existing axis.
 
     Parameters
     ----------
@@ -1166,6 +1169,7 @@ add_newdoc('numpy.core.multiarray', 'concatenate',
     hsplit : Split array into multiple sub-arrays horizontally (column wise)
     vsplit : Split array into multiple sub-arrays vertically (row wise)
     dsplit : Split array into multiple sub-arrays along the 3rd axis (depth).
+    stack : Stack a sequence of arrays along a new axis.
     hstack : Stack arrays in sequence horizontally (column wise)
     vstack : Stack arrays in sequence vertically (row wise)
     dstack : Stack arrays in sequence depth wise (along third dimension)
@@ -1701,6 +1705,7 @@ add_newdoc('numpy.core.multiarray', 'promote_types',
     Notes
     -----
     .. versionadded:: 1.6.0
+
     Starting in NumPy 1.9, promote_types function now returns a valid string
     length when given an integer or float dtype as one argument and a string
     dtype as another argument. Previously it always returned the input string
@@ -1942,6 +1947,7 @@ add_newdoc('numpy.core', 'dot',
     vdot : Complex-conjugating dot product.
     tensordot : Sum products over arbitrary axes.
     einsum : Einstein summation convention.
+    matmul : '@' operator as method with out parameter.
 
     Examples
     --------
@@ -1953,7 +1959,7 @@ add_newdoc('numpy.core', 'dot',
     >>> np.dot([2j, 3j], [2j, 3j])
     (-13+0j)
 
-    For 2-D arrays it's the matrix product:
+    For 2-D arrays it is the matrix product:
 
     >>> a = [[1, 0], [0, 1]]
     >>> b = [[4, 1], [2, 2]]
@@ -1969,6 +1975,130 @@ add_newdoc('numpy.core', 'dot',
     499128
 
     """)
+
+add_newdoc('numpy.core', 'matmul',
+    """
+    matmul(a, b, out=None)
+
+    Matrix product of two arrays.
+
+    The behavior depends on the arguments in the following way.
+
+    - If both arguments are 2-D they are multiplied like conventional
+      matrices.
+    - If either argument is N-D, N > 2, it is treated as a stack of
+      matrices residing in the last two indexes and broadcast accordingly.
+    - If the first argument is 1-D, it is promoted to a matrix by
+      prepending a 1 to its dimensions. After matrix multiplication
+      the prepended 1 is removed.
+    - If the second argument is 1-D, it is promoted to a matrix by
+      appending a 1 to its dimensions. After matrix multiplication
+      the appended 1 is removed.
+
+    Multiplication by a scalar is not allowed, use ``*`` instead. Note that
+    multiplying a stack of matrices with a vector will result in a stack of
+    vectors, but matmul will not recognize it as such.
+
+    ``matmul`` differs from ``dot`` in two important ways.
+
+    - Multiplication by scalars is not allowed.
+    - Stacks of matrices are broadcast together as if the matrices
+      were elements.
+
+    .. warning::
+       This function is preliminary and included in Numpy 1.10 for testing
+       and documentation. Its semantics will not change, but the number and
+       order of the optional arguments will.
+
+    .. versionadded:: 1.10.0
+
+    Parameters
+    ----------
+    a : array_like
+        First argument.
+    b : array_like
+        Second argument.
+    out : ndarray, optional
+        Output argument. This must have the exact kind that would be returned
+        if it was not used. In particular, it must have the right type, must be
+        C-contiguous, and its dtype must be the dtype that would be returned
+        for `dot(a,b)`. This is a performance feature. Therefore, if these
+        conditions are not met, an exception is raised, instead of attempting
+        to be flexible.
+
+    Returns
+    -------
+    output : ndarray
+        Returns the dot product of `a` and `b`.  If `a` and `b` are both
+        1-D arrays then a scalar is returned; otherwise an array is
+        returned.  If `out` is given, then it is returned.
+
+    Raises
+    ------
+    ValueError
+        If the last dimension of `a` is not the same size as
+        the second-to-last dimension of `b`.
+
+        If scalar value is passed.
+
+    See Also
+    --------
+    vdot : Complex-conjugating dot product.
+    tensordot : Sum products over arbitrary axes.
+    einsum : Einstein summation convention.
+    dot : alternative matrix product with different broadcasting rules.
+
+    Notes
+    -----
+    The matmul function implements the semantics of the `@` operator introduced
+    in Python 3.5 following PEP465.
+
+    Examples
+    --------
+    For 2-D arrays it is the matrix product:
+
+    >>> a = [[1, 0], [0, 1]]
+    >>> b = [[4, 1], [2, 2]]
+    >>> np.matmul(a, b)
+    array([[4, 1],
+           [2, 2]])
+
+    For 2-D mixed with 1-D, the result is the usual.
+
+    >>> a = [[1, 0], [0, 1]]
+    >>> b = [1, 2]
+    >>> np.matmul(a, b)
+    array([1, 2])
+    >>> np.matmul(b, a)
+    array([1, 2])
+
+
+    Broadcasting is conventional for stacks of arrays
+
+    >>> a = np.arange(2*2*4).reshape((2,2,4))
+    >>> b = np.arange(2*2*4).reshape((2,4,2))
+    >>> np.matmul(a,b).shape
+    (2, 2, 2)
+    >>> np.matmul(a,b)[0,1,1]
+    98
+    >>> sum(a[0,1,:] * b[0,:,1])
+    98
+
+    Vector, vector returns the scalar inner product, but neither argument
+    is complex-conjugated:
+
+    >>> np.matmul([2j, 3j], [2j, 3j])
+    (-13+0j)
+
+    Scalar multiplication raises an error.
+
+    >>> np.matmul([1,2], 3)
+    Traceback (most recent call last):
+    ...
+    ValueError: Scalar operands are not allowed, use '*' instead
+
+    """)
+
 
 add_newdoc('numpy.core', 'einsum',
     """
@@ -2062,6 +2192,14 @@ add_newdoc('numpy.core', 'einsum',
     An alternative way to provide the subscripts and operands is as
     ``einsum(op0, sublist0, op1, sublist1, ..., [sublistout])``. The examples
     below have corresponding `einsum` calls with the two parameter methods.
+
+    .. versionadded:: 1.10.0
+
+    Views returned from einsum are now writeable whenever the input array
+    is writeable. For example, ``np.einsum('ijk...->kji...', a)`` will now
+    have the same effect as ``np.swapaxes(a, 0, 2)`` and
+    ``np.einsum('ii->i', a)`` will return a writeable view of the diagonal
+    of a 2D array.
 
     Examples
     --------
@@ -2172,42 +2310,13 @@ add_newdoc('numpy.core', 'einsum',
     array([[10, 28, 46, 64],
            [13, 40, 67, 94]])
 
-    """)
-
-add_newdoc('numpy.core', 'alterdot',
-    """
-    Change `dot`, `vdot`, and `inner` to use accelerated BLAS functions.
-
-    Typically, as a user of Numpy, you do not explicitly call this function. If
-    Numpy is built with an accelerated BLAS, this function is automatically
-    called when Numpy is imported.
-
-    When Numpy is built with an accelerated BLAS like ATLAS, these functions
-    are replaced to make use of the faster implementations.  The faster
-    implementations only affect float32, float64, complex64, and complex128
-    arrays. Furthermore, the BLAS API only includes matrix-matrix,
-    matrix-vector, and vector-vector products. Products of arrays with larger
-    dimensionalities use the built in functions and are not accelerated.
-
-    See Also
-    --------
-    restoredot : `restoredot` undoes the effects of `alterdot`.
-
-    """)
-
-add_newdoc('numpy.core', 'restoredot',
-    """
-    Restore `dot`, `vdot`, and `innerproduct` to the default non-BLAS
-    implementations.
-
-    Typically, the user will only need to call this when troubleshooting and
-    installation problem, reproducing the conditions of a build without an
-    accelerated BLAS, or when being very careful about benchmarking linear
-    algebra operations.
-
-    See Also
-    --------
-    alterdot : `restoredot` undoes the effects of `alterdot`.
+    >>> # since version 1.10.0
+    >>> a = np.zeros((3, 3))
+    >>> np.einsum('ii->i', a)[:] = 1
+    >>> a
+    array([[ 1.,  0.,  0.],
+           [ 0.,  1.,  0.],
+           [ 0.,  0.,  1.]])
 
     """)
 
@@ -2314,7 +2423,7 @@ add_newdoc('numpy.core.multiarray', 'ndarray',
     strides : tuple of ints, optional
         Strides of data in memory.
     order : {'C', 'F'}, optional
-        Row-major or column-major order.
+        Row-major (C-style) or column-major (Fortran-style) order.
 
     Attributes
     ----------
@@ -3003,7 +3112,7 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('__setstate__',
 
 add_newdoc('numpy.core.multiarray', 'ndarray', ('all',
     """
-    a.all(axis=None, out=None)
+    a.all(axis=None, out=None, keepdims=False)
 
     Returns True if all elements evaluate to True.
 
@@ -3018,7 +3127,7 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('all',
 
 add_newdoc('numpy.core.multiarray', 'ndarray', ('any',
     """
-    a.any(axis=None, out=None)
+    a.any(axis=None, out=None, keepdims=False)
 
     Returns True if any of the elements of `a` evaluate to True.
 
@@ -3219,9 +3328,10 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('choose',
 
 add_newdoc('numpy.core.multiarray', 'ndarray', ('clip',
     """
-    a.clip(a_min, a_max, out=None)
+    a.clip(min=None, max=None, out=None)
 
-    Return an array whose values are limited to ``[a_min, a_max]``.
+    Return an array whose values are limited to ``[min, max]``.
+    One of max or min must be given.
 
     Refer to `numpy.clip` for full documentation.
 
@@ -3458,9 +3568,9 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('flatten',
     Parameters
     ----------
     order : {'C', 'F', 'A'}, optional
-        Whether to flatten in C (row-major), Fortran (column-major) order,
-        or preserve the C/Fortran ordering from `a`.
-        The default is 'C'.
+        Whether to flatten in row-major (C-style) or
+        column-major (Fortran-style) order or preserve the
+        C/Fortran ordering from `a`.  The default is 'C'.
 
     Returns
     -------
@@ -3629,37 +3739,6 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('itemset',
     """))
 
 
-add_newdoc('numpy.core.multiarray', 'ndarray', ('setasflat',
-    """
-    a.setasflat(arr)
-
-    Equivalent to a.flat = arr.flat, but is generally more efficient.
-    This function does not check for overlap, so if ``arr`` and ``a``
-    are viewing the same data with different strides, the results will
-    be unpredictable.
-
-    Parameters
-    ----------
-    arr : array_like
-        The array to copy into a.
-
-    Examples
-    --------
-    >>> a = np.arange(2*4).reshape(2,4)[:,:-1]; a
-    array([[0, 1, 2],
-           [4, 5, 6]])
-    >>> b = np.arange(3*3, dtype='f4').reshape(3,3).T[::-1,:-1]; b
-    array([[ 2.,  5.],
-           [ 1.,  4.],
-           [ 0.,  3.]], dtype=float32)
-    >>> a.setasflat(b)
-    >>> a
-    array([[2, 5, 1],
-           [4, 0, 3]])
-
-    """))
-
-
 add_newdoc('numpy.core.multiarray', 'ndarray', ('max',
     """
     a.max(axis=None, out=None)
@@ -3677,7 +3756,7 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('max',
 
 add_newdoc('numpy.core.multiarray', 'ndarray', ('mean',
     """
-    a.mean(axis=None, dtype=None, out=None)
+    a.mean(axis=None, dtype=None, out=None, keepdims=False)
 
     Returns the average of the array elements along given axis.
 
@@ -3692,7 +3771,7 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('mean',
 
 add_newdoc('numpy.core.multiarray', 'ndarray', ('min',
     """
-    a.min(axis=None, out=None)
+    a.min(axis=None, out=None, keepdims=False)
 
     Return the minimum along a given axis.
 
@@ -3790,7 +3869,7 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('nonzero',
 
 add_newdoc('numpy.core.multiarray', 'ndarray', ('prod',
     """
-    a.prod(axis=None, dtype=None, out=None)
+    a.prod(axis=None, dtype=None, out=None, keepdims=False)
 
     Return the product of the array elements over the given axis
 
@@ -4210,10 +4289,12 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('sort',
         last axis.
     kind : {'quicksort', 'mergesort', 'heapsort'}, optional
         Sorting algorithm. Default is 'quicksort'.
-    order : list, optional
+    order : str or list of str, optional
         When `a` is an array with fields defined, this argument specifies
-        which fields to compare first, second, etc.  Not all fields need be
-        specified.
+        which fields to compare first, second, etc.  A single field can
+        be specified as a string, and not all fields need be specified,
+        but unspecified fields will still be used, in the order in which
+        they come up in the dtype, to break ties.
 
     See Also
     --------
@@ -4277,10 +4358,12 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('partition',
         last axis.
     kind : {'introselect'}, optional
         Selection algorithm. Default is 'introselect'.
-    order : list, optional
+    order : str or list of str, optional
         When `a` is an array with fields defined, this argument specifies
-        which fields to compare first, second, etc.  Not all fields need be
-        specified.
+        which fields to compare first, second, etc.  A single field can
+        be specified as a string, and not all fields need be specified,
+        but unspecified fields will still be used, in the order in which
+        they come up in the dtype, to break ties.
 
     See Also
     --------
@@ -4321,7 +4404,7 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('squeeze',
 
 add_newdoc('numpy.core.multiarray', 'ndarray', ('std',
     """
-    a.std(axis=None, dtype=None, out=None, ddof=0)
+    a.std(axis=None, dtype=None, out=None, ddof=0, keepdims=False)
 
     Returns the standard deviation of the array elements along given axis.
 
@@ -4336,7 +4419,7 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('std',
 
 add_newdoc('numpy.core.multiarray', 'ndarray', ('sum',
     """
-    a.sum(axis=None, dtype=None, out=None)
+    a.sum(axis=None, dtype=None, out=None, keepdims=False)
 
     Return the sum of the array elements over the given axis.
 
@@ -4568,7 +4651,7 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('transpose',
 
 add_newdoc('numpy.core.multiarray', 'ndarray', ('var',
     """
-    a.var(axis=None, dtype=None, out=None, ddof=0)
+    a.var(axis=None, dtype=None, out=None, ddof=0, keepdims=False)
 
     Returns the variance of the array elements, along given axis.
 
@@ -4650,7 +4733,7 @@ add_newdoc('numpy.core.multiarray', 'ndarray', ('view',
     >>> print x
     [(1, 20) (3, 4)]
 
-    Using a view to convert an array to a record array:
+    Using a view to convert an array to a recarray:
 
     >>> z = x.view(np.recarray)
     >>> z.a
@@ -4853,11 +4936,11 @@ add_newdoc('numpy.core.umath', 'seterrobj',
 
 ##############################################################################
 #
-# lib._compiled_base functions
+# compiled_base functions
 #
 ##############################################################################
 
-add_newdoc('numpy.lib._compiled_base', 'digitize',
+add_newdoc('numpy.core.multiarray', 'digitize',
     """
     digitize(x, bins, right=False)
 
@@ -4874,14 +4957,15 @@ add_newdoc('numpy.lib._compiled_base', 'digitize',
     Parameters
     ----------
     x : array_like
-        Input array to be binned. It has to be 1-dimensional.
+        Input array to be binned. Prior to Numpy 1.10.0, this array had to
+        be 1-dimensional, but can now have any shape.
     bins : array_like
         Array of bins. It has to be 1-dimensional and monotonic.
     right : bool, optional
         Indicating whether the intervals include the right or the left bin
         edge. Default behavior is (right==False) indicating that the interval
-        does not include the right edge. The left bin and is open in this
-        case. Ie., bins[i-1] <= x < bins[i] is the default behavior for
+        does not include the right edge. The left bin end is open in this
+        case, i.e., bins[i-1] <= x < bins[i] is the default behavior for
         monotonically increasing bins.
 
     Returns
@@ -4892,7 +4976,7 @@ add_newdoc('numpy.lib._compiled_base', 'digitize',
     Raises
     ------
     ValueError
-        If the input is not 1-dimensional, or if `bins` is not monotonic.
+        If `bins` is not monotonic.
     TypeError
         If the type of the input is complex.
 
@@ -4905,6 +4989,13 @@ add_newdoc('numpy.lib._compiled_base', 'digitize',
     If values in `x` are such that they fall outside the bin range,
     attempting to index `bins` with the indices that `digitize` returns
     will result in an IndexError.
+
+    .. versionadded:: 1.10.0
+
+    `np.digitize` is  implemented in terms of `np.searchsorted`. This means
+    that a binary search is used to bin the values, which scales much better
+    for larger number of bins than the previous linear search. It also removes
+    the requirement for the input array to be 1-dimensional.
 
     Examples
     --------
@@ -4922,14 +5013,14 @@ add_newdoc('numpy.lib._compiled_base', 'digitize',
     1.0 <= 1.6 < 2.5
 
     >>> x = np.array([1.2, 10.0, 12.4, 15.5, 20.])
-    >>> bins = np.array([0,5,10,15,20])
+    >>> bins = np.array([0, 5, 10, 15, 20])
     >>> np.digitize(x,bins,right=True)
     array([1, 2, 3, 4, 4])
     >>> np.digitize(x,bins,right=False)
     array([1, 3, 3, 4, 5])
     """)
 
-add_newdoc('numpy.lib._compiled_base', 'bincount',
+add_newdoc('numpy.core.multiarray', 'bincount',
     """
     bincount(x, weights=None, minlength=None)
 
@@ -4951,9 +5042,9 @@ add_newdoc('numpy.lib._compiled_base', 'bincount',
     weights : array_like, optional
         Weights, array of the same shape as `x`.
     minlength : int, optional
-        .. versionadded:: 1.6.0
-
         A minimum number of bins for the output array.
+
+        .. versionadded:: 1.6.0
 
     Returns
     -------
@@ -5002,7 +5093,7 @@ add_newdoc('numpy.lib._compiled_base', 'bincount',
 
     """)
 
-add_newdoc('numpy.lib._compiled_base', 'ravel_multi_index',
+add_newdoc('numpy.core.multiarray', 'ravel_multi_index',
     """
     ravel_multi_index(multi_index, dims, mode='raise', order='C')
 
@@ -5026,8 +5117,9 @@ add_newdoc('numpy.lib._compiled_base', 'ravel_multi_index',
         In 'clip' mode, a negative index which would normally
         wrap will clip to 0 instead.
     order : {'C', 'F'}, optional
-        Determines whether the multi-index should be viewed as indexing in
-        C (row-major) order or FORTRAN (column-major) order.
+        Determines whether the multi-index should be viewed as
+        indexing in row-major (C-style) or column-major
+        (Fortran-style) order.
 
     Returns
     -------
@@ -5059,7 +5151,7 @@ add_newdoc('numpy.lib._compiled_base', 'ravel_multi_index',
     1621
     """)
 
-add_newdoc('numpy.lib._compiled_base', 'unravel_index',
+add_newdoc('numpy.core.multiarray', 'unravel_index',
     """
     unravel_index(indices, dims, order='C')
 
@@ -5075,10 +5167,10 @@ add_newdoc('numpy.lib._compiled_base', 'unravel_index',
     dims : tuple of ints
         The shape of the array to use for unraveling ``indices``.
     order : {'C', 'F'}, optional
-        .. versionadded:: 1.6.0
-
         Determines whether the indices should be viewed as indexing in
-        C (row-major) order or FORTRAN (column-major) order.
+        row-major (C-style) or column-major (Fortran-style) order.
+
+        .. versionadded:: 1.6.0
 
     Returns
     -------
@@ -5102,7 +5194,7 @@ add_newdoc('numpy.lib._compiled_base', 'unravel_index',
 
     """)
 
-add_newdoc('numpy.lib._compiled_base', 'add_docstring',
+add_newdoc('numpy.core.multiarray', 'add_docstring',
     """
     add_docstring(obj, docstring)
 
@@ -5112,7 +5204,7 @@ add_newdoc('numpy.lib._compiled_base', 'add_docstring',
     raise a TypeError
     """)
 
-add_newdoc('numpy.lib._compiled_base', 'add_newdoc_ufunc',
+add_newdoc('numpy.core.umath', '_add_newdoc_ufunc',
     """
     add_ufunc_docstring(ufunc, new_docstring)
 
@@ -5138,7 +5230,7 @@ add_newdoc('numpy.lib._compiled_base', 'add_newdoc_ufunc',
     and then throwing away the ufunc.
     """)
 
-add_newdoc('numpy.lib._compiled_base', 'packbits',
+add_newdoc('numpy.core.multiarray', 'packbits',
     """
     packbits(myarray, axis=None)
 
@@ -5182,7 +5274,7 @@ add_newdoc('numpy.lib._compiled_base', 'packbits',
 
     """)
 
-add_newdoc('numpy.lib._compiled_base', 'unpackbits',
+add_newdoc('numpy.core.multiarray', 'unpackbits',
     """
     unpackbits(myarray, axis=None)
 
@@ -5888,17 +5980,18 @@ add_newdoc('numpy.core.multiarray', 'dtype',
     >>> np.dtype(np.int16)
     dtype('int16')
 
-    Record, one field name 'f1', containing int16:
+    Structured type, one field name 'f1', containing int16:
 
     >>> np.dtype([('f1', np.int16)])
     dtype([('f1', '<i2')])
 
-    Record, one field named 'f1', in itself containing a record with one field:
+    Structured type, one field named 'f1', in itself containing a structured
+    type with one field:
 
     >>> np.dtype([('f1', [('f1', np.int16)])])
     dtype([('f1', [('f1', '<i2')])])
 
-    Record, two fields: the first field contains an unsigned int, the
+    Structured type, two fields: the first field contains an unsigned int, the
     second an int32:
 
     >>> np.dtype([('f1', np.uint), ('f2', np.int32)])

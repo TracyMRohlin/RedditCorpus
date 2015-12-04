@@ -1,0 +1,7 @@
+Title: help loop
+Karma: 4
+Date: 1385482423.0
+hello use loop print elements d array need help trying figure please code ever run prints address actual elements array public class arrray public static void mainstring args int matrix int b matrix int elem matrix systemoutprintelem
+
+==============================
+

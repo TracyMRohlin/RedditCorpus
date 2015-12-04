@@ -1,0 +1,7 @@
+Title: little confusing language distributions
+Karma: 15
+Date: 1324227793.0
+getting started learning programming python got questions hope programming community answer post python subreddit post python jython compiles java byte code dalvik vm compiles java byte code theory possible write native android apps using python syntax jython possible considerable drawbacks benefits several different versions python example pypy ironpython jython etc thanks
+
+==============================
+

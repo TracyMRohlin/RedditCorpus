@@ -1,0 +1,7 @@
+Title: c string defined initialized
+Karma: 4
+Date: 1432112802.0
+started working principles practice using c chapter trouble understanding happening program identifies repeated words int main int numberofwords string previous string current cin current numberofwords previous current cout word number numberofwords repeated current ' previous current word entered defines current word previous also set word code determining current defined recently entered word
+
+==============================
+

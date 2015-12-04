@@ -1,0 +1,7 @@
+Title: acquire sense object oriented decompositiontopdown planning
+Karma: 9
+Date: 1431983682.0
+hi coders like ask help cs student years assignments hand usually praised good quality generally speaking bragging think quite good amongst peers regarding general knowledge coding principles uptodate matters however identity crisis lately realized never real complex projects spare time end barely anything show like github portfolio started thinking sat accomplish found even finally decided code like blog http server sat knowing design systemhow get startedwhat modules write feel like throughout years trained work frameworks came assignments never really learned write complete complex programs scratch hard really graps problem feel like something unable decompose problem description look specification know way get going class responsibilities separated etc see good code though immediately see great solid principles etc mean crappy programmer inexperienced get sense topdown planning writing stuff totally scratch mean excluding rd party libs thanks
+
+==============================
+

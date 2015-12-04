@@ -1,0 +1,7 @@
+Title: code faster
+Karma: 252
+Date: 1400642454.0
+programming two years undergraduate create programs horribly slow comparison peers type slow wpm continuously looking api feel familiar java api spend ungodly amount time thinking structure code obvious assigned project software engineering create enhanced notepad given one week completed assignment time lot peers completed assignment days took entire week assume finished earlier command pattern using separate commands user interface number command classes getting hand tried implementing template pattern maybe make little structured three abstract classes type command textpallet file implementing command interface problem spent whole day thinking implementation coding lot peers immediately seen implement implemented correctly like way structured rolled back anyways waste two days end peers better working versions mine put lot effort tends assignments go fairly bothersome tldr trying implement something generally look ahead see look structurally big problem waste lot time bad implementations fix edit thank everyone advice try keep mind next project work
+
+==============================
+

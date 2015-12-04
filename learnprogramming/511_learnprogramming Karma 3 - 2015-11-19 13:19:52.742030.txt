@@ -1,0 +1,7 @@
+Title: java printing information forloop one messagebox
+Karma: 3
+Date: 1385145914.0
+context program asks user choices whether interested watching match stores choice boolean array called choice name location printed choice true print method defined previously using joptionpaneshowmessagedialog problem final choices printed printed different input dialogs want printed single message dialog eg want new message dialog match location match location instead new message dialog match location new message dialog match location thank int iarraysize ifchoiceitrue printmatchi locationi
+
+==============================
+

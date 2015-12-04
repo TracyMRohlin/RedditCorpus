@@ -1,0 +1,7 @@
+Title: c incomplete type error using friend functions
+Karma: 6
+Date: 1386027638.0
+exactly stackoverflow problem
+
+==============================
+

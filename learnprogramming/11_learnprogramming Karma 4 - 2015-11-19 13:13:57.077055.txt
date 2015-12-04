@@ -1,0 +1,7 @@
+Title: c need learn properly configure opengl without ide
+Karma: 4
+Date: 1400817447.0
+hello currently process learning c bit curious need understand order able make setup make use opengl api without ide currently using mingw distro powershell writing source files notepad need learnknow order installconfigure opengl way use current setup note necessarily planning actually program way thought good knowledge provided possible mean clunky impractical outside ide ide instead
+
+==============================
+

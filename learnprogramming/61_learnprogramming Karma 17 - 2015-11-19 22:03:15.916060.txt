@@ -1,0 +1,7 @@
+Title: model movement human body use genetic algorithms find optimal movements given certain parameters
+Karma: 17
+Date: 1324440511.0
+title really says without going much details really looking couple different things one package wondering suitable software exists already modelling restrictions movements human body walking moving arms terms reach speed acceleration etc using genetic algorithms find optimal version move certain situations anyone know suitable software none look
+
+==============================
+

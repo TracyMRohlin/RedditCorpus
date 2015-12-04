@@ -35,7 +35,7 @@ Capabilities
 
 - Is straightforward to reverse engineer. Datasets often live longer than
   the programs that created them. A competent developer should be
-  able to create a solution in his preferred programming language to
+  able to create a solution in their preferred programming language to
   read most ``.npy`` files that he has been given without much
   documentation.
 
@@ -127,6 +127,19 @@ or Fortran-, depending on ``fortran_order``) bytes of the array.
 Consumers can figure out the number of bytes by multiplying the number
 of elements given by the shape (noting that ``shape=()`` means there is
 1 element) by ``dtype.itemsize``.
+
+Format Version 2.0
+------------------
+
+The version 1.0 format only allowed the array header to have a total size of
+65535 bytes.  This can be exceeded by structured arrays with a large number of
+columns.  The version 2.0 format extends the header size to 4 GiB.
+`numpy.save` will automatically save in 2.0 format if the data requires it,
+else it will always use the more compatible 1.0 format.
+
+The description of the fourth element of the header therefore has become:
+"The next 4 bytes form a little-endian unsigned int: the length of the header
+data HEADER_LEN."
 
 Notes
 -----
@@ -301,21 +314,19 @@ def _write_array_header(fp, d, version=None):
     header = header + ' '*topad + '\n'
     header = asbytes(_filter_header(header))
 
-    if len(header) >= (256*256) and version == (1, 0):
-        raise ValueError("header does not fit inside %s bytes required by the"
-                         " 1.0 format" % (256*256))
-    if len(header) < (256*256):
-        header_len_str = struct.pack('<H', len(header))
+    hlen = len(header)
+    if hlen < 256*256 and version in (None, (1, 0)):
         version = (1, 0)
-    elif len(header) < (2**32):
-        header_len_str = struct.pack('<I', len(header))
+        header_prefix = magic(1, 0) + struct.pack('<H', hlen)
+    elif hlen < 2**32 and version in (None, (2, 0)):
         version = (2, 0)
+        header_prefix = magic(2, 0) + struct.pack('<I', hlen)
     else:
-        raise ValueError("header does not fit inside 4 GiB required by "
-                         "the 2.0 format")
+        msg = "Header length %s too big for version=%s"
+        msg %= (hlen, version)
+        raise ValueError(msg)
 
-    fp.write(magic(*version))
-    fp.write(header_len_str)
+    fp.write(header_prefix)
     fp.write(header)
     return version
 
@@ -376,7 +387,7 @@ def read_array_header_1_0(fp):
         If the data is invalid.
 
     """
-    _read_array_header(fp, version=(1, 0))
+    return _read_array_header(fp, version=(1, 0))
 
 def read_array_header_2_0(fp):
     """
@@ -409,7 +420,7 @@ def read_array_header_2_0(fp):
         If the data is invalid.
 
     """
-    _read_array_header(fp, version=(2, 0))
+    return _read_array_header(fp, version=(2, 0))
 
 
 def _filter_header(s):
@@ -504,7 +515,7 @@ def _read_array_header(fp, version):
 
     return d['shape'], d['fortran_order'], dtype
 
-def write_array(fp, array, version=None):
+def write_array(fp, array, version=None, allow_pickle=True, pickle_kwargs=None):
     """
     Write an array to an NPY file, including a header.
 
@@ -522,11 +533,18 @@ def write_array(fp, array, version=None):
     version : (int, int) or None, optional
         The version number of the format. None means use the oldest
         supported version that is able to store the data.  Default: None
+    allow_pickle : bool, optional
+        Whether to allow writing pickled data. Default: True
+    pickle_kwargs : dict, optional
+        Additional keyword arguments to pass to pickle.dump, excluding
+        'protocol'. These are only useful when pickling objects in object
+        arrays on Python 3 to Python 2 compatible format.
 
     Raises
     ------
     ValueError
-        If the array cannot be persisted.
+        If the array cannot be persisted. This includes the case of
+        allow_pickle=False and array being an object array.
     Various other errors
         If the array contains Python objects as part of its dtype, the
         process of pickling them may raise various errors if the objects
@@ -548,7 +566,12 @@ def write_array(fp, array, version=None):
         # We contain Python objects so we cannot write out the data
         # directly.  Instead, we will pickle it out with version 2 of the
         # pickle protocol.
-        pickle.dump(array, fp, protocol=2)
+        if not allow_pickle:
+            raise ValueError("Object arrays cannot be saved when "
+                             "allow_pickle=False")
+        if pickle_kwargs is None:
+            pickle_kwargs = {}
+        pickle.dump(array, fp, protocol=2, **pickle_kwargs)
     elif array.flags.f_contiguous and not array.flags.c_contiguous:
         if isfileobj(fp):
             array.T.tofile(fp)
@@ -567,7 +590,7 @@ def write_array(fp, array, version=None):
                 fp.write(chunk.tobytes('C'))
 
 
-def read_array(fp):
+def read_array(fp, allow_pickle=True, pickle_kwargs=None):
     """
     Read an array from an NPY file.
 
@@ -576,6 +599,12 @@ def read_array(fp):
     fp : file_like object
         If this is not a real file object, then this may take extra memory
         and time.
+    allow_pickle : bool, optional
+        Whether to allow reading pickled data. Default: True
+    pickle_kwargs : dict
+        Additional keyword arguments to pass to pickle.load. These are only
+        useful when loading object arrays saved on Python 2 when using
+        Python 3.
 
     Returns
     -------
@@ -585,7 +614,8 @@ def read_array(fp):
     Raises
     ------
     ValueError
-        If the data is invalid.
+        If the data is invalid, or allow_pickle=False and the file contains
+        an object array.
 
     """
     version = read_magic(fp)
@@ -599,7 +629,20 @@ def read_array(fp):
     # Now read the actual data.
     if dtype.hasobject:
         # The array contained Python objects. We need to unpickle the data.
-        array = pickle.load(fp)
+        if not allow_pickle:
+            raise ValueError("Object arrays cannot be loaded when "
+                             "allow_pickle=False")
+        if pickle_kwargs is None:
+            pickle_kwargs = {}
+        try:
+            array = pickle.load(fp, **pickle_kwargs)
+        except UnicodeError as err:
+            if sys.version_info[0] >= 3:
+                # Friendlier error message
+                raise UnicodeError("Unpickling a python object failed: %r\n"
+                                   "You may need to pass the encoding= option "
+                                   "to numpy.load" % (err,))
+            raise
     else:
         if isfileobj(fp):
             # We can use the fast fromfile() function.

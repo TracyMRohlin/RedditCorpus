@@ -1,0 +1,7 @@
+Title: anyone help refine design process c
+Karma: 8
+Date: 1385391649.0
+looking advice references help refine design approach begin project c windows forms plan far create gui displays electrical grid nodes connected line overlays simulation takes data system model planning use image lines drawnerased instead actual geographical map like google bing maps depending progress goes something may pursue later though problem since electrical equipment configurations quite compact compared overall layout power lines thinking displaying site node connected via lines node selected display detailed equipment configuration separate view however sure best way approach problem worried include equipment imagemap view detail lost unless easy way zoom image ready begin starting seem like adding separate view adding work really necessary advice regarding situation
+
+==============================
+

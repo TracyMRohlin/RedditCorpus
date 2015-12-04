@@ -1,0 +1,7 @@
+Title: cxml storing struct xml two programs
+Karma: 3
+Date: 1400553270.0
+possible make struct one program say somthing like struct book string author string genre serialize instance struct xml program struct program b deserialize xml made program inside program b work asking making tile based game want store map made tile map editor made add xml file inside game load use use tile map editors want one edit paths ai also practice confused use struct class two programs considered two different data types serialize differently best solution
+
+==============================
+

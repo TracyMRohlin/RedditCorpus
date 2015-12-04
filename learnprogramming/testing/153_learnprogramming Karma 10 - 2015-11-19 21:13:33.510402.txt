@@ -1,0 +1,7 @@
+Title: html embedding navigation bar located external html file another
+Karma: 10
+Date: 1353561509.0
+trying design site simple navigation bar top entire bar designed however due number pages editing like able put navbar file individual page referencing back navbar file currently top body include filenavbarshtml editing pages dreamweaver within application working fine problems however load page browser navbar nonexistent also tried uploading site server see effect got nothing tips embedded stylesheet pages relative ease seem figure tutorials online confusing
+
+==============================
+

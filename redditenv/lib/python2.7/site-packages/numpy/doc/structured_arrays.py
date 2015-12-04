@@ -1,34 +1,33 @@
 """
-=====================================
-Structured Arrays (and Record Arrays)
-=====================================
+=================
+Structured Arrays
+=================
 
 Introduction
 ============
 
-Numpy provides powerful capabilities to create arrays of structs or records.
-These arrays permit one to manipulate the data by the structs or by fields of
-the struct. A simple example will show what is meant.: ::
+Numpy provides powerful capabilities to create arrays of structured datatype.
+These arrays permit one to manipulate the data by named fields. A simple 
+example will show what is meant.: ::
 
- >>> x = np.zeros((2,),dtype=('i4,f4,a10'))
- >>> x[:] = [(1,2.,'Hello'),(2,3.,"World")]
+ >>> x = np.array([(1,2.,'Hello'), (2,3.,"World")],
+ ...              dtype=[('foo', 'i4'),('bar', 'f4'), ('baz', 'S10')])
  >>> x
  array([(1, 2.0, 'Hello'), (2, 3.0, 'World')],
-      dtype=[('f0', '>i4'), ('f1', '>f4'), ('f2', '|S10')])
+      dtype=[('foo', '>i4'), ('bar', '>f4'), ('baz', '|S10')])
 
 Here we have created a one-dimensional array of length 2. Each element of
-this array is a record that contains three items, a 32-bit integer, a 32-bit
+this array is a structure that contains three items, a 32-bit integer, a 32-bit
 float, and a string of length 10 or less. If we index this array at the second
-position we get the second record: ::
+position we get the second structure: ::
 
  >>> x[1]
  (2,3.,"World")
 
 Conveniently, one can access any field of the array by indexing using the
-string that names that field. In this case the fields have received the
-default names 'f0', 'f1' and 'f2'. ::
+string that names that field. ::
 
- >>> y = x['f1']
+ >>> y = x['foo']
  >>> y
  array([ 2.,  3.], dtype=float32)
  >>> y[:] = 2*y
@@ -36,19 +35,19 @@ default names 'f0', 'f1' and 'f2'. ::
  array([ 4.,  6.], dtype=float32)
  >>> x
  array([(1, 4.0, 'Hello'), (2, 6.0, 'World')],
-       dtype=[('f0', '>i4'), ('f1', '>f4'), ('f2', '|S10')])
+       dtype=[('foo', '>i4'), ('bar', '>f4'), ('baz', '|S10')])
 
 In these examples, y is a simple float array consisting of the 2nd field
-in the record. But, rather than being a copy of the data in the structured
+in the structured type. But, rather than being a copy of the data in the structured
 array, it is a view, i.e., it shares exactly the same memory locations.
 Thus, when we updated this array by doubling its values, the structured
 array shows the corresponding values as doubled as well. Likewise, if one
-changes the record, the field view also changes: ::
+changes the structured array, the field view also changes: ::
 
  >>> x[1] = (-1,-1.,"Master")
  >>> x
  array([(1, 4.0, 'Hello'), (-1, -1.0, 'Master')],
-       dtype=[('f0', '>i4'), ('f1', '>f4'), ('f2', '|S10')])
+       dtype=[('foo', '>i4'), ('bar', '>f4'), ('baz', '|S10')])
  >>> y
  array([ 4., -1.], dtype=float32)
 
@@ -65,9 +64,10 @@ function keyword or a dtype object constructor itself).  This
 argument must be one of the following: 1) string, 2) tuple, 3) list, or
 4) dictionary.  Each of these is briefly described below.
 
-1) String argument (as used in the above examples).
+1) String argument.
 In this case, the constructor expects a comma-separated list of type
-specifiers, optionally with extra shape information.
+specifiers, optionally with extra shape information. The fields are 
+given the default names 'f0', 'f1', 'f2' and so on.
 The type specifiers can take 4 different forms: ::
 
   a) b1, i1, i2, i4, i8, u1, u2, u4, u8, f2, f4, f8, c8, c16, a<n>
@@ -152,7 +152,7 @@ values specifying type, offset, and an optional title. ::
 Accessing and modifying field names
 ===================================
 
-The field names are an attribute of the dtype object defining the record structure.
+The field names are an attribute of the dtype object defining the structure.
 For the last example: ::
 
  >>> x.dtype.names
@@ -213,11 +213,78 @@ If you fill it in row by row, it takes a take a tuple
  array([(10.0, 20.0), (1.0, 0.0), (2.0, 0.0), (3.0, 0.0), (4.0, 0.0)],
       dtype=[('var1', '<f8'), ('var2', '<f8')])
 
-More information
-====================================
-You can find some more information on recarrays and structured  arrays
-(including the difference between the two) `here
-<http://www.scipy.org/Cookbook/Recarray>`_.
+Record Arrays
+=============
+
+For convenience, numpy provides "record arrays" which allow one to access
+fields of structured arrays by attribute rather than by index. Record arrays
+are structured arrays wrapped using a subclass of ndarray,
+:class:`numpy.recarray`, which allows field access by attribute on the array
+object, and record arrays also use a special datatype, :class:`numpy.record`,
+which allows field access by attribute on the individual elements of the array. 
+
+The simplest way to create a record array is with :func:`numpy.rec.array`: ::
+
+ >>> recordarr = np.rec.array([(1,2.,'Hello'),(2,3.,"World")], 
+ ...                    dtype=[('foo', 'i4'),('bar', 'f4'), ('baz', 'S10')])
+ >>> recordarr.bar
+ array([ 2.,  3.], dtype=float32)
+ >>> recordarr[1:2]
+ rec.array([(2, 3.0, 'World')], 
+       dtype=[('foo', '<i4'), ('bar', '<f4'), ('baz', 'S10')])
+ >>> recordarr[1:2].foo
+ array([2], dtype=int32)
+ >>> recordarr.foo[1:2]
+ array([2], dtype=int32)
+ >>> recordarr[1].baz
+ 'World'
+
+numpy.rec.array can convert a wide variety of arguments into record arrays,
+including normal structured arrays: ::
+
+ >>> arr = array([(1,2.,'Hello'),(2,3.,"World")], 
+ ...             dtype=[('foo', 'i4'), ('bar', 'f4'), ('baz', 'S10')])
+ >>> recordarr = np.rec.array(arr)
+
+The numpy.rec module provides a number of other convenience functions for
+creating record arrays, see :ref:`record array creation routines
+<routines.array-creation.rec>`.
+
+A record array representation of a structured array can be obtained using the
+appropriate :ref:`view`: ::
+
+ >>> arr = np.array([(1,2.,'Hello'),(2,3.,"World")], 
+ ...                dtype=[('foo', 'i4'),('bar', 'f4'), ('baz', 'a10')])
+ >>> recordarr = arr.view(dtype=dtype((np.record, arr.dtype)), 
+ ...                      type=np.recarray)
+
+For convenience, viewing an ndarray as type `np.recarray` will automatically
+convert to `np.record` datatype, so the dtype can be left out of the view: ::
+
+ >>> recordarr = arr.view(np.recarray)
+ >>> recordarr.dtype
+ dtype((numpy.record, [('foo', '<i4'), ('bar', '<f4'), ('baz', 'S10')]))
+
+To get back to a plain ndarray both the dtype and type must be reset. The
+following view does so, taking into account the unusual case that the
+recordarr was not a structured type: ::
+
+ >>> arr2 = recordarr.view(recordarr.dtype.fields or recordarr.dtype, np.ndarray)
+
+Record array fields accessed by index or by attribute are returned as a record
+array if the field has a structured type but as a plain ndarray otherwise. ::
+
+ >>> recordarr = np.rec.array([('Hello', (1,2)),("World", (3,4))], 
+ ...                 dtype=[('foo', 'S6'),('bar', [('A', int), ('B', int)])])
+ >>> type(recordarr.foo)
+ <type 'numpy.ndarray'>
+ >>> type(recordarr.bar)
+ <class 'numpy.core.records.recarray'>
+
+Note that if a field has the same name as an ndarray attribute, the ndarray
+attribute takes precedence. Such fields will be inaccessible by attribute but
+may still be accessed by index.
+
 
 """
 from __future__ import division, absolute_import, print_function

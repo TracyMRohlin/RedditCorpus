@@ -1,0 +1,7 @@
+Title: tkinter intro
+Karma: 46
+Date: 1399795048.0
+teaching python coded rockpaperscissors game however want make gui know use tkinter anyone know good tutorials
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c dynamically allocate array user input using pointers
+Karma: 2
+Date: 1385274518.0
+figure aspect assignment parts figure use pointer set array size user someone show basic format outside resource
+
+==============================
+

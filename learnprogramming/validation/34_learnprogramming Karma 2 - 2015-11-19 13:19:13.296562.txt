@@ -1,0 +1,7 @@
+Title: visual c ifstreamopenfile fails debug shows error reading characters string
+Karma: 2
+Date: 1386229295.0
+veteran programmer c java perhaps missing something even google helping find solution program output floats testdata file ofstream following code work stdifstream inputstream new ifstream inputstreamopentestdata tried testdata testdata various different things file open one fields stream address xcdcdcdcd tells may initialization issue ideas thanks note win x running visual studio ps wrote phone apologize missed sidebar rules see post code fix soon get home
+
+==============================
+

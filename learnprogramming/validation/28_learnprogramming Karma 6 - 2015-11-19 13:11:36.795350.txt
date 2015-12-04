@@ -1,0 +1,7 @@
+Title: working function paper long hand
+Karma: 6
+Date: 1432285426.0
+wondering others approach kind thing basically deconstructing function see going understand better function simple python function finding gcd two numbers def gcdmn m n oldm m oldn n m oldn n oldmoldn return n go get couple numbers actually iterations say choose numbers iteration m n m n m n function true oldm m oldn n m oldn n oldm oldn end iteration variables m n iteration m n m n oldm m oldn n m oldn n oldm oldn end iteration m n iteration m n m n oldm m oldn n m oldn n oldm oldn end iteration m n iteration m n loop false pass loop return n therefore gcd two numbers obviously bit drawn curious others work long hand know easy function interested working process rather know kind answers makes sense
+
+==============================
+

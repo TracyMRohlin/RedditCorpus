@@ -1,0 +1,7 @@
+Title: javascript need help checkbox
+Karma: 6
+Date: 1432277907.0
+ok lines input typecheckbox classnavigationitem onclickshowchapterthis valuechapter checkedchecked div idchapter text herediv script put javascript function showchaptercb cbchecked documentgetelementbyclassnamecbvaluestyledisplay block else documentgetelementsbyclassnamecbvaluestyledisplay none script work help appreciated thanks
+
+==============================
+

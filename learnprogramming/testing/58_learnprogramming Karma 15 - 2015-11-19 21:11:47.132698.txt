@@ -1,0 +1,7 @@
+Title: c help random letters
+Karma: 15
+Date: 1368476325.0
+currently working project requires fill stack random letters code working fills stack however fills one letter hoping someone take look point probably stupid mistake include iostream include cstdlib includectime include string using namespace std const int maxstack class stacktype public void clearstack bool emptystack bool fullstack void pushchar numb void popchar numb int stackmaxstack int top int main stacktype candystack stacktype tempstack int int randnumrand srand timenull char candy candystackclearstack tempstackclearstack randnum whilecandystackfullstack iii randnum randnum candy' candystackpushcandy else randnum candy' candystackpushcandy else randnum candy' candystackpushcandy else randnum candy' candystackpushcandy whilecandystackemptystack candystackpopcandy cout candy side note googled issue majority people saying instead letters use numbers
+
+==============================
+

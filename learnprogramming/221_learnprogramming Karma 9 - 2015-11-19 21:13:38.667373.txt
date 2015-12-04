@@ -1,0 +1,7 @@
+Title: java tried stackoverflow luck try need write program autoupdates inside
+Karma: 9
+Date: 1353053737.0
+essentially trying write program autoupdates bootstrap program run work recently migrated ivy dependency management handled automagically include libs manually manager strongly advising us use resolver strings whenever possible using public private whenever possible issue boils able use jnlp webdeploy projects order update jar runtime way things signed assuming project uses question launch jar within jar taken time look urlclassloader seems lot considerations comes io comes mention specifying proper classpath downloaded file mention using library actually download sort catch see anyone ever written bootstrap updater using java run get working working program need run updater writeover jar outdated thanks help tldr wrote program works fine need check updates pull new jar outdated run use jnlp webstart signing reasons dependency management stuff
+
+==============================
+

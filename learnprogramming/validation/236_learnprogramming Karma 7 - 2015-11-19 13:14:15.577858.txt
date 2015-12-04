@@ -1,0 +1,7 @@
+Title: program gets fps debug mode release mode outside compiler visual studio normal improve debug mode fps
+Karma: 7
+Date: 1400134445.0
+making game quite discouraged see run low fps drawing rectangles screen performing simple calculations noticed runs relatively fine outside ide way improve performance bit still taking advantage debug features visual studio need minimum fps rate even capable drawing entire ui without going beneath edit using sfml
+
+==============================
+

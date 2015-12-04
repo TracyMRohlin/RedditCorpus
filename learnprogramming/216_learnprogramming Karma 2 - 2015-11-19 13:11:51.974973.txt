@@ -1,0 +1,7 @@
+Title: eclipse c compiled programs launch twice executed
+Karma: 2
+Date: 1431932240.0
+hello compiling program using eclipse c version helios service release mingw reason latest project executable runs twice launch command prompt simple text based console program functions run program normal windows command prompt eg cmyprogramexe immediately brand new console window pop top current window program running program finishes new window closes program launches original command prompt window behaviour seems occur regardless executable located program executes perfectly time runs twice consecutively separate windows clues noticed early development project eclipse sudden started pausing seems get temporarily stuck launching launching delegate launching program within eclipse seconds seems become unstuck continue launch normally program runs launch within eclipse besides slow launch seems run perfectly fine suspect might possibly linked problem never experienced programs totally puzzled behaviour anybody got ideas
+
+==============================
+

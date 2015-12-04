@@ -1,0 +1,7 @@
+Title: makes program specific particular os bit vs bit
+Karma: 24
+Date: 1353322359.0
+hello background phprails read interest recent post developing programs windows someone writes program windows port different os completely rewrite code programs made linux work distributions ubuntu etc use make professional programs interfaces linux lastly bit development different bit development except fact use larger numbers thanks edit also exe files work contain sorry many questions figured one post better lot
+
+==============================
+

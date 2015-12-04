@@ -20,6 +20,8 @@ from pbr import git
 
 
 def write_pbr_json(cmd, basename, filename):
+    if not hasattr(cmd.distribution, 'pbr') or not cmd.distribution.pbr:
+        return
     git_dir = git._run_git_functions()
     if not git_dir:
         return

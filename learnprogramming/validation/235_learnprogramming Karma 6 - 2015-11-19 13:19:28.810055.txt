@@ -1,0 +1,7 @@
+Title: attempting implement algorithm based paperin digital image processing complete loss one methods discussedxpost rdsp
+Karma: 6
+Date: 1385603402.0
+sure asking right subreddit dso posting hoping someone also familiar subject computer science student assignment requiring implement algorithm proposed paper hitting roadblock trying understand implementation one methods proposed paper sure understand section iiib well understand far order separate histograms subregions must first obtain histogram intensity levels achieved calculate density histogram equation furthermore sort density function values descending order implemented assume following paragraph paper goes describe hard time understanding authors trying convey find groups high density areas extend group area surrounding values paper talks momentary changes sure means anyone idea page located
+
+==============================
+

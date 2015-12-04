@@ -1,0 +1,7 @@
+Title: c difference iterator sizetype
+Karma: 2
+Date: 1385345627.0
+iteratoring vector difference using vectortypeiterator vectortypesizetype
+
+==============================
+

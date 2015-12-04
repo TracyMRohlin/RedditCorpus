@@ -1,0 +1,7 @@
+Title: simple javascript question
+Karma: 2
+Date: 1431772135.0
+total noob simple question random numbers random text display javascript currently using following simply print random number screen documentwritemathfloormathrandom need extend display different string text based random number generated someone please help understand tried creating variable random writing simple statement seem working
+
+==============================
+

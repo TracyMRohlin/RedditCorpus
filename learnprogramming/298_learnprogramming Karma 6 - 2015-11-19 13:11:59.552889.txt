@@ -1,0 +1,7 @@
+Title: eli difference modelviewpresenter modelviewviewmodel pattern
+Karma: 6
+Date: 1431728204.0
+topic somehow got hunch mvp works hard time grasping idea behind mvvm
+
+==============================
+

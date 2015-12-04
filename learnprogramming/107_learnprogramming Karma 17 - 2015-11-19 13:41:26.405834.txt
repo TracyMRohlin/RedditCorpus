@@ -1,0 +1,7 @@
+Title: point making declare functions derived class
+Karma: 17
+Date: 1369951639.0
+probably stupid question still learning ways inheritance polymorphism building state manager class future game projects base state class states derive base state class pure virtual functions states use later called state manager finished outlining went test functionality created test state class deriving base state class however went define classes functions compiler started telling inherited member allowed tried work around accessing cteststatecbasestateinit told member function declared forced redeclare functions base state derived class point begin
+
+==============================
+

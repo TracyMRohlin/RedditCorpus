@@ -1,0 +1,7 @@
+Title: c setting contents cedit box variable containing double
+Karma: 5
+Date: 1399896943.0
+trying set contents cedit box using variable double using setwindowtextvariable says type double compatible lpctstr tried converting double string cstring putting instead got error way use variable set contents cedit box chance anyone stumbles across post future problem converted double character array allowed set window text
+
+==============================
+

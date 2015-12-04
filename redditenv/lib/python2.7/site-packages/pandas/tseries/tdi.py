@@ -126,8 +126,8 @@ class TimedeltaIndex(DatetimeIndexOpsMixin, Int64Index):
 
     _engine_type = _index.TimedeltaEngine
 
-    _comparables = ['name','freq']
-    _attributes = ['name','freq']
+    _comparables = ['name', 'freq']
+    _attributes = ['name', 'freq']
     _is_numeric_dtype = True
     freq = None
 
@@ -278,6 +278,14 @@ class TimedeltaIndex(DatetimeIndexOpsMixin, Int64Index):
             raise Exception("invalid pickle state")
     _unpickle_compat = __setstate__
 
+    def _maybe_update_attributes(self, attrs):
+        """ Update Index attributes (e.g. freq) depending on op """
+        freq = attrs.get('freq', None)
+        if freq is not None:
+            # no need to infer if freq is None
+            attrs['freq'] = 'infer'
+        return attrs
+
     def _add_delta(self, delta):
         if isinstance(delta, (Tick, timedelta, np.timedelta64)):
             new_values = self._add_delta_td(delta)
@@ -390,6 +398,14 @@ class TimedeltaIndex(DatetimeIndexOpsMixin, Int64Index):
         if not hasnans:
             result = result.astype('int64')
         return result
+
+    def total_seconds(self):
+        """
+        Total duration of each element expressed in seconds.
+
+        .. versionadded:: 0.17.0
+        """
+        return self._maybe_mask_results(1e-9*self.asi8)
 
     def to_pytimedelta(self):
         """
@@ -556,14 +572,6 @@ class TimedeltaIndex(DatetimeIndexOpsMixin, Int64Index):
         else:
             return left
 
-    def __array_finalize__(self, obj):
-        if self.ndim == 0:  # pragma: no cover
-            return self.item()
-
-        self.name = getattr(obj, 'name', None)
-        self.freq = getattr(obj, 'freq', None)
-        self._reset_identity()
-
     def _wrap_union_result(self, other, result):
         name = self.name if self.name == other.name else None
         return self._simple_new(result, name=name, freq=None)
@@ -645,7 +653,7 @@ class TimedeltaIndex(DatetimeIndexOpsMixin, Int64Index):
         values = self._engine.get_value(_values_from_object(series), key)
         return _maybe_box(self, values, series, key)
 
-    def get_loc(self, key, method=None):
+    def get_loc(self, key, method=None, tolerance=None):
         """
         Get integer location for requested label
 
@@ -653,12 +661,17 @@ class TimedeltaIndex(DatetimeIndexOpsMixin, Int64Index):
         -------
         loc : int
         """
+        if tolerance is not None:
+            # try converting tolerance now, so errors don't get swallowed by
+            # the try/except clauses below
+            tolerance = self._convert_tolerance(tolerance)
+
         if _is_convertible_to_td(key):
             key = Timedelta(key)
-            return Index.get_loc(self, key, method=method)
+            return Index.get_loc(self, key, method, tolerance)
 
         try:
-            return Index.get_loc(self, key, method=method)
+            return Index.get_loc(self, key, method, tolerance)
         except (KeyError, ValueError, TypeError):
             try:
                 return self._get_string_slice(key)
@@ -667,7 +680,7 @@ class TimedeltaIndex(DatetimeIndexOpsMixin, Int64Index):
 
             try:
                 stamp = Timedelta(key)
-                return Index.get_loc(self, stamp, method=method)
+                return Index.get_loc(self, stamp, method, tolerance)
             except (KeyError, ValueError):
                 raise KeyError(key)
 
@@ -853,7 +866,7 @@ class TimedeltaIndex(DatetimeIndexOpsMixin, Int64Index):
                 freq = self.freq
         else:
             if com.is_list_like(loc):
-                loc = lib.maybe_indices_to_slice(com._ensure_int64(np.array(loc)))
+                loc = lib.maybe_indices_to_slice(com._ensure_int64(np.array(loc)), len(self))
             if isinstance(loc, slice) and loc.step in (1, None):
                 if (loc.start in (0, None) or loc.stop in (len(self), None)):
                     freq = self.freq

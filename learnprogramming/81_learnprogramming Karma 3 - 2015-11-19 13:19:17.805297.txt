@@ -1,0 +1,7 @@
+Title: using java database
+Karma: 3
+Date: 1386046864.0
+looking good online resources first attempt making simple command line application java using database familiar using php create relational databases like know java
+
+==============================
+

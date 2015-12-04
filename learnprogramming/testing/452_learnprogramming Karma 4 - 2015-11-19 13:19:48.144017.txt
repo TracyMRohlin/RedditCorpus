@@ -1,0 +1,7 @@
+Title: python close loop
+Karma: 4
+Date: 1385264983.0
+pretty new programming wrote basic commission program practice loops python comissionrate y keepgoing sales inputenter amount sales comission sales comissionrate print comission comission keepgoing inputdo want calculate another commission enter y yes keepgoing y print thank program runs swell end user inputs y loop expectedly repeats get error message user input y opposed cessation loop tried rewording program different ways nothing seems work
+
+==============================
+

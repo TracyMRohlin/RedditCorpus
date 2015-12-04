@@ -1,0 +1,7 @@
+Title: trying figure go making program user compare two things time
+Karma: 4
+Date: 1432267519.0
+sure make sense please bear pretty new programming done well dabbling far much looking technical help figure asking concept going basicly trying create program fun user figure favorite character tv shows starts form asks shows wants program pull characters moves another form pictures buttons button picture idea user choose favorite comparing two time trouble figuring exactly make program retain user info ordering really like work without hardcoded settle single iteration bubblesorting type thing really wouldnt give idea say nd rd th etc favorite prefer something like tournament brackets v winner goes winner v said really sure go something like anybody give suggestions specifications using visual basic already ui comfortable ideally prefer order randomized initially also ideally nice system worked well enough add another tv series say txt file names folder jpegs lines code included thank taking time read
+
+==============================
+

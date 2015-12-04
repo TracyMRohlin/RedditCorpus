@@ -1,0 +1,7 @@
+Title: pascal input array characters without knowing length
+Karma: 9
+Date: 1385236789.0
+create program reads hex number console stores array characters converts binary number outputs result know max number digits user input know many digits user actually input starts program question read input user without asking many digits number
+
+==============================
+

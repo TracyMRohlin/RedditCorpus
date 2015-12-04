@@ -1,0 +1,7 @@
+Title: new programmer wrong goto statements
+Karma: 153
+Date: 1384219435.0
+reading internet come across advice several sources avoid goto statements costs actual reason found useful things like error handling
+
+==============================
+

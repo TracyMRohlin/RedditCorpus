@@ -1,0 +1,7 @@
+Title: resources available help implement asymmetric elliptical curve cryptography java
+Karma: 10
+Date: 1384898276.0
+process creating application allows users send encrypted messages back forth instead using traditional rsa algorithm generate asymmetric keys thought give elliptical curve cryptography shot familiar general idea behind ecc makes usefulpowerful loss go generating keys using ecc resourcestutorials help wrap head around
+
+==============================
+

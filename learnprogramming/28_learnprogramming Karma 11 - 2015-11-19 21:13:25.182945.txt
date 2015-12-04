@@ -1,0 +1,7 @@
+Title: c unit tests wrong
+Karma: 11
+Date: 1354324556.0
+trying figure organize run unit tests project qt creator source files theprojecttheproject create new project theprojectteststest contains single testcpp file main function testing class modify testpro use qt qmake project file qmake generate makefile adding dependpath theproject includepath theproject sources testcpp theprojectfilecpp theprojectfilecpp theprojectfilecpp theprojectfilecpp headers theprojectfileh theprojectfileh theprojectfileh theprojectfileh add include fileh etc testcpp write actual test good go question properly good practice found tons reading test little actually run tests efficient manner
+
+==============================
+

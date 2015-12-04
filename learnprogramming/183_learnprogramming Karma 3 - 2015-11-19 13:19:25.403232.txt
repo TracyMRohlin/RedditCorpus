@@ -1,0 +1,7 @@
+Title: c save game
+Karma: 3
+Date: 1385712282.0
+need write functions saves game code far professor said loop array place commas know means next thanks inventory inv invsize fixed fixed npsize constant outside outsize courtyard court courtsize foyer foyer foyersize kitchen kit kitsize tower towertow ersize kings chamber kingkingsize throne room thronethronesize
+
+==============================
+

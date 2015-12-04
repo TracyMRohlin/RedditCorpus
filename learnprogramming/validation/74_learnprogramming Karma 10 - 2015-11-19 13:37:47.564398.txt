@@ -1,0 +1,7 @@
+Title: mathematica help poker hand function
+Karma: 10
+Date: 1384213030.0
+issue mathematica function pairq works outputs right poker hand cards check pairqx x y y x y false two pair pairq x x x false three kind pairq x x true one pair pairq false something else hand pairqhand output true hand example hand output false issue modify code pairqx x y y x y false two pair pairq x x x false three kind pairq x x true one pair pairq false something else hand pairqhand output true supposed false two pair
+
+==============================
+

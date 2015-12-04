@@ -1,0 +1,7 @@
+Title: java somebody help fix find symbol error
+Karma: 6
+Date: 1385522955.0
+normally know fix error usually declared variable getting error unusual place error statements specifically mymathwhatever app class calling ans instansible class math calculations class compiles fine mymathappjava author adamhorrigan th november import javaxswingjoptionpane public class mathapp public static void main string args declare variables int x int ans int fof int inverse int inversesfof int option int thisisafunction decalre objects math mymath crate objects mymath new math input x integerparseintjoptionpaneshowinputdialognullplease enter number option integerparseintjoptionpaneshowinputdialognullplease select option n fof x n gog x n inverseof x process option mymathsetxx mymathfof ans mymathgetans else option mymathsetxx mymathgofg ans mymathgetans else mymathsetxx mymathinversefof ansmymathgetans output joptionpaneshowmessagedialognullthe answer ans
+
+==============================
+

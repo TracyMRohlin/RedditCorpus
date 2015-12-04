@@ -1,0 +1,7 @@
+Title: python elementtree select certain attribute one selected root
+Karma: 8
+Date: 1385439172.0
+trying understand use xml python created structure test grasp get lets say value mindmg ' object started read documentation reach listget attributes list mace short spear got name list mindmg maxdmg also select root criterium
+
+==============================
+

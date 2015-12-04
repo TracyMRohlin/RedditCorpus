@@ -1,0 +1,7 @@
+Title: someone explain piece code works javascript
+Karma: 4
+Date: 1399988008.0
+trying replicate want understand logic behind source jsfiddle div idtypewriterdiv script var str pthis span style'colorred'special stringspan img src' istag text function type text strslice text str return documentgetelementbyid'innerhtml text var char textslice char '' istag true char '' istag false istag return type settimeouttype script
+
+==============================
+

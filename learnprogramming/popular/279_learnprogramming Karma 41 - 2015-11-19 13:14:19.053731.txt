@@ -1,0 +1,7 @@
+Title: assembly language question
+Karma: 41
+Date: 1399978208.0
+use statements mips v oror sp fp also ori v call li v
+
+==============================
+

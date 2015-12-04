@@ -1,0 +1,7 @@
+Title: c questions regarding casting function array pointer
+Karma: 10
+Date: 1368947626.0
+currently going kr run difficulty one programs section include stdioh include stringh define maxlines char lineptrmaxlines int readlineschar lineptr int nlines void writelineschar lineptr int nlines void qsortvoid lineptr int left int right int compvoid void int numcmpchar char int strcmpchar char mainint argc char argv int nlines int numberic argc strcmpargv n numeric nlines readlineslineptr maxlines qsortvoid lineptr nlines int void voidnumeric numcmp strcmp writelineslineptr nlines else printfinput big sortn return difficulty use qsort lines first argument use casting lineptr type void function prototype expecting array pointers chars even cast lineptr first place already array pointers chars secondly line valid determined function name right arguments explanation appreciated
+
+==============================
+

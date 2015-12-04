@@ -16,7 +16,11 @@ from distutils.ccompiler import CompileError, LinkError
 import distutils
 from numpy.distutils.exec_command import exec_command
 from numpy.distutils.mingw32ccompiler import generate_manifest
-from numpy.distutils.command.autodist import check_inline, check_compiler_gcc4
+from numpy.distutils.command.autodist import (check_gcc_function_attribute,
+                                              check_gcc_variable_attribute,
+                                              check_inline,
+                                              check_restrict,
+                                              check_compiler_gcc4)
 from numpy.distutils.compat import get_exception
 
 LANG_EXT['f77'] = '.f'
@@ -31,22 +35,12 @@ class config(old_config):
         self.fcompiler = None
         old_config.initialize_options(self)
 
-    def try_run(self, body, headers=None, include_dirs=None,
-                libraries=None, library_dirs=None, lang="c"):
-        warnings.warn("\n+++++++++++++++++++++++++++++++++++++++++++++++++\n" \
-                      "Usage of try_run is deprecated: please do not \n" \
-                      "use it anymore, and avoid configuration checks \n" \
-                      "involving running executable on the target machine.\n" \
-                      "+++++++++++++++++++++++++++++++++++++++++++++++++\n",
-                      DeprecationWarning)
-        return old_config.try_run(self, body, headers, include_dirs, libraries,
-                                  library_dirs, lang)
-
     def _check_compiler (self):
         old_config._check_compiler(self)
         from numpy.distutils.fcompiler import FCompiler, new_fcompiler
 
-        if sys.platform == 'win32' and self.compiler.compiler_type == 'msvc':
+        if sys.platform == 'win32' and (self.compiler.compiler_type in
+                                        ('msvc', 'intelw', 'intelemw')):
             # XXX: hack to circumvent a python 2.6 bug with msvc9compiler:
             # initialize call query_vcvarsall, which throws an IOError, and
             # causes an error along the way without much information. We try to
@@ -170,7 +164,7 @@ Original exception was: %s, and the Compiler class was %s
                    headers=None, include_dirs=None):
         self._check_compiler()
         body = """
-int main()
+int main(void)
 {
 #ifndef %s
     (void) %s;
@@ -185,7 +179,7 @@ int main()
                          headers=None, include_dirs=None):
         self._check_compiler()
         body = """
-int main()
+int main(void)
 {
 #if %s
 #else
@@ -205,7 +199,7 @@ int main()
 
         # First check the type can be compiled
         body = r"""
-int main() {
+int main(void) {
   if ((%(name)s *) 0)
     return 0;
   if (sizeof (%(name)s))
@@ -233,7 +227,7 @@ int main() {
         # First check the type can be compiled
         body = r"""
 typedef %(type)s npy_check_sizeof_type;
-int main ()
+int main (void)
 {
     static int test_array [1 - 2 * !(((long) (sizeof (npy_check_sizeof_type))) >= 0)];
     test_array [0] = 0
@@ -249,7 +243,7 @@ int main ()
         if expected:
             body = r"""
 typedef %(type)s npy_check_sizeof_type;
-int main ()
+int main (void)
 {
     static int test_array [1 - 2 * !(((long) (sizeof (npy_check_sizeof_type))) == %(size)s)];
     test_array [0] = 0
@@ -270,7 +264,7 @@ int main ()
         # this fails to *compile* if size > sizeof(type)
         body = r"""
 typedef %(type)s npy_check_sizeof_type;
-int main ()
+int main (void)
 {
     static int test_array [1 - 2 * !(((long) (sizeof (npy_check_sizeof_type))) <= %(size)s)];
     test_array [0] = 0
@@ -409,54 +403,21 @@ int main ()
         otherwise."""
         return check_inline(self)
 
+    def check_restrict(self):
+        """Return the restrict keyword recognized by the compiler, empty string
+        otherwise."""
+        return check_restrict(self)
+
     def check_compiler_gcc4(self):
         """Return True if the C compiler is gcc >= 4."""
         return check_compiler_gcc4(self)
 
-    def get_output(self, body, headers=None, include_dirs=None,
-                   libraries=None, library_dirs=None,
-                   lang="c", use_tee=None):
-        """Try to compile, link to an executable, and run a program
-        built from 'body' and 'headers'. Returns the exit status code
-        of the program and its output.
-        """
-        warnings.warn("\n+++++++++++++++++++++++++++++++++++++++++++++++++\n" \
-                      "Usage of get_output is deprecated: please do not \n" \
-                      "use it anymore, and avoid configuration checks \n" \
-                      "involving running executable on the target machine.\n" \
-                      "+++++++++++++++++++++++++++++++++++++++++++++++++\n",
-                      DeprecationWarning)
-        from distutils.ccompiler import CompileError, LinkError
-        self._check_compiler()
-        exitcode, output = 255, ''
-        try:
-            grabber = GrabStdout()
-            try:
-                src, obj, exe = self._link(body, headers, include_dirs,
-                                           libraries, library_dirs, lang)
-                grabber.restore()
-            except:
-                output = grabber.data
-                grabber.restore()
-                raise
-            exe = os.path.join('.', exe)
-            exitstatus, output = exec_command(exe, execute_in='.',
-                                              use_tee=use_tee)
-            if hasattr(os, 'WEXITSTATUS'):
-                exitcode = os.WEXITSTATUS(exitstatus)
-                if os.WIFSIGNALED(exitstatus):
-                    sig = os.WTERMSIG(exitstatus)
-                    log.error('subprocess exited with signal %d' % (sig,))
-                    if sig == signal.SIGINT:
-                        # control-C
-                        raise KeyboardInterrupt
-            else:
-                exitcode = exitstatus
-            log.info("success!")
-        except (CompileError, LinkError):
-            log.info("failure.")
-        self._clean()
-        return exitcode, output
+    def check_gcc_function_attribute(self, attribute, name):
+        return check_gcc_function_attribute(self, attribute, name)
+
+    def check_gcc_variable_attribute(self, attribute):
+        return check_gcc_variable_attribute(self, attribute)
+
 
 class GrabStdout(object):
 

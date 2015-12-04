@@ -1,0 +1,7 @@
+Title: explain pointers like five
+Karma: 221
+Date: 1368776421.0
+science major frequently programs matlab idl python vba never encountered pointers believe need soon ignoring syntax someone explain purpose using pointer whywhen ever use okay explain like five p thank advance anyone really help
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: c faster generate dfa accepts permutations string generate permutations
+Karma: 16
+Date: 1370348789.0
+wanna able tell permutation string part set permutations string eg abc permutation cab faster generate dfa put permutation generate permutations test see one matches
+
+==============================
+

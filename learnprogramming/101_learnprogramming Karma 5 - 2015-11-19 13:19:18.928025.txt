@@ -1,0 +1,7 @@
+Title: java hide show characters password
+Karma: 5
+Date: 1386013866.0
+making hangman game stuck hiding password part want replace password stars right letter guessed show stars hides letters example password reddit displayed like guess d show dd appreciate help
+
+==============================
+

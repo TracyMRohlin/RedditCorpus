@@ -1,0 +1,7 @@
+Title: java use comparator passed method
+Karma: 17
+Date: 1353908291.0
+assignment use sorting algorithm implement sort method far stuck use comparator passed sort method import javautilarrays import javautilcomparator public class sorting public static void sortt array comparatort comparator todo implement sorting algorithm result arrayscopyofarray arraylength quicksortresult resultlength private static void quicksortt arr int low int high todo implement quick sort int index partitionarr low high low index quicksortarr low index index high quicksortarr index high private static int partition int left int right int left j right tmp pivot aleft right j aicomparetopivot ajcomparetopivot j j tmp ai ai aj aj tmp j return
+
+==============================
+

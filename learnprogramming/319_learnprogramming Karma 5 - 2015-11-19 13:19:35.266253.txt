@@ -1,0 +1,7 @@
+Title: start scratch cms
+Karma: 5
+Date: 1385456429.0
+new programming little experience want develop website similar youtube businesses sign given page site display video content viewers also want digital video storefront incorporated site businesses sell content digital video downloads cms use hard code site scratch using javascriptphp etc
+
+==============================
+

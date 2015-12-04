@@ -1,0 +1,7 @@
+Title: make xsl use style sheet format html
+Karma: 5
+Date: 1400209764.0
+hi following xsl file xml version encodingiso edited xmlspy xslstylesheet version xmlnsxsl xsltemplate match html body hmy cd collectionh table border tr bgcoloracd thtitleth thartistth tr xslforeach selectcatalogoplanta tr tdxslvalueof selectnomecomum td tdxslvalueof selectzona td tr xslforeach table body html xsltemplate xslstylesheet know use inline css format html way link external css file format transformations output
+
+==============================
+

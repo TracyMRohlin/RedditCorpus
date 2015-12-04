@@ -1,0 +1,7 @@
+Title: javascript youtube data api authorization issue
+Karma: 4
+Date: 1385261388.0
+total noob wanted make simple html page youtube search tried downloading running data api examples client id plugged authjs search button still disabled also getting login prompt edited code way except putting client id read code three files authjs searchjs searchhtml understand flow looks like authorization failing button enabled handleapiloaded function since literally trying run sample code pretty sure stupid using right client id something else need change code help appreciated thanks
+
+==============================
+

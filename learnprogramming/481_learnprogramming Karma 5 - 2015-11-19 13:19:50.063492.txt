@@ -1,0 +1,7 @@
+Title: javasimple code disappearing operator output
+Karma: 5
+Date: 1385198036.0
+hey wonderful people trying finish simple infix postfix conversion program simple dont care parenthesis exponents run problem code works great almost inputs except first operator reasons cant seem understand print firs successive ses ses example x y z works fine x y z however make latter one longer like example x y z q r v u operands operators show correct places except first help appreciated code meat program numberevaluator class
+
+==============================
+

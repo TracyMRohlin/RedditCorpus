@@ -1,0 +1,7 @@
+Title: storing large number primes c
+Karma: 39
+Date: 1385605390.0
+working sieve atkin program find store values primessub bit issues storing primes array ints blow stack writing file inefficient since need perform actions primes seems like fair method effectively create bit array bit offset integer prime otherwise bit possible feasible means edit thank help gentlemenpotentially women ended getting rid array using bitmap store values works thanks
+
+==============================
+

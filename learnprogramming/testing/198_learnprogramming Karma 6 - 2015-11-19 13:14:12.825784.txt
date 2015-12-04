@@ -1,0 +1,7 @@
+Title: java scrollbar app crashing
+Karma: 6
+Date: 1400258727.0
+app creates scrollbars one redblue green user adjusts scrollbars background changes appropriate color displays values textfield adjust one color scrollbars colors become unresponsive output console error list
+
+==============================
+

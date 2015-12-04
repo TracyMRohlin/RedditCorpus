@@ -1,0 +1,7 @@
+Title: linux process question
+Karma: 13
+Date: 1353383793.0
+need write program class essentially lists files directory ncurses table provides prompt next directory entry user enter commands either file spec commands execute commands sequence question ncurses already manipulating everything wanted run something like cat file output jumbled ncurses output use fork exec ncurses program guess replace process image cat file get ncurses program back user edit mean say get output contents file like expect ran get ncurses output back user quits
+
+==============================
+

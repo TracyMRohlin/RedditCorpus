@@ -1,0 +1,7 @@
+Title: resources angularjs concepts
+Karma: 2
+Date: 1432335503.0
+hello working project using angularjs understanding basics feel confident yet fuzzy understanding scope sure best practices sense additionally think clear understanding makes sense use custom directive vs views controllers attaching something new module makes sense etc really like know things general best practices ways structure larger applications recommend reading might help
+
+==============================
+

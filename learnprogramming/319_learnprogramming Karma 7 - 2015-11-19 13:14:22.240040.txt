@@ -1,0 +1,7 @@
+Title: java improve fairly simple program
+Karma: 7
+Date: 1399867397.0
+code viewed made simple program counts occurrences words throughout text file using node objects placeholder used harry potter series sample input see dealt larger programs sure nowhere near perfect works make better coding practices avoiding anything stands something industry programmer
+
+==============================
+

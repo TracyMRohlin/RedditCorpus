@@ -1,0 +1,7 @@
+Title: progress bars recursive algorithm
+Karma: 2
+Date: 1400089324.0
+quite general issue run times complex nested tree structure various algorithms stuff nested tree structure pretty much recursive algorithms navigate whole tree like display progress bars operations iterating elements simple algorithms method know far tree general methods thoughts deal
+
+==============================
+

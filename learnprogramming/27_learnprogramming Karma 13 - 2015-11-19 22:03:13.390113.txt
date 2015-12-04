@@ -1,0 +1,7 @@
+Title: xna architecture question passing reference game manager classes
+Karma: 13
+Date: 1324959675.0
+ok pass reference game class individual managers inputmanager objectmanager etc access things like screen resolution bounds game states etc basically wondering individual game objects know resolution screen state things outside world
+
+==============================
+

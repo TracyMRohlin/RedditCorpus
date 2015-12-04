@@ -1,0 +1,7 @@
+Title: c reading file
+Karma: 9
+Date: 1354062152.0
+trying read two numbers dat file code dayindat source folder two separate lines returns
+
+==============================
+

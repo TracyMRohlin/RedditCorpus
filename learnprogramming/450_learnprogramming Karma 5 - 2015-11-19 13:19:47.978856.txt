@@ -1,0 +1,7 @@
+Title: web pagination problem
+Karma: 5
+Date: 1385266819.0
+developing algorithm displayed consistent number pages website based collection turned bit difficult sounds ended solution sure efficiency solution uses loop pretty sure math used make o algorithm example algorithm needs produce sample input say dataset requires pages want display p p p p p p p brackets indicate page clicked current page code snippet solution came c var totalnums totalnums modelnumpages totalnums modelnumpages var start currentpage var end currentpage end start totalnums start firstpage start end lastpage end totalnums number wish display modelnumpages total number pages dataset start yield starting number end yield ending number thoughtsideas
+
+==============================
+

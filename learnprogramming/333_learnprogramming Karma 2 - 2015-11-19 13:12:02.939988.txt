@@ -1,0 +1,7 @@
+Title: advice language choice basic gui
+Karma: 2
+Date: 1431627689.0
+assigned make gui startstop storage buttons madealso window created select data filter data based specifications known basic c concepts like loops pointersarraysi gui visual studioi know c allplease advise continue use c learn basics c program gui
+
+==============================
+

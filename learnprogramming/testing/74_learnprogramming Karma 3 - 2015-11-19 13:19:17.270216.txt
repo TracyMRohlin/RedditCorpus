@@ -1,0 +1,7 @@
+Title: c structures roguelike
+Karma: 3
+Date: 1386090378.0
+hi need help programming roguelike native c using ncurses c quite dick working structs trying keep code clean using seperate files different things files found want pass human player screen engine key gets processed position gets updated works fine use playerx playery integers main fear main file get big help
+
+==============================
+

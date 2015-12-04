@@ -1,0 +1,7 @@
+Title: ruby passing command line arguments changes behavior program
+Karma: 10
+Date: 1353563623.0
+hello starting ruby trying make domain specific language dsl making quiz 'em outlined code available run ruby quizemrb runs beautifully everything expected makes use defaultlocation finds quizqm file however even commented references argv run ruby quizemrb quizqm throws errors particular get cusersmedesktopme stuffsprogrammingrubyruby quizemrb quizqm q president face face lincoln correct answer sorry must end number sorry must end number sorry must end number sorry must end number sorry must end number sorry must end number sorry must end number sorry must end number sorry must end number sorry must end number quizemrbin undefined method nilnilclass nomethod error quizemrbin quizemrbin block quizemrbin quizemrbin quizemrbin main' gets stop wait input program crashes uncomment lines bottom fails error
+
+==============================
+

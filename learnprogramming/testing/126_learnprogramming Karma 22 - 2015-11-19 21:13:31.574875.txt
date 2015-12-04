@@ -1,0 +1,7 @@
+Title: java multithreading evil black magic like segment code running slowly
+Karma: 22
+Date: 1353813203.0
+prior ask user specify size vector scale vector using single thread time supposed use five threads scale vector time however one problem spends n time process wtf going
+
+==============================
+

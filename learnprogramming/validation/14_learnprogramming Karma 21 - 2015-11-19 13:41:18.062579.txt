@@ -1,0 +1,7 @@
+Title: python ways write loop
+Karma: 21
+Date: 1370570055.0
+code generate random numbers continuously generates number wondering minimal way loop import random mynumber randomrandrange mynumber mynumber randomrandrange print oops mynumber printmynumber edit oops accidentally word
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: java making pretty big project rpg game feel like making way many classes oop correctly
+Karma: 10
+Date: 1368418771.0
+class items class inventory class map class characters class collision class movement etc object oriented programming wrong
+
+==============================
+

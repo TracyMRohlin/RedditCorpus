@@ -1,0 +1,7 @@
+Title: c jitter physics dynamic cylinder falling straight static block
+Karma: 16
+Date: 1368256552.0
+final edit success alternate method needed need pay attention test error messages thanks zahlman kicking ass title edit please help dynamic cylinder falling static box creating simple test around jitter physics engine goal create dynamic cylinder affected gravity force m static box unaffected gravity force run physics let cylinder fall cylinder stops top box m lower started happens test create dynamic cylinder m static box run physics let cylinder fall cylinder passes box falling forever missing best attempt posted edit also tried following implementation worldstep success original version steps full second might much variation breaks steps worldstep false f f edit official tutorial
+
+==============================
+

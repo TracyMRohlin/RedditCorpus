@@ -1,0 +1,7 @@
+Title: c many palindromes given string
+Karma: 2
+Date: 1385853253.0
+write function takes one character string parameter assuming string contains letters blank spaces function return number words character string palindromes task little confusedbecause figure make mistake code
+
+==============================
+

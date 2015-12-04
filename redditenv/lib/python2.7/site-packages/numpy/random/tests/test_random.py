@@ -498,6 +498,12 @@ class TestRandomDist(TestCase):
                             [5.03461598262724586, 17.94973089023519464]])
         np.testing.assert_array_almost_equal(actual, desired, decimal=14)
 
+        actual = np.random.noncentral_chisquare(df=.5, nonc=.2, size=(3, 2))
+        desired = np.array([[ 1.47145377828516666,  0.15052899268012659],
+                            [ 0.00943803056963588,  1.02647251615666169],
+                            [ 0.332334982684171  ,  0.15451287602753125]])
+        np.testing.assert_array_almost_equal(actual, desired, decimal=14)
+
     def test_noncentral_f(self):
         np.random.seed(self.seed)
         actual = np.random.noncentral_f(dfnum=5, dfden=2, nonc=1,
@@ -619,6 +625,18 @@ class TestRandomDist(TestCase):
                             [5.48995325769805476, 8.47493103280052118]])
         np.testing.assert_array_almost_equal(actual, desired, decimal=15)
 
+    def test_uniform_range_bounds(self):
+        fmin = np.finfo('float').min
+        fmax = np.finfo('float').max
+
+        func = np.random.uniform
+        np.testing.assert_raises(OverflowError, func, -np.inf, 0)
+        np.testing.assert_raises(OverflowError, func,  0,      np.inf)
+        np.testing.assert_raises(OverflowError, func,  fmin,   fmax)
+
+        # (fmax / 1e17) - fmin is within range, so this should not throw
+        np.random.uniform(low=fmin, high=fmax / 1e17)
+
     def test_vonmises(self):
         np.random.seed(self.seed)
         actual = np.random.vonmises(mu=1.23, kappa=1.54, size=(3, 2))
@@ -680,9 +698,7 @@ class TestThread(object):
             function(np.random.RandomState(s), o)
 
         # these platforms change x87 fpu precision mode in threads
-        if (np.intp().dtype.itemsize == 4 and
-                (sys.platform == "win32" or
-                 sys.platform.startswith("gnukfreebsd"))):
+        if (np.intp().dtype.itemsize == 4 and sys.platform == "win32"):
             np.testing.assert_array_almost_equal(out1, out2)
         else:
             np.testing.assert_array_equal(out1, out2)

@@ -1,0 +1,7 @@
+Title: ccgnu trying learn gnu toolchain development anyone give advice
+Karma: 14
+Date: 1354098997.0
+recently lot work linux use running everything graphical window letting ide take care nitty gritty organization compiling linking etc however like try taking different workspace eclipse codeblocks supplies like try using gnu toolchain others use developing editing compiling etc trying vim primary text editor sure best choice seemed pretty customizable work advice using know little bit gcc importantly compilinglinking works learned much used gdb even know used ollydbg windows programming able create use simple makefiles development nothing compiling linking know broad question looking broad answers workflow like tools set better productivity general advice give
+
+==============================
+

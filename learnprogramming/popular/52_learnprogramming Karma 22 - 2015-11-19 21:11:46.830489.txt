@@ -1,0 +1,7 @@
+Title: today managed calculate current cpu load nodejs without using external modules os specific calls
+Karma: 22
+Date: 1368516086.0
+today part project working learn node motives came method find current cpu usage wondering guys thought obviously commented heavily want know anything wrong improve thanks lot
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: somebody help understand code javascript
+Karma: 2
+Date: 1386211950.0
+okay trying accomplish create bot automatically click specific shoe size add cart certain website code thing different website reason edit code get work site code currently working works website called jimmyjazzcom click pair shoes bot automatically clicks specified shoe size adds cart code looks like website trying basically thing cncptscom since still new whole programming thing edit working code work website want work far edited script look like somebody please help try understand make script work thanks
+
+==============================
+

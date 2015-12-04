@@ -1,0 +1,7 @@
+Title: java increment integer question
+Karma: 7
+Date: 1385449531.0
+give correct result ' int
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: java getting nullpointerexception trying access method returning string
+Karma: 4
+Date: 1400743534.0
+hello first time poster hope everything right still really new java learning swing right class currently trying make text adventure type game come across error classes involved error exception thrown execute line code compass class line pretty much want put neighboring name text set exits kitchens knew sure object however call getroomname line says nullpointerexception even though exits kitchen object stored turn getroomname method sorry make sense tried explaining best
+
+==============================
+

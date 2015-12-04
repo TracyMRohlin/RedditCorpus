@@ -1,0 +1,7 @@
+Title: programming language linux desktop app
+Karma: 9
+Date: 1309437706.0
+hello im trying develop desktop application currently use scripts python great btw manually run python scriptnamepy console want develop app run scripts desktop app clicking buttons trying use pyqt qtdesigner pain ass suggestion ide language much appreciated distro ubuntu
+
+==============================
+

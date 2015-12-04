@@ -1,0 +1,7 @@
+Title: professional programmers reddit common data structures use
+Karma: 11
+Date: 1385971842.0
+know two basic data structures personally array linked lists wanted see anyone uses anything exotic like doubly linked list avl trees circular queues
+
+==============================
+

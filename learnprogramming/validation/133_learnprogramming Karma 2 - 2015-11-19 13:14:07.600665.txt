@@ -1,0 +1,7 @@
+Title: distribution mac vs windows
+Karma: 2
+Date: 1400484187.0
+understand applications mac directories filled application data similar way windows mac able wrap jar file app file open whatever directory want tried windows looks like exe file hold jar instead links back somewhere else drive
+
+==============================
+

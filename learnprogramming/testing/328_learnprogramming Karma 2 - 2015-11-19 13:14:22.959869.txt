@@ -1,0 +1,7 @@
+Title: twodimensional array iterating neighbours fix bounds border elements
+Karma: 2
+Date: 1399853167.0
+hi trying iterate neighbours elements twodimensional array still looking beautiful way check element borderelement thus checking de unexisting neighbours wich result bounds error working several ifloops looks like rshittyprogramming done java work generic theoretical answer tried googling know formulate keywords thanks
+
+==============================
+

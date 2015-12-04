@@ -1,0 +1,7 @@
+Title: cusing opencv face recognizer find closest matches set one shot faces
+Karma: 6
+Date: 1385705024.0
+trying use opencv compare image data base faces find nearest matches set faces entry one image ie find look alike idea query database normiliazied face image returns list closest matches set system results accurate far normilized face x pixel image circular border mask reduce effect background generated using face recognition crop image face program uses lbpt build recognizer image mapping unique id extending opencv recognizers return list results insted best match match needs made recognizer loaded best matches found little like recogniser actually split multiple yml files results merged basic picture tried various paramaters lbpt current settings instances produce fairly good results circlesize circlepoints hrozontalres verticalres get feeling really system intended know many options want know algorytim open cv recognizers best know normlisation much face needed application altenative opencv using fac recognisers way make system accurate
+
+==============================
+

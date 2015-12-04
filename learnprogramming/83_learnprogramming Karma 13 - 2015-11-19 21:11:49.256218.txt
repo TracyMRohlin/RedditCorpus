@@ -1,0 +1,7 @@
+Title: robotc learning program need help making robot want
+Karma: 13
+Date: 1368237366.0
+put simply limit switch wire motor gear set motor spins bolt screwed middleish press limit switch picture includediimgurcomvvwsdzjpeg need develop program oscillate motor way times one direction use limit switch sensor input opposite direction use second time limit words gear needs spin left gear presses switch stop spin right seconds seconds gear stop spin left presses limit switch new programming like little help find make happen thanks advance
+
+==============================
+

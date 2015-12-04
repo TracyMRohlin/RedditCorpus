@@ -1,0 +1,7 @@
+Title: batchdealing incorrect syntax entries mkdir
+Karma: 3
+Date: 1385670234.0
+writing shitty small bat projecthomework os class nice simple need make uncrashable script basically small game made user register new account log already existing one creating files directory file name user name another file password figure way one user enters incorrect variables file name crash script right simply get message filename directory name volume label syntax incorrect proceeds onto password part crashing need error message worded native language ie something specify immediately return username register part rather moving forwards tldr need make script tell user something like enter symbols like username please try return username registering part rather creating folderfile crashing part script bothering
+
+==============================
+

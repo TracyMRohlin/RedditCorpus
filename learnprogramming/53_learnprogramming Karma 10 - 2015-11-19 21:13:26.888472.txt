@@ -1,0 +1,7 @@
+Title: nhibernate entity framework
+Karma: 10
+Date: 1354150906.0
+new job little side project going work using nhibernate process learning side project getting set use entity framework guys recommendations stuck choices either keep entity side project learn use nhibernate get better work
+
+==============================
+

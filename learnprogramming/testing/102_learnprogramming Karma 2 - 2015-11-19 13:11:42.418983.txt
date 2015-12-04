@@ -1,0 +1,7 @@
+Title: switching ruby python odin project
+Karma: 2
+Date: 1432165656.0
+anyone recommend go want learn web development also want learn python want contribute open source gis project thats python think switch go like replacement ruby rails testing rspec etc
+
+==============================
+

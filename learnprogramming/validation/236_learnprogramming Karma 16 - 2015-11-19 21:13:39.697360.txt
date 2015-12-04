@@ -1,0 +1,7 @@
+Title: php good salt bcrypt
+Karma: 16
+Date: 1352875973.0
+working project hope turn business biggest priority make sure passwords stored secure possible read seems like bcrypt way go since take significantly longer crack passwords hashing technique better one please suggest issue salt understand tell hacker salt thing truly matters salt different every password stored planning making user ids long somewhat random little added bit security type find account happen ids going least characters length safe using user id salt good idea also example currently looks like crypt' 'y also suggestions cost parameter appreciate well read supposedly safe like bare minimum still providing good user experience log edit alright well found answers solution generating random string appended time salt reason need able give users new salts change password accomplish using user id since stay using cost parameter start well since takes half second hash password current dedicated server fine
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: learning js
+Karma: 5
+Date: 1432056197.0
+hey guys main focus learning js right reading beginning javascript javascript definitive guide also done jsjquery courses codecademy javascripting exercises nodeschool question guys know knowledge good enough play frameworks find project first learn along way
+
+==============================
+

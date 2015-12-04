@@ -1,0 +1,7 @@
+Title: c nested json list custom deseraliztion listcollection jsonnet
+Karma: 3
+Date: 1432074092.0
+greetings rlearnprogramming recently worked small project uses jsonnet base deseralizing json data stings c objects however come point getting stuck instead deal ienumerable data types get json data list json lists makes sense example ideally want deseralize data forecasts datagrid however object new notation around forecast data attempt extract data using newitemforecast listforecastsjoselecttokenqueryresultschannelitemforecast example data shown null ideally want able map day high low text datagrid struggling find way wondering selecttoken method changed selecttokens multiple items love get feedback finally source code many thanks oliver
+
+==============================
+

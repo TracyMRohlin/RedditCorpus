@@ -1,0 +1,7 @@
+Title: cmysql issues seems character encoding
+Karma: 15
+Date: 1370289958.0
+college project supposed make program something mysql database done things supposed got stuck editable datagridview table added save changes button clicked seeks changes table mirrors updates onto table mysql database code found onto issue values database contain special characters croatian language whenver within mysql command get resultswhen know collation varchar variables cpcroatianci know exactly happening assuming got something character encodingi assume code utf something really communicate well cp really understand things also really allowed alter table try sneaking solution anyone help solve issue edit decided change collation utf problematic variables fixed issue also mind tiny mistakes example code single quotations around parameters misnamed parameters since translation errors
+
+==============================
+

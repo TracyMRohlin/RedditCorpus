@@ -1,0 +1,7 @@
+Title: multithreading
+Karma: 20
+Date: 1399703770.0
+wrote series blogposts regarding subjects related current research b systems programming course focused specifically multithreading relevant daily lives programmers many professorsteachers cover subject well well received reddits instructors fellow students hope someone finds useful cache multithreading mutex semaphores common mistakeserrors dinning philosophers problem many solutions producerconsumer problem introduction ipc interprocess communication
+
+==============================
+

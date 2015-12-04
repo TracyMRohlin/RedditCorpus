@@ -1,0 +1,7 @@
+Title: good online resource learn operating systems programming scratch
+Karma: 18
+Date: 1353761895.0
+want learn operating systems programming want learn threads pipes sockets etc fairly advanced programmer cc mostly written compute intensive programs image processing gpu multicore however think interesting something operating system level shortterm goal write drivercodec long term goal write simple media player usually work linux really fussed specific operating system know good online resource grateful pointed thanks edit thanks replies links everybody digging found awesome link
+
+==============================
+

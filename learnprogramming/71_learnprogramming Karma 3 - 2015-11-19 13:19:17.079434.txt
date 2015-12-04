@@ -1,0 +1,7 @@
+Title: cpp driverstationdriverstation protected error
+Karma: 3
+Date: 1386110829.0
+main file driverstationh driverstationcpp getting error driverstationdriverstation protected rest functions working correctly someone explain protected use getdigitalin correctly driverstationcpp thanks
+
+==============================
+

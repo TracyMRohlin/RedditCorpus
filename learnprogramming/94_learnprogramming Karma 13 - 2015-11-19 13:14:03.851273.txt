@@ -1,0 +1,7 @@
+Title: makefile trouble certain c functionality makefile
+Karma: 13
+Date: 1400581925.0
+noticed ago kind worked around null instead nullptr eg gone far enough demand humbly request explanation nintendo ds homebrew game making using provided makefile works stdcx stdc gives unrecognized command line option stdc error also get errors like ' declared scope certain newly added keywords functionality work expected example following compiles fine maincpp int main int ptr nullptr return makefile test maincpp g o test maincpp stdc pretty much experience makefiles feeling bit lost anyone idea causing grateful thanks patrick
+
+==============================
+

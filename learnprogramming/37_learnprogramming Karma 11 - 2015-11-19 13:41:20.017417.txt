@@ -1,0 +1,7 @@
+Title: someone help explain tilemapping
+Karma: 11
+Date: 1370416569.0
+example might used snake game language familiar python explain terms much appreciated thanks advance
+
+==============================
+

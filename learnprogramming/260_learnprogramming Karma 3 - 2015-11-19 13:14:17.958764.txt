@@ -1,0 +1,7 @@
+Title: putting together loan payoff calculator
+Karma: 3
+Date: 1400042654.0
+hey never programmed anything like want figure problem piece mind turning programming find calculator online know one love spared trouble compiling also tried excel without luck actually xpost subreddit x amount student debt small enough pay minimum payment month different loans interest rate like calculator tell paid back loans full given pay y amount every month minimum monthly payment amount take pay back loans years payments start paying minimum monthly payment means get put difference toward loan choice difference going go highest interest loan time arbitrary loan complications interest compounds daily basis continue pay minimum minimum payment shrink every month call rate shrinkage z minimum continues shrink difference minimum y payment increase thus z see steady increase z remain constant paying loans think happens switch loans lower interests loans due th every month even pay date every month number days date consistent create constant average number days month choose one cumulative effect sure problems arise think right want able plug monthly payment figure exact payoff date month taking snowballing nature z variable described given fact multiple interest rates excel functions give payoff date account multiple interest rates need know total number payments plan making think best language use minimal coding experience see launching point teach skills starting completely frustrating love get closure help greatly appreciated
+
+==============================
+

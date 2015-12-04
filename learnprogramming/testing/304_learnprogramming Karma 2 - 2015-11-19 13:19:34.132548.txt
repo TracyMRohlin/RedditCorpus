@@ -1,0 +1,7 @@
+Title: building vi heart rate
+Karma: 2
+Date: 1385484479.0
+one classes asking us build vi calculate heart rate basic hardware project red led photodiode transimpedence amplifier arduino supposed able put finger photodiode vi calculate heart rate method professor taught basically take analog signal photodiode returns voltage graph light detected filter like crazy filtered normalized waveform take peak graph multiply get beats per minutes problem method assuming filtering accounts pretty much noise develop way experimentally account really noisy signals feel like another method like using fourier transforms finding peak imaginary curve much elegant unsure go finding peak imaginary curve order find heart rate looking primary papers seems gloss actual algorithms used calculate data anyone input go making current code better implementing different way calculate heart rate bpm labview please let know tldr need help making labview vi calculates heart rate beats per minute
+
+==============================
+

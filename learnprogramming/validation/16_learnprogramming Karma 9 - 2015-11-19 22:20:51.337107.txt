@@ -1,0 +1,7 @@
+Title: trouble homework problem
+Karma: 9
+Date: 1310548069.0
+supposed create program reads factors number adds together check perfect number
+
+==============================
+

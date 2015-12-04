@@ -1,0 +1,7 @@
+Title: need bit help c arrays
+Karma: 3
+Date: 1386208139.0
+alright searching google cant quite figure make one include anything example trying something basic like making element array elements initial filling array display dont quite get
+
+==============================
+

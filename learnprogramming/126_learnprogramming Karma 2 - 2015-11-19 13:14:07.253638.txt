@@ -1,0 +1,7 @@
+Title: c need help searching sequential access file
+Karma: 2
+Date: 1400539473.0
+writing program uses sequential access files strings need able search file string matching user input display corresponding string file laid line stringstring anyone tell different form external data storage learn work better thanks
+
+==============================
+

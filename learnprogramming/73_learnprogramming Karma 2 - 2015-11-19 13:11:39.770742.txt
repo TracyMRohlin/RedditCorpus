@@ -1,0 +1,7 @@
+Title: c creating basic game
+Karma: 2
+Date: 1432232976.0
+hey started programming c lately assigned make code kind game console starts asking number player types number console asks second number last character first number first character second number matches player gets point fails game ends realize easy still figure sorry thanks
+
+==============================
+

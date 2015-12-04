@@ -1,0 +1,7 @@
+Title: rsp vs raw udp stream
+Karma: 9
+Date: 1369402035.0
+bother putting udp rsp packets understand synchronization mpeg etc important mjpeg stream
+
+==============================
+

@@ -1,0 +1,7 @@
+Title: vs specialized build command
+Karma: 9
+Date: 1354332639.0
+work use makefile system standard actual build use vs rule editing way make build command vs run something normally pipe output build output window nice get point click go error line behavior
+
+==============================
+

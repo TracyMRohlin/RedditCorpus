@@ -1,0 +1,7 @@
+Title: problems reading using user input
+Karma: 10
+Date: 1353999135.0
+trouble getting code scan data want certain ue functions using basically want read character string print later issue scanf ignores data space bar fgets reads return well eg attempted use scanf scan great britain printfi lived years get lived great years using fgets give lived great britain years anyone solutions know scanf bit dodgy fgets probably preferred cheers
+
+==============================
+

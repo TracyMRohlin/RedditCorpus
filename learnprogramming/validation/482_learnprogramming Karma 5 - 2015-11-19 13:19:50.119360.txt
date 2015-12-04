@@ -1,0 +1,7 @@
+Title: c operation functioning
+Karma: 5
+Date: 1385197323.0
+writing program everything working except one minor thing code nrollone nrolltwo ngamescore nrollone nrolltwo cout score ngamescore endl nframe int nrollthree int nrollfour cout enter pins first roll cin nrollthree cout enter pins second roll cin nrollfour ngamescore ngamescore nrollthree nrollthree nrollfour adding roll three ngamescore start roll two score comes adding nrollthree twice
+
+==============================
+

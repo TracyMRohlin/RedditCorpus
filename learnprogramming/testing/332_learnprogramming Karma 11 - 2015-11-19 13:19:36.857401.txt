@@ -1,0 +1,7 @@
+Title: javac help
+Karma: 11
+Date: 1385447446.0
+probably really stupid question anyway emailed java project work home command prompt set path path cprogram filesjavajdkbin java files saved type javac movierentaljava says javac file found movierentaljava see wrong path set correctly help appreciated
+
+==============================
+

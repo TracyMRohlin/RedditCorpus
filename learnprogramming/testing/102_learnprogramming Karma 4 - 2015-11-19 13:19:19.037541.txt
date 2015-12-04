@@ -1,0 +1,7 @@
+Title: java object oriented programming layering cascading
+Karma: 4
+Date: 1386009896.0
+going example question trying create class called coin first thing create class wants internal state keeps track heads tails times created private boolean constructor accepts parameters initializing coin randomly either heads tails layering flip method flip causes coins current internal state randomly flipped heads tails method provide cascading calls returning reference coin understand know methods return things guessing part flip method create needs return class coin also cascading assuming providing means returning coin make constructor call start basically method paramters use mathrandom randomly assign true false heads tails layer flip going book much layering cascading see thanks
+
+==============================
+

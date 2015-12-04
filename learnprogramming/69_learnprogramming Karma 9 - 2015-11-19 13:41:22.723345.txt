@@ -1,0 +1,7 @@
+Title: java hard time understanding interfaces
+Karma: 9
+Date: 1370312450.0
+hi everyone trying simple menu snake game buttons play scores background picture whole menu however manage show either background cover buttons either background googled read multiple tutorials wrap head around problem thought maybe jpanel buttons one background sure call image bit main window panaddbtnsolo btnsoloaddactionlistenerthis panaddbtnstat btnstataddactionlistenerthis thissetcontentpanepan thissetcontentpanenew fond thissetsizenew dimension background class looks like public void paintcomponentgraphics g try image img imageioreadnew filebackgroundpng gdrawimageimg thisgetwidth thisgetheight catch ioexception e eprintstacktrace really appreciate help provide sorry put much code thanks
+
+==============================
+

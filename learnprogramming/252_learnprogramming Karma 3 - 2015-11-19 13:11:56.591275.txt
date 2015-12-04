@@ -1,0 +1,7 @@
+Title: substring printing using loop
+Karma: 3
+Date: 1431838565.0
+trying read message love c loops file string variable print letter message starting first letter using loop managed print kept getting error please help output look like code include iostream include iomanip include string include fstream using namespace std task variables int messagelength int counter string messageletter string message string messagereconstructed task substring printing output divider cout setfill'' setwscreenwidth ' ' setfill' ' endl cout task loop string building endl output divider cout setfill'' setwscreenwidth ' ' setfill' ' endl move input cursor next line finignore ' getlinefin message ' messagelength messagelength counter counter messagelength counter messageletter messageatcounter cout messagereconstructed endl messagereconstructedappendmessageletter cout messagereconstructed endl cout endl output divider cout setfill'' setwscreenwidth ' ' setfill' ' endl output error kept getting
+
+==============================
+

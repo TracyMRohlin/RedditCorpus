@@ -1,0 +1,7 @@
+Title: powershell help understanding parameter
+Karma: 7
+Date: 1385428415.0
+im command line crash course found question whats difference mkdir mkdir p
+
+==============================
+

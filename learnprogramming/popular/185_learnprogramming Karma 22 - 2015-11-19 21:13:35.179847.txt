@@ -1,0 +1,7 @@
+Title: c overload class
+Karma: 22
+Date: 1353357839.0
+pointdh file ostream operator ostream output pointdcpp tostring returns string ostream pointdoperatorostream output output tostring return output compile pointd ptda cout ptda ptda endl get following error match 'operator' 'stdcout candidates stdbasicostreamchart traits stdbasicostreamchart traitsoperatorstdbasicostreamchart traitsstdbasicostreamchart traits chart char traits stdchartraitschar goes list different versions anyone see wrong
+
+==============================
+
