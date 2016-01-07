@@ -1,7 +1,0 @@
-Title: javascript question
-Karma: 2
-Date: 1432041321.0
-hi currently learning javascript using codeschool online however online ide answering post video questions sucks never gives reason code wrong far like using adobe dreamweaver cs question compile execute js problems dreamweaver ide
-
-==============================
-

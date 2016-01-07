@@ -1,7 +1,0 @@
-Title: high schooler making st arduino code using lcd keypad stepper motor help
-Karma: 11
-Date: 1400075187.0
-currently two codes one code working motor handles motor works fine second code lcdkeypadmotor handles three devices keypad lcd work expected second code get motor functions gets stuck precisely gets stuck outputting reset lcd access google drive folder codes need anymore information please feel free ask code needs done asap help appreciated
-
-==============================
-

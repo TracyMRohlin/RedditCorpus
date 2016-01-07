@@ -1,7 +1,0 @@
-Title: need database reading material suggestions
-Karma: 23
-Date: 1386312107.0
-tentatively starting coopinternship next summer told understandings database like mysql great tool prevalent taught part degree used mysql mongodb past another internship made queries fly google beside times retain much practice ideology even vocabulary due time constraints really search general reading databases give good understanding big named ones whether uses specific database teach really appreciate advice directions towards whathow learn effective database structuring usage thank advance
-
-==============================
-

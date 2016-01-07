@@ -1,7 +1,0 @@
-Title: c trying learn need help concepts
-Karma: 14
-Date: 1385286134.0
-lot questions c started learning change size vectors iirc arrays even exist situation anyone use array vector difference class namespace sure got huge difference seem find write almost identical program thing using classes namespaces example seems like reason sure namespaces exist make sure create function variable name long members different namespace okay leads question earth use exact name variable previously created know pretty much nothing smart many variables represent close thing name specifically thing sure understand hopefully someone help understand
-
-==============================
-

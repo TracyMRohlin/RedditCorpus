@@ -1,7 +1,0 @@
-Title: question typedef c
-Karma: 18
-Date: 1370577742.0
-enum direction north south east west typedef enum direction direction typedef enum direction north south east west direction thing advantage using one
-
-==============================
-

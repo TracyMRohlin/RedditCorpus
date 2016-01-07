@@ -1,7 +1,0 @@
-Title: one important tools programmer thesaurus
-Karma: 73
-Date: 1370591859.0
-help flesh idea thinking programming described term usability mean concern usability writing code assemble language higher level constructs allow us code faster understand code easier wellnamed code empowering user code quickly understand behaviours nuances code avoid traps naming something manager generic really tell manager responsibilities trafficcontroller datatransformer eventdelegator names evoke specific concept code look words thesaurus choose names classes variables best fits function data represents
-
-==============================
-

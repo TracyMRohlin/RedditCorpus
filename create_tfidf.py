@@ -8,7 +8,7 @@ import gensim
 from gensim import corpora, models
 from text_reader import read_files
 from popularity_cutoff import compute_cutoff
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 from sklearn.feature_extraction.text import CountVectorizer
 from pprint import pprint
 
@@ -19,6 +19,7 @@ class CorpusTFIDF(object):
     def __init__(self, wd=None, save=None):
         if wd:
             os.chdir(wd)
+            self.reddit = str(wd).split("/")[-2]
             self.cutoff = compute_cutoff(wd)
         self.popular_texts = []
         self.unpopular_texts = []
@@ -28,7 +29,7 @@ class CorpusTFIDF(object):
         self.word_counts = defaultdict(int)
         self.vectorizer = None
         if save:
-            if save.lower()[0] == "t":
+            if save.lower()[0] == "y":
                 self.save = True
 
     def read_texts(self):
@@ -45,6 +46,7 @@ class CorpusTFIDF(object):
     def yield_word_vectors(self, pop_type):
         """Yields word vectors later used in the create_tfidf() function"""
         self.dictionary = corpora.Dictionary(pop_type)
+        self.dictionary.filter_extremes(no_below=3)
 
         for text in pop_type:
             yield self.dictionary.doc2bow(text)
@@ -62,45 +64,23 @@ class CorpusTFIDF(object):
     def create_general_tfidf(self, ptype, n):
         self.create_corpus(ptype)
         tfidf = models.TfidfModel(self.corpus, dictionary=self.dictionary)
-        tfidf_dict = {}
-        top_tfidf_words = []
+        top_tfidf_words = defaultdict(list)
         n = int(n)
 
         # creates a new dictionary object of the top n scored words according to the tfidf model
         for words in self.corpus:
             new_dict = dict(sorted(dict((k, v) for (k, v) in tfidf[words]).items(), key=operator.itemgetter(1), reverse=True)[:n])
-            tfidf_dict.update(new_dict.items())
-            tfidf_sentence = []
-            for word_id in new_dict.keys():
-                tfidf_sentence.append(self.dictionary[word_id])
-            new_sentence = " ".join(tfidf_sentence)
-            top_tfidf_words.append(new_sentence)
+            for word_id, score in new_dict.items():
+                top_tfidf_words[score].append(self.dictionary[word_id])
+
+        top_tfidf_words = OrderedDict(sorted(top_tfidf_words.items()))
 
         print "This is how many documents are in the corpus: " + str(len(self.corpus))
         print "This is how many words are in the dictionary: " + str(len(self.dictionary.keys()))
         if self.save:
-            self.create_json("tfidf", tfidf_dict, n)
-
-        return top_tfidf_words
-
-
-
-
-
-    def create_json(self, modeltype, dictobject, n):
-        """Creates a csv file based on the objects in the tf-idf/lda model).  It takes the modeltype (tf-idf or LDA)
-        and the dictionary where the scores are stored as arguments."""
-
-        filename = "Top {} {} Scores.json".format(n, modeltype)
-        data = []
-        for word_id in dictobject.keys():
-            word = self.dictionary[word_id].encode('utf8')
-            score = dictobject[word_id]
-            out = [word_id, word, score]
-            data.append(out)
-        if self.save:
+            filename = "Top {} {} TFIDF Scores.json".format(n, self.reddit)
             with open(filename, "w") as jsonfile:
-                json.dump(data, jsonfile, indent=4, sort_keys=True)
+                json.dump(top_tfidf_words, jsonfile, indent=4, sort_keys=True)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Creates a model of most popular topic words based on LDA.")

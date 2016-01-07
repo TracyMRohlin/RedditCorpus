@@ -1,7 +1,0 @@
-Title: c program works debug mode
-Karma: 2
-Date: 1399743378.0
-hey kinda stuck friend referred basically teammates given task involves one part vnc client server using c client using vncsharp librarynow issue program tends crash connect method called probably guess method p weird thing occasionally work fine always works absolutely never crashes run linebyline using f sure actually called debug mode know else refer summary question cause program crash often run regularly ctrlf p never crash run linebyline f also asked thankful help us way tldr might cause program crash vast majority times run regularly ctrlf p never crash run linebyline f
-
-==============================
-

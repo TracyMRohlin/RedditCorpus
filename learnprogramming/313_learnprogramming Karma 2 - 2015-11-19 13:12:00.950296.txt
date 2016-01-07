@@ -1,7 +1,0 @@
-Title: need help getting ready hackathon
-Karma: 2
-Date: 1431685889.0
-girlfriend beginner level programmers attending hackathon coming know prepare understanding set us api pull data make useful app question format people usually make apps making desktop one phone create web app demo locally computers people usually make gui app openable exe file want code python looking exercise making web app learn python hard way exercise looks daunting sure quickest way learn scrap demoable web app hackathon
-
-==============================
-

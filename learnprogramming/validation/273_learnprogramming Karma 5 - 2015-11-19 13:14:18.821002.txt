@@ -1,7 +1,0 @@
-Title: web development beginners technologies use
-Karma: 5
-Date: 1400011040.0
-done many desktop applications c java c know basics html css javascript really mind learning new languages technologies like create simple todo list web application ability create new users log existing account comes issue really know much backend stuff frameworks like django ruby rails seems far complicated like use php easier learn frameworks like ruby rails learned php jump straight hell start learning rails guys think hope thread turn big battlefield php haters versus php lovers yes already found csstricks tutorial basically walks steps needed develop app
-
-==============================
-

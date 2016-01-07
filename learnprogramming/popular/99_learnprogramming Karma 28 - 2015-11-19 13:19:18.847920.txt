@@ -1,7 +1,0 @@
-Title: erlang calculating pi accurately x decimal places
-Karma: 28
-Date: 1386025513.0
-given question work solution struggling get head around recursion break equation helpful given pi estimated using function terms giving greater accuracy write function calculates pi accuracy decimal places
-
-==============================
-

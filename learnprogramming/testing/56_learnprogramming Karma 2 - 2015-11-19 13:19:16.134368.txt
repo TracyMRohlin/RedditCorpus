@@ -1,7 +1,0 @@
-Title: looking feedback learning process
-Karma: 2
-Date: 1386165410.0
-learning language lisp working projectbased book land lisp first major language though ok bash scripts working understanding concepts like looping conditionals etc current process follows read chapter get idea go chapter time writing code making sure follow line line instruction instruction delete functions keeping function name list arguments passed output format rewrite functions guys think ok rewriting whole program scratch instead tries producing code works though course predictably horrible point think cleaning
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c yellow book first example working
-Karma: 20
-Date: 1369540156.0
-advice forum decided take learning c starting reading rob miles 'yellow literally copied pasted first example visual studio express idea means new programming anyone explain please value null screenshot yellow book example visual studio thanks help
-
-==============================
-

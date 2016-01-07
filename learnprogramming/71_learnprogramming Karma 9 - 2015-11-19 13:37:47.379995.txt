@@ -1,7 +1,0 @@
-Title: cut
-Karma: 9
-Date: 1384261994.0
-background stuff graduated ba poli sci two years ago find stable job decided go back school cs hoping better luck upon graduation taking intro java moment probably one hardest class ever taken frustrated progress lack thereof read lecture slides code examples understand content reading small snippets codes lines little problems comes assignments projects requires substantially coding complete loss read prompt clue need idea start talk people found approach totally wrong among problem lack understanding goes piece works like importing classes using methods advice google read java api understand classes methods google confronted codes way advanced understand come across solution understand left wondering person came solution thought frustrating wondering even grasp basic going move next level gonna make programmer really takes sorry probably heard question dozens times find search
-
-==============================
-

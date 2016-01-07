@@ -1,7 +1,0 @@
-Title: anyone worked stmicro fdiscovery
-Karma: 2
-Date: 1385739709.0
-recently picked stmicroelectronics stmf discovery board meat question anyone learnprogramming experience devices help find materials learn understand may gone head complexity arm feel interestingrealistic development setup simply using arduino help greatly appreciated thanks
-
-==============================
-

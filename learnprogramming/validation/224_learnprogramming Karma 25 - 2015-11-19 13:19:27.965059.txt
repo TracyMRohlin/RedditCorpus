@@ -1,7 +1,0 @@
-Title: basics compiling c win
-Karma: 25
-Date: 1385618806.0
-fairly new languages running interpreter far c visual studio qt creator always subscribed idea one know use basic tools understand advanced work like handsaw skill saw ya know trying find tutorial compile code executable command line unfortunately really found anything helpful anyone recommend good readthrough compiling source windows
-
-==============================
-

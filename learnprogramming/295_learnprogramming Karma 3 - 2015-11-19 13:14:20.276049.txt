@@ -1,7 +1,0 @@
-Title: c someone help teach convert assembly code c example
-Karma: 3
-Date: 1399938818.0
-fn pushl ebp movl esp ebp movl ebp eax addl ebp eax addl eax eax popl ebp ret size fn fn ident gcc gnu red hat section notegnustackprogbits started learn c programming ia assembly language weeks ago wanted help strengthen understanding wondering help go linebylinestepbystep example included
-
-==============================
-

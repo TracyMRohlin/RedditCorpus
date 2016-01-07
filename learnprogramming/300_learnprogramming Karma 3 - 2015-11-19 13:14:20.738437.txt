@@ -1,7 +1,0 @@
-Title: sql beginner looking hints
-Karma: 3
-Date: 1399910073.0
-sql database line primary key represents information item first number main item last represents color want make possible colors xx item items different color info except name table black im new programming im sure approach problem thankful someone give hints start done using sql language
-
-==============================
-

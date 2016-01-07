@@ -1,7 +1,0 @@
-Title: anyone help multiply turing machine
-Karma: 12
-Date: 1307915202.0
-trouble learning multiply using turing machine anyone help
-
-==============================
-

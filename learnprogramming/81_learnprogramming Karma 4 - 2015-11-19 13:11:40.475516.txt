@@ -1,7 +1,0 @@
-Title: uploading data java server
-Karma: 4
-Date: 1432206854.0
-want send small amount text web server briefly ends make possible send post request java php page something like done much php
-
-==============================
-

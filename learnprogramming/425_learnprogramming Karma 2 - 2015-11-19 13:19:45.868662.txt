@@ -1,7 +1,0 @@
-Title: c difference code
-Karma: 2
-Date: 1385308543.0
-include iostream include string include vector using namespace std stringsizetype widthconst vectorstring v stringsizetype maxlen vectorstringsizetype vsize maxlen maxmaxlen visize return maxlen vectorstring hcatconst vectorstring left const vectorstring right vectorstring ret stringsizetype width widthleft vectorstringsizetype j leftsize j rightsize string leftsize lefti look stringwidth ssize ' ' j rightsize rightj retpushbacks return ret int main vectorstring fifth hello world hi vectorstring sixth hel wor herro thar vectorstring hello hcatfifth sixth vectorstringsizetype j forj j hellosize j cout helloj endl example lines marked use lefti rightj instead j like always iterating loops
-
-==============================
-

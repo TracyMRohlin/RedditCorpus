@@ -1,7 +1,0 @@
-Title: java trying see elements arraylist contains keywords another arraylist
-Karma: 13
-Date: 1385688454.0
-totally lost created arraylist obtains keywords user sentinel activated working fine also arraylist book titles element list arraylist books arraylistbook catalogue edit changed code following problem seems catalogue book arraylist string one seems directly compare two public arrayliststring gettitlescontainingkeywordstring keyword arrayliststringresults new arraylist int keywordssize int j j cataloguesize j cataloguegetjcontainskeywordsgeti resultsaddj return results compare two different types arraylists problem
-
-==============================
-

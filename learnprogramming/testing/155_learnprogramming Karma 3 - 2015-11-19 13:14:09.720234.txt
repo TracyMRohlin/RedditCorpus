@@ -1,7 +1,0 @@
-Title: javascript code seems always crash
-Karma: 3
-Date: 1400416437.0
-var x var y var x xxi consolelogx anyone wondering yes trying complete problem project euler
-
-==============================
-

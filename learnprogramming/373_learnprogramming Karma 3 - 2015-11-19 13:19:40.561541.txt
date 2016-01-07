@@ -1,7 +1,0 @@
-Title: need advice regarding vb
-Karma: 3
-Date: 1385401910.0
-want make program installed multiple computers program used store snippets code referred back however want every user computer able add see users code snippets go use access database store online somehow
-
-==============================
-

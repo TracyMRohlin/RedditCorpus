@@ -1,7 +1,0 @@
-Title: abstract thinking programming
-Karma: 19
-Date: 1369888952.0
-hello everyone first time post long time lurker question regarding learning program tried teach code right im trying work python lessons things going ok feel like every time get point start trying express algebraic type equations kind fall flat face quick background havent school years quite bit experience around different computer systems ive never learned code anyway always reach point start dealing factorial something like fibonacci sequence things fall apart im looking advice increase capacity abstract thinking think situation may hold programming go back work math review understand learning program marathon learning think abstractly apply solutions takes many years really like know peoples thoughts thanks
-
-==============================
-

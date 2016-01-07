@@ -1,7 +1,0 @@
-Title: using xcode c mac figure code compile
-Karma: 3
-Date: 1431860997.0
-using xcode ide write c code reason every time try run code get build failed message see error output anything visible really familiar ides ever used vim server sshed school even simplest code like include stdioh int main int x printfx d x return gives build failed error message think main issue xcode new environment used figure get command line compiler running went ide like video tutorials xcode shows everything
-
-==============================
-

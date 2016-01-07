@@ -1,7 +1,0 @@
-Title: updating live html inbrowser javascript
-Karma: 2
-Date: 1385167694.0
-saw interesting comic xkcd morning thanks
-
-==============================
-

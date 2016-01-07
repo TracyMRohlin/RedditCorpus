@@ -1,7 +1,0 @@
-Title: haskell abstracting away io
-Karma: 2
-Date: 1400778618.0
-hi got following code module main import systemio hflush stdout import textprintf printf putget string io string putget str putstr str hflush stdout getline ask string io string ask symbol putget bitte geben sie symbol ant main io main inn ask n ind ask d inx ask x let n read inn int d read ind double x read inx double printf fx lnx n d x f d fn n x d way reduce lines per variable main line understand create function return nonio string still io monad impossible design greetings
-
-==============================
-

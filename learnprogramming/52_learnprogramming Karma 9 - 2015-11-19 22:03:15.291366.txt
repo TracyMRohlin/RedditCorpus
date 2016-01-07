@@ -1,7 +1,0 @@
-Title: running compiled programs ubuntu
-Karma: 9
-Date: 1324511193.0
-jsut started learning bit c following learn c days guide guide claimed compiling object file executable well original programc file get one file called aout using gcc compile ubuntu vim editor make difference think think exectuable object file also need type aout run realised gcc programc o insertnameforexecutable lets call aout
-
-==============================
-

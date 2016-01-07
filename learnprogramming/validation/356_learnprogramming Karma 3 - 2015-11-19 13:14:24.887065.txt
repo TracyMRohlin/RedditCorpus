@@ -1,7 +1,0 @@
-Title: wanna understand os interracts software
-Karma: 3
-Date: 1399758425.0
-hello reddit programming learner made c java difficult want understand happens behind software lowlevel way abstract way possible give example print something terminal cause simplest example exactly happens behind printing know printf function function makes right know terminal app type name app terminal lost kernel first thing runned notebook kernel entity terminal thank time sorry stupid question
-
-==============================
-

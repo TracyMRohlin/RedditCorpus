@@ -1,7 +1,0 @@
-Title: help array
-Karma: 21
-Date: 1352979414.0
-hi guys hope wonderful daynight far stuck problem school help greately appreciated question write program reads numbers keyboard array type int may assume fewer entries array program allows number numbers entered output twocolumn list first column list distinct array elements second column count number occurrences element list sorted entries first column largest smallest far someone guide next brain complete mush right like said help like maybe even small explaination helpthank much time
-
-==============================
-

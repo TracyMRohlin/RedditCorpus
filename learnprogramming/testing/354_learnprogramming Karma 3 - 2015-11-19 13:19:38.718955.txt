@@ -1,7 +1,0 @@
-Title: java final class assignment help needed
-Karma: 3
-Date: 1385428665.0
-hey everyone got class assignments final one even know start help appreciated write program reads three numbers prints increasing increasing order decreasing decreasing order neither otherwise increasing means strictly increasing value larger predecessor sequence considered increasing edit far typed sure heading correct path import javautilscanner public class order public static void mainstring args scanner new scannersystemin systemoutprintenter single digit number string first innext systemoutprintenter another single digit number string second innext systemoutprintenter one single digit number int third innextint systemoutprintln systemoutprintlnthe numbers first second third order
-
-==============================
-

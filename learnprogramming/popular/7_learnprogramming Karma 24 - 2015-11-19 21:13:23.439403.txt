@@ -1,7 +1,0 @@
-Title: tips reading code
-Karma: 24
-Date: 1354458253.0
-reading digesting code often recommended beginning programmers way exposed new things also learning write proper code given good example however often find overwhelmed lot projects look especially c projects might interface api etc hardware syntax foreign oftentimes simply get lost intricate structure program especially using design pattern aware highly doubt able figure going multiple header files source files gets confusing seasoned programmers tips offer simply matter experience
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c trying figure find number friday ths year
-Karma: 14
-Date: 1385203498.0
-like title says assignment find many times friday th shows year trying figure steps code figured tell ideas hopefully get help figuring create main function take year input pass input function loop months days month day friday date print screen probably way needs done got sorry little work help appreciated though edit probably mentioned working
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c nullreferenceexception even adding constructor
-Karma: 3
-Date: 1385735372.0
-tried google dug around msn documentation looked stack exchange come far something null going loop sure null coming use new declaring array tried adding constructor initialize cell properties still getting error line initializecs code sample gist knew taking complex project expect get stuck early ideas edit thank error section initializecs int y y constantgridsize y int x x constantgridsize x gridx yrow y gridx ycolumn x fixed section call constructor altering values int y y constantgridsize y int x x constantgridsize x gridx y new cell gridx yrow y gridx ycolumn x
-
-==============================
-

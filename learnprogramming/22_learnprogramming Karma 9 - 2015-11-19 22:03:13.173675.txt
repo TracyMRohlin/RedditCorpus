@@ -1,7 +1,0 @@
-Title: serial communication arduino multibyte numbers
-Karma: 9
-Date: 1324997092.0
-first efficient solution better built method got arduino uno playing around serial communication reading single characterdigit easy took work figure read number several digits builtin serial monitor reads right left simple matter taking digit multiplying place value power digit higher power last however reads left right know place value digits reach end work backwards example solution number read multiplied read multiplied read multiplied sum multiplying number last digit gives wanted general made digits negative power first digit etc ensures digits highest place value still value greater value lowest place value end sum individual digitn multiply final digit number code serialavailable digitnumber counts digit current one left right sum keeps track number total serialavailable digitnumber next digit number right char digit serialread reads next digit available double digitvalue digit'pow digitnumber converts char int multiplies digitnumber sum digitvalue adds digit delay otherwise next digit always become available checks number sumpow digitnumber converts sum back correct number
-
-==============================
-

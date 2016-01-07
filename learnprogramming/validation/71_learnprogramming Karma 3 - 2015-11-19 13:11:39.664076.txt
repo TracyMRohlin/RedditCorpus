@@ -1,7 +1,0 @@
-Title: c requesting critique simple code
-Karma: 3
-Date: 1432242311.0
-hey teaching c fall semester starts question read sequence words cin store values vector youve read words process vector change word uppercase print transformed elements eight words line code include iostream include string include vector int main using namespace std string word int count vectorstring vs cin word vspushbackword auto word vs auto c word c toupperc auto word vs cout word count count cout endl count return guys think tips tricks use optimize code vulnerable
-
-==============================
-

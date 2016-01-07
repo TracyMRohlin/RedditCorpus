@@ -1,7 +1,0 @@
-Title: thoughts codeigniter
-Karma: 26
-Date: 1337938626.0
-hi building classifieds ads website similar craigslist already coded complete loginregistration system primarily php backend stuff connecting mysql database wanted move onto creating post ads function next wondering start use codeigniter heard pretty good framework building web apps thoughts ci reddit tips someone building classifieds ads website languages focusing besides phphtmlcss
-
-==============================
-

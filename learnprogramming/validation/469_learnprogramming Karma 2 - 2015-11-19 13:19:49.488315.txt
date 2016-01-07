@@ -1,7 +1,0 @@
-Title: first ever project database
-Karma: 2
-Date: 1385229007.0
-question graduation project hoping advice basically database management system managing library pharmacy shop etc doesnt matter one supposed recording managing items transactions little practical experience databases dont know begin idea use relational database mysql build around programuser interface using java manage database dont know actually work even possible way straight forward way dont want ready made solution basic ideas make manage database something little complex using microsoft access
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: store user submitted images
-Karma: 5
-Date: 1400826898.0
-making form user inputs text fields image read tutorials guides seems ways storing image database blob saving image folder save image name database way better using mysql website planned get lot postslots images
-
-==============================
-

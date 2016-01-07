@@ -1,7 +1,0 @@
-Title: web vs desktop xthstring problems
-Karma: 2
-Date: 1432108596.0
-okay currently inbetween internships jobs gotten taste several things webdev seems confusing learning c past year feel like understand things fit c even compilers choices seem appropriate place two three apis libraries compete seem unique strong points meteorjs vs angularjs vs whatever else hundreds buzzwords floating around feels like web development gotten lot farther terms optimizing discipline fine art lot tools seems things occur third fourthstring problems mean xstring st string segfault pointer deleted need ensure pointer deleted first access nd string using smart pointers manage memory using weak pointers act observers smart pointers rd string using automated system managing memory meta program check source code runtime th string using garbage collector inside vm solve memory problems xth string takes six months two years develop see progression people design tools encapsulate problems struggled c memory management using java rust memory management safety built language web really see big picture feels like th string strange seeing nodejs presentations using curl realizing internship fully using templating frameworks modelviewcontroller thisandthis framework manage thing etc etc etc comparison seen c feels like lot problems seems overlap lot redundancy frameworks right tips new webdev intern coming year c
-
-==============================
-

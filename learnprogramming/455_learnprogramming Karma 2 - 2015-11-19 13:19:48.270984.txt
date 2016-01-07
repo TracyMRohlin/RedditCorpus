@@ -1,7 +1,0 @@
-Title: javaquestion reguarding printwriter method
-Karma: 2
-Date: 1385263652.0
-ok background information im middle writing method write transaction log public static void setlogstring login double amount string accounttype string transtype throws ioexception decimalformat dollar new decimalformat printwriter pw new printwriterlogin logtxt pwprintln dollarformatamount transtype accounttype n pwclose writes file erases trasaction previously written writes newest one way around researched online methods printwriter class find solution
-
-==============================
-

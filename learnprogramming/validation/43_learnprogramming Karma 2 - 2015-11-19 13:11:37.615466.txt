@@ -1,7 +1,0 @@
-Title: repelling unity
-Karma: 2
-Date: 1432268164.0
-hi beginner unity working pong right came problems trying add repel behaviour make gameobjects unmovable player pushes borders get pushed away applied force ball start function ball instantly starts moving press play next use oncollisionenterd function invert force applied ball hits object work sound pretty legit thx advance code rather small looks like using unityengine using systemcollections public class repel monobehaviour private rigidbodyd rball private vector force new vector use initialization void start rball getcomponentrigidbodyd rballaddforce force update called per frame void update void oncollisisonenterdcollisiond col forcex forcey
-
-==============================
-

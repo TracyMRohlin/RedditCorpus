@@ -1,7 +1,0 @@
-Title: java swing animation
-Karma: 11
-Date: 1323614945.0
-assignment java class supposed create gui represents game craps everything works exactly way want except one thing animation user hits roll button want look like dice rolling screen idea gui display different face value every milliseconds something nature using pause course work event dispatch thread aware threads timer class know exactly implement images face saved help greatly appreciated code available request thanks
-
-==============================
-

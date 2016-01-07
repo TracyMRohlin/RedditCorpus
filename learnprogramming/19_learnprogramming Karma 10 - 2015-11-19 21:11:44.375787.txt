@@ -1,7 +1,0 @@
-Title: drracketscheme help
-Karma: 10
-Date: 1368929442.0
-trying learn scheme emacs made go grey years early drracket barking tree wondering someone kind post syntax used import library wrote tried following lang scheme require hellorkt regret inform two lines took hours figure however try use vhello basic hello world function wrote says undefined hellorkt looks follows lang scheme hello world variable define vhello hello world hello world function define fhello lambda hello world copy pasted site recommends commands work emacs thank assistance redditors edit formatting typo
-
-==============================
-

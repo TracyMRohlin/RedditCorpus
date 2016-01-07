@@ -1,7 +1,0 @@
-Title: get jbutton loop
-Karma: 8
-Date: 1432072173.0
-hi everyone started programming java want add seven jbutton jpanel loop instead add one tried works int paneladd new jbuttonbutton thanks helping
-
-==============================
-

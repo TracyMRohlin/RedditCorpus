@@ -1,7 +1,0 @@
-Title: git commit
-Karma: 14
-Date: 1384490470.0
-working project certain files avoid committing repository example javaandroid avoid committing bin files gen files repository generated time files include personal details like local project path planning working open source projects want know files avoid committing accidentally making fool
-
-==============================
-

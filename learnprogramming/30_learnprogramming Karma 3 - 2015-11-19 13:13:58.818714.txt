@@ -1,7 +1,0 @@
-Title: help generic stack class java
-Karma: 3
-Date: 1400758893.0
-error line says convert absolutely idea edit fixed old problem new one came public class jstack stack int stack int top top stack empty stack public jstackint size stack tnew objectsize top public void pusht e top stacklength throw new runtimeexceptionstack full stacktop e
-
-==============================
-

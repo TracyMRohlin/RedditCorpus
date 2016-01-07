@@ -1,7 +1,0 @@
-Title: statically vs dynamically typed languages
-Karma: 4
-Date: 1432098908.0
-recently got first programming job enterprise development previously experience scientific academic arenas language background primarily python learning dynamically typed language new position primary languages working java scala understanding statically typed wondering expand means far difference seen python create variable made mixture integers strings arrays floats comes java unable accomplish within ordinary means current understanding type differences two languages advantages statically typed dynamic vice versa
-
-==============================
-

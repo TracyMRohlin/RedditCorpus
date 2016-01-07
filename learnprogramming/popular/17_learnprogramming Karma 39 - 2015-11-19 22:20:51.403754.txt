@@ -1,7 +1,0 @@
-Title: chairs people logic question
-Karma: 39
-Date: 1310542724.0
-came across logic question part interview room chairs arranged circle chairs numbered sequentially chair person sitting point time person chair asked leave person chair skipped person chair asked leave pattern skipping one person asking next leave keep going around circle one person left survivor chair survivor sitting one thing remember circle find correct solution suggestions edit got gist python script wrote regarding thisi get github
-
-==============================
-

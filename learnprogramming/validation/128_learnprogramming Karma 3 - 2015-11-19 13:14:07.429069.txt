@@ -1,7 +1,0 @@
-Title: svn software local development
-Karma: 3
-Date: 1400515407.0
-really learn programming question looked like amateur rprogramming first real development job ever already oh god documentation panic attack enter svn problem slightly weird development setup addition alone project one writing code chance commit svn code local work done guess svn commit copy code windows laptop netbeans installation use mostly search log messages function calls copy linux virtual machine without netbeans compiling miscelaneus tests edit done newlydiscoveredforme vim third copy virtual machine access whenever want complete test environment fourth copy remote machine side city literally testing stuffs lot problem go testing copy last version code everyone happy mostly trying find kind local source control software main machine two virtual environments search variable netbeans modify update virtual machines vice versa connect machines laptop set server must compatible netbeans well simple raw linux installation centos idea use kind svn integrationinstallation linux
-
-==============================
-

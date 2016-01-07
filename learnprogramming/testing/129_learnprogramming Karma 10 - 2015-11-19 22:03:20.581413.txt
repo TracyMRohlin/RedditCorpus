@@ -1,7 +1,0 @@
-Title: create programscript observe subreddit alert new posts submitted
-Karma: 10
-Date: 1322564435.0
-one thing sure set observe send requests every couple seconds better way
-
-==============================
-

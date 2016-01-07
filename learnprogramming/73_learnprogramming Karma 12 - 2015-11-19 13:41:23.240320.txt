@@ -1,7 +1,0 @@
-Title: jsjquery horizontal movement based vertical scroll
-Karma: 12
-Date: 1370281873.0
-hi learners developing site incorporates parallax scrolling background images scroll different speeds taking next step created background images element image move horizontally position image scrolls view using ' function triggering comparing windowscrolltop offset particular div ie back ground image scrolled half way elements within image move px left page scrolled back ground image half way ' left oriented elements move px back right want take next step make elements move based scrolling page instead moving set px position back make move relative vertical scroll page anyone suggest start trying find answer thanks
-
-==============================
-

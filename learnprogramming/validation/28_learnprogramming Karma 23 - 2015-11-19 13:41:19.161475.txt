@@ -1,7 +1,0 @@
-Title: java threading right
-Karma: 23
-Date: 1370512907.0
-still new please forgive silly question writing code look file line line extract information x files directory want file separate thread using threading command correctly seems simple feel like missing something file inputs new filehomelilydownloadshumanlistfiles file input inputs thread temp new thread tempstart etc
-
-==============================
-

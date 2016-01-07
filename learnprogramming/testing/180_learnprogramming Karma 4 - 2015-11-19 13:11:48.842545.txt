@@ -1,7 +1,0 @@
-Title: format drive without user input batch
-Karma: 4
-Date: 1432013225.0
-trying create batch file format usb drive reload folder files program working prompts input sure rename drive go modifying code automatically name drive leave drive name thanks code cls format e q xcopy q cuserstechdesktoptestcopy e
-
-==============================
-

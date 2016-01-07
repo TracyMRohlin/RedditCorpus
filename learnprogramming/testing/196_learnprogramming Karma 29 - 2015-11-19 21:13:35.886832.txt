@@ -1,7 +1,0 @@
-Title: java simulate gravity objects
-Karma: 29
-Date: 1353203921.0
-currently working simple program particles orbiting one several different sources gravity trouble gravity part program ideas either simulate gravity least mimic
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c better pass ton variables around functions make variables global
-Karma: 16
-Date: 1368783862.0
-working last programming lab
-
-==============================
-

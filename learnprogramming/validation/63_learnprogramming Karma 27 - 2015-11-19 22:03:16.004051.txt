@@ -1,7 +1,0 @@
-Title: cc much faster languages python binding c api '
-Karma: 27
-Date: 1324342078.0
-much scripter programmer work python mainly inside software like maya nuke access c mayaapi also python binding wondering worth effort learn native c spend time get better python
-
-==============================
-

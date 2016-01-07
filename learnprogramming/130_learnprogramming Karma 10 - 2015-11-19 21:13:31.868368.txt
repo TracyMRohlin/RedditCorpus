@@ -1,7 +1,0 @@
-Title: java using enum class without objects
-Karma: 10
-Date: 1353755492.0
-okay came across example college java textbook appears using variable another class without ever creating object summarize code portion public enum menuoption zerobalance creditbalance public class creditinquiry private menuoption accounttype private scanner input new scanner systemin private final static menuoption choices menuoptionzerobalance menuoptioncreditbalance accounttype choices request later code use variable accounttype without creating object ex menuoption accounttype new menuoption thought need done assigning values accounttype apologize post confusing way much code type whole example hope included necessary pieces program far know accounttype choices request first time accounttype used program besides initial declaration help d
-
-==============================
-

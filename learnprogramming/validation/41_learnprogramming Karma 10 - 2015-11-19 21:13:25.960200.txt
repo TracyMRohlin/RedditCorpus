@@ -1,7 +1,0 @@
-Title: possible create crossplatform gui without using something like java
-Karma: 10
-Date: 1354164228.0
-expand little possible program gui compile platform specific display linux windows osx hardly modification
-
-==============================
-

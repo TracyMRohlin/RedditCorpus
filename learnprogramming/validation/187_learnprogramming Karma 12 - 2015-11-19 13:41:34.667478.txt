@@ -1,7 +1,0 @@
-Title: jquery codecademy treehouse teaching different ways
-Karma: 12
-Date: 1369344797.0
-hi everyone first time posting rlearnprogramming reading quite awhile love starting scratch learning code membership team treehouse codecademy basically lessons codecademy hopping team treehouse gaps filled worked really well far like foundation knowledge codecademy gives details team treehouse fills makes confident start working projects fun totally lost hit road bumps working jquery though two sites things differently sure believe codecademy everything separate js file always starting documentreadyfunction going team treehouse however seem bottom html file script element know ways seem work really better practice thanks
-
-==============================
-

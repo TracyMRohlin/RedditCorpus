@@ -1,7 +1,0 @@
-Title: written java program go moving online serverside clientside
-Karma: 51
-Date: 1354330002.0
-written java program trying figure load onto web server trying tutorial tutorial try try apache trying use eclipse others far everything random errors deep enough knowledge fix service help testrunwrite java application web page jsp servletts keep popping still figure exactly looking direction coding help thanks edit communication skills remain dusty let retry calculator program want run web server mean want computation done server side web page asks input server receive input calculate output client receive output really new web dev please try correct point terminology helps communication less murky
-
-==============================
-

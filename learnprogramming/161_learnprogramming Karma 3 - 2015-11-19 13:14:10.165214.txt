@@ -1,7 +1,0 @@
-Title: make java program run desktop icon
-Karma: 3
-Date: 1400394246.0
-java swing gui running raspberry pi raspbian wheezy matters
-
-==============================
-

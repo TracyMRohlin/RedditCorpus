@@ -1,7 +1,0 @@
-Title: tips structuringdesigning
-Karma: 23
-Date: 1399732430.0
-personally use alot programs mostly expected nowadays realized rarely taught class properly structure design ui curious fiddling around making custom gui library want get nitty gritty things linksbooks words advice welcome
-
-==============================
-

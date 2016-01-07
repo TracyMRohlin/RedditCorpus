@@ -1,7 +1,0 @@
-Title: want learn web development safety
-Karma: 84
-Date: 1385988276.0
-came across website day provides programming ' use exploit changing cookies javascript variables sql injections mucking get variables etc ' example website really opened eyes many ways site compromised challenges interesting definitely recommend anyone web development note sorry repost tried find sub
-
-==============================
-

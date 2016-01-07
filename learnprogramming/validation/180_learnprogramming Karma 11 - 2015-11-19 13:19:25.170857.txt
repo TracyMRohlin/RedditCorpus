@@ -1,7 +1,0 @@
-Title: c error
-Karma: 11
-Date: 1385722070.0
-meant add error title forgot looked back code trying figure wrong parameters function get errors add get error message indexes saying expression must pointertoobject type cause error
-
-==============================
-

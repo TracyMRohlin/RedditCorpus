@@ -1,7 +1,0 @@
-Title: spring mvc aspnet independent developer used rails
-Karma: 2
-Date: 1431735168.0
-hi looking jobs around area using either spring aspnet equal amounts experience c java know almost nothing frameworks prompted start new project using either framework plan make restful api hook game application also able display pages listing statistics api concerns finding affordable host application preferably linux host past used heroku rails projects keep getting recommended check aws looking get professional experience questions restricted windows hosting use aspnet aws complicatedexpensive time money beginner look hosting platforms spring boot replacement server war note barely understand concept war file please forgive ignorance suggestions learning material either framework
-
-==============================
-

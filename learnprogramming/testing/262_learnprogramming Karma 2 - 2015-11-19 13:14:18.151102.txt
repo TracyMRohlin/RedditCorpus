@@ -1,7 +1,0 @@
-Title: right way handle server sending back updated status object client tcp
-Karma: 2
-Date: 1400039070.0
-hey edit forgot mention c using tcpclient tcplistener communicate client server apps sending object wrap game status steps taken inside apps server waiting players connect client connect client connect server save client ipendpoint future callbacks server sending updated status object clients list client processing object inform player updated status client one allowed take action send action server client wait turn informed turn server send status object every time player make move poker game client sends requested move wait server response process using tcpclient tcplistener client server good practice handling feature
-
-==============================
-

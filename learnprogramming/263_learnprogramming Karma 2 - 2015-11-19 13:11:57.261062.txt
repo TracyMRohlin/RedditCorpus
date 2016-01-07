@@ -1,7 +1,0 @@
-Title: right language job
-Karma: 2
-Date: 1431816426.0
-need languagesdkframework mix scores high requirements project im developing started ruby moved ruby rails migrated everything java im frustating issues im happy java database connection postgresmongodb activerecord great live string query select good fast db connection client library crucial good curl best need web fronted whole mvc requirement mind mvc part made ror something else apart stringtext processing ruby really scored fast multicore async gpu ruby really sucked good debuging tools eclipse debug perspective great imo need ability dive code breakpoints easily straightforward want spend focus code springhibernatecameltomcatmavendbpc major clusterf reinvent wheel old stable technologies implements better experienceneckbeards happily live client server architecture thanks
-
-==============================
-

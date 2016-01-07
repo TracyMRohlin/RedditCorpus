@@ -1,7 +1,0 @@
-Title: programs like photoshop handle undo stack
-Karma: 5
-Date: 1385496991.0
-sure right place ask seems like magic photoshop keep track many changes without sucking memory
-
-==============================
-

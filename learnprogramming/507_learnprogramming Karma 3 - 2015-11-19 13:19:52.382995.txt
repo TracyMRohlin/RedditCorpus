@@ -1,7 +1,0 @@
-Title: currently data structures algorithms course really confused work best worst average case complexities algorithm help appreciated
-Karma: 3
-Date: 1385162902.0
-example question one tutorials consider following pseudocode function fooarray arrayi mod length array return b time complexity respect array size n algorithm described worst case best case average case justify answer state assumptions make average case best case first element divisible processing step independent size array therefore time complexity o best case worst case whole array needs searched element last element divisible array size n n processing steps needed therefore time complexity worst case average case assume one element divisible equally likely appear position array need onsteps find position average answers given tutorial understand arrive answers like steps get work algorithm get best case blindingly obvious worst case kind get element end array going take olength array time get however average get stumped care help methods working shortcut ways ie algorithm nested loop usually algorithm halving time number elements search logarithmic thanks
-
-==============================
-

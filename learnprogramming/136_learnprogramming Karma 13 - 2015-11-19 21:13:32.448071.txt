@@ -1,7 +1,0 @@
-Title: c problems linked lists
-Karma: 13
-Date: 1353721760.0
-basically program read file types records sales receipts promotions use linked lists store manipulate data reason get stuck cout statement end iftype ' loop prints received widgets price anywhere list set node linklist classes wrong way overlooking something simple main program
-
-==============================
-

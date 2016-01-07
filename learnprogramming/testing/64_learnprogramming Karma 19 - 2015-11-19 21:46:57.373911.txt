@@ -1,7 +1,0 @@
-Title: guide good project documentation
-Karma: 19
-Date: 1338360127.0
-amateur programming recently started first project require proper documentation hoping get pointers experience unsure needed best place start thinking sections good write code general incode documentation various functions constants etc conventions philosophy write chose design program way incorporate future changes following guidelines set user average user need know able change interact program flow give examples using various user inputs describe inputs alter flow program much experience project docs really know missing groups case alters approach documentation program python web app use database thanks advance pointers
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: beginner question terminal recognize touch command went wrong
-Karma: 6
-Date: 1400066158.0
-taking online ruby course first task course download software tools need course windows downloaded ruby rubyinstaller using powershell tried run code said touch recognize name cmldet function script file operable program mkdir newdir navigate folder created cd newdir create file called ' touch newfilerb something ruby powershell something else
-
-==============================
-

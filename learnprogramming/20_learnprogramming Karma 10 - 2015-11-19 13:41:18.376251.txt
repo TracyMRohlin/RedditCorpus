@@ -1,7 +1,0 @@
-Title: hlsl sample texture geometry shader info included
-Karma: 10
-Date: 1370559602.0
-need sample black white texture tell geometry shader add new quads make grass appear certain areas everywhere apply shader anyone knows bit hlsl wants help thanks advance
-
-==============================
-

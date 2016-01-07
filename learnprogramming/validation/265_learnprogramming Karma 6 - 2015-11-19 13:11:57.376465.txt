@@ -1,7 +1,0 @@
-Title: learn gui programming
-Karma: 6
-Date: 1431814002.0
-tried search tutorials youtube find one looking tutorials develop gui applications c preferably wxwidgets
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: asaudio code audio envelope attack decay sustain release sound object
-Karma: 30
-Date: 1353839467.0
-coded simple sine wave generator without envelopes sound starts strong click need implement attack time avoid idea found tutorials really vague regarding envelopes implementations induce distortion audio using tweens like tweenmax induces audio distortion code anyone point right direction really need attack envelope fade
-
-==============================
-

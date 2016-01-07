@@ -1,7 +1,0 @@
-Title: c requesting help malloc
-Karma: 9
-Date: 1323129659.0
-supposed write program first declare n number elements d float array allocate memory n number elements literally stuck beginning questions first declare array exactly use random value firstex array somehow declare array null startex arraynull malloc work make pointer arrayex parrayfloatmallocnsizeoffloat exactly help greatly appreciated thanks advance
-
-==============================
-

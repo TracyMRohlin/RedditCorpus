@@ -1,7 +1,0 @@
-Title: visual studio using library project
-Karma: 10
-Date: 1369036343.0
-hi trying little summer learning idea project uses winpcap want c found pcap wrapper net like use pcapdotnet folder hierarchy contains src folder solution many projects tried adding existing project vs says type namespace name ' found missing using directive assembly reference sure means anyone give hand new net windows programming general thank reading zerodev
-
-==============================
-

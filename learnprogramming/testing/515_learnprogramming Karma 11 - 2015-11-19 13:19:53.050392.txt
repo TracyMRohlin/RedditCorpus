@@ -1,7 +1,0 @@
-Title: get easier
-Karma: 11
-Date: 1385131525.0
-point learning feel know fundamentals computer science programming made completely textbooks done exercises textbooks written consider simpleish programs oo principles mindmostly console stuff simple gui stuff decided time try real development tinkering learning android apis make apps also spent time perusing opensource projects github problem running projects seem extremely complex someone level give analogy feel like music student learned read write basic music know fundamentals melodies keys etc told try read symphony completely lost structure flow music completely beyond feel like trying understand opensource projects like anyway guys tips resources people kind weird intermediate level understanding fundamentals programming yet ready contribute open source projects
-
-==============================
-

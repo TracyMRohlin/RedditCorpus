@@ -1,7 +1,0 @@
-Title: mean pipe sh file sh command
-Karma: 7
-Date: 1432352297.0
-following command curl l guessing downloading bash file sh command passing sh file bash compiler
-
-==============================
-

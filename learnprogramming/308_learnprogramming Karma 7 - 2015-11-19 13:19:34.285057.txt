@@ -1,7 +1,0 @@
-Title: javascript sure browsers returning netscape appname code working right
-Karma: 7
-Date: 1385477944.0
-sorry bad title lines know useragentstring story lot browsers return mozilla affecting code error decision logic
-
-==============================
-

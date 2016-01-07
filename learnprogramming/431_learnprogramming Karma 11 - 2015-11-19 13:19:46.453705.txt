@@ -1,7 +1,0 @@
-Title: homework c loops storing data arrays components structure
-Karma: 11
-Date: 1385290598.0
-homework proving tad tricky objective said homework main program get data individual student function studentdata getstudent find highest score individual student print id function double individualhighestscorestudentdata person get data array studentdata size find student array best rank lowest number e rank best rank worst print id number student best rank function int beststudentstudentdata list int n find highest score scores students array studentdata print highest score attained anyone function double highestscoreliststudentdata list int n structure studentdata typedef struct char lastnamestrsize char firstnamestrsize int id double scores int rank studentdata output program print please enter data one student please enter last name lee please enter first name vinnie please enter id please enter rank test score test score test score test score test score highest test score student id please enter data array students please enter last name tanner please enter first name maurice please enter id please enter rank test score test score test score test score test score beststudent highestscorelist student id ranked number highest score class test second part prints data array students individual student got everything work correctly tried modify code work array work well code script posted thank help script
-
-==============================
-

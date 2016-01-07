@@ -1,7 +1,0 @@
-Title: actionscript possible maybe little help
-Karma: 16
-Date: 1400473333.0
-okay going try explain best feel free ask clarification find lost confused program xsplit utilize different pieces media including swf position screen sends livestream various services looking use swf sits quietly side screen someone performs certain action donates follows subscribes etc swf recognize slide show name livestream look updates txt files already set working actionscript sit monitor txt file waiting updated run animation occurred corresponding data sent swf go used flash years never really got actionscript portion basic bits like telling frame go play
-
-==============================
-

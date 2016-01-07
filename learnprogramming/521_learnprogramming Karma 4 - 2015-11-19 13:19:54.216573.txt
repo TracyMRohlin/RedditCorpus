@@ -1,7 +1,0 @@
-Title: c header files
-Karma: 4
-Date: 1385113417.0
-hi writing program c big deal practise since getting longer average program learning functions decided create headers first time need want learn looked information found hpp contain function clases names without body call write full function body define cpp well got right actually define full functions hpp compile fine recommended maybe reason precompiling headercpp saves compilation time future maincpp compilations find system annoying since make modifications merge split funcionsclasses names hpp cpp remember make changes file questions special reason appart compilation time split headers hpp cpp standard way making headers big projects everything hpp separate hpp cpp fine splitting cpp hpp annoying manualy change names functions modify header really worth hpp readibility noob maybe questions stupid place really know thanks
-
-==============================
-

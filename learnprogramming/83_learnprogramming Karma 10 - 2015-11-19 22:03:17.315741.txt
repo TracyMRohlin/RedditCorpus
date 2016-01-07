@@ -1,7 +1,0 @@
-Title: ti programming help
-Karma: 10
-Date: 1323761899.0
-making program calculator use method display iterations gets sufficiently close code far disp initial guess input x n lbl xynderivyxxr absxrabsxe goto rx nn goto lbl disp rootr disp itern works part displays final iteration need order display previous iterations
-
-==============================
-

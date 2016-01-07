@@ -1,7 +1,0 @@
-Title: python need help understanding lesson learn python hardway
-Karma: 13
-Date: 1369956328.0
-import web urls ' ' app webapplicationurls globals render webtemplaterender'templates' class indexobject def getself form webinputnamenobody greeting hello formname return renderindexgreeting greeting name main apprun really understand formname came created form webinputnamenobody one explain works connects internet think understand someone else explaining might help understand little
-
-==============================
-

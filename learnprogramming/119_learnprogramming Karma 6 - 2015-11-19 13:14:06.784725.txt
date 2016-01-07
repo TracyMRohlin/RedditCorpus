@@ -1,7 +1,0 @@
-Title: python removing items list based predicate
-Karma: 6
-Date: 1400547195.0
-remove defines list predicate parameters returns none mutates list values list satisfy predicate removed example l ''''''''' calling removellambda x x ' results list storing '''''' trying use loop loop seem get indexes correct help great def removealistp true rangelenalist ilenalist break palisti del alisti return alist
-
-==============================
-

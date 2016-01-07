@@ -1,7 +1,0 @@
-Title: vba take excel list people birthdays outlook calendar
-Karma: 15
-Date: 1385447790.0
-programming experience java python matlab none visual basic spreadsheet list people birthdays need get name birthday list create reminder outlook calendar birthdaysincluding names year birthday field description also need share events people outlook tried export example event excel file copy pasting info importing nothing thanks
-
-==============================
-

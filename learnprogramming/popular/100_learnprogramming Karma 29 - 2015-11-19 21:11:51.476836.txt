@@ -1,7 +1,0 @@
-Title: utility exceptions
-Karma: 29
-Date: 1368039382.0
-hello coding c years java introducing exceptions wondering real utility exceptions even c coding like c handle errors ' ans ' statments saw frequent example divide zero example easly handle kind errors controlling inputs example real utility exceptions thanks
-
-==============================
-

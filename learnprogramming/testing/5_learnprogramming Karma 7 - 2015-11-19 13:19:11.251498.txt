@@ -1,7 +1,0 @@
-Title: python made program simple contact manager looking ways simplify clean code
-Karma: 7
-Date: 1386311022.0
-title says source code
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: getting unfamiliar error code working c simple algorithm need help diagnosing issue one experienced programmers take look help
-Karma: 10
-Date: 1309219910.0
-goal create program look six digit number make comparisons like see palindromic code done little googling suspect must trying take action compiler considers ' doubly suspect something dereferencing array really uncertain thank much taking time look
-
-==============================
-

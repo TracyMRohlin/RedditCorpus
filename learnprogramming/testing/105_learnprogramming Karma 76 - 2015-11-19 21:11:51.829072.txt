@@ -1,7 +1,0 @@
-Title: learning c boils learning namespace classes methods properties events right
-Karma: 76
-Date: 1367997768.0
-hi process learning c learn realize sufficient know use loop loop statement etc proficient enough know particular class methods related events properties actually come something useful right first experience oop language last time touched computer programming engineering classes ansi c years back use use basic statements come results black screen ui knew ever existed printf scanf statements expecting c everything built using hardcore basic statements clever use arrays pointers strings realize ms already done work ok wear ms shoes start looking things point view hence learn classes least classes pertaining interest wow seems like alice wonderland world changed upside
-
-==============================
-

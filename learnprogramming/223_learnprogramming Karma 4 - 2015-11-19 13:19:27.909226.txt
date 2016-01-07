@@ -1,7 +1,0 @@
-Title: javawhile loop isnt working
-Karma: 4
-Date: 1385619033.0
-hi started learning java hours ago currently stuck question problem happens type int int second time someone point mistakes thanks bunch import javautilscanner public class checkpassfail public static void main stringargs int karm int pass systemoutprintlnplease enter mark scanner scanner new scannersystemin ifscannerhasnextint karm scannernextint karm pass systemoutprintlnyou fucking failed else systemoutprintlnyou passed else scannerhasnextint systemoutprintlnplease reenter mark scanner scannr new scannersystemin karm scannrnextint scannrclose scannerclose
-
-==============================
-

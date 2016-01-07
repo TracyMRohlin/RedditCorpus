@@ -1,7 +1,0 @@
-Title: exception handler design
-Karma: 2
-Date: 1431478058.0
-hey guys designimplementation question exception handling specifically implementing designing exception handler programclasstype global handler common way deal exceptions broad sweep exception handler class seem like proper approach anyone tips sound implementation code language matter curious working c python part
-
-==============================
-

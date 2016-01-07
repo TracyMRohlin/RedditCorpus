@@ -1,7 +1,0 @@
-Title: want learn program microsoft visual c
-Karma: 10
-Date: 1309752137.0
-title says good understanding programming concepts done fair share c java programming however unfimiliar visual studio things specficially want build small gui application friendsfamily tutorials ui windows forms great thanks advance
-
-==============================
-

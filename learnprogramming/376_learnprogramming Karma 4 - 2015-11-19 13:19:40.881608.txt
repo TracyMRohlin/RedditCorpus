@@ -1,7 +1,0 @@
-Title: javascript trying get start end position user selected text end point accurate start point
-Karma: 4
-Date: 1385389580.0
-jsfiddle br tags type tags resets start point help appreciated edit trying find child nodes click bold text tells first node node characters long click bold tells first child characters long next undefined next characters long length bold text click inside bold text tells length characters long
-
-==============================
-

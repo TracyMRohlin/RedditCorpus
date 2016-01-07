@@ -1,7 +1,0 @@
-Title: c requesting code critique
-Karma: 2
-Date: 1432263277.0
-hey question read set integers vector print sum pair adjacent elements furthermore following question change program prints sum first last elements followed sum second secondtolast understand likely need use traditional loop know get traditional loop make references elements vector tips edit include iostream include vector int main using namespace std vectorint ivec int num cin num ivecpushbacknum int ivecsize int sum iveci iveci cout sum return look
-
-==============================
-

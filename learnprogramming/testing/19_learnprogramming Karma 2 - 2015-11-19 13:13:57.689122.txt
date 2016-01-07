@@ -1,7 +1,0 @@
-Title: determine dependency pseudo code
-Karma: 2
-Date: 1400809181.0
-trying build restful crud application want way testable yet beautiful read lets assume classes controller model service handle persistence crud part model objects persistence service class hold logic save retrieve object idea pass object controllers models know anything databases memcached etc example interface dbservice public getid public savedata public deleteid model meant container data methods happen saving deleting creating something like class book public title public author controller create model persistence object call correct crud operation dilemma pass book model dependency dbservice way around appropriate db new dbservice book new bookdb book constructor call bookdb id data dbgetid pass book class service db new dbservicebook book dbget dbservice public getid retrieve data return new bookdata work appropriate better determine class dependency situations like either possible
-
-==============================
-

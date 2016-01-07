@@ -1,7 +1,0 @@
-Title: c vending machine problem insert return possible change
-Karma: 18
-Date: 1353926789.0
-run ideas definitely need help know one main problems lies within ifelse statements time tried put something like amountdollar work say 'no operator matches always help much appreciated
-
-==============================
-

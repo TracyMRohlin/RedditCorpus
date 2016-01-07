@@ -1,7 +1,0 @@
-Title: java check programprocess running
-Karma: 11
-Date: 1369262564.0
-hi reddit beginner programming taken course java atm trying write program find hard check processesprograms running mac tried researching cause found possible use ps x command inside runtimegetruntimeexecps x problem though seem find way get valid output anyone help completely wrong track
-
-==============================
-

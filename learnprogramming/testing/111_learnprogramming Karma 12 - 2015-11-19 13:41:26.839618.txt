@@ -1,7 +1,0 @@
-Title: java trouble putting idea java language properly
-Karma: 12
-Date: 1369912100.0
-code moment need accomplish essentially calculus problem involves measuring area beneath graph adding rectangles rectangles accurate want program keep adding rectangles difference smaller stop tell user many rectangles needed thought using loop unsure correctly format call changing rectangles anyone help superb
-
-==============================
-

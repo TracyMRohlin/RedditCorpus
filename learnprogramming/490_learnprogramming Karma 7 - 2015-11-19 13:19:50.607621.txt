@@ -1,7 +1,0 @@
-Title: c reading file
-Karma: 7
-Date: 1385189854.0
-trying read file nothing happening figure wrong code prints think old information memory print
-
-==============================
-

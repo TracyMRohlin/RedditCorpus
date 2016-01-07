@@ -1,7 +1,0 @@
-Title: java help simple graph plotting
-Karma: 2
-Date: 1385791893.0
-hi trying make simple java program plot set x y coordinates onto screen seem issue scale really know start need find way plot say points appear readable user rather tiny spec want able plot points scale fit screen far
-
-==============================
-

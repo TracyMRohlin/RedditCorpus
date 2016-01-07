@@ -1,7 +1,0 @@
-Title: java properties file best practice
-Karma: 10
-Date: 1370563677.0
-big program decided various reasons store number necessary variables properties file question given variables storing needed different classes sometimes even variable best way make properties file accessible seen suggested keeping multiple properties files seems redundant unnecessary currently initializing properties object static accessing classes regardless
-
-==============================
-

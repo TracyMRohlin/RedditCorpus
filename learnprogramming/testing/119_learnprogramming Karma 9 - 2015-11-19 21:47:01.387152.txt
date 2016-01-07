@@ -1,7 +1,0 @@
-Title: resources learning usb devices drivers w x x
-Karma: 9
-Date: 1337140056.0
-hello everyone wondering willing share resources learning usb devices familiar embedded software c programming projects want add usb connectivity go learn usb excluding wikipedia
-
-==============================
-

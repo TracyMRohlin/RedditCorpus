@@ -1,7 +1,0 @@
-Title: neural networkencog stumped layers neurons
-Karma: 12
-Date: 1385238755.0
-got difficulties grasping neural network programming make program java using encog framework recognize songs gets notes returns song name almost stuck beginning define neuron layers along number activation function however idea approach figuring many layers neurons need searching online gotten confused hello world example anyone help understand least get image layers hello world example fit work think understand enough make assignment edit may figured something image
-
-==============================
-

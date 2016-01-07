@@ -1,7 +1,0 @@
-Title: php html question
-Karma: 14
-Date: 1368447791.0
-running xampp local machine trying test website designs using php html however find reliable answer make work locally essentially trying something like file name variablephp php propertyphone ' propertyaddress test address drive file name indexhtml html body php include variablephp echo propertyaddress echo propertyphone body html anyone help get php working html xampp
-
-==============================
-

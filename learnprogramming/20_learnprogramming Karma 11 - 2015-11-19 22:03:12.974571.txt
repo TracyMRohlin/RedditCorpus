@@ -1,7 +1,0 @@
-Title: help c itemsremove
-Karma: 11
-Date: 1325001798.0
-code adds class believe arraylist defined xaml itemcontrol itemtemplate datatemplate class pretty simple values name price want add lot something call ifmyname card card new card cardname myname cardprice myprice cardsitemsaddcard want delete something want simply call carditemsremovename myname work returns found sure supposed select something like everything found uses removemyname work myname within class someone explain works really quick wrong
-
-==============================
-

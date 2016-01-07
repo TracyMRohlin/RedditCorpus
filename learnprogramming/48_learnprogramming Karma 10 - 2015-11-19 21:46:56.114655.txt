@@ -1,7 +1,0 @@
-Title: like run js made remote site control site whats best way
-Karma: 10
-Date: 1338512206.0
-hi got website monitor autorefreshes time annoying every refresh need scroll certain place view information monitoring website service use work working javascript well barest bones js bookmarklet javascriptwindowscrollto scroll window appropriate height got two questions anyone know better way accomplish essentially problem boils ot controlling scroll bar position go using local js manipulate site remote imagining using iframes edit gone route making chrome extension far seems work manifestjson name custom scroller version description chrome page scroller permissions tabs browseraction contentscripts matches js scrolljs runat documentidle allframes false scrolljs windowonscroll function windowscrollto
-
-==============================
-

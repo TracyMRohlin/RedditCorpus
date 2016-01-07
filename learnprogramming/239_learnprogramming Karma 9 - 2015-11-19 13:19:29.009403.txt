@@ -1,7 +1,0 @@
-Title: obtaining class value fields object
-Karma: 9
-Date: 1385598065.0
-hi looking way invoke constructor class pass parameters using reflection like cons aclassgetconstructorhere come class fieldsnewinstancehere come values example cons aclassgetconstructorstringclass intclassnewinstancethe string need way find class every field class make useable different classes better way call constructor way get class fields
-
-==============================
-

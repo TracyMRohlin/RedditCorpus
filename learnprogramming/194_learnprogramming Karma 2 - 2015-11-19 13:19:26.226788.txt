@@ -1,7 +1,0 @@
-Title: vb crashing sql select query returns values
-Karma: 2
-Date: 1385686860.0
-system creating computing year uni storing data ms access programming vb run search form sql statement returned values blanked program crash due dataset receiving values stop program crashing display msgbox error instead thanks
-
-==============================
-

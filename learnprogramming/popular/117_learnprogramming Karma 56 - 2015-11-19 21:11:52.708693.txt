@@ -1,7 +1,0 @@
-Title: version control good ruleofthumb deciding make commit
-Karma: 56
-Date: 1367926449.0
-work alone use git repo backup superundo button feel make commits often enough sometimes work hours end committing changed files one transaction anyone suggestions ruleofthumb often commits made either working alone team want develop good habits start working others
-
-==============================
-

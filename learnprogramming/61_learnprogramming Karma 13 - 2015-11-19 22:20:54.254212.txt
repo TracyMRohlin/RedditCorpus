@@ -1,7 +1,0 @@
-Title: want write program extracts content top links selected subreddits sends email everyday
-Karma: 13
-Date: 1309434340.0
-language best
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c controlling movement equations motion update
-Karma: 2
-Date: 1432141619.0
-hey guys posted yesterday none answers got much good however managed get bit hopefully new information someone might know going wrong think going wrong right need move projectile using equation given float nx getx cosgetangle getspeed time float ny gety singetangle getspeed time time time long projectile motion projectile starts moving fine problems occur hits surface bounce following code ball bouncing reflect angle speed matter may different issue note testing collision floor moment ease understanding void projectileupdatepositionfloat time float left float right float top float bottom gety top else gety getheight bottom float dy gety bottom float dx getx bottom float norm float ang atandy dx setworldpositionybottom getheight nsetspeedngetspeed nsetangleang norm projtimerresettimer getx left else getx getwidth right float nx getx cosgetangle getspeed time float ny gety singetangle getspeed time time setworldpositionnx ny think problem may playing around different angles work way used set initial angle projectile move direction pretty sure people think angles wondering need change way trying reflect work know problem though top idea go altering edit thought dx causing problem bottom variable height floor height window something different dx
-
-==============================
-

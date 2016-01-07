@@ -1,7 +1,0 @@
-Title: python trying make small program shows answeris correct working
-Karma: 4
-Date: 1399764683.0
-supposed say correct false outputting anything
-
-==============================
-

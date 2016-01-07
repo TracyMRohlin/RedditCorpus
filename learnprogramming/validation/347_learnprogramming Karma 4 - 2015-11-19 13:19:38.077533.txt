@@ -1,7 +1,0 @@
-Title: loading d array text file c
-Karma: 4
-Date: 1385432056.0
-making d game want load maps maps files instead hard coding find good tutorial someone explain link good tutorial
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: java invoking class methods using reflection
-Karma: 10
-Date: 1324070232.0
-hi say hashmap keys values key method want call value parameter want pass method google said need use reflection probably tried half examples found one point managed get thing run without spewing exceptions none getter methods class gave values besides null solve anyone maybe provide better example even recommend something else maybe direct equivalent calluserfunc
-
-==============================
-

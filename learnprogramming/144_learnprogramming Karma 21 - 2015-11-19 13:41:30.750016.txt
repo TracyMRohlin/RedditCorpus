@@ -1,7 +1,0 @@
-Title: c linear linked lists
-Karma: 21
-Date: 1369618434.0
-anyone point right direction help understand linear linked lists used
-
-==============================
-

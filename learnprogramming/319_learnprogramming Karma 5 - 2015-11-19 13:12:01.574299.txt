@@ -1,7 +1,0 @@
-Title: java new instance logic class executes methods class
-Karma: 5
-Date: 1431670817.0
-working get gui class logic class work together context bank account objects created user able make deposits withdrawals etc process converting simpler twoclass project joptionpane interaction classes moment follows guijava contains barebones jframemenubar stuff call bank methods menu option bankjava contains addnewaccount deposit withdraw account search etc methods call bankaccount class logic contain joptionpane simple loops bankaccount calls bankaccountjava core logic class updates bankaccount objects mainbankjava weak name placeholder one main class hopefully tie together problem guijava call bank method action listener throws old nonstatic method referenced static context error create new instance bank class runs method class succession gets jframerest gui class pastebin links guijava bankjava bankaccountjava mainbank left nothing really comments leftover submitted assignment intro java course update solved gui class first item event listener rest method code menu item
-
-==============================
-

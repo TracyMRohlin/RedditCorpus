@@ -1,7 +1,0 @@
-Title: cneed help run time dll getprocaddress
-Karma: 5
-Date: 1385191111.0
-program compiles runs fine get error null pointer put screen basically program takes string passes run time loaded dll basic encryption think getprocaddress encryptfunpointer finding encrypt functions address dll probably define typedef supposed take two char arrays argument thanks help advance
-
-==============================
-

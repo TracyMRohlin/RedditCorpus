@@ -1,7 +1,0 @@
-Title: c operator overloading
-Karma: 2
-Date: 1385175548.0
-academic exercise redefine meaning operators applied builtin data types read site isocpporg way operator work tothepowerof except wrong precedence associativity messed around awhile get produce correct results hoping clear misunderstanding intention include code thanks include iostream include cmath template typename operatorconst lhs const rhs return staticcasttstdpowlhs rhs template typename struct x lhs template typename struct y rhs int main int dx int dy dx xint x yint y int r xlhs yrhs int r x y something similar trying achieve also stdcout dy ' r ' dy r also overload working
-
-==============================
-

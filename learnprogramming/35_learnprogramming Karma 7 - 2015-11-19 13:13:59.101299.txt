@@ -1,7 +1,0 @@
-Title: cryptography start
-Karma: 7
-Date: 1400755921.0
-hello first quick backstory involved well thing hacking cryptography securityrelated products tech world near enough years ago friend introduced loved thrill solving problem website listed really feel like challenge get wrong freaking hard feel like something wanted continue course introduced reading articles solutions methods implications solutions heavily involved cryptography really looked like maths quite frankly love maths since dipped head cryptography never point feel reasonably create secure enough encryption hand first year college highschool americans legitimate disdain cracking far reading great huge thank help edit first gchq challenge second
-
-==============================
-

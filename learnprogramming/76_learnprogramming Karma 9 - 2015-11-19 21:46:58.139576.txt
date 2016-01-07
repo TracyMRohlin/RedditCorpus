@@ -1,7 +1,0 @@
-Title: eclipse help
-Karma: 9
-Date: 1338086494.0
-recently formatted hard drive trying install eclipse begin project saving summer android hopefully fun installed jdk try install android sdk tools get message saying java se jdk found believe jdk installed properly recognized simply set environment variable javahome point anybody know something else solve problem able open eclipse simple hello world java want start android project
-
-==============================
-

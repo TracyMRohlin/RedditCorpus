@@ -1,7 +1,0 @@
-Title: python coming java oop work
-Karma: 2
-Date: 1432023849.0
-hey pretty adept java programming everything makes sense feels natural adapted c en c pretty easily java language get good hold python sure figure make work read documentation create stuff want oop programming python doesnt seem make sense example getters setters make sense java c c implementing python people tell bad practice use property dont understand easier also anoying self pass every single damn function work properly explicit better implicit also filenames classnames dont matter anymore small differences really confuse heck make wonder even bother python suggest learn oop python importantly understand done way hardest part python
-
-==============================
-

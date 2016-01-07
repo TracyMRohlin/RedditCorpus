@@ -1,7 +1,0 @@
-Title: learn python hard way exercise
-Karma: 5
-Date: 1432007921.0
-exercise reference exercise creating project skeletonpackage completed steps unclear actually use required quiz required quiz tells start putting code module kind stuff put put py file prints hello world happen also asks put script bin suppose put py script prints hello world someone run script understanding package everything together python setuppy sdist another user install pip install pathtomypackagetgz happens py module folder user run scripts bin thanks
-
-==============================
-

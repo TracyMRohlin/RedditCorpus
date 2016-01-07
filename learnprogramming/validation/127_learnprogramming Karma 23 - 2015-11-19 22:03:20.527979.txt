@@ -1,7 +1,0 @@
-Title: good introduction mvc
-Karma: 23
-Date: 1322581510.0
-got number years programming belt something know lot love know concepts mvc get basic idea separating functionality presentation data access looking guides actual rules practices know common framework web applications often makes appearance php language moderate familiarity suggestions readings videos diagrams explanations helpful matter already gone wikipedia page ideal reference point something demos simple application breaks pieces
-
-==============================
-

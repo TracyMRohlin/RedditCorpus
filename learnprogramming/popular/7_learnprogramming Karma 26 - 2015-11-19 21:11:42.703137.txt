@@ -1,7 +1,0 @@
-Title: afraid might crappy novice programmer pick fundamentals
-Karma: 26
-Date: 1369003762.0
-working python neardaily basis four months got ten years worth exposure languages perl shell php past months started working python seriously trouble finding selfdirected learning feel like missing best practices read python style guide follow much remember help feel like might missing general programming fundamentals example day realized done dosomethingresultsfromoverthere code return formattedoutput dosomethingelseformattedoutput code return foo made perfect sense wrote way one function returning object name used another function realized actually seen someone say way suddenly left wondering else may missing
-
-==============================
-

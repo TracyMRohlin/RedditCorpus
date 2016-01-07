@@ -1,7 +1,0 @@
-Title: python quick question rawinput
-Karma: 31
-Date: 1385785952.0
-instead writing something like question rawinput question b question c question print x quickercleaner way make accept multiple answers using variables maybe something like answer b c question rawinput answer question print x
-
-==============================
-

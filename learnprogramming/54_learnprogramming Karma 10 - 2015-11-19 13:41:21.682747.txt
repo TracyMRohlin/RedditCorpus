@@ -1,7 +1,0 @@
-Title: prolog list processing
-Karma: 10
-Date: 1370375954.0
-want process list output list items duplicates removed eg know predicate need setof using swi prolog want use obviously work nodupes results nodupesx y setofa x y results fairly sure error trying deal list setofbut know change input figure clear concise understanding required inputs approaching wrong way altogether simpler better use builtins anyone care help
-
-==============================
-

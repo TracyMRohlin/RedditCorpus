@@ -1,7 +1,0 @@
-Title: java learning converting
-Karma: 7
-Date: 1399725664.0
-currently written short adventure working expanding rewriting lot code showed friend programs every day unfortunately busy want turn code object based world said efficient understand objects well yet know even start convert code hoping find someone help learn object based programing b convert game code help set world base game working practice different forms coding looking make adventure go forward backward environment get items fight monsters complete quests time text based adventure hoping likely distant future add buttons pictures put single runnable file
-
-==============================
-

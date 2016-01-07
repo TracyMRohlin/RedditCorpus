@@ -1,7 +1,0 @@
-Title: studied python mysql get started playing together
-Karma: 2
-Date: 1399794076.0
-really dread writing 'help post something basic life figure get started mysql even stuck basically done tutorials python mysql want start using learned primarily writing crud scripts think said right illusions anything great even good figured learn getting hands dirty someone please help figure section mysql installation instructions got message importerror module named mysqldb downloaded mysqldb modulethen got lost proceed follows gunzip mysqlpythontargz tar xvf mysqlpythontar cd mysqlpython python setuppy build python setuppy install thanks reading hope help
-
-==============================
-

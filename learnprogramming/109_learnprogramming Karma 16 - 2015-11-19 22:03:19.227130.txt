@@ -1,7 +1,0 @@
-Title: please explain need pass reference use '' parameters functions
-Karma: 16
-Date: 1323097759.0
-still cant fully grasp use parameters dont understand full definition pass reference pass value help appreciated
-
-==============================
-

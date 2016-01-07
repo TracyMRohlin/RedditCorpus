@@ -1,7 +1,0 @@
-Title: developing osx swift objc
-Karma: 4
-Date: 1432246974.0
-wanting delve developing osx started picking swift week huge lack tutorials osx particular built small applications coming languages like php python ruby active communities hard time learning without examples dive lot objc seems things moving towards swift anyway question looking objc since still active osx bite bullet start going swift docs try figure thanks advance help
-
-==============================
-

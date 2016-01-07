@@ -1,7 +1,0 @@
-Title: head internship
-Karma: 12
-Date: 1432289314.0
-interning company summer assigned project develop ios android web apps confused things maybe guys help good grasp html css javascriptjquery know used use however team manager made reference using spring framework rest json confused terms also database using either mysql getting decent grasp mongodb know nothing still confused spring framework rest json found things online json helped bit post stuff server database get data back server database also guys good resources learn ios app development thank advance helpexplanationsresources
-
-==============================
-

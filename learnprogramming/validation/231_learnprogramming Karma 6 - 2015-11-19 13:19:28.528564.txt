@@ -1,7 +1,0 @@
-Title: java jbutton working clicking minimizing restoring
-Karma: 6
-Date: 1385608716.0
-created jbutton form jpanel added jframe button functions properly click minimize window restore also works click right click title bar title minimizemaximize icons etc displayed either things able see button click hover responds carry tasks dealbutton jbutton main file jframe jpanel positioned center unsure potentially relevant problem suggestions greatly appreciated
-
-==============================
-

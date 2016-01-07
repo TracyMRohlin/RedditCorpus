@@ -1,7 +1,0 @@
-Title: question unordered collections bags homework c
-Karma: 4
-Date: 1399900453.0
-alright basically trouble understanding question textbook assignment implement generic module ' represents unordered collection bag duplicates allowed operations add element bag remove bag add enumerations collection test module collection double objects collection integer objects basic understanding means need implement datatype called ' holds pointer object must able dynamically allocate deallocate memory said bag add remove objects trouble understanding done collection doubles collection integers also unordered collection go 'adding believe know program understood question bit better need little help data structure sadly textbook mention anything subject seems
-
-==============================
-

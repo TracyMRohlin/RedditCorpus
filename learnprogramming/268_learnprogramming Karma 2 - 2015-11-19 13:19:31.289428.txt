@@ -1,7 +1,0 @@
-Title: create library pic c compiler
-Karma: 2
-Date: 1385538632.0
-need electronic safe using x keypad lcd picf programming kind need save passwords eeprom pic library im currently using get key press keypad works char since keyboard use abcd digits im trying change char ab etc need create new library based older one makes easiest process adquiring key press either creating new library converting every output keyboard int leave library pic actual code char kbdgetc brings back ascii code pressed key keyboard conexions rb rb rb rb rb f rb e rb d rb b c ascii char char const keys '''' '''' '''' '''''' byte kbdportb char kbdgetc int tecla int fctij portbpullupstrue settrisbb rbrb salidas rbrb entradas forfx f forcx j j c j kbdportb f delaycycles kbdportb xf xf ift c delayms teclakeysi j whiletc restartwdt kbdportb xf xf break iftecla break portbpullupsfalse return tecla cant edit curret library save since asks requires device declaration
-
-==============================
-

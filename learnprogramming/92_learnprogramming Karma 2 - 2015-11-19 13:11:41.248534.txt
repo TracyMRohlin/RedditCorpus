@@ -1,7 +1,0 @@
-Title: think memory management
-Karma: 2
-Date: 1432181297.0
-programmers learned garbagecollectedlanguage first like javascript python java c wish exposure memory management learning program programmers know manage memory think made better programmer
-
-==============================
-

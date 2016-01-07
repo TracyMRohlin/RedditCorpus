@@ -1,7 +1,0 @@
-Title: mobile webadding fixed tab bar bottom screen affected ' overscroll
-Karma: 2
-Date: 1400823522.0
-added tab bar one projects pages fixed bottom problem overscroll content occurs pulls tab bar bottom release bouncing back keep overscrolling middle content affecting tabbar thanks
-
-==============================
-

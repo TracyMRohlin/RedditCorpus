@@ -1,7 +1,0 @@
-Title: presenting story text adenture game
-Karma: 16
-Date: 1399994548.0
-designing text adventure game java right wondering best way store story place right class place separate text filestxt read necessary feel like intertwining story code get messy
-
-==============================
-

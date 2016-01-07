@@ -1,7 +1,0 @@
-Title: book recommendation assembly language
-Karma: 18
-Date: 1353511259.0
-apologies best subreddit use trouble deciding post looking book learn xx assembly language also like learn binary formats linkers etc cpus actually works book covers bonus books available ebooks online plus looking learn assembly language want program particularly except conceivably small sections code started reading 'the art assembly second edition seemed spend awful lot time teaching high level assembly hla language invented author aid programming assembly exactly want wanted higher level language assembly already know plenty point learn assembly spend time learning language never use lets use assembly parts program especially since c anyone recommendations grateful
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: java someone help understand use disjointsets class details inside
-Karma: 3
-Date: 1399752299.0
-set nodes edges basically need create minimum spanning tree using algorithm provided following disjointset class public class disjointsets public disjointsetsint numelements new intnumelements int slength si public void unionint root int root sroot sroot sroot root else sroot sroot sroot sroot root public int findint x sx return x else return sx findsx private int understand one uses disjoint set however vertices nodes represented points rather single integers disjointsets dj new disjointsetsgraphgetnodes formyedge edge alledges int finda djfind int findb djfind iffinda findb djunionfinda findb getedgesaddedge supposed find edges nodes represented integers need information understand problem please ask thanks help
-
-==============================
-

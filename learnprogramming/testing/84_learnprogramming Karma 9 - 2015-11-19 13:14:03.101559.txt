@@ -1,7 +1,0 @@
-Title: c checking array sorted fuction template
-Karma: 9
-Date: 1400610783.0
-hey want make template want use function different arrays quite sure syntax look like templatetypename bool lessequalsortedt array array length int int j enum status break continue loopstatus loopstatus continue int length int j j length j arrayi arrayj loopstatus continue else cout array isnt sorted endl loopstatus break return false ende innere ende uere loopstatus continue cout array sorted less equal endl return true two arrays one sorted bubble sort one selection sort want check worked template full code hereit runnable nothing happening guess goofed template
-
-==============================
-

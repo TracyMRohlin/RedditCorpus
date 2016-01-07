@@ -1,7 +1,0 @@
-Title: c reading stdin inputs different formats
-Karma: 2
-Date: 1431855579.0
-input format variations d d d right thinking reading entire thing string scanf parsing later like first ask better solution
-
-==============================
-

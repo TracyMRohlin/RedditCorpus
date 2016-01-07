@@ -5,7 +5,7 @@ import argparse
 import numpy as np
 import os
 
-from sklearn.metrics import confusion_matrix, f1_score
+from sklearn.metrics import confusion_matrix, f1_score, accuracy_score
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.naive_bayes import MultinomialNB
@@ -90,7 +90,7 @@ def create_Naive_Bayes(training_data, other_data, topic_type, num_topics):
                              ])
     elif topic_type == "lda":
         pipeline = Pipeline([('vect', CountVectorizer(min_df=3)),
-                        ('lda',  LatentDirichletAllocation(n_topics=num_topics, random_state=1234, max_iter=500)),
+                        ('lda',  LatentDirichletAllocation(n_topics=num_topics, random_state=1234, max_iter=500, learning_decay=0.5)),
                         ('clf', MultinomialNB())])
     else:
         pipeline = Pipeline([('vect', CountVectorizer(min_df=3)),
@@ -102,14 +102,16 @@ def create_Naive_Bayes(training_data, other_data, topic_type, num_topics):
 
     # append to the confusion matrix and score so that later the F1 sccores can be averaged
     confusion += confusion_matrix(test_class, predictions)
-    score = f1_score(test_class, predictions, pos_label="POPULAR")
+    F1score = f1_score(test_class, predictions, pos_label="POPULAR")
+    accuracy = accuracy_score(test_class, predictions)
 
     print 'Total documents classified:', corpus_length
-    print 'Score:', score
+    print "Accuracy: ", accuracy
+    print 'F1 Score:', F1score
     print 'Confusion matrix:'
     print confusion
 
-    return score
+    return F1score
 
 
 if __name__ == "__main__":

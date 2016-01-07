@@ -1,7 +1,0 @@
-Title: javac multidimensional arrays represented memory
-Karma: 7
-Date: 1400461760.0
-multidimensional arrays represented memory nonabstracted less abstracted look arrays memory representation array dependent language program began programming java last year told d array array arrays memory address containing array whose indices corresponded row number point series memory addresses arrays whose indices corresponded column number find element d array position computer first go variable stores d array hold memory address row array started hop memory slots get th position th position memory address column array starts go memory address hop spaces found valueobject looking began reading c books preparation class taking fall book explained multidimensional arrays represented memory one long sequence positions memory instance x array looking element position hop forward positions memory find element th row columns columns opposed hopping around memory addresses going bunch different arrays one closer truth different across different languages
-
-==============================
-

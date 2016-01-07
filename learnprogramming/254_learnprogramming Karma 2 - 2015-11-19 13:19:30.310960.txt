@@ -1,7 +1,0 @@
-Title: c function returning values
-Karma: 2
-Date: 1385557307.0
-write function return argument prime otherwise function int primeint x int x return x x return main int main int n printfenter number scanfd n printfprimen non yesn return enter program print yes false prime decided printfdn primen main see function returning got yes terminal also enter prime returns returning function return values feeling stupid edit formatting
-
-==============================
-

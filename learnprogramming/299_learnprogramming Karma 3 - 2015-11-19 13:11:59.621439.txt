@@ -1,7 +1,0 @@
-Title: random noob programming question
-Karma: 3
-Date: 1431727157.0
-hey guys wanting build site statistics rcfb college football hoping give pointers easiest way dynamically loading list like see car websites load drop without refreshing entire page like go auto parts website select manufacturer loads different cars make done something previously using ajax think best way today also pointers lists dynamically loading specific list based upon previous selection addition actual adding element page appreciated
-
-==============================
-

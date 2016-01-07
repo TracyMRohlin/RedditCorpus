@@ -1,7 +1,0 @@
-Title: love dynamically typed
-Karma: 19
-Date: 1325173922.0
-programming experience using strongly typed languages java c c work use c really enjoy language visual studio ide intellisense great helps along programming always see people cheering praising python figured personally find documentation python absolute pain go msdn searching methods classes much cleaner simpilar one thing really get dynamically typed languages though lack good intellisense fact ide predict variable going makes impossible accurately assist programmer rather use strongly typed language full assistance ide compiler anyone else feel way
-
-==============================
-

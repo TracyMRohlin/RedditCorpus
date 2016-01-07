@@ -1,7 +1,0 @@
-Title: beginnerjavacan use loop inside constructor throw exception
-Karma: 15
-Date: 1385805038.0
-edit solved silly syntax error part nothing see assignment wrote custom exception intended throw input file ten lines program reverse contents input file line line part program working fine want error display calling constructor wrote public class reverseline fields string filename string filein string fileout int lines constructor public reverseline throws toomanylinesexception filein fileintxt fileout fileouttxt scanner read new scannerfilein whilereadhasnextline lines readnextline iflines throw new toomanylinesexceptionlines tinkering trying things figure work run debug increments line variable continues code prints file reverse figure feeling logic statement right seeing help appreciated
-
-==============================
-

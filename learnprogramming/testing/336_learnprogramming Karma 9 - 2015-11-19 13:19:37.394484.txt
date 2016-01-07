@@ -1,7 +1,0 @@
-Title: haskell map function
-Karma: 9
-Date: 1385442466.0
-hi making function counts number words string returns number words contains example hello world returns anyways ive defined countletters string int countletters st lenght st returns lenght given string first use ' separate input string list strings apply countletters one words hello world returns helloworld checked doc seems need map function applies function members list however understand please tell map work countletters string list thanks advance
-
-==============================
-

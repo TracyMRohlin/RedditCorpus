@@ -1,7 +1,0 @@
-Title: get started meteor minutes
-Karma: 2
-Date: 1400809581.0
-
-
-==============================
-

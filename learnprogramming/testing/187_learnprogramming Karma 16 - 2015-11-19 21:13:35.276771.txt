@@ -1,7 +1,0 @@
-Title: learning use large library
-Karma: 16
-Date: 1353300865.0
-working project need use large library never used completely lost documentation confusing seem helping much get speed using new library
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: simple query fail
-Karma: 2
-Date: 1400096835.0
-assuming may issue believe works work syntax error update table gameplayers set name newnamexx name oldname
-
-==============================
-

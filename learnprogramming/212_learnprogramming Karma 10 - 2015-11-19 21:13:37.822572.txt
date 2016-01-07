@@ -1,7 +1,0 @@
-Title: ruby question printing arrays without showing
-Karma: 10
-Date: 1353127208.0
-code far printing random table contents linewidth linewidthtitle stuff 'table 'chapter page 'chapter page 'chapter page track stuffeach thing track puts thingtoscenterlinewidthtitle track else puts thingtosljustlinewidth end end putstable contentscenterlinewidthtitle putschapter ljustlinewidth page rjustlinewidth putschapter ljustlinewidth page rjustlinewidth putschapter ljustlinewidth page rjustlinewidth last part code sort want look like problem though first part code arrays keeps printing part array using tos stop print thanks help
-
-==============================
-

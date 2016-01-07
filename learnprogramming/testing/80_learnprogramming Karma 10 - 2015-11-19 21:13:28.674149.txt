@@ -1,7 +1,0 @@
-Title: c initializing ascii dungeon map vectors
-Karma: 10
-Date: 1354065002.0
-project intro class one option make maze game problem learned vectors arrays know exploring easily create map array something like int mapheightwidth since learned arrays wary use similar way create vector know use pushback construct vectors initially assign space wall door mapvectorxy door easy solution missing edit also done anything parsing files know another option
-
-==============================
-

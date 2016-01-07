@@ -1,7 +1,0 @@
-Title: jython placing csv file columns lists
-Karma: 2
-Date: 1431835470.0
-new jython sorry terrible mistake advance issue reading putting data csv file several lists column individual list far wondering make several lists filled data specific columns excluding header def creatingchartsizenumber filename pickafile file openfilename r numberlist col file numberlistappendcol print numberlist prints header well data rows columns sure fix seem find anything creating multiple lists loop jython
-
-==============================
-

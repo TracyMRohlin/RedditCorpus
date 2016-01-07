@@ -1,7 +1,0 @@
-Title: best practices representing sql
-Karma: 3
-Date: 1432285105.0
-hello working intern couple months fixing legacy code previous interns one thing wondering best practice representing sql far tell three methods sql stored raw string code execute call stored procedure code use orm abstract away sql gigantic queries written raw strings code moved stored procedures uncertain best idea generally considered best practice
-
-==============================
-

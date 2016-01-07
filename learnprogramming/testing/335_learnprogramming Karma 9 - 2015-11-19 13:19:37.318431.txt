@@ -1,7 +1,0 @@
-Title: opening reading text files python
-Karma: 9
-Date: 1385444084.0
-trying write program opens reads list words line line put text file python folder tell open'words shell works fine write program tells text file exist ideas
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: help d arrays d
-Karma: 9
-Date: 1384705871.0
-assigned project multiply matrices working hours completed thought pretty solid tried running receiving couple null pointer exceptions really want spit code extremely tired know word rather show playing around changing things object start matrixmult class correct go taking returned int printing pretty confident thing going wrong confused store value want return actually returning attempted making state variable ran tester class shot back characters nonsense thank anyone takes time help know shooting bunch code seems whelming ask unsure exactly went wrong thanks class using multiplication created intellij idea user pds date time public class matrixmult variable returned public static int c public static int mult int int b matoner add value row matrix one mattwoc adds values column matrix two int matoner new intalength int mattwoc new intblength fill matoner values int x x alength x int y y alength y matonerx matonerx axy fill mattwoc values int p p blength p int blength mattwocp mattwocp bsp fill d array product given matricies int y y alength y int blength cys matonery mattwocs return c also main method created intellij idea user pds date time public class tester public static void mainstring args given matricies project int int b matrixmult test new matrixmult systemoutprintlntestmulta b
-
-==============================
-

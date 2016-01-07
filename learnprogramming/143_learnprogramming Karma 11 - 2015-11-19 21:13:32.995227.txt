@@ -1,7 +1,0 @@
-Title: cneed help converting formula use floats
-Karma: 11
-Date: 1353625400.0
-edit thanks suggestions talked one profs said doable way complicated fixed point math without floats use performance bad also problems getting floating point calculation work mcu might using small stack size interfacing pressure sensor msp need convert pressure outputs altitude m cm want without using floats takes way long bit mcu hardware float unit formula alt powp p p measured pressure p pressure sea level around math strongest point pp integers idea make x ints
-
-==============================
-

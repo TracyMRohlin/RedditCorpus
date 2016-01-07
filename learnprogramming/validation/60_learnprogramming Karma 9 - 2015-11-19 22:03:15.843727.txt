@@ -1,7 +1,0 @@
-Title: install pygame
-Karma: 9
-Date: 1324440551.0
-downloaded pygame python figure get work downloaded sample pong program try execute keep getting importerror dll load failed valid win application wrong
-
-==============================
-

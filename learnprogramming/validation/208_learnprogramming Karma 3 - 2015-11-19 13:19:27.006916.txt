@@ -1,7 +1,0 @@
-Title: python invalid syntax
-Karma: 3
-Date: 1385653552.0
-code trying get print print currency know mean wrong dollars print end ' ' print dollars end'' print
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: method access control syntax
-Karma: 2
-Date: 1385167923.0
-semantic difference two ways declaring method access edit ruby public def method end def method end end def method end def method end public method method
-
-==============================
-

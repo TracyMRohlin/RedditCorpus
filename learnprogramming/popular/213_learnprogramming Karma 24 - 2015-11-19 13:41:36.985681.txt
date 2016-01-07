@@ -1,7 +1,0 @@
-Title: java play sound
-Karma: 24
-Date: 1369190244.0
-recently picked project mine back really want finish problem sound set play sound click hold click plays play anymore really sure using enumeratorclass found website playing sound code looks well sound sure problem include links sounds enum particular piece code using someone tell think might playing properly sounds enum playing sound sounds enum initialized constructor framework play sound plays know initialized properly understand works stops sound already playing rewinds playing appreciate help edit forgot mention sound play game freezes momentarily sound plays continue play button held released longer play
-
-==============================
-

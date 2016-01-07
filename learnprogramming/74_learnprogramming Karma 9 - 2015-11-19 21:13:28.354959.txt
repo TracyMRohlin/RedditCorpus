@@ -1,7 +1,0 @@
-Title: ruby question finding ascii value character via code
-Karma: 9
-Date: 1354073213.0
-told code puts results ascii value printed however irb simply prints letter going book date something
-
-==============================
-

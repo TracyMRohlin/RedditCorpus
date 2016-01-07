@@ -1,7 +1,0 @@
-Title: java superclasses like basiccharacter sub classes specific like enemy maincharacter good oop
-Karma: 14
-Date: 1385718977.0
-game organized things like basiccharacter methods main character enemy share move attack examples basicitem berry sword rock individual sub classes set attributes share similar methods good oop
-
-==============================
-

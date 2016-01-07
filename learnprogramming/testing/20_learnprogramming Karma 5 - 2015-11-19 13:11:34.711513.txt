@@ -1,7 +1,0 @@
-Title: use npm module static html file
-Karma: 5
-Date: 1432306078.0
-lot npm modules lot things want love use static html pages like script library way
-
-==============================
-

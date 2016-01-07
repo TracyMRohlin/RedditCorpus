@@ -1,7 +1,0 @@
-Title: java creating image composed many smaller images
-Karma: 2
-Date: 1385731842.0
-background information working side project moment used utility friends playing game minecraft many parts part working moment map viewer component program read certain files game display map users view actual question suppose two dimensional array integers example integers range anywhere images one image correspond integer means greenpng means bluepng etc want basically recreate two dimensional array images instead integers save image file mappng something along lines sending image network users able see really worked images past part struggling tried following java tutorial bufferedimages really working also confused class extending think extending jpanel order display gui input greatly appreciated thank
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: write bad code
-Karma: 13
-Date: 1322708453.0
-basically
-
-==============================
-

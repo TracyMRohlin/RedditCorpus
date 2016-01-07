@@ -1,7 +1,0 @@
-Title: programming practice
-Karma: 18
-Date: 1385388756.0
-sup guys college freshman studying cs ok understanding java want practice java mini projects like creating tic tac toe game program guys recommend ps currently using eclipse
-
-==============================
-

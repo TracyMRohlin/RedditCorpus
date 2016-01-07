@@ -1,7 +1,0 @@
-Title: introduction programming ground zero
-Karma: 9
-Date: 1384383817.0
-hi currently writing guide programming assumes reader prior knowledge programming let know think
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: oop python
-Karma: 49
-Date: 1386295023.0
-get concept objects classes python watchedread every tutorial topic flip quickly topic class constructor class responsegenerator def initself clan clauseanalyser clauseanalyser another class made function def questionorclauseselfclause clanisthereasymbolclause clananalyseclause clanisthereasymbolclause reponseclause says nameerror global name ' defined make global supposed inside class
-
-==============================
-

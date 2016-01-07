@@ -1,7 +1,0 @@
-Title: convert msft reporting services style datetime variable eg 'dateadddtoday' c datetime 'datetimetodayadddays' nice way
-Karma: 12
-Date: 1353387723.0
-fallback look string like 'dateadddxxxxtoday' make datetimetodayadddaysxxxx' adding minutes hours etc know cleaner way appreciate help
-
-==============================
-

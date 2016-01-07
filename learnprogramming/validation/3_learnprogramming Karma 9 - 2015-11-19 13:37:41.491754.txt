@@ -1,7 +1,0 @@
-Title: aspx c best way making page meant acceping post request returning data array something
-Karma: 9
-Date: 1385108862.0
-simple web form posts dll dll something like like form post data page sends information gets dll parse response dll return new data web form display possible considered proxy best way set one make dll something aspx page return build html viewing
-
-==============================
-

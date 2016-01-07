@@ -1,7 +1,0 @@
-Title: sqlquestion offline databases storage methods
-Karma: 4
-Date: 1386195660.0
-hi everyone classmates working application class given free reign need store lot data specifically items spells etc dd planning sql also planning make offline app questions possible use sql database offline database files stored folder machine accessed via c using soci library good ideaeven possible wiser use form persistent data storage
-
-==============================
-

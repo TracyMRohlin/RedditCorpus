@@ -1,7 +1,0 @@
-Title: c classes tree nodes
-Karma: 12
-Date: 1354107749.0
-wits end trying figure store class objects tree nodes available read later one class store data tree node pointers simplify process two classes tree class hold instances class pointers trying find best way explain
-
-==============================
-

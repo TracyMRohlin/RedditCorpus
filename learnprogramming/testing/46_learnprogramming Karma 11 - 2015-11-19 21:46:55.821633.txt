@@ -1,7 +1,0 @@
-Title: udacity courses announced d
-Karma: 11
-Date: 1338550124.0
-udacity courses new ones starting jun th intro physics intro stats algorithmscrunching social networks logic discrete maths foundations computing software testing old ones still open
-
-==============================
-

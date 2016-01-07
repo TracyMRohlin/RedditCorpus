@@ -1,7 +1,0 @@
-Title: recommended android app dev youtube series
-Karma: 25
-Date: 1369522758.0
-know tons make android apps videos youtube wasting time watching videos good anybody recommendations good series consider intermediatelevel programmer years cs degree beginner lack motivation read jumbled information android google dev site rather somebody experienced present information concrete examples different things used real app development videos strictly beginners expect videos going start super basic stuff aka hello world app recommendations appreciated
-
-==============================
-

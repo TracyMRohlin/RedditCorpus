@@ -1,7 +1,0 @@
-Title: java summing certain numbers repeats allowed equal specified value
-Karma: 20
-Date: 1353145646.0
-title presents simplified version problem really taking molecular weight compound finding possible molecular formulas compound small set elements example mw possible solutions o n c h ochh nnhh nchhhh cchhhhhh etc tried looking queens problem inspiration since solution involve repeats quite get fit problem mention recursive skills weak best spent better part day homework personal challenge point mostly moving around code making progress anyone point right direction problem even right thinking recursive solution
-
-==============================
-

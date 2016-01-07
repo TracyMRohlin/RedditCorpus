@@ -1,7 +1,0 @@
-Title: python use classes gui class
-Karma: 7
-Date: 1400135746.0
-trying incorporate two classes camera motorized stage user gui wondering make gui call functions classes certain button pressed stage moves direction need instantiate class using gui class sorry vague please let know need details
-
-==============================
-

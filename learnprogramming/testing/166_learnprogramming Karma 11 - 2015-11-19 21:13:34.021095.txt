@@ -1,7 +1,0 @@
-Title: java deal potential exceptions never happen
-Karma: 11
-Date: 1353456741.0
-working little encryption program unsure best practise deal potential exceptions using secretkeyfactory warns throw nosuchalgorithmexception algorithm hard coded plans ever use different algorithm threw throws unsure good idea suppress warning instead
-
-==============================
-

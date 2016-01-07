@@ -1,7 +1,0 @@
-Title: c critique project
-Karma: 23
-Date: 1369801908.0
-hello throwaway linking github account rather linked actual reddit account past weeks working threepart application nutshell application reads audio data kinect sends data client may listening via sockets two clients created two different things one simple c client runs another computer reads data receives pipes arduino via serial arduino reads data using relay turns lamp depending data received another simple web client communicating via html websocket api receives data displays whether light like see website visit course project without good critique posted code github thought project good chance teach sockets threading arduino integrating kinect programming general know areas improved suggestions appreciated grill though high school thanks note chosen use console application kinect reason refuses work extended period time using console
-
-==============================
-

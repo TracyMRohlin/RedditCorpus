@@ -1,7 +1,0 @@
-Title: chat git commit messages
-Karma: 26
-Date: 1384936864.0
-currently one working github repos want learn good habits work others use proper etiquette committing detailedverbose one make comments obviously seems explain changed also explain bugs aware explain future plans commit comment habits good etiquette working others project
-
-==============================
-

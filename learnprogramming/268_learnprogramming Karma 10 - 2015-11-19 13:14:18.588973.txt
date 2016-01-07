@@ -1,7 +1,0 @@
-Title: graphing scripts linux server javascript python
-Karma: 10
-Date: 1400016613.0
-hopefully right subreddit seemed general programming subreddit asking questions bit background working applications developer research company third level institute technically intern programmers take title worth ie need help go internet previous software employee set server guys backups run intranet etc also hooked prototype wireless receiver system benchmarking guys use occasionally hardware receives data packets every seconds drops mysql database running server intranet site used graph data stored great except one problem seem constraints data graphed graphing everything system running since receiving packets every seconds graphing imagine several million data points anyone tries graph anything server grinds halt minutes intranet freezes asked see fix programming knowledge limited vb java c rummaging around server system set using combination python django javascript sure subreddit ask trying figure slow going one ask help going trough python javascript stuff find seeing references get rough idea script see narrow look ideally find select query graphing written modify put limit data know look think right track looking piece javascript thanks taking time read wall text
-
-==============================
-

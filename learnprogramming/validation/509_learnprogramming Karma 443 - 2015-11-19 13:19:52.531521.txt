@@ -1,7 +1,0 @@
-Title: starting learn programming please learn read understand error messages
-Karma: 443
-Date: 1385155424.0
-second year uni classmates seem struggle programming assignments ask help always show piece code think causes error never mention error message finally give almost always takes like minutes find fix error code urge want learn program learn read understand error messages get blindly try fix code work also working kind sensible ide learn use debugging tools least basic tasks learning efficiently search web using google search engine prefer might worst idea either
-
-==============================
-

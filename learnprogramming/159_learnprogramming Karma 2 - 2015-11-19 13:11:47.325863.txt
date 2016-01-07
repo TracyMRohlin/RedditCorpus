@@ -1,7 +1,0 @@
-Title: open source documentation questions
-Karma: 2
-Date: 1432044055.0
-hey rlearnprogramming looking references resources design apis open source software feel like definitely good practices open source software like learn program mind lastly documentation typically work intended programs use write documentation ie doxygen comment every method class interface etc write documentation progressively coding code first documentation thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: get better solving algorithm problems
-Karma: 8
-Date: 1400744039.0
-apart obvious read intro algorithms take course coursera tricks helped improve ability solve algorithm problems seem get better completed projecteuler problems inefficient solutions solve uva online judge top coders problems much know problems knowledge number theory combinatorics graph theory algorithms etc get past plateau actually able solve provide elegant solutions top coder uva style problems
-
-==============================
-

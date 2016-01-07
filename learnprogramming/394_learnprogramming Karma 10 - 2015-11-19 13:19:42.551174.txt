@@ -1,7 +1,0 @@
-Title: c removing node doubly linked list
-Karma: 10
-Date: 1385371446.0
-main class definition node linked list class node public default constructor node name prev null next null default overloaded nodestring name prev null next null item list string name links prev next node list node next prev node class definition used another class generates linked list linkedlist code given us modify know works gone tested addition new nodes doubly linked list working working removing nodes doubly linked list fucntion remove node told instructor code problem line reads tmpprev prev trying set link previous node correct one case trying work similar ifelse loops whether current node last item list last item aka currnext null set link using currnext stop loop iteration help ideas suggestons feedback greatly appreciated
-
-==============================
-

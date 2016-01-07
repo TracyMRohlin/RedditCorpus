@@ -1,7 +1,0 @@
-Title: beginner real world projects make c
-Karma: 13
-Date: 1385810970.0
-know make anything programming language know c used lower level programming like embedded projects even things like operating systems relatively beginner friendly projects look making something perhaps made time particularly looking tasks require use third party libraries sort real world use help appreciated
-
-==============================
-

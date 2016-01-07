@@ -1,7 +1,0 @@
-Title: c console writing information array
-Karma: 10
-Date: 1368861075.0
-greetings working project c class put simply requires user enters number values added array display needs similar entered ten times entered times requires sentinel loop must validate information written shell speak sentinel control complete validation complete working implementing array move display question simple way search array return values number times exist know loop count amount values go ensuring end display values entered user thinking nested else loop basically cycling value value zero written console result help appreciated post code helps figured might confuse things commented pretty much skeleton edit simplify easier way write requirements console current idea ditch count array values instead use switch statement counts user enters information problem running seems like lot code achieve something feels like simple think count reduce code though declare count variables constants switch cases ifelse nested times overkill seems
-
-==============================
-

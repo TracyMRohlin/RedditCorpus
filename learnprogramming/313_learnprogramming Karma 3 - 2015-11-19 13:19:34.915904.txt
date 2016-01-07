@@ -1,7 +1,0 @@
-Title: sqlphp set sql tables correctly
-Karma: 3
-Date: 1385469007.0
-need create database grading essentially done using multiple tables supposed put database student name student phone number student major name grade item points possible category allow following values category hw quiz exam student score currently way set student table contains studentid incrementing name major phonenumber gradeitem contains grade name grade category grade id incrementing points possible gradedatabase table studentid gradeid points earned essentially student table information student grade item establishes assignments etc grade database one struggling make sure setup correctly want automatically record student id grade id want automatically grade id student id grade item person assignment create assignment automatically adds another row grade database grade database person idgrade idpoints earned way accomplish setup correct sorry confusing ask questions answer best
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: java starting
-Karma: 9
-Date: 1369849427.0
-good ide start relative beginner ive taken highschool course learned relatively basics ide using bluej want move something better since feel doesnt allow expansion later really know decent ide lets retain almost control code automatically adding bits code
-
-==============================
-

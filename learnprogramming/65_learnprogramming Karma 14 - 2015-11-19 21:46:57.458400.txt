@@ -1,7 +1,0 @@
-Title: going accelerated c prior knowledgenot sure start
-Karma: 14
-Date: 1338335914.0
-took programming class community college last summer wanting get back learning c almost unanimously people claim accelerated c best book topic try read book get bored know material already skip middle book part looks like break know get confused probably stupid question book start brief list already know io looping variables vectorsarrays basic oop features understand overloading member functions yet yeah know really start back beginning book tough pay attention pick another book something thanks advance answers
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: good eclipse netbeans tutorials
-Karma: 5
-Date: 1400260711.0
-hi guys learning java past months far using basic text editor writing programs decided download eclipse netbeans work see one prefer however finding learning curve quite steep getting confused many features programs offer anyone suggest good tutorial thanks
-
-==============================
-

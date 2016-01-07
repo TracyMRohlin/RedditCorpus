@@ -1,7 +1,0 @@
-Title: java need help taking elements one array replacing different array personal project
-Karma: 9
-Date: 1354308436.0
-basically two arrays one already loop assigns two random numbers range elements array everytime program runs want use two elements assigned array take index elements array lets say go array check index replace elements ever elements finds index also make random generator doesnt assign number array thanks
-
-==============================
-

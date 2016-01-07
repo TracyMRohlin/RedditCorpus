@@ -1,7 +1,0 @@
-Title: c use sizeof
-Karma: 2
-Date: 1385358718.0
-string lettergradedouble grade static const double numbers static const char const letters b b b c c c d f static const sizet ngrades sizeofnumberssizeofnumbers sizet ngrades grade numbersi return lettersi return understand size way thought vectors vectortypesizetype size somevectorsize something similar array go trouble dividing byte size entire array byte size single element get many elements feel like much easier way know c enough see easier way
-
-==============================
-

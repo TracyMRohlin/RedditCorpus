@@ -1,7 +1,0 @@
-Title: using dictionary program help
-Karma: 10
-Date: 1385948395.0
-working program utilizes random words dictionary however need sort part speech put separate files difficult curious way get plaintext list words specific part speech anybody knows going write bot go dictionary website take word part speech latter necessary go perhaps python little new web crawling
-
-==============================
-

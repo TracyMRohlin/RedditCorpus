@@ -1,7 +1,0 @@
-Title: build web tool coworkers sure go
-Karma: 9
-Date: 1431627302.0
-built webtool coworkers running nodejs backend running personal windows server stuck currently webapp works going localhost want map domain name coworkers others connected server access web app lost point confused nodejs problem windows server problem either way still new nodejs know nothing server deployment anyone point direction go
-
-==============================
-

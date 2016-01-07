@@ -1,7 +1,0 @@
-Title: beginning programs use make games
-Karma: 9
-Date: 1385624930.0
-languages learn make dungeon games html knowledge bit javascript ruby experience
-
-==============================
-

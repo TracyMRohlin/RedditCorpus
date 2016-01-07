@@ -1,7 +1,0 @@
-Title: goto statements linux source code gotos appropriate
-Karma: 14
-Date: 1324599234.0
-first programming course drilled goto statements never appropriate recently started playing around linux device drivers discovered code peppered see obviously place guidelines appropriate use goto one thing noticed linux driver code goto jumps never leave function imagine programmer still careful label duplication edit pointed comments c goto statements local function scope therefore jump outside function code ic driver core static int init icinitvoid int retval retval busregistericbustype retval return retval retval classregistericadapterclass retval goto buserr retval icadddriverdummydriver retval goto classerr return classerr classunregistericadapterclass buserr busunregistericbustype return retval
-
-==============================
-

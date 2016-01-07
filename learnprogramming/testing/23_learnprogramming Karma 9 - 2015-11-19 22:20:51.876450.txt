@@ -1,7 +1,0 @@
-Title: excel conditional formatting help
-Karma: 9
-Date: 1310439815.0
-hi guys recently asked help guys always done great job explaining things need help though designing spreadsheet summary worksheet beginning item listed summary sheet detailed worksheet detailed worksheets several rules conditional formatting rules change background cells yellow red based cell values wondering way group rules yellow group red group yellow rule activated detailed worksheet format cell summary sheet yellow red anyone know way
-
-==============================
-

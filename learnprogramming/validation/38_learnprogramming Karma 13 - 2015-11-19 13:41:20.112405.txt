@@ -1,7 +1,0 @@
-Title: java two lines runprinted time done wrong
-Karma: 13
-Date: 1370414300.0
-two yn questions attempting ask user questions show time individually one problem scanner keyboard new scannersystemin int minutesused totalmessages dataused string msgplanstring string dataplanstring systemoutprintlnenter total minutes used minutesused keyboardnextint systemoutprintlnenter total number messages sentrecieved totalmessages keyboardnextint systemoutprintlndo text messaging plan yn msgplanstring keyboardnextline systemoutprintlndo data plan yn dataplanstring keyboardnextline ifyequalsignorecasedataplanstring systemoutprintlnhow many mb data used dataused keyboardnextint systemoutprintlndo text messaging plan yn systemoutprintlndo data plan yn two printing time
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: ides vs text editors
-Karma: 18
-Date: 1310432730.0
-coding say php people prefer using ide like netbeans phpstorm text editor like notepad
-
-==============================
-

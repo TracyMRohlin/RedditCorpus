@@ -1,7 +1,0 @@
-Title: getting main colour image
-Karma: 8
-Date: 1385433055.0
-wondering kind algorithm need get main colour image find mean colours get graybrown images trying look pixels exact rgb need alot pixels exact value example effect used website called pintrest images loading idea kind algorithm need get main colour used
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: best way find class defined
-Karma: 2
-Date: 1385267414.0
-functional programmer lot scripting know best way find function defined python see imported imports sometimes function looking three imports deep currently using grep importing whole project ide searching files best practice really trying learn best setup file structure looking others
-
-==============================
-

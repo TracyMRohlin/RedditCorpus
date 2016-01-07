@@ -1,7 +1,0 @@
-Title: java picture applet load eclipse
-Karma: 9
-Date: 1384898881.0
-hey guys trying draw basic image applet get anything load getting start applet started applet window code exception description javalangnullpointerexception sunawtimageurlimagesourceinitunknown source sunappletappletimagerefreconstituteunknown source sunmiscrefgetunknown source sunappletappletviewergetcachedimageunknown source sunappletappletviewergetimageunknown source javaappletappletgetimageunknown source aiinitaijava sunappletappletpanelrununknown source javalangthreadrununknown source help greatly appreciated edit also using eclipse
-
-==============================
-

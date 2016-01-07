@@ -1,7 +1,0 @@
-Title: want reuse functions programs write c organize accordingly
-Karma: 12
-Date: 1325384769.0
-writing functions dealing different data structures want use program want use data structures sure proper way however save files invoke main program write whole function header file prototypes advice appreciated
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: java imageview array integer numbers
-Karma: 8
-Date: 1400621990.0
-hey rlearnprogramming thing want someone presses die number want add points arraylist thinking listener know imageview pressed currently using method get right placeholders board public imageview initiatedice imageview pdice imageview findviewbyidriddieone imageview pdice imageview findviewbyidriddietwo imageview pdice imageview findviewbyidriddiethree imageview pdice imageview findviewbyidriddiefour imageview pdice imageview findviewbyidriddiefive imageview pdice imageview findviewbyidriddiesix imageview pdice imageview findviewbyidriddieseven imageview pdice imageview findviewbyidriddieeight imageview placeholders new imageview pdice pdice pdice pdice pdice pdice pdice pdice return placeholders printing dice screen using method public void printdiceint array imageview array int arraylength arrayisetimageresourcediceimagesarrayi arrayisetvisibilityviewvisible first array random generated numbers dice second array placeholders diceimages images dice six states private final int diceimages new int rdrawablediceone rdrawabledicetwo rdrawabledicethree rdrawabledicefour rdrawabledicefive rdrawabledicepico thoughts suggestions welcome
-
-==============================
-

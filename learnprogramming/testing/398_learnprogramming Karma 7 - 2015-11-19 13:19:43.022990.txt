@@ -1,7 +1,0 @@
-Title: cause unsigned long overflow keep track time
-Karma: 7
-Date: 1385366631.0
-hey guys recently reading article avr came across segment author mentions avr bit architecture hence largest number comfortably store unsigned long stretches four bytes total bits range mentioned typical arduino normally runs clock rate mhz rate store running tick count unsigned long seconds reaching maximum value store unsigned long think gotten confused want know author got seconds part
-
-==============================
-

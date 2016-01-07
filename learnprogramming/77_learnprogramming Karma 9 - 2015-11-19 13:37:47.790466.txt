@@ -1,7 +1,0 @@
-Title: double comparesment linux windows
-Karma: 9
-Date: 1384210079.0
-compiler operating system compare doubles linux gcc use double ifi yea know inappropriate fancy stuff windows vs ifi basically use precision fancy stuff strange reason windows double debug something like linux double compiler os
-
-==============================
-

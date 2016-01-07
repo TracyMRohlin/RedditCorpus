@@ -1,7 +1,0 @@
-Title: sql something table empty
-Karma: 16
-Date: 1368453040.0
-table empty line code gives error mysqlquerydelete chat time old supposed start deleting stuff database certain time database empty though gives error trying line checked something table exists tried success find solution existsselect chat mysqlquerydelete chat time old get work thanks edit solved
-
-==============================
-

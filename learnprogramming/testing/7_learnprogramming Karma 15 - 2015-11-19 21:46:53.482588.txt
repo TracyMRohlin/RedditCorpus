@@ -1,7 +1,0 @@
-Title: statements seem working correctly
-Karma: 15
-Date: 1339719991.0
-know error somewhere code tough time finding whenever run program section user needs purchase weapon section code regardless whether user enough money buy said weapon several enough money buy appears statements set way input examined like game questions matter player inputs input seems equal possible options even though input one option error code snippet side note may may matter may notice error displayed imgur link see empty line first two code placed two cout endls test whether error loop statements case wondering edit asked anymore guys go beyond responses thanks
-
-==============================
-

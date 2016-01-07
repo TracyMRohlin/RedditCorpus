@@ -1,7 +1,0 @@
-Title: reding file end file
-Karma: 12
-Date: 1353926704.0
-trying read file ends never programmed c think c people tell c others c apologies wrong following code begin read file file f fopenvidsdat rb fseekf seekend long pos ftellf fseekf seekset char msendingstream charmallocposchar bytes charmallocpos freadmsendingstream pos f fclosef finish reading file mrunning true mpacketssent msocketbind msocketconnect mpeer socket send packets long mbytecounter uintt bytesmpacketsize bytes char charbytes uintt whilei mpacketsize msendingstreammbytecounter mbytecounter cout msendingstreammbytecounter endl cout value endl right give tons inside file tried getchar eof feof among things able achieve goal please help
-
-==============================
-

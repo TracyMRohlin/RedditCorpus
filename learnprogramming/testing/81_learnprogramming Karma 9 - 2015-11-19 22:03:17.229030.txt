@@ -1,7 +1,0 @@
-Title: advantages using lambdas c
-Karma: 9
-Date: 1323768582.0
-googling hours yet come complete answer nd year university games programmer interested using lambdas algorithmgenerally improving code much research kind get work trouble finding advantages using lambdas terms performance well terms one modules university d game engine makes moderate use vectors pointers entities used something along lines draw entities game world auto itr myvector itr end myvector itr itrisalive itrdraw deltatime nextupdatetime things like stdforeach begin myvector end myvector deltatime nextupdatetime entity entity entityisalive entitydraw deltatime nextupdatetime using foreach seem readable see advantage anyone able tell performance comparison two examples advantages disadvantages using lambdas got wrong idea lambdas entirely andor better used situations also correctbest way generate vector pointers seen examples using generate function pointers wondering lambdas useful scenario
-
-==============================
-

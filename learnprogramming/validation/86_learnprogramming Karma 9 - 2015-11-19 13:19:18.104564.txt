@@ -1,7 +1,0 @@
-Title: java threaded message board server problem
-Karma: 9
-Date: 1386038046.0
-become stuck threaded message board server trying implement set connections started thread stuck set anything message board set doubly linked list topics made linked list messages idea far pass topic list parameter thread sure keep topic list across threads added changed help give greatly appreciated thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: learning git github users use git bash
-Karma: 4
-Date: 1385545190.0
-pretty familiar gui tools svn use tortoisesvn work trying get open source stuff github really know git commands wondeinrg people use gui git stuff actually use git bash everything command line man learn commands
-
-==============================
-

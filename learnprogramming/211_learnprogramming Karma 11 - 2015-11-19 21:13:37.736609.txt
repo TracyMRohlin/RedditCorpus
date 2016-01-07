@@ -1,7 +1,0 @@
-Title: want write cross platform drawing app make easy make kind art like sure focus energy programmingwise
-Karma: 11
-Date: 1353133707.0
-lot experience building web apps various system software mostly php also written lot code visual basic net c pretty experienced programmer done apps nature want able create images like right kind art hand graph paper like create drawing app lets use grid draw various polygons based points squaregrid fills borders lines like example art anyway thinking app best c python combination two running xubuntu writing code like app work windows like suggestions focus learning programming efforts sure go something like gtk pygame tcl learn python c something like ms paint really dumbed version adobe illustrator linux windows start afraid spend lot time learning programming want invest tons energy unproductive path completely clueless options start research greatly appreciate advice
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: java issue
-Karma: 13
-Date: 1367835537.0
-current cs project getting weird error code involving serialization error exception thread main javaiowriteabortedexception writing aborted javaionotserializableexception stemming javaioobjectoutputstreamwriteobjectunknown source suggestions troubleshoot attempting write object custom class wrote classes implement serializable interface edit edit able solve issue sprouted writing root node actual tree able fix thanks lecture professor sorry able clear guys still learning going thanks tried help
-
-==============================
-

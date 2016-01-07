@@ -1,7 +1,0 @@
-Title: comments inside outside functions
-Karma: 5
-Date: 1385181688.0
-sure mostly preference wondering best practice place comments regarding functions going code leaving couple lines comments functions decide looks best example outside function creates new canvas element inserts within page script called possible multiple canvases running separate instances script javascript file function createcanvasid width height sizex sizey var newcanvas documentcreateelement' example inside function function createcanvasid width height sizex sizey creates new canvas element inserts within page script called possible multiple canvases running separate instances script javascript file var newcanvas documentcreateelement'
-
-==============================
-

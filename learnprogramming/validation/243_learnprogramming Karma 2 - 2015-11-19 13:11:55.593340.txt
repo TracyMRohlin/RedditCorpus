@@ -1,7 +1,0 @@
-Title: programming quiz failed questions code
-Karma: 2
-Date: 1431852795.0
-quiz recruitment quiz failed input format first line contains two integers n m separated spaces second line contains string third line contains string p constraints n mn composed ' ' ' ' p composed ' ' ' ' '' searching pattern p string wildcard '' correspond anything number occurrences test cases mostly random nature hand curated solved within regular time constraints reasonably optimized code sample input abcddddabcdabcddcccb abd sample output explanation given wildcard match characters three groups match occur abcddddabcdabcddcccb code used processstdinresume processstdinsetencodingascii var input processstdinondata function chunk input chunk processstdinonend function readparse input var stuff inputsplitn var n stuffsplit var m stuffsplit var stuff var p stuff p preplace abcd var re new regexpp g var result smatchre ifresult processstdoutwriteresultlength else processstdoutwrite lot output errors solutionjs var re new regexpp g syntaxerror message masked sure understood input already supposed clean p strings causing exceptions abcd quiz
-
-==============================
-

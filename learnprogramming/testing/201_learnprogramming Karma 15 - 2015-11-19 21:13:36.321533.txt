@@ -1,7 +1,0 @@
-Title: html php way include php html document aaannd include
-Karma: 15
-Date: 1353150107.0
-mean say two separate little chunks php file ways apart want html big echo statement include php files blocks code way without include
-
-==============================
-

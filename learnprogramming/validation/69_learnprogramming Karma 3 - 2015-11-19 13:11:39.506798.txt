@@ -1,7 +1,0 @@
-Title: need html advice replacing div tags section article etc
-Karma: 3
-Date: 1432245958.0
-hey guys small personal project making website looking get rid lots div tags replace wsection article tags anyone want give advice approx add code site want see looks like
-
-==============================
-

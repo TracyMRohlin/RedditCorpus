@@ -1,7 +1,0 @@
-Title: selftaught javascript jquery html css someone take look work please
-Karma: 59
-Date: 1368584567.0
-prior programming experience teaching web development skills lately curios someone take look work give pointersadvice stackoverflow sort making rounds hackernews month two ago decided make clone general idea searches stackoverflow javascript sort questions tries eval code accepted answer know eval evil never used fun thing think right make responsive mobile displays thanks note know sorts work well strings sure say sorted correctly issue seems sorts use sortabab fails strings
-
-==============================
-

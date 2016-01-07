@@ -1,7 +1,0 @@
-Title: help trying find geocache know nothing programming
-Karma: 32
-Date: 1369921790.0
-find next cache figure coordinates using program clue begin help greatly appreciated thanks kahuna input list myinputtrackinglist convert alphabet character coordinate value input character stored myinputtrackinglist converted correct coordinate value procedure convertcharactertocoordinatevalue input inputchar returns integer integer result integer inputvalue integer listsize add letter passed input list myinputtrackinglistaddinputchar convert input character numerical equivalent eg z inputvalue charactertovalueinputchar store size list listsize myinputtrackinglistnumitemsonlist perform operation based input character input value myinputtrackinglistischarinlistmorethanonceinputchar result listsize else inputvalue result inputvalue else inputvalue result inputvalue else inputvalue result inputvalue else inputvalue return listsizeth prime number eg st nd rd etc integer prime getprimenumberlistsize result inputvalue prime else conditions match result inputvaluelastdigit end return result end procedure edit formatting
-
-==============================
-

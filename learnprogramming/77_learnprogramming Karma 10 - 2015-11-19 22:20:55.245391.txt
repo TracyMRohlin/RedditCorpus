@@ -1,7 +1,0 @@
-Title: okay probably really basic need help vba
-Karma: 10
-Date: 1309223827.0
-need search across row cells find one x need select cell row column right subtract value cell value cell advance x next cell accomplish looking grid need find x subtract z y store value advance x z y x
-
-==============================
-

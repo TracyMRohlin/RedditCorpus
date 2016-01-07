@@ -1,7 +1,0 @@
-Title: failed load jni shared library
-Karma: 5
-Date: 1385468171.0
-hello trying run eclipse try launch eclipse greeted failed load jni shared library 'cprogram files xjavajdkbinjrebinclientjvm think something vm know think means location java virtual machine think need edit bellow txt file titled eclipse update locationm vm know add andor take away startup pluginsorgeclipseequinoxlaunchervjar launcherlibrary pluginsorgeclipseequinoxlauncherwinwinxv product orgeclipseepppackagejavaproduct launcherdefaultaction openfile launcherxxmaxpermsize m showsplash orgeclipseplatform launcherxxmaxpermsize m launcherdefaultaction openfile launcherappendvmargs vmargs dosgirequiredjavaversion xmsm xmxm help get eclipse running great trying sort days also retard giving baby answer great tried decipher forums failed
-
-==============================
-

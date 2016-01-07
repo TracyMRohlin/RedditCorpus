@@ -1,7 +1,0 @@
-Title: java trouble large number
-Karma: 9
-Date: 1352977788.0
-ok trying little program find largest prime number number problem number long int float searched online found biginteger run problem idea check prime far run hangs public void findprimebiginteger range int max float total rangefloatvalue float total systemoutprintlni systemexit help appreciated
-
-==============================
-

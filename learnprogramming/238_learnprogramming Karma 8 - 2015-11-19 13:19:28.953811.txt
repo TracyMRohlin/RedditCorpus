@@ -1,7 +1,0 @@
-Title: make python
-Karma: 8
-Date: 1385599435.0
-ive looked bit python still dont get actually use make something know make something web interpreted browser like javascript make something desktop know c really easy make useful program buttons stuff using visual studio make something similar python
-
-==============================
-

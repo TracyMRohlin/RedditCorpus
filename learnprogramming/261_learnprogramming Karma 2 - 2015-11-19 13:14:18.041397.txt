@@ -1,7 +1,0 @@
-Title: code timer works fractions second bat
-Karma: 2
-Date: 1400042188.0
-getting coding bat vbs code pointless little files pointless little things learn syntax basic commands one thing trying make message appear letter time quickly like see movies code tried using ping localhost n nul read works second intervals also tried ping w n nul still go fast enough anyone know effective timer
-
-==============================
-

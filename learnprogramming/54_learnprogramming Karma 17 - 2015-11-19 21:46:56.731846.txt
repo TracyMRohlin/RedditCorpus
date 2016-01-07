@@ -1,7 +1,0 @@
-Title: java android help
-Karma: 17
-Date: 1338512551.0
-sorry might little longbut goes mechanical engineering major somewhat new programming trying create application android razor going connect user device certain ip address perform different functions used eclipse ide still able get application execute phone using eclipse emulator android app emulator however try run app error occurs finished code compiling errors separate xml files created notepad look like hieroglyphics tried save phone apk file try open get parse error checked made sure versions compatible im writing droid razor uses also downloaded droid aide app compile code right phone used java file code app however run option selectable however compiler errors found well really sure going anyone help appreciated feel like something simple missing also help new mechanical engineering major nice walk steps solution thanks
-
-==============================
-

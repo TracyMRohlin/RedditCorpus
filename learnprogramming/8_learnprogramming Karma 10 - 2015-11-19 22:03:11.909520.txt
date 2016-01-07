@@ -1,7 +1,0 @@
-Title: using pointers
-Karma: 10
-Date: 1325315131.0
-hi following book got day understanding pointers happy etc get th first example work one variable var integer set sets ptr var prints value var directly indirectly fine issue comes tries print address lines cause error printfnthe address var d var printfnthe address var d ptr using ubuntu gcc compile know matters error says expects type int variable know cos d says given type int know thinks thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: ruby creating simple twitter bot rails
-Karma: 10
-Date: 1399897778.0
-created simple twitter bot rails scrapes content goodreadscom gather quotes favorite authors tweets random quote regular intervals check kind new programming feel like way approached little project pretty naive basically set scrapertweeter methods rails task folder used heroku scheduler run tasks every x minutes seems pretty inefficient simple program better way without taking advantage railsheroku tools
-
-==============================
-

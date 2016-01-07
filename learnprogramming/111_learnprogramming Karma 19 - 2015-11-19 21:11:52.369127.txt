@@ -1,7 +1,0 @@
-Title: html trying get json example work
-Karma: 19
-Date: 1367960649.0
-basically using array values age weight averaged preset data trying get user add set data get averaged help great thanks updated fixed array stuff invoke function thanks xyleen updated removed extra invoke changed average averageweight peoplelength thanks nolehusker html head titlejson exampletitle script typetextjavascript var people name michael age weight name carla age weight name robert age weight name sara age weight name brian age weight name mary age weight function processjason var peoplelength var age peopleiage var totalage peopleiage age var averageage totalage peoplelength var weight peopleiweight var totalweight peopleiweight weight var averageweight totalweight peoplelength documentgetelementbyidcontentinnerhtml br average weight averageweight average age averageage script head body onloadprocessjason form nameuserstats methodget action enter statsname age weightp input typetext namename sizep input typetext nameage sizep input typetext nameweight sizep input typebutton valuesubmit onclickinvoke form script typetextjavascript function invoke var username documentuserstatsnamevalue var userage documentuserstatsagevalue var userweight documentuserstatsweightvalue documentwriteusername stats documentwriteaverage age userage averageage peoplelength documentwriteaverage weight userweight averageweight peoplelength script body html
-
-==============================
-

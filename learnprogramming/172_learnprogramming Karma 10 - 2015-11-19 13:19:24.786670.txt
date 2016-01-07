@@ -1,7 +1,0 @@
-Title: python whats good way getting started ai python
-Karma: 10
-Date: 1385733555.0
-wanted build ai tictactoe game python experience related ai whatsoever specific theories start scratch
-
-==============================
-

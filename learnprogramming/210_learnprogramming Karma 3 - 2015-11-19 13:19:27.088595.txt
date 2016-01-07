@@ -1,7 +1,0 @@
-Title: python creating new file based source filename xposted rlearnpython
-Karma: 3
-Date: 1385648224.0
-hi working files week need write text new file based source filename inputted user example new filename look kind like sourcefilenamethe word encrypted txt anyone help
-
-==============================
-

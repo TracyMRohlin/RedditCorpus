@@ -1,7 +1,0 @@
-Title: movement grid
-Karma: 13
-Date: 1323226119.0
-mulling unable find come answer trying create fairly simple side scrolling game assets grid format grid space tile tile sub tiles assemble however support fluid character movement character think least move freely within environment despite made tiles represent inside map structure efficiently fluid uses tile sections player tile limitations tiles fall grid mouse interact tiles within grid
-
-==============================
-

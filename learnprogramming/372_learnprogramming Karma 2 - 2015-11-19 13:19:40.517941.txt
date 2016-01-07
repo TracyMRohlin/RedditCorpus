@@ -1,7 +1,0 @@
-Title: c unused dtor derived classes
-Karma: 2
-Date: 1385403073.0
-best practice derive class dont need new destructor class public virtual class b public public virtual b empty dtor needeeddesired class b public public ignore dtor
-
-==============================
-

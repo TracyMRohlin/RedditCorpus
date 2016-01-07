@@ -1,7 +1,0 @@
-Title: c lidgren connect external ip
-Karma: 10
-Date: 1368499675.0
-simple game set lidgren networking local machine works fine get client connect external ip address see set port number find documentation setting ip address want connect server listener set clients connect
-
-==============================
-

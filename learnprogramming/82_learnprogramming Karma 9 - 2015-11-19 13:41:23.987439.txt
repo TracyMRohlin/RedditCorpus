@@ -1,7 +1,0 @@
-Title: javaregular expression removing clike comments causing stack overflow
-Karma: 9
-Date: 1370156303.0
-hi working java project program load cc file string remove single line multiline comments string comment removal method looks something like string removestring source return sourceremoveall using pattern matcher keep simple comment section charcaters method causes stack overflow program recover yes catching exception help suggestions much appreciated
-
-==============================
-

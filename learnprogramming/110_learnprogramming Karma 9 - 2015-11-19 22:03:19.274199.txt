@@ -1,7 +1,0 @@
-Title: command line program accept many possible arguments
-Karma: 9
-Date: 1323012135.0
-creating simple application c might take many possible arguments process accordingly example pydoc takes number keywords display help keyword sequential manner done
-
-==============================
-

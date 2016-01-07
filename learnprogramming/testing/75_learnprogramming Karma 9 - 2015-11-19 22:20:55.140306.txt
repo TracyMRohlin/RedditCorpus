@@ -1,7 +1,0 @@
-Title: perl script timeout backtick command like expect please explain wrong
-Karma: 9
-Date: 1309232996.0
-part script logs machine runs command captures output command file following snippet intended see ssh machine supposed timeout ssh unresponsive reason script already checked machine checking result ping eval local sigalrm sub die alarm timeoutn alarm c usrlocalbinsshpass p pass ssh q user''machine ls errorcheckn r c checkforerror exitscript alarm problem seeing one machine timeout occur script remains hung sshpass try ssh command line get login prompt checked ping comes back exactly kind situation timeout code supposed handle log timeout messages possible machine problem code simply work wrong better way force timeout sshpass log
-
-==============================
-

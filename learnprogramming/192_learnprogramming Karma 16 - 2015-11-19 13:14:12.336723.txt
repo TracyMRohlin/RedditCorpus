@@ -1,7 +1,0 @@
-Title: bad idea run game server utilises https api sound right thing know moment
-Karma: 16
-Date: 1400277141.0
-players account https server running nodejs currently handles registration logging nothing bad things website however registerlogin game send web requests c node server return json objects errorsuccess information added creating saving loading characters still posting bunch json starting feel wrong worried creating characters loading character select screen actual game server start question game server standard server characters mmo worlds character persist servers game servers every x seconds based load post current characters server back central server update changes part feels icky lot unneeded overheard going http route way know utilise ssl another problem master server talk game server unless game server sends request first game server communicates player via unity udp package fine game server central server worries bettersecurerfaster solution communicating nodejs c
-
-==============================
-

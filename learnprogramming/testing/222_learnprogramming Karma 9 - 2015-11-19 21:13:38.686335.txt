@@ -1,7 +1,0 @@
-Title: c writing file
-Karma: 9
-Date: 1353045976.0
-reason data write file print text anyone give hand help full also print totals bottom
-
-==============================
-

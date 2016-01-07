@@ -1,7 +1,0 @@
-Title: webform database newbie
-Karma: 2
-Date: 1385189322.0
-hey guys first want say minimal knowledge python pretty much idea application need guidance start learn etc asking create want know learn put action like put form website customer submit form signing credentials submit form data transferred database get data analyze submit report user one buddies said use python connect front end backend pull data mysql database suggested host either amazon webservices google apps list one one start finish look even let know resource find info really appreciate learn pretty sure involved community thanks
-
-==============================
-

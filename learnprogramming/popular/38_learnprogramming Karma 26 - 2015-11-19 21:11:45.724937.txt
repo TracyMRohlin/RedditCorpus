@@ -1,7 +1,0 @@
-Title: calculus project
-Karma: 26
-Date: 1368742014.0
-little programing experience project ap calc class wanted make simple app derivative using android sdk java possible learn two week looking direction go thanks
-
-==============================
-

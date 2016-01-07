@@ -1,7 +1,0 @@
-Title: c fgets avoiding errors
-Karma: 2
-Date: 1385801084.0
-trying remove entry text file organized line line line starts name user prompted enter name name compared beginning every lineformat linename data data copied another file want keep txt file copy new list outgoing file back original file however first entry copied back code
-
-==============================
-

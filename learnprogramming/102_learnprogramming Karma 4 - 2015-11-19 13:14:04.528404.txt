@@ -1,7 +1,0 @@
-Title: cstatic someone explain
-Karma: 4
-Date: 1400564621.0
-include iostream using namespace std int f static int return int main cout f f f cout f cout f cout f return output mindblowing operator clearly leftassociative really output
-
-==============================
-

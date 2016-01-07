@@ -1,7 +1,0 @@
-Title: java making program converts roman arabic numerals make order string characters matter
-Karma: 12
-Date: 1354339935.0
-far program adding string characters example enter xv show also need numbers like xiv order letters matter input xiv outputs part code private static void romannumerals systemoutprintlnconvert roman number arabic systemoutprintenter roman number string str myscannernext int arabic int strlength switch strcharati case ' arabic break case ' arabic break case ' arabic break case ' arabic break case ' arabic break case ' arabic break case ' arabic break default systemoutprintlncommand recognized help greatly appreciated thanks advance
-
-==============================
-

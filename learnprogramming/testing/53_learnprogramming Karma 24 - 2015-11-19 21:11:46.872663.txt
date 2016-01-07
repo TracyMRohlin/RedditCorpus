@@ -1,7 +1,0 @@
-Title: retrieve frequently updated xml document html
-Karma: 24
-Date: 1368510485.0
-sure even makes sense pretty new need help created mobile app html using webstorm access rss feeds want update pages regular intervals without refreshing browser stuck advice help awesome cheers
-
-==============================
-

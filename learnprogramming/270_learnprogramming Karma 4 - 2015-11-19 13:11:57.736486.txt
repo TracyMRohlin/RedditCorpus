@@ -1,7 +1,0 @@
-Title: lua saving cpu cycles debug logging
-Karma: 4
-Date: 1431794712.0
-unified function app printing normal messages debug errors since printing debug messages environment costly want save file user code like mine ui thread connected rest environment small performance gains important print function works kind fast without log function saving debug messages including log rotating k since much usage memory cause performance degradation cause much overhead variables appnamesave appnamedebug saved file sessions lines printed longer b giving plenty room messages saved example calls used app appnameprintcalled already visibledebugwarnshowui appnameprintwill setscript framegetname framefname unknown eventdebugadduievent appnameprintobject nname defined function tostringevent eventerror appnameprintsave file deleted
-
-==============================
-

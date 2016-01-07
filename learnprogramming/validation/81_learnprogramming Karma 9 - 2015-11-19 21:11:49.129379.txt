@@ -1,7 +1,0 @@
-Title: two different projects one programming language
-Karma: 9
-Date: 1368238528.0
-two different classes college announced final projects developed july teachers said use whatever programming language want dismissive asked suggestions one project requires us make program reads data xml files multiple sorting searching operations data restriction use databasesmysql etc second project involves recognition words contextfree languagescyk creation derivation trees proccess restrictions thing programming language actually know c quite chore manage strings certainly possible projects using c rather use stringfriendly overall higherlevel programming languange figured good opportunity learn new one however since much free time better learn one new language good enough use projects combining two different languages develop project also viable long know much one suggestions languages balanced use two projects overall usefulnessaccessibility welcome note way asking solutions develop projects requesting assistance tools recommended thanks advance
-
-==============================
-

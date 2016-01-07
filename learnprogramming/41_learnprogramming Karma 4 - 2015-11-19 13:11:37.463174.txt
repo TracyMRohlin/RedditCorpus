@@ -1,7 +1,0 @@
-Title: trying decide learn next rubyrails nodejs go
-Karma: 4
-Date: 1432269527.0
-hopefully experienced programmers around offer good advice working software engineer years lot experience java clientside javascript currently clientside javascript coffeescript actually looking diversify add something new knowledge trouble deciding though mention ruby rails backend current project work written help understand backend code also seems fairly popular lots ruby rails jobs looking job right always plan future hand double javascript dive node express mean stack etc something completely different learn language like go think advice experiences thanks
-
-==============================
-

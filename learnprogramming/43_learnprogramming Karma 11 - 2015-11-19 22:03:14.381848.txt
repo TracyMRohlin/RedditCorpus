@@ -1,7 +1,0 @@
-Title: loops faster c python
-Karma: 11
-Date: 1324720120.0
-hi snipplet code find prime numbers c functionn functionn pretty much performance python functions translated functionn functionn function almost twice fast function code two functions pythonoutput method method coutput circular prime n took seconds circular prime n took seconds time profiler
-
-==============================
-

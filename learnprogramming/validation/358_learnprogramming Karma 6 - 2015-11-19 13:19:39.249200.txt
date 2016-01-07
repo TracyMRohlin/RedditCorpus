@@ -1,7 +1,0 @@
-Title: need help heroku update dependencies
-Karma: 6
-Date: 1385425284.0
-api hosted heroku
-
-==============================
-

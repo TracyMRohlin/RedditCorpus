@@ -1,7 +1,0 @@
-Title: r error trying read table missing cells
-Karma: 10
-Date: 1385464025.0
-using readtablenametxt headert gives error trying read table problem way fill holes data sure ultimate goal run twoway anova data bit help greatly appreciated
-
-==============================
-

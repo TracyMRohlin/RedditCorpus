@@ -1,7 +1,0 @@
-Title: java parsing binary string integer
-Karma: 3
-Date: 1386031393.0
-hey trouble converting string bits integer namely integer right sign bits long string went fine used short integerparseints string one bits long lot trouble want number ' string looks like complement parsing integerparseints gives ' wayyy mark obviously however getting positive signed one bit string using code ' turns fine help appreciated
-
-==============================
-

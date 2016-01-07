@@ -1,7 +1,0 @@
-Title: wrote program make printing code easier
-Karma: 39
-Date: 1432313330.0
-really happy way many print code came time turn paper copies work cs labs take way long get code look right printed usually headersfooters small text looks great monitor horrible page solve problem wrote small javascript application allows change way code looks check
-
-==============================
-

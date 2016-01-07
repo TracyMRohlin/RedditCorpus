@@ -1,7 +1,0 @@
-Title: qt creator win compiler
-Karma: 19
-Date: 1369721748.0
-anyone experience getting qt creator compile files windows tried link mingw g currently works two small machine qt use downloaded updated versions mingw tried qt qt mingw version success either searched around found qt supposed work well ms vs compiler tried install couple times aborted corrupt file install failed message obvious setup missing simply get qt build edit resolved thank suggestions
-
-==============================
-

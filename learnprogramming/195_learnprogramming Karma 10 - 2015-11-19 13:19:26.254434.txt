@@ -1,7 +1,0 @@
-Title: python rough equivalent 'super' method
-Karma: 10
-Date: 1385685550.0
-title kind says studying objectoriented programming last month python ruby smalltalksqueak objectivec found 'super' method quite handy similar method python thank
-
-==============================
-

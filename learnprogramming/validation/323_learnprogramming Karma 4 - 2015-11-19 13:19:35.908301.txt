@@ -1,7 +1,0 @@
-Title: coj howto java help
-Karma: 4
-Date: 1385453435.0
-anyone know lessons guide way solve problems coj judge im basic ones barely know use loops ill learning today anyone know basic commands knowlearn solve type problems need tutorials plenty interwebz problem dont know commands learn anything help use java
-
-==============================
-

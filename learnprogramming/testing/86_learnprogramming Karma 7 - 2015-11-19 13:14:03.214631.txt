@@ -1,7 +1,0 @@
-Title: convert decimal binary c bits
-Karma: 7
-Date: 1400605061.0
-im currently writing piece code converts assembly language hexadecimal came accross string value want converted stored stringchar value used later came accross string value want also stored stringchar dealing bit complements bit binaries fairly new c familiar types methods exists convert decimals bit complement binary edit write else statements checks every single possible value seems inefficient thanks
-
-==============================
-

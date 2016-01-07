@@ -1,7 +1,0 @@
-Title: java attempting use downloaded libraries program confused use maven
-Karma: 9
-Date: 1369001463.0
-downloaded java ocr libraries sourceforge eventually downloaded eclipse plugin essentially various online guides seemed suggest imported existing maven project however seemed accomplish addition maven projects package explorer still run demo classes provided attempted understand use code following appears instructions original website apologise straightforward unusual question cant seem find similar circumstances online important understand use libraries part program edit solution turns lot stuff need simply matter adding jar files classpath well referenced libraries thanks amadiro tlvaski responses
-
-==============================
-

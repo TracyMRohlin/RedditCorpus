@@ -1,7 +1,0 @@
-Title: ever used linked list
-Karma: 12
-Date: 1310827725.0
-interviewers love
-
-==============================
-

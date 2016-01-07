@@ -1,7 +1,0 @@
-Title: accessing properties classes
-Karma: 2
-Date: 1431864013.0
-python know use importinclude experienced far really understanding access instance dog class defined main properties stat class
-
-==============================
-

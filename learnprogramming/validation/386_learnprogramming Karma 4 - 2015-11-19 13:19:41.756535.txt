@@ -1,7 +1,0 @@
-Title: java using variable created different methodclass
-Karma: 4
-Date: 1385376191.0
-hello method return doubles public double run string csvfile homestevenjavacodefinalpositioncsv bufferedreader br null string line string cvssplitby double y double y try br new bufferedreadernew filereadercsvfile line brreadline null use comma separator string x linesplitcvssplitby systemoutprintlnx x y doubleparsedoublex y doubleparsedoublex catch arrayindexoutofboundsexception e eprintstacktrace catch filenotfoundexception e eprintstacktrace catch ioexception e eprintstacktrace finally br null try brclose catch ioexception e eprintstacktrace return y y like use im program syntax using call particular method readcvs obj new readcvs objrun systemoutprintlny however compiler says variable y found understand found calling correctly instantiated main want get y one program next ideas thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: homeworkcerror inserting data access database
-Karma: 4
-Date: 1432211831.0
-trying insert new record orders table getting sql syntax error life spot issue code access table help greatly appreciated
-
-==============================
-

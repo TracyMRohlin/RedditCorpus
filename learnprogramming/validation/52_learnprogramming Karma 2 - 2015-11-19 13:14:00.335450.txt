@@ -1,7 +1,0 @@
-Title: displaying user input onto webpage
-Karma: 2
-Date: 1400738298.0
-building first website right like able take various text inputs via html forms display several images text remain someone changes since site meant used many people like kind password requirement change text really sure go implementing familiar html css need learn sqlphp implement simply using javascript help greatly appreciated
-
-==============================
-

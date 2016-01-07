@@ -1,7 +1,0 @@
-Title: syntax highlighting language
-Karma: 6
-Date: 1385260363.0
-working editor considering different methods go wondering general consensus ideas feasible less interested code specifics although happily welcome foremost like discuss general strategy things postulated upon pressing button compiling finalizing way go file highlight proper words simple pretty lame well expect better editor use upon typing x amount letters x smallest possible word require highlighting backtrack previous white space check matches upon every new letter typed maximum length reached case drop x reset per whitespace occurrence accounting caret movement copypasting backspacing really fleshed yet optimization last one maybe narrow possible matches per letter basis example type editor may want check next letter cause probably make int point checking see going type float record working small amount keywords case compared real language love hear thoughts matter thanks
-
-==============================
-

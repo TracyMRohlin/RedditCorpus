@@ -1,7 +1,0 @@
-Title: bool max value question
-Karma: 10
-Date: 1338453863.0
-hey two quick questions boolean type c learned today simple types max value stored example char hold c windows os int hold question understand range false true however put number greater lets say return true number besides true max value bool type next question syntax displaying value example want print max value char use charmax thanks advance
-
-==============================
-

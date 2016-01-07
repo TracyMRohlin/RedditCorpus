@@ -1,7 +1,0 @@
-Title: google maps save user created polygon line marker
-Karma: 22
-Date: 1370563728.0
-hi looking help within google maps api need create application summer research project environmental scientist interest small history computing looking going graduate next year looking using google maps want user create polygon point marker application save database reloaded later time really like push google spreadsheet struggling bit find help topic understand maps api works polygons made within script directly want user make reloaded next time opens request help really appreciated thanks
-
-==============================
-

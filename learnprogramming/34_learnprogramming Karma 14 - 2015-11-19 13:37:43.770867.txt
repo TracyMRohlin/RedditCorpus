@@ -1,7 +1,0 @@
-Title: python standardize normalize different inputs city name account misspellings eg philly philladelphia phila philladelphia pa
-Karma: 14
-Date: 1384815963.0
-inputs philla philla philly phily philladelphia philia philladelphia pa philadelphia standardize proper form philladelphia pa guessing done via regex lists possible combinations sure guys better idea edit mention multiple cities one function lists possible combinations might question
-
-==============================
-

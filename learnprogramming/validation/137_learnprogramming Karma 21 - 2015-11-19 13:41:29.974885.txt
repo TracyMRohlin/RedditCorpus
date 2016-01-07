@@ -1,7 +1,0 @@
-Title: focus one project
-Karma: 21
-Date: 1369724135.0
-began learning program years ago started perl wrote small perl scripts processing text data want go something new want learn new language really hate perl started learning python web development made webpages html css javascript went weeks like want learn create native apps started looking next week like maybe focus algorithms data structures week see place real pieces software code show post github anything goal jackofalltrades seem focus anything thoroughly enjoy aspects computer programming going th grade job class structures learning recommended order learning things stay focus
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: save load external current state
-Karma: 11
-Date: 1353882812.0
-think title sums pretty well game saving implemented really really great game want save state continue want think possible windows saves state upon hibernating reloads upon waking even possible read guy forum said possiblewith cheat engine need save state toomeaning everything os besides state question even possible implement asking pointers methods want make code per se
-
-==============================
-

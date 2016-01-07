@@ -1,7 +1,0 @@
-Title: vba teach coworkers vba idea start
-Karma: 4
-Date: 1385374267.0
-cs person work tech industry know vba kind looked notverygood language lot things use job brought along years ago learning write code excel still person person team proficient vba boss wants teach coworkers everything need know vba concerned rightfully leave something happen nobody know write maintain code far code concerned admittedly well documented things started little tidbits wrote make job easier adapted someone else added etc years learned basic principles cs eg abstracting repetitive tasks methods avoiding magic numbers la x etc use lot custom classes anything difficult teach total newbie know oop taken intro python course mit everything know vba googled bruteforced way often spaghetti code solution idea come short day class give coworkers get speed think take least week
-
-==============================
-

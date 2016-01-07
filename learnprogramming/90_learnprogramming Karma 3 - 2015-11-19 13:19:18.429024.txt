@@ -1,7 +1,0 @@
-Title: trouble compiling multiple c files g ubuntu
-Karma: 3
-Date: 1386036282.0
-link code question trying compile code working last week trouble compiling multiple files time code originally single file trying separate definitions declarations try compiling g o bignumbersexe bignumfuncdefscpp bignumclassdefscpp maincpp get series errors say classdefscpp file find functions funcdefscpp file always thought compiled multiple files together functions compile first file available subsequent files compiling someone explain methodology flawed really mind completely reorganizing files rather understand best practice develop bad habits thanks advance
-
-==============================
-

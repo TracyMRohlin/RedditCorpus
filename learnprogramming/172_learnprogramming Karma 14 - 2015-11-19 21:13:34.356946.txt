@@ -1,7 +1,0 @@
-Title: ruby good source basic methodsarrayshash things
-Karma: 14
-Date: 1353401449.0
-website basic list methods used lot ruby beginner level least things think tos toi tof upcase ljust rjust center etc also maybe basic methods used arrays hashes well also basics things well aka make arrayhash etc anything like searched bunch random websites without list thanks help ps realize large websites everything really looking either stuff basic stuff listed
-
-==============================
-

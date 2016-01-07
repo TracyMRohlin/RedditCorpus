@@ -1,7 +1,0 @@
-Title: run program flashes instant goes away errors compiler
-Karma: 12
-Date: 1353377948.0
-day old programming started c primer plus fourth edition stephen prata first example told us input source code run debug using visual c include stdioh int main void int num num printf simple printf computern printf favorite number d first n num return get errors thing program flashes one second goes away try using program source code video run debug works googleing problem quite bit way program run split second put systempause statement book say anything says run fine anyone know wrong
-
-==============================
-

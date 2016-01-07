@@ -1,7 +1,0 @@
-Title: csdl problems displaying images
-Karma: 5
-Date: 1432026767.0
-code images problem program displaying single gray rectangle coordinates window however also displaying second one coordinates added cout statement line gameworldcpp program started working correctly program works correctly long cout statement going fix another small oddity noticed move object objset line gameworldh outside gameworld class program compile gives multiple definition ' line maincpp first defined line gameworldcpp best understanding still work also appreciate feedback far program supposed eventually d game engine
-
-==============================
-

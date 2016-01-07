@@ -1,7 +1,0 @@
-Title: improve python syntax naming student
-Karma: 2
-Date: 1399720123.0
-hi junior cs student like ask advice getting better python syntax naming example interview today interviewer asked comprehensive list associateive array decorator know comprehensive list associative array really well use time basically list generators dictionary casual term idea called way hand python projects using flask never used decorators besides routing never came necessary quite answer correctly improve syntax naming literacy
-
-==============================
-

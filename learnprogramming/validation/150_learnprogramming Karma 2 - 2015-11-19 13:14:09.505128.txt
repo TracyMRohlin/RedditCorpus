@@ -1,7 +1,0 @@
-Title: d recognition algorithms ransac
-Karma: 2
-Date: 1400438617.0
-hi fellas need algorithms ransac university work recognize objects point cloud write analysis comparing algorithms seem find others know find one thanks advance
-
-==============================
-

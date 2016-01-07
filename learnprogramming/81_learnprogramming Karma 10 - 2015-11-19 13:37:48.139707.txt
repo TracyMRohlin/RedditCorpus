@@ -1,7 +1,0 @@
-Title: sdl checking key pressedheld
-Karma: 10
-Date: 1384090737.0
-using whilesdlpolleventevent ifeventtype sdlquit quit true else ifeventtype sdlkeydown stdcout pressed chareventkeykeysymsym key stdendl else ifeventtype sdlkeyup stdcout released chareventkeykeysymsym key stdendl works fine however hold keys prints one tried google lots suggestions making boolean variables set true key pressed false key released however unpractical need detect key specific ones way loop keyboard perhaps using sdlgetkeyboardstate
-
-==============================
-

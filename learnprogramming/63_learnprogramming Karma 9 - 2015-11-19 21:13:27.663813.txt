@@ -1,7 +1,0 @@
-Title: assembly calling qsort function
-Karma: 9
-Date: 1354095688.0
-sort array program writing allowed call c functions seem figure wrong calling qsort program stops qsort call sure causing figure something compare function since book clear written book says comparison return negative positive get subtracting second number first code sort function compare function compare push rbp mov rbp rsp mov rax ebp mov rbx ebp sub rax rbx leave ret sort segment text array equ size equ equ push rbp mov rbp rsp sub rsp mov rsparray rdi mov rspsize rsi push dword compare push dword push rsi push rdi call qsort leave ret array declared multiplying number items entered using malloc verified print function array correctly storing entered values tips going wrong think supplied relevant information thanks help
-
-==============================
-

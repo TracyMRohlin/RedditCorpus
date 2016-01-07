@@ -1,7 +1,0 @@
-Title: java wrote first java applicationbut use inheritancepolymorphism bad
-Karma: 2
-Date: 1431898806.0
-learning java first programming language wrote data entry application gui using javafx know probably outright bad use inheritancepolymorphism maybe needed concern needed made something better use tutorialsguides say polymorphism core extremely valuable feature object oriented programming kind rattled little bit finished application sat back realized never used core valuable feature application works fine want seen animalmammaldog type examples understand works really use practical examples application
-
-==============================
-

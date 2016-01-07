@@ -1,7 +1,0 @@
-Title: python condense list comprehension code block
-Karma: 19
-Date: 1369376335.0
-list file extensions want generate list files meet pattern recursively beginning root directory filepatterns ' ' def main matches root dirnames filenames oswalkrootdir files ospathjoinroot filename pattern filepatterns filename fnmatchfilterfilenames pattern f files matchesappendf print matches works like f files loop way incorporate previous list comprehension keep getting generator instead value exercise list comprehension anything even best solution terms clarity explain anyway thanks
-
-==============================
-

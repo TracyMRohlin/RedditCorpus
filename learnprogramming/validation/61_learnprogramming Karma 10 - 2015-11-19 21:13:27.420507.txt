@@ -1,7 +1,0 @@
-Title: beginner java building navigable menu using switch statement
-Karma: 10
-Date: 1354103617.0
-hey guys working project first year java programming class trying create menu displays options user enter number corresponds option thus taking another menu example serendipity booksellers main menu cashier module inventory database module report module exit enter choice coded far problem really know go let reference cashier method static context put code somewhere main method know put main method appreciate advicetips even pseudocode thanks
-
-==============================
-

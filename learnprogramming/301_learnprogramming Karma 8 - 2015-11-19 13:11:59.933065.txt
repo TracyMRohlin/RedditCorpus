@@ -1,7 +1,0 @@
-Title: java need help debugging prefix notation calculator
-Karma: 8
-Date: 1431718631.0
-program supposed work like user puts expression prefix notation program evaluates returns answer seems work expression signs beginning evaluate correctly incorrectly evaluates program supposed work single digits factor need infodocumentation add code import javautilstack import javautilscanner public class prefixcalc public static void main string args scanner input new scannersystemin systemoutprintlnthe expression prefix notation string str inputnextline systemoutprintlnprefixcalcstr inputclose public static object prefixcalcstring str stack st new stack string function string operator int queue int num int num int strlength isoperatorstrcharati operator strsubstringii stpushoperator queue else isintegerstrcharati queue queue num integerparseintstrsubstringii stpushnum else queue num integerparseintstrsubstringii stpushevalexpressionstpop stpop num queue return stpeek public static boolean isoperatorchar ch ch '' ch '' ch '' ch '' return true return false public static boolean isintegerchar ch ch ' ch ' ch ' ch ' ch ' ch ' ch ' ch ' ch ' ch ' return true return false public static int evalexpression string function int integerparseintfunctionsubstring int b integerparseintfunctionsubstring functioncharat '' int answer b return answer functioncharat '' int answer b return answer functioncharat '' int answer b return answer else int answer b return answer
-
-==============================
-

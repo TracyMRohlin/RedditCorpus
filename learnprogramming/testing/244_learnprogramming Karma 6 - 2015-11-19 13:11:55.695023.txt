@@ -1,7 +1,0 @@
-Title: method finding complex roots java
-Karma: 6
-Date: 1431851924.0
-hello everyone got project java class trouble project basically marking coordinates screen making complex polynomial solving polynomial method using random guesses drawing path guesses screen problem drawing marking etc reason method algorithm randomly misses roots sometimes hits none sometimes misses one two changing stuff hours really come solution root missed usually value get array either converging infinity negative infinity high numbers help really appreciated edit code pastebin since get show properly link
-
-==============================
-

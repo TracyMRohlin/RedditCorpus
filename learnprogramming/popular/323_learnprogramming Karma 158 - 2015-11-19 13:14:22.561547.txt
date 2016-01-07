@@ -1,7 +1,0 @@
-Title: fun etchasketch project beginners html css javascript jquery
-Karma: 158
-Date: 1399863000.0
-thought share fun little project first time combined javascript html css see solution edit thanks everyone checked chrome learned important lesson today making sure everything works multiple browsers working fixing firefox edit ok site pretty much fixed two errors case anyone interested stylesheet link type called wrong link relstylesheet typetextcss hrefstylecsslink corrected link relstylesheet typetextcss hrefstylecsslink using mozilla saw html honestly even sure chrome able process first one anyone care explain shorthand css properties firefox supported jquery read issue instance firefox recognizes 'css'margin 'css' easy solution course change callouts ie 'padding 'margin etc fun wrote browser detection function adds var checkbrowser functionstr navigatoruseragentsearchfirefox str top consolelogstr return str checked chrome firefox safari active grid seems shrink increase resolution safari diminish general functionality problem solve another time anyone ie opera wants check welcome input really feel like downloading browsers moment thanks everyone feedback lively discussion
-
-==============================
-

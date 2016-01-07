@@ -1,7 +1,0 @@
-Title: want make web applications trouble getting started
-Karma: 18
-Date: 1353415734.0
-want design simple stand alone gui web apps like small games music sequencers professional coder stretch imagination taken several classes programming applications made flash need something noobfriendly looked things like dojo toolkit
-
-==============================
-

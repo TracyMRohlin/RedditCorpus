@@ -1,7 +1,0 @@
-Title: c difference regular function constructor
-Karma: 3
-Date: 1385346669.0
-getting classes need know use constructor versus method example thing get whenever new object created new instance class constructor automatically called iirc
-
-==============================
-

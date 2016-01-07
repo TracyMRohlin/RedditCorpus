@@ -1,7 +1,0 @@
-Title: javacomparing two strings getting nullpointerexception
-Karma: 2
-Date: 1386233430.0
-main class public class testerb public static void mainstring args systemoutprintln issymmetricnew dlistargs n issymmetricnew dlistargs cat plum rock plum cat static boolean issymmetricdlistinterface list string b boolean con true dnode iterator listgetfirst systemoutprintlnfirst iteratorgetelement dnode biterator listgetlast systemoutprintlnlast biteratorgetelement whilecon iteratorelement b biteratorelement aequalsb systemoutprintlniteratorgetelement unequal biteratorgetelement return con iterator iteratornext biterator biteratorprev return true input systemin cat plum rock plum cat get nullpointerexception line aequalsb dnode iterator biterator hold strings elements mistaken checking one string another cause nullpointerexception getting one anyways
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: choose adventure program
-Karma: 10
-Date: 1324948656.0
-building simple program output paragraph based user input form like choose adventure novel suppose form series drop menus user selects something first drop menu second drop menu options narrowed based first choice continue menus user chosen something menu like selections displayed format text copied language require least amount internet connectivity thinking using javascript without browser people use good internet connections nice still usable
-
-==============================
-

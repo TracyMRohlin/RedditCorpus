@@ -1,7 +1,0 @@
-Title: rlearnprogramming interested opengl tutorial series featuring qt
-Karma: 146
-Date: 1337693122.0
-features tutorial series overall view opengl graphics general modern implementation fixed function pipelining linear algebra basics using qt math class matrices etc texturing d modelling topics covered highly efficient desirable c well commented version controlled code github creating scripts month going use videos project let know guys think
-
-==============================
-

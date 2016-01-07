@@ -1,7 +1,0 @@
-Title: datastructure lookup fixedsize key
-Karma: 12
-Date: 1367752108.0
-currently module personal project mine requires ability lookup fixedsized key eg bit number letter word table although hashtable probably sufficient use datastructures efficiently store keyvalue pairs fixedsize keys
-
-==============================
-

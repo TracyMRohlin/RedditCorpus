@@ -1,7 +1,0 @@
-Title: c makefile issues
-Karma: 7
-Date: 1385203608.0
-driving wall makefile works fine windows machine whne attempt run unix server using make f makefilemak get following error makefilemak line unexpected end line seen clicked every single google link seem figure makefile follows thanks possibly solved tried using gmake opposed make worked fine
-
-==============================
-

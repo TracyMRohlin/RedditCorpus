@@ -1,7 +1,0 @@
-Title: first ruby program shizzle
-Karma: 2
-Date: 1431594099.0
-learning ruby going fun
-
-==============================
-

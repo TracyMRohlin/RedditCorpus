@@ -27,7 +27,7 @@ def create_graph(filepath, subreddit, num_of_bins):
 
     fig, ax = plt.subplots()
     ax.bar(center, hist, align="center", width=width)
-    ax.set_title("Karma Scores from {}".format(subreddit.capitalize()))
+    ax.set_title("Post Scores from {}".format(subreddit.capitalize()))
 
     filename = "{} Karma Scores.png".format(subreddit)
     fig.savefig(filename)
@@ -35,7 +35,7 @@ def create_graph(filepath, subreddit, num_of_bins):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Creates a histogram of the karma scores.")
     parser.add_argument("filepath", help="Argument must be the filepath where the KarmaScores.csv file is located")
-    parser.add_argument("subreddit", help="Name of the subreddit from which the Karma came from")
     parser.add_argument("bins", help='Provide the number of bins to construct the histogram')
     args = parser.parse_args()
-    create_graph(args.filepath, args.subreddit, int(args.bins))
+    reddit = args.filepath.split("/")[-2]
+    create_graph(args.filepath, reddit, int(args.bins))

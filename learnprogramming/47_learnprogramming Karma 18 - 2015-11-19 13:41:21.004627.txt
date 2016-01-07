@@ -1,7 +1,0 @@
-Title: c working first arduino library bad practice initialize optional arguments value range possibility use value test argument declared method called
-Karma: 18
-Date: 1370394452.0
-writing library arduino control array relays one object driving set relays simple tedious helpful someone going something complex like dancing christmass light display also dynamically turns whole relay board relays open state save power last feature sounds trivial solves major problem current project constructor takes optional arguments want make default values null understand null going common use case arguments represent pins microcontroller relay connected argument must optional object defined number arguments default value represent number relays driven project going use personally define int value outside range possibilityfor instance make optional parameter default number test see argument equal dummy value never reason arguments solution work want put github arduino forums hope someone finds use hacky thing still learning right wrong situation works documented okay declare dummy value macro named norelay something readability also code review subreddit teaching critical response thanks edit went variable argument list like relayarrayrelayarrayint enable int arraysize valist relaypins vastartrelaypins arraysize forint arraysize pinsi vaargrelaypinsint vaendrelaypins enable enable
-
-==============================
-

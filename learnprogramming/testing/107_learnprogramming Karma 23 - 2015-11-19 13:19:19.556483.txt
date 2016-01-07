@@ -1,7 +1,0 @@
-Title: setup mobile app website login another website use data
-Karma: 23
-Date: 1385983966.0
-new web development world trying organize thoughts around app idea question trying figure want website mobile application login another website web application order redisplay import data example looking done fantasy sports mobile app logs multiple fantasy sports leagues uses data populate mobile app scores etc help appreciated thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: java problem naming objects
-Karma: 11
-Date: 1353137002.0
-project one java classes read file transfer information bank account object thing information multiple accounts file gotten stuck name objects right loop hasnext cycle file since technically know file get initiating object passed first iteration still name thus already initialized cause error thought somehow concatenating name like static variable counter b counter name course work suggestions also im quite new subreddit forgot something posting guidelines im sorry
-
-==============================
-

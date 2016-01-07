@@ -1,7 +1,0 @@
-Title: c best way organize files project
-Karma: 5
-Date: 1431767498.0
-right maincpp bunch header files attached header functions classes related different functions better way organize project
-
-==============================
-

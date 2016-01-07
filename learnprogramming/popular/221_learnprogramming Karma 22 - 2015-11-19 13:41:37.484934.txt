@@ -1,7 +1,0 @@
-Title: anyone successful c boost library work xcode os x mountain lion set
-Karma: 22
-Date: 1369120911.0
-edit changing default project compiler llvm gcc solved problem done macports downloading moving files etc keep getting linker errors etc
-
-==============================
-

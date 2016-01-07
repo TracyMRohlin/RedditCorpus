@@ -1,7 +1,0 @@
-Title: code signing signature verified open file security warning dialog raised executing network
-Karma: 2
-Date: 1385531913.0
-got executable signed using signtoolexe certificate generated enterprise ca running signtool verify pa pathtoexe returns index algorithm timestamp sha authenticode successfully verified pathtoexe added certificate trusted publishers store executing network path get open file security warning dialog stating verify created file sure want run file hoping something wrong signing process limitation executing files network shares thoughts
-
-==============================
-

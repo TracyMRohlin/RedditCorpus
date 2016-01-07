@@ -1,7 +1,0 @@
-Title: pythonwxpython validating url textctrl
-Karma: 12
-Date: 1354073868.0
-hello creating simple application one portion like take input textctrl check valid url made program without gui used following code changed use wxpython error dialogs printed error statement try url ' urlliburlopen' else urlliburlopenurl except ioerror error wxmessagedialognone 'please enter valid url' 'url wxok wxiconerror errorshowmodal works fine without gui console run code button click program freezes crashes assume interrupting main loop guess try validate url statements looking something efficientpossibly regex although never learned regex help greatly appreciated
-
-==============================
-

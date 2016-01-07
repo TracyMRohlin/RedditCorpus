@@ -1,7 +1,0 @@
-Title: c help creating array class objects huffman coding
-Karma: 21
-Date: 1385885010.0
-working huffman coding project class need know create array class objects tracks char frequency encoding create array initialize chars library letters looking trying something like bstcharfreqbstnode chararr '''''''''' ''''''''''''''''' ''''' ''''' course isnt right
-
-==============================
-

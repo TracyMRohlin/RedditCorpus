@@ -1,7 +1,0 @@
-Title: difference local variable instance variable constant
-Karma: 3
-Date: 1400277327.0
-following stanford public lectures programming methodology knowledge programming still basic completely understand local variable declared used etc instance variable introduced got lost even hearing compared constants sounds like contradiction someone clear like years old brain damaged course java want understand concept everything treated point completely identical oo language seen think makes difference thank much
-
-==============================
-

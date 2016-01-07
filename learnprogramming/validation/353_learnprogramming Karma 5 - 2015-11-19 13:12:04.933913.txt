@@ -1,7 +1,0 @@
-Title: c getter setter question
-Karma: 5
-Date: 1431580850.0
-must missing something thought something like yield added benefit someone please explain particular example anything public int num get set looks like exactly leaving get set incorrect
-
-==============================
-

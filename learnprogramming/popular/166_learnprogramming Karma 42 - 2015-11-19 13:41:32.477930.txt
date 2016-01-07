@@ -1,7 +1,0 @@
-Title: eli main differences oop procedural
-Karma: 42
-Date: 1369481151.0
-worked c used java javascript small amount c whenever try read true differences definitions oop procedural sounds like helen keller trying speak words know oop uses classes namespaces inside object fieldsproperties methodsfunctions multiple objects instantiated key features procedural maybe huge features oop
-
-==============================
-

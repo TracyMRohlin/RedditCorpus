@@ -1,7 +1,0 @@
-Title: excel vlookup update problem important
-Karma: 3
-Date: 1400561836.0
-help project supposed done two days found error last night make impossible anyway excel workbook broken multiple sheets holds different information vlookup grabbing stuff run data checks data calculations linked access database calculations work great add row table also work change values data problem arises subtract row subtract row vlookup cells data previously throw error deleted rows goal change back happening example vlookup formula iferrorindex'policy iimatchfc'policy jj know updating problems changing calculations option automatic problem unfortunately please someone save go poorly fix problem next couple days
-
-==============================
-

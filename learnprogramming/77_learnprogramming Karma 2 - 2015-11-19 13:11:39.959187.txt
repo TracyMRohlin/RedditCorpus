@@ -1,7 +1,0 @@
-Title: homeworkpython way make piece code faster takes forever
-Karma: 2
-Date: 1432220426.0
-hey guys code takes two files first file flight code destination minutes arrived late destination second file companies collect information first file associate data company name via flight code calculates average late time given company arrives destination wondering make go way faster takes forever generate results wondering extract information want first file averages calculated associate companies second flight idea make help develop something faster please trying days success thanks advance guys
-
-==============================
-

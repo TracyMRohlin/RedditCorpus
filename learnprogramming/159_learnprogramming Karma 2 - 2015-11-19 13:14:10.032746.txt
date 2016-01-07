@@ -1,7 +1,0 @@
-Title: c somebody explain happens issue inheritancescope understand
-Karma: 2
-Date: 1400404693.0
-gist code commented code explain issue simply possible nutshell seem able modify class members object call function class modify class members member function class member little difficult understand code offers bit better explanation
-
-==============================
-

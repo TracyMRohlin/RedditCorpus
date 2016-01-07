@@ -1,7 +1,0 @@
-Title: help understand progress bars
-Karma: 10
-Date: 1307274454.0
-never understood concepts behind progress bars processes take awhile kind common approach among frameworks calculate eta etc atm process run progress application looks like hangs etc
-
-==============================
-

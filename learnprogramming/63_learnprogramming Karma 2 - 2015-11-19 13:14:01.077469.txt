@@ -1,7 +1,0 @@
-Title: store teams roster db easy lookup team player name
-Karma: 2
-Date: 1400717473.0
-working something require searching team rosters built game see teams playing say four different teams team amazing team awesome team kickass team four team amazing team awesome team kickass team four amazgrace awensprd kcknbutts core howmazin awfsome nobublgum amznrazn awsmpssm coccyxpain sqrd need go go player name amznrazn team name team amazing done little databases experience anything queries small mongodb instance application using nodejs got experience using mongodb nodejs preference moment need get player name spit team sure bestideal structure thanks help edit something like teamamazing players amazgrace howmazin amznrazn work quick query
-
-==============================
-

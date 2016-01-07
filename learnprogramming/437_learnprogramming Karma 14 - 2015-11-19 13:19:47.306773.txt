@@ -1,7 +1,0 @@
-Title: c reading text file
-Karma: 14
-Date: 1385284460.0
-given file called markstxt file contains grades following format f last mg mg mg mg must create program read file write another file called finalmarkstxt gives average rounded grade points earned course look nice want function add desired number spaces string marks line markstxt b hill pickles w woodpecker y bear b boop e cartman l simpson f flintstone doo however sure read text code help appreciated edit error getting convert infilestdbasicioschart traitseof chart char traits stdchartraitschar' argument unary
-
-==============================
-

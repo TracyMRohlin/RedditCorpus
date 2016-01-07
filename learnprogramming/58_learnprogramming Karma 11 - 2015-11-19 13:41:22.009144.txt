@@ -1,7 +1,0 @@
-Title: basic java question ask user yn question using char
-Karma: 11
-Date: 1370341926.0
-basically want ask user question respond y n completely new know assign variables constants numbers asking data plan cellphone provider need assign y n char variables something like char msgplan 'y systemoutprintlndo data plan yn charkeyboardnextchar edit figured hours readingtrial error came realize use strings way using char hell char used assigning letters variables package practice import javautilscanner author public class practice param args command line arguments public static void mainstring args string msgplanstring systemoutprintlndo text msg plan yn scanner msgplan new scannersystemin msgplanstring msgplannextline ifyequalsignorecasemsgplanstring systemoutprintlnyour data plan costs else systemoutprintlnsign new data plan
-
-==============================
-

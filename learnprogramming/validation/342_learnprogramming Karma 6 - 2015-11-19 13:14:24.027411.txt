@@ -1,7 +1,0 @@
-Title: parsing engine text adventure java
-Karma: 6
-Date: 1399804934.0
-developing text adventure game java moment really want one good game belt move writing something involves graphics sound anyone tips design classset classes parsing commands reason using inform tads really want get better grasp like publish game entirely really want get nuts bolts things
-
-==============================
-

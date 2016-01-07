@@ -1,7 +1,0 @@
-Title: code break strcpy line
-Karma: 10
-Date: 1354079927.0
-include stdioh include stdlibh include stringh void gamescannerfile fp struct game char name struct game next struct game cabinet int main file fp fp fopengamelisttxt r gamescannerfp printfs cabinetname return function scan games list put hash table void gamescannerfile fp int tablesize gameval index k char gamename fscanffp d tablesize printfdn tablesize cabinet struct game malloctablesizesizeofstruct game iitablesizei fscanffp gamename printfs gamename whilegamenameknull gamevalgamenamek k indexgamevaltablesize strcpycabinetindexname gamename printf dn gamevaltablesize gameval k
-
-==============================
-

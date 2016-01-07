@@ -1,7 +1,0 @@
-Title: javacodingbatwarmup need explanation
-Karma: 2
-Date: 1431860884.0
-problem given array ints return true contains pattern value followed value plus followed value minus additionally counts even differs less correct value sample output true false true solution int len numslength forint ilen iflen int mathabsnumsi int b mathabsnumsi int c mathabsnumsi ifa b c return true return false failed understand logic behind problemas problem say differs less correct value think absolute value numbers value followed value plus understand line trying say
-
-==============================
-

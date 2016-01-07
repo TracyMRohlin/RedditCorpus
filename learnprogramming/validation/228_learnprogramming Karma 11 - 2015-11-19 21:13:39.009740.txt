@@ -1,7 +1,0 @@
-Title: looking helpexplanation dictionary searching algorithm
-Karma: 11
-Date: 1352930522.0
-hoping write program keep track list chinese characters pinyin tones english definitions personal use learning chinese want fun coding project like able search character using either chinese pinyin english unsure implement search algorithms think apart using linear search using substring method require user know exact definition beginning eg definition input cool cold character show search cold ideasexplanations welcome relevant writing java thanks
-
-==============================
-

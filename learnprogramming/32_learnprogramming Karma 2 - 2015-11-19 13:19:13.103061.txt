@@ -1,7 +1,0 @@
-Title: java copying file contents new file
-Karma: 2
-Date: 1386233483.0
-run program command line however eclipse giving hard time either running wrong code incorrect tips working appreciated way suppose use command prompt put run java filecopy sourcefiletxt targetfiletxt
-
-==============================
-

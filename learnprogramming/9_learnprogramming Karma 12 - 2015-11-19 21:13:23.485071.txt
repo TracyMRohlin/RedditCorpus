@@ -1,7 +1,0 @@
-Title: python catch exception nothing
-Karma: 12
-Date: 1354448346.0
-basically try listremovefoo except valueerror however python let leave except blank write tryexcept get valueerror ignore sorry beginner question
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: copying string clipboard c
-Karma: 11
-Date: 1307322564.0
-trying save string clipboard example string sample sample text want sample text clipboard googled found things like site understand work help issue appreciated clarification keep getting suitable conversion string const char exists error try use method linked
-
-==============================
-

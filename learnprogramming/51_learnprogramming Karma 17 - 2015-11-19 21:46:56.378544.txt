@@ -1,7 +1,0 @@
-Title: database design necessary create another table instance
-Karma: 17
-Date: 1338498889.0
-let know better subreddit question side things anyway create database mobile contract data record contract obviously fields repeating entries eg country usa germany uk etc wondering necessary good database practice make country table entries repeat much mean country countryid fields country table unnecessary work worry repetitive data independent field
-
-==============================
-

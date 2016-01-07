@@ -1,7 +1,0 @@
-Title: end game video game development get learning basics c
-Karma: 94
-Date: 1370590692.0
-dive straight learning graphics lib like sdl sfml learn basic syntax c moving give background completed two semseters class called programing fundamentals c really covering things syntax things like classes templates polymorphism much depth neat things classes like operator overloading part stl covered ios stuff including small part fstream yeah hoping advice getting current point video game development
-
-==============================
-

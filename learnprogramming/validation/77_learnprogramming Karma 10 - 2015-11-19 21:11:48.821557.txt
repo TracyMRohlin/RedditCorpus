@@ -1,7 +1,0 @@
-Title: java trying take audio input find nearest note decent tutorial anywhere
-Karma: 10
-Date: 1368262473.0
-hello trying write rather ambitious least program know start exercise want start making guitar tuner takes audio input preferably system mic find nearest noteoctave using oracle java documentation ways starting sound analysis figured get audio input working first downloaded jtransforms help appreciated
-
-==============================
-

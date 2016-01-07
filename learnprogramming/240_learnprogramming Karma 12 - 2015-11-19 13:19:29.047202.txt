@@ -1,7 +1,0 @@
-Title: squeakseaside anyone experience
-Karma: 12
-Date: 1385597749.0
-know squeak derived smalltalk playing around squeak vm pharo seaside vm looked cool much time learn new languages moment knee deep ruby loving wondering squeakseaside developers care shed light languageframework
-
-==============================
-

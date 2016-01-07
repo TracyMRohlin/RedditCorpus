@@ -1,7 +1,0 @@
-Title: portable executables git
-Karma: 11
-Date: 1367970969.0
-anybody know version git installed run worked alot work computers biggest impossible pain ask put new software school computers say least put git computers bureacracy blah blah blah anyways using jgitsh right shell awesome need install except fact pull extremely annoying anybody know anything like unix windows portable way run git prefer mac solution things
-
-==============================
-

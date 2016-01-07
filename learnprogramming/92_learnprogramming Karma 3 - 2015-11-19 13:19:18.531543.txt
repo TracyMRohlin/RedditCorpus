@@ -1,7 +1,0 @@
-Title: output array value calculate method
-Karma: 3
-Date: 1386033536.0
-calculate method public double calculateamount double totalamount int return totalamount poundsidozengetpricesi return totalamount print method public void printtbl int counter systemoutformatsngetnamesi getpricesi stringformatfthiscalculateamount problem output calculateamount stay throughout element array initialized array something like thiscalculateamounti method able compute since convert double double tried whole bunch stuff working
-
-==============================
-

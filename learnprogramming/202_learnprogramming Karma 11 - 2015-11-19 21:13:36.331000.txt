@@ -1,7 +1,0 @@
-Title: c implementing algorithm graphs
-Karma: 11
-Date: 1353148536.0
-book gives
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: actionscript large gallery
-Karma: 9
-Date: 1353364404.0
-class learning make flash websites actionscript professor wants us create large image gallery loaders grab images folder thumbnail large image problem completely new language tbh good teaching code wondering anyone knows decent tutorials something find
-
-==============================
-

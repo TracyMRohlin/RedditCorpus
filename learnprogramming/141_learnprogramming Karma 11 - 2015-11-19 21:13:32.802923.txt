@@ -1,7 +1,0 @@
-Title: questionnew glade shared objects need help
-Karma: 11
-Date: 1353706941.0
-write gui using glade contains notebook several plugins loaded plugins provide gtkwidgets signalhandlers etc plugins compiled separately loaded runtime whats wrong build widgets glade callbacks functions plugins find targets precisely appear call nothing connect button printf nothing happens valgrind silent however build manually able connect like always missing something
-
-==============================
-

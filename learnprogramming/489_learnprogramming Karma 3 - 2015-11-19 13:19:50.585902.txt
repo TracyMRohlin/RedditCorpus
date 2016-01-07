@@ -1,7 +1,0 @@
-Title: java gui issues java
-Karma: 3
-Date: 1385190524.0
-trying make movie theater program gui needless say bumpy road anyone guide right way cause much luck trying get got
-
-==============================
-

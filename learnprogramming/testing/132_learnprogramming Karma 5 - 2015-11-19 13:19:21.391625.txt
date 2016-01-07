@@ -1,7 +1,0 @@
-Title: ajaxauto updating feed
-Karma: 5
-Date: 1385892940.0
-class making twitteresque website entire site working adding ajax feed page feed auto updates new messages added database idea go feed page someone help accomplish checkphps code suppose use ie jquerynodejs code everything
-
-==============================
-

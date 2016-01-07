@@ -1,7 +1,0 @@
-Title: techniques self review
-Karma: 34
-Date: 1370557427.0
-anyone techniques self review code effectively good designing projects separating concerns fitting solution appropriate pattern however tend overlook small details process making debugging review process much complicated needs anyone techniques help improve area
-
-==============================
-

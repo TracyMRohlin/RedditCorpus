@@ -1,7 +1,0 @@
-Title: help structs c
-Karma: 11
-Date: 1308006584.0
-hey writing code project work bit rusty coding c thought guys might able offer assistance certain data types transmitted layers system frames added layer data starts say type passed layer acquired type b headerframe winds type b seems simple enough problem multiple forms type potentially used within type b frame say etc different sizes bytes much problem size constraints tight project guidelines specific bitwise structuring types important long run attempting represent types c structs follows typedef struct unsigned int framefield unsigned int framefield etc typea data typeb anyone know way make size data field dynamic based version type used note trying move c use inheritance objects seems way guess thanks help guys
-
-==============================
-

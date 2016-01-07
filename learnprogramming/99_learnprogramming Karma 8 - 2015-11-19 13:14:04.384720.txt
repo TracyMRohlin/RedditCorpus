@@ -1,7 +1,0 @@
-Title: hwc 'exe encountered problem needs close
-Karma: 8
-Date: 1400573340.0
-hello program c reads txt file run error got window sentence 'exe encountered problem needs close someone explain fix checked libraries syntax problems thank
-
-==============================
-

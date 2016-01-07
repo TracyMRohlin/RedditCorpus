@@ -1,7 +1,0 @@
-Title: java go hello world actual projects
-Karma: 150
-Date: 1367804553.0
-internship beginning july working primarily java various projects taken years classes already computer science major still feel uncomfortable working things bigger write program determines area triangle given sides b c help best way brush java touched halfyear classes spring semester used c thanks
-
-==============================
-

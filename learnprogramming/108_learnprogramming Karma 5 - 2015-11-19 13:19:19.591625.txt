@@ -1,7 +1,0 @@
-Title: adjacency list vs adjacency matrix faster memory issue
-Karma: 5
-Date: 1385982498.0
-writing program determine minimum amount cost connect n cities map mst since graphs sparse better use adjacency list speed concern found powerpoint
-
-==============================
-

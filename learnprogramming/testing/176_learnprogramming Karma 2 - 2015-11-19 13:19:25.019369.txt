@@ -1,7 +1,0 @@
-Title: c function library getting files directory
-Karma: 2
-Date: 1385725685.0
-' folder like search find asset add sdl game way hard code asset add good way edit mainly looking something something effect fordirgetdirectoryfilenulldirnextfile ifendswithdircurrentfilepng loadimagedircurrentfile
-
-==============================
-

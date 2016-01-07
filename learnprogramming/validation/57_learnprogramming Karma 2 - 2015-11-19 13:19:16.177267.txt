@@ -1,7 +1,0 @@
-Title: go trouble using templateparsefiles
-Karma: 2
-Date: 1386159302.0
-trying take title content replace contents string read docs tested templateparsefiles many times understand works use vaguely going tutorial right webhellogo serves indexhtml properly css like define content variable print place content like tutorial
-
-==============================
-

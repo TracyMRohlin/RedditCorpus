@@ -1,7 +1,0 @@
-Title: ways improve junior programmer without compsci degree
-Karma: 32
-Date: 1369078296.0
-hello redditors albeit holding masters degree theoretical philosophy ended joining labour forces programmer past year half employed two places net c dev desktop applications web services webistes mvc android apps besides net framework also good knowledge java se messed around python wrote gedit plugin christmas holidays programmer without degree feel like lagging behind collegues comes coding project opposite yet feel much make job fun pet projects fun might also make marketable kind training think beneficial new language thinking haskel functional programming seems hot right c still around never done much language people say programmers study dbs well get edge play littledba company need hire one feel get back theoretical compsci evidently skipped update ends starting data structure algorithm book lunch break senior dev spotted said better going deeper net framework suggested book called clr via c going hopefully line communication opened get inputs
-
-==============================
-

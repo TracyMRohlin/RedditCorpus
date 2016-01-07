@@ -1,7 +1,0 @@
-Title: need help porting python web app ios
-Karma: 3
-Date: 1385268421.0
-please let know wrong subreddit question sure new programming using basic python created simple drum pad app course action want port ios get run ipad
-
-==============================
-

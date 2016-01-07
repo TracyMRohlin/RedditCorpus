@@ -1,7 +1,0 @@
-Title: hi guys started learning python burning question
-Karma: 24
-Date: 1353903981.0
-playing around randint function noticed typed randomrandint shell receive error arguments perplexed apparently statement two arguments instead one extra argument python add
-
-==============================
-

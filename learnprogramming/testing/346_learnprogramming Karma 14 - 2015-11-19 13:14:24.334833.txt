@@ -1,7 +1,0 @@
-Title: c function represent level text based game
-Karma: 14
-Date: 1399782704.0
-working intro c project decided create text based game worried code designed poorly right nowhere near finished levels functions example decision int choice cin choice choice killguard else choice climbwall else choice choice cout please enter valid choice endl honestly seem like best way set sure else
-
-==============================
-

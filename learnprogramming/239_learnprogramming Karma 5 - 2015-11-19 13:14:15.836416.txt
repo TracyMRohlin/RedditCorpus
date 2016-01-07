@@ -1,7 +1,0 @@
-Title: python help turning item list nested list
-Karma: 5
-Date: 1400134040.0
-def crawlwebseedmaxdepth depth tocrawl seed depth crawled temp tocrawl depth maxdepth page tocrawlpop print page page crawled temp getalllinksgetpagepage e temp e epage print e print temp uniontocrawl temp crawledappendpage return realize code seem like purpose done yet stuck turning list nested one rest code print page line yields ' line value temp ' print e line get ''' however print temp line get original value temp ' like temp '
-
-==============================
-

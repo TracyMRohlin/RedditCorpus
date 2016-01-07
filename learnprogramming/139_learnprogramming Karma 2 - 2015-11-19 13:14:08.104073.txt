@@ -1,7 +1,0 @@
-Title: c working simple list class whenever make instance get compiler errors saying functions undefined
-Karma: 2
-Date: 1400470243.0
-edit til function definitions go inside header file using template classes mylisth mylistcpp see code definitions every function call code compiles fine actually create mylist object breaks whenever create one main function using include mylisth int main mylistint list listpush return error looks like maincpp undefined reference mylistintmylist' maincpp undefined reference mylistintpushint' maincpp undefined reference mylistintmylist' maincpp undefined reference mylistintmylist' full disclosure homework assignment asking help actual implementation list need figure compiler associating function definitions main function help appreciated greatly
-
-==============================
-

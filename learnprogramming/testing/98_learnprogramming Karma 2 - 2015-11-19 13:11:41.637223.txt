@@ -1,7 +1,0 @@
-Title: debugging like visual studio linux without ide
-Karma: 2
-Date: 1432169528.0
-see picture recently switched linux laptop lot people recommend using vim gcc toolchain develop somehow use gdb achieve similar setup visual studio debugging closest achieved gdb tui mode also show automatic variable values stuff need ide linux achieve yes best linux ides recommend offer similar features know eclipse like try something different
-
-==============================
-

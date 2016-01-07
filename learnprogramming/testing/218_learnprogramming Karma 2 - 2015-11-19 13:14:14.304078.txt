@@ -1,7 +1,0 @@
-Title: plsql insertion block return error
-Karma: 2
-Date: 1400195166.0
-edit thanks help guys sub great studying exam relational databases one questions usually plsql found question past paper unsure answer ii explain inserting values using code result error accept menuid prompt enter restaurant menu id accept desc prompt enter menu description declare vmenuid menumenuidtype menuid vdesc menudescriptiontype desc begin insert menu menuid description values vmenuid vdesc end anyone find error block find life
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: assembly hooking keyboard interrupt struggling return control old keyboard interrupt handler
-Karma: 13
-Date: 1384690346.0
-include irvineinc data oldkey dd h code newkey proc need help something wrong stuff key press detected push word ptr dsoldkey return control back push word ptr dsoldkey original key interrupt handler retf newkey endp main proc mov ax data mov ds ax mov al h mov ah h save old key interrupt int h handler oldkey mov word ptr oldkeybx mov word ptr oldkeyes cli push cs install newkey code want pop ds hook onto key interrupt handler lea dx newkey mov al h mov ah h int h unrelated code cli push ds lds dxdsoldkey mov al h disinstall newkey finished mov ah h int h pop ds sti mov ax ch int h main endp end main code paralyzes console compiled executed far tell problem returning control old keyboard interrupt handler told use push word ptr dsoldkey return control back push word ptr dsoldkey original key interrupt handler retf return control seem working assistance appreciated thank advance
-
-==============================
-

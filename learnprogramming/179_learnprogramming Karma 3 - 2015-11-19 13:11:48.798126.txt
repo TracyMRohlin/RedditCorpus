@@ -1,7 +1,0 @@
-Title: looking help midiarduino project
-Karma: 3
-Date: 1432013254.0
-hey guys specific project working really looking someone knows lot arduino midi ableton live touch sensitive circuits go whole idea idea use arduino unos create couple midi controllers control instrument within ableton touch sensitive controller working right need max convert serial output midi like midi output directly arduino bypass max application anyone walk
-
-==============================
-

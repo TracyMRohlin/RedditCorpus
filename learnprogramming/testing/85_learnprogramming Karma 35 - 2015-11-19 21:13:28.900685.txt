@@ -1,7 +1,0 @@
-Title: graphics simple java game
-Karma: 35
-Date: 1354060093.0
-learning java recently always wondered expected java seem two options either specify everything ex pixel green green etc make extremely bulky program generate alternatives thanks
-
-==============================
-

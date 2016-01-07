@@ -1,7 +1,0 @@
-Title: cif loops project euler problem
-Karma: 2
-Date: 1431507708.0
-project euler suck know list natural numbers multiples get sum multiples find sum multiples incorrect solution hope someone correct include iostream using namespace std int main int int sumthree int sumfive int sumdouble foriii ifi sumdoublei ifi sumthreei ifi sumfivei coutsumthree'sumfive'sumdouble'the answer sumthreesumfivesumdouble' return returns answer however correct answer problem trivial solving mathematically know happening program finds multiple skips two loops sumthree well sumfive solve error thanks
-
-==============================
-

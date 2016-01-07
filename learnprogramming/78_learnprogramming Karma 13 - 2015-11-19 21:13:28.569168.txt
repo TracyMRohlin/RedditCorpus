@@ -1,7 +1,0 @@
-Title: c implementing cd exit within user made linux shell
-Karma: 13
-Date: 1354065465.0
-programmed shell using functions like fork wait execvp still implement cd exit commands though lot trouble problem cd know avoid changing directory child process leaving parent current directory unchanged example command true cd implementation true cd executed fork child code also trouble exit including signalhhowever getting warning implicit declaration kill gather google may something using ansi gcc find solution seemed work remove ansi option thank much time answers
-
-==============================
-

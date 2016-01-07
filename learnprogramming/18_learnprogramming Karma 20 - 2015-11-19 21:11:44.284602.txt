@@ -1,7 +1,0 @@
-Title: c exam question vectors
-Karma: 20
-Date: 1368930646.0
-question attempting answer practice exam final monday understanding code struct comprised strings lastname firstname pointer id double gpa part slightly confused question asking simply supposed declare vector like vectorstudentinfo example b simply understand wording question asking structure definition struct studentinfo string lastname firstname int id pointer double gpa declare vector structures size vector b put data last struct vector members struct
-
-==============================
-

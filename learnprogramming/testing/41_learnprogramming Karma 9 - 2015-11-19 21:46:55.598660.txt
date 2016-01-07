@@ -1,7 +1,0 @@
-Title: testing app performance
-Karma: 9
-Date: 1338692774.0
-building two apps one flash html need compare system performance free software beside windows task manager
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c bother calling free main every return statement
-Karma: 16
-Date: 1353282578.0
-program wrote malloc's memory data user main function return statements various places points longer need data user call free every single return statement point data longer needed seems unnecessary given data allocated inside main valgrind complains anyway sure best practice one warnings safely ignore understand also use strcopy copy data preallocated location memory disregarding approach still want know best practice freeing space created malloc main also freeing memory functions called atexit signal handlers concern freeing memory functions
-
-==============================
-

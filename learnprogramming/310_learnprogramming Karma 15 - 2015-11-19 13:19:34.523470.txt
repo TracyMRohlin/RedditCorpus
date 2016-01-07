@@ -1,7 +1,0 @@
-Title: retrieving data web site
-Karma: 15
-Date: 1385473967.0
-hi want fill database data web site need help start want fill database sports statistics want write code retrieve data fill database use json web site support like yahoo sport need somebody point good direction know basic programming follow tutorials know start also accept advice ide use used code c visual studio
-
-==============================
-

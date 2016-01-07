@@ -1,7 +1,0 @@
-Title: infinite scroll date data
-Karma: 3
-Date: 1399890942.0
-trying implement infinite scroll mobile apps fetch data server implementation works expected run problem assume quite common problem connection infinite scrolling struggling find solution user makes search list data sent back client lets say x number results sent back user scrolls list x results next page fetched server returns another set x results far good user able click results view stuff come back results page user keeps scrolling next page x results see duplicates reason duplicates data already updated server hence result set altered whatever position position anymore pushed offset deal duplicates maintained ids results removed duplicates new set results come obviously little bit expensive helps removing dups also another problem associated users able sort theses results certain properties properties change user loads next page sort seems distorted solution attempt server keeps track timestamp client requests first time feeds data snapshot database problem stale data anyone come across problem solve apps like facebook insert app infinite scrolling
-
-==============================
-

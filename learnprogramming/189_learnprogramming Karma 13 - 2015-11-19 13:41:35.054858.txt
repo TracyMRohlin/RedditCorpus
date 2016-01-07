@@ -1,7 +1,0 @@
-Title: good algorithm java
-Karma: 13
-Date: 1369317543.0
-wrote prime numbers algorithm ran program minutes exactly generated first prime numbers mb file therehereis good efficient
-
-==============================
-

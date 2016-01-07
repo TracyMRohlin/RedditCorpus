@@ -1,7 +1,0 @@
-Title: beginner want start writing windows applications
-Karma: 9
-Date: 1338120417.0
-recently got classes summer figured start trying learn code proper applications spare time wanted able write applications specifically necessarily limited applications running windows environment first thought develop desktop calendar app since never find one behaved really like one intent start simple add features go along roughly something like basic display date tracking functions support event scheduling notification make look nice google calendar sync whatever else think figured let learn lot different thing continually improve project go along well setting write small programs fix little annoyances honestly know good project start guys think something worth learning stuff please let know sure start experience writing matlab script learned basic basics c language part course work major familiar ideas program structure functions variables arrays loops logic whatnot also able get visual studio ult msdnaa program sure start languages uselearn software use direction give much appreciated
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: command line tools use debugging
-Karma: 4
-Date: 1385521408.0
-getting end second c class rest class using ide ms visual studio compiling command line g makefiles feel made better programmer recently really difficult time recent assignment one recursive functions giving invalid indexes something nightmare track thought give use kdevelop eclipse discovered valgrind gdb beautiful tools helped track less hour pernicious bug searching two days useful tools programmers
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: opengl particles showing
-Karma: 11
-Date: 1353483421.0
-process writing particle fountain opengl supposed get something looks like whole code someone point right direction
-
-==============================
-

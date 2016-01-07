@@ -1,7 +1,0 @@
-Title: python getting index range error
-Karma: 2
-Date: 1400332652.0
-far tell index range confusing text file roll following code look roll files read contents list named lines try find student number list successful find remove list write back file many roll files roll files effectively removing student files code line giving range error see life even put print statements crashes someone please point right direction
-
-==============================
-

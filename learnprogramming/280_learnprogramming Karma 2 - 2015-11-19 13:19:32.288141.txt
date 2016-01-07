@@ -1,7 +1,0 @@
-Title: golang regex match ''
-Karma: 2
-Date: 1385530355.0
-hello trying write regex schoolassignment allowed choose language chose go however problem code passes test cases except two quite certain type without go highlighting tried using escape work include char regex ugly regex var regex regexpmustcompile'azaz'azazazazsenucomnetorg edit answer found looked documentation done found xf replaced f hexa ''
-
-==============================
-

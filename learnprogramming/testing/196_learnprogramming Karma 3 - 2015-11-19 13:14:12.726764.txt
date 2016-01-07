@@ -1,7 +1,0 @@
-Title: c question loop else statement beginner
-Karma: 3
-Date: 1400262615.0
-hello rprogramming first post excuse something wrong anyway started learning c yesterday today ran issue wrote help book following code include stdioh main char letter int acountecounticountocountucountconstcount constcount printfplease insert lettern scanfcletter letter' acount else letter ' ecount else letter ' icount else letter ' ocount else letter ' ucount else constcount printfthe number letter equal dnthe number letter e equal dnthe number letter equal dnthe number letter o equal dnthe number letter u equal dnthe number const count dnacountecounticountocountucountconstcount wanted achieve program ask inputting letters count consonants reaches happening whenever type letter say example counts letter process counting consonant even though write basically every letter input followed program making additional loop counting input nonvowel counting towards consonant count happening thanks advance ps books recommend learning c preferably free pdfs available online contct bit html php years ago love book explain basics c like baby ps another thing bugs pun intended last printf line prints counts wanted organize neatly tried add new lines every n editor using codeblocks kept getting broke whatever new line count text print
-
-==============================
-

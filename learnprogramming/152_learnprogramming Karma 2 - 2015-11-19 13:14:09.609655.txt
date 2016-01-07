@@ -1,7 +1,0 @@
-Title: programming system unapply function system reversible computations
-Karma: 2
-Date: 1400424495.0
-better explained examples need programming system following characteristics f b c b c g apply f h unapply g b b explain words f function g function applied arguments h g unapplied one argument need programming system define functions apply arguments like lambda calculus also need system unapply operator recover partially applied function value argument
-
-==============================
-

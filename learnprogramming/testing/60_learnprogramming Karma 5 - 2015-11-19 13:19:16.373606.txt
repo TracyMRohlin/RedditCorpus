@@ -1,7 +1,0 @@
-Title: round robin algorithm
-Karma: 5
-Date: 1386144637.0
-using round robin algorithm time slice truth table kind stuck atm
-
-==============================
-

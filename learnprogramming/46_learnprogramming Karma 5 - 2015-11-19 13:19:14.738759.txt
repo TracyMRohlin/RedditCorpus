@@ -1,7 +1,0 @@
-Title: java creating adjustable grid
-Karma: 5
-Date: 1386198169.0
-trying make grid based game using windows builder purpose game player fill one boxes grid ability change state movement adjacent box enemies chance spawning onto grid every movement player makes code moment using border layout buttons movement state player grid size left side application scoretimer bottom center like grid best way create grid type game code change size grid updated edit far managed get grid buttons update code however still quite figured make grid change size application
-
-==============================
-

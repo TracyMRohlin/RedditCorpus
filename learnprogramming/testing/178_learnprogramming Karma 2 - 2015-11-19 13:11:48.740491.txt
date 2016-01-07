@@ -1,7 +1,0 @@
-Title: java using mouselistener program identify correctly really happen clicking certain spots
-Karma: 2
-Date: 1432016651.0
-mouselistener class listen click user depending area user clicked hotspot different methods going deployed methods used changed background image jpanel simulate user changing room room method assigns room integer int currentroom facilitate distinction rooms program runs rooms overlapping areas program tends perform two actions example clicking one area might lead two rooms ahead rather one rooms hotspot solve
-
-==============================
-

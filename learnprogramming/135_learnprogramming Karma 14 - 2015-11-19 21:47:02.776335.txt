@@ -1,7 +1,0 @@
-Title: basic sql question
-Karma: 14
-Date: 1336785864.0
-two databases trying something akin following pure sql via mysql entry databasetablefield update databasesomething set statuschanged dbentryentry right via bash script like getbouncerssh mysql e update clientsmailings set emailstatus' emailaddr' done getbouncerssh produces newline delimited list everything table database know iterate bash familiar way done sql anyone knows technique using please let know thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: java need help loops
-Karma: 3
-Date: 1385339597.0
-j conor tighe import javautilscanner public class j public static void mainstring args scanner console new scanner systemin final int maxemp final double target string empname string highname int empno name double sales highsalestotalsales systemoutprintln employee number name sales excess systemoutprintln systemoutprintlnplease enter employee number empno consolenextint systemoutprintln loop empno flush consolenextline systemoutprintlnenter employee name empname consolenextline systemoutprintlnenter sales sales consolenextdouble systemoutprintln systemoutprintfsf n empname sales main keeps repeating fix sorry new loops
-
-==============================
-

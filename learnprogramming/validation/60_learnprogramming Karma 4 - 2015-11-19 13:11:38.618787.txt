@@ -1,7 +1,0 @@
-Title: guides write decent documentation
-Karma: 4
-Date: 1432260038.0
-finished first draft software intend open source unit tests passed without documentation worthless others far written going help
-
-==============================
-

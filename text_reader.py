@@ -1,6 +1,7 @@
 import os
 
 from os.path import isfile, join
+from re import finditer
 
 DEMARCATORS = ['==============================',
                'Title:', 'New post:', 'Comments from post:']

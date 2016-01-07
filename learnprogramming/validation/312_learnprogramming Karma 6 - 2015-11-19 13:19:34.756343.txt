@@ -1,7 +1,0 @@
-Title: need start learning aspnet
-Karma: 6
-Date: 1385473179.0
-playing around ror love first seemed complicated intuitive however glancing job postings get feeling many ror jobs area least entry level programmers thinking giving aspnet mvc try know java c figure c shouldnt difficult challenge tackle microsoft products seems like need whole net environment actually begin building things get feeling going need visual studio computer kind loss iis necessary sort server need difference microsoft server microsoft sql server need one webmatrix go deploying mvc app know lot questions sort overwhelming website covers topics high level appreciate help
-
-==============================
-

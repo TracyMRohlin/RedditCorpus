@@ -1,7 +1,0 @@
-Title: c read integers character ''
-Karma: 10
-Date: 1385793461.0
-building sudoku solver program need read integers character '' sudoku space number line text line text contain whitespace newlines really anything user input program stop reading input reading numbers '' characters combination trying add numbers'' characters progressively array values really idea start go
-
-==============================
-

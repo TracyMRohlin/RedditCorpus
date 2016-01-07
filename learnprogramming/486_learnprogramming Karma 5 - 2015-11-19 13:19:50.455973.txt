@@ -1,7 +1,0 @@
-Title: java svg get data svgfile
-Karma: 5
-Date: 1385192638.0
-hi currently going uni small project students probably going start implementing software next week purpose software add charts map also going features matter example map may use decent programmer developing software really big part degree programm part design two algorithms first one find best position place chart state algorithm find possible biggest rectangularly area state algorithms really problem rather working svg know extract data svg map hope help thanks lot
-
-==============================
-

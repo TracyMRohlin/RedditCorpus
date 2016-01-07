@@ -1,7 +1,0 @@
-Title: c better way using variables
-Karma: 2
-Date: 1400453593.0
-hello task simulate game craps times count many times won first second third turn need int variables another count lost certain turn elegant way
-
-==============================
-

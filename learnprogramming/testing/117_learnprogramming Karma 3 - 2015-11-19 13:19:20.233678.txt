@@ -1,7 +1,0 @@
-Title: java created small method scans file string returns value follows string direct way
-Karma: 3
-Date: 1385962418.0
-code import javaio import javautilscanner public class fileprac public static void mainstring args throws filenotfoundexception scanner new scannersystemin true systemoutprintlnenter element symbol string el innextline fileprac f new fileprac systemoutprintffn fgetmolarmassel float getmolarmassstring c throws filenotfoundexception scanner r new scannernew filecusersmattdocumentselementstxt rfindwithinhorizonc null return else return rnextfloat way program stands currently takes string el symbol element periodic table scans elementstxt file set h li b c n o uses scannerfindwithinhorizon find symbol scannernextfloat read float value molar mass follows code runs without problems questions exactly horizon understanding program uses scannerfindwithinhorizon put cursor sotospeak string entered scannernextfloat returns float appears text file understanding correct anothera efficient way code type program first time working files scanner class aside keyboard input input appreciated
-
-==============================
-

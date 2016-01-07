@@ -1,7 +1,0 @@
-Title: subtle parsing difference c c
-Karma: 4
-Date: 1385535623.0
-hello line c fd primesa ainsert '' n works try translate c get error expression must integral type know parse way sure differently suspect parentheses trick know
-
-==============================
-

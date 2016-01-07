@@ -1,7 +1,0 @@
-Title: java swing help making scroll pane
-Karma: 5
-Date: 1385742683.0
-hello trying make scroll pane arrow make selection two things similar heres sort outline code long public class scroll extends jframe implements actionlistener private jlist cardlist private jscrollpane studentsex private static string sex malefemale public scroll card new jpanel cardlabel new jpanel studentsexnew jscrollpane cardlist new jlistsex cardlistsetvisiblerowcount cardlistsetselectionmodelistselectionmodelsingleselection studentsexaddcardlist cardaddstudentsex public static void mainstring args scroll thisscroll new scroll thisscrollsetvisibletrue know lot errors right sort psudocodeish kind see im hoping someone show get scroll like link tried looking youtube video tutorials show list little arrow scroll select stuff
-
-==============================
-

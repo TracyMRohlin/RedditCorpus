@@ -1,7 +1,0 @@
-Title: rely users bug testers starting feel guilty help understand unit tests netvs
-Karma: 15
-Date: 1370591468.0
-novicemediocre programmer really database driven web desktop applications mostly vbnet uis crud search stuff title suggests wrap head around unit tests visual studio even supposed test procedures stuff expect inputs use exception handing sanitizing writing db deal random stuff users forms otherwise grabbing data sql db table something like arithmetic etc andor displaying results need unit testing steps program flow need use unit tests advice perspectives welcome
-
-==============================
-

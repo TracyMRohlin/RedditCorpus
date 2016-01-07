@@ -1,7 +1,0 @@
-Title: github removing idea folder online github repo intellijpycharm config folder
-Karma: 3
-Date: 1432029087.0
-hi using github year classmates collaborate project together pretty unfamiliar github understand even year used program called sourcetree commit push pull fix merge conflicts recently started using github online storage projects worked working work using standard github desktop client windows still know terminal got repo set online machines fine using pycharm ide python project working github repo idea folder inside picture online repo know add idea gitignore file find really guides particularly easy follow date easy follow guide really appreciated also going slight reformat repo anyway moving around csvs py files want toss idea know also explosion camel emojis got randomly selfadded removing nice well thank edit got working thanks bunch everyone appreciate
-
-==============================
-

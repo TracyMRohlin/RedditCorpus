@@ -1,7 +1,0 @@
-Title: listing names numbers phonebook help please c
-Karma: 12
-Date: 1369121657.0
-writing c program create phonebook array linked list successfully completed add function delete function show letter function running little difficulty showing names numbers code far show function shows ' names entered rest appear define node struct node struct node char firstname char lastname char phone node next node arrayn void list node ptr int ptr arrayni foriii ifptrnull printfnphonebbook emptyn else whileptrnull printfnfirst name ptrfirstname printfnlast names ptrlastname printfntelephone number sn ptrphone ptr ptrnext
-
-==============================
-

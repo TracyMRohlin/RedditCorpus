@@ -1,7 +1,0 @@
-Title: copy paste clipboard right click menu google chrome
-Karma: 13
-Date: 1432018404.0
-much programming thought ask guys looking making kind chrome extension enables copy multiple things example instead normal copy paste buttons want copy copy copy paste button copy buttons also hoping put right click menu highlight text right click click copy move next text click copy done click paste paste copy paste paste copyand continue thanks help
-
-==============================
-

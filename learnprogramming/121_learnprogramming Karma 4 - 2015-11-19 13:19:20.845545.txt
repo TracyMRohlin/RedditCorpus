@@ -1,7 +1,0 @@
-Title: c perform sanity check variable type passed function enumeration
-Karma: 4
-Date: 1385953600.0
-working settergetter functions passing enum variable setter perform sanity checks enum namet joe jack void setnamenamet n c compiler automatically know n variable part enum sort check
-
-==============================
-

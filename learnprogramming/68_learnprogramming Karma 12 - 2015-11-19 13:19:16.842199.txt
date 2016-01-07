@@ -1,7 +1,0 @@
-Title: java help swing gui show array jpanels
-Karma: 12
-Date: 1386114481.0
-figure entire screen showing bath red rather x grid red blue
-
-==============================
-

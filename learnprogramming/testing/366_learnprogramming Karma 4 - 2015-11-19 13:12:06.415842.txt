@@ -1,7 +1,0 @@
-Title: java beginner using systemoutprintf
-Karma: 4
-Date: 1431518420.0
-know set spaces padding using want spaces write want user specify many spaces want trying xs x value user printing right help
-
-==============================
-

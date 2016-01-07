@@ -1,7 +1,0 @@
-Title: java create multiple constructors class
-Karma: 9
-Date: 1354095352.0
-need multiple constructors class make another auto create constructor already defined make second constructor different first works correctly
-
-==============================
-

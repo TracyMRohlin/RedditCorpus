@@ -1,7 +1,0 @@
-Title: c taking coordinates drawing line dimensional array
-Karma: 28
-Date: 1369909667.0
-trying create ascii art application users able draw lines grid user passes coordinates fashion x y xy add comma coordinates preferred program parse string passed coordinate allocate dimensional array like shown however beginner c trouble first user input like possible draw line ideally coordinates split comma ie trouble correctly take coordinate string respect characters tried using isdigit substr tell many coordiantes taking put int array work thing know many coordinates exactly define constant size actual grid set dimensional character array terms producing line provided coordinates playing around coordinates generated sure draws least char board boardyx x developer generated coordiantes testing boardyx x int int j j j cout boardij cout endl must first work direction line going ie understand going upwards add x axis size grid go upwards completely sure going correct way help issues appreciated
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: java drawstring appears immediately disappears
-Karma: 2
-Date: 1400310350.0
-hello basically beginner programmer attempting make basic pong pretty basic game recently school try displaying score briefly appears program starts frame repainted scores disappear paint method looks follows public void paintgraphics c csetcolorcolorblack cfillrect csetcolorcolorred forint iii cfillrecti csetcolorcolorblue cfillrectballxcoordballycoord csetcolorcolorwhite cfillrect cfillrectplayerycoord cfillrectplayerycoord csetcolorcolorwhite csetfontnew fontterminalfontplain cdrawstringplayerscore cdrawstringplayerscore everything else works supposed besides last two lines guys point right direction
-
-==============================
-

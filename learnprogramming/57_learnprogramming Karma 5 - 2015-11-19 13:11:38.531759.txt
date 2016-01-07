@@ -1,7 +1,0 @@
-Title: c infinite loop
-Karma: 5
-Date: 1432260749.0
-hey guys relatively newbie c programmer hit roadblock final project class trying take sentence break word set various member variables class using setters hitting infinite loop variable amount sentences using b variable stop whenever reached test string array element containing entire sentence sorry allowed really sure else int b b istringstream isstestb string word whileiss word booksbsetcataword booksbsetfirstword booksbsetlastword booksbsettitleword booksbsetgenreword booksbsetavailword cout ' b
-
-==============================
-

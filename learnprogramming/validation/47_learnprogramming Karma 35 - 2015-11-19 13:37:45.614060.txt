@@ -1,7 +1,0 @@
-Title: best way save user accounts user data web service
-Karma: 35
-Date: 1384558434.0
-like title says like allow users set accounts able save things thinking serverside mvc framework serverside dbs probably one table user stuff another table settingsdata linked foreign key sure overcomplicating issue tldr given title best way go
-
-==============================
-

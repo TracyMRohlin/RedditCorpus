@@ -1,7 +1,0 @@
-Title: seamless interaction classes
-Karma: 3
-Date: 1385254661.0
-hey rlearnprogramming issues classes interact one another instance made breakout clone put collision checking ball brick one see see pull collision checking objects entirely thought awkward make tactical strategy game different entities interact see im wondering good work around seem clunky code writer player
-
-==============================
-

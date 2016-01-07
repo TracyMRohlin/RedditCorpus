@@ -1,7 +1,0 @@
-Title: linux programming bash
-Karma: 3
-Date: 1386257465.0
-attempt binsh ne check number argument equal echo usage filename giving usage message elif check number argument equal f checking file existed chmod adding execute permission make file readable executable others changeable issuing user else echo file isnt regular file fi else echo error file exist giving error message exit fi think right track work perfectly
-
-==============================
-

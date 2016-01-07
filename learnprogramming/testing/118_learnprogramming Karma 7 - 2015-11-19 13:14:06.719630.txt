@@ -1,7 +1,0 @@
-Title: c xaml silverlight setting opacity control adding animation
-Karma: 7
-Date: 1400548446.0
-border xnamecenterborder height minwidth horizontalalignmentcenter verticalalignmentcenter backgroundfffff borderbrushblack borderthickness cornerradius padding viewbox xnamecenterviewbox height width opacity textblock horizontalalignmentcenter verticalalignmentcenter fontsize foregroundwhite textbinding timelefttext elementnamemeslatracker opacity viewbox border essentially programming centerviewbox widen centerborder position hovered mouse show textblock well going attempt manipulate opacity show widening animation also setting opacity testing even show centerborder correctly stays wide instead anyway sure exactly looking thanks advance help
-
-==============================
-

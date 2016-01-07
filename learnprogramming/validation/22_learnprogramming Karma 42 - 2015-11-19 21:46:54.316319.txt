@@ -1,7 +1,0 @@
-Title: interested security programming stanford crypto starts tomorrow june
-Karma: 42
-Date: 1339347568.0
-cryptography indispensable tool protecting information computer systems course explains inner workings cryptographic primitives correctly use students learn reason security cryptographic constructions apply knowledge realworld applications course begins detailed discussion two parties shared secret key communicate securely powerful adversary eavesdrops tampers traffic examine many deployed protocols analyze mistakes existing systems second half course discusses publickey techniques let two parties generate shared secret key cover relevant number theory discuss publickey encryption digital signatures authentication protocols towards end course cover advanced topics zeroknowledge distributed protocols secure auctions number privacy mechanisms throughout course students exposed many exciting open problems field course include written homeworks programming labs course selfcontained however helpful basic understanding discrete probability theory course page never use hash functions message authenticationhacker news discussion
-
-==============================
-

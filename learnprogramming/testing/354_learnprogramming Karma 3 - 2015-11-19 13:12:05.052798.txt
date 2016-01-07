@@ -1,7 +1,0 @@
-Title: need help vbnet application
-Karma: 3
-Date: 1431578453.0
-theres program search list students made far search list public class studentname public studentforename string public studentsurname string public studentyear integer end class public class studentlist public property studentnames new listof studentname end class code add new student public shared studentlistvar new studentlist public sub addstudentsender object e eventargs handles buttonclick dim studentnamesvar new studentname studentnamesvarstudentforename textboxtext studentnamesvarstudentsurname textboxtext studentnamesvarstudentyear listboxselecteditem studentlistvarstudentnamesaddstudentnamesvar msgboxstudentlistvarstudentnamesstudentnamesvarstudentforename end sub thing dont know actually view data inputting program msgbox wrong ignore line want able search list students another form anyone time help please post
-
-==============================
-

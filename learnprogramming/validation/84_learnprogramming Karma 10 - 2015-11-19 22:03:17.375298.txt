@@ -1,7 +1,0 @@
-Title: c gui builder multi platform
-Karma: 10
-Date: 1323745091.0
-want write gui applications c currently using eclipse wondering application sort like visual studio ability build guis easily see look like similar vs generally use linux prefer application works rather remember boot windows every time get urge write code eclipse point websites good tutorials building guis using eclipse ever program recommend
-
-==============================
-

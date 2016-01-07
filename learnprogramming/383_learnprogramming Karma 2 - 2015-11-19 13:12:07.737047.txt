@@ -1,7 +1,0 @@
-Title: c member variable prefixes
-Karma: 2
-Date: 1431475935.0
-trying come rule follow going forward seems like big debate net working project couple others formatting rules informal point lets say largely prefixing member variables point recently one guy started leaving kicked debate searching net seems lot opinions many years point standard approach also considered putting mvariable rather variable variable seems serve purpose less typing people seem make argument useless modern ides easily show definitely case one use
-
-==============================
-

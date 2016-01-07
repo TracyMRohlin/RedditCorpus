@@ -1,7 +1,0 @@
-Title: hamming distance error detection
-Karma: 3
-Date: 1385180730.0
-sure programming question sorry wrong subreddit question given following code many words added without impacting error detectioncorrection reason question make sense hamming distance example seems difference second third word means impossible detect errors even without adding new words missing
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: local version control deployment
-Karma: 2
-Date: 1400216842.0
-guys handle local version control person project often find saving backup making changes see work reverting backup better way like way github works want personal projects available public package application deployment windows install usually want install machines update update source using advanced installer copying builds bin folder visual studio projects application done c using visual studio thanks
-
-==============================
-

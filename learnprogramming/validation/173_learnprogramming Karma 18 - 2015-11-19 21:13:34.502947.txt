@@ -1,7 +1,0 @@
-Title: c beginner need help wmemory game project
-Karma: 18
-Date: 1353399250.0
-ok rlearnprogramming sitting working programming project c class today keep running problem keep getting breakcontinue warning whenever try run program idea anyone mind pointing problem really use help worked thing weekend keep making one error another sure proceed point edit trying accomplish check within program make sure person inputting guesses guessing thing twice want program print something along lines sorry guessed already try player input many guesses program allows check see got right got wrong got wrong guess correct matches want game print sorry get matches correct got matches correct program print congrats won game professor recommended use parallel arrays keep track actual answers user inputs sure go point without creating another fuckup making bang head wall code comments added necessary make sense implementation file edit added header main files maincpp file header file
-
-==============================
-

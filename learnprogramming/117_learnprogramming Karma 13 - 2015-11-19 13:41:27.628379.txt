@@ -1,7 +1,0 @@
-Title: c mario clone open looking developers
-Karma: 13
-Date: 1369867784.0
-original post github use vs project know vs work need nuget least things people begin thinking level builders extendable ' class take look levelonecs interested basecontrollable class basically created 'mario initial test great pull lot func base parent class implement 'luigi well assets artists anyone perhaps wanted pull assets replace something strictly legal taken nintendo great physics static functional class 'physics someone knows better solution using static ears also someone go physics functions really strong suit spritemanager mariospritemanager needs lot work done actually show mario jumping falling etc etc currently shows left right small mario images lots actors interested creating enemy actor take look 'goomba basic functionality enemy walk die jumped implemented environmentload method currently loads assets probably load needed method needs called number times level played need better overall solution first open source project please let know anything better lots things hope get people interested enthused
-
-==============================
-

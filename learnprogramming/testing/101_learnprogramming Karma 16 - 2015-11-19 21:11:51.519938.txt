@@ -1,7 +1,0 @@
-Title: point know basics advance topics make eyes glaze know start learning
-Karma: 16
-Date: 1368039351.0
-understand concepts class based inheritance polymorphism scope method overriding overloading object creation general stuff covered intro courses programming point trying learn things asynchronous programming closures prototypical inheritance inputoutput streams event loops
-
-==============================
-

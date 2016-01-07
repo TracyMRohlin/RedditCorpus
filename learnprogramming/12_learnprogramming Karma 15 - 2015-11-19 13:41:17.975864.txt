@@ -1,7 +1,0 @@
-Title: best linux internals resource someone using linux years
-Karma: 15
-Date: 1370572745.0
-upcoming job interview software engineer heavy emphasis linux internals using linux good number years know situations problem stage one interviews getting hit curveballs like explain format etcpasswd file something never needed touch quite linux elements like struggle interesting selection existing knowledge like tell exact format unix file system inode dont know format etcpasswd question best resource fill gaps looking things like linux nutshell linux bible worry introductory
-
-==============================
-

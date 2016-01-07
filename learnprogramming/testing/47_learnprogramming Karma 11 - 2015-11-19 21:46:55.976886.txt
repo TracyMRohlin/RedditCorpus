@@ -1,7 +1,0 @@
-Title: bit stretch anyone help tcl script
-Karma: 11
-Date: 1338524446.0
-hey bit trouble replicating tcl script think may formatted point data script made progamatically import cylinders ansys icem cfd currently cylinders want create based points radii get applications works ansys says unmatched open brace list find cause recognize fact access used ansys icem cfd thought long shot lucky enough find someone see code work versus code work integer data input something wrong inputting floating point data thanks whatever advice give edit ran test cases seems problem use floating point numbers negative numbers work check online see floating point numbers inputted edit found problem good someone else needs problem using split line char line set axes split string trim axes needed put n making set axes split string trim axes n done everything worked perfectly
-
-==============================
-

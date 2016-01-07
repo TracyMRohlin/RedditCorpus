@@ -1,7 +1,0 @@
-Title: python wanted get server constantly ran script
-Karma: 2
-Date: 1431768448.0
-writing android app takes data api unfortunately json api spits poorly structured say wrote python script acts middleman takes api reformats sends app go
-
-==============================
-

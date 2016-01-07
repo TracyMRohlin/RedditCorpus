@@ -1,7 +1,0 @@
-Title: fseek fails returning offset high
-Karma: 2
-Date: 1400162145.0
-last edit okay problem fseek takes long value high used fseeki worked thank guys help edit forgot mention code c compiler used visual studio okay first working file system fat flash drive point program read files encountered problem sector data far least suppose issue fseek get code void test file input fopenk rb int nextclusternumber bpbsecperclus firstdatasector bpbbytspersec long firstsectorofcluster nextclusternumber bpbsecperclus firstdatasector unsigned long test firstsectorofclusterbpbbytspersec fseekinput test seekset values correct case verified winhex test value note anything short unsigned long store properly also mention issue fseek general go offset multiple sector size case firstsectorofcluster multiplied bpbbytspersec size sector
-
-==============================
-

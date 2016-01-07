@@ -1,7 +1,0 @@
-Title: java still confused synchronized blocks waitnotifyall
-Karma: 20
-Date: 1368944150.0
-say thread assign value string already initialized outside thread want use string value user interface thread new threadnew runnable override public void run mystring somethinggetstring tstart mytextviewsettextmystring course problem know thread finished yet assigned value mystring least assuming problem want use synchronization wait notifyall stuff like know get synchronized methods rudimentary way understanding synchronized method called one thread time threads try call automatically wait thread gives think thread new threadnew runnable override public void run synchrnonizedthis mystring somethinggetstring notifyall added notifyall tstart wait added wait ignore trycatch simplicity mytextviewsettextmystring thread new threadnew runnable override public void run synchronized mystring mystring somethinggetstring mystringnotifyall use string object notify tstart mystringwait put wait string object instead mytextviewsettextmystring way sorry mess watched tons tutorials read tons articles firstyear comp sci student taken classes learn even though exams able simply memorize use methods actual practice still moment clicks hopefully soon thanks
-
-==============================
-

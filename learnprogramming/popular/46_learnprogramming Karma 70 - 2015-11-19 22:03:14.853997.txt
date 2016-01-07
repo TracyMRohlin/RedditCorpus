@@ -1,7 +1,0 @@
-Title: kinds programs every programmer write point
-Karma: 70
-Date: 1324644889.0
-cs student want good programmer write lot toy programs sure much expanding knowledge helping kinds programs every programmer write one write compilerinterpreter simple os kernel d game languages one know know lot imperative languages c c java python process learning haskell hope learn lisp dialect area network programming parallel programming written irc client file compressor using huffman coding tictactoe game also working project euler problems something every programmer experience writing want expand knowledge projects open mind new insights
-
-==============================
-

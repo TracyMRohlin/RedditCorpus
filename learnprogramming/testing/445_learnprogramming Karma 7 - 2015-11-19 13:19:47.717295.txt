@@ -1,7 +1,0 @@
-Title: java fairly unfamiliar guis good ways loading images drawing intent sharing program others
-Karma: 7
-Date: 1385273613.0
-apologies poorly worded question know load images specifying filepath want share program someone images first attempt anything involves loading images bit clueless
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: typeerror ' object callable
-Karma: 9
-Date: 1400136610.0
-hey guys beginner started going one courses posted ran problem one labs printthis program calculate area trapezoid bottom inputenter length bottom base b floatbottom top inputenter length top base floattop height inputenter height trapezoid h floatheight area b h printarea trying follow example obviously messed somewherethanks looking
-
-==============================
-

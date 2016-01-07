@@ -1,7 +1,0 @@
-Title: difference object myobj vs object myobj
-Karma: 36
-Date: 1369517916.0
-c assuming class named object whose constructor takes arguments work object myobj following object myobj exactly going behind scenes
-
-==============================
-

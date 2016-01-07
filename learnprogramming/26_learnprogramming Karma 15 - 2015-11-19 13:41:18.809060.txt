@@ -1,7 +1,0 @@
-Title: c error iso c forbids comparison pointer integer
-Karma: 15
-Date: 1370517614.0
-hi beginner c getting error seem get rid error getting iso c forbids comparison pointer integer lines code listed payroll include iostream using namespace std void getemployeeinfolong int double double int void displaywageslong double int int main const int size long empidsize int hourssize double payratesize double wagessize getemployeeinfoempid hours payrate wages size displaywages empid wages size void getemployeeinfolong empid int hours double payrate double wages int size int num num size num cout employee number empidnum endl cout enter number hours worked cin hoursnum hoursnum cout please enter positive value number hours endl cout enter number hours worked cin hoursnum cout enter pay rate cin payratenum void displaywageslong empid double wages int size int num num size num cout employee number empidnum endl cout gross wages wagesnum endl appreciate help anyone provide thanks advance
-
-==============================
-

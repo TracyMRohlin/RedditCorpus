@@ -1,7 +1,0 @@
-Title: c linuxunix enviroment tcpip ip address machine
-Karma: 9
-Date: 1354336406.0
-writing program designed talk another instance network via tcpip one instance starts server mode listens connections given port second instance starts client mode attempts connect given ip address port number want server mode program display ip address machine running waiting connections anyone reasonable idea seem decent solution tcp library much rather avoid parsing input ifconfig tldr display machine ip address c program running linux machine
-
-==============================
-

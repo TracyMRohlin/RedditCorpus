@@ -1,7 +1,0 @@
-Title: js almost complete noob want know make separate js files use one project
-Karma: 3
-Date: 1400368856.0
-sure wording everything correctly goes nothing finally managed make little javascript game obviously nowhere near finished want continue development however fear cramming many things one js file folder called tlc couple files including indexhtml tlccss tlcjs question instead one giant js file separate different files still run code call functions different files even refer variables thanks advance
-
-==============================
-

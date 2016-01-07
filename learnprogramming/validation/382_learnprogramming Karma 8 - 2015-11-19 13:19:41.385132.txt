@@ -1,7 +1,0 @@
-Title: help opencv
-Karma: 8
-Date: 1385378662.0
-trying make simple facefinder python put square screen correct places complex things basically want merge face detection tutorial tried using still images video neither get face recognized run code faces facecascadedetectmultiscalegray returns anyone clue test images
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: smart way saving changes set variables several points time
-Karma: 9
-Date: 1323534582.0
-currently working program possibly huge set variables changed via user interaction point time need save every change necessary play back happened user interaction naive solution came mind first object stores variables well timestamp create copy whenever something gets changed however worried quickly use lot space also seems awfully inefficient save variables one thousand changes point time problem seem think way saving difference new state set variables last state edit forgot mention programming java anyone know nice efficient solution really stuck
-
-==============================
-

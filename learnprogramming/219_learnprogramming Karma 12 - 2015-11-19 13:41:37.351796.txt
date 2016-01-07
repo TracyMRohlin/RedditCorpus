@@ -1,7 +1,0 @@
-Title: faster way find primes
-Karma: 12
-Date: 1369133742.0
-reading article
-
-==============================
-

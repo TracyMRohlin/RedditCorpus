@@ -1,7 +1,0 @@
-Title: questions c different compilers
-Karma: 11
-Date: 1369639816.0
-finished code quite happy result except something baffling compiles runs fine mingw visual studio compiles fine sunos box using cc compiles perfectly without error ubuntu box g however g os x hissy fit code shows error prone x code compile os x terminal errors due scope happen edit changed gcc g
-
-==============================
-

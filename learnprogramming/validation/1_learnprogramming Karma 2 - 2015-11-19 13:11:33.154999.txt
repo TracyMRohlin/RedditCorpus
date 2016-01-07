@@ -1,7 +1,0 @@
-Title: ' function
-Karma: 2
-Date: 1432361859.0
-like got classes ready ex got player enemy classes ready ready use themmake instances play java c got main function everything starts work actionscript
-
-==============================
-

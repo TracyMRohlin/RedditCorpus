@@ -1,7 +1,0 @@
-Title: wcf handle authenticationauthorization host
-Karma: 3
-Date: 1431848957.0
-application want communicate service created moment service hosted console application best way authorize users execute methods basically right anyone execute method want implement authentication wcf options built provide username password kind key every time someone wants execute something service
-
-==============================
-

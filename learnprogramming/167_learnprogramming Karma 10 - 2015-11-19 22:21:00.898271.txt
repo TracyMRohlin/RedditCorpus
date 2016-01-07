@@ -1,7 +1,0 @@
-Title: want write utility reddit ideas architect
-Karma: 10
-Date: 1306904672.0
-want usecase often writing comment think something like link know exactly google query use find immediately open new tab locate url copy return reddit tab paste comment functionality depending write basically want solution allows hit hotkey type search terms hit enter first url google returns feeling lucky placed reddit comment cursor currently architecture want keep simple easily deployable greasemonkey bookmarklet need pluginextension browser order interact current text field thanks
-
-==============================
-

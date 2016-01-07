@@ -1,7 +1,0 @@
-Title: need help adding assembly k
-Karma: 16
-Date: 1384592704.0
-currently trying learn assembly one classes professor awful online class slides bullet points reads provides help gives examples apart book understand book understand class end rant need write k program run sumulator input single asciiencoded numberic character convert character binary numeric form adds two numbers converts numeric result character form points result ascii chracters code far pieced together code found currently reads two numbers think stored d d sure org moveb d lea firstmsg display message trap move d get first input user trap display move d get second input user org cr equ d lf equ firstmsg dcb crlf'enter first second crlf end help welcome also anyone good guidestutorials assembly really appreciate link edit thanks everyone got working issue move puts value entered d every time add another number need move another place
-
-==============================
-

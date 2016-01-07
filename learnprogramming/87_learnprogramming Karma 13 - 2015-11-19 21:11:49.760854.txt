@@ -1,7 +1,0 @@
-Title: objectivec two different errors implementation
-Karma: 13
-Date: 1368227888.0
-getting two different errors code came directly book learning tried googling errors anything incorrect far know implementation getting missing context method declaration methods end end implementation getting ' must appear objectivec context heck wrong code main import foundationfoundationh interface budget nsobject float exchangerate double budget double exchangetransaction void createbudget double abudget withexchangerate float anexchangerate void spenddollars double dollars void chargeforeigncurrency double foreigncurrency end implementation budget void createbudget double abudget withexchangerate float anexchangerate exchangerate anexchangerate budget abudget void spenddollars double dollars budget dollars nslogconverting f us dollars foreign currency leaves f dollars budget void chargeforeigncurrency double foreigncurrency exchangetransaction foreigncurrency exchangerate budget exchangetransaction nslogcharing f foreign currency leaves f foreigncurrency budget end edit pieces code two lines actually one line code xcode makes difference
-
-==============================
-

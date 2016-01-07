@@ -1,7 +1,0 @@
-Title: python beginners question items attribute work one lists another
-Karma: 4
-Date: 1431993446.0
-hi coding successerror messages new learning python trying tutorial code right intended add items existing inventory uses almost exactly phrases causes error message somebody tell going thanks
-
-==============================
-

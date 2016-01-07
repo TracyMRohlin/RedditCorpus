@@ -1,7 +1,0 @@
-Title: delete command work c
-Karma: 19
-Date: 1385643484.0
-hey rlearnprogramming trying build generalized merge sort using generalized pointers might smartest thing mostly learn generalized pointers c anyways refer arrays generalized pointers done want make sure isnt memory leakage go making sure memory generalized pointer pointing gets deleted know exactly much memory void pointing helps
-
-==============================
-

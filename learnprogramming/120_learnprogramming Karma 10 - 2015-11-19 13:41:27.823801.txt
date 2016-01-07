@@ -1,7 +1,0 @@
-Title: c casting double float
-Karma: 10
-Date: 1369857771.0
-please see image double variable float since thought float hold precision including decimal places called literal value thanks help
-
-==============================
-

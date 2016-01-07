@@ -1,7 +1,0 @@
-Title: recursive function guards c event handling
-Karma: 23
-Date: 1370398540.0
-often times find need implement event handler contain code possibly invoke said event handler solution prevent infinite recursion simply set flag indicates already running function run function flag set example help feel elegant solution problem perhaps structuring code incorrectly thoughts
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: new python looking read specific value file
-Karma: 6
-Date: 1385430191.0
-putty log file trying get data perform basic math lines essentially look like trying read second number case solve problem time c reason find appropriate documentation python looked csv reader exactly set like csv seem get values normally try iterate strings grab value first comma seem figure python idk feel like im missing something absurdly basic easy help great
-
-==============================
-

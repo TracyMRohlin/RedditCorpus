@@ -1,7 +1,0 @@
-Title: c fatal error
-Karma: 11
-Date: 1385707885.0
-warning warning access path 'cusersclairedocumentsvisual studio projectslabbbdebuglabbb denied cprogram files xmsbuildmicrosoftcppvvmicrosoftcppcleantargets error error lnk open file 'cusersclairedocumentsvisual studio projectslabbbdebuglabbb cusersclairedocumentsvisual studio projectslabbblabbblink keep getting error randomly program get different programs comes goes time fix sometimes go away make random change like spelling cout statement come back well post code necessary
-
-==============================
-

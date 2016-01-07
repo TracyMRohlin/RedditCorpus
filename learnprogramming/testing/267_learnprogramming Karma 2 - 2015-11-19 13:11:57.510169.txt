@@ -1,7 +1,0 @@
-Title: mysql database set bilingual dictionary
-Karma: 2
-Date: 1431813557.0
-currently working making bilingual dictionary sorts familiar databases like advice set mysql tables get data sorted best way possible want users look japanese word get phrases contain word collocation phrases english translation addition phrases may example usages probably english translation well see less like results show thinking separate tables like words wordid word partofspeech collocation collocationid wordid collocation collocationtype translationone translationtwo translationthree examples exampleid collocationid example translationone translationtwo two issues first collocations may one english translation way ive done alright doubt many one two alternative translations case two collocations may contain two main words well way reflect table rather create two different entries one word put two wordid columns collocation table also better way set things looking thanks advance
-
-==============================
-

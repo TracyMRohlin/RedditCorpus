@@ -1,7 +1,0 @@
-Title: java battleship program wd arrays
-Karma: 48
-Date: 1384901414.0
-program working fine reason fails recognize ship sometimes inaccurately says ship location also isshipright work help appreciated basic teacher figure askew thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: build website ground
-Karma: 89
-Date: 1367961346.0
-recently finished cs course udacity want know go building complete website without google app engine use python along sql apache backend also exactly code moved local development machine server way deploy code gae
-
-==============================
-

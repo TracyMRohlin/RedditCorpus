@@ -1,7 +1,0 @@
-Title: android development git
-Karma: 39
-Date: 1369609897.0
-okay worked git repositories past working relatively large ruby rails project seemed simple enough months back tried tortoise svn working c project gave many headaches figured go back git new project want develop android application already started using adt eclipse want set git may work teammates remotely move around lot going using terminal git everything going smoothly decided pull laptop files came metadata sure going able open eclipse set workspace folder get coding nope project show try import says project description invalid dafuq hear git plugin eclipse better rlearnprogramming suggest tldr best way develop android eclipse using git
-
-==============================
-

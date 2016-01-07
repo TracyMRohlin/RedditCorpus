@@ -1,7 +1,0 @@
-Title: vbnet using dropdown box selection refresh items form
-Karma: 3
-Date: 1400649517.0
-proof concept moment replace tool work based fictional data database simple moment table clients columns id name table sites columns id clientid address address town windows form dropdown box populated clients table dropdown works fine want selecting relevant company populates text boxes form based relevant match based id match sites table head kind tutorial pointers right general direction helpful
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: game engine
-Karma: 9
-Date: 1384982404.0
-embark project machine learning ai agents particularly focused fps style games wondering anyone give list appropriate game engines use type project next experience information like languages need pros cons etc also helpful know
-
-==============================
-

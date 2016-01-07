@@ -1,7 +1,0 @@
-Title: copy database sql different database sql
-Karma: 2
-Date: 1431517390.0
-okay computer servers one running sql sql call db db db sql production server everyday need backup db server db server sql tried ssis vs works great however changes occur future pertaining database structure db sql reflected mirrored database db sql unless reconfigured manually example db sql admin added table adddelete columns certain table ssis package get error thus need rebuild reconfigure manually vs want time time right please help thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: crazy good way learn
-Karma: 10
-Date: 1368238138.0
-wanting learn java game development poked around new boston tutorials beginner java got bored past learned finding project making work learning needed project ie using arduino downloaded lwjgl slick going start messing around good idea nuts tldr learning program want rather following lesson plan playing lwjgl
-
-==============================
-

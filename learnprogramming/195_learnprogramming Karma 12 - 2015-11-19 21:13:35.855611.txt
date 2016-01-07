@@ -1,7 +1,0 @@
-Title: inventory database resources questions
-Karma: 12
-Date: 1353209000.0
-trying create database interact inventory database wondering ms access vs web developer best way accomplishing also anyone know good books tutorials use combination software help greatly appreciated
-
-==============================
-

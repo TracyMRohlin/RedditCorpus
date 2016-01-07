@@ -1,7 +1,0 @@
-Title: matlab help error catching gui input letters instead numbers
-Karma: 9
-Date: 1354065336.0
-know create error catch gui user inputs letterswords instead numbers kind statement use many possibilities friend suggested strnum numstr see help posted rmatlab effective subreddit active users respond much please direct right direction
-
-==============================
-

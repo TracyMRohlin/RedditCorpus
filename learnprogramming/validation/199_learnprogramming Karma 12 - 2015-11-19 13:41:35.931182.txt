@@ -1,7 +1,0 @@
-Title: c syntactic sugar possible implement
-Karma: 12
-Date: 1369271393.0
-asking mostly curiosity possible overload assignment operator way basetype value value customclass object object value value work change members customclass value value basetype int double etc think use c stdinitializerlist something like object value value might possible tested specifically interested done using commas separators
-
-==============================
-

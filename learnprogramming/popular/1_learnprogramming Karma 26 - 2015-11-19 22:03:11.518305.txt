@@ -1,7 +1,0 @@
-Title: approach gui programming
-Karma: 26
-Date: 1325494908.0
-alright brand new programming applications use gui briefly acquainted qt tkinter quick prototyping sure think application using one context oop formal training code design etc please bear right thinking giving class interfaces gui handle due lack experience unaware common pitfalls look best design example application media player might class track relevant data associated setting might want also associate state information object handle elsewhere anyone mind giving sort guidance point resources sure well established paradigms dealing stuff like mvc others thanks
-
-==============================
-

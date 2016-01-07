@@ -1,7 +1,0 @@
-Title: algorithm randomize deck cards
-Karma: 2
-Date: 1431457521.0
-sure best place post question anyways working c currently making function shuffles deck cards want know whether implemented efficient truly make randomized deck function inputoutput vector cards stored playercards vector containing cards housecards vector containing house cards template class void drawcardvectort vector preparing int tempcard temporary integer variable bool keeprandomize true true continue randomizing const int randomnumber rand random number make deck even random srand defined outside function initialised according time cards draw cardsinplay global variable keep track number cards play cout cards deck endl drawing cards keeprandomize tempcard rand randomnumber draw random number matches found either vectors comparevaluesvectorsplayercards tempcard comparevaluesvectorshousecards tempcard compares randomized value vector house vector true match vectorpushbacktempcard cardsinplay break end void ' function edit forgot add stuff
-
-==============================
-

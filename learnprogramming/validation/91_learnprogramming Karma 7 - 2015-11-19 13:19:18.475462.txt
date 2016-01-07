@@ -1,7 +1,0 @@
-Title: pragmatically extract list databases spans multiple pages
-Karma: 7
-Date: 1386036016.0
-hi list genetic databases associated urls spread across pages per page like extract nd column get list urls k entries filter additional title text column tried changing pagesize parameter url much luck neat way thanks dl
-
-==============================
-

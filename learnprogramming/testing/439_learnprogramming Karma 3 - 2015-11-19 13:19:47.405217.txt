@@ -1,7 +1,0 @@
-Title: best way resource learn nested loops
-Karma: 3
-Date: 1385283827.0
-problems grasping concept suggestions please tell programming cpp btw manage languages good explanation
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c confusion calling protected methods derived class
-Karma: 3
-Date: 1386033297.0
-hi following code class b protected void foo class d public b public void baz foo bfoo cout bfoo endl cout line cause compilation problem access protected member function suspect like asking address foo method class definition something non related particular instance really sure edit formatting
-
-==============================
-

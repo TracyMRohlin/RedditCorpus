@@ -1,7 +1,0 @@
-Title: c pass d arrays variable length function
-Karma: 16
-Date: 1353974867.0
-working project recreates game life want void function takes d array ints quite know array declared right int worldworldsizexworldsizey size board variable based user input declare const int number rows know probably easier make pointers really understand works project due pretty soon know time learn edit ok going suck learn use array pointers make things easier
-
-==============================
-

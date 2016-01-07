@@ -1,7 +1,0 @@
-Title: racketscheme add elements vector
-Karma: 2
-Date: 1385557878.0
-hello rlearnporgramming looking way add elements vector without turning list racketany ideas
-
-==============================
-

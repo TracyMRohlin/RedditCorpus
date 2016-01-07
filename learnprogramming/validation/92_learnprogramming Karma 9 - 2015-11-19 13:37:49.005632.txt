@@ -1,7 +1,0 @@
-Title: html image slider help
-Karma: 9
-Date: 1383954633.0
-okay trying create image slider using function slider loading gif image loads images working far loading gif working fine shadow seem make first image fade using function someone take look help great thank html
-
-==============================
-

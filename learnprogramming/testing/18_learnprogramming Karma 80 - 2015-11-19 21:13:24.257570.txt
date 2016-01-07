@@ -1,7 +1,0 @@
-Title: wrote infinite loop displays random ascii characters seconds running speakers started making beeping sound close frozen window made beeping
-Karma: 80
-Date: 1354397693.0
-include iostream include cstdlib include ctime using namespace std int main srandtime char rand cout edit modified code displays random characters intended ascii include iostream include cstdlib include ctime using namespace std int main char rand cout
-
-==============================
-

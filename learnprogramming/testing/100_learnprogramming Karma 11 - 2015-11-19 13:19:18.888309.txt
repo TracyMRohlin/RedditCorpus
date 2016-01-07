@@ -1,7 +1,0 @@
-Title: c reordering contents stdvector
-Karma: 11
-Date: 1386017418.0
-vector constant size n contents vectors added order changed n n n n etc eg n populated like reorder contents vector etc anyone suggest might go
-
-==============================
-

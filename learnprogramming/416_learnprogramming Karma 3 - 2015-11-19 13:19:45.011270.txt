@@ -1,7 +1,0 @@
-Title: java begginer gui learning
-Karma: 3
-Date: 1385333666.0
-hey guys little experience mostly hate creativity make good looking preffer logic programming anyway trying get starting swing api java trying legit projects get swing components jframes etc click logic tried using gui builer netbeans altho makes things easier somewhat goes learning method makes sense know structure program good control logic gui absolute mess somebody explain basic ideas behind structure coding form classes logic none best practices reading night long every explanation seems things dealing yet thanks advance guys
-
-==============================
-

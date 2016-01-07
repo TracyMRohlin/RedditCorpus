@@ -1,7 +1,0 @@
-Title: best wayinteresting styles separating segments large method visually
-Karma: 9
-Date: 1338497946.0
-hey novice programming definitely going thing work larger projects things get messy due large quantities code hard keep track go back rediscover doingtrying since nob forget code even means aside basic standard java coding convention best ways split organize code necessarily style use workplace group effort ocdstyle needs pet projects rather put extra effort make reading code much easier try comment lot sometimes get little crazy makes things complicated thinking something like boxing code segment comment slashes dashes seems like lot work better ideas also looking creative ideas fun mind extra effort right space segments lot spaces like code code x lines code code also work easiest interpret code commenting explaining code thoughts ideas thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: java convert double formatted hex string
-Karma: 2
-Date: 1400208728.0
-hi rlearnprogramming trying convert decimal double hex using doubletohexstring method gives answer scientific notation way get many significant digits decimal required
-
-==============================
-

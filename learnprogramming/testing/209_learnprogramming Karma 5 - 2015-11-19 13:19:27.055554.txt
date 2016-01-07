@@ -1,7 +1,0 @@
-Title: c unpredictable value stored uninitialized variables unpredictable
-Karma: 5
-Date: 1385649522.0
-hey months learning first language c trying grasp concepts encoding physical storage variable data etc curious determines value uninitialized variable looked nearly everywhere find answers like garbage value unpredictable value something physical cell memory value stored thanks advance
-
-==============================
-

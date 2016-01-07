@@ -1,7 +1,0 @@
-Title: scheme somebody please explain callcc simple terms
-Karma: 5
-Date: 1432251377.0
-know stands call current continuation way connected cps apart lost thanks advance
-
-==============================
-

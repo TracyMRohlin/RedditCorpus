@@ -1,7 +1,0 @@
-Title: c question filing user data
-Karma: 4
-Date: 1400134089.0
-hello guys pretty new programming mostly selftaught forgive vague subject matter currently playing around app needs store information regular retrieval usage data taken form user user name question best longterm container data text files seem kind half hazarder files best way store information best store minimal amounts data like one database tables use fewer numbers file never seen application store data reuse new topic
-
-==============================
-

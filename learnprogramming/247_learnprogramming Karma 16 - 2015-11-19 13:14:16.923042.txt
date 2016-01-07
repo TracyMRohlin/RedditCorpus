@@ -1,7 +1,0 @@
-Title: four pillars solid principles
-Karma: 16
-Date: 1400105766.0
-studying core oop design patterns recently specifically four pillars abstraction polymorphism inheritance encapsulation along solid principles single responsibility open closed liskov substitution interface segregation dependency inversion understand basic concepts behind work difficulties thinking real life examples used program anyone help examples used real programming situations thanks help
-
-==============================
-

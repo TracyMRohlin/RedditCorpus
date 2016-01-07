@@ -1,7 +1,0 @@
-Title: apply color theme eclipse cdthelp
-Karma: 8
-Date: 1385613263.0
-hi using eclipse cdt eclipse ide cc developers version kepler service release build id linux x directly downloaded site repository installed eclipse color theme plugin marketplace tried change skin wouldnt change however eclipse chrome theme plugin works wouldnt give entire new theme want even tried import themes directly eclipse still wont work dont plugins installed thanks
-
-==============================
-

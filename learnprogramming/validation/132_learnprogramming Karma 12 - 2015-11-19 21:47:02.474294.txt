@@ -1,7 +1,0 @@
-Title: design program object oriented programming
-Karma: 12
-Date: 1336832353.0
-hi reddit learn program years ago done lot small apps already know classes polymorphism overloading etc still know design program right programming android easy cause every class activity service etc python gtk examples every app class named like appname lots methods say want make create connection class represents every request another preferences another windows gui hope get mean english native language
-
-==============================
-

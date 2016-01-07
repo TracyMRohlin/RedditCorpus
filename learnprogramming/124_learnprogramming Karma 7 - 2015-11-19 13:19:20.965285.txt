@@ -1,7 +1,0 @@
-Title: one start learning frameworks webdev
-Karma: 7
-Date: 1385944629.0
-hey folks practicing basics webdev htmlcssphpjsmysql make decent looking website etc via making folder using localhost test never used framework conceptual idea often used industry language start learning framework first angular js zend php etc one start learning developers provide documentation suffice thanks help
-
-==============================
-

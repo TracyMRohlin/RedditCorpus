@@ -1,7 +1,0 @@
-Title: installing packages python confusing someone help clear going
-Karma: 12
-Date: 1385345499.0
-think confusing except fact mainly use python x whereas default system ubuntu understand different ways install python package downloading source using easyinstall using pip using system package manager like aptitude one generally best way make correct packages correct version python installed eg beautifulsoup installed python x instead plaguing time help appreciated thanks edit related topic best way check download packages plan distributing script
-
-==============================
-

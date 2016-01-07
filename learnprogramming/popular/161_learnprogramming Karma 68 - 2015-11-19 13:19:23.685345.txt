@@ -1,7 +1,0 @@
-Title: projects learn advanced c
-Karma: 68
-Date: 1385784767.0
-second year university good experience c want get better know syntax language well trouble coming project ideas created chat server taught lot pthreads mutexes effective memory management like work something else helps raspberry pi sitting around done anything yet
-
-==============================
-

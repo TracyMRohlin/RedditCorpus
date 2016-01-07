@@ -1,7 +1,0 @@
-Title: something wrong eclipse
-Karma: 34
-Date: 1354092995.0
-well making simple gui program buttons menu bar major problem every time run eclipse get different results time menu bar show problem menu bar likewise buttons show maybe every tries leaves question fuck wrong eclipse code getting different results every time run edit code question edit full class problem solved thanks guys
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: total beginner quick questionpython
-Karma: 2
-Date: 1431484126.0
-hello rlearnprogramming trying learn little coding make job easier long steps work less complicatet chose python first language without particiular reason took course codecademy hours decided try simple programm job calculate expenses workers calculator talkes long time open errors miss keys whatever excel worksheet works like want programm work irrelvant want programm take value add depending key press take new value add right adds resets value soon run function see error cant seem find way set value outside function thank help advance sorry english first language def spesen summe answer rawinput fuer euro fuer eurolower answer summe summe print summe spesen elif answer summe summe print summe spesen else exitorresetrawinputexit resetlower exitorreset reset summesummesumme spesen elif exitorresetexit print ende else spesen spesen edit updated formatting edit solved problem attached anyone interested also love feedback improve code somehow def spesensumme answer rawinput fuer euro fuer eurolower answer summe summe print summe spesensumme elif answer summe summe print summe spesensumme else exitorresetrawinputexit resetlower exitorreset reset summesummesumme spesensumme elif exitorresetexit print ende else spesensumme spesen summe spesensumme
-
-==============================
-

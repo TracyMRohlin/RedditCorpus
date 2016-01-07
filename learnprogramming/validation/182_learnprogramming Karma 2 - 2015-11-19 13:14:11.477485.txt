@@ -1,7 +1,0 @@
-Title: like learn bash scripting
-Karma: 2
-Date: 1400302891.0
-tldr trying expand skill set marketable october got hired engineering research center student sysadmin essentially serve help desk support also learning sysadmin gaining real world work experience equivalent mind internship anyways got hired windows admin well mac admin said application interview almost real experience working macs willing learn use system fastforward comfortable efficient using imac think may resolve support tickets mac side windows side problem macs building however user accounts run windows active directory unix windows accounts means every mac configured local accounts includes administrator root accounts change admin passwords mac computers hardly ever get changed individually means trying remotely connect machine sometimes use admin passwords effect even hired gone three admin passwords time changing employees heartbleed vulnerability mac machines operating least different admin passwords fairly large security risk brought superiors suggested good summer project create shell script goes mac checks password root admin updates necessary know first thing shell scripting experience using unix commands mac terminal since hired eventually probably getting job sysadmin graduate support go grad school really like learn much field time left anyone know good online resources learn shell scripting unix general
-
-==============================
-

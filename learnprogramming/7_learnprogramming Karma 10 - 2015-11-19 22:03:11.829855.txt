@@ -1,7 +1,0 @@
-Title: learning program c
-Karma: 10
-Date: 1325336855.0
-hey guys recently started program c first thing wrote suggestions better code things write include stdioh int mainvoid int num num x answer printfwelcome calculatorn printfenter numbers going use scanfddnum num printf addn printf multiplyn printf subtractn scanfdx switch x case answer addnum num printfthe sum d answer break case answer multiplynum num printfthe product d answer break case answer subtractnum num printfthe difference d answer break return int addint num int num return num num int multiplyint num int num return num num int subtractint num int num return num num
-
-==============================
-

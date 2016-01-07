@@ -1,7 +1,0 @@
-Title: programming archon ep start journey
-Karma: 26
-Date: 1368290452.0
-hello everyone programming archon start first streaming session post min old two programmers going build web applicationsgames scratch purpose learn frameworks try different technologies first sessions topic java play framework host javascript based games want share knowledge mistakes everyone feel free join us quest become better programmer link live stream twitch stream streaming twitch archive github repository application built chat room technologies used java play framework amazon ecubuntu bootstrap handlebar js ajax really awesome experience people comment code live suggest changes feel free leave comments features tech want see next time next session planned next weekend
-
-==============================
-

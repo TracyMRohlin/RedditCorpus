@@ -1,7 +1,0 @@
-Title: database interact database
-Karma: 16
-Date: 1353714327.0
-chess website database two models users games person logs gets user instance every game anyone plays gets recorded game instance want ranking page based elo updated user instance time win game sort entire database users every time someone requests ranking page bake ranking list memory every hour week whenever efficiency similar problem displaying game history generating game history page search every game ever played anyone id try optimize somehow
-
-==============================
-

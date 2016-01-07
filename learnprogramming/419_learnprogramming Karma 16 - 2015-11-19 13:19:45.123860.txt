@@ -1,7 +1,0 @@
-Title: github vs bitbucket first project
-Karma: 16
-Date: 1385327040.0
-first real man project net better choise need basic functionality
-
-==============================
-

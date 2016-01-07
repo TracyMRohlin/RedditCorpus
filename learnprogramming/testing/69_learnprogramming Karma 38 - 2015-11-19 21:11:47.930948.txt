@@ -1,7 +1,0 @@
-Title: javawhen instance variables get initialized
-Karma: 38
-Date: 1368405607.0
-like public class coldsauce private int x private int become asking call constructor making instance class
-
-==============================
-

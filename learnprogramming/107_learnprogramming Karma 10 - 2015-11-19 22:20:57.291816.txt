@@ -1,7 +1,0 @@
-Title: recommended book learning java
-Karma: 10
-Date: 1308551000.0
-starting new job next month entails light java programming wondering java textbooks recommend help learning process experience using c
-
-==============================
-

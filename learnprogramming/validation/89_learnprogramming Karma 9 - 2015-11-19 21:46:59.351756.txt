@@ -1,7 +1,0 @@
-Title: advice c programming
-Karma: 9
-Date: 1337807302.0
-hi third year uni student studying computer science spent time uni learning c java recently finished project company produce prototype software c however come point employable company skill set port code c spent time past playing c nothing outside university environment sure start mean basics like ides complilers spoke old friend c programmer many years suggested look basic game development c using directx opengl start know get push right direction learn getting started ask anyone good resources share one get started basic game development c start including setting compliers etc buying books isnt really option moment web resources better thank advance vade edit make things clear said buying books option mean wanted violate copy write laws get torrents pdfs meant hoping online material form tutorials guides
-
-==============================
-

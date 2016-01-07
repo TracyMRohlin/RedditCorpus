@@ -1,7 +1,0 @@
-Title: javahow add working scrollbar jeditorpane
-Karma: 19
-Date: 1354150483.0
-jeditorpane using show html want show scrollbars whenever needed get work right create jeditorpane call setautoscrollstrue add jeditorpane jpanel uses borderlayout add jpanel jframe see scrollbar matter set size using setsize perhaps another way set size let know needs add scrollbars
-
-==============================
-

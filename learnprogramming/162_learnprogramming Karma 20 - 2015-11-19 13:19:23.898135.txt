@@ -1,7 +1,0 @@
-Title: question inheritance java android app
-Karma: 20
-Date: 1385773205.0
-currently class rock player share lot methods variables ie difference player touch method rock update method player thought reorganise extend rd class called character character holds common methods variables however issues rocks update code player works fine character class code bar getters setters public class character private bitmap bitmap actual bitmap private int x x coordinate private int y y coordinate private speed speed speed directions private int width height public characterbitmap bitmap int x int y thisbitmap bitmap thisx x thisy y setwidthbitmapgetwidth setheightbitmapgetheight draws sprite screen public void drawcanvas canvas canvasdrawbitmapbitmap x bitmapgetwidth y bitmapgetheight null rock public class rock extends character public rockbitmap bitmap int x int y superbitmap x y updates internal state every tick public void update y getspeedgetyv getspeedgetydirection tried using getters setters character class gives nullpointerexception crashes tried change y protected suggested eclipse thing happened anyone suggestions fix question even worth stick seperate rock player class even though pretty much share everything thanks edit also mention thought using interfaces decided suffice player rock methods share exact bodies besides rocks update method player
-
-==============================
-

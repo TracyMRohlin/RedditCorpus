@@ -1,7 +1,0 @@
-Title: c looking book tutorial specifically pointers memory management
-Karma: 8
-Date: 1385209465.0
-taking data structures algorithms class next semester professor already messaged students class familiar cc pointers dynamic memory management like prepared classes coming anyway looking indepth book tutorial subjects mostly used python java classwork far everything done c already intro c books book book algorithms c really trying find something specifically pointers memory management obviously gave google found book book good got basics class upper division course junior maybe need know going course better book online tutorial thanks
-
-==============================
-

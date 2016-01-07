@@ -1,7 +1,0 @@
-Title: java audio clip play
-Karma: 6
-Date: 1385439188.0
-hey guys trying understand audio clip play created really simple applet understand work code import javaxswingjapplet import javaappletapplet import javaappletaudioclip import javaneturl public class playaudioclippls extends japplet private url soundtoplay getclassgetresourcecusersbrian murphyworkspaceflagssoundanthemmid filesanthemmid private audioclip ac appletnewaudioclipsoundtoplay public void init acplay edit exception description javalangnullpointerexception sunappletappletaudioclipinitunknown source javaappletappletnewaudioclipunknown source playaudioclipplsinitplayaudioclipplsjava sunreflectnativeconstructoraccessorimplnewinstancenative method sunreflectnativeconstructoraccessorimplnewinstanceunknown source sunreflectdelegatingconstructoraccessorimplnewinstanceunknown source javalangreflectconstructornewinstanceunknown source javalangclassnewinstanceunknown source sunappletappletpanelcreateappletunknown source sunappletappletpanelrunloaderunknown source sunappletappletpanelrununknown source javalangthreadrununknown source
-
-==============================
-

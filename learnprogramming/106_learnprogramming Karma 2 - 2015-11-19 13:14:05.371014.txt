@@ -1,7 +1,0 @@
-Title: java code review request
-Karma: 2
-Date: 1400561562.0
-hello everyone first year computer science major college recently finished project intended help musicians log practice time anyone please look code offer suggestions improve thank advance project github practicelog edit also know using github correctly
-
-==============================
-

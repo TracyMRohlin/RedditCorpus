@@ -1,7 +1,0 @@
-Title: started experimenting procedural generation initial tests showing peculiar errors otherwise going well
-Karma: 12
-Date: 1352903133.0
-sample code right much little exciting something works method using generate d array actually d array exist python similar enough full '' character initialize ' object centermost point going around random directions chance cardinal directions number iterations running problems width height array equal though figure getting index range errors believe width height variables getting mixed point find anyone wants look appreciate tips implementation welcome well source python
-
-==============================
-

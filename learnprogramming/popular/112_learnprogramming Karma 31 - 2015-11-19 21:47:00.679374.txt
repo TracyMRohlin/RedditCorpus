@@ -1,7 +1,0 @@
-Title: maths programming
-Karma: 31
-Date: 1337277503.0
-hello wondering maths topics useful programming particularly games recommend learning etc studying compsci module st year maths computing covered set theory relations functions recursion propositional inference predicate logic combinatorics probability graph theory however feel like covered stuff really useful games done maths statistics level feel like mechanics useful programming games apart maybe ai etc like hear recommend maybe find using everyday games programming endeavours perhaps post gamedev links resources much welcome
-
-==============================
-

@@ -3,38 +3,44 @@ __author__ = 'tracyrohlin'
 from Naive_Bayes_model import *
 from sklearn.linear_model import SGDClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
+from time import time
 
 POPULAR = "POPULAR"
 UNPOPULAR = "UNPOPULAR"
 
 SOURCES = []
 
-
+time_1 = time()
 def create_SVM(training_data, other_data, topic_type, num_topics):
     """This program is based on the one taught in the tutorial:
     http://zacstewart.com/2015/04/28/document-classification-with-scikit-learn.html
     written by Zac Stewart."""
+    alpha = 0.01
+
     num_topics = int(num_topics)
     if topic_type == "tfidf":
 
-        pipeline = Pipeline([('vect', CountVectorizer(min_df=3)),
+        pipeline = Pipeline([('vect', TfidfVectorizer(min_df=3)),
                         ('tfidf',  TfidfTransformer()),
-                        ('clf', SGDClassifier(random_state=1234, n_iter=2000, alpha=0.009, loss="log"))
+                        ('clf', SGDClassifier(random_state=1234, n_iter=2000, alpha=alpha, loss="log"))
                         ])
     elif topic_type == "lda":
-        pipeline = Pipeline([('vect', TfidfVectorizer(min_df=3)),
-                        ('lda',  LatentDirichletAllocation(n_topics=num_topics, random_state=1234, max_iter=500)),
-                        ('clf', SGDClassifier(alpha=0.3,random_state=1234, n_iter=2000, loss="log"))
+        pipeline = Pipeline([('vect', CountVectorizer(min_df=3)),
+                        ('lda',  LatentDirichletAllocation(n_topics=num_topics, random_state=1234, max_iter=500, learning_decay=0.7)),
+                             # for learn python
+                        ('clf', SGDClassifier(alpha=alpha, random_state=1234, n_iter=2000, loss="log"))
                              ])
-    else:
+
+    elif topic_type == "bow":
         pipeline = Pipeline([('vect', CountVectorizer(min_df=3)),
                         ('clf',
-                            SGDClassifier(random_state=1234, n_iter=2000, alpha=1.6, loss="log"))
+                            SGDClassifier(random_state=1234, n_iter=2000, alpha=alpha, loss="log"))
                         ])
-
+    else:
+        return "Please chose a feature selection and try again."
     confusion = np.array([[0, 0], [0, 0]])
     corpus_length = 0
-
+    print "This is the alpha", alpha
     # training data remains the same
     train_class = training_data['class'].values.astype(str)
     train_text = training_data['text'].values.astype(str)
@@ -49,14 +55,17 @@ def create_SVM(training_data, other_data, topic_type, num_topics):
 
     # append to the confusion matrix and score so that later the F1 sccores can be averaged
     confusion += confusion_matrix(test_class, predictions)
-    score = f1_score(test_class, predictions, pos_label="POPULAR")
+    F1score = f1_score(test_class, predictions, pos_label="POPULAR")
+    accuracy = accuracy_score(test_class, predictions)
 
     print 'Total documents classified:', corpus_length
-    print 'Score:', score
+
+    print 'Accuracy: ', accuracy
+    print 'F1 Score:', F1score
     print 'Confusion matrix:'
     print confusion
 
-    return score
+    return F1score
 
 
 
@@ -88,3 +97,7 @@ if __name__ == "__main__":
         classify_initial_data(testing_filepath, cutoff, TESTING)
         testing_data = make_data(TESTING, testing_filepath)
         create_SVM(training_data, testing_data, args.topic_type, args.num_topics)
+    time_2 = time()
+
+    difference = (time_2-time_1) / 60
+    print "Minutes passed: %d" % difference

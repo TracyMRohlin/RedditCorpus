@@ -1,7 +1,0 @@
-Title: website programming problems beginners
-Karma: 40
-Date: 1385501235.0
-professional developer employed enterprise java programming often asked friends colleagues learn coding become programmer really tired answering trying explain nothing done without practice without really trying code lot things nbsp started work website collection programming problems targeted beginners unlike good cool sites like topcoder projecteuler etc sportsmen matematicans nbsp codeabbey core idea signing user select problem try write solution apply test data given problem statement submitted answer correct user progress solved tasks becomes acolyte becomes believer user also gains blessing solving task increases enlightenment depends many people solved tasks less better nbsp also intro video shows howitworks though bit earlier version weeks ago old scoring system also must ask excuse poor english working improve lot tasks still site exists less two months adding one one nbsp main problem site currently still somewhat dull boring perhaps hints able improve least hope help advises welcome
-
-==============================
-

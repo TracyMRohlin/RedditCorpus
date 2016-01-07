@@ -1,7 +1,0 @@
-Title: java alternative r
-Karma: 3
-Date: 1431680306.0
-trying overwrite output line using systemoutprintfoorbar instead getting expected output bar r escape character behaves like n outputs foo bar seen lot people issue able find fix anywhere
-
-==============================
-

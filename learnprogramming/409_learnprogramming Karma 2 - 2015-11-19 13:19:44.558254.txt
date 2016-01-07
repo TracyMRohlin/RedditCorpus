@@ -1,7 +1,0 @@
-Title: java connecting multiple clients one server
-Karma: 2
-Date: 1385349339.0
-trying get multiple clients communicate one server like able send strings clients using server intermediate new networking started single client connected one server troubles got complicated least tried connect clients spent quite bit time google stackoverflow learned need run separate servers different threads created subserver class extends thread able connect run multiple subservers connect multiple clients issue comes actually try send information start server connect clients test send data correctly first clients try broadcast string connected clients rd client receives quite sure causes first error assume nd issue clients connected using port number new networking might wrong
-
-==============================
-

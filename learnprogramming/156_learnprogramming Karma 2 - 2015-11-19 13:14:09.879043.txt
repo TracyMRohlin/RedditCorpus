@@ -1,7 +1,0 @@
-Title: ia reverseengineering problem
-Karma: 2
-Date: 1400409469.0
-hello currently learning c assignment involves reverse engineering programs written ia assembly find correct input successfully terminates program gotten last problem hit brick wall able piece together function accepts string contains characters ebxvrrcqgwhofyyaxptivsimhgbdtdkelmpnoanukzqlwzfmuscjj first number user inputs index array shortened entered new array start arr keep things simple lets call new array appstr things get tricky loop starts passes appended array lfind call lfind call returns next similar character one front appstr mean character index appstr number substring starting next number returned lowercase letter next lowercase letter returned uppercase uppercase test must failed order leave loop ie characters index must type test passes loop begins except character index appstr removed iteration continues fails good next test begins reading assembly instructions believe following condition must met appstr appstr see anywhere original array different types characters difference value although perhaps misreading assembly anyone insight something missing appreciate enormously want see assembly code let know lines long
-
-==============================
-

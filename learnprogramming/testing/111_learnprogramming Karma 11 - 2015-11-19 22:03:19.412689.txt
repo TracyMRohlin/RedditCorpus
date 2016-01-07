@@ -1,7 +1,0 @@
-Title: advice python web development
-Karma: 11
-Date: 1322959455.0
-hey guys bit confused appreciate advice idea website kinda like reddit community voting important problem basic knowledge php html pretty much beginner willing learn confusing googling started think maybe consider pylons django web development reason leaning towards python mechanical engineer think start python perhaps also use work stuff like scipy etc guessing php easy start python web development lot harder get comparison
-
-==============================
-

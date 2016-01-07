@@ -1,7 +1,0 @@
-Title: rookie mysqljava question need help refering newly created primary key order create rows foreign key table
-Karma: 15
-Date: 1367956435.0
-sorry vague phrasing title know else put made two tables shown pic idsub foreign key primary key substitute idsubstitute whenever create new substitute want add seven rows weekday table reference idsub see day week substitute available day easiest way go add substitute first go get latest entry substitute table order able create rows weekday table possible refer substitute id creating substitute sorry poor formulation try explain better questions
-
-==============================
-

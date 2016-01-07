@@ -1,7 +1,0 @@
-Title: artificial intelligence meant alphabeta pruning
-Karma: 3
-Date: 1386306665.0
-question one past exam papers minimax alphabeta pruning regards adversarial games understand minimax get alphabeta pruning
-
-==============================
-

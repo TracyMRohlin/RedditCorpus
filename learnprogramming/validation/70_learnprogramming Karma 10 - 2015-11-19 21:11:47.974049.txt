@@ -1,7 +1,0 @@
-Title: best way generate crud pages
-Karma: 10
-Date: 1368372905.0
-crud create read update delete basic database operations looking best way quickly generate crud web applications care language found far php grocerycrud yii cakephp ruby rails activeadmin impressive typus java spring roo groovy grails scaffolding anything better options
-
-==============================
-

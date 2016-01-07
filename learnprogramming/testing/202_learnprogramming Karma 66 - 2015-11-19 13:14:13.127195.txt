@@ -1,7 +1,0 @@
-Title: learn objectoriented design
-Karma: 66
-Date: 1400245120.0
-someone recommend resources web books etc learning objectoriented design software architecture perspective interested learning work design phase oop programming go problem set classes solve problem enough understanding oop hack together code fulfills needs hobbyist developer need much results hackish difficult maintain like better read things design patterns interested higherlevel material use specific design patterns rather suggestions
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: css framework recommend firsttimer
-Karma: 83
-Date: 1399826389.0
-started learning html css want become familiar css frameworks recommend looked foundation bootstrap skeleton thanks edit thanks everyone suggestions go without framework
-
-==============================
-

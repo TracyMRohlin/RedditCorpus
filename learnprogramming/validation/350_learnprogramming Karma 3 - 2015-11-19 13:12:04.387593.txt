@@ -1,7 +1,0 @@
-Title: make login template user login html
-Karma: 3
-Date: 1431586875.0
-hello trying make simple website homepage username password login user logs want display premade webpage every user sees specific information instance log bank account online template different numbers account someone link tutorial accomplish know exactly search created login form another thing love linked tutorial pass information templated webpage login thanks
-
-==============================
-

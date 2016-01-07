@@ -1,7 +1,0 @@
-Title: c precisely void return forced
-Karma: 2
-Date: 1432029519.0
-run ideone ideone support pthreads point void function must return something return undefined character integer looking bell character ansi encoding coincidence return type happened precisely defined possible return value function like return casted void void printhello printfhellon ideone running
-
-==============================
-

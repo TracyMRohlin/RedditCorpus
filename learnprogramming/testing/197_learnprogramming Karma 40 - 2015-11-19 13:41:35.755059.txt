@@ -1,7 +1,0 @@
-Title: c rreviewmycode seems dead xposting links get feedback
-Karma: 40
-Date: 1369273596.0
-like title says rreviewmycode seems dead rcodereview seems sure else post right place put better subreddit post let know thanks got small amount feedback nothing cc programmer programs c minesweeper program got criticism due length lot comments programming style includes lot whitespace comes line count usually prefer clear readable code one line resorting unreadable crap score points line count race one note minesweeper program pretty old code goal minesweeper project produce program use oop methods see difficult maintain wanted get feedback code wrote keeping mind program use oop methods purpose read fizz buzz subreddit thought fun write one exercise wrote canonical fizz buzz program extended take arbitrary parameters f g min max range checking code check valid inputs unit test ensure range check functions correct well programming courses university generally professors tas generally praised work get lot negative feedback wondering anything specific two projects really jump put flameproof jacket want honest feedback like write code living feel terrible taking paycheck giving substandard code return thanks reading text fizz buzz minesweeper
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: chow get memory information qnx
-Karma: 3
-Date: 1432065222.0
-already asked rqnx since small give go well currently trying get information virtualphysical memory ram usage qnx system via c maybe still understand unixlike structure os anyway think information looking somehow hidden proc lot pids see self boot ham qnetstats know ham something running application boot stuff start booting qnetstats network analysis stuff see use ls l procself unclear result rwrr root jan currently used free memory b wrong track help thank
-
-==============================
-

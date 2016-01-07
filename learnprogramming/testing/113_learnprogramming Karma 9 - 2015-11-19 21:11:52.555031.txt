@@ -1,7 +1,0 @@
-Title: csfml quite confused line code working outside class definition errors inside
-Karma: 9
-Date: 1367942290.0
-include sfmlgraphicshpp ifndef gridh define gridh sfrectangleshape iconsfvectorf one working class grid private int x y type sets grid icon x rectangle sfrectangleshape iconsfvectorf one throwing error error c syntax error 'functionstyle public constructor gridint int int setters void setxint void setyint void setpositionint int void settypeint getters int getx int gety int gettype endif really really understand issue defining icon inside main seems work well help seems fail icon definition within class defintion
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: good method ' arbitrary path traced android touchscreen
-Karma: 3
-Date: 1385128575.0
-totally new programming android pretty much general thinking first project write app control arduino based robot like send robot programming using simulink array compass headings distances code robot follow really straightforward send set directions like really like make something bit intricate think able draw path screen robot carry awesome need record touch input time possibly speed convert set headings distances built compass accelerometer gyro robot let keep pretty accurate think still granularity resolution simplest thing go either nesw step neseswnw sqrt steps send step speed single byte might jittery slow motor driver especially use robots worse difficult maintain accuracy highest theoretical resolution equal resolution think worthwhile trade rasterize path long enough segments compass based corrections applied simplest thing skip n pixels ahead report angle distance cut cornersso like intelligently fit varying length segments make sense sorry explaining poorly wrong terminology thanks input
-
-==============================
-

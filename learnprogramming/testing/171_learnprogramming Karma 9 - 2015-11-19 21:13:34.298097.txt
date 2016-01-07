@@ -1,7 +1,0 @@
-Title: c create menu using case statements using count
-Karma: 9
-Date: 1353407006.0
-want menu pop making user enter either one four numbers example adding x amount numbers averaging x amount numbers multiplying x amount numbers exit said want user enter number selection either appreciate help
-
-==============================
-

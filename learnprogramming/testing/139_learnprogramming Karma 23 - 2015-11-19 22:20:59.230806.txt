@@ -1,7 +1,0 @@
-Title: want learn databases use start
-Karma: 23
-Date: 1307754398.0
-particular looking sqlite since built android
-
-==============================
-

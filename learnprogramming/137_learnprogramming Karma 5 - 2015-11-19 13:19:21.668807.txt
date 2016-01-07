@@ -1,7 +1,0 @@
-Title: java add jcomponent jframe within actionlistener method instead directly jframe constructor
-Karma: 5
-Date: 1385865296.0
-hi guys trying build window start button pressed draws hopefully eventually animates small oval onto jpanel want start drawing inside constructor want drawn start button pressed obviously something wrong code approach wrong altogether
-
-==============================
-

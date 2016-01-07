@@ -1,7 +1,0 @@
-Title: c sprintf doubt
-Karma: 9
-Date: 1384212777.0
-hi sorry formatting phone want build string sprintf like following char char b char strn strcpyaab strcpybcd sprintfstrssab n least ''null terminator abcdnull termimator another value basically account actual characters preceding total size
-
-==============================
-

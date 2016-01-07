@@ -1,7 +1,0 @@
-Title: anyone interested blog building python framework
-Karma: 11
-Date: 1308512377.0
-basically project friend improve applications various companies wsgibased pep python framework ground even using paste yeah yeah know reinvent wheel learning experience make next django however want spend time writing one read interested detailed ground starting basics first big python project edit blog recursiveworkcom edit month later developer backed going shelve one sorry
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: free malloc c free actually memory leak important
-Karma: 2
-Date: 1385127712.0
-includestdioh includestlibh typedef struct rec int float pi char record int main record ptrone ptrone record malloc sizeofrecord ptronei ptronepi ptronea ' printffirst value dnptronei printfsecond value fn ptronepi printfthird value cn ptronea freeptrone printffirst value dnptronei printfsecond value fn ptronepi printfthird value cn ptronea return code prints first value second value third value first second third second third values still point old values freeptrone actually probably requires greater knowledge memory c actually trying learn reason use free avoid memory leak cause problem later run memory heap right case ptrone still point anything free thought point free removes access memory
-
-==============================
-

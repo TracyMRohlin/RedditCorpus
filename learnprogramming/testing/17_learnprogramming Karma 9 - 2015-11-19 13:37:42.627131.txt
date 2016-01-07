@@ -1,7 +1,0 @@
-Title: java inheritance
-Karma: 9
-Date: 1384937511.0
-right program outputs x matter type object make using kind constructor order make tostring print x value constructor use ie o new b change tostring method say return xgetx right b c inherit tostring method use x value initialized constructor
-
-==============================
-

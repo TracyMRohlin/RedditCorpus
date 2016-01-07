@@ -11,8 +11,8 @@ def compute_cutoff(filepath):
     data = load_data(filepath)
     """mu = np.average(data)
     sigma = np.std(data)
-    cutoff = mu + 1 * sigma
-    return round(cutoff)"""
+    #cutoff = mu + 1 * sigma
+    #return round(cutoff)"""
     upper = np.percentile(data, 75)
     return upper
 

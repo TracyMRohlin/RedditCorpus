@@ -1,7 +1,0 @@
-Title: much headache android programming compared ios
-Karma: 6
-Date: 1399916706.0
-university requires students complete final year project order graduate even though graduated yet company internship gladly decided hire full time left project anyway company involved mobile applications ios android internship ios intensive learnt lot confidently say problem building simple medium level applications objective c told team leader project idea platform building made concerns android heard says strongly advises stick ios framework much robust developer friendly developers spend time fixing business problems rather technical issues according going android path means dealing problems x y work device b broken device c works partially device d already learnt quite bit objective c project ios shortcut course team leader wants least distracted possible valid points always wanted learn code android points making think twice setting big headache
-
-==============================
-

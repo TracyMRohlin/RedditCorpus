@@ -1,7 +1,0 @@
-Title: c exactly
-Karma: 4
-Date: 1385298444.0
-vectorstring left somenumberofstrings leftsize lefti bottom one vectorstring left somenumberofstrings leftsize lefti
-
-==============================
-

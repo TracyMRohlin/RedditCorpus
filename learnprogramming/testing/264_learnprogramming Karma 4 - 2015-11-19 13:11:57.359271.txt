@@ -1,7 +1,0 @@
-Title: learning everything ' unicode encoding decoding special characters etc etc
-Karma: 4
-Date: 1431815812.0
-scraping realize still know fair bit ' mean read 'every programmer read article still gaps knowledge examples var string hellonbspworld decoded htmlentitydecodestringentquotes utf hello world space hello world regular space discovered trying match regex different encoding ascii character sets something like characters like keep appearing output sure case html text containing 'microsoftspecial quotes string replace without really understanding right way things looking articles tutorials books video cover topics details thanks
-
-==============================
-

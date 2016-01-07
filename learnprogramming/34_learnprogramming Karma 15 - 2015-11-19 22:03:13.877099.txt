@@ -1,7 +1,0 @@
-Title: prime numbers learning
-Karma: 15
-Date: 1324816860.0
-hello feel like basic concept see bit code show correct numbers body help great maybe even different approach expand knowledge certain things know also know little bit bools know overlooked code cant find anything able help thanks include iostream using namespace std int main int n cout program displays primes numbers n n n n ifi n cout return
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: version control absolute newbies
-Karma: 34
-Date: 1370327634.0
-working c project starting get bit large decided learn manage effectively trouble completely new good resource learn fundamentals experience pretty much using tortoise svn checkout gmod file repository nothing googled course looking something comprehensive teach beginning end even book buy edit okay posted found
-
-==============================
-

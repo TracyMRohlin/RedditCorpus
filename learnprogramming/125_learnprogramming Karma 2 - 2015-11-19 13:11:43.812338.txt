@@ -1,7 +1,0 @@
-Title: addition vector element handled
-Karma: 2
-Date: 1432115288.0
-c use vectornamepushbackval example newly added element placed directly existing elements allocated dynamically similar nodes within list non contiguously
-
-==============================
-

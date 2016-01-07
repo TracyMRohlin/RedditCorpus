@@ -1,7 +1,0 @@
-Title: make div move according tilt device
-Karma: 2
-Date: 1431714814.0
-trying make html game user control player tilting device using html device orientation api code move div according tilt windowdeviceorientationevent listen deviceorientation event handle raw data windowaddeventlistener' functioneventdata gamma lefttoright tilt degrees right positive var tiltlr eventdatagamma beta fronttoback tilt degrees front positive var tiltfb eventdatabeta alpha compass direction device facing degrees var dir eventdataalpha call orientation event handler deviceorientationhandlertiltlr tiltfb dir false function deviceorientationhandlertiltlr tiltfb dir iftiltlr maindivanimate''' else iftiltlr maindivanimate''' however div moving left without tilting stops mistake
-
-==============================
-

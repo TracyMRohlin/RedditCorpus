@@ -1,7 +1,0 @@
-Title: options ios development
-Karma: 17
-Date: 1337766438.0
-besides xcode use create ios app xcode option thanks
-
-==============================
-

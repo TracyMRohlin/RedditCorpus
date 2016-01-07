@@ -1,7 +1,0 @@
-Title: java reference objects game location
-Karma: 9
-Date: 1384379003.0
-example minecraft got way store block objects lookup object based location minecraft world map location written chess program done array piece objects pieces stored also another array location piece map piece slot object array location found slot location array better way
-
-==============================
-

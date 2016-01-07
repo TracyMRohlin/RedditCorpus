@@ -1,7 +1,0 @@
-Title: passing reference java equivalence
-Karma: 17
-Date: 1353396034.0
-come cc background simplification things sometimes confuses bit mistaken java passes parameters referencevalue meaning passes reference makes copy rather really passing reference c way actually pass reference java without wrap variable class creating oneelement array
-
-==============================
-

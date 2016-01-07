@@ -1,7 +1,0 @@
-Title: want recreate gaussian blur effect image using python
-Karma: 13
-Date: 1399898017.0
-go
-
-==============================
-

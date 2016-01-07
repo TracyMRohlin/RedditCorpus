@@ -1,7 +1,0 @@
-Title: cwp contextmenu occasionally throws itemssourceindexofitem
-Karma: 6
-Date: 1399720554.0
-hey longlistselector contextmenu one items works well however life figure occasionally find item using indexofitem method clearly getting correct item attempts itemssourceindexofitem find stepping code proves getting item correctly link code thank
-
-==============================
-

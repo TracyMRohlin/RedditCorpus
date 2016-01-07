@@ -1,7 +1,0 @@
-Title: processingjava writing basic gui understand dont see line drawn press '
-Karma: 10
-Date: 1353977509.0
-hi code found recent project like control rc car bluetooth computer means learn processing currently trying draw simple interface wasd diamond show buttons pressed display output states eventually want send forwardback 'meter leftright ' currently code runs displays wasd diamond hit keys turn black multiple keys held right world ' coded right leftright one ' state meter draws fine line center also press ' ' state meter left drawn however press ' nothing happens see help appreciated
-
-==============================
-

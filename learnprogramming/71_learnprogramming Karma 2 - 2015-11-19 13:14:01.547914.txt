@@ -1,7 +1,0 @@
-Title: need help compilingrunning commandline version online utility
-Karma: 2
-Date: 1400648249.0
-novice programmer happens interested worldbuilding procedural generation stuff found utility must admit complete novice stuff like quickly goes head included exe work spouts gibberish characters give input seem figure compile program successfully visual studio express installed using learn c seems find lot errors program build correctly something wrong something wrong source code already spent couple hours trying figure even tried different compilers really like start working program help greatly appreciated anyone get program running successfully also sorry strictly coding question figured posting best shot
-
-==============================
-

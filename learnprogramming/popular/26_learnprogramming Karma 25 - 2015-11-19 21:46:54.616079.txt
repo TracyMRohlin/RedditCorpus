@@ -1,7 +1,0 @@
-Title: d game programming start
-Karma: 25
-Date: 1339281010.0
-looking learn d game programming bit confused start web developer years mainly php ruby javascript cs degree little experience languages including java c happy learn new languages keen something c possible developing windows machine crossplatform compatibility primary concern moment bonus benefit learning d first recommend learning library opengl directd starting engine unityd instead links tutorials libraryengine appreciated looked finding opengl tutorials seemed like lot fairly old possibly outdated ide recommend advice appreciated edit thanks replies much appreciated started going tutorials
-
-==============================
-

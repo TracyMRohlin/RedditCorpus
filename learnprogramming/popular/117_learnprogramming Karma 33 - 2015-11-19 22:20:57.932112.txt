@@ -1,7 +1,0 @@
-Title: way use python scraperead webpages
-Karma: 33
-Date: 1308176127.0
-recently learned readwrite files python natural extension seems reading websites way open file read line line way use url location tell python read website line line html associated page found
-
-==============================
-

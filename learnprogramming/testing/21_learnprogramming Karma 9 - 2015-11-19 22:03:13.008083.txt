@@ -1,7 +1,0 @@
-Title: embark real world c programs
-Karma: 9
-Date: 1325029448.0
-fairly used programming want advance bigger projects problem idea example want make program uses webcam data uses microphone uses graphics c go native c support things
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: alicechatbot save conversation pdf
-Karma: 10
-Date: 1353108960.0
-hello currently working project university alice chatbot sharepoint website think ways improve website disease chatbot answer questions idea let user able download conversation chatbot pdf point need implement function happen later project give presentation chatbot general ways improve really glad somebody point right direction something along save coversation still talking someone presses 'download button use library ' allow convert simple text pdffile really basic idea present team expirience sharepoint alice webdevelopment whatsoever even much challenge thank time
-
-==============================
-

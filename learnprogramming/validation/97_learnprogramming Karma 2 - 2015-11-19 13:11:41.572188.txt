@@ -1,7 +1,0 @@
-Title: learn python hard way excercise problem understanding hashkey assigned
-Karma: 2
-Date: 1432174745.0
-problem understanding hashkey code works particular bit code understand hash takes string returns integer value next take remainder hashed string divided length amap get number range understand possible hashed values different strings remainder thus resulting key full code
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: homeworkjava concurrentmodificationexception read figure avoid
-Karma: 3
-Date: 1400764321.0
-stumped quite time included comments code anything needs cleared glad learned far getting exception somewhere data structure set list etc either added subtracted added case still iterating using iterator tried initializing every place think work method take list strings parameter strings put map based similar spelling call method oneletter returns true words one letter apart hat cat return true word one letter apart current keys put map key following words one letter away word assigned values key repeats list processed getting exception try assign itrnext string variable right track solving need restructure algorithm ps know loop weird using delimiter originally way trying different things evolved
-
-==============================
-

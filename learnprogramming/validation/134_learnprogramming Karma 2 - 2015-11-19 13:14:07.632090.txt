@@ -1,7 +1,0 @@
-Title: advantage cout vs printf
-Karma: 2
-Date: 1400480696.0
-limited experience c c noticed way printing different recent languages like python uses something quite lot like c tldr printf vs cout
-
-==============================
-

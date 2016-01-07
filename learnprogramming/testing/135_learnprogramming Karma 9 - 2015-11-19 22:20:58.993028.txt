@@ -1,7 +1,0 @@
-Title: application hosting
-Karma: 9
-Date: 1307867725.0
-hey rleanprogramming need suggestions need ability install arbitrary internally developed servers plus web hosting means need root level access level guaranteed uptime unnecessary icouldi use dynadns point servers want incur wraith otherwise crappy isp difficulty crap startup money moment suggestions welcome
-
-==============================
-

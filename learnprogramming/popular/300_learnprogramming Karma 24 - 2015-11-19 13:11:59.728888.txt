@@ -1,7 +1,0 @@
-Title: python sql first time needing database need guidance
-Karma: 24
-Date: 1431720895.0
-background fun idea local video game scene use website called challongecom essentially pulling data website analyzing happened plugging elo formula displaying data everything working except data storage need guidance pseudo code api calls math etc playername table update playernameelo else create new column write keyvalue playername write playerelo assuming learn save data reading pretty easy guidance request guessing want use sqlite right even need use sql going able need pulling elo number referencing playername answer yes go ahead go learn code hard way sql book edit need see code whatever reason look github
-
-==============================
-

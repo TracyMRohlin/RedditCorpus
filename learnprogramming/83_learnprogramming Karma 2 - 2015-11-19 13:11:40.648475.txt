@@ -1,7 +1,0 @@
-Title: c wpf calculating interior angles polygon given collection pointslines almost need little help math
-Karma: 2
-Date: 1432199741.0
-hi elaborate issue say consider fair amount programming knowledge c considering freshman college tend take projects sometimes ones little head one project head math department project without divulging much info requires calculate interior angles polygon generated user mouse clicks generate vertices collection points make polygon used create list lines make polygon trying different methods found online calculate angle edge polygon problem matter tried figure reliably calculate interior angles seems method tried calculates angles relation xaxis results change depending orientation shape order polygon drawn know quadrant screen also determines results figured since coordinate system c begins upper left issue anyone look recommend potential solution greatly appreciate looked lot places
-
-==============================
-

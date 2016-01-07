@@ -1,7 +1,0 @@
-Title: sql find missing data
-Karma: 4
-Date: 1432148293.0
-tried googling think using right terms put picture table one everyone table surnames like find everyone surname thanks query super expensive though table k records table two k took pc min secs cpu usage complete query
-
-==============================
-

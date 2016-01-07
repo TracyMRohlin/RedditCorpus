@@ -1,7 +1,0 @@
-Title: python trying make program take names give add list print list end always prints blank list
-Karma: 5
-Date: 1385481752.0
-link code tried print list every time entered name seemed work seems variables added list
-
-==============================
-

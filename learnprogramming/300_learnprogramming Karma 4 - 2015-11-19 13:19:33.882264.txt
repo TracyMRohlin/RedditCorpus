@@ -1,7 +1,0 @@
-Title: homeworkjavahaving really hard time manipulating objects within class
-Karma: 4
-Date: 1385498737.0
-assignment hard time understanding first part section driving crazy please write program includes class called people tester people class number person objects use person class provides methods needed access person objects person class full class getters setters equals tostring methods problem using methods assignment understand calls people class methods manipulate data methods people called main class writing next accomplished utterly confused code called persongetname return name person object used argument get error applied given types line tried things also thought making get set methods individual object john alex mean get set field four different objects crazy amount methods repeat point tried arraylist disaster public class people person john new personjohn greendale ave person bette new personbette greendale ave person alex new personalex sommerville st person dave new persondave greendale ave get set public string getname person p return thisgetname really driving nuts absolutely killing class except first week minor freak gotten perfect score every assignment little trouble nudge right direction greatly appreciated
-
-==============================
-

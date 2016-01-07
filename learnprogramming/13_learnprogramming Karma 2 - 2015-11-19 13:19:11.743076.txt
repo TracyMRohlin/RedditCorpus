@@ -1,7 +1,0 @@
-Title: javabase encryptionerror generating key divisible four
-Karma: 2
-Date: 1386304523.0
-hi working group project need able encrypt decrypt file java created three classes project program main file houses windows etc encrypt encrypts message decrypt decrypts message using base encryption encoding however attempt generate key says needs divisible four compiling error far know run fine hit encrypt button sure going wrong find much information people problem us decided see anyone might know code question program file encrypt file decrypt file though gave code entire project pretty sure error exists key generator write sorry specific enough
-
-==============================
-

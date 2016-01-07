@@ -1,7 +1,0 @@
-Title: port forwarding
-Karma: 7
-Date: 1399715285.0
-learn implement port forwarding eg apache forwards master process listens port forwards incoming connections one child processes running lesser privileges exactly master looking understand actual implementation also inetd something similar listens connections coming services registered launches service like ssh forwards connection
-
-==============================
-

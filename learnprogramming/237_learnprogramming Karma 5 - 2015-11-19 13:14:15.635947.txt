@@ -1,7 +1,0 @@
-Title: htmlaspxsql dynamicly populating usercontrol webcontrols db
-Karma: 5
-Date: 1400134211.0
-typing lot nonsense thinking must better way get info need db im really unsure take row says ' tell make textbox populate line label next ect familiar enough rest initialization phase new looking example code possibly vb set data retrieved form list datarows helps
-
-==============================
-

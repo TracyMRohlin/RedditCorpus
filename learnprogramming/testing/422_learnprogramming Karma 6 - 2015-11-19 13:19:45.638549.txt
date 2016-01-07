@@ -1,7 +1,0 @@
-Title: need boost grasping inheritance polymorphism
-Karma: 6
-Date: 1385321798.0
-hi although professionnal software engineer little formal training oo learning d language fun exercise writing simulation preypredator population dynamics nothing fancy good opportunity go back basics two species lions gazelles differ way eat gazelles eat grass lions eat gazelles animals wander around mate die etc naturally trying make generic animal class derive gazelle lion classes eventually maybe elephant turtle whatnot guess concepts inheritance polymorphism come play far even sure using words correctly far written successfuly run three classes animal derived classes gazelle lion far good ran two problems first really know method eat course totaly forget root class animal define independantly species feel right somewhat negates purpose need know precisely class dealing invoking method secondly need build sort collections like dynamic arrays associated functions main much like able nonspecific manner time logic calls specific behavior far able build generic lists cramming gazelles lions indiscriminately unable recast specific class needed see bit confused much appreciate help clarify thoughts point toward crash course topics
-
-==============================
-

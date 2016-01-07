@@ -1,7 +1,0 @@
-Title: get modern opengl tutorial
-Karma: 3
-Date: 1432316576.0
-mention ample experience c c programming dealt opengl xx minimally prefer guide starts right basics assumes prior knowledge computer graphics thanks advance
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: racket sameness elements list
-Karma: 10
-Date: 1353850150.0
-working cycles infinitely repeating lists codebasically given nonempty list last element list instead null points head list think need prevent last bit happening wondering tell next element actually points location list sure way supposed go need someway get original list cycle without knowing long
-
-==============================
-

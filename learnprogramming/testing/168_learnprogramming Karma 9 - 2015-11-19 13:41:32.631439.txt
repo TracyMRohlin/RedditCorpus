@@ -1,7 +1,0 @@
-Title: c two enum name
-Karma: 9
-Date: 1369470818.0
-background writing piece software everything working great trying add new functionality including another header include new header start get ambiguity errors essentially calling constructor epetramultivectorcopy copy defined enum epetradataaccess copy user data copied construction view user data encapsulated used throughout life object however include new header include amesossuperludisth get following error error reference copy ambiguous homekeithtrilinosdbgamesosincludeepetradataaccessh error candidates epetradataaccess copy homekeithtrilinosdbgamesosincludeteuchosdataaccesshpp error teuchosdataaccess teuchoscopy question disambiguate let compiler know copy mean even though constructor expecting epetradataaccess
-
-==============================
-

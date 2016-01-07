@@ -1,7 +1,0 @@
-Title: java resources intro java web development
-Karma: 6
-Date: 1385411469.0
-looking resources web tutorials textbooks etc break web development using java understand java far best language sort thing attempting small personal project java language experience addition project uses google calender api frameworks examples provided java besides kinda interested works think making dramatically stupid decision love know thanks advance
-
-==============================
-

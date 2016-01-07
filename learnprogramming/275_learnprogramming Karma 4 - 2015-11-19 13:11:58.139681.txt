@@ -1,7 +1,0 @@
-Title: need little logistical help c
-Karma: 4
-Date: 1431781817.0
-past semester college took cs course focused c since summer much figured continue play around without looming stress homework labs deadlines etc school understand may details sshing school server school username password using server write compile run code semester access server anymore idea computer mac little googling shown use xcode compile sure using everything terminal graphical application hoping someone point right direction get everything running smoothly simply computer help appreciated
-
-==============================
-

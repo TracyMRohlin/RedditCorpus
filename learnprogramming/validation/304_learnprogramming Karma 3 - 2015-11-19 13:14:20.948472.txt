@@ -1,7 +1,0 @@
-Title: java someone please review website scraperrss feed generator
-Karma: 3
-Date: 1399899118.0
-long difficult break away programming due circumstances outside control finally gotten back unfortunately feel skills diminished absence decided write rather trivial program concerned may committing programming sins code written single class java program reads html specific website spits rss feed based specific html constructs found within page program makes use jsoup html processing opted generate xml rss feed manually code viewable gist
-
-==============================
-

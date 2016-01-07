@@ -1,7 +1,0 @@
-Title: book suggestions good development workflow
-Karma: 4
-Date: 1431569580.0
-hi im last year cs degree also diploma multimediacegep quebec im gtting pretty ok programming general last summer learned django made project summer im reading pro net mvc c transition one framework another pretty smooth im situation like knowledge development general programming part general workflow deploycouldnt setup wsgi apache django use git day day useliek commit pull branch setup dev serverprod server good pratices industry feel like good book help integrate job market
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c need help using class c primer th edition
-Karma: 11
-Date: 1369560485.0
-going book good time hit problem stop dead tracks exercise using codeblocks completely unsure tried adding class called salesitem gives bunch errors feel like complete idiot sure super simple please help idiot example program supposed write include iostream include salesitemh using namespace std int main salesitem book read isbn number copies sold sales price cin book write isbn number copies sold total revenue average price cout book endl return
-
-==============================
-

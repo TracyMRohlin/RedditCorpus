@@ -1,7 +1,0 @@
-Title: haskell functional approach game life
-Karma: 9
-Date: 1383967384.0
-read learn haskell real world haskell certain problems still stump today trying program simple game life automaton figure write program functional perspective looking push right direction far data cellstate alive dead deriving show enum eq type position intint data cell cell cellstate cellstate position position deriving eq show type grid cell step grid grid map c cell getstate neighbors c position c neighbors getstate cell cellstate getstate x cellstate x alive cneighb dead cellstate x alive cneighb cneighb alive cellstate x alive cneighb dead cellstate x dead cneighb alive otherwise dead cneighb neighbors x know type step grid grid figure way generate neighbors one method thought iterate list alive cells generate neighbors cell coordinate sort list group neighbors generate new cell group cellstate first part tuple getstate function currently written using ' function returns integer sure approach ' function way seems inefficient though know figure find neighbors cell think ' function write hints appreciated
-
-==============================
-

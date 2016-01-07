@@ -1,7 +1,0 @@
-Title: first playable java game call dropdrop
-Karma: 90
-Date: 1369362218.0
-used libgdx make anyone feedback make sure read readme github
-
-==============================
-

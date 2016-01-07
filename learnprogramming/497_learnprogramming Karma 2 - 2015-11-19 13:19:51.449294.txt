@@ -1,7 +1,0 @@
-Title: javascript question variable holds data
-Karma: 2
-Date: 1385184386.0
-recently studying code function longestwordstring var str stringsplit var longest var word null var strlength longest strilength longest strilength word stri return word dissecting bit understand stri decides store length longest word held word variable greatly appreciate clarity matter
-
-==============================
-

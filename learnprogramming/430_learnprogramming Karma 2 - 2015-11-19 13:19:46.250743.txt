@@ -1,7 +1,0 @@
-Title: c help general ray tracing pixel position
-Karma: 2
-Date: 1385294302.0
-edit figured
-
-==============================
-

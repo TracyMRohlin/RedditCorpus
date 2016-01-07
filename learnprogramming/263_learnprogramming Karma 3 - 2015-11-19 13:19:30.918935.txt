@@ -1,7 +1,0 @@
-Title: c difficulties jsonnet
-Karma: 3
-Date: 1385543589.0
-trying basically create database objects json file however understand supposed serialize bunch objects json file manually type json need write file creating objects currently got bunch entity enemy new entity enemy e y x true true lines convert json file access later even visual c visual studio edit got five excruciating hours later got followed examples
-
-==============================
-

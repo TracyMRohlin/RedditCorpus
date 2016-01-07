@@ -1,7 +1,0 @@
-Title: want make program listens voice idea
-Karma: 11
-Date: 1324960351.0
-basically want program runs background say answer call simulates altpgup never done anything even similar want know anyone advice first time anything programming related seems fairly simple voice recognition possibly large pain neck first time something like idea possibly use windows voice recognition somehow thanks
-
-==============================
-

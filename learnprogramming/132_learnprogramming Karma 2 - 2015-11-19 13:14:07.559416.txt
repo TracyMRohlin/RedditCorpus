@@ -1,7 +1,0 @@
-Title: avoid loops
-Karma: 2
-Date: 1400498970.0
-working project euler finding constantly looping massive arrays solve problems often time consuming problems done nearly quickly strategies use cut looping thanks advice
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: help shootoff program github
-Karma: 2
-Date: 1385181385.0
-know next nothing programing wondering someone help get program work mac program called shootoff found click install directions state mac brew tap homebrewscience sudo brew tap homebrewscience brew install opencv export pythonpathusrlocallibpythonsitepackagespythonpath sudo easyinstall pip pip install numpy sudo pip install pil sudo pip install pyttsx sudo pip install pyaudio python shootoffpy idea means like seek help also wrong place ask question like please let know thanks reddit
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: python confused use strreplace sysargv user generated inputs
-Karma: 3
-Date: 1431838121.0
-script called renamerpy renames files directory import os filename oslistdir'' osrenamefilenamereplacehellogoodbye go making hello goodbye system arguments like renamerpy hello goodbye
-
-==============================
-

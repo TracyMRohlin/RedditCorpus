@@ -1,7 +1,0 @@
-Title: scripting excel also need interact web pages
-Karma: 10
-Date: 1385017132.0
-ok buddy job create two columns excel one list european parliament member one list hometown going eu website list names member click name go page see hometown took hour thought hey bet write script automatically time let preface though saying experience scripting whatsoever third year computer science major lot web experience scripting experience question firstly possible suspect fairly simple thing thought good place start learning new things like write scripts interact web pages using scripts possible even start language use use write language able modify excel script able take information different web pages feeling many able write script matter three minutes help super appreciated thanks guys
-
-==============================
-

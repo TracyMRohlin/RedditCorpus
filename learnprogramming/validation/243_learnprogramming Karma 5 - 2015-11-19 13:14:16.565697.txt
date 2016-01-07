@@ -1,7 +1,0 @@
-Title: someone help evolve matlab
-Karma: 5
-Date: 1400118054.0
-mechanical engineer historically four years undergrad years grad school ask phd unless run suicide hotline living anyway working knowledge matlab essentially long remember done lot data analysis manipulation basically run experiment process data boom results really done lot guis otherwise consider somewhat matlabliterate going matlab forever feel like onetrick pony regarding computer knowledge comes actual programming say dummy although manage make c code say hello world decade ago keep hearing python might good userfriendly language learn idea tools need start programming b even know start learning matlab easy lot visual instruction well guided problems get us basics started using supercharged ti calculator proficiency matlab gradually evolved nature task evolved time guess subquestion sort things even accomplish using python beneficial c start figure focus making simple dicerolling programs since like games mean fairly trivial application matlab teach nothing also tools visualization python like equivalent plotm command matlab everything run command line interface reference macbook pro osx also dust old desktop computer ubuntu please make
-
-==============================
-

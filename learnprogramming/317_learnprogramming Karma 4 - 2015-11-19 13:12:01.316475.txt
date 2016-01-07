@@ -1,7 +1,0 @@
-Title: java circled program help
-Karma: 4
-Date: 1431672446.0
-hey guys project due hours want double check work one issue implementing getcolor method everything else seems work fine define implement circled class contains two double data fields named x y specify center circle get methods data field radius get method data field color get method noarg constructor creates default circle x y radius yellow color constructor creates circle specified x y radius color method getarea returns area circle method getcolor returns color circle string method getperimeter returns perimeter circle method containsdouble x double y returns true specified point x y inside circle see figure method containscircled circle returns true specified circle inside circle see figure b method overlapscircled circle returns true specified circle overlaps circle see figure c static method distancedouble x double y double x double y returns distance d points x y x y first code want make sure everything matches correctly done everything right suggestions appreciated also check uml diagram
-
-==============================
-

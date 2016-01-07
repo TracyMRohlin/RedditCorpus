@@ -1,7 +1,0 @@
-Title: c setup movement simple text based board game
-Karma: 13
-Date: 1385968843.0
-hi reddit currently studying c university course asked make text based version board game chose monopoly relevant information set currently using single dimensional array simulate board however unsure simulate players movement along board using dice roll changing position help appreciated thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: use wikimediacontent games
-Karma: 9
-Date: 1338925044.0
-want make quiztype game using wikipedia something like wikiquote get random items titles description stuff certain categories seems like trivial pun intended task seem standard api
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c libraries sacrifice performance ease programming
-Karma: 2
-Date: 1399853053.0
-std boost libraries lot python programming wondering equivalent python standard library starting builtins like range open get idea started writing seem hard templates wonder something already assume python like library ptd string data ptdreadfilesillytxt vectorstring lines ptdsplitdata n auto line lines pdtprintline know might fastest way get done faster
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: databasetrying learn access
-Karma: 2
-Date: 1400127706.0
-hello trying learn database starting access moving mysql later say creating excel file fictional company employees id number surname last name programming skill education job title far really simple list say person programming skill list row want import excel file microsoft access create tables main key queries forms reports employer search see knows java example also part task want create kind training session employees example want completed high school know c search query see employees went high school check many know c yet proceed sign coursetraining learn language know made sense since beginner trying online exercises learning bit basic tldr create excel file software company list excel show person knows multiple programming languages also kind tables create
-
-==============================
-

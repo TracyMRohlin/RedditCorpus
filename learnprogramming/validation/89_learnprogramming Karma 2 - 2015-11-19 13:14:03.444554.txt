@@ -1,7 +1,0 @@
-Title: python reading file list
-Karma: 2
-Date: 1400593413.0
-little function works fine pythony def readfilename fp openfilename ' contents line fp line linestrip contentsappendline fpclose return contents efficient way something like strip remove newline chars thx
-
-==============================
-

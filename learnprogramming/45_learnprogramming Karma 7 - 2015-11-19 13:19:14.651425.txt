@@ -1,7 +1,0 @@
-Title: need advicesuggestions adding height d topdown game
-Karma: 7
-Date: 1386199193.0
-currently cliffs game walk behind infront top wanted make possible still walk behind cliffs also able walk top also want make properly works lighting system plan implement came two ideas know idea use either screenshot cliffs talking aboutat moment cliffs made tiles like ground however engine gamemakerstudio tiles put layers layer controls depth tiles layer drawn means part cliff depth parts cliffs drawn depth objects game depth set y position knowing came two different ways make possible walk top cliffs idea add heightz variable objects game factor height depth ex depth y height change height moving top cliffs make player depth lower layer depth cliffs pros quick easy cons walk behind infront tiles lighting work cliffs properly since drawing shadowslight based depth position cliff tiles depth lightsources behind cliff light front side cliff idea add heightz variable objects game replace cliff tiles objects instead object function like tile height variable well means part cliff depth based position height something like depth y height tilesize pros cliffs properly lighted walk behind infront cliffs since part position depth cons take resources using tiles since part cliff instanceobject guys think better way please let know edit formatting wish double break
-
-==============================
-

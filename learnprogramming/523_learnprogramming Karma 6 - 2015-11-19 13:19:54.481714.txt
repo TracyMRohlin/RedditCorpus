@@ -1,7 +1,0 @@
-Title: c reading ints vector
-Karma: 6
-Date: 1385112450.0
-use ctrlz end input second loop fails kind new sure going
-
-==============================
-

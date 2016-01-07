@@ -1,7 +1,0 @@
-Title: c cgi embedded
-Karma: 12
-Date: 1339612043.0
-made simple cgi scripts using c like write html c possible embed within html file php style write html normal write necessary c code
-
-==============================
-

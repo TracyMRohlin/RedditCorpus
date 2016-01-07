@@ -1,7 +1,0 @@
-Title: think small misunderstanding modulo operator works someone clear
-Karma: 9
-Date: 1323770230.0
-problem sure come thought modulo remainder operator remainder modulo spit answer maybe even round one digit
-
-==============================
-

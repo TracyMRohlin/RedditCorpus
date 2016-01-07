@@ -1,7 +1,0 @@
-Title: question website building languages super basic
-Karma: 9
-Date: 1354084335.0
-want learn programming language build website one feature want incorporate users answer certain questions values plugged directly certain spots form saved ready print think automated boring madlibs information also need added later although create process use another search get extra info automatically enter finds form even better also like able save information user returns remember information automatically enter name email etc finally like thank email sent month reminder email automatically sent year using site features possible html basic python also anticipate visitors might using relatively old versions ie thanks time
-
-==============================
-

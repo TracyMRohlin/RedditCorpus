@@ -1,7 +1,0 @@
-Title: java loop wrong
-Karma: 2
-Date: 1385306733.0
-hey everyone working project add components panel edit components add trying use loop go members array list see contain mouse click however loop seem working link main problem loop christmastree class never seems make past first element arraylist causes statement treat elements three elements print true hello click first element print false goodbye click element sure something wrong anyone ideas thanks advance
-
-==============================
-

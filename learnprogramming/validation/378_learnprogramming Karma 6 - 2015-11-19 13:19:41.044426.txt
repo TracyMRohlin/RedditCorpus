@@ -1,7 +1,0 @@
-Title: need help school project
-Karma: 6
-Date: 1385384065.0
-okay goes already reasonably experienced programmer question language make elevator simulator school project c already basically whole thing done part struggling call dispatching system goal simulation find smallest number elevators passengers less minute waiting time elevators tried checking direction elevator direction call button distance calling floor work many cases elevator move pick passenger heading tried taking elevator smallest destination list lists sorted either ascending descending depending direction heading work favors elevators away finally tried using heuristic gave best results multiplying destination list size number adding distance calling floor gave better results still far optimal cases several elevators seemingly sit idle entire simulated day usage point programming long thoughts becoming clouded help greatly appreciated
-
-==============================
-

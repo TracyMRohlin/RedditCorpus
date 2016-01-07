@@ -1,7 +1,0 @@
-Title: csfml implimenting pause game
-Karma: 25
-Date: 1399952164.0
-creating pong game get started learning game programming really hard time implementing pause feature general outline code attempt including nonworking pause system want entities well user input besides unpause stop help appreciated achieve
-
-==============================
-

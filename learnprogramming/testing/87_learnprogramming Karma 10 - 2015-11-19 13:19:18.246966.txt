@@ -1,7 +1,0 @@
-Title: matlab creating matrix charactersstrings
-Karma: 10
-Date: 1386037987.0
-looking creating matrix charactersstrings behaves like matrix numbers call specific elements perform whatever functions number matrices essentially want x matrix o elements except specific known locations z m far tried simply creating matrix zeros x changing everything ' merely gave matrix looks like matrix zeros j matrixi j ' end end oh want work array unknown size m x n thanks help edit school project sample matrix provided space elements matrices supposed fields look like fieldbefore moooooooom oooooooooo oooooooooo oooooooooo oooooooooo oooooooooo oooooooooo oooooooooo oooooooooo oooooooooo ooooozoooo oooooooooo oooooooooo oooooooooo oooooooooo oooooooooo oooooooooo oooooooooo oooooooooo oooooooooo see elements z m fieldbefore name call matrix like said stuff e move z m around resulted matrix called fieldafter
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: trying wrap head around gnu automake
-Karma: 17
-Date: 1370212132.0
-used simple directory source files compile projects although recently reinstalled ubuntu started installing neccessary packages compile c projects thought self maybe time use something sophisticated automake build projects seeing strive make projects compile windows mac using mingw thought automake probably simplify building process however reading automake documentation question ultimately boils gnu automake right way go case stick simple makefiles automake preferred way best learning build alternatively better alternative automake dabbled cmake like much
-
-==============================
-

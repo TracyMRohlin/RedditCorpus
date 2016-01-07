@@ -1,7 +1,0 @@
-Title: eli png file format lossless one opened resaved different file size
-Karma: 11
-Date: 1386180398.0
-sure appropriate place post appropriate place please let know working project deals images chose output file png lose data pixels add pixels anything change bits rgb values existing pixels save separate file every time though file size still seems bytes larger project working digital steganography kind bummer since inputted png file still come larger understand size different another file type saved png using pil python imaging library load save images sure still quality setting set default something like ideas tips welcome ninja edit interested posted script asking advice efficiency
-
-==============================
-

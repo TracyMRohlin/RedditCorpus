@@ -1,7 +1,0 @@
-Title: c specify size array within struct upon creating instance said struct
-Karma: 28
-Date: 1399956071.0
-typedef struct anarray int myarraynm anarray getting pretty confused arrays pointers structs etc decide size array creating struct eg typedef struct anarray int n int m int myarraynm anarray anarray myarray obviously realise method doesnt work anyone point right direction
-
-==============================
-

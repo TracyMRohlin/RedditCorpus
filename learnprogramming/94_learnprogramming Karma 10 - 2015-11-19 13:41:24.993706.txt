@@ -1,7 +1,0 @@
-Title: java include little helper functions make class library put
-Karma: 10
-Date: 1370084829.0
-wrote little function displaying time interval say minutes string make sense member function one single class like able use anywhere way know include files classes single function make sense class include little helper functions project public string formatminutesashourslong minutes long hoursleft minutes long minutesleft minutes string mystring stringformatdd hoursleft minutesleft also existing object format use date calendar functions seem focused timestamps time intervals
-
-==============================
-

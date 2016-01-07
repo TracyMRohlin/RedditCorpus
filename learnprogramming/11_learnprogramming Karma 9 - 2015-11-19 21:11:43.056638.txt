@@ -1,7 +1,0 @@
-Title: java easier way test keys
-Karma: 9
-Date: 1368958189.0
-currently using slickd lwjgl make rpg game game put name planning something like ifinputiskeypressedinputkeya name else ifinputiskeypressedinputkeyb name b z backspace feels like really really bad code need statements way thanks advance
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c typing q quit add extra values array
-Karma: 4
-Date: 1400753829.0
-ok made simple code lets input array bubble sorts elements next thing want able make end either type q quit program add another element array sort like rest array code far thanks
-
-==============================
-

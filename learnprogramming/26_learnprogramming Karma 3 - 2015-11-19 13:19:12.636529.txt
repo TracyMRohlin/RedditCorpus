@@ -1,7 +1,0 @@
-Title: c trouble passing array parameter
-Karma: 3
-Date: 1386246978.0
-trying pass numbers counts array line however getting error says argument type int incompatible parameter type int figure causing suggestions
-
-==============================
-

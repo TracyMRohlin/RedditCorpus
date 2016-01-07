@@ -1,7 +1,0 @@
-Title: data structures help
-Karma: 9
-Date: 1353912271.0
-anyone know site teaches intro data structures like get head start next semester something like code academy thank
-
-==============================
-

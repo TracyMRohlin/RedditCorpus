@@ -1,7 +1,0 @@
-Title: masm local variables
-Karma: 2
-Date: 1385167757.0
-need help understanding masm local macro know local variables push stack however trying use store temporary value quick snippet formaterror proc uses ebx ecx local numcommadword numperioddword ecx eax mov bl edx ecx bl inc numcomma elseif bl inc numperiod endif inc ecx endw mov ebx numcomma mov ecx numperiod bh commas efdeh periods seem addresses holding value really lost inc local variables side note kinda new programming assembly
-
-==============================
-

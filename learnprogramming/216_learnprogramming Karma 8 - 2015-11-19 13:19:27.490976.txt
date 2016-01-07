@@ -1,7 +1,0 @@
-Title: javascript autocomplete json
-Karma: 8
-Date: 1385631334.0
-write autocomplete function using json file source json looks like acton vale lat lon adstock lat lon akulivik lat lon alma lat lon amos lat lon amqui lat lon angegardien lat lon understanding make json object object array correct
-
-==============================
-

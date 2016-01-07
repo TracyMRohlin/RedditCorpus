@@ -1,7 +1,0 @@
-Title: starting mobile game development
-Karma: 5
-Date: 1399827264.0
-like learn make crossplatform iosandroid mobile games know start looked cocosd various forks namely cocosdx cocosdjs cocosdhtml cocosdjavascript appears cocosdx popular abundant documentations uses c heard rather difficult programming language get used eventually like implement inapp purchases well good place start
-
-==============================
-

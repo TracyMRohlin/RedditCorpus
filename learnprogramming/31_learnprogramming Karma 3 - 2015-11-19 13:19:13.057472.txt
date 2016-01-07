@@ -1,7 +1,0 @@
-Title: c longer book better
-Karma: 3
-Date: 1386239168.0
-learning c looked list books c faq stack overflow
-
-==============================
-

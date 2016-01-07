@@ -1,7 +1,0 @@
-Title: scanners java
-Karma: 4
-Date: 1385532454.0
-trying read line text file class public class myclass static scanner nextnonblanklinescannerscanner shasnextline scanner line new scannersnextline linehasnext return line return null static double readdblmatrixrowscanner int ncolsthrows matrixsizeexception scanner rowscanner nextnonblanklinescanners rowscanner null return null else double row new doublencols int count whilerowscannerhasnextdouble count ncols throw new matrixsizeexceptioninput row consist ncols double values checks number doubles line greater ncols throws else rowcount rowscannernextdouble enters next double value double array row count return row main method another class public static void mainstring args throws matrixsizeexception scanner new scannersystemin double row readmatrixreaddblmatrixrows int systemoutprintlnrowi text file passing systemin contains edit fixed previous problem new one yet output gives null null null output prints null instead values want print first line
-
-==============================
-

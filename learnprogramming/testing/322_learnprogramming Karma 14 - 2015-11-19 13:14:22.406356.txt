@@ -1,7 +1,0 @@
-Title: c values called another class showing form labels
-Karma: 14
-Date: 1399864276.0
-hello got problem card properties values string labels showing form solution showing setting calling main form refactored present link calling displaytopcard method game class seem want display screen showing different instance form think stepped code debugger seems indicate label text assigned correctly someone look top trump classes form class see made schoolboy error thanks source code
-
-==============================
-

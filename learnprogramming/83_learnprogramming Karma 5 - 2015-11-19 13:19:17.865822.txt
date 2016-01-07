@@ -1,7 +1,0 @@
-Title: start web developmentweb apps
-Karma: 5
-Date: 1386043821.0
-programming python since august wondering take next step particularly language web development web apps thinking udacity web development course
-
-==============================
-

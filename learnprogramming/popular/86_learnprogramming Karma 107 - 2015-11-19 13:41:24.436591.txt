@@ -1,7 +1,0 @@
-Title: aspnet relate web development c
-Karma: 107
-Date: 1370131554.0
-hi everyone recently got back programming web development trying pursue career mysql certification done minor php past got good working knowledge csshtml quite capable building sites given opportunity bunch microsoft certifications free got decide ones want done bunch research read around bit still unsure couple things person paying exams setting 'technology sort company people different skillsets covering areas assume web development database development mainly exactly aspnet net web applications certification uses aspnet javascript html css solid skill set development environment add c road exactly azure used long term goal get serious software development create applications people use everyday lives thinking might best follow web development route end dive c place c web developmentapplication environment guys think anybody idea certifications likely get hired elsewhere link certifications thanks everyone
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c difference string mystring char mystring
-Karma: 18
-Date: 1338494365.0
-learned bit c started learning c tutorial reading calls string psudotype mean anything array characters
-
-==============================
-

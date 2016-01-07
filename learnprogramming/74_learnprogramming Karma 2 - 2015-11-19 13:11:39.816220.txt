@@ -1,7 +1,0 @@
-Title: jaxws wrapping objects vs jaxb
-Karma: 2
-Date: 1432228450.0
-hi everyone build webservices application using buttonup approach sure use jaxb annotations control fields want include xml output build wrapping objects model objects let know witch approach think better think cheers vp
-
-==============================
-

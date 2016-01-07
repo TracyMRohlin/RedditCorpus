@@ -1,7 +1,0 @@
-Title: view oop correct
-Karma: 2
-Date: 1431867345.0
-often seen posts website others complaining oop personally learnt oop principles th th grade revisions college multitude posts complaining feel like missed something crucial understand oop briefly everything object class blueprint encapsulation hiding data functions security abstraction hiding internal features allow usage objects 'black polymorphism sending one message receiving many different types messages back also thing virtual functions inheritance ability pass functions data creating class hierarchies missing something misunderstood something
-
-==============================
-

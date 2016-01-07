@@ -1,7 +1,0 @@
-Title: help c question please
-Karma: 5
-Date: 1400252647.0
-hi guys getting error error expected expression '' token p xy p feel like something way reading values x y know someone please let know wrong okay explain look comes thank include stdioh include mathh typedef struct double x double y vectort double distancevectort p vectort p int mainint argc char const argv double x y vectort p p printfenter two points whilescanflf lf x y p xy error p xy error printfthe distance two points fn distancep p return double distancevectort p vectort p double dist dist sqrtpx pxpx px py pypy py return dist edit notified error ie p xy p xy invalid used initialise struct still know read values struct though
-
-==============================
-

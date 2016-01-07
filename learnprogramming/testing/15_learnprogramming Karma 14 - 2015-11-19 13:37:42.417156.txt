@@ -1,7 +1,0 @@
-Title: c read input keyboard string without using scanf fgets gets ideas
-Karma: 14
-Date: 1384938114.0
-quite sure go problem entirety follows following string operations declare two strings size including null b read input white space maybe included keyboard first string without using scanf fgets gets ccopy first half drop fraction first string necessarily whole array half actual characters read second string using library functions thus far char string char string please thank
-
-==============================
-

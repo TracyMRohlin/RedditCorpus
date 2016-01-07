@@ -1,7 +1,0 @@
-Title: want create web crawler idea start
-Karma: 4
-Date: 1386206871.0
-like create simple web crawler searches users tweeted specific hashtag egrankme ranks based number followers seems pretty simple little backround programming already something use language best write also eventually want add complexities ranking number retweets mentions etc help greatly appreciated
-
-==============================
-

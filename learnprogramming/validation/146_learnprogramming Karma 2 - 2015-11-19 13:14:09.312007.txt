@@ -1,7 +1,0 @@
-Title: java organize java application
-Karma: 2
-Date: 1400455591.0
-trying write java application know java programming basics understand manage real application read handle libs organize folders build process etc kind tutorial problematics
-
-==============================
-

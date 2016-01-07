@@ -1,7 +1,0 @@
-Title: got usb rfid readers raspberry pi relative beginner reasonable probably nonapplicable javascript skills grab serial output start playing learning
-Karma: 18
-Date: 1385416069.0
-want experiment taking multiple simultaneous rfid inputs looking ids kind database get data attached ids displaying something screen based match otherwise data something rudimentary displaying green square data attached id red using learning experience love someone point right direction begin instincts find way get serial inputs work using javascript point reference sure better solutions python example current assumptions need raspbian install something grab serial input looking pythonserial ide python create code takes serial input looks data makes something happen webpage reflect outcome comparison data mysql apache serve webpages showing result operation something let python work apache run ideas
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c like learn code proper gui questions really like get answers
-Karma: 14
-Date: 1337285091.0
-finished core basics c wanted take next step learning develop solid proper user interfaces heard qt wxwidgets win api plan learning one probably qt first questions seem find answers help greatly appreciated teach due lack money proper schooling anything specific dive qt got grasp basics c simply memorizing syntax need look guide frequently coded small programs textbased games cmd never gui anything know get start c standard libraries codeblocks ide possible raw code gui without suite qt specifically c way go creating button window purely though code give control vs qt raw coded guis autohotkey use keymap things sort files computer offered much freedom existing creation suites optimizing code much easier optimizing generated code want use custom graphics elements system default need look learn want application custom designed buttons better compliment custom gui background spent hours making photoshop suite qt offer area different kind gui editor anything study start messing clarify first programming language couple know even remotely related c want learn properly ground become dependent suite job kind like math know paper using calculator solve issue since kind lost sea resources little clue attack first said come hopes masters teach thing two thank advance help offer best respond posts
-
-==============================
-

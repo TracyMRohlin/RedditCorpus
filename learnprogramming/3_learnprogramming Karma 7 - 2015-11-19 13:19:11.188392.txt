@@ -1,7 +1,0 @@
-Title: c need help creating seat reservation system array
-Karma: 7
-Date: 1386311386.0
-hey ladies gents working assignment goal create program someone use reserve seats stadium seats required program needs use buttons signify seat well showing sitting seat currently seat taken night past days trying different solutions recently attempting store data tag buttons point brain hurts thinking stuff obviously looking full code anybody point right direction glorious thank much rlearnprogramming
-
-==============================
-

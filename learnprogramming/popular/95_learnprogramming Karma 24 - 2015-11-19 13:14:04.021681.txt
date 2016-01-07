@@ -1,7 +1,0 @@
-Title: tips updating website currently hosted via github
-Karma: 24
-Date: 1400581499.0
-friend working developing better page local humane society added bonus learning basic webdev htmlbootstrapangular app way set abstracted main content javascript array dogs dog javascript objectconstructor different file file way want proceed executablebinary sql table backend stores dogs easytouse interface upon clicking big update button generates javascript file contains array push javascript file images changed result executable github instantly golive result support usernamegithubcom hosting websites really asking tips best way managing update process lot c wpf work imagine write small app somehow uses git bash shell usual git add git commit m predefined message git push seems like questionable method things suppose alternately communicate external ftp server right going pretty barebones learning basic web dev pushing git huge step trying overwhelm tipsadvice welcome thanks
-
-==============================
-

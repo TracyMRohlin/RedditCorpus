@@ -1,7 +1,0 @@
-Title: make custom field outlook shows time since received x
-Karma: 8
-Date: 1400542863.0
-hi starting look custom fields outlook ideas useful experience language used got far formula shows time since messages received minutes course shows every message datediffnreceivednow minutes want show certain criterion met ideally certain category selected failing message flagged follow otherwise show nothing eg really right subreddit please point right direction much going routlook rmsoffice etc came thanks
-
-==============================
-

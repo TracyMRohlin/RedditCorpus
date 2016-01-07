@@ -1,7 +1,0 @@
-Title: need help python lists beginner
-Karma: 3
-Date: 1431926927.0
-tableauclaude tableauclaude print'partie de claude' end '' tableauclaudei intinput tableaupierre tableaupierre print'partie de pierre' end '' tableaupierrei intinput print add numbers inside tableauclaude single result exemple result want printed tableauclaude
-
-==============================
-

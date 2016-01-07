@@ -1,7 +1,0 @@
-Title: ruby tictactoe script oop critiquereview
-Karma: 2
-Date: 1399848464.0
-new oop ruby written simple command line tictactoe script hoping somebody give general guidelines oop design specifically okay used nested classes okay organized methods okay ' methods best practices tips refactoring
-
-==============================
-

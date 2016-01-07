@@ -1,7 +1,0 @@
-Title: like keep track syntax
-Karma: 2
-Date: 1432008833.0
-learning ruby experience sql html php however im definitely still noob think one discouraging things experience developing something quite proud work spend hours hours trying figure turns misplaced semicolon something know interpreters better directing line caused error said like cheat sheets simplified websites like use thanks sharing
-
-==============================
-

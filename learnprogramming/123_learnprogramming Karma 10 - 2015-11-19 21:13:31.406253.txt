@@ -1,7 +1,0 @@
-Title: pointer chains data structures
-Karma: 10
-Date: 1353831989.0
-looking everywhere seem find answer came 'chain connects root leaf nodes btree structure accurate array null values also pointer chain doubly linked list
-
-==============================
-

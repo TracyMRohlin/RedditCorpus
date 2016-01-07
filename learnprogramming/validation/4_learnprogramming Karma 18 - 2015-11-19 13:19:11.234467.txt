@@ -1,7 +1,0 @@
-Title: haskell trying calculate primes less given number
-Karma: 18
-Date: 1386311195.0
-trying learn haskell reading learn haskell felt need actually write something calculating primes seemed like fit haskell well work iterate list far primegenerator x x rem x x clearly wrong rem iterating array rather using array think anyway help
-
-==============================
-

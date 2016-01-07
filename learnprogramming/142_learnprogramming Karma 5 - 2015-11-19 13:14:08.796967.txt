@@ -1,7 +1,0 @@
-Title: trying use code blocks use c get compiler work
-Karma: 5
-Date: 1400465051.0
-basically downloaded code blocks start program iostream says find file directory downloaded mingw set compiler think still worked anyone help
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: encoding coordinates binary string genetic algorithm
-Karma: 6
-Date: 1432268067.0
-hey guys trying write simple genetic algorithm kind programming excercise pretty much boils finding function extrema within given boundaries thing interesting crossover techniques chromosomes implemented binary strings like see action really figure way encode coordinates binary string storing coordinates floatint allows averaging coordinates andor tweaking slightly produce offspring using positional notation makes difficult ensure offspring share similarities parents positions matter numbers proportion coordinates overrepresented many ways encode number likely appear got ideas encode number int float really matter way make crossover techniques feasible
-
-==============================
-

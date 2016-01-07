@@ -1,7 +1,0 @@
-Title: help programming x led matrix arduino
-Karma: 9
-Date: 1385596124.0
-hey guys using hc shift registers programming multiplex show image however problem dim led right beside ones turn example led turned top row led dimly lit row also know hardware problem software since dimly lit led follow pattern change change display image code please let know put code somewhere else byte columnscanbbbbbbb b byte thesun bbbbbbbb int latchpin white int clockpin blue int datapin white int pwmpin columns anodes int clockpin yellow int datapin black int latchpin green void bawsbyte data int x x x digitalwritelatchpinlow digitalwritelatchpinlow shiftoutdatapinclockpinmsbfirstdatax shiftoutdatapinclockpinmsbfirstcolumnscanx digitalwritelatchpinhigh digitalwritelatchpinhigh void setup pinmodelatchpinoutput pinmodeclockpinoutput pinmodedatapinoutput pinmodelatchpinoutput pinmodeclockpinoutput pinmodedatapinoutput pinmodepwmpinoutput void loop bawsthesun
-
-==============================
-

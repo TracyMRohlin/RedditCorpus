@@ -1,7 +1,0 @@
-Title: basic batch file problem saving file using environment variable
-Karma: 10
-Date: 1353201869.0
-hey folks trying learn create batch files make daytoday easier problem open command prompt window type ipconfig userprofiledesktopipconfigtxt get nice text file saved desktop correct info inside place exact line batch file run get text file created successfully contains current location batch file sitting command missing good google cant find decent resources thanks edit ok apparently need exe end ipconfig know something specific way machine set running win straight box edited default parameters cmd investigation required proper answer least working cheers replies working code ipconfigexe userprofiledesktopipconfigtxt
-
-==============================
-

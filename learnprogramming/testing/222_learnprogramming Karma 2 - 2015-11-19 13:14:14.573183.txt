@@ -1,7 +1,0 @@
-Title: compiling without security testing purpose need help
-Karma: 2
-Date: 1400171692.0
-following stuff opensecuritytraining learning exploit buffer execute arbitrary code thing work always sigsegv research really convince stack protection tried fnostackprotector compiling gcc execute code stack work help apreciated even pointing good place ask question thanks
-
-==============================
-

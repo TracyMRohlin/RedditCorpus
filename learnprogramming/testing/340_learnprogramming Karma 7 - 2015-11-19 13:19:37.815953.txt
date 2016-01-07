@@ -1,7 +1,0 @@
-Title: c exactly main function arguments argc argv
-Karma: 7
-Date: 1385437933.0
-edit better title might exactly argc argv used something like oh well understanding use main going using command line int argc counts number arguments line entered char argv array strings entered far concluded need want start program command line arguments otherwise got int main program know look past name program ignore parameters think entirely sure correct part puzzles program knows use howwhere uses think initialize variables include line program telling take contents array argv ie parameters used entered running program whatever must automatically somehow interested see details exactly hood speak explication appreciated optional sidequestion c bit baroque really experience racket generally seems fairly clear logical without much puzzling required c hand confuses every time try something new know must pretty good 'cause used much feels like look things every minutes
-
-==============================
-

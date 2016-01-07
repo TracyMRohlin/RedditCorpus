@@ -1,7 +1,0 @@
-Title: recreate twitter
-Karma: 15
-Date: 1399766377.0
-recently bought raspberry pi turned web server able successfully create hello world webpage lan next step going play around web programming languages learn question languages need know recreate simple version twitter able php html css need know things like javascript railsdjango something interested making something works want done might go back make look pretty reason want learn back end things eg make website talk database make login people account allow users make posts really need worry languages whose purpose make things pretty least right tips begin appreciated well
-
-==============================
-

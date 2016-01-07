@@ -1,7 +1,0 @@
-Title: c please help find sample game engine
-Karma: 6
-Date: 1432154670.0
-hi everyone want learn game engine design programming need simple sample want build opengl game engine without sdl etc prefer d d good understand stages development process anyone git source another link please share also someone great tutorials learning materials welcome thank
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: c src file see header file
-Karma: 5
-Date: 1400748802.0
-stuck problem sure fix something missing incorrect know folder structure looks like project parent folder tma inside parent folder folderheader files dvdh foldersrc maincpp dvdh file using namespace std ifndef dvdh define dvdh class dvd maincpp file include dvdh tried single quotes double quotes single quotes double quotes tried changing name structures etc etc matter maincpp find dvdh header file anyone please point wrong thank
-
-==============================
-

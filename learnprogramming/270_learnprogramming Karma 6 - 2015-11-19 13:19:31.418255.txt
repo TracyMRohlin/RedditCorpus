@@ -1,7 +1,0 @@
-Title: arm assembly stack pointers
-Karma: 6
-Date: 1385537591.0
-mov r sp push lr bl l pop lr sub rrr bx lr l mov rsp anyone help understand going understand lines rest new clueless stack pointers work arm assembly syntactically thanks
-
-==============================
-

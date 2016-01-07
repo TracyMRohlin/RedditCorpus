@@ -1,7 +1,0 @@
-Title: c invalid next size fast error
-Karma: 10
-Date: 1367919095.0
-hello consider newbie programmer stumped written code generate randomized vigenere ciphers however trouble free call malloc line main code free array call get error glibc detected test free invalid next size fast xbe followed stack trace free call anywhere code simple nonthreaded stuff figure error comment free call compiles runs fine constitute memory leak know process done linux probably scraps memory anyway still bugs free malloc point compiling gcc linux kernel compiled glibc think sure verify glibc version gcc stdgnu o test vigenerec help appreciated thanks
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: hi written python program someone direct good tutorial making simple gui
-Karma: 2
-Date: 1399770451.0
-need text field one button like cool image overlaid thanks help
-
-==============================
-

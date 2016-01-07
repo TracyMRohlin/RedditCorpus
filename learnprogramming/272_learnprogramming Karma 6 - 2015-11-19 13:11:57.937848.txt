@@ -1,7 +1,0 @@
-Title: cxaml wpwin app development fundamentals xpostdotnet
-Karma: 6
-Date: 1431794126.0
-pythonqt aficionado looking create little app personallaboratory use windows phone though look able use app metro well later familiar latest pythonqt builds think need extol virtuous simplicity ease use heck time trying figure visual cxaml environment think summarize experience far one line windowssuperlongnamespacenamesthaticantpossiblyrememberplatformwhatnow platformnoseriouslywhatisthis whatdoesthatoperatorevendoidontknow like good little boy found link previous c experience involved using c boost opencl cuda etc writing makefiles linux environment think need extol virtues gccg quite straightforward use link various libraries etc wondering tutorial somewhere someone willing explain following create app using cpp h xaml files go using vs compiler command line batch file debugging wp command line loading debug build app thread intelligent overview mobile app code structure look like sporatic mess opinion microsoft help pages find help pages give sparse code samples give enough information supporting code code needs implemented elsewhere source snippets actually work totally new environment interestinghelpful comments advice much appreciated thanks tldr possible create debug cxaml metrowp app using text editor command line wizardry
-
-==============================
-

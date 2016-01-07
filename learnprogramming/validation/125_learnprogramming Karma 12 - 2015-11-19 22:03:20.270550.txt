@@ -1,7 +1,0 @@
-Title: csshtml help
-Karma: 12
-Date: 1322661108.0
-working webpage right sake honing csshtml skills trying put border page webpage extend beyond pixels size background image using told use container code come seems work properly though possibly someone help appreciate assistance thank css container widthpx marginleftauto marginrightauto borderpx solid ffffff background html background urlpeekhomepageblankpng norepeat center center fixed webkitbackgroundsize cover mozbackgroundsize cover obackgroundsize cover backgroundcolor black li floatleft displayblock widthpx html doctype html public wcdtd html en html div classcontainer head meta titlepeektitle link href mainpagecss rel stylesheet type textcss head body ul lia hrefdininghtmlimg srcdiningiconbigpng ali lia hrefnightlifehtmlimg srcnightlifeiconbigpng ali lia hrefresidentshtmlimg srcresidentsiconbigpng ali lia hrefdrivinghtmlimg srcdrivingiconbigpng ali lia hrefeventshtmlimg srceventsiconbigpng ali lia hreftravelhtmlimg srctraveliconbigpng ali lia hrefweatherhtmlimg srcweathericonbigpng ali lia hrefshoppinghtmlimg srcshoppingiconbigpng ali ul p br br br br br br br div aligncenter form methodget action input typetext nameq size maxlength value input typesubmit valueseek formdiv p body div html
-
-==============================
-

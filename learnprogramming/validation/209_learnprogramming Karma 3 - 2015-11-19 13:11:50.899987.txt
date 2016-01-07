@@ -1,7 +1,0 @@
-Title: easiest way allow translations
-Karma: 3
-Date: 1431948131.0
-might suck google find answer quickly web say programming something version something english might want another version marathi way make translation easy design pattern whatever mean usually write every string constant value every class exemple public class toto private const string welcomemessage hey man unfortunately let everything like imply change every constant string every file make release marathi also implies versions code simply want translation also see inheritence double number files change constant values know done thanks
-
-==============================
-

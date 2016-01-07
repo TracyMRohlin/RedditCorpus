@@ -1,7 +1,0 @@
-Title: prolog anyone familiar shortest path problems
-Karma: 27
-Date: 1354156798.0
-bunch nodes connected predicates connected predicate length associated get node node z shortest connected length path however pass node e must pass either node d f figure shortest length paths without constraints impose
-
-==============================
-

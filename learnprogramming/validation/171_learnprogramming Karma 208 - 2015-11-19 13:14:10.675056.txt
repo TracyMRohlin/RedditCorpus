@@ -1,7 +1,0 @@
-Title: best free online resource learn sql
-Karma: 208
-Date: 1400360337.0
-started programming recreationally months ago mainly studying c python r ive using free sites like coursera take online classes ive also reading ebooks im looking get sql database management type stuff whats best free online tool self learning sql thanks guys
-
-==============================
-

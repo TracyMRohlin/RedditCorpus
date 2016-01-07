@@ -1,7 +1,0 @@
-Title: difference continuous integration tools grunt
-Karma: 11
-Date: 1385460240.0
-thought understood ci web development minimizing concatenating version numbering running unit tests etc however tool grunt labeled task runner difference two tools travisci popular seemingly easy enough
-
-==============================
-

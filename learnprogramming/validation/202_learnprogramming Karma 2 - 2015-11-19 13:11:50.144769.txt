@@ -1,7 +1,0 @@
-Title: java trying make simple game getting weird errors overwhelmed help
-Karma: 2
-Date: 1431960113.0
-hi rlearnprogramming writing game move sprite around screen sprite collides enemy sprite engage combat stats items superior enemy sprite dies disappears screen chance drop loot right successfully gotten sprite move around screen even started try get enemies moving yet getting error sprites collide really sure go help feedback general helpful error code images
-
-==============================
-

@@ -1,7 +1,0 @@
-Title: limit number pointers something
-Karma: 20
-Date: 1338087581.0
-hope silly question learning c right getting familiar concept pointers seems though pointer int pointer pointer pointer pointer question limit number pointers int computer fill available memory moment pointer declared
-
-==============================
-

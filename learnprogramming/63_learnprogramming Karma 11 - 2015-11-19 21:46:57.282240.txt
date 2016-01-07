@@ -1,7 +1,0 @@
-Title: language use pos system
-Karma: 11
-Date: 1338416628.0
-hey designing pos bit stumped language use know c need learn networkgraphic components take time use php create web driven pos application used locally java language recommend design pos system
-
-==============================
-

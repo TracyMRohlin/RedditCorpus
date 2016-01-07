@@ -1,7 +1,0 @@
-Title: programming interview question bothered
-Karma: 11
-Date: 1325124564.0
-know someone received question interview programming job back able solve constraints listed last paragraph neither nephew received set blocks birthday decided build panel rows blocks structural integrity want spaces blocks aligned adjacent rows example accept panel shown spaces blocks top two rows line shown dotted line thus ways build panel ways build panel ways build panel ways build panel many different ways nephew build panel bit signed integer large enough hold answer write program calculate answer program judged fast runs concise source code still readable ghz xeon without precomputing values c solution runs ms perl solution runs ms let us know value program computes programs running time kind machine ran attach source code actual solution meets criteria shown
-
-==============================
-

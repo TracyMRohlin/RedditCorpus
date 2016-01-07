@@ -1,7 +1,0 @@
-Title: c help understanding c code regarding inheritance
-Karma: 5
-Date: 1431705415.0
-hello trying teach c studying code snippet check link see terminal output shows cderivedcderived private suspect error comes line cbase cderived class declared line understanding allocates memory heap new construct screws everything anyone tell happening line getting error thanks
-
-==============================
-

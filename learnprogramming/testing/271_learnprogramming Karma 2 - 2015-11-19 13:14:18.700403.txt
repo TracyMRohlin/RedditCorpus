@@ -1,7 +1,0 @@
-Title: noob trying make android app
-Karma: 2
-Date: 1400014741.0
-hi new programming trying make app phone connect bluetooth device read output device lcd display modified hc bluetooth chip software use programming language use done little research thinking java right direction
-
-==============================
-

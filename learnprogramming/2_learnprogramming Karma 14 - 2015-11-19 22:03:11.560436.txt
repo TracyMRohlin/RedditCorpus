@@ -1,7 +1,0 @@
-Title: programming paradigms
-Karma: 14
-Date: 1325476863.0
-someone give super easy explanation popular programming paradigms example understand objectoriented programming scripting languages one language confused particular python used object oriented program classes scripting language thanks guys
-
-==============================
-

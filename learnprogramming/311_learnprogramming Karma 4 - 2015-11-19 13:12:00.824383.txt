@@ -1,7 +1,0 @@
-Title: select particular element htmlcss
-Karma: 4
-Date: 1431691035.0
-html doctype html html head link hrefselectorpracticecss relstylesheet typetextcss head body hhih h classimportanthi againh p classarandom unattached paragraphp div classrelevant p classafirstp p classasecondp pthirdp pfourthp p classafifthp p classasixthp pseventhp div body html select third paragraph relevant paragraphs second fourth paragraphs
-
-==============================
-

@@ -36,7 +36,7 @@ class RedditText(object):
         # the nltk stopwords list isn't all inclusive (it mostly excludes contractions)
         # so to make it more comprehensive i've added more stopwords
         # following the list at http://www.ranks.nl/stopwords
-        self.stops.extend(["against", 'cannot', 'could', 'he', "ought", "would"])
+        self.stops.extend(["against", 'cannot', 'could', 'he', "ought", "would", "im", "ive", "dont"])
         self.stops = set(self.stops)
 
         self.function_call = ""
@@ -98,7 +98,7 @@ class RedditText(object):
 
         for submission in submissions:
             if len(res) < n:
-                if len(submission.selftext.lower()) >= self.min_length and submission.score >1:
+                if len(submission.selftext.lower()) >= self.min_length and submission.score > 1:
 
                     res.append((submission.title, submission))
             else:
@@ -161,7 +161,7 @@ class RedditText(object):
         if self.loc:
             self.scores.sort()
             calculate_karma(self.subreddit, self.scores, "Karma Scores")
-        #return "\nRetrieved posts:\n\n" + post
+        #return "\nRetrieved posts:\n\n" + post"""
 
 
     def get_all_comments(self):

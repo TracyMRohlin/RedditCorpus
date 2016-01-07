@@ -1,7 +1,0 @@
-Title: newbie sql question
-Karma: 9
-Date: 1308826033.0
-looking make work select ordereventeventdatetime jobstoppoddatetime convertvarcharordereventeventdatetimejobstoppoddatetime else convertvarcharjobstoppoddatetimeordereventeventdatetime end assume tables whatnot right whats correct syntax statements help saw web kinda confusing using locked web query pretty much lets run select statements create functions
-
-==============================
-

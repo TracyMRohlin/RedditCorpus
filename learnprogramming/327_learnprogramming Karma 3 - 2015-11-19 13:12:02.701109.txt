@@ -1,7 +1,0 @@
-Title: msbuild question anyway rename files different extension
-Karma: 3
-Date: 1431639301.0
-trying rename files adding another extension example file foodll trying get foodlldeploy foo file name file tried wildcard work current tasks using task question microsoftbuildtaskscopy really hoping hard code renames suggestions googlefu failed finding solution thanks guys
-
-==============================
-
