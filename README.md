@@ -84,7 +84,7 @@ Karma_Graph.py creates a simple histogram with the Karma scores from each post/c
 
 ![Example of the Karma graph.](https://github.com/TracyMRohlin/RedditCorpus/blob/master/fitness/RedditCorpus%20Karma%20Scores.png)
 
-Naive_Bayes_model.py creates a multinomial Naive Bayes classifier that classifies reddit posts that have scores 2 standard deviations above the gathered mean as "popular"
+Naive_Bayes_model.py creates a multinomial Naive Bayes classifier that classifies reddit posts that have scores in the 75th percentile.
 
     >> ./popularity_cutoff.py /Users/user/PycharmProjects/RedditCorpus/xxfitness
     22.0
