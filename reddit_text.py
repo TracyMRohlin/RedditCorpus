@@ -15,7 +15,7 @@ from create_scores_csv import calculate_karma
 from make_time_interval import make_time_interval, extract_date
 
 
-user_agent = "Thesis project by /u/girllunarexplorer"
+user_agent = "Thesis project by /u/name"
 r = praw.Reddit(user_agent=user_agent)
 
 class RedditText(object):
